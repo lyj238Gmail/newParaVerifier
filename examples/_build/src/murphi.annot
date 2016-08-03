@@ -1,0 +1,400 @@
+"src/murphi.ml" 9 119 123 "src/murphi.ml" 9 119 136
+type(
+  string ref
+)
+ident(
+  def protocol_name "src/murphi.ml" 11 147 147 "src/murphi.ml" 1 0 -1
+)
+"src/murphi.ml" 9 119 139 "src/murphi.ml" 9 119 142
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/murphi.ml" 9 119 143 "src/murphi.ml" 9 119 145
+type(
+  string
+)
+"src/murphi.ml" 9 119 139 "src/murphi.ml" 9 119 145
+type(
+  string ref
+)
+"src/murphi.ml" 11 147 151 "src/murphi.ml" 11 147 156
+type(
+  (string, bool) Hashtbl.t
+)
+ident(
+  def table "src/murphi.ml" 13 204 204 "src/murphi.ml" 1 0 -1
+)
+"src/murphi.ml" 11 147 159 "src/murphi.ml" 11 147 173
+type(
+  (string, bool, unit -> (string, bool) Hashtbl.t)
+  Core_kernel.Core_hashtbl_intf.create_options_with_hashable
+)
+ident(
+  ext_ref Core.Std.Hashtbl.create
+)
+"src/murphi.ml" 11 147 184 "src/murphi.ml" 11 147 199
+type(
+  string Pooled_hashtbl.Hashable.t
+)
+ident(
+  ext_ref Core.Std.String.hashable
+)
+"src/murphi.ml" 11 147 200 "src/murphi.ml" 11 147 202
+type(
+  unit
+)
+"src/murphi.ml" 11 147 159 "src/murphi.ml" 11 147 202
+call(
+  stack
+)
+type(
+  (string, bool) Hashtbl.t
+)
+"src/murphi.ml" 13 204 208 "src/murphi.ml" 13 204 219
+type(
+  string -> string -> bool
+)
+ident(
+  def set_context "src/murphi.ml" 24 540 540 "src/murphi.ml" 1 0 -1
+)
+"src/murphi.ml" 13 204 220 "src/murphi.ml" 13 204 224
+type(
+  string
+)
+ident(
+  def name "src/murphi.ml" 13 204 225 "src/murphi.ml" 15 268 316
+)
+"src/murphi.ml" 13 204 225 "src/murphi.ml" 13 204 240
+type(
+  string
+)
+ident(
+  def mu_file_content "src/murphi.ml" 14 243 245 "src/murphi.ml" 15 268 316
+)
+"src/murphi.ml" 14 243 245 "src/murphi.ml" 14 243 258
+type(
+  string ref
+)
+ident(
+  int_ref protocol_name "src/murphi.ml" 9 119 123 "src/murphi.ml" 9 119 136
+)
+"src/murphi.ml" 14 243 262 "src/murphi.ml" 14 243 266
+type(
+  string
+)
+ident(
+  int_ref name "src/murphi.ml" 13 204 220 "src/murphi.ml" 13 204 224
+)
+"src/murphi.ml" 14 243 245 "src/murphi.ml" 14 243 266
+type(
+  unit
+)
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/murphi.ml" 15 268 270 "src/murphi.ml" 15 268 295
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Client.Murphi.set_context
+)
+"src/murphi.ml" 15 268 296 "src/murphi.ml" 15 268 300
+type(
+  string
+)
+ident(
+  int_ref name "src/murphi.ml" 13 204 220 "src/murphi.ml" 13 204 224
+)
+"src/murphi.ml" 15 268 301 "src/murphi.ml" 15 268 316
+type(
+  string
+)
+ident(
+  int_ref mu_file_content "src/murphi.ml" 13 204 225 "src/murphi.ml" 13 204 240
+)
+"src/murphi.ml" 15 268 270 "src/murphi.ml" 15 268 316
+call(
+  tail
+)
+type(
+  bool
+)
+"src/murphi.ml" 14 243 245 "src/murphi.ml" 15 268 316
+type(
+  bool
+)
+"src/murphi.ml" 13 204 225 "src/murphi.ml" 15 268 316
+type(
+  string -> bool
+)
+"src/murphi.ml" 13 204 220 "src/murphi.ml" 15 268 316
+type(
+  string -> string -> bool
+)
+"src/murphi.ml" 24 540 544 "src/murphi.ml" 24 540 550
+type(
+  ?quiet:bool -> string -> bool
+)
+ident(
+  def is_inv "src/murphi.ml" 32 827 834 "src/murphi.ml" 1 0 -1
+)
+"src/murphi.ml" 24 540 559 "src/murphi.ml" 24 540 563
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/murphi.ml" 24 540 559 "src/murphi.ml" 24 540 563
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/murphi.ml" 24 540 551 "src/murphi.ml" 24 540 564
+type(
+  bool
+)
+"src/murphi.ml" 24 540 565 "src/murphi.ml" 24 540 568
+type(
+  string
+)
+ident(
+  def inv "src/murphi.ml" 25 571 573 "src/murphi.ml" 32 827 834
+)
+"src/murphi.ml" 25 571 579 "src/murphi.ml" 25 571 591
+type(
+  (string, bool) Hashtbl.t -> string -> bool option
+)
+ident(
+  ext_ref Core.Std.Hashtbl.find
+)
+"src/murphi.ml" 25 571 592 "src/murphi.ml" 25 571 597
+type(
+  (string, bool) Hashtbl.t
+)
+ident(
+  int_ref table "src/murphi.ml" 11 147 151 "src/murphi.ml" 11 147 156
+)
+"src/murphi.ml" 25 571 598 "src/murphi.ml" 25 571 601
+type(
+  string
+)
+ident(
+  int_ref inv "src/murphi.ml" 24 540 565 "src/murphi.ml" 24 540 568
+)
+"src/murphi.ml" 25 571 579 "src/murphi.ml" 25 571 601
+call(
+  stack
+)
+type(
+  bool option
+)
+"src/murphi.ml" 26 607 617 "src/murphi.ml" 26 607 618
+type(
+  bool
+)
+ident(
+  def r "src/murphi.ml" 26 607 623 "src/murphi.ml" 26 607 624
+)
+"src/murphi.ml" 26 607 611 "src/murphi.ml" 26 607 619
+type(
+  bool option
+)
+"src/murphi.ml" 26 607 623 "src/murphi.ml" 26 607 624
+type(
+  bool
+)
+ident(
+  int_ref r "src/murphi.ml" 26 607 617 "src/murphi.ml" 26 607 618
+)
+"src/murphi.ml" 27 625 629 "src/murphi.ml" 27 625 633
+type(
+  bool option
+)
+"src/murphi.ml" 28 638 647 "src/murphi.ml" 28 638 660
+type(
+  string ref
+)
+ident(
+  int_ref protocol_name "src/murphi.ml" 9 119 123 "src/murphi.ml" 9 119 136
+)
+"src/murphi.ml" 28 638 646 "src/murphi.ml" 28 638 660
+type(
+  string
+)
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/murphi.ml" 28 638 662 "src/murphi.ml" 28 638 663
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/murphi.ml" 28 638 664 "src/murphi.ml" 28 638 666
+type(
+  string
+)
+"src/murphi.ml" 28 638 645 "src/murphi.ml" 28 638 666
+type(
+  bool
+)
+"src/murphi.ml" 28 638 672 "src/murphi.ml" 28 638 677
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/murphi.ml" 28 638 678 "src/murphi.ml" 28 638 699
+type(
+  exn
+)
+"src/murphi.ml" 28 638 672 "src/murphi.ml" 28 638 699
+type(
+  bool
+)
+"src/murphi.ml" 30 715 725 "src/murphi.ml" 30 715 726
+type(
+  bool
+)
+ident(
+  def r "src/murphi.ml" 31 777 784 "src/murphi.ml" 31 777 826
+)
+"src/murphi.ml" 30 715 729 "src/murphi.ml" 30 715 752
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Client.Murphi.check_inv
+)
+"src/murphi.ml" 30 715 755 "src/murphi.ml" 30 715 768
+type(
+  string ref
+)
+ident(
+  int_ref protocol_name "src/murphi.ml" 9 119 123 "src/murphi.ml" 9 119 136
+)
+"src/murphi.ml" 30 715 754 "src/murphi.ml" 30 715 768
+type(
+  string
+)
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/murphi.ml" 30 715 770 "src/murphi.ml" 30 715 773
+type(
+  string
+)
+ident(
+  int_ref inv "src/murphi.ml" 24 540 565 "src/murphi.ml" 24 540 568
+)
+"src/murphi.ml" 30 715 729 "src/murphi.ml" 30 715 773
+call(
+  stack
+)
+type(
+  bool
+)
+"src/murphi.ml" 31 777 784 "src/murphi.ml" 31 777 799
+type(
+  (string, bool) Hashtbl.t -> key:string -> data:bool -> unit
+)
+ident(
+  ext_ref Core.Std.Hashtbl.replace
+)
+"src/murphi.ml" 31 777 800 "src/murphi.ml" 31 777 805
+type(
+  (string, bool) Hashtbl.t
+)
+ident(
+  int_ref table "src/murphi.ml" 11 147 151 "src/murphi.ml" 11 147 156
+)
+"src/murphi.ml" 31 777 811 "src/murphi.ml" 31 777 814
+type(
+  string
+)
+ident(
+  int_ref inv "src/murphi.ml" 24 540 565 "src/murphi.ml" 24 540 568
+)
+"src/murphi.ml" 31 777 821 "src/murphi.ml" 31 777 822
+type(
+  bool
+)
+ident(
+  int_ref r "src/murphi.ml" 30 715 725 "src/murphi.ml" 30 715 726
+)
+"src/murphi.ml" 31 777 784 "src/murphi.ml" 31 777 822
+call(
+  stack
+)
+type(
+  unit
+)
+"src/murphi.ml" 31 777 825 "src/murphi.ml" 31 777 826
+type(
+  bool
+)
+ident(
+  int_ref r "src/murphi.ml" 30 715 725 "src/murphi.ml" 30 715 726
+)
+"src/murphi.ml" 31 777 784 "src/murphi.ml" 31 777 826
+type(
+  bool
+)
+"src/murphi.ml" 30 715 721 "src/murphi.ml" 31 777 826
+type(
+  bool
+)
+"src/murphi.ml" 28 638 642 "src/murphi.ml" 32 827 834
+type(
+  bool
+)
+"src/murphi.ml" 25 571 573 "src/murphi.ml" 32 827 834
+type(
+  bool
+)
+"src/murphi.ml" 24 540 565 "src/murphi.ml" 32 827 834
+type(
+  string -> bool
+)
+"src/murphi.ml" 24 540 551 "src/murphi.ml" 32 827 834
+type(
+  ?quiet:bool -> string -> bool
+)
+type(
+  string -> bool
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "src/murphi.ml" 24 540 551 "src/murphi.ml" 32 827 834
+)
+type(
+  bool option
+)

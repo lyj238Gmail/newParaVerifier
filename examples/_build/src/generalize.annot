@@ -1,0 +1,4292 @@
+"src/generalize.ml" 9 125 129 "src/generalize.ml" 9 125 134
+type(
+  (string, paramdef) Hashtbl.t
+)
+ident(
+  def table "src/generalize.ml" 11 182 182 "src/generalize.ml" 1 0 -1
+)
+"src/generalize.ml" 9 125 137 "src/generalize.ml" 9 125 151
+type(
+  (string, paramdef, unit -> (string, paramdef) Hashtbl.t)
+  Core_kernel.Core_hashtbl_intf.create_options_with_hashable
+)
+ident(
+  ext_ref Core.Std.Hashtbl.create
+)
+"src/generalize.ml" 9 125 162 "src/generalize.ml" 9 125 177
+type(
+  string Pooled_hashtbl.Hashable.t
+)
+ident(
+  ext_ref Core.Std.String.hashable
+)
+"src/generalize.ml" 9 125 178 "src/generalize.ml" 9 125 180
+type(
+  unit
+)
+"src/generalize.ml" 9 125 137 "src/generalize.ml" 9 125 180
+call(
+  stack
+)
+type(
+  (string, paramdef) Hashtbl.t
+)
+"src/generalize.ml" 11 182 186 "src/generalize.ml" 11 182 196
+type(
+  int ref
+)
+ident(
+  def base_index "src/generalize.ml" 13 206 206 "src/generalize.ml" 1 0 -1
+)
+"src/generalize.ml" 11 182 199 "src/generalize.ml" 11 182 202
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/generalize.ml" 11 182 203 "src/generalize.ml" 11 182 204
+type(
+  int
+)
+"src/generalize.ml" 11 182 199 "src/generalize.ml" 11 182 204
+type(
+  int ref
+)
+"src/generalize.ml" 13 206 210 "src/generalize.ml" 13 206 220
+type(
+  bool ref
+)
+ident(
+  def rename_ref "src/generalize.ml" 15 233 233 "src/generalize.ml" 1 0 -1
+)
+"src/generalize.ml" 13 206 223 "src/generalize.ml" 13 206 226
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/generalize.ml" 13 206 227 "src/generalize.ml" 13 206 231
+type(
+  bool
+)
+"src/generalize.ml" 13 206 223 "src/generalize.ml" 13 206 231
+type(
+  bool ref
+)
+"src/generalize.ml" 15 233 237 "src/generalize.ml" 15 233 246
+type(
+  unit -> string
+)
+ident(
+  def next_name "src/generalize.ml" 20 349 349 "src/generalize.ml" 1 0 -1
+)
+"src/generalize.ml" 15 233 247 "src/generalize.ml" 15 233 249
+type(
+  unit
+)
+"src/generalize.ml" 16 253 259 "src/generalize.ml" 16 253 262
+type(
+  string
+)
+ident(
+  def res "src/generalize.ml" 17 301 303 "src/generalize.ml" 17 301 323
+)
+"src/generalize.ml" 16 253 265 "src/generalize.ml" 16 253 272
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/generalize.ml" 16 253 273 "src/generalize.ml" 16 253 283
+type(
+  (int -> string, unit, string) format
+)
+"src/generalize.ml" 16 253 286 "src/generalize.ml" 16 253 296
+type(
+  int ref
+)
+ident(
+  int_ref base_index "src/generalize.ml" 11 182 186 "src/generalize.ml" 11 182 196
+)
+"src/generalize.ml" 16 253 285 "src/generalize.ml" 16 253 296
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/generalize.ml" 16 253 265 "src/generalize.ml" 16 253 297
+call(
+  stack
+)
+type(
+  string
+)
+"src/generalize.ml" 17 301 303 "src/generalize.ml" 17 301 307
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/generalize.ml" 17 301 308 "src/generalize.ml" 17 301 318
+type(
+  int ref
+)
+ident(
+  int_ref base_index "src/generalize.ml" 11 182 186 "src/generalize.ml" 11 182 196
+)
+"src/generalize.ml" 17 301 303 "src/generalize.ml" 17 301 318
+type(
+  unit
+)
+"src/generalize.ml" 17 301 320 "src/generalize.ml" 17 301 323
+type(
+  string
+)
+ident(
+  int_ref res "src/generalize.ml" 16 253 259 "src/generalize.ml" 16 253 262
+)
+"src/generalize.ml" 17 301 303 "src/generalize.ml" 17 301 323
+type(
+  string
+)
+"src/generalize.ml" 16 253 255 "src/generalize.ml" 17 301 323
+type(
+  string
+)
+"src/generalize.ml" 15 233 247 "src/generalize.ml" 17 301 323
+type(
+  unit -> string
+)
+"src/generalize.ml" 20 349 353 "src/generalize.ml" 20 349 365
+type(
+  paramref ->
+  paramdef list -> paramref list -> paramdef list * paramref list * paramref
+)
+ident(
+  def paramref_act "src/generalize.ml" 46 1423 1423 "src/generalize.ml" 1 0 -1
+)
+"src/generalize.ml" 20 349 366 "src/generalize.ml" 20 349 368
+type(
+  paramref
+)
+ident(
+  def pr "src/generalize.ml" 20 349 369 "src/generalize.ml" 43 1378 1385
+)
+"src/generalize.ml" 20 349 369 "src/generalize.ml" 20 349 372
+type(
+  paramdef list
+)
+ident(
+  def pds "src/generalize.ml" 20 349 373 "src/generalize.ml" 43 1378 1385
+)
+"src/generalize.ml" 20 349 373 "src/generalize.ml" 20 349 376
+type(
+  paramref list
+)
+ident(
+  def pfs "src/generalize.ml" 21 379 381 "src/generalize.ml" 43 1378 1385
+)
+"src/generalize.ml" 21 379 387 "src/generalize.ml" 21 379 389
+type(
+  paramref
+)
+ident(
+  int_ref pr "src/generalize.ml" 20 349 366 "src/generalize.ml" 20 349 368
+)
+"src/generalize.ml" 22 395 408 "src/generalize.ml" 22 395 409
+type(
+  string
+)
+"src/generalize.ml" 22 395 399 "src/generalize.ml" 22 395 410
+type(
+  paramref
+)
+"src/generalize.ml" 22 395 414 "src/generalize.ml" 22 395 423
+type(
+  string -> unit
+)
+ident(
+  ext_ref Utils.Prt.error
+)
+"src/generalize.ml" 22 395 425 "src/generalize.ml" 22 395 449
+type(
+  paramref -> string
+)
+ident(
+  ext_ref ToStr.Debug.paramref_act
+)
+"src/generalize.ml" 22 395 450 "src/generalize.ml" 22 395 452
+type(
+  paramref
+)
+ident(
+  int_ref pr "src/generalize.ml" 20 349 366 "src/generalize.ml" 20 349 368
+)
+"src/generalize.ml" 22 395 425 "src/generalize.ml" 22 395 452
+call(
+  stack
+)
+type(
+  string
+)
+"src/generalize.ml" 22 395 452 "src/generalize.ml" 22 395 453
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/generalize.ml" 22 395 453 "src/generalize.ml" 22 395 457
+type(
+  string
+)
+"src/generalize.ml" 22 395 425 "src/generalize.ml" 22 395 457
+call(
+  stack
+)
+type(
+  string
+)
+"src/generalize.ml" 22 395 414 "src/generalize.ml" 22 395 458
+call(
+  stack
+)
+type(
+  unit
+)
+"src/generalize.ml" 22 395 460 "src/generalize.ml" 22 395 465
+type(
+  exn -> paramdef list * paramref list * paramref
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/generalize.ml" 22 395 466 "src/generalize.ml" 22 395 482
+type(
+  exn
+)
+"src/generalize.ml" 22 395 460 "src/generalize.ml" 22 395 482
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 22 395 414 "src/generalize.ml" 22 395 482
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 23 483 496 "src/generalize.ml" 23 483 501
+type(
+  string
+)
+ident(
+  def vname "src/generalize.ml" 24 516 520 "src/generalize.ml" 43 1378 1385
+)
+"src/generalize.ml" 23 483 503 "src/generalize.ml" 23 483 508
+type(
+  string
+)
+ident(
+  def tname "src/generalize.ml" 24 516 520 "src/generalize.ml" 43 1378 1385
+)
+"src/generalize.ml" 23 483 510 "src/generalize.ml" 23 483 511
+type(
+  const
+)
+ident(
+  def c "src/generalize.ml" 24 516 520 "src/generalize.ml" 43 1378 1385
+)
+"src/generalize.ml" 23 483 487 "src/generalize.ml" 23 483 512
+type(
+  paramref
+)
+"src/generalize.ml" 24 516 525 "src/generalize.ml" 24 516 535
+type(
+  bool ref
+)
+ident(
+  int_ref rename_ref "src/generalize.ml" 13 206 210 "src/generalize.ml" 13 206 220
+)
+"src/generalize.ml" 24 516 524 "src/generalize.ml" 24 516 535
+type(
+  bool
+)
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/generalize.ml" 26 554 566 "src/generalize.ml" 26 554 569
+type(
+  string
+)
+ident(
+  def key "src/generalize.ml" 27 605 613 "src/generalize.ml" 37 1130 1165
+)
+"src/generalize.ml" 26 554 572 "src/generalize.ml" 26 554 577
+type(
+  string
+)
+ident(
+  int_ref tname "src/generalize.ml" 23 483 503 "src/generalize.ml" 23 483 508
+)
+"src/generalize.ml" 26 554 577 "src/generalize.ml" 26 554 578
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/generalize.ml" 26 554 578 "src/generalize.ml" 26 554 599
+type(
+  const -> string
+)
+ident(
+  ext_ref ToStr.Debug.const_act
+)
+"src/generalize.ml" 26 554 600 "src/generalize.ml" 26 554 601
+type(
+  const
+)
+ident(
+  int_ref c "src/generalize.ml" 23 483 510 "src/generalize.ml" 23 483 511
+)
+"src/generalize.ml" 26 554 578 "src/generalize.ml" 26 554 601
+call(
+  stack
+)
+type(
+  string
+)
+"src/generalize.ml" 26 554 572 "src/generalize.ml" 26 554 601
+call(
+  stack
+)
+type(
+  string
+)
+"src/generalize.ml" 27 605 619 "src/generalize.ml" 27 605 631
+type(
+  (string, paramdef) Hashtbl.t -> string -> paramdef option
+)
+ident(
+  ext_ref Core.Std.Hashtbl.find
+)
+"src/generalize.ml" 27 605 632 "src/generalize.ml" 27 605 637
+type(
+  (string, paramdef) Hashtbl.t
+)
+ident(
+  int_ref table "src/generalize.ml" 9 125 129 "src/generalize.ml" 9 125 134
+)
+"src/generalize.ml" 27 605 638 "src/generalize.ml" 27 605 641
+type(
+  string
+)
+ident(
+  int_ref key "src/generalize.ml" 26 554 566 "src/generalize.ml" 26 554 569
+)
+"src/generalize.ml" 27 605 619 "src/generalize.ml" 27 605 641
+call(
+  stack
+)
+type(
+  paramdef option
+)
+"src/generalize.ml" 28 647 657 "src/generalize.ml" 28 647 661
+type(
+  paramdef option
+)
+"src/generalize.ml" 29 665 679 "src/generalize.ml" 29 665 687
+type(
+  string
+)
+ident(
+  def new_name "src/generalize.ml" 30 706 716 "src/generalize.ml" 32 807 881
+)
+"src/generalize.ml" 29 665 690 "src/generalize.ml" 29 665 699
+type(
+  unit -> string
+)
+ident(
+  int_ref next_name "src/generalize.ml" 15 233 237 "src/generalize.ml" 15 233 246
+)
+"src/generalize.ml" 29 665 700 "src/generalize.ml" 29 665 702
+type(
+  unit
+)
+"src/generalize.ml" 29 665 690 "src/generalize.ml" 29 665 702
+call(
+  stack
+)
+type(
+  string
+)
+"src/generalize.ml" 30 706 720 "src/generalize.ml" 30 706 726
+type(
+  paramdef
+)
+ident(
+  def new_pd "src/generalize.ml" 31 756 766 "src/generalize.ml" 32 807 880
+)
+"src/generalize.ml" 30 706 729 "src/generalize.ml" 30 706 737
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"src/generalize.ml" 30 706 738 "src/generalize.ml" 30 706 746
+type(
+  string
+)
+ident(
+  int_ref new_name "src/generalize.ml" 29 665 679 "src/generalize.ml" 29 665 687
+)
+"src/generalize.ml" 30 706 747 "src/generalize.ml" 30 706 752
+type(
+  string
+)
+ident(
+  int_ref tname "src/generalize.ml" 23 483 503 "src/generalize.ml" 23 483 508
+)
+"src/generalize.ml" 30 706 729 "src/generalize.ml" 30 706 752
+call(
+  stack
+)
+type(
+  paramdef
+)
+"src/generalize.ml" 31 756 766 "src/generalize.ml" 31 756 781
+type(
+  (string, paramdef) Hashtbl.t -> key:string -> data:paramdef -> unit
+)
+ident(
+  ext_ref Core.Std.Hashtbl.replace
+)
+"src/generalize.ml" 31 756 782 "src/generalize.ml" 31 756 787
+type(
+  (string, paramdef) Hashtbl.t
+)
+ident(
+  int_ref table "src/generalize.ml" 9 125 129 "src/generalize.ml" 9 125 134
+)
+"src/generalize.ml" 31 756 788 "src/generalize.ml" 31 756 792
+type(
+  string
+)
+ident(
+  int_ref key "src/generalize.ml" 26 554 566 "src/generalize.ml" 26 554 569
+)
+"src/generalize.ml" 31 756 799 "src/generalize.ml" 31 756 805
+type(
+  paramdef
+)
+ident(
+  int_ref new_pd "src/generalize.ml" 30 706 720 "src/generalize.ml" 30 706 726
+)
+"src/generalize.ml" 31 756 766 "src/generalize.ml" 31 756 805
+call(
+  stack
+)
+type(
+  unit
+)
+"src/generalize.ml" 32 807 818 "src/generalize.ml" 32 807 824
+type(
+  paramdef
+)
+ident(
+  int_ref new_pd "src/generalize.ml" 30 706 720 "src/generalize.ml" 30 706 726
+)
+"src/generalize.ml" 32 807 826 "src/generalize.ml" 32 807 829
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 20 349 369 "src/generalize.ml" 20 349 372
+)
+"src/generalize.ml" 32 807 818 "src/generalize.ml" 32 807 829
+type(
+  paramdef list
+)
+"src/generalize.ml" 32 807 831 "src/generalize.ml" 32 807 839
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"src/generalize.ml" 32 807 840 "src/generalize.ml" 32 807 848
+type(
+  string
+)
+ident(
+  int_ref new_name "src/generalize.ml" 29 665 679 "src/generalize.ml" 29 665 687
+)
+"src/generalize.ml" 32 807 849 "src/generalize.ml" 32 807 854
+type(
+  string
+)
+ident(
+  int_ref tname "src/generalize.ml" 23 483 503 "src/generalize.ml" 23 483 508
+)
+"src/generalize.ml" 32 807 855 "src/generalize.ml" 32 807 856
+type(
+  const
+)
+ident(
+  int_ref c "src/generalize.ml" 23 483 510 "src/generalize.ml" 23 483 511
+)
+"src/generalize.ml" 32 807 831 "src/generalize.ml" 32 807 856
+call(
+  stack
+)
+type(
+  paramref
+)
+"src/generalize.ml" 32 807 858 "src/generalize.ml" 32 807 861
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 20 349 373 "src/generalize.ml" 20 349 376
+)
+"src/generalize.ml" 32 807 831 "src/generalize.ml" 32 807 861
+type(
+  paramref list
+)
+"src/generalize.ml" 32 807 863 "src/generalize.ml" 32 807 871
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"src/generalize.ml" 32 807 872 "src/generalize.ml" 32 807 880
+type(
+  string
+)
+ident(
+  int_ref new_name "src/generalize.ml" 29 665 679 "src/generalize.ml" 29 665 687
+)
+"src/generalize.ml" 32 807 863 "src/generalize.ml" 32 807 880
+call(
+  stack
+)
+type(
+  paramref
+)
+"src/generalize.ml" 32 807 818 "src/generalize.ml" 32 807 880
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 31 756 766 "src/generalize.ml" 32 807 880
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 30 706 716 "src/generalize.ml" 32 807 881
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 29 665 675 "src/generalize.ml" 32 807 881
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 33 882 906 "src/generalize.ml" 33 882 908
+type(
+  string
+)
+ident(
+  def vn "src/generalize.ml" 34 917 927 "src/generalize.ml" 37 1130 1165
+)
+"src/generalize.ml" 33 882 910 "src/generalize.ml" 33 882 911
+type(
+  string
+)
+"src/generalize.ml" 33 882 897 "src/generalize.ml" 33 882 912
+type(
+  paramdef
+)
+"src/generalize.ml" 33 882 892 "src/generalize.ml" 33 882 913
+type(
+  paramdef option
+)
+"src/generalize.ml" 34 917 931 "src/generalize.ml" 34 917 934
+type(
+  bool
+)
+ident(
+  def has "src/generalize.ml" 35 992 1002 "src/generalize.ml" 37 1130 1165
+)
+"src/generalize.ml" 34 917 937 "src/generalize.ml" 34 917 948
+type(
+  paramdef list -> f:(paramdef -> bool) -> bool
+)
+ident(
+  ext_ref Core.Std.List.exists
+)
+"src/generalize.ml" 34 917 949 "src/generalize.ml" 34 917 952
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 20 349 369 "src/generalize.ml" 20 349 372
+)
+"src/generalize.ml" 34 917 971 "src/generalize.ml" 34 917 972
+type(
+  string
+)
+ident(
+  def n "src/generalize.ml" 34 917 981 "src/generalize.ml" 34 917 987
+)
+"src/generalize.ml" 34 917 974 "src/generalize.ml" 34 917 975
+type(
+  string
+)
+"src/generalize.ml" 34 917 962 "src/generalize.ml" 34 917 976
+type(
+  paramdef
+)
+"src/generalize.ml" 34 917 981 "src/generalize.ml" 34 917 982
+type(
+  string
+)
+ident(
+  int_ref n "src/generalize.ml" 34 917 971 "src/generalize.ml" 34 917 972
+)
+"src/generalize.ml" 34 917 983 "src/generalize.ml" 34 917 984
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/generalize.ml" 34 917 985 "src/generalize.ml" 34 917 987
+type(
+  string
+)
+ident(
+  int_ref vn "src/generalize.ml" 33 882 906 "src/generalize.ml" 33 882 908
+)
+"src/generalize.ml" 34 917 981 "src/generalize.ml" 34 917 987
+type(
+  bool
+)
+"src/generalize.ml" 34 917 961 "src/generalize.ml" 34 917 987
+type(
+  paramdef -> bool
+)
+"src/generalize.ml" 34 917 937 "src/generalize.ml" 34 917 988
+call(
+  stack
+)
+type(
+  bool
+)
+"src/generalize.ml" 35 992 1006 "src/generalize.ml" 35 992 1010
+type(
+  paramdef list
+)
+ident(
+  def pds' "src/generalize.ml" 36 1060 1070 "src/generalize.ml" 37 1130 1165
+)
+"src/generalize.ml" 35 992 1016 "src/generalize.ml" 35 992 1019
+type(
+  bool
+)
+ident(
+  int_ref has "src/generalize.ml" 34 917 931 "src/generalize.ml" 34 917 934
+)
+"src/generalize.ml" 35 992 1025 "src/generalize.ml" 35 992 1028
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 20 349 369 "src/generalize.ml" 20 349 372
+)
+"src/generalize.ml" 35 992 1034 "src/generalize.ml" 35 992 1042
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"src/generalize.ml" 35 992 1043 "src/generalize.ml" 35 992 1045
+type(
+  string
+)
+ident(
+  int_ref vn "src/generalize.ml" 33 882 906 "src/generalize.ml" 33 882 908
+)
+"src/generalize.ml" 35 992 1046 "src/generalize.ml" 35 992 1051
+type(
+  string
+)
+ident(
+  int_ref tname "src/generalize.ml" 23 483 503 "src/generalize.ml" 23 483 508
+)
+"src/generalize.ml" 35 992 1034 "src/generalize.ml" 35 992 1051
+call(
+  stack
+)
+type(
+  paramdef
+)
+"src/generalize.ml" 35 992 1053 "src/generalize.ml" 35 992 1056
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 20 349 369 "src/generalize.ml" 20 349 372
+)
+"src/generalize.ml" 35 992 1034 "src/generalize.ml" 35 992 1056
+type(
+  paramdef list
+)
+"src/generalize.ml" 35 992 1013 "src/generalize.ml" 35 992 1056
+type(
+  paramdef list
+)
+"src/generalize.ml" 36 1060 1074 "src/generalize.ml" 36 1060 1078
+type(
+  paramref list
+)
+ident(
+  def pfs' "src/generalize.ml" 37 1130 1141 "src/generalize.ml" 37 1130 1164
+)
+"src/generalize.ml" 36 1060 1084 "src/generalize.ml" 36 1060 1087
+type(
+  bool
+)
+ident(
+  int_ref has "src/generalize.ml" 34 917 931 "src/generalize.ml" 34 917 934
+)
+"src/generalize.ml" 36 1060 1093 "src/generalize.ml" 36 1060 1096
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 20 349 373 "src/generalize.ml" 20 349 376
+)
+"src/generalize.ml" 36 1060 1102 "src/generalize.ml" 36 1060 1110
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"src/generalize.ml" 36 1060 1111 "src/generalize.ml" 36 1060 1113
+type(
+  string
+)
+ident(
+  int_ref vn "src/generalize.ml" 33 882 906 "src/generalize.ml" 33 882 908
+)
+"src/generalize.ml" 36 1060 1114 "src/generalize.ml" 36 1060 1119
+type(
+  string
+)
+ident(
+  int_ref tname "src/generalize.ml" 23 483 503 "src/generalize.ml" 23 483 508
+)
+"src/generalize.ml" 36 1060 1120 "src/generalize.ml" 36 1060 1121
+type(
+  const
+)
+ident(
+  int_ref c "src/generalize.ml" 23 483 510 "src/generalize.ml" 23 483 511
+)
+"src/generalize.ml" 36 1060 1102 "src/generalize.ml" 36 1060 1121
+call(
+  stack
+)
+type(
+  paramref
+)
+"src/generalize.ml" 36 1060 1123 "src/generalize.ml" 36 1060 1126
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 20 349 373 "src/generalize.ml" 20 349 376
+)
+"src/generalize.ml" 36 1060 1102 "src/generalize.ml" 36 1060 1126
+type(
+  paramref list
+)
+"src/generalize.ml" 36 1060 1081 "src/generalize.ml" 36 1060 1126
+type(
+  paramref list
+)
+"src/generalize.ml" 37 1130 1141 "src/generalize.ml" 37 1130 1145
+type(
+  paramdef list
+)
+ident(
+  int_ref pds' "src/generalize.ml" 35 992 1006 "src/generalize.ml" 35 992 1010
+)
+"src/generalize.ml" 37 1130 1147 "src/generalize.ml" 37 1130 1151
+type(
+  paramref list
+)
+ident(
+  int_ref pfs' "src/generalize.ml" 36 1060 1074 "src/generalize.ml" 36 1060 1078
+)
+"src/generalize.ml" 37 1130 1153 "src/generalize.ml" 37 1130 1161
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"src/generalize.ml" 37 1130 1162 "src/generalize.ml" 37 1130 1164
+type(
+  string
+)
+ident(
+  int_ref vn "src/generalize.ml" 33 882 906 "src/generalize.ml" 33 882 908
+)
+"src/generalize.ml" 37 1130 1153 "src/generalize.ml" 37 1130 1164
+call(
+  stack
+)
+type(
+  paramref
+)
+"src/generalize.ml" 37 1130 1141 "src/generalize.ml" 37 1130 1164
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 36 1060 1070 "src/generalize.ml" 37 1130 1165
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 35 992 1002 "src/generalize.ml" 37 1130 1165
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 34 917 927 "src/generalize.ml" 37 1130 1165
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 27 605 613 "src/generalize.ml" 37 1130 1165
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 26 554 562 "src/generalize.ml" 37 1130 1165
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 40 1191 1203 "src/generalize.ml" 40 1191 1212
+type(
+  paramdef list -> f:(paramdef -> bool) -> paramdef option
+)
+ident(
+  ext_ref Core.Std.List.find
+)
+"src/generalize.ml" 40 1191 1213 "src/generalize.ml" 40 1191 1216
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 20 349 369 "src/generalize.ml" 20 349 372
+)
+"src/generalize.ml" 40 1191 1235 "src/generalize.ml" 40 1191 1237
+type(
+  string
+)
+ident(
+  def vn "src/generalize.ml" 40 1191 1246 "src/generalize.ml" 40 1191 1256
+)
+"src/generalize.ml" 40 1191 1239 "src/generalize.ml" 40 1191 1240
+type(
+  string
+)
+"src/generalize.ml" 40 1191 1226 "src/generalize.ml" 40 1191 1241
+type(
+  paramdef
+)
+"src/generalize.ml" 40 1191 1246 "src/generalize.ml" 40 1191 1248
+type(
+  string
+)
+ident(
+  int_ref vn "src/generalize.ml" 40 1191 1235 "src/generalize.ml" 40 1191 1237
+)
+"src/generalize.ml" 40 1191 1249 "src/generalize.ml" 40 1191 1250
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/generalize.ml" 40 1191 1251 "src/generalize.ml" 40 1191 1256
+type(
+  string
+)
+ident(
+  int_ref vname "src/generalize.ml" 23 483 496 "src/generalize.ml" 23 483 501
+)
+"src/generalize.ml" 40 1191 1246 "src/generalize.ml" 40 1191 1256
+type(
+  bool
+)
+"src/generalize.ml" 40 1191 1225 "src/generalize.ml" 40 1191 1256
+type(
+  paramdef -> bool
+)
+"src/generalize.ml" 40 1191 1203 "src/generalize.ml" 40 1191 1257
+call(
+  stack
+)
+type(
+  paramdef option
+)
+"src/generalize.ml" 41 1263 1271 "src/generalize.ml" 41 1263 1275
+type(
+  paramdef option
+)
+"src/generalize.ml" 41 1263 1280 "src/generalize.ml" 41 1263 1288
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"src/generalize.ml" 41 1263 1289 "src/generalize.ml" 41 1263 1294
+type(
+  string
+)
+ident(
+  int_ref vname "src/generalize.ml" 23 483 496 "src/generalize.ml" 23 483 501
+)
+"src/generalize.ml" 41 1263 1295 "src/generalize.ml" 41 1263 1300
+type(
+  string
+)
+ident(
+  int_ref tname "src/generalize.ml" 23 483 503 "src/generalize.ml" 23 483 508
+)
+"src/generalize.ml" 41 1263 1280 "src/generalize.ml" 41 1263 1300
+call(
+  stack
+)
+type(
+  paramdef
+)
+"src/generalize.ml" 41 1263 1302 "src/generalize.ml" 41 1263 1305
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 20 349 369 "src/generalize.ml" 20 349 372
+)
+"src/generalize.ml" 41 1263 1280 "src/generalize.ml" 41 1263 1305
+type(
+  paramdef list
+)
+"src/generalize.ml" 41 1263 1307 "src/generalize.ml" 41 1263 1309
+type(
+  paramref
+)
+ident(
+  int_ref pr "src/generalize.ml" 20 349 366 "src/generalize.ml" 20 349 368
+)
+"src/generalize.ml" 41 1263 1311 "src/generalize.ml" 41 1263 1314
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 20 349 373 "src/generalize.ml" 20 349 376
+)
+"src/generalize.ml" 41 1263 1307 "src/generalize.ml" 41 1263 1314
+type(
+  paramref list
+)
+"src/generalize.ml" 41 1263 1316 "src/generalize.ml" 41 1263 1324
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"src/generalize.ml" 41 1263 1325 "src/generalize.ml" 41 1263 1330
+type(
+  string
+)
+ident(
+  int_ref vname "src/generalize.ml" 23 483 496 "src/generalize.ml" 23 483 501
+)
+"src/generalize.ml" 41 1263 1316 "src/generalize.ml" 41 1263 1330
+call(
+  stack
+)
+type(
+  paramref
+)
+"src/generalize.ml" 41 1263 1280 "src/generalize.ml" 41 1263 1330
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 42 1332 1345 "src/generalize.ml" 42 1332 1346
+type(
+  paramdef
+)
+"src/generalize.ml" 42 1332 1340 "src/generalize.ml" 42 1332 1347
+type(
+  paramdef option
+)
+"src/generalize.ml" 42 1332 1352 "src/generalize.ml" 42 1332 1355
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 20 349 369 "src/generalize.ml" 20 349 372
+)
+"src/generalize.ml" 42 1332 1357 "src/generalize.ml" 42 1332 1360
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 20 349 373 "src/generalize.ml" 20 349 376
+)
+"src/generalize.ml" 42 1332 1362 "src/generalize.ml" 42 1332 1370
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"src/generalize.ml" 42 1332 1371 "src/generalize.ml" 42 1332 1376
+type(
+  string
+)
+ident(
+  int_ref vname "src/generalize.ml" 23 483 496 "src/generalize.ml" 23 483 501
+)
+"src/generalize.ml" 42 1332 1362 "src/generalize.ml" 42 1332 1376
+call(
+  stack
+)
+type(
+  paramref
+)
+"src/generalize.ml" 42 1332 1352 "src/generalize.ml" 42 1332 1376
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 40 1191 1197 "src/generalize.ml" 42 1332 1377
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 24 516 520 "src/generalize.ml" 43 1378 1385
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 21 379 381 "src/generalize.ml" 43 1378 1385
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 20 349 373 "src/generalize.ml" 43 1378 1385
+type(
+  paramref list -> paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 20 349 369 "src/generalize.ml" 43 1378 1385
+type(
+  paramdef list -> paramref list -> paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 20 349 366 "src/generalize.ml" 43 1378 1385
+type(
+  paramref ->
+  paramdef list -> paramref list -> paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 46 1423 1427 "src/generalize.ml" 46 1423 1441
+type(
+  'a list ->
+  'b -> 'c -> f:('a -> 'b -> 'c -> 'b * 'c * 'd) -> 'b * 'c * 'd list
+)
+ident(
+  def components_act "src/generalize.ml" 57 1756 1756 "src/generalize.ml" 1 0 -1
+)
+"src/generalize.ml" 46 1423 1442 "src/generalize.ml" 46 1423 1452
+type(
+  'a list
+)
+ident(
+  def components "src/generalize.ml" 46 1423 1453 "src/generalize.ml" 54 1704 1735
+)
+"src/generalize.ml" 46 1423 1453 "src/generalize.ml" 46 1423 1456
+type(
+  'b
+)
+ident(
+  def pds "src/generalize.ml" 46 1423 1457 "src/generalize.ml" 54 1704 1735
+)
+"src/generalize.ml" 46 1423 1457 "src/generalize.ml" 46 1423 1460
+type(
+  'c
+)
+ident(
+  def pfs "src/generalize.ml" 46 1423 1461 "src/generalize.ml" 54 1704 1735
+)
+"src/generalize.ml" 47 1466 1476 "src/generalize.ml" 47 1466 1483
+type(
+  'a list -> 'd list -> 'b -> 'c -> 'b * 'c * 'd list
+)
+ident(
+  def wrapper "src/generalize.ml" 47 1466 1468 "src/generalize.ml" 54 1704 1735
+)
+"src/generalize.ml" 47 1466 1484 "src/generalize.ml" 47 1466 1494
+type(
+  'a list
+)
+ident(
+  def components "src/generalize.ml" 47 1466 1495 "src/generalize.ml" 52 1645 1698
+)
+"src/generalize.ml" 47 1466 1495 "src/generalize.ml" 47 1466 1505
+type(
+  'd list
+)
+ident(
+  def gened_comp "src/generalize.ml" 47 1466 1506 "src/generalize.ml" 52 1645 1698
+)
+"src/generalize.ml" 47 1466 1506 "src/generalize.ml" 47 1466 1509
+type(
+  'b
+)
+ident(
+  def pds "src/generalize.ml" 47 1466 1510 "src/generalize.ml" 52 1645 1698
+)
+"src/generalize.ml" 47 1466 1510 "src/generalize.ml" 47 1466 1513
+type(
+  'c
+)
+ident(
+  def pfs "src/generalize.ml" 48 1516 1520 "src/generalize.ml" 52 1645 1698
+)
+"src/generalize.ml" 48 1516 1526 "src/generalize.ml" 48 1516 1536
+type(
+  'a list
+)
+ident(
+  int_ref components "src/generalize.ml" 47 1466 1484 "src/generalize.ml" 47 1466 1494
+)
+"src/generalize.ml" 49 1542 1548 "src/generalize.ml" 49 1542 1550
+type(
+  'a list
+)
+"src/generalize.ml" 49 1542 1555 "src/generalize.ml" 49 1542 1558
+type(
+  'b
+)
+ident(
+  int_ref pds "src/generalize.ml" 47 1466 1506 "src/generalize.ml" 47 1466 1509
+)
+"src/generalize.ml" 49 1542 1560 "src/generalize.ml" 49 1542 1563
+type(
+  'c
+)
+ident(
+  int_ref pfs "src/generalize.ml" 47 1466 1510 "src/generalize.ml" 47 1466 1513
+)
+"src/generalize.ml" 49 1542 1565 "src/generalize.ml" 49 1542 1575
+type(
+  'd list
+)
+ident(
+  int_ref gened_comp "src/generalize.ml" 47 1466 1495 "src/generalize.ml" 47 1466 1505
+)
+"src/generalize.ml" 49 1542 1555 "src/generalize.ml" 49 1542 1575
+type(
+  'b * 'c * 'd list
+)
+"src/generalize.ml" 50 1577 1583 "src/generalize.ml" 50 1577 1584
+type(
+  'a
+)
+ident(
+  def c "src/generalize.ml" 51 1601 1607 "src/generalize.ml" 52 1645 1698
+)
+"src/generalize.ml" 50 1577 1586 "src/generalize.ml" 50 1577 1597
+type(
+  'a list
+)
+ident(
+  def components' "src/generalize.ml" 51 1601 1607 "src/generalize.ml" 52 1645 1698
+)
+"src/generalize.ml" 50 1577 1583 "src/generalize.ml" 50 1577 1597
+type(
+  'a list
+)
+"src/generalize.ml" 51 1601 1612 "src/generalize.ml" 51 1601 1616
+type(
+  'b
+)
+ident(
+  def pds' "src/generalize.ml" 52 1645 1651 "src/generalize.ml" 52 1645 1698
+)
+"src/generalize.ml" 51 1601 1618 "src/generalize.ml" 51 1601 1622
+type(
+  'c
+)
+ident(
+  def pfs' "src/generalize.ml" 52 1645 1651 "src/generalize.ml" 52 1645 1698
+)
+"src/generalize.ml" 51 1601 1624 "src/generalize.ml" 51 1601 1626
+type(
+  'd
+)
+ident(
+  def c' "src/generalize.ml" 52 1645 1651 "src/generalize.ml" 52 1645 1698
+)
+"src/generalize.ml" 51 1601 1612 "src/generalize.ml" 51 1601 1626
+type(
+  'b * 'c * 'd
+)
+"src/generalize.ml" 51 1601 1630 "src/generalize.ml" 51 1601 1631
+type(
+  'a -> 'b -> 'c -> 'b * 'c * 'd
+)
+ident(
+  int_ref f "src/generalize.ml" 46 1423 1461 "src/generalize.ml" 54 1704 1735
+)
+"src/generalize.ml" 51 1601 1632 "src/generalize.ml" 51 1601 1633
+type(
+  'a
+)
+ident(
+  int_ref c "src/generalize.ml" 50 1577 1583 "src/generalize.ml" 50 1577 1584
+)
+"src/generalize.ml" 51 1601 1634 "src/generalize.ml" 51 1601 1637
+type(
+  'b
+)
+ident(
+  int_ref pds "src/generalize.ml" 47 1466 1506 "src/generalize.ml" 47 1466 1509
+)
+"src/generalize.ml" 51 1601 1638 "src/generalize.ml" 51 1601 1641
+type(
+  'c
+)
+ident(
+  int_ref pfs "src/generalize.ml" 47 1466 1510 "src/generalize.ml" 47 1466 1513
+)
+"src/generalize.ml" 51 1601 1630 "src/generalize.ml" 51 1601 1641
+call(
+  stack
+)
+type(
+  'b * 'c * 'd
+)
+"src/generalize.ml" 52 1645 1651 "src/generalize.ml" 52 1645 1658
+type(
+  'a list -> 'd list -> 'b -> 'c -> 'b * 'c * 'd list
+)
+ident(
+  int_ref wrapper "src/generalize.ml" 47 1466 1476 "src/generalize.ml" 47 1466 1483
+)
+"src/generalize.ml" 52 1645 1659 "src/generalize.ml" 52 1645 1670
+type(
+  'a list
+)
+ident(
+  int_ref components' "src/generalize.ml" 50 1577 1586 "src/generalize.ml" 50 1577 1597
+)
+"src/generalize.ml" 52 1645 1672 "src/generalize.ml" 52 1645 1682
+type(
+  'd list
+)
+ident(
+  int_ref gened_comp "src/generalize.ml" 47 1466 1495 "src/generalize.ml" 47 1466 1505
+)
+"src/generalize.ml" 52 1645 1682 "src/generalize.ml" 52 1645 1683
+type(
+  'd list -> 'd list -> 'd list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"src/generalize.ml" 52 1645 1684 "src/generalize.ml" 52 1645 1686
+type(
+  'd
+)
+ident(
+  int_ref c' "src/generalize.ml" 51 1601 1624 "src/generalize.ml" 51 1601 1626
+)
+type(
+  'd list
+)
+"src/generalize.ml" 52 1645 1683 "src/generalize.ml" 52 1645 1687
+type(
+  'd list
+)
+"src/generalize.ml" 52 1645 1672 "src/generalize.ml" 52 1645 1687
+call(
+  stack
+)
+type(
+  'd list
+)
+"src/generalize.ml" 52 1645 1689 "src/generalize.ml" 52 1645 1693
+type(
+  'b
+)
+ident(
+  int_ref pds' "src/generalize.ml" 51 1601 1612 "src/generalize.ml" 51 1601 1616
+)
+"src/generalize.ml" 52 1645 1694 "src/generalize.ml" 52 1645 1698
+type(
+  'c
+)
+ident(
+  int_ref pfs' "src/generalize.ml" 51 1601 1618 "src/generalize.ml" 51 1601 1622
+)
+"src/generalize.ml" 52 1645 1651 "src/generalize.ml" 52 1645 1698
+call(
+  tail
+)
+type(
+  'b * 'c * 'd list
+)
+"src/generalize.ml" 51 1601 1607 "src/generalize.ml" 52 1645 1698
+type(
+  'b * 'c * 'd list
+)
+"src/generalize.ml" 48 1516 1520 "src/generalize.ml" 52 1645 1698
+type(
+  'b * 'c * 'd list
+)
+"src/generalize.ml" 47 1466 1510 "src/generalize.ml" 52 1645 1698
+type(
+  'c -> 'b * 'c * 'd list
+)
+"src/generalize.ml" 47 1466 1506 "src/generalize.ml" 52 1645 1698
+type(
+  'b -> 'c -> 'b * 'c * 'd list
+)
+"src/generalize.ml" 47 1466 1495 "src/generalize.ml" 52 1645 1698
+type(
+  'd list -> 'b -> 'c -> 'b * 'c * 'd list
+)
+"src/generalize.ml" 47 1466 1484 "src/generalize.ml" 52 1645 1698
+type(
+  'a list -> 'd list -> 'b -> 'c -> 'b * 'c * 'd list
+)
+"src/generalize.ml" 54 1704 1706 "src/generalize.ml" 54 1704 1713
+type(
+  'a list -> 'd list -> 'b -> 'c -> 'b * 'c * 'd list
+)
+ident(
+  int_ref wrapper "src/generalize.ml" 47 1466 1476 "src/generalize.ml" 47 1466 1483
+)
+"src/generalize.ml" 54 1704 1714 "src/generalize.ml" 54 1704 1724
+type(
+  'a list
+)
+ident(
+  int_ref components "src/generalize.ml" 46 1423 1442 "src/generalize.ml" 46 1423 1452
+)
+"src/generalize.ml" 54 1704 1725 "src/generalize.ml" 54 1704 1727
+type(
+  'd list
+)
+"src/generalize.ml" 54 1704 1728 "src/generalize.ml" 54 1704 1731
+type(
+  'b
+)
+ident(
+  int_ref pds "src/generalize.ml" 46 1423 1453 "src/generalize.ml" 46 1423 1456
+)
+"src/generalize.ml" 54 1704 1732 "src/generalize.ml" 54 1704 1735
+type(
+  'c
+)
+ident(
+  int_ref pfs "src/generalize.ml" 46 1423 1457 "src/generalize.ml" 46 1423 1460
+)
+"src/generalize.ml" 54 1704 1706 "src/generalize.ml" 54 1704 1735
+call(
+  tail
+)
+type(
+  'b * 'c * 'd list
+)
+"src/generalize.ml" 47 1466 1468 "src/generalize.ml" 54 1704 1735
+type(
+  'b * 'c * 'd list
+)
+"src/generalize.ml" 46 1423 1461 "src/generalize.ml" 54 1704 1735
+type(
+  f:('a -> 'b -> 'c -> 'b * 'c * 'd) -> 'b * 'c * 'd list
+)
+type(
+  'a -> 'b -> 'c -> 'b * 'c * 'd
+)
+ident(
+  def f "src/generalize.ml" 47 1466 1468 "src/generalize.ml" 54 1704 1735
+)
+"src/generalize.ml" 46 1423 1457 "src/generalize.ml" 54 1704 1735
+type(
+  'c -> f:('a -> 'b -> 'c -> 'b * 'c * 'd) -> 'b * 'c * 'd list
+)
+"src/generalize.ml" 46 1423 1453 "src/generalize.ml" 54 1704 1735
+type(
+  'b -> 'c -> f:('a -> 'b -> 'c -> 'b * 'c * 'd) -> 'b * 'c * 'd list
+)
+"src/generalize.ml" 46 1423 1442 "src/generalize.ml" 54 1704 1735
+type(
+  'a list ->
+  'b -> 'c -> f:('a -> 'b -> 'c -> 'b * 'c * 'd) -> 'b * 'c * 'd list
+)
+"src/generalize.ml" 57 1756 1760 "src/generalize.ml" 57 1756 1767
+type(
+  var ->
+  paramdef list -> paramref list -> paramdef list * paramref list * var
+)
+ident(
+  def var_act "src/generalize.ml" 69 2115 2115 "src/generalize.ml" 1 0 -1
+)
+"src/generalize.ml" 57 1756 1773 "src/generalize.ml" 57 1756 1775
+type(
+  (string * paramref list) list
+)
+ident(
+  def ls "src/generalize.ml" 57 1756 1778 "src/generalize.ml" 66 2071 2094
+)
+"src/generalize.ml" 57 1756 1769 "src/generalize.ml" 57 1756 1776
+type(
+  var
+)
+"src/generalize.ml" 57 1756 1778 "src/generalize.ml" 57 1756 1781
+type(
+  paramdef list
+)
+ident(
+  def pds "src/generalize.ml" 57 1756 1782 "src/generalize.ml" 66 2071 2094
+)
+"src/generalize.ml" 57 1756 1782 "src/generalize.ml" 57 1756 1785
+type(
+  paramref list
+)
+ident(
+  def pfs "src/generalize.ml" 58 1788 1790 "src/generalize.ml" 66 2071 2094
+)
+"src/generalize.ml" 58 1788 1798 "src/generalize.ml" 58 1788 1805
+type(
+  ('a * paramref list) list ->
+  paramdef list ->
+  paramref list ->
+  ('a * paramref list) list ->
+  paramdef list * paramref list * ('a * paramref list) list
+)
+ident(
+  def wrapper "src/generalize.ml" 58 1788 1790 "src/generalize.ml" 66 2071 2094
+)
+"src/generalize.ml" 58 1788 1806 "src/generalize.ml" 58 1788 1808
+type(
+  ('a * paramref list) list
+)
+ident(
+  def ls "src/generalize.ml" 58 1788 1809 "src/generalize.ml" 63 1969 2014
+)
+"src/generalize.ml" 58 1788 1809 "src/generalize.ml" 58 1788 1812
+type(
+  paramdef list
+)
+ident(
+  def pds "src/generalize.ml" 58 1788 1813 "src/generalize.ml" 63 1969 2014
+)
+"src/generalize.ml" 58 1788 1813 "src/generalize.ml" 58 1788 1816
+type(
+  paramref list
+)
+ident(
+  def pfs "src/generalize.ml" 58 1788 1817 "src/generalize.ml" 63 1969 2014
+)
+"src/generalize.ml" 58 1788 1817 "src/generalize.ml" 58 1788 1820
+type(
+  ('a * paramref list) list
+)
+ident(
+  def res "src/generalize.ml" 59 1823 1827 "src/generalize.ml" 63 1969 2014
+)
+"src/generalize.ml" 59 1823 1833 "src/generalize.ml" 59 1823 1835
+type(
+  ('a * paramref list) list
+)
+ident(
+  int_ref ls "src/generalize.ml" 58 1788 1806 "src/generalize.ml" 58 1788 1808
+)
+"src/generalize.ml" 60 1841 1847 "src/generalize.ml" 60 1841 1849
+type(
+  ('a * paramref list) list
+)
+"src/generalize.ml" 60 1841 1854 "src/generalize.ml" 60 1841 1857
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 58 1788 1809 "src/generalize.ml" 58 1788 1812
+)
+"src/generalize.ml" 60 1841 1859 "src/generalize.ml" 60 1841 1862
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 58 1788 1813 "src/generalize.ml" 58 1788 1816
+)
+"src/generalize.ml" 60 1841 1864 "src/generalize.ml" 60 1841 1867
+type(
+  ('a * paramref list) list
+)
+ident(
+  int_ref res "src/generalize.ml" 58 1788 1817 "src/generalize.ml" 58 1788 1820
+)
+"src/generalize.ml" 60 1841 1854 "src/generalize.ml" 60 1841 1867
+type(
+  paramdef list * paramref list * ('a * paramref list) list
+)
+"src/generalize.ml" 61 1869 1876 "src/generalize.ml" 61 1869 1877
+type(
+  'a
+)
+ident(
+  def n "src/generalize.ml" 62 1892 1898 "src/generalize.ml" 63 1969 2014
+)
+"src/generalize.ml" 61 1869 1879 "src/generalize.ml" 61 1869 1882
+type(
+  paramref list
+)
+ident(
+  def prs "src/generalize.ml" 62 1892 1898 "src/generalize.ml" 63 1969 2014
+)
+"src/generalize.ml" 61 1869 1876 "src/generalize.ml" 61 1869 1882
+type(
+  'a * paramref list
+)
+"src/generalize.ml" 61 1869 1885 "src/generalize.ml" 61 1869 1888
+type(
+  ('a * paramref list) list
+)
+ident(
+  def ls' "src/generalize.ml" 62 1892 1898 "src/generalize.ml" 63 1969 2014
+)
+"src/generalize.ml" 61 1869 1875 "src/generalize.ml" 61 1869 1888
+type(
+  ('a * paramref list) list
+)
+"src/generalize.ml" 62 1892 1903 "src/generalize.ml" 62 1892 1907
+type(
+  paramdef list
+)
+ident(
+  def pds' "src/generalize.ml" 63 1969 1975 "src/generalize.ml" 63 1969 2014
+)
+"src/generalize.ml" 62 1892 1909 "src/generalize.ml" 62 1892 1913
+type(
+  paramref list
+)
+ident(
+  def pfs' "src/generalize.ml" 63 1969 1975 "src/generalize.ml" 63 1969 2014
+)
+"src/generalize.ml" 62 1892 1915 "src/generalize.ml" 62 1892 1919
+type(
+  paramref list
+)
+ident(
+  def prs' "src/generalize.ml" 63 1969 1975 "src/generalize.ml" 63 1969 2014
+)
+"src/generalize.ml" 62 1892 1903 "src/generalize.ml" 62 1892 1919
+type(
+  paramdef list * paramref list * paramref list
+)
+"src/generalize.ml" 62 1892 1923 "src/generalize.ml" 62 1892 1937
+type(
+  paramref list ->
+  paramdef list ->
+  paramref list ->
+  f:(paramref ->
+     paramdef list ->
+     paramref list -> paramdef list * paramref list * paramref) ->
+  paramdef list * paramref list * paramref list
+)
+ident(
+  int_ref components_act "src/generalize.ml" 46 1423 1427 "src/generalize.ml" 46 1423 1441
+)
+"src/generalize.ml" 62 1892 1938 "src/generalize.ml" 62 1892 1941
+type(
+  paramref list
+)
+ident(
+  int_ref prs "src/generalize.ml" 61 1869 1879 "src/generalize.ml" 61 1869 1882
+)
+"src/generalize.ml" 62 1892 1942 "src/generalize.ml" 62 1892 1945
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 58 1788 1809 "src/generalize.ml" 58 1788 1812
+)
+"src/generalize.ml" 62 1892 1946 "src/generalize.ml" 62 1892 1949
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 58 1788 1813 "src/generalize.ml" 58 1788 1816
+)
+"src/generalize.ml" 62 1892 1953 "src/generalize.ml" 62 1892 1965
+type(
+  paramref ->
+  paramdef list -> paramref list -> paramdef list * paramref list * paramref
+)
+ident(
+  int_ref paramref_act "src/generalize.ml" 20 349 353 "src/generalize.ml" 20 349 365
+)
+"src/generalize.ml" 62 1892 1923 "src/generalize.ml" 62 1892 1965
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * paramref list
+)
+"src/generalize.ml" 63 1969 1975 "src/generalize.ml" 63 1969 1982
+type(
+  ('a * paramref list) list ->
+  paramdef list ->
+  paramref list ->
+  ('a * paramref list) list ->
+  paramdef list * paramref list * ('a * paramref list) list
+)
+ident(
+  int_ref wrapper "src/generalize.ml" 58 1788 1798 "src/generalize.ml" 58 1788 1805
+)
+"src/generalize.ml" 63 1969 1983 "src/generalize.ml" 63 1969 1986
+type(
+  ('a * paramref list) list
+)
+ident(
+  int_ref ls' "src/generalize.ml" 61 1869 1885 "src/generalize.ml" 61 1869 1888
+)
+"src/generalize.ml" 63 1969 1987 "src/generalize.ml" 63 1969 1991
+type(
+  paramdef list
+)
+ident(
+  int_ref pds' "src/generalize.ml" 62 1892 1903 "src/generalize.ml" 62 1892 1907
+)
+"src/generalize.ml" 63 1969 1992 "src/generalize.ml" 63 1969 1996
+type(
+  paramref list
+)
+ident(
+  int_ref pfs' "src/generalize.ml" 62 1892 1909 "src/generalize.ml" 62 1892 1913
+)
+"src/generalize.ml" 63 1969 1998 "src/generalize.ml" 63 1969 2001
+type(
+  ('a * paramref list) list
+)
+ident(
+  int_ref res "src/generalize.ml" 58 1788 1817 "src/generalize.ml" 58 1788 1820
+)
+"src/generalize.ml" 63 1969 2001 "src/generalize.ml" 63 1969 2002
+type(
+  ('a * paramref list) list ->
+  ('a * paramref list) list -> ('a * paramref list) list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"src/generalize.ml" 63 1969 2004 "src/generalize.ml" 63 1969 2005
+type(
+  'a
+)
+ident(
+  int_ref n "src/generalize.ml" 61 1869 1876 "src/generalize.ml" 61 1869 1877
+)
+"src/generalize.ml" 63 1969 2007 "src/generalize.ml" 63 1969 2011
+type(
+  paramref list
+)
+ident(
+  int_ref prs' "src/generalize.ml" 62 1892 1915 "src/generalize.ml" 62 1892 1919
+)
+"src/generalize.ml" 63 1969 2004 "src/generalize.ml" 63 1969 2011
+type(
+  'a * paramref list
+)
+"src/generalize.ml" 63 1969 2003 "src/generalize.ml" 63 1969 2012
+type(
+  ('a * paramref list) list
+)
+"src/generalize.ml" 63 1969 2002 "src/generalize.ml" 63 1969 2013
+type(
+  ('a * paramref list) list
+)
+"src/generalize.ml" 63 1969 1998 "src/generalize.ml" 63 1969 2013
+call(
+  stack
+)
+type(
+  ('a * paramref list) list
+)
+"src/generalize.ml" 63 1969 1975 "src/generalize.ml" 63 1969 2014
+call(
+  tail
+)
+type(
+  paramdef list * paramref list * ('a * paramref list) list
+)
+"src/generalize.ml" 62 1892 1898 "src/generalize.ml" 63 1969 2014
+type(
+  paramdef list * paramref list * ('a * paramref list) list
+)
+"src/generalize.ml" 59 1823 1827 "src/generalize.ml" 63 1969 2014
+type(
+  paramdef list * paramref list * ('a * paramref list) list
+)
+"src/generalize.ml" 58 1788 1817 "src/generalize.ml" 63 1969 2014
+type(
+  ('a * paramref list) list ->
+  paramdef list * paramref list * ('a * paramref list) list
+)
+"src/generalize.ml" 58 1788 1813 "src/generalize.ml" 63 1969 2014
+type(
+  paramref list ->
+  ('a * paramref list) list ->
+  paramdef list * paramref list * ('a * paramref list) list
+)
+"src/generalize.ml" 58 1788 1809 "src/generalize.ml" 63 1969 2014
+type(
+  paramdef list ->
+  paramref list ->
+  ('a * paramref list) list ->
+  paramdef list * paramref list * ('a * paramref list) list
+)
+"src/generalize.ml" 58 1788 1806 "src/generalize.ml" 63 1969 2014
+type(
+  ('a * paramref list) list ->
+  paramdef list ->
+  paramref list ->
+  ('a * paramref list) list ->
+  paramdef list * paramref list * ('a * paramref list) list
+)
+"src/generalize.ml" 65 2020 2027 "src/generalize.ml" 65 2020 2031
+type(
+  paramdef list
+)
+ident(
+  def pds' "src/generalize.ml" 66 2071 2074 "src/generalize.ml" 66 2071 2093
+)
+"src/generalize.ml" 65 2020 2033 "src/generalize.ml" 65 2020 2037
+type(
+  paramref list
+)
+ident(
+  def pfs' "src/generalize.ml" 66 2071 2074 "src/generalize.ml" 66 2071 2093
+)
+"src/generalize.ml" 65 2020 2039 "src/generalize.ml" 65 2020 2042
+type(
+  (string * paramref list) list
+)
+ident(
+  def ls' "src/generalize.ml" 66 2071 2074 "src/generalize.ml" 66 2071 2093
+)
+"src/generalize.ml" 65 2020 2027 "src/generalize.ml" 65 2020 2042
+type(
+  paramdef list * paramref list * (string * paramref list) list
+)
+"src/generalize.ml" 65 2020 2046 "src/generalize.ml" 65 2020 2053
+type(
+  (string * paramref list) list ->
+  paramdef list ->
+  paramref list ->
+  (string * paramref list) list ->
+  paramdef list * paramref list * (string * paramref list) list
+)
+ident(
+  int_ref wrapper "src/generalize.ml" 58 1788 1798 "src/generalize.ml" 58 1788 1805
+)
+"src/generalize.ml" 65 2020 2054 "src/generalize.ml" 65 2020 2056
+type(
+  (string * paramref list) list
+)
+ident(
+  int_ref ls "src/generalize.ml" 57 1756 1773 "src/generalize.ml" 57 1756 1775
+)
+"src/generalize.ml" 65 2020 2057 "src/generalize.ml" 65 2020 2060
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 57 1756 1778 "src/generalize.ml" 57 1756 1781
+)
+"src/generalize.ml" 65 2020 2061 "src/generalize.ml" 65 2020 2064
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 57 1756 1782 "src/generalize.ml" 57 1756 1785
+)
+"src/generalize.ml" 65 2020 2065 "src/generalize.ml" 65 2020 2067
+type(
+  (string * paramref list) list
+)
+"src/generalize.ml" 65 2020 2046 "src/generalize.ml" 65 2020 2067
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * (string * paramref list) list
+)
+"src/generalize.ml" 66 2071 2074 "src/generalize.ml" 66 2071 2078
+type(
+  paramdef list
+)
+ident(
+  int_ref pds' "src/generalize.ml" 65 2020 2027 "src/generalize.ml" 65 2020 2031
+)
+"src/generalize.ml" 66 2071 2080 "src/generalize.ml" 66 2071 2084
+type(
+  paramref list
+)
+ident(
+  int_ref pfs' "src/generalize.ml" 65 2020 2033 "src/generalize.ml" 65 2020 2037
+)
+"src/generalize.ml" 66 2071 2086 "src/generalize.ml" 66 2071 2089
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"src/generalize.ml" 66 2071 2090 "src/generalize.ml" 66 2071 2093
+type(
+  (string * paramref list) list
+)
+ident(
+  int_ref ls' "src/generalize.ml" 65 2020 2039 "src/generalize.ml" 65 2020 2042
+)
+"src/generalize.ml" 66 2071 2086 "src/generalize.ml" 66 2071 2093
+call(
+  stack
+)
+type(
+  var
+)
+"src/generalize.ml" 66 2071 2074 "src/generalize.ml" 66 2071 2093
+type(
+  paramdef list * paramref list * var
+)
+"src/generalize.ml" 65 2020 2022 "src/generalize.ml" 66 2071 2094
+type(
+  paramdef list * paramref list * var
+)
+"src/generalize.ml" 58 1788 1790 "src/generalize.ml" 66 2071 2094
+type(
+  paramdef list * paramref list * var
+)
+"src/generalize.ml" 57 1756 1782 "src/generalize.ml" 66 2071 2094
+type(
+  paramref list -> paramdef list * paramref list * var
+)
+"src/generalize.ml" 57 1756 1778 "src/generalize.ml" 66 2071 2094
+type(
+  paramdef list -> paramref list -> paramdef list * paramref list * var
+)
+"src/generalize.ml" 57 1756 1768 "src/generalize.ml" 66 2071 2094
+type(
+  var ->
+  paramdef list -> paramref list -> paramdef list * paramref list * var
+)
+"src/generalize.ml" 69 2115 2123 "src/generalize.ml" 69 2115 2130
+type(
+  exp ->
+  paramdef list -> paramref list -> paramdef list * paramref list * exp
+)
+ident(
+  def exp_act "src/generalize.ml" 69 2115 2115 "src/generalize.ml" 1 0 -1
+)
+"src/generalize.ml" 69 2115 2131 "src/generalize.ml" 69 2115 2132
+type(
+  exp
+)
+ident(
+  def e "src/generalize.ml" 69 2115 2133 "src/generalize.ml" 81 2489 2530
+)
+"src/generalize.ml" 69 2115 2133 "src/generalize.ml" 69 2115 2136
+type(
+  paramdef list
+)
+ident(
+  def pds "src/generalize.ml" 69 2115 2137 "src/generalize.ml" 81 2489 2530
+)
+"src/generalize.ml" 69 2115 2137 "src/generalize.ml" 69 2115 2140
+type(
+  paramref list
+)
+ident(
+  def pfs "src/generalize.ml" 70 2143 2145 "src/generalize.ml" 81 2489 2530
+)
+"src/generalize.ml" 70 2143 2151 "src/generalize.ml" 70 2143 2152
+type(
+  exp
+)
+ident(
+  int_ref e "src/generalize.ml" 69 2115 2131 "src/generalize.ml" 69 2115 2132
+)
+"src/generalize.ml" 71 2158 2168 "src/generalize.ml" 71 2158 2169
+type(
+  const
+)
+"src/generalize.ml" 71 2158 2162 "src/generalize.ml" 71 2158 2170
+type(
+  exp
+)
+"src/generalize.ml" 71 2158 2175 "src/generalize.ml" 71 2158 2178
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 69 2115 2133 "src/generalize.ml" 69 2115 2136
+)
+"src/generalize.ml" 71 2158 2180 "src/generalize.ml" 71 2158 2183
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 69 2115 2137 "src/generalize.ml" 69 2115 2140
+)
+"src/generalize.ml" 71 2158 2185 "src/generalize.ml" 71 2158 2186
+type(
+  exp
+)
+ident(
+  int_ref e "src/generalize.ml" 69 2115 2131 "src/generalize.ml" 69 2115 2132
+)
+"src/generalize.ml" 71 2158 2175 "src/generalize.ml" 71 2158 2186
+type(
+  paramdef list * paramref list * exp
+)
+"src/generalize.ml" 72 2188 2196 "src/generalize.ml" 72 2188 2197
+type(
+  var
+)
+ident(
+  def v "src/generalize.ml" 73 2202 2206 "src/generalize.ml" 74 2250 2274
+)
+"src/generalize.ml" 72 2188 2192 "src/generalize.ml" 72 2188 2198
+type(
+  exp
+)
+"src/generalize.ml" 73 2202 2211 "src/generalize.ml" 73 2202 2215
+type(
+  paramdef list
+)
+ident(
+  def pds' "src/generalize.ml" 74 2250 2255 "src/generalize.ml" 74 2250 2273
+)
+"src/generalize.ml" 73 2202 2217 "src/generalize.ml" 73 2202 2221
+type(
+  paramref list
+)
+ident(
+  def pfs' "src/generalize.ml" 74 2250 2255 "src/generalize.ml" 74 2250 2273
+)
+"src/generalize.ml" 73 2202 2223 "src/generalize.ml" 73 2202 2225
+type(
+  var
+)
+ident(
+  def v' "src/generalize.ml" 74 2250 2255 "src/generalize.ml" 74 2250 2273
+)
+"src/generalize.ml" 73 2202 2211 "src/generalize.ml" 73 2202 2225
+type(
+  paramdef list * paramref list * var
+)
+"src/generalize.ml" 73 2202 2229 "src/generalize.ml" 73 2202 2236
+type(
+  var ->
+  paramdef list -> paramref list -> paramdef list * paramref list * var
+)
+ident(
+  int_ref var_act "src/generalize.ml" 57 1756 1760 "src/generalize.ml" 57 1756 1767
+)
+"src/generalize.ml" 73 2202 2237 "src/generalize.ml" 73 2202 2238
+type(
+  var
+)
+ident(
+  int_ref v "src/generalize.ml" 72 2188 2196 "src/generalize.ml" 72 2188 2197
+)
+"src/generalize.ml" 73 2202 2239 "src/generalize.ml" 73 2202 2242
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 69 2115 2133 "src/generalize.ml" 69 2115 2136
+)
+"src/generalize.ml" 73 2202 2243 "src/generalize.ml" 73 2202 2246
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 69 2115 2137 "src/generalize.ml" 69 2115 2140
+)
+"src/generalize.ml" 73 2202 2229 "src/generalize.ml" 73 2202 2246
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * var
+)
+"src/generalize.ml" 74 2250 2255 "src/generalize.ml" 74 2250 2259
+type(
+  paramdef list
+)
+ident(
+  int_ref pds' "src/generalize.ml" 73 2202 2211 "src/generalize.ml" 73 2202 2215
+)
+"src/generalize.ml" 74 2250 2261 "src/generalize.ml" 74 2250 2265
+type(
+  paramref list
+)
+ident(
+  int_ref pfs' "src/generalize.ml" 73 2202 2217 "src/generalize.ml" 73 2202 2221
+)
+"src/generalize.ml" 74 2250 2267 "src/generalize.ml" 74 2250 2270
+type(
+  var -> exp
+)
+ident(
+  ext_ref Paramecium.var
+)
+"src/generalize.ml" 74 2250 2271 "src/generalize.ml" 74 2250 2273
+type(
+  var
+)
+ident(
+  int_ref v' "src/generalize.ml" 73 2202 2223 "src/generalize.ml" 73 2202 2225
+)
+"src/generalize.ml" 74 2250 2267 "src/generalize.ml" 74 2250 2273
+call(
+  stack
+)
+type(
+  exp
+)
+"src/generalize.ml" 74 2250 2255 "src/generalize.ml" 74 2250 2273
+type(
+  paramdef list * paramref list * exp
+)
+"src/generalize.ml" 73 2202 2206 "src/generalize.ml" 74 2250 2274
+type(
+  paramdef list * paramref list * exp
+)
+"src/generalize.ml" 75 2275 2285 "src/generalize.ml" 75 2275 2287
+type(
+  paramref
+)
+ident(
+  def pr "src/generalize.ml" 76 2292 2296 "src/generalize.ml" 77 2347 2374
+)
+"src/generalize.ml" 75 2275 2279 "src/generalize.ml" 75 2275 2288
+type(
+  exp
+)
+"src/generalize.ml" 76 2292 2301 "src/generalize.ml" 76 2292 2305
+type(
+  paramdef list
+)
+ident(
+  def pds' "src/generalize.ml" 77 2347 2352 "src/generalize.ml" 77 2347 2373
+)
+"src/generalize.ml" 76 2292 2307 "src/generalize.ml" 76 2292 2311
+type(
+  paramref list
+)
+ident(
+  def pfs' "src/generalize.ml" 77 2347 2352 "src/generalize.ml" 77 2347 2373
+)
+"src/generalize.ml" 76 2292 2313 "src/generalize.ml" 76 2292 2316
+type(
+  paramref
+)
+ident(
+  def pr' "src/generalize.ml" 77 2347 2352 "src/generalize.ml" 77 2347 2373
+)
+"src/generalize.ml" 76 2292 2301 "src/generalize.ml" 76 2292 2316
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 76 2292 2320 "src/generalize.ml" 76 2292 2332
+type(
+  paramref ->
+  paramdef list -> paramref list -> paramdef list * paramref list * paramref
+)
+ident(
+  int_ref paramref_act "src/generalize.ml" 20 349 353 "src/generalize.ml" 20 349 365
+)
+"src/generalize.ml" 76 2292 2333 "src/generalize.ml" 76 2292 2335
+type(
+  paramref
+)
+ident(
+  int_ref pr "src/generalize.ml" 75 2275 2285 "src/generalize.ml" 75 2275 2287
+)
+"src/generalize.ml" 76 2292 2336 "src/generalize.ml" 76 2292 2339
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 69 2115 2133 "src/generalize.ml" 69 2115 2136
+)
+"src/generalize.ml" 76 2292 2340 "src/generalize.ml" 76 2292 2343
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 69 2115 2137 "src/generalize.ml" 69 2115 2140
+)
+"src/generalize.ml" 76 2292 2320 "src/generalize.ml" 76 2292 2343
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * paramref
+)
+"src/generalize.ml" 77 2347 2352 "src/generalize.ml" 77 2347 2356
+type(
+  paramdef list
+)
+ident(
+  int_ref pds' "src/generalize.ml" 76 2292 2301 "src/generalize.ml" 76 2292 2305
+)
+"src/generalize.ml" 77 2347 2358 "src/generalize.ml" 77 2347 2362
+type(
+  paramref list
+)
+ident(
+  int_ref pfs' "src/generalize.ml" 76 2292 2307 "src/generalize.ml" 76 2292 2311
+)
+"src/generalize.ml" 77 2347 2364 "src/generalize.ml" 77 2347 2369
+type(
+  paramref -> exp
+)
+ident(
+  ext_ref Paramecium.param
+)
+"src/generalize.ml" 77 2347 2370 "src/generalize.ml" 77 2347 2373
+type(
+  paramref
+)
+ident(
+  int_ref pr' "src/generalize.ml" 76 2292 2313 "src/generalize.ml" 76 2292 2316
+)
+"src/generalize.ml" 77 2347 2364 "src/generalize.ml" 77 2347 2373
+call(
+  stack
+)
+type(
+  exp
+)
+"src/generalize.ml" 77 2347 2352 "src/generalize.ml" 77 2347 2373
+type(
+  paramdef list * paramref list * exp
+)
+"src/generalize.ml" 76 2292 2296 "src/generalize.ml" 77 2347 2374
+type(
+  paramdef list * paramref list * exp
+)
+"src/generalize.ml" 78 2375 2383 "src/generalize.ml" 78 2375 2384
+type(
+  string
+)
+ident(
+  def n "src/generalize.ml" 79 2393 2397 "src/generalize.ml" 80 2461 2488
+)
+"src/generalize.ml" 78 2375 2386 "src/generalize.ml" 78 2375 2388
+type(
+  exp list
+)
+ident(
+  def el "src/generalize.ml" 79 2393 2397 "src/generalize.ml" 80 2461 2488
+)
+"src/generalize.ml" 78 2375 2379 "src/generalize.ml" 78 2375 2389
+type(
+  exp
+)
+"src/generalize.ml" 79 2393 2402 "src/generalize.ml" 79 2393 2406
+type(
+  paramdef list
+)
+ident(
+  def pds' "src/generalize.ml" 80 2461 2466 "src/generalize.ml" 80 2461 2487
+)
+"src/generalize.ml" 79 2393 2408 "src/generalize.ml" 79 2393 2412
+type(
+  paramref list
+)
+ident(
+  def pfs' "src/generalize.ml" 80 2461 2466 "src/generalize.ml" 80 2461 2487
+)
+"src/generalize.ml" 79 2393 2414 "src/generalize.ml" 79 2393 2417
+type(
+  exp list
+)
+ident(
+  def el' "src/generalize.ml" 80 2461 2466 "src/generalize.ml" 80 2461 2487
+)
+"src/generalize.ml" 79 2393 2402 "src/generalize.ml" 79 2393 2417
+type(
+  paramdef list * paramref list * exp list
+)
+"src/generalize.ml" 79 2393 2421 "src/generalize.ml" 79 2393 2435
+type(
+  exp list ->
+  paramdef list ->
+  paramref list ->
+  f:(exp ->
+     paramdef list -> paramref list -> paramdef list * paramref list * exp) ->
+  paramdef list * paramref list * exp list
+)
+ident(
+  int_ref components_act "src/generalize.ml" 46 1423 1427 "src/generalize.ml" 46 1423 1441
+)
+"src/generalize.ml" 79 2393 2436 "src/generalize.ml" 79 2393 2438
+type(
+  exp list
+)
+ident(
+  int_ref el "src/generalize.ml" 78 2375 2386 "src/generalize.ml" 78 2375 2388
+)
+"src/generalize.ml" 79 2393 2439 "src/generalize.ml" 79 2393 2442
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 69 2115 2133 "src/generalize.ml" 69 2115 2136
+)
+"src/generalize.ml" 79 2393 2443 "src/generalize.ml" 79 2393 2446
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 69 2115 2137 "src/generalize.ml" 69 2115 2140
+)
+"src/generalize.ml" 79 2393 2450 "src/generalize.ml" 79 2393 2457
+type(
+  exp ->
+  paramdef list -> paramref list -> paramdef list * paramref list * exp
+)
+ident(
+  int_ref exp_act "src/generalize.ml" 69 2115 2123 "src/generalize.ml" 69 2115 2130
+)
+"src/generalize.ml" 79 2393 2421 "src/generalize.ml" 79 2393 2457
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * exp list
+)
+"src/generalize.ml" 80 2461 2466 "src/generalize.ml" 80 2461 2470
+type(
+  paramdef list
+)
+ident(
+  int_ref pds' "src/generalize.ml" 79 2393 2402 "src/generalize.ml" 79 2393 2406
+)
+"src/generalize.ml" 80 2461 2472 "src/generalize.ml" 80 2461 2476
+type(
+  paramref list
+)
+ident(
+  int_ref pfs' "src/generalize.ml" 79 2393 2408 "src/generalize.ml" 79 2393 2412
+)
+"src/generalize.ml" 80 2461 2478 "src/generalize.ml" 80 2461 2481
+type(
+  string -> exp list -> exp
+)
+ident(
+  ext_ref Paramecium.uif
+)
+"src/generalize.ml" 80 2461 2482 "src/generalize.ml" 80 2461 2483
+type(
+  string
+)
+ident(
+  int_ref n "src/generalize.ml" 78 2375 2383 "src/generalize.ml" 78 2375 2384
+)
+"src/generalize.ml" 80 2461 2484 "src/generalize.ml" 80 2461 2487
+type(
+  exp list
+)
+ident(
+  int_ref el' "src/generalize.ml" 79 2393 2414 "src/generalize.ml" 79 2393 2417
+)
+"src/generalize.ml" 80 2461 2478 "src/generalize.ml" 80 2461 2487
+call(
+  stack
+)
+type(
+  exp
+)
+"src/generalize.ml" 80 2461 2466 "src/generalize.ml" 80 2461 2487
+type(
+  paramdef list * paramref list * exp
+)
+"src/generalize.ml" 79 2393 2397 "src/generalize.ml" 80 2461 2488
+type(
+  paramdef list * paramref list * exp
+)
+"src/generalize.ml" 81 2489 2497 "src/generalize.ml" 81 2489 2498
+type(
+  formula
+)
+"src/generalize.ml" 81 2489 2500 "src/generalize.ml" 81 2489 2501
+type(
+  exp
+)
+"src/generalize.ml" 81 2489 2503 "src/generalize.ml" 81 2489 2504
+type(
+  exp
+)
+"src/generalize.ml" 81 2489 2493 "src/generalize.ml" 81 2489 2505
+type(
+  exp
+)
+"src/generalize.ml" 81 2489 2509 "src/generalize.ml" 81 2489 2514
+type(
+  exn -> paramdef list * paramref list * exp
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/generalize.ml" 81 2489 2515 "src/generalize.ml" 81 2489 2530
+type(
+  exn
+)
+"src/generalize.ml" 81 2489 2509 "src/generalize.ml" 81 2489 2530
+type(
+  paramdef list * paramref list * exp
+)
+"src/generalize.ml" 70 2143 2145 "src/generalize.ml" 81 2489 2530
+type(
+  paramdef list * paramref list * exp
+)
+"src/generalize.ml" 69 2115 2137 "src/generalize.ml" 81 2489 2530
+type(
+  paramref list -> paramdef list * paramref list * exp
+)
+"src/generalize.ml" 69 2115 2133 "src/generalize.ml" 81 2489 2530
+type(
+  paramdef list -> paramref list -> paramdef list * paramref list * exp
+)
+"src/generalize.ml" 69 2115 2131 "src/generalize.ml" 81 2489 2530
+type(
+  exp ->
+  paramdef list -> paramref list -> paramdef list * paramref list * exp
+)
+"src/generalize.ml" 84 2555 2559 "src/generalize.ml" 84 2555 2567
+type(
+  ?rename:bool -> formula -> paramdef list * paramref list * formula
+)
+ident(
+  def form_act "src/generalize.ml" 135 4508 4538 "src/generalize.ml" 1 0 -1
+)
+"src/generalize.ml" 84 2555 2577 "src/generalize.ml" 84 2555 2581
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/generalize.ml" 84 2555 2577 "src/generalize.ml" 84 2555 2581
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/generalize.ml" 84 2555 2568 "src/generalize.ml" 84 2555 2582
+type(
+  bool
+)
+"src/generalize.ml" 84 2555 2583 "src/generalize.ml" 84 2555 2584
+type(
+  formula
+)
+ident(
+  def f "src/generalize.ml" 85 2587 2589 "src/generalize.ml" 135 4508 4538
+)
+"src/generalize.ml" 85 2587 2589 "src/generalize.ml" 85 2587 2599
+type(
+  bool ref
+)
+ident(
+  int_ref rename_ref "src/generalize.ml" 13 206 210 "src/generalize.ml" 13 206 220
+)
+"src/generalize.ml" 85 2587 2603 "src/generalize.ml" 85 2587 2609
+type(
+  bool
+)
+ident(
+  int_ref rename "src/generalize.ml" 84 2555 2568 "src/generalize.ml" 84 2555 2582
+)
+"src/generalize.ml" 85 2587 2589 "src/generalize.ml" 85 2587 2609
+type(
+  unit
+)
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/generalize.ml" 86 2611 2621 "src/generalize.ml" 86 2611 2628
+type(
+  formula ->
+  paramdef list -> paramref list -> paramdef list * paramref list * formula
+)
+ident(
+  def wrapper "src/generalize.ml" 86 2611 2613 "src/generalize.ml" 135 4508 4538
+)
+"src/generalize.ml" 86 2611 2629 "src/generalize.ml" 86 2611 2630
+type(
+  formula
+)
+ident(
+  def f "src/generalize.ml" 86 2611 2631 "src/generalize.ml" 109 3446 3479
+)
+"src/generalize.ml" 86 2611 2631 "src/generalize.ml" 86 2611 2634
+type(
+  paramdef list
+)
+ident(
+  def pds "src/generalize.ml" 86 2611 2635 "src/generalize.ml" 109 3446 3479
+)
+"src/generalize.ml" 86 2611 2635 "src/generalize.ml" 86 2611 2638
+type(
+  paramref list
+)
+ident(
+  def pfs "src/generalize.ml" 87 2641 2645 "src/generalize.ml" 109 3446 3479
+)
+"src/generalize.ml" 87 2641 2651 "src/generalize.ml" 87 2641 2652
+type(
+  formula
+)
+ident(
+  int_ref f "src/generalize.ml" 86 2611 2629 "src/generalize.ml" 86 2611 2630
+)
+"src/generalize.ml" 88 2658 2664 "src/generalize.ml" 88 2658 2669
+type(
+  formula
+)
+"src/generalize.ml" 89 2670 2676 "src/generalize.ml" 89 2670 2683
+type(
+  formula
+)
+"src/generalize.ml" 88 2658 2664 "src/generalize.ml" 89 2670 2683
+type(
+  formula
+)
+"src/generalize.ml" 89 2670 2688 "src/generalize.ml" 89 2670 2691
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 86 2611 2631 "src/generalize.ml" 86 2611 2634
+)
+"src/generalize.ml" 89 2670 2693 "src/generalize.ml" 89 2670 2696
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 86 2611 2635 "src/generalize.ml" 86 2611 2638
+)
+"src/generalize.ml" 89 2670 2698 "src/generalize.ml" 89 2670 2699
+type(
+  formula
+)
+ident(
+  int_ref f "src/generalize.ml" 86 2611 2629 "src/generalize.ml" 86 2611 2630
+)
+"src/generalize.ml" 89 2670 2688 "src/generalize.ml" 89 2670 2699
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 90 2701 2711 "src/generalize.ml" 90 2701 2712
+type(
+  string
+)
+ident(
+  def n "src/generalize.ml" 91 2721 2727 "src/generalize.ml" 92 2791 2820
+)
+"src/generalize.ml" 90 2701 2714 "src/generalize.ml" 90 2701 2716
+type(
+  exp list
+)
+ident(
+  def el "src/generalize.ml" 91 2721 2727 "src/generalize.ml" 92 2791 2820
+)
+"src/generalize.ml" 90 2701 2707 "src/generalize.ml" 90 2701 2717
+type(
+  formula
+)
+"src/generalize.ml" 91 2721 2732 "src/generalize.ml" 91 2721 2736
+type(
+  paramdef list
+)
+ident(
+  def pds' "src/generalize.ml" 92 2791 2798 "src/generalize.ml" 92 2791 2819
+)
+"src/generalize.ml" 91 2721 2738 "src/generalize.ml" 91 2721 2742
+type(
+  paramref list
+)
+ident(
+  def pfs' "src/generalize.ml" 92 2791 2798 "src/generalize.ml" 92 2791 2819
+)
+"src/generalize.ml" 91 2721 2744 "src/generalize.ml" 91 2721 2747
+type(
+  exp list
+)
+ident(
+  def el' "src/generalize.ml" 92 2791 2798 "src/generalize.ml" 92 2791 2819
+)
+"src/generalize.ml" 91 2721 2732 "src/generalize.ml" 91 2721 2747
+type(
+  paramdef list * paramref list * exp list
+)
+"src/generalize.ml" 91 2721 2751 "src/generalize.ml" 91 2721 2765
+type(
+  exp list ->
+  paramdef list ->
+  paramref list ->
+  f:(exp ->
+     paramdef list -> paramref list -> paramdef list * paramref list * exp) ->
+  paramdef list * paramref list * exp list
+)
+ident(
+  int_ref components_act "src/generalize.ml" 46 1423 1427 "src/generalize.ml" 46 1423 1441
+)
+"src/generalize.ml" 91 2721 2766 "src/generalize.ml" 91 2721 2768
+type(
+  exp list
+)
+ident(
+  int_ref el "src/generalize.ml" 90 2701 2714 "src/generalize.ml" 90 2701 2716
+)
+"src/generalize.ml" 91 2721 2769 "src/generalize.ml" 91 2721 2772
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 86 2611 2631 "src/generalize.ml" 86 2611 2634
+)
+"src/generalize.ml" 91 2721 2773 "src/generalize.ml" 91 2721 2776
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 86 2611 2635 "src/generalize.ml" 86 2611 2638
+)
+"src/generalize.ml" 91 2721 2780 "src/generalize.ml" 91 2721 2787
+type(
+  exp ->
+  paramdef list -> paramref list -> paramdef list * paramref list * exp
+)
+ident(
+  int_ref exp_act "src/generalize.ml" 69 2115 2123 "src/generalize.ml" 69 2115 2130
+)
+"src/generalize.ml" 91 2721 2751 "src/generalize.ml" 91 2721 2787
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * exp list
+)
+"src/generalize.ml" 92 2791 2798 "src/generalize.ml" 92 2791 2802
+type(
+  paramdef list
+)
+ident(
+  int_ref pds' "src/generalize.ml" 91 2721 2732 "src/generalize.ml" 91 2721 2736
+)
+"src/generalize.ml" 92 2791 2804 "src/generalize.ml" 92 2791 2808
+type(
+  paramref list
+)
+ident(
+  int_ref pfs' "src/generalize.ml" 91 2721 2738 "src/generalize.ml" 91 2721 2742
+)
+"src/generalize.ml" 92 2791 2810 "src/generalize.ml" 92 2791 2813
+type(
+  string -> exp list -> formula
+)
+ident(
+  ext_ref Paramecium.uip
+)
+"src/generalize.ml" 92 2791 2814 "src/generalize.ml" 92 2791 2815
+type(
+  string
+)
+ident(
+  int_ref n "src/generalize.ml" 90 2701 2711 "src/generalize.ml" 90 2701 2712
+)
+"src/generalize.ml" 92 2791 2816 "src/generalize.ml" 92 2791 2819
+type(
+  exp list
+)
+ident(
+  int_ref el' "src/generalize.ml" 91 2721 2744 "src/generalize.ml" 91 2721 2747
+)
+"src/generalize.ml" 92 2791 2810 "src/generalize.ml" 92 2791 2819
+call(
+  stack
+)
+type(
+  formula
+)
+"src/generalize.ml" 92 2791 2798 "src/generalize.ml" 92 2791 2819
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 91 2721 2727 "src/generalize.ml" 92 2791 2820
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 93 2821 2831 "src/generalize.ml" 93 2821 2833
+type(
+  exp
+)
+ident(
+  def e1 "src/generalize.ml" 94 2842 2848 "src/generalize.ml" 96 2948 2979
+)
+"src/generalize.ml" 93 2821 2835 "src/generalize.ml" 93 2821 2837
+type(
+  exp
+)
+ident(
+  def e2 "src/generalize.ml" 94 2842 2848 "src/generalize.ml" 96 2948 2979
+)
+"src/generalize.ml" 93 2821 2827 "src/generalize.ml" 93 2821 2838
+type(
+  formula
+)
+"src/generalize.ml" 94 2842 2853 "src/generalize.ml" 94 2842 2857
+type(
+  paramdef list
+)
+ident(
+  def pds1 "src/generalize.ml" 95 2894 2900 "src/generalize.ml" 96 2948 2979
+)
+"src/generalize.ml" 94 2842 2859 "src/generalize.ml" 94 2842 2863
+type(
+  paramref list
+)
+ident(
+  def pfs1 "src/generalize.ml" 95 2894 2900 "src/generalize.ml" 96 2948 2979
+)
+"src/generalize.ml" 94 2842 2865 "src/generalize.ml" 94 2842 2868
+type(
+  exp
+)
+ident(
+  def e1' "src/generalize.ml" 95 2894 2900 "src/generalize.ml" 96 2948 2979
+)
+"src/generalize.ml" 94 2842 2853 "src/generalize.ml" 94 2842 2868
+type(
+  paramdef list * paramref list * exp
+)
+"src/generalize.ml" 94 2842 2872 "src/generalize.ml" 94 2842 2879
+type(
+  exp ->
+  paramdef list -> paramref list -> paramdef list * paramref list * exp
+)
+ident(
+  int_ref exp_act "src/generalize.ml" 69 2115 2123 "src/generalize.ml" 69 2115 2130
+)
+"src/generalize.ml" 94 2842 2880 "src/generalize.ml" 94 2842 2882
+type(
+  exp
+)
+ident(
+  int_ref e1 "src/generalize.ml" 93 2821 2831 "src/generalize.ml" 93 2821 2833
+)
+"src/generalize.ml" 94 2842 2883 "src/generalize.ml" 94 2842 2886
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 86 2611 2631 "src/generalize.ml" 86 2611 2634
+)
+"src/generalize.ml" 94 2842 2887 "src/generalize.ml" 94 2842 2890
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 86 2611 2635 "src/generalize.ml" 86 2611 2638
+)
+"src/generalize.ml" 94 2842 2872 "src/generalize.ml" 94 2842 2890
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * exp
+)
+"src/generalize.ml" 95 2894 2905 "src/generalize.ml" 95 2894 2909
+type(
+  paramdef list
+)
+ident(
+  def pds2 "src/generalize.ml" 96 2948 2955 "src/generalize.ml" 96 2948 2978
+)
+"src/generalize.ml" 95 2894 2911 "src/generalize.ml" 95 2894 2915
+type(
+  paramref list
+)
+ident(
+  def pfs2 "src/generalize.ml" 96 2948 2955 "src/generalize.ml" 96 2948 2978
+)
+"src/generalize.ml" 95 2894 2917 "src/generalize.ml" 95 2894 2920
+type(
+  exp
+)
+ident(
+  def e2' "src/generalize.ml" 96 2948 2955 "src/generalize.ml" 96 2948 2978
+)
+"src/generalize.ml" 95 2894 2905 "src/generalize.ml" 95 2894 2920
+type(
+  paramdef list * paramref list * exp
+)
+"src/generalize.ml" 95 2894 2924 "src/generalize.ml" 95 2894 2931
+type(
+  exp ->
+  paramdef list -> paramref list -> paramdef list * paramref list * exp
+)
+ident(
+  int_ref exp_act "src/generalize.ml" 69 2115 2123 "src/generalize.ml" 69 2115 2130
+)
+"src/generalize.ml" 95 2894 2932 "src/generalize.ml" 95 2894 2934
+type(
+  exp
+)
+ident(
+  int_ref e2 "src/generalize.ml" 93 2821 2835 "src/generalize.ml" 93 2821 2837
+)
+"src/generalize.ml" 95 2894 2935 "src/generalize.ml" 95 2894 2939
+type(
+  paramdef list
+)
+ident(
+  int_ref pds1 "src/generalize.ml" 94 2842 2853 "src/generalize.ml" 94 2842 2857
+)
+"src/generalize.ml" 95 2894 2940 "src/generalize.ml" 95 2894 2944
+type(
+  paramref list
+)
+ident(
+  int_ref pfs1 "src/generalize.ml" 94 2842 2859 "src/generalize.ml" 94 2842 2863
+)
+"src/generalize.ml" 95 2894 2924 "src/generalize.ml" 95 2894 2944
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * exp
+)
+"src/generalize.ml" 96 2948 2955 "src/generalize.ml" 96 2948 2959
+type(
+  paramdef list
+)
+ident(
+  int_ref pds2 "src/generalize.ml" 95 2894 2905 "src/generalize.ml" 95 2894 2909
+)
+"src/generalize.ml" 96 2948 2961 "src/generalize.ml" 96 2948 2965
+type(
+  paramref list
+)
+ident(
+  int_ref pfs2 "src/generalize.ml" 95 2894 2911 "src/generalize.ml" 95 2894 2915
+)
+"src/generalize.ml" 96 2948 2967 "src/generalize.ml" 96 2948 2970
+type(
+  exp -> exp -> formula
+)
+ident(
+  ext_ref Paramecium.eqn
+)
+"src/generalize.ml" 96 2948 2971 "src/generalize.ml" 96 2948 2974
+type(
+  exp
+)
+ident(
+  int_ref e1' "src/generalize.ml" 94 2842 2865 "src/generalize.ml" 94 2842 2868
+)
+"src/generalize.ml" 96 2948 2975 "src/generalize.ml" 96 2948 2978
+type(
+  exp
+)
+ident(
+  int_ref e2' "src/generalize.ml" 95 2894 2917 "src/generalize.ml" 95 2894 2920
+)
+"src/generalize.ml" 96 2948 2967 "src/generalize.ml" 96 2948 2978
+call(
+  stack
+)
+type(
+  formula
+)
+"src/generalize.ml" 96 2948 2955 "src/generalize.ml" 96 2948 2978
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 95 2894 2900 "src/generalize.ml" 96 2948 2979
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 94 2842 2848 "src/generalize.ml" 96 2948 2979
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 97 2980 2990 "src/generalize.ml" 97 2980 2991
+type(
+  formula
+)
+ident(
+  def f "src/generalize.ml" 98 2996 3002 "src/generalize.ml" 99 3046 3072
+)
+"src/generalize.ml" 97 2980 2986 "src/generalize.ml" 97 2980 2992
+type(
+  formula
+)
+"src/generalize.ml" 98 2996 3007 "src/generalize.ml" 98 2996 3011
+type(
+  paramdef list
+)
+ident(
+  def pds' "src/generalize.ml" 99 3046 3053 "src/generalize.ml" 99 3046 3071
+)
+"src/generalize.ml" 98 2996 3013 "src/generalize.ml" 98 2996 3017
+type(
+  paramref list
+)
+ident(
+  def pfs' "src/generalize.ml" 99 3046 3053 "src/generalize.ml" 99 3046 3071
+)
+"src/generalize.ml" 98 2996 3019 "src/generalize.ml" 98 2996 3021
+type(
+  formula
+)
+ident(
+  def f' "src/generalize.ml" 99 3046 3053 "src/generalize.ml" 99 3046 3071
+)
+"src/generalize.ml" 98 2996 3007 "src/generalize.ml" 98 2996 3021
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 98 2996 3025 "src/generalize.ml" 98 2996 3032
+type(
+  formula ->
+  paramdef list -> paramref list -> paramdef list * paramref list * formula
+)
+ident(
+  int_ref wrapper "src/generalize.ml" 86 2611 2621 "src/generalize.ml" 86 2611 2628
+)
+"src/generalize.ml" 98 2996 3033 "src/generalize.ml" 98 2996 3034
+type(
+  formula
+)
+ident(
+  int_ref f "src/generalize.ml" 97 2980 2990 "src/generalize.ml" 97 2980 2991
+)
+"src/generalize.ml" 98 2996 3035 "src/generalize.ml" 98 2996 3038
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 86 2611 2631 "src/generalize.ml" 86 2611 2634
+)
+"src/generalize.ml" 98 2996 3039 "src/generalize.ml" 98 2996 3042
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 86 2611 2635 "src/generalize.ml" 86 2611 2638
+)
+"src/generalize.ml" 98 2996 3025 "src/generalize.ml" 98 2996 3042
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 99 3046 3053 "src/generalize.ml" 99 3046 3057
+type(
+  paramdef list
+)
+ident(
+  int_ref pds' "src/generalize.ml" 98 2996 3007 "src/generalize.ml" 98 2996 3011
+)
+"src/generalize.ml" 99 3046 3059 "src/generalize.ml" 99 3046 3063
+type(
+  paramref list
+)
+ident(
+  int_ref pfs' "src/generalize.ml" 98 2996 3013 "src/generalize.ml" 98 2996 3017
+)
+"src/generalize.ml" 99 3046 3065 "src/generalize.ml" 99 3046 3068
+type(
+  formula -> formula
+)
+ident(
+  ext_ref Paramecium.neg
+)
+"src/generalize.ml" 99 3046 3069 "src/generalize.ml" 99 3046 3071
+type(
+  formula
+)
+ident(
+  int_ref f' "src/generalize.ml" 98 2996 3019 "src/generalize.ml" 98 2996 3021
+)
+"src/generalize.ml" 99 3046 3065 "src/generalize.ml" 99 3046 3071
+call(
+  stack
+)
+type(
+  formula
+)
+"src/generalize.ml" 99 3046 3053 "src/generalize.ml" 99 3046 3071
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 98 2996 3002 "src/generalize.ml" 99 3046 3072
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 100 3073 3087 "src/generalize.ml" 100 3073 3089
+type(
+  formula list
+)
+ident(
+  def fl "src/generalize.ml" 101 3094 3100 "src/generalize.ml" 102 3164 3195
+)
+"src/generalize.ml" 100 3073 3079 "src/generalize.ml" 100 3073 3090
+type(
+  formula
+)
+"src/generalize.ml" 101 3094 3105 "src/generalize.ml" 101 3094 3109
+type(
+  paramdef list
+)
+ident(
+  def pds' "src/generalize.ml" 102 3164 3171 "src/generalize.ml" 102 3164 3194
+)
+"src/generalize.ml" 101 3094 3111 "src/generalize.ml" 101 3094 3115
+type(
+  paramref list
+)
+ident(
+  def pfs' "src/generalize.ml" 102 3164 3171 "src/generalize.ml" 102 3164 3194
+)
+"src/generalize.ml" 101 3094 3117 "src/generalize.ml" 101 3094 3120
+type(
+  formula list
+)
+ident(
+  def fl' "src/generalize.ml" 102 3164 3171 "src/generalize.ml" 102 3164 3194
+)
+"src/generalize.ml" 101 3094 3105 "src/generalize.ml" 101 3094 3120
+type(
+  paramdef list * paramref list * formula list
+)
+"src/generalize.ml" 101 3094 3124 "src/generalize.ml" 101 3094 3138
+type(
+  formula list ->
+  paramdef list ->
+  paramref list ->
+  f:(formula ->
+     paramdef list ->
+     paramref list -> paramdef list * paramref list * formula) ->
+  paramdef list * paramref list * formula list
+)
+ident(
+  int_ref components_act "src/generalize.ml" 46 1423 1427 "src/generalize.ml" 46 1423 1441
+)
+"src/generalize.ml" 101 3094 3139 "src/generalize.ml" 101 3094 3141
+type(
+  formula list
+)
+ident(
+  int_ref fl "src/generalize.ml" 100 3073 3087 "src/generalize.ml" 100 3073 3089
+)
+"src/generalize.ml" 101 3094 3142 "src/generalize.ml" 101 3094 3145
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 86 2611 2631 "src/generalize.ml" 86 2611 2634
+)
+"src/generalize.ml" 101 3094 3146 "src/generalize.ml" 101 3094 3149
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 86 2611 2635 "src/generalize.ml" 86 2611 2638
+)
+"src/generalize.ml" 101 3094 3153 "src/generalize.ml" 101 3094 3160
+type(
+  formula ->
+  paramdef list -> paramref list -> paramdef list * paramref list * formula
+)
+ident(
+  int_ref wrapper "src/generalize.ml" 86 2611 2621 "src/generalize.ml" 86 2611 2628
+)
+"src/generalize.ml" 101 3094 3124 "src/generalize.ml" 101 3094 3160
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * formula list
+)
+"src/generalize.ml" 102 3164 3171 "src/generalize.ml" 102 3164 3175
+type(
+  paramdef list
+)
+ident(
+  int_ref pds' "src/generalize.ml" 101 3094 3105 "src/generalize.ml" 101 3094 3109
+)
+"src/generalize.ml" 102 3164 3177 "src/generalize.ml" 102 3164 3181
+type(
+  paramref list
+)
+ident(
+  int_ref pfs' "src/generalize.ml" 101 3094 3111 "src/generalize.ml" 101 3094 3115
+)
+"src/generalize.ml" 102 3164 3183 "src/generalize.ml" 102 3164 3190
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.andList
+)
+"src/generalize.ml" 102 3164 3191 "src/generalize.ml" 102 3164 3194
+type(
+  formula list
+)
+ident(
+  int_ref fl' "src/generalize.ml" 101 3094 3117 "src/generalize.ml" 101 3094 3120
+)
+"src/generalize.ml" 102 3164 3183 "src/generalize.ml" 102 3164 3194
+call(
+  stack
+)
+type(
+  formula
+)
+"src/generalize.ml" 102 3164 3171 "src/generalize.ml" 102 3164 3194
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 101 3094 3100 "src/generalize.ml" 102 3164 3195
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 103 3196 3209 "src/generalize.ml" 103 3196 3211
+type(
+  formula list
+)
+ident(
+  def fl "src/generalize.ml" 104 3216 3222 "src/generalize.ml" 105 3286 3316
+)
+"src/generalize.ml" 103 3196 3202 "src/generalize.ml" 103 3196 3212
+type(
+  formula
+)
+"src/generalize.ml" 104 3216 3227 "src/generalize.ml" 104 3216 3231
+type(
+  paramdef list
+)
+ident(
+  def pds' "src/generalize.ml" 105 3286 3293 "src/generalize.ml" 105 3286 3315
+)
+"src/generalize.ml" 104 3216 3233 "src/generalize.ml" 104 3216 3237
+type(
+  paramref list
+)
+ident(
+  def pfs' "src/generalize.ml" 105 3286 3293 "src/generalize.ml" 105 3286 3315
+)
+"src/generalize.ml" 104 3216 3239 "src/generalize.ml" 104 3216 3242
+type(
+  formula list
+)
+ident(
+  def fl' "src/generalize.ml" 105 3286 3293 "src/generalize.ml" 105 3286 3315
+)
+"src/generalize.ml" 104 3216 3227 "src/generalize.ml" 104 3216 3242
+type(
+  paramdef list * paramref list * formula list
+)
+"src/generalize.ml" 104 3216 3246 "src/generalize.ml" 104 3216 3260
+type(
+  formula list ->
+  paramdef list ->
+  paramref list ->
+  f:(formula ->
+     paramdef list ->
+     paramref list -> paramdef list * paramref list * formula) ->
+  paramdef list * paramref list * formula list
+)
+ident(
+  int_ref components_act "src/generalize.ml" 46 1423 1427 "src/generalize.ml" 46 1423 1441
+)
+"src/generalize.ml" 104 3216 3261 "src/generalize.ml" 104 3216 3263
+type(
+  formula list
+)
+ident(
+  int_ref fl "src/generalize.ml" 103 3196 3209 "src/generalize.ml" 103 3196 3211
+)
+"src/generalize.ml" 104 3216 3264 "src/generalize.ml" 104 3216 3267
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 86 2611 2631 "src/generalize.ml" 86 2611 2634
+)
+"src/generalize.ml" 104 3216 3268 "src/generalize.ml" 104 3216 3271
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 86 2611 2635 "src/generalize.ml" 86 2611 2638
+)
+"src/generalize.ml" 104 3216 3275 "src/generalize.ml" 104 3216 3282
+type(
+  formula ->
+  paramdef list -> paramref list -> paramdef list * paramref list * formula
+)
+ident(
+  int_ref wrapper "src/generalize.ml" 86 2611 2621 "src/generalize.ml" 86 2611 2628
+)
+"src/generalize.ml" 104 3216 3246 "src/generalize.ml" 104 3216 3282
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * formula list
+)
+"src/generalize.ml" 105 3286 3293 "src/generalize.ml" 105 3286 3297
+type(
+  paramdef list
+)
+ident(
+  int_ref pds' "src/generalize.ml" 104 3216 3227 "src/generalize.ml" 104 3216 3231
+)
+"src/generalize.ml" 105 3286 3299 "src/generalize.ml" 105 3286 3303
+type(
+  paramref list
+)
+ident(
+  int_ref pfs' "src/generalize.ml" 104 3216 3233 "src/generalize.ml" 104 3216 3237
+)
+"src/generalize.ml" 105 3286 3305 "src/generalize.ml" 105 3286 3311
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.orList
+)
+"src/generalize.ml" 105 3286 3312 "src/generalize.ml" 105 3286 3315
+type(
+  formula list
+)
+ident(
+  int_ref fl' "src/generalize.ml" 104 3216 3239 "src/generalize.ml" 104 3216 3242
+)
+"src/generalize.ml" 105 3286 3305 "src/generalize.ml" 105 3286 3315
+call(
+  stack
+)
+type(
+  formula
+)
+"src/generalize.ml" 105 3286 3293 "src/generalize.ml" 105 3286 3315
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 104 3216 3222 "src/generalize.ml" 105 3286 3316
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 106 3317 3329 "src/generalize.ml" 106 3317 3331
+type(
+  formula
+)
+ident(
+  def f1 "src/generalize.ml" 107 3340 3346 "src/generalize.ml" 109 3446 3479
+)
+"src/generalize.ml" 106 3317 3333 "src/generalize.ml" 106 3317 3335
+type(
+  formula
+)
+ident(
+  def f2 "src/generalize.ml" 107 3340 3346 "src/generalize.ml" 109 3446 3479
+)
+"src/generalize.ml" 106 3317 3323 "src/generalize.ml" 106 3317 3336
+type(
+  formula
+)
+"src/generalize.ml" 107 3340 3351 "src/generalize.ml" 107 3340 3355
+type(
+  paramdef list
+)
+ident(
+  def pds1 "src/generalize.ml" 108 3392 3398 "src/generalize.ml" 109 3446 3479
+)
+"src/generalize.ml" 107 3340 3357 "src/generalize.ml" 107 3340 3361
+type(
+  paramref list
+)
+ident(
+  def pfs1 "src/generalize.ml" 108 3392 3398 "src/generalize.ml" 109 3446 3479
+)
+"src/generalize.ml" 107 3340 3363 "src/generalize.ml" 107 3340 3366
+type(
+  formula
+)
+ident(
+  def f1' "src/generalize.ml" 108 3392 3398 "src/generalize.ml" 109 3446 3479
+)
+"src/generalize.ml" 107 3340 3351 "src/generalize.ml" 107 3340 3366
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 107 3340 3370 "src/generalize.ml" 107 3340 3377
+type(
+  formula ->
+  paramdef list -> paramref list -> paramdef list * paramref list * formula
+)
+ident(
+  int_ref wrapper "src/generalize.ml" 86 2611 2621 "src/generalize.ml" 86 2611 2628
+)
+"src/generalize.ml" 107 3340 3378 "src/generalize.ml" 107 3340 3380
+type(
+  formula
+)
+ident(
+  int_ref f1 "src/generalize.ml" 106 3317 3329 "src/generalize.ml" 106 3317 3331
+)
+"src/generalize.ml" 107 3340 3381 "src/generalize.ml" 107 3340 3384
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 86 2611 2631 "src/generalize.ml" 86 2611 2634
+)
+"src/generalize.ml" 107 3340 3385 "src/generalize.ml" 107 3340 3388
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 86 2611 2635 "src/generalize.ml" 86 2611 2638
+)
+"src/generalize.ml" 107 3340 3370 "src/generalize.ml" 107 3340 3388
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 108 3392 3403 "src/generalize.ml" 108 3392 3407
+type(
+  paramdef list
+)
+ident(
+  def pds2 "src/generalize.ml" 109 3446 3453 "src/generalize.ml" 109 3446 3478
+)
+"src/generalize.ml" 108 3392 3409 "src/generalize.ml" 108 3392 3413
+type(
+  paramref list
+)
+ident(
+  def pfs2 "src/generalize.ml" 109 3446 3453 "src/generalize.ml" 109 3446 3478
+)
+"src/generalize.ml" 108 3392 3415 "src/generalize.ml" 108 3392 3418
+type(
+  formula
+)
+ident(
+  def f2' "src/generalize.ml" 109 3446 3453 "src/generalize.ml" 109 3446 3478
+)
+"src/generalize.ml" 108 3392 3403 "src/generalize.ml" 108 3392 3418
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 108 3392 3422 "src/generalize.ml" 108 3392 3429
+type(
+  formula ->
+  paramdef list -> paramref list -> paramdef list * paramref list * formula
+)
+ident(
+  int_ref wrapper "src/generalize.ml" 86 2611 2621 "src/generalize.ml" 86 2611 2628
+)
+"src/generalize.ml" 108 3392 3430 "src/generalize.ml" 108 3392 3432
+type(
+  formula
+)
+ident(
+  int_ref f2 "src/generalize.ml" 106 3317 3333 "src/generalize.ml" 106 3317 3335
+)
+"src/generalize.ml" 108 3392 3433 "src/generalize.ml" 108 3392 3437
+type(
+  paramdef list
+)
+ident(
+  int_ref pds1 "src/generalize.ml" 107 3340 3351 "src/generalize.ml" 107 3340 3355
+)
+"src/generalize.ml" 108 3392 3438 "src/generalize.ml" 108 3392 3442
+type(
+  paramref list
+)
+ident(
+  int_ref pfs1 "src/generalize.ml" 107 3340 3357 "src/generalize.ml" 107 3340 3361
+)
+"src/generalize.ml" 108 3392 3422 "src/generalize.ml" 108 3392 3442
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 109 3446 3453 "src/generalize.ml" 109 3446 3457
+type(
+  paramdef list
+)
+ident(
+  int_ref pds2 "src/generalize.ml" 108 3392 3403 "src/generalize.ml" 108 3392 3407
+)
+"src/generalize.ml" 109 3446 3459 "src/generalize.ml" 109 3446 3463
+type(
+  paramref list
+)
+ident(
+  int_ref pfs2 "src/generalize.ml" 108 3392 3409 "src/generalize.ml" 108 3392 3413
+)
+"src/generalize.ml" 109 3446 3465 "src/generalize.ml" 109 3446 3470
+type(
+  formula -> formula -> formula
+)
+ident(
+  ext_ref Paramecium.imply
+)
+"src/generalize.ml" 109 3446 3471 "src/generalize.ml" 109 3446 3474
+type(
+  formula
+)
+ident(
+  int_ref f1' "src/generalize.ml" 107 3340 3363 "src/generalize.ml" 107 3340 3366
+)
+"src/generalize.ml" 109 3446 3475 "src/generalize.ml" 109 3446 3478
+type(
+  formula
+)
+ident(
+  int_ref f2' "src/generalize.ml" 108 3392 3415 "src/generalize.ml" 108 3392 3418
+)
+"src/generalize.ml" 109 3446 3465 "src/generalize.ml" 109 3446 3478
+call(
+  stack
+)
+type(
+  formula
+)
+"src/generalize.ml" 109 3446 3453 "src/generalize.ml" 109 3446 3478
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 108 3392 3398 "src/generalize.ml" 109 3446 3479
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 107 3340 3346 "src/generalize.ml" 109 3446 3479
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 87 2641 2645 "src/generalize.ml" 109 3446 3479
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 86 2611 2635 "src/generalize.ml" 109 3446 3479
+type(
+  paramref list -> paramdef list * paramref list * formula
+)
+"src/generalize.ml" 86 2611 2631 "src/generalize.ml" 109 3446 3479
+type(
+  paramdef list -> paramref list -> paramdef list * paramref list * formula
+)
+"src/generalize.ml" 86 2611 2629 "src/generalize.ml" 109 3446 3479
+type(
+  formula ->
+  paramdef list -> paramref list -> paramdef list * paramref list * formula
+)
+"src/generalize.ml" 111 3485 3492 "src/generalize.ml" 111 3485 3495
+type(
+  paramdef list
+)
+ident(
+  def pds "src/generalize.ml" 112 3527 3529 "src/generalize.ml" 135 4508 4538
+)
+"src/generalize.ml" 111 3485 3497 "src/generalize.ml" 111 3485 3500
+type(
+  paramref list
+)
+ident(
+  def pfs "src/generalize.ml" 112 3527 3529 "src/generalize.ml" 135 4508 4538
+)
+"src/generalize.ml" 111 3485 3502 "src/generalize.ml" 111 3485 3504
+type(
+  formula
+)
+ident(
+  def f' "src/generalize.ml" 112 3527 3529 "src/generalize.ml" 135 4508 4538
+)
+"src/generalize.ml" 111 3485 3492 "src/generalize.ml" 111 3485 3504
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 111 3485 3508 "src/generalize.ml" 111 3485 3515
+type(
+  formula ->
+  paramdef list -> paramref list -> paramdef list * paramref list * formula
+)
+ident(
+  int_ref wrapper "src/generalize.ml" 86 2611 2621 "src/generalize.ml" 86 2611 2628
+)
+"src/generalize.ml" 111 3485 3516 "src/generalize.ml" 111 3485 3517
+type(
+  formula
+)
+ident(
+  int_ref f "src/generalize.ml" 84 2555 2583 "src/generalize.ml" 84 2555 2584
+)
+"src/generalize.ml" 111 3485 3518 "src/generalize.ml" 111 3485 3520
+type(
+  paramdef list
+)
+"src/generalize.ml" 111 3485 3521 "src/generalize.ml" 111 3485 3523
+type(
+  paramref list
+)
+"src/generalize.ml" 111 3485 3508 "src/generalize.ml" 111 3485 3523
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 112 3527 3533 "src/generalize.ml" 112 3527 3543
+type(
+  paramdef list
+)
+ident(
+  def sorted_pds "src/generalize.ml" 119 3866 3868 "src/generalize.ml" 135 4508 4538
+)
+"src/generalize.ml" 113 3546 3550 "src/generalize.ml" 113 3546 3553
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/generalize.ml" 111 3485 3492 "src/generalize.ml" 111 3485 3495
+)
+"src/generalize.ml" 114 3554 3558 "src/generalize.ml" 114 3554 3560
+type(
+  paramdef list -> (paramdef list -> paramdef list) -> paramdef list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/generalize.ml" 114 3554 3561 "src/generalize.ml" 114 3554 3571
+type(
+  ?compare:(paramdef -> paramdef -> int) -> paramdef list -> paramdef list
+)
+ident(
+  ext_ref Core.Std.List.dedup
+)
+"src/generalize.ml" 114 3554 3586 "src/generalize.ml" 114 3554 3589
+type(
+  paramdef
+)
+ident(
+  def pd1 "src/generalize.ml" 114 3554 3590 "src/generalize.ml" 115 3597 3679
+)
+"src/generalize.ml" 114 3554 3590 "src/generalize.ml" 114 3554 3593
+type(
+  paramdef
+)
+ident(
+  def pd2 "src/generalize.ml" 115 3597 3603 "src/generalize.ml" 115 3597 3679
+)
+"src/generalize.ml" 115 3597 3603 "src/generalize.ml" 115 3597 3617
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Core.Std.String.compare
+)
+"src/generalize.ml" 115 3597 3619 "src/generalize.ml" 115 3597 3643
+type(
+  paramdef -> string
+)
+ident(
+  ext_ref ToStr.Debug.paramdef_act
+)
+"src/generalize.ml" 115 3597 3644 "src/generalize.ml" 115 3597 3647
+type(
+  paramdef
+)
+ident(
+  int_ref pd1 "src/generalize.ml" 114 3554 3586 "src/generalize.ml" 114 3554 3589
+)
+"src/generalize.ml" 115 3597 3619 "src/generalize.ml" 115 3597 3647
+call(
+  stack
+)
+type(
+  string
+)
+"src/generalize.ml" 115 3597 3650 "src/generalize.ml" 115 3597 3674
+type(
+  paramdef -> string
+)
+ident(
+  ext_ref ToStr.Debug.paramdef_act
+)
+"src/generalize.ml" 115 3597 3675 "src/generalize.ml" 115 3597 3678
+type(
+  paramdef
+)
+ident(
+  int_ref pd2 "src/generalize.ml" 114 3554 3590 "src/generalize.ml" 114 3554 3593
+)
+"src/generalize.ml" 115 3597 3650 "src/generalize.ml" 115 3597 3678
+call(
+  stack
+)
+type(
+  string
+)
+"src/generalize.ml" 115 3597 3603 "src/generalize.ml" 115 3597 3679
+call(
+  tail
+)
+type(
+  int
+)
+"src/generalize.ml" 114 3554 3590 "src/generalize.ml" 115 3597 3679
+type(
+  paramdef -> int
+)
+"src/generalize.ml" 114 3554 3586 "src/generalize.ml" 115 3597 3679
+type(
+  paramdef -> paramdef -> int
+)
+"src/generalize.ml" 114 3554 3561 "src/generalize.ml" 115 3597 3680
+call(
+  stack
+)
+type(
+  paramdef list -> paramdef list
+)
+"src/generalize.ml" 113 3546 3550 "src/generalize.ml" 115 3597 3680
+call(
+  stack
+)
+type(
+  paramdef list
+)
+"src/generalize.ml" 116 3681 3685 "src/generalize.ml" 116 3681 3687
+type(
+  paramdef list -> (paramdef list -> paramdef list) -> paramdef list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/generalize.ml" 116 3681 3688 "src/generalize.ml" 116 3681 3697
+type(
+  cmp:(paramdef -> paramdef -> int) -> paramdef list -> paramdef list
+)
+ident(
+  ext_ref Core.Std.List.sort
+)
+"src/generalize.ml" 116 3681 3718 "src/generalize.ml" 116 3681 3720
+type(
+  string
+)
+ident(
+  def n1 "src/generalize.ml" 116 3681 3726 "src/generalize.ml" 116 3681 3767
+)
+"src/generalize.ml" 116 3681 3722 "src/generalize.ml" 116 3681 3723
+type(
+  string
+)
+"src/generalize.ml" 116 3681 3709 "src/generalize.ml" 116 3681 3724
+type(
+  paramdef
+)
+"src/generalize.ml" 116 3681 3736 "src/generalize.ml" 116 3681 3738
+type(
+  string
+)
+ident(
+  def n2 "src/generalize.ml" 116 3681 3747 "src/generalize.ml" 116 3681 3767
+)
+"src/generalize.ml" 116 3681 3740 "src/generalize.ml" 116 3681 3741
+type(
+  string
+)
+"src/generalize.ml" 116 3681 3727 "src/generalize.ml" 116 3681 3742
+type(
+  paramdef
+)
+"src/generalize.ml" 116 3681 3747 "src/generalize.ml" 116 3681 3761
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Core.Std.String.compare
+)
+"src/generalize.ml" 116 3681 3762 "src/generalize.ml" 116 3681 3764
+type(
+  string
+)
+ident(
+  int_ref n1 "src/generalize.ml" 116 3681 3718 "src/generalize.ml" 116 3681 3720
+)
+"src/generalize.ml" 116 3681 3765 "src/generalize.ml" 116 3681 3767
+type(
+  string
+)
+ident(
+  int_ref n2 "src/generalize.ml" 116 3681 3736 "src/generalize.ml" 116 3681 3738
+)
+"src/generalize.ml" 116 3681 3747 "src/generalize.ml" 116 3681 3767
+call(
+  tail
+)
+type(
+  int
+)
+"src/generalize.ml" 116 3681 3726 "src/generalize.ml" 116 3681 3767
+type(
+  paramdef -> int
+)
+"src/generalize.ml" 116 3681 3708 "src/generalize.ml" 116 3681 3767
+type(
+  paramdef -> paramdef -> int
+)
+"src/generalize.ml" 116 3681 3688 "src/generalize.ml" 116 3681 3768
+call(
+  stack
+)
+type(
+  paramdef list -> paramdef list
+)
+"src/generalize.ml" 113 3546 3550 "src/generalize.ml" 116 3681 3768
+call(
+  stack
+)
+type(
+  paramdef list
+)
+"src/generalize.ml" 117 3769 3773 "src/generalize.ml" 117 3769 3775
+type(
+  paramdef list -> (paramdef list -> paramdef list) -> paramdef list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/generalize.ml" 117 3769 3776 "src/generalize.ml" 117 3769 3785
+type(
+  cmp:(paramdef -> paramdef -> int) -> paramdef list -> paramdef list
+)
+ident(
+  ext_ref Core.Std.List.sort
+)
+"src/generalize.ml" 117 3769 3806 "src/generalize.ml" 117 3769 3807
+type(
+  string
+)
+"src/generalize.ml" 117 3769 3809 "src/generalize.ml" 117 3769 3812
+type(
+  string
+)
+ident(
+  def tn1 "src/generalize.ml" 117 3769 3815 "src/generalize.ml" 117 3769 3859
+)
+"src/generalize.ml" 117 3769 3797 "src/generalize.ml" 117 3769 3813
+type(
+  paramdef
+)
+"src/generalize.ml" 117 3769 3825 "src/generalize.ml" 117 3769 3826
+type(
+  string
+)
+"src/generalize.ml" 117 3769 3828 "src/generalize.ml" 117 3769 3831
+type(
+  string
+)
+ident(
+  def tn2 "src/generalize.ml" 117 3769 3837 "src/generalize.ml" 117 3769 3859
+)
+"src/generalize.ml" 117 3769 3816 "src/generalize.ml" 117 3769 3832
+type(
+  paramdef
+)
+"src/generalize.ml" 117 3769 3837 "src/generalize.ml" 117 3769 3851
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Core.Std.String.compare
+)
+"src/generalize.ml" 117 3769 3852 "src/generalize.ml" 117 3769 3855
+type(
+  string
+)
+ident(
+  int_ref tn1 "src/generalize.ml" 117 3769 3809 "src/generalize.ml" 117 3769 3812
+)
+"src/generalize.ml" 117 3769 3856 "src/generalize.ml" 117 3769 3859
+type(
+  string
+)
+ident(
+  int_ref tn2 "src/generalize.ml" 117 3769 3828 "src/generalize.ml" 117 3769 3831
+)
+"src/generalize.ml" 117 3769 3837 "src/generalize.ml" 117 3769 3859
+call(
+  tail
+)
+type(
+  int
+)
+"src/generalize.ml" 117 3769 3815 "src/generalize.ml" 117 3769 3859
+type(
+  paramdef -> int
+)
+"src/generalize.ml" 117 3769 3796 "src/generalize.ml" 117 3769 3859
+type(
+  paramdef -> paramdef -> int
+)
+"src/generalize.ml" 117 3769 3776 "src/generalize.ml" 117 3769 3860
+call(
+  stack
+)
+type(
+  paramdef list -> paramdef list
+)
+"src/generalize.ml" 113 3546 3550 "src/generalize.ml" 117 3769 3860
+call(
+  stack
+)
+type(
+  paramdef list
+)
+"src/generalize.ml" 119 3866 3872 "src/generalize.ml" 119 3866 3882
+type(
+  paramref list
+)
+ident(
+  def sorted_pfs "src/generalize.ml" 135 4508 4511 "src/generalize.ml" 135 4508 4537
+)
+"src/generalize.ml" 120 3885 3889 "src/generalize.ml" 120 3885 3892
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/generalize.ml" 111 3485 3497 "src/generalize.ml" 111 3485 3500
+)
+"src/generalize.ml" 121 3893 3897 "src/generalize.ml" 121 3893 3899
+type(
+  paramref list -> (paramref list -> paramref list) -> paramref list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/generalize.ml" 121 3893 3900 "src/generalize.ml" 121 3893 3910
+type(
+  ?compare:(paramref -> paramref -> int) -> paramref list -> paramref list
+)
+ident(
+  ext_ref Core.Std.List.dedup
+)
+"src/generalize.ml" 121 3893 3925 "src/generalize.ml" 121 3893 3928
+type(
+  paramref
+)
+ident(
+  def pf1 "src/generalize.ml" 121 3893 3929 "src/generalize.ml" 122 3936 4018
+)
+"src/generalize.ml" 121 3893 3929 "src/generalize.ml" 121 3893 3932
+type(
+  paramref
+)
+ident(
+  def pf2 "src/generalize.ml" 122 3936 3942 "src/generalize.ml" 122 3936 4018
+)
+"src/generalize.ml" 122 3936 3942 "src/generalize.ml" 122 3936 3956
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Core.Std.String.compare
+)
+"src/generalize.ml" 122 3936 3958 "src/generalize.ml" 122 3936 3982
+type(
+  paramref -> string
+)
+ident(
+  ext_ref ToStr.Debug.paramref_act
+)
+"src/generalize.ml" 122 3936 3983 "src/generalize.ml" 122 3936 3986
+type(
+  paramref
+)
+ident(
+  int_ref pf1 "src/generalize.ml" 121 3893 3925 "src/generalize.ml" 121 3893 3928
+)
+"src/generalize.ml" 122 3936 3958 "src/generalize.ml" 122 3936 3986
+call(
+  stack
+)
+type(
+  string
+)
+"src/generalize.ml" 122 3936 3989 "src/generalize.ml" 122 3936 4013
+type(
+  paramref -> string
+)
+ident(
+  ext_ref ToStr.Debug.paramref_act
+)
+"src/generalize.ml" 122 3936 4014 "src/generalize.ml" 122 3936 4017
+type(
+  paramref
+)
+ident(
+  int_ref pf2 "src/generalize.ml" 121 3893 3929 "src/generalize.ml" 121 3893 3932
+)
+"src/generalize.ml" 122 3936 3989 "src/generalize.ml" 122 3936 4017
+call(
+  stack
+)
+type(
+  string
+)
+"src/generalize.ml" 122 3936 3942 "src/generalize.ml" 122 3936 4018
+call(
+  tail
+)
+type(
+  int
+)
+"src/generalize.ml" 121 3893 3929 "src/generalize.ml" 122 3936 4018
+type(
+  paramref -> int
+)
+"src/generalize.ml" 121 3893 3925 "src/generalize.ml" 122 3936 4018
+type(
+  paramref -> paramref -> int
+)
+"src/generalize.ml" 121 3893 3900 "src/generalize.ml" 122 3936 4019
+call(
+  stack
+)
+type(
+  paramref list -> paramref list
+)
+"src/generalize.ml" 120 3885 3889 "src/generalize.ml" 122 3936 4019
+call(
+  stack
+)
+type(
+  paramref list
+)
+"src/generalize.ml" 123 4020 4024 "src/generalize.ml" 123 4020 4026
+type(
+  paramref list -> (paramref list -> paramref list) -> paramref list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/generalize.ml" 123 4020 4027 "src/generalize.ml" 123 4020 4036
+type(
+  cmp:(paramref -> paramref -> int) -> paramref list -> paramref list
+)
+ident(
+  ext_ref Core.Std.List.sort
+)
+"src/generalize.ml" 123 4020 4047 "src/generalize.ml" 123 4020 4050
+type(
+  paramref
+)
+ident(
+  def pf1 "src/generalize.ml" 123 4020 4051 "src/generalize.ml" 123 4020 4112
+)
+"src/generalize.ml" 123 4020 4051 "src/generalize.ml" 123 4020 4054
+type(
+  paramref
+)
+ident(
+  def pf2 "src/generalize.ml" 123 4020 4058 "src/generalize.ml" 123 4020 4112
+)
+"src/generalize.ml" 123 4020 4058 "src/generalize.ml" 123 4020 4072
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Core.Std.String.compare
+)
+"src/generalize.ml" 123 4020 4074 "src/generalize.ml" 123 4020 4087
+type(
+  paramref -> string
+)
+ident(
+  ext_ref Paramecium.name_of_param
+)
+"src/generalize.ml" 123 4020 4088 "src/generalize.ml" 123 4020 4091
+type(
+  paramref
+)
+ident(
+  int_ref pf1 "src/generalize.ml" 123 4020 4047 "src/generalize.ml" 123 4020 4050
+)
+"src/generalize.ml" 123 4020 4074 "src/generalize.ml" 123 4020 4091
+call(
+  stack
+)
+type(
+  string
+)
+"src/generalize.ml" 123 4020 4094 "src/generalize.ml" 123 4020 4107
+type(
+  paramref -> string
+)
+ident(
+  ext_ref Paramecium.name_of_param
+)
+"src/generalize.ml" 123 4020 4108 "src/generalize.ml" 123 4020 4111
+type(
+  paramref
+)
+ident(
+  int_ref pf2 "src/generalize.ml" 123 4020 4051 "src/generalize.ml" 123 4020 4054
+)
+"src/generalize.ml" 123 4020 4094 "src/generalize.ml" 123 4020 4111
+call(
+  stack
+)
+type(
+  string
+)
+"src/generalize.ml" 123 4020 4058 "src/generalize.ml" 123 4020 4112
+call(
+  tail
+)
+type(
+  int
+)
+"src/generalize.ml" 123 4020 4051 "src/generalize.ml" 123 4020 4112
+type(
+  paramref -> int
+)
+"src/generalize.ml" 123 4020 4047 "src/generalize.ml" 123 4020 4112
+type(
+  paramref -> paramref -> int
+)
+"src/generalize.ml" 123 4020 4027 "src/generalize.ml" 123 4020 4113
+call(
+  stack
+)
+type(
+  paramref list -> paramref list
+)
+"src/generalize.ml" 120 3885 3889 "src/generalize.ml" 123 4020 4113
+call(
+  stack
+)
+type(
+  paramref list
+)
+"src/generalize.ml" 124 4114 4118 "src/generalize.ml" 124 4114 4120
+type(
+  paramref list -> (paramref list -> paramref list) -> paramref list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/generalize.ml" 124 4114 4121 "src/generalize.ml" 124 4114 4130
+type(
+  cmp:(paramref -> paramref -> int) -> paramref list -> paramref list
+)
+ident(
+  ext_ref Core.Std.List.sort
+)
+"src/generalize.ml" 124 4114 4141 "src/generalize.ml" 124 4114 4144
+type(
+  paramref
+)
+ident(
+  def pf1 "src/generalize.ml" 124 4114 4145 "src/generalize.ml" 130 4292 4346
+)
+"src/generalize.ml" 124 4114 4145 "src/generalize.ml" 124 4114 4148
+type(
+  paramref
+)
+ident(
+  def pf2 "src/generalize.ml" 125 4152 4158 "src/generalize.ml" 130 4292 4346
+)
+"src/generalize.ml" 125 4152 4162 "src/generalize.ml" 125 4152 4172
+type(
+  paramref -> string
+)
+ident(
+  def typenameof "src/generalize.ml" 130 4292 4298 "src/generalize.ml" 130 4292 4346
+)
+"src/generalize.ml" 125 4152 4173 "src/generalize.ml" 125 4152 4175
+type(
+  paramref
+)
+ident(
+  def pf "src/generalize.ml" 126 4178 4186 "src/generalize.ml" 128 4248 4282
+)
+"src/generalize.ml" 126 4178 4192 "src/generalize.ml" 126 4178 4194
+type(
+  paramref
+)
+ident(
+  int_ref pf "src/generalize.ml" 125 4152 4173 "src/generalize.ml" 125 4152 4175
+)
+"src/generalize.ml" 127 4200 4219 "src/generalize.ml" 127 4200 4220
+type(
+  string
+)
+"src/generalize.ml" 127 4200 4210 "src/generalize.ml" 127 4200 4221
+type(
+  paramref
+)
+"src/generalize.ml" 127 4200 4225 "src/generalize.ml" 127 4200 4230
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/generalize.ml" 127 4200 4231 "src/generalize.ml" 127 4200 4247
+type(
+  exn
+)
+"src/generalize.ml" 127 4200 4225 "src/generalize.ml" 127 4200 4247
+type(
+  string
+)
+"src/generalize.ml" 128 4248 4267 "src/generalize.ml" 128 4248 4268
+type(
+  string
+)
+"src/generalize.ml" 128 4248 4270 "src/generalize.ml" 128 4248 4272
+type(
+  string
+)
+ident(
+  def tn "src/generalize.ml" 128 4248 4280 "src/generalize.ml" 128 4248 4282
+)
+"src/generalize.ml" 128 4248 4274 "src/generalize.ml" 128 4248 4275
+type(
+  const
+)
+"src/generalize.ml" 128 4248 4258 "src/generalize.ml" 128 4248 4276
+type(
+  paramref
+)
+"src/generalize.ml" 128 4248 4280 "src/generalize.ml" 128 4248 4282
+type(
+  string
+)
+ident(
+  int_ref tn "src/generalize.ml" 128 4248 4270 "src/generalize.ml" 128 4248 4272
+)
+"src/generalize.ml" 126 4178 4186 "src/generalize.ml" 128 4248 4282
+type(
+  string
+)
+"src/generalize.ml" 125 4152 4173 "src/generalize.ml" 128 4248 4282
+type(
+  paramref -> string
+)
+"src/generalize.ml" 130 4292 4298 "src/generalize.ml" 130 4292 4312
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Core.Std.String.compare
+)
+"src/generalize.ml" 130 4292 4314 "src/generalize.ml" 130 4292 4324
+type(
+  paramref -> string
+)
+ident(
+  int_ref typenameof "src/generalize.ml" 125 4152 4162 "src/generalize.ml" 125 4152 4172
+)
+"src/generalize.ml" 130 4292 4325 "src/generalize.ml" 130 4292 4328
+type(
+  paramref
+)
+ident(
+  int_ref pf1 "src/generalize.ml" 124 4114 4141 "src/generalize.ml" 124 4114 4144
+)
+"src/generalize.ml" 130 4292 4314 "src/generalize.ml" 130 4292 4328
+call(
+  stack
+)
+type(
+  string
+)
+"src/generalize.ml" 130 4292 4331 "src/generalize.ml" 130 4292 4341
+type(
+  paramref -> string
+)
+ident(
+  int_ref typenameof "src/generalize.ml" 125 4152 4162 "src/generalize.ml" 125 4152 4172
+)
+"src/generalize.ml" 130 4292 4342 "src/generalize.ml" 130 4292 4345
+type(
+  paramref
+)
+ident(
+  int_ref pf2 "src/generalize.ml" 124 4114 4145 "src/generalize.ml" 124 4114 4148
+)
+"src/generalize.ml" 130 4292 4331 "src/generalize.ml" 130 4292 4345
+call(
+  stack
+)
+type(
+  string
+)
+"src/generalize.ml" 130 4292 4298 "src/generalize.ml" 130 4292 4346
+call(
+  tail
+)
+type(
+  int
+)
+"src/generalize.ml" 125 4152 4158 "src/generalize.ml" 130 4292 4346
+type(
+  int
+)
+"src/generalize.ml" 124 4114 4145 "src/generalize.ml" 130 4292 4346
+type(
+  paramref -> int
+)
+"src/generalize.ml" 124 4114 4141 "src/generalize.ml" 130 4292 4346
+type(
+  paramref -> paramref -> int
+)
+"src/generalize.ml" 124 4114 4121 "src/generalize.ml" 131 4347 4352
+call(
+  stack
+)
+type(
+  paramref list -> paramref list
+)
+"src/generalize.ml" 120 3885 3889 "src/generalize.ml" 131 4347 4352
+call(
+  stack
+)
+type(
+  paramref list
+)
+"src/generalize.ml" 135 4508 4511 "src/generalize.ml" 135 4508 4521
+type(
+  paramdef list
+)
+ident(
+  int_ref sorted_pds "src/generalize.ml" 112 3527 3533 "src/generalize.ml" 112 3527 3543
+)
+"src/generalize.ml" 135 4508 4523 "src/generalize.ml" 135 4508 4533
+type(
+  paramref list
+)
+ident(
+  int_ref sorted_pfs "src/generalize.ml" 119 3866 3872 "src/generalize.ml" 119 3866 3882
+)
+"src/generalize.ml" 135 4508 4535 "src/generalize.ml" 135 4508 4537
+type(
+  formula
+)
+ident(
+  int_ref f' "src/generalize.ml" 111 3485 3502 "src/generalize.ml" 111 3485 3504
+)
+"src/generalize.ml" 135 4508 4511 "src/generalize.ml" 135 4508 4537
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 119 3866 3868 "src/generalize.ml" 135 4508 4538
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 112 3527 3529 "src/generalize.ml" 135 4508 4538
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 111 3485 3487 "src/generalize.ml" 135 4508 4538
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 86 2611 2613 "src/generalize.ml" 135 4508 4538
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 85 2587 2589 "src/generalize.ml" 135 4508 4538
+type(
+  paramdef list * paramref list * formula
+)
+"src/generalize.ml" 84 2555 2583 "src/generalize.ml" 135 4508 4538
+type(
+  formula -> paramdef list * paramref list * formula
+)
+"src/generalize.ml" 84 2555 2568 "src/generalize.ml" 135 4508 4538
+type(
+  ?rename:bool -> formula -> paramdef list * paramref list * formula
+)
+type(
+  formula -> paramdef list * paramref list * formula
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "src/generalize.ml" 84 2555 2568 "src/generalize.ml" 135 4508 4538
+)
+type(
+  bool option
+)

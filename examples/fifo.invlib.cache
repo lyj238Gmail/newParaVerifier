@@ -1,0 +1,1 @@
+(((AndList((Eqn(Var(Arr((tail()))))(Const(Intc 15)))(Eqn(Var(Arr((empty()))))(Const(Boolc true)))))(ConcreteProp(Prop inv__1()(AndList((Eqn(Var(Arr((tail()))))(Const(Intc 15)))(Eqn(Var(Arr((empty()))))(Const(Boolc true))))))())))

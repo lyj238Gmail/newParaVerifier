@@ -1,0 +1,8138 @@
+"src/formula.ml" 16 452 456 "src/formula.ml" 16 452 468
+type(
+  ?quiet:bool -> formula -> bool
+)
+ident(
+  def is_tautology "src/formula.ml" 20 598 598 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 16 452 477 "src/formula.ml" 16 452 481
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/formula.ml" 16 452 477 "src/formula.ml" 16 452 481
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/formula.ml" 16 452 469 "src/formula.ml" 16 452 482
+type(
+  bool
+)
+"src/formula.ml" 16 452 483 "src/formula.ml" 16 452 487
+type(
+  formula
+)
+ident(
+  def form "src/formula.ml" 17 490 492 "src/formula.ml" 17 490 555
+)
+"src/formula.ml" 17 490 492 "src/formula.ml" 17 490 495
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/formula.ml" 17 490 497 "src/formula.ml" 17 490 515
+type(
+  ?quiet:bool -> string -> bool
+)
+ident(
+  ext_ref Smt.is_satisfiable
+)
+"src/formula.ml" 17 490 516 "src/formula.ml" 17 490 522
+type(
+  bool
+)
+ident(
+  int_ref quiet "src/formula.ml" 16 452 469 "src/formula.ml" 16 452 482
+)
+"src/formula.ml" 17 490 524 "src/formula.ml" 17 490 542
+type(
+  formula -> string
+)
+ident(
+  ext_ref ToStr.Smt2.form_of
+)
+"src/formula.ml" 17 490 544 "src/formula.ml" 17 490 547
+type(
+  formula -> formula
+)
+ident(
+  ext_ref Paramecium.neg
+)
+"src/formula.ml" 17 490 548 "src/formula.ml" 17 490 552
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 16 452 483 "src/formula.ml" 16 452 487
+)
+"src/formula.ml" 17 490 544 "src/formula.ml" 17 490 552
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 17 490 524 "src/formula.ml" 17 490 553
+call(
+  stack
+)
+type(
+  string
+)
+"src/formula.ml" 17 490 497 "src/formula.ml" 17 490 554
+call(
+  stack
+)
+type(
+  bool
+)
+"src/formula.ml" 17 490 492 "src/formula.ml" 17 490 555
+type(
+  bool
+)
+"src/formula.ml" 16 452 483 "src/formula.ml" 17 490 555
+type(
+  formula -> bool
+)
+"src/formula.ml" 16 452 469 "src/formula.ml" 17 490 555
+type(
+  ?quiet:bool -> formula -> bool
+)
+type(
+  formula -> bool
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "src/formula.ml" 16 452 469 "src/formula.ml" 17 490 555
+)
+type(
+  bool option
+)
+"src/formula.ml" 20 598 602 "src/formula.ml" 20 598 616
+type(
+  ?quiet:bool -> formula -> bool
+)
+ident(
+  def is_satisfiable "src/formula.ml" 23 693 693 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 20 598 625 "src/formula.ml" 20 598 629
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/formula.ml" 20 598 625 "src/formula.ml" 20 598 629
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/formula.ml" 20 598 617 "src/formula.ml" 20 598 630
+type(
+  bool
+)
+"src/formula.ml" 20 598 631 "src/formula.ml" 20 598 635
+type(
+  formula
+)
+ident(
+  def form "src/formula.ml" 21 638 640 "src/formula.ml" 21 638 691
+)
+"src/formula.ml" 21 638 640 "src/formula.ml" 21 638 658
+type(
+  ?quiet:bool -> string -> bool
+)
+ident(
+  ext_ref Smt.is_satisfiable
+)
+"src/formula.ml" 21 638 659 "src/formula.ml" 21 638 665
+type(
+  bool
+)
+ident(
+  int_ref quiet "src/formula.ml" 20 598 617 "src/formula.ml" 20 598 630
+)
+"src/formula.ml" 21 638 667 "src/formula.ml" 21 638 685
+type(
+  formula -> string
+)
+ident(
+  ext_ref ToStr.Smt2.form_of
+)
+"src/formula.ml" 21 638 686 "src/formula.ml" 21 638 690
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 20 598 631 "src/formula.ml" 20 598 635
+)
+"src/formula.ml" 21 638 667 "src/formula.ml" 21 638 690
+call(
+  stack
+)
+type(
+  string
+)
+"src/formula.ml" 21 638 640 "src/formula.ml" 21 638 691
+call(
+  tail
+)
+type(
+  bool
+)
+"src/formula.ml" 20 598 631 "src/formula.ml" 21 638 691
+type(
+  formula -> bool
+)
+"src/formula.ml" 20 598 617 "src/formula.ml" 21 638 691
+type(
+  ?quiet:bool -> formula -> bool
+)
+type(
+  formula -> bool
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "src/formula.ml" 20 598 617 "src/formula.ml" 21 638 691
+)
+type(
+  bool option
+)
+"src/formula.ml" 23 693 701 "src/formula.ml" 23 693 720
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+ident(
+  def eliminate_imply_neg "src/formula.ml" 23 693 693 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 23 693 731 "src/formula.ml" 23 693 736
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/formula.ml" 23 693 731 "src/formula.ml" 23 693 736
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/formula.ml" 23 693 721 "src/formula.ml" 23 693 737
+type(
+  bool
+)
+"src/formula.ml" 23 693 739 "src/formula.ml" 23 693 743
+type(
+  formula
+)
+ident(
+  def form "src/formula.ml" 24 746 748 "src/formula.ml" 45 1643 1714
+)
+"src/formula.ml" 24 746 754 "src/formula.ml" 24 746 758
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 23 693 739 "src/formula.ml" 23 693 743
+)
+"src/formula.ml" 25 764 768 "src/formula.ml" 25 764 773
+type(
+  formula
+)
+"src/formula.ml" 26 774 778 "src/formula.ml" 26 774 785
+type(
+  formula
+)
+"src/formula.ml" 25 764 768 "src/formula.ml" 26 774 785
+type(
+  formula
+)
+"src/formula.ml" 27 786 794 "src/formula.ml" 27 786 795
+type(
+  exp list
+)
+type(
+  string
+)
+"src/formula.ml" 27 786 790 "src/formula.ml" 27 786 796
+type(
+  formula
+)
+"src/formula.ml" 25 764 768 "src/formula.ml" 27 786 796
+type(
+  formula
+)
+"src/formula.ml" 28 797 809 "src/formula.ml" 28 797 810
+type(
+  exp list
+)
+type(
+  string
+)
+"src/formula.ml" 28 797 805 "src/formula.ml" 28 797 811
+type(
+  formula
+)
+"src/formula.ml" 28 797 801 "src/formula.ml" 28 797 812
+type(
+  formula
+)
+"src/formula.ml" 25 764 768 "src/formula.ml" 28 797 812
+type(
+  formula
+)
+"src/formula.ml" 29 813 821 "src/formula.ml" 29 813 822
+type(
+  exp
+)
+type(
+  exp
+)
+"src/formula.ml" 29 813 817 "src/formula.ml" 29 813 823
+type(
+  formula
+)
+"src/formula.ml" 25 764 768 "src/formula.ml" 29 813 823
+type(
+  formula
+)
+"src/formula.ml" 29 813 827 "src/formula.ml" 29 813 831
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 23 693 739 "src/formula.ml" 23 693 743
+)
+"src/formula.ml" 30 832 840 "src/formula.ml" 30 832 845
+type(
+  formula
+)
+"src/formula.ml" 30 832 836 "src/formula.ml" 30 832 846
+type(
+  formula
+)
+"src/formula.ml" 30 832 850 "src/formula.ml" 30 832 857
+type(
+  formula
+)
+ident(
+  ext_ref Paramecium.miracle
+)
+"src/formula.ml" 31 858 866 "src/formula.ml" 31 858 873
+type(
+  formula
+)
+"src/formula.ml" 31 858 862 "src/formula.ml" 31 858 874
+type(
+  formula
+)
+"src/formula.ml" 31 858 878 "src/formula.ml" 31 858 883
+type(
+  formula
+)
+ident(
+  ext_ref Paramecium.chaos
+)
+"src/formula.ml" 32 884 908 "src/formula.ml" 32 884 912
+type(
+  bool
+)
+"src/formula.ml" 32 884 902 "src/formula.ml" 32 884 913
+type(
+  const
+)
+"src/formula.ml" 32 884 896 "src/formula.ml" 32 884 914
+type(
+  exp
+)
+"src/formula.ml" 32 884 916 "src/formula.ml" 32 884 918
+type(
+  exp
+)
+ident(
+  def e1 "src/formula.ml" 34 961 965 "src/formula.ml" 34 961 1029
+)
+"src/formula.ml" 32 884 892 "src/formula.ml" 32 884 919
+type(
+  formula
+)
+"src/formula.ml" 32 884 888 "src/formula.ml" 32 884 920
+type(
+  formula
+)
+"src/formula.ml" 33 921 933 "src/formula.ml" 33 921 935
+type(
+  exp
+)
+ident(
+  def e1 "src/formula.ml" 34 961 965 "src/formula.ml" 34 961 1029
+)
+"src/formula.ml" 33 921 949 "src/formula.ml" 33 921 953
+type(
+  bool
+)
+"src/formula.ml" 33 921 943 "src/formula.ml" 33 921 954
+type(
+  const
+)
+"src/formula.ml" 33 921 937 "src/formula.ml" 33 921 955
+type(
+  exp
+)
+"src/formula.ml" 33 921 929 "src/formula.ml" 33 921 956
+type(
+  formula
+)
+"src/formula.ml" 33 921 925 "src/formula.ml" 33 921 957
+type(
+  formula
+)
+"src/formula.ml" 32 884 888 "src/formula.ml" 33 921 957
+type(
+  formula
+)
+"src/formula.ml" 34 961 968 "src/formula.ml" 34 961 975
+type(
+  bool
+)
+ident(
+  int_ref eli_eqn "src/formula.ml" 23 693 721 "src/formula.ml" 23 693 737
+)
+"src/formula.ml" 34 961 981 "src/formula.ml" 34 961 984
+type(
+  exp -> exp -> formula
+)
+ident(
+  ext_ref Paramecium.eqn
+)
+"src/formula.ml" 34 961 985 "src/formula.ml" 34 961 987
+type(
+  exp
+)
+ident(
+  int_ref e1 "src/formula.ml" 32 884 916 "src/formula.ml" 32 884 918
+)
+"src/formula.ml" 34 961 1001 "src/formula.ml" 34 961 1006
+type(
+  bool
+)
+"src/formula.ml" 34 961 995 "src/formula.ml" 34 961 1007
+type(
+  const
+)
+"src/formula.ml" 34 961 989 "src/formula.ml" 34 961 1008
+type(
+  exp
+)
+"src/formula.ml" 34 961 981 "src/formula.ml" 34 961 1009
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 34 961 1021 "src/formula.ml" 34 961 1025
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 23 693 739 "src/formula.ml" 23 693 743
+)
+"src/formula.ml" 34 961 965 "src/formula.ml" 34 961 1029
+type(
+  formula
+)
+"src/formula.ml" 35 1030 1054 "src/formula.ml" 35 1030 1059
+type(
+  bool
+)
+"src/formula.ml" 35 1030 1048 "src/formula.ml" 35 1030 1060
+type(
+  const
+)
+"src/formula.ml" 35 1030 1042 "src/formula.ml" 35 1030 1061
+type(
+  exp
+)
+"src/formula.ml" 35 1030 1063 "src/formula.ml" 35 1030 1065
+type(
+  exp
+)
+ident(
+  def e1 "src/formula.ml" 37 1109 1113 "src/formula.ml" 37 1109 1176
+)
+"src/formula.ml" 35 1030 1038 "src/formula.ml" 35 1030 1066
+type(
+  formula
+)
+"src/formula.ml" 35 1030 1034 "src/formula.ml" 35 1030 1067
+type(
+  formula
+)
+"src/formula.ml" 36 1068 1080 "src/formula.ml" 36 1068 1082
+type(
+  exp
+)
+ident(
+  def e1 "src/formula.ml" 37 1109 1113 "src/formula.ml" 37 1109 1176
+)
+"src/formula.ml" 36 1068 1096 "src/formula.ml" 36 1068 1101
+type(
+  bool
+)
+"src/formula.ml" 36 1068 1090 "src/formula.ml" 36 1068 1102
+type(
+  const
+)
+"src/formula.ml" 36 1068 1084 "src/formula.ml" 36 1068 1103
+type(
+  exp
+)
+"src/formula.ml" 36 1068 1076 "src/formula.ml" 36 1068 1104
+type(
+  formula
+)
+"src/formula.ml" 36 1068 1072 "src/formula.ml" 36 1068 1105
+type(
+  formula
+)
+"src/formula.ml" 35 1030 1034 "src/formula.ml" 36 1068 1105
+type(
+  formula
+)
+"src/formula.ml" 37 1109 1116 "src/formula.ml" 37 1109 1123
+type(
+  bool
+)
+ident(
+  int_ref eli_eqn "src/formula.ml" 23 693 721 "src/formula.ml" 23 693 737
+)
+"src/formula.ml" 37 1109 1129 "src/formula.ml" 37 1109 1132
+type(
+  exp -> exp -> formula
+)
+ident(
+  ext_ref Paramecium.eqn
+)
+"src/formula.ml" 37 1109 1133 "src/formula.ml" 37 1109 1135
+type(
+  exp
+)
+ident(
+  int_ref e1 "src/formula.ml" 35 1030 1063 "src/formula.ml" 35 1030 1065
+)
+"src/formula.ml" 37 1109 1149 "src/formula.ml" 37 1109 1153
+type(
+  bool
+)
+"src/formula.ml" 37 1109 1143 "src/formula.ml" 37 1109 1154
+type(
+  const
+)
+"src/formula.ml" 37 1109 1137 "src/formula.ml" 37 1109 1155
+type(
+  exp
+)
+"src/formula.ml" 37 1109 1129 "src/formula.ml" 37 1109 1156
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 37 1109 1168 "src/formula.ml" 37 1109 1172
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 23 693 739 "src/formula.ml" 23 693 743
+)
+"src/formula.ml" 37 1109 1113 "src/formula.ml" 37 1109 1176
+type(
+  formula
+)
+"src/formula.ml" 38 1177 1189 "src/formula.ml" 38 1177 1190
+type(
+  exp
+)
+type(
+  exp
+)
+"src/formula.ml" 38 1177 1185 "src/formula.ml" 38 1177 1191
+type(
+  formula
+)
+"src/formula.ml" 38 1177 1181 "src/formula.ml" 38 1177 1192
+type(
+  formula
+)
+"src/formula.ml" 38 1177 1196 "src/formula.ml" 38 1177 1200
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 23 693 739 "src/formula.ml" 23 693 743
+)
+"src/formula.ml" 39 1201 1213 "src/formula.ml" 39 1201 1214
+type(
+  formula
+)
+ident(
+  def f "src/formula.ml" 39 1201 1220 "src/formula.ml" 39 1201 1250
+)
+"src/formula.ml" 39 1201 1209 "src/formula.ml" 39 1201 1215
+type(
+  formula
+)
+"src/formula.ml" 39 1201 1205 "src/formula.ml" 39 1201 1216
+type(
+  formula
+)
+"src/formula.ml" 39 1201 1220 "src/formula.ml" 39 1201 1239
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+ident(
+  int_ref eliminate_imply_neg "src/formula.ml" 23 693 701 "src/formula.ml" 23 693 720
+)
+"src/formula.ml" 39 1201 1240 "src/formula.ml" 39 1201 1248
+type(
+  bool
+)
+ident(
+  int_ref eli_eqn "src/formula.ml" 23 693 721 "src/formula.ml" 23 693 737
+)
+"src/formula.ml" 39 1201 1249 "src/formula.ml" 39 1201 1250
+type(
+  formula
+)
+ident(
+  int_ref f "src/formula.ml" 39 1201 1213 "src/formula.ml" 39 1201 1214
+)
+"src/formula.ml" 39 1201 1220 "src/formula.ml" 39 1201 1250
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 40 1251 1267 "src/formula.ml" 40 1251 1269
+type(
+  formula list
+)
+ident(
+  def fl "src/formula.ml" 40 1251 1275 "src/formula.ml" 40 1251 1333
+)
+"src/formula.ml" 40 1251 1259 "src/formula.ml" 40 1251 1270
+type(
+  formula
+)
+"src/formula.ml" 40 1251 1255 "src/formula.ml" 40 1251 1271
+type(
+  formula
+)
+"src/formula.ml" 40 1251 1275 "src/formula.ml" 40 1251 1294
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+ident(
+  int_ref eliminate_imply_neg "src/formula.ml" 23 693 701 "src/formula.ml" 23 693 720
+)
+"src/formula.ml" 40 1251 1295 "src/formula.ml" 40 1251 1303
+type(
+  bool
+)
+ident(
+  int_ref eli_eqn "src/formula.ml" 23 693 721 "src/formula.ml" 23 693 737
+)
+"src/formula.ml" 40 1251 1305 "src/formula.ml" 40 1251 1311
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.orList
+)
+"src/formula.ml" 40 1251 1313 "src/formula.ml" 40 1251 1321
+type(
+  formula list -> f:(formula -> formula) -> formula list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 40 1251 1322 "src/formula.ml" 40 1251 1324
+type(
+  formula list
+)
+ident(
+  int_ref fl "src/formula.ml" 40 1251 1267 "src/formula.ml" 40 1251 1269
+)
+"src/formula.ml" 40 1251 1328 "src/formula.ml" 40 1251 1331
+type(
+  formula -> formula
+)
+ident(
+  ext_ref Paramecium.neg
+)
+"src/formula.ml" 40 1251 1313 "src/formula.ml" 40 1251 1331
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 40 1251 1305 "src/formula.ml" 40 1251 1332
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 40 1251 1275 "src/formula.ml" 40 1251 1333
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 41 1334 1349 "src/formula.ml" 41 1334 1351
+type(
+  formula list
+)
+ident(
+  def fl "src/formula.ml" 41 1334 1357 "src/formula.ml" 41 1334 1416
+)
+"src/formula.ml" 41 1334 1342 "src/formula.ml" 41 1334 1352
+type(
+  formula
+)
+"src/formula.ml" 41 1334 1338 "src/formula.ml" 41 1334 1353
+type(
+  formula
+)
+"src/formula.ml" 41 1334 1357 "src/formula.ml" 41 1334 1376
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+ident(
+  int_ref eliminate_imply_neg "src/formula.ml" 23 693 701 "src/formula.ml" 23 693 720
+)
+"src/formula.ml" 41 1334 1377 "src/formula.ml" 41 1334 1385
+type(
+  bool
+)
+ident(
+  int_ref eli_eqn "src/formula.ml" 23 693 721 "src/formula.ml" 23 693 737
+)
+"src/formula.ml" 41 1334 1387 "src/formula.ml" 41 1334 1394
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.andList
+)
+"src/formula.ml" 41 1334 1396 "src/formula.ml" 41 1334 1404
+type(
+  formula list -> f:(formula -> formula) -> formula list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 41 1334 1405 "src/formula.ml" 41 1334 1407
+type(
+  formula list
+)
+ident(
+  int_ref fl "src/formula.ml" 41 1334 1349 "src/formula.ml" 41 1334 1351
+)
+"src/formula.ml" 41 1334 1411 "src/formula.ml" 41 1334 1414
+type(
+  formula -> formula
+)
+ident(
+  ext_ref Paramecium.neg
+)
+"src/formula.ml" 41 1334 1396 "src/formula.ml" 41 1334 1414
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 41 1334 1387 "src/formula.ml" 41 1334 1415
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 41 1334 1357 "src/formula.ml" 41 1334 1416
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 42 1417 1431 "src/formula.ml" 42 1417 1433
+type(
+  formula
+)
+ident(
+  def f1 "src/formula.ml" 42 1417 1443 "src/formula.ml" 42 1417 1494
+)
+"src/formula.ml" 42 1417 1435 "src/formula.ml" 42 1417 1437
+type(
+  formula
+)
+ident(
+  def f2 "src/formula.ml" 42 1417 1443 "src/formula.ml" 42 1417 1494
+)
+"src/formula.ml" 42 1417 1425 "src/formula.ml" 42 1417 1438
+type(
+  formula
+)
+"src/formula.ml" 42 1417 1421 "src/formula.ml" 42 1417 1439
+type(
+  formula
+)
+"src/formula.ml" 42 1417 1443 "src/formula.ml" 42 1417 1462
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+ident(
+  int_ref eliminate_imply_neg "src/formula.ml" 23 693 701 "src/formula.ml" 23 693 720
+)
+"src/formula.ml" 42 1417 1463 "src/formula.ml" 42 1417 1471
+type(
+  bool
+)
+ident(
+  int_ref eli_eqn "src/formula.ml" 23 693 721 "src/formula.ml" 23 693 737
+)
+"src/formula.ml" 42 1417 1473 "src/formula.ml" 42 1417 1480
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.andList
+)
+"src/formula.ml" 42 1417 1482 "src/formula.ml" 42 1417 1484
+type(
+  formula
+)
+ident(
+  int_ref f1 "src/formula.ml" 42 1417 1431 "src/formula.ml" 42 1417 1433
+)
+"src/formula.ml" 42 1417 1486 "src/formula.ml" 42 1417 1489
+type(
+  formula -> formula
+)
+ident(
+  ext_ref Paramecium.neg
+)
+"src/formula.ml" 42 1417 1490 "src/formula.ml" 42 1417 1492
+type(
+  formula
+)
+ident(
+  int_ref f2 "src/formula.ml" 42 1417 1435 "src/formula.ml" 42 1417 1437
+)
+"src/formula.ml" 42 1417 1486 "src/formula.ml" 42 1417 1492
+call(
+  stack
+)
+type(
+  formula
+)
+type(
+  formula list
+)
+"src/formula.ml" 42 1417 1482 "src/formula.ml" 42 1417 1492
+type(
+  formula list
+)
+"src/formula.ml" 42 1417 1481 "src/formula.ml" 42 1417 1493
+type(
+  formula list
+)
+"src/formula.ml" 42 1417 1473 "src/formula.ml" 42 1417 1493
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 42 1417 1443 "src/formula.ml" 42 1417 1494
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 43 1495 1507 "src/formula.ml" 43 1495 1509
+type(
+  formula list
+)
+ident(
+  def fl "src/formula.ml" 43 1495 1514 "src/formula.ml" 43 1495 1569
+)
+"src/formula.ml" 43 1495 1499 "src/formula.ml" 43 1495 1510
+type(
+  formula
+)
+"src/formula.ml" 43 1495 1514 "src/formula.ml" 43 1495 1521
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.andList
+)
+"src/formula.ml" 43 1495 1523 "src/formula.ml" 43 1495 1531
+type(
+  formula list -> f:(formula -> formula) -> formula list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 43 1495 1532 "src/formula.ml" 43 1495 1534
+type(
+  formula list
+)
+ident(
+  int_ref fl "src/formula.ml" 43 1495 1507 "src/formula.ml" 43 1495 1509
+)
+"src/formula.ml" 43 1495 1539 "src/formula.ml" 43 1495 1558
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+ident(
+  int_ref eliminate_imply_neg "src/formula.ml" 23 693 701 "src/formula.ml" 23 693 720
+)
+"src/formula.ml" 43 1495 1559 "src/formula.ml" 43 1495 1567
+type(
+  bool
+)
+ident(
+  int_ref eli_eqn "src/formula.ml" 23 693 721 "src/formula.ml" 23 693 737
+)
+"src/formula.ml" 43 1495 1539 "src/formula.ml" 43 1495 1567
+call(
+  stack
+)
+type(
+  formula -> formula
+)
+"src/formula.ml" 43 1495 1523 "src/formula.ml" 43 1495 1568
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 43 1495 1514 "src/formula.ml" 43 1495 1569
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 44 1570 1581 "src/formula.ml" 44 1570 1583
+type(
+  formula list
+)
+ident(
+  def fl "src/formula.ml" 44 1570 1588 "src/formula.ml" 44 1570 1642
+)
+"src/formula.ml" 44 1570 1574 "src/formula.ml" 44 1570 1584
+type(
+  formula
+)
+"src/formula.ml" 44 1570 1588 "src/formula.ml" 44 1570 1594
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.orList
+)
+"src/formula.ml" 44 1570 1596 "src/formula.ml" 44 1570 1604
+type(
+  formula list -> f:(formula -> formula) -> formula list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 44 1570 1605 "src/formula.ml" 44 1570 1607
+type(
+  formula list
+)
+ident(
+  int_ref fl "src/formula.ml" 44 1570 1581 "src/formula.ml" 44 1570 1583
+)
+"src/formula.ml" 44 1570 1612 "src/formula.ml" 44 1570 1631
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+ident(
+  int_ref eliminate_imply_neg "src/formula.ml" 23 693 701 "src/formula.ml" 23 693 720
+)
+"src/formula.ml" 44 1570 1632 "src/formula.ml" 44 1570 1640
+type(
+  bool
+)
+ident(
+  int_ref eli_eqn "src/formula.ml" 23 693 721 "src/formula.ml" 23 693 737
+)
+"src/formula.ml" 44 1570 1612 "src/formula.ml" 44 1570 1640
+call(
+  stack
+)
+type(
+  formula -> formula
+)
+"src/formula.ml" 44 1570 1596 "src/formula.ml" 44 1570 1641
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 44 1570 1588 "src/formula.ml" 44 1570 1642
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 45 1643 1653 "src/formula.ml" 45 1643 1655
+type(
+  formula
+)
+ident(
+  def f1 "src/formula.ml" 45 1643 1664 "src/formula.ml" 45 1643 1714
+)
+"src/formula.ml" 45 1643 1657 "src/formula.ml" 45 1643 1659
+type(
+  formula
+)
+ident(
+  def f2 "src/formula.ml" 45 1643 1664 "src/formula.ml" 45 1643 1714
+)
+"src/formula.ml" 45 1643 1647 "src/formula.ml" 45 1643 1660
+type(
+  formula
+)
+"src/formula.ml" 45 1643 1664 "src/formula.ml" 45 1643 1683
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+ident(
+  int_ref eliminate_imply_neg "src/formula.ml" 23 693 701 "src/formula.ml" 23 693 720
+)
+"src/formula.ml" 45 1643 1684 "src/formula.ml" 45 1643 1692
+type(
+  bool
+)
+ident(
+  int_ref eli_eqn "src/formula.ml" 23 693 721 "src/formula.ml" 23 693 737
+)
+"src/formula.ml" 45 1643 1694 "src/formula.ml" 45 1643 1700
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.orList
+)
+"src/formula.ml" 45 1643 1702 "src/formula.ml" 45 1643 1705
+type(
+  formula -> formula
+)
+ident(
+  ext_ref Paramecium.neg
+)
+"src/formula.ml" 45 1643 1706 "src/formula.ml" 45 1643 1708
+type(
+  formula
+)
+ident(
+  int_ref f1 "src/formula.ml" 45 1643 1653 "src/formula.ml" 45 1643 1655
+)
+"src/formula.ml" 45 1643 1702 "src/formula.ml" 45 1643 1708
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 45 1643 1710 "src/formula.ml" 45 1643 1712
+type(
+  formula
+)
+ident(
+  int_ref f2 "src/formula.ml" 45 1643 1657 "src/formula.ml" 45 1643 1659
+)
+type(
+  formula list
+)
+"src/formula.ml" 45 1643 1702 "src/formula.ml" 45 1643 1712
+type(
+  formula list
+)
+"src/formula.ml" 45 1643 1701 "src/formula.ml" 45 1643 1713
+type(
+  formula list
+)
+"src/formula.ml" 45 1643 1694 "src/formula.ml" 45 1643 1713
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 45 1643 1664 "src/formula.ml" 45 1643 1714
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 24 746 748 "src/formula.ml" 45 1643 1714
+type(
+  formula
+)
+"src/formula.ml" 23 693 739 "src/formula.ml" 45 1643 1714
+type(
+  formula -> formula
+)
+"src/formula.ml" 23 693 721 "src/formula.ml" 45 1643 1714
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+type(
+  formula -> formula
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "src/formula.ml" 23 693 721 "src/formula.ml" 45 1643 1714
+)
+type(
+  bool option
+)
+"src/formula.ml" 48 1791 1795 "src/formula.ml" 48 1791 1811
+type(
+  formula -> formula list
+)
+ident(
+  def flat_and_to_list "src/formula.ml" 72 2371 2371 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 48 1791 1812 "src/formula.ml" 48 1791 1816
+type(
+  formula
+)
+ident(
+  def form "src/formula.ml" 49 1819 1821 "src/formula.ml" 67 2264 2286
+)
+"src/formula.ml" 49 1819 1825 "src/formula.ml" 49 1819 1837
+type(
+  formula
+)
+ident(
+  def no_imply_neg "src/formula.ml" 50 1868 1870 "src/formula.ml" 67 2264 2286
+)
+"src/formula.ml" 49 1819 1840 "src/formula.ml" 49 1819 1859
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+ident(
+  int_ref eliminate_imply_neg "src/formula.ml" 23 693 701 "src/formula.ml" 23 693 720
+)
+"src/formula.ml" 49 1819 1860 "src/formula.ml" 49 1819 1864
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 48 1791 1812 "src/formula.ml" 48 1791 1816
+)
+"src/formula.ml" 49 1819 1840 "src/formula.ml" 49 1819 1864
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 50 1868 1878 "src/formula.ml" 50 1868 1885
+type(
+  formula -> formula list
+)
+ident(
+  def wrapper "src/formula.ml" 50 1868 1870 "src/formula.ml" 67 2264 2286
+)
+"src/formula.ml" 50 1868 1886 "src/formula.ml" 50 1868 1890
+type(
+  formula
+)
+ident(
+  def form "src/formula.ml" 51 1893 1897 "src/formula.ml" 65 2219 2258
+)
+"src/formula.ml" 51 1893 1903 "src/formula.ml" 51 1893 1907
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 50 1868 1886 "src/formula.ml" 50 1868 1890
+)
+"src/formula.ml" 52 1913 1919 "src/formula.ml" 52 1913 1924
+type(
+  formula
+)
+"src/formula.ml" 53 1925 1931 "src/formula.ml" 53 1925 1938
+type(
+  formula
+)
+"src/formula.ml" 52 1913 1919 "src/formula.ml" 53 1925 1938
+type(
+  formula
+)
+"src/formula.ml" 54 1939 1949 "src/formula.ml" 54 1939 1950
+type(
+  exp
+)
+type(
+  exp
+)
+"src/formula.ml" 54 1939 1945 "src/formula.ml" 54 1939 1951
+type(
+  formula
+)
+"src/formula.ml" 52 1913 1919 "src/formula.ml" 54 1939 1951
+type(
+  formula
+)
+"src/formula.ml" 55 1952 1962 "src/formula.ml" 55 1952 1963
+type(
+  exp list
+)
+type(
+  string
+)
+"src/formula.ml" 55 1952 1958 "src/formula.ml" 55 1952 1964
+type(
+  formula
+)
+"src/formula.ml" 52 1913 1919 "src/formula.ml" 55 1952 1964
+type(
+  formula
+)
+"src/formula.ml" 56 1965 1979 "src/formula.ml" 56 1965 1980
+type(
+  exp list
+)
+type(
+  string
+)
+"src/formula.ml" 56 1965 1975 "src/formula.ml" 56 1965 1981
+type(
+  formula
+)
+"src/formula.ml" 56 1965 1971 "src/formula.ml" 56 1965 1982
+type(
+  formula
+)
+"src/formula.ml" 52 1913 1919 "src/formula.ml" 56 1965 1982
+type(
+  formula
+)
+"src/formula.ml" 57 1983 1997 "src/formula.ml" 57 1983 1998
+type(
+  exp
+)
+type(
+  exp
+)
+"src/formula.ml" 57 1983 1993 "src/formula.ml" 57 1983 1999
+type(
+  formula
+)
+"src/formula.ml" 57 1983 1989 "src/formula.ml" 57 1983 2000
+type(
+  formula
+)
+"src/formula.ml" 52 1913 1919 "src/formula.ml" 57 1983 2000
+type(
+  formula
+)
+"src/formula.ml" 57 1983 2005 "src/formula.ml" 57 1983 2009
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 50 1868 1886 "src/formula.ml" 50 1868 1890
+)
+type(
+  formula list
+)
+"src/formula.ml" 57 1983 2004 "src/formula.ml" 57 1983 2010
+type(
+  formula list
+)
+"src/formula.ml" 58 2011 2025 "src/formula.ml" 58 2011 2027
+type(
+  formula list
+)
+"src/formula.ml" 58 2011 2017 "src/formula.ml" 58 2011 2028
+type(
+  formula
+)
+"src/formula.ml" 58 2011 2033 "src/formula.ml" 58 2011 2038
+type(
+  formula
+)
+ident(
+  ext_ref Paramecium.chaos
+)
+type(
+  formula list
+)
+"src/formula.ml" 58 2011 2032 "src/formula.ml" 58 2011 2039
+type(
+  formula list
+)
+"src/formula.ml" 59 2040 2055 "src/formula.ml" 59 2040 2056
+type(
+  formula list
+)
+type(
+  formula
+)
+ident(
+  def f "src/formula.ml" 59 2040 2063 "src/formula.ml" 59 2040 2064
+)
+"src/formula.ml" 59 2040 2054 "src/formula.ml" 59 2040 2057
+type(
+  formula list
+)
+"src/formula.ml" 59 2040 2046 "src/formula.ml" 59 2040 2058
+type(
+  formula
+)
+"src/formula.ml" 59 2040 2063 "src/formula.ml" 59 2040 2064
+type(
+  formula
+)
+ident(
+  int_ref f "src/formula.ml" 59 2040 2055 "src/formula.ml" 59 2040 2056
+)
+type(
+  formula list
+)
+"src/formula.ml" 59 2040 2062 "src/formula.ml" 59 2040 2065
+type(
+  formula list
+)
+"src/formula.ml" 60 2066 2080 "src/formula.ml" 60 2066 2082
+type(
+  formula list
+)
+ident(
+  def fl "src/formula.ml" 60 2066 2087 "src/formula.ml" 60 2066 2123
+)
+"src/formula.ml" 60 2066 2072 "src/formula.ml" 60 2066 2083
+type(
+  formula
+)
+"src/formula.ml" 60 2066 2087 "src/formula.ml" 60 2066 2098
+type(
+  formula list list -> formula list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/formula.ml" 60 2066 2100 "src/formula.ml" 60 2066 2108
+type(
+  formula list -> f:(formula -> formula list) -> formula list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 60 2066 2109 "src/formula.ml" 60 2066 2111
+type(
+  formula list
+)
+ident(
+  int_ref fl "src/formula.ml" 60 2066 2080 "src/formula.ml" 60 2066 2082
+)
+"src/formula.ml" 60 2066 2115 "src/formula.ml" 60 2066 2122
+type(
+  formula -> formula list
+)
+ident(
+  int_ref wrapper "src/formula.ml" 50 1868 1878 "src/formula.ml" 50 1868 1885
+)
+"src/formula.ml" 60 2066 2100 "src/formula.ml" 60 2066 2122
+call(
+  stack
+)
+type(
+  formula list list
+)
+"src/formula.ml" 60 2066 2087 "src/formula.ml" 60 2066 2123
+call(
+  tail
+)
+type(
+  formula list
+)
+"src/formula.ml" 61 2124 2137 "src/formula.ml" 61 2124 2139
+type(
+  formula list
+)
+"src/formula.ml" 61 2124 2130 "src/formula.ml" 61 2124 2140
+type(
+  formula
+)
+"src/formula.ml" 61 2124 2145 "src/formula.ml" 61 2124 2152
+type(
+  formula
+)
+ident(
+  ext_ref Paramecium.miracle
+)
+type(
+  formula list
+)
+"src/formula.ml" 61 2124 2144 "src/formula.ml" 61 2124 2153
+type(
+  formula list
+)
+"src/formula.ml" 62 2154 2168 "src/formula.ml" 62 2154 2169
+type(
+  formula list
+)
+type(
+  formula
+)
+ident(
+  def f "src/formula.ml" 62 2154 2176 "src/formula.ml" 62 2154 2177
+)
+"src/formula.ml" 62 2154 2167 "src/formula.ml" 62 2154 2170
+type(
+  formula list
+)
+"src/formula.ml" 62 2154 2160 "src/formula.ml" 62 2154 2171
+type(
+  formula
+)
+"src/formula.ml" 62 2154 2176 "src/formula.ml" 62 2154 2177
+type(
+  formula
+)
+ident(
+  int_ref f "src/formula.ml" 62 2154 2168 "src/formula.ml" 62 2154 2169
+)
+type(
+  formula list
+)
+"src/formula.ml" 62 2154 2175 "src/formula.ml" 62 2154 2178
+type(
+  formula list
+)
+"src/formula.ml" 63 2179 2192 "src/formula.ml" 63 2179 2194
+type(
+  formula list
+)
+ident(
+  def fl "src/formula.ml" 63 2179 2200 "src/formula.ml" 63 2179 2204
+)
+"src/formula.ml" 63 2179 2185 "src/formula.ml" 63 2179 2195
+type(
+  formula
+)
+"src/formula.ml" 63 2179 2200 "src/formula.ml" 63 2179 2204
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 50 1868 1886 "src/formula.ml" 50 1868 1890
+)
+type(
+  formula list
+)
+"src/formula.ml" 63 2179 2199 "src/formula.ml" 63 2179 2205
+type(
+  formula list
+)
+"src/formula.ml" 64 2206 2216 "src/formula.ml" 64 2206 2217
+type(
+  formula
+)
+"src/formula.ml" 64 2206 2212 "src/formula.ml" 64 2206 2218
+type(
+  formula
+)
+"src/formula.ml" 65 2219 2231 "src/formula.ml" 65 2219 2232
+type(
+  formula
+)
+type(
+  formula
+)
+"src/formula.ml" 65 2219 2225 "src/formula.ml" 65 2219 2233
+type(
+  formula
+)
+"src/formula.ml" 64 2206 2212 "src/formula.ml" 65 2219 2233
+type(
+  formula
+)
+"src/formula.ml" 65 2219 2237 "src/formula.ml" 65 2219 2242
+type(
+  exn -> formula list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/formula.ml" 65 2219 2243 "src/formula.ml" 65 2219 2258
+type(
+  exn
+)
+"src/formula.ml" 65 2219 2237 "src/formula.ml" 65 2219 2258
+type(
+  formula list
+)
+"src/formula.ml" 51 1893 1897 "src/formula.ml" 65 2219 2258
+type(
+  formula list
+)
+"src/formula.ml" 50 1868 1886 "src/formula.ml" 65 2219 2258
+type(
+  formula -> formula list
+)
+"src/formula.ml" 67 2264 2266 "src/formula.ml" 67 2264 2273
+type(
+  formula -> formula list
+)
+ident(
+  int_ref wrapper "src/formula.ml" 50 1868 1878 "src/formula.ml" 50 1868 1885
+)
+"src/formula.ml" 67 2264 2274 "src/formula.ml" 67 2264 2286
+type(
+  formula
+)
+ident(
+  int_ref no_imply_neg "src/formula.ml" 49 1819 1825 "src/formula.ml" 49 1819 1837
+)
+"src/formula.ml" 67 2264 2266 "src/formula.ml" 67 2264 2286
+call(
+  tail
+)
+type(
+  formula list
+)
+"src/formula.ml" 50 1868 1870 "src/formula.ml" 67 2264 2286
+type(
+  formula list
+)
+"src/formula.ml" 49 1819 1821 "src/formula.ml" 67 2264 2286
+type(
+  formula list
+)
+"src/formula.ml" 48 1791 1812 "src/formula.ml" 67 2264 2286
+type(
+  formula -> formula list
+)
+"src/formula.ml" 72 2371 2375 "src/formula.ml" 72 2371 2390
+type(
+  formula -> formula
+)
+ident(
+  def flat_to_andList "src/formula.ml" 76 2507 2507 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 72 2371 2391 "src/formula.ml" 72 2371 2395
+type(
+  formula
+)
+ident(
+  def form "src/formula.ml" 73 2398 2400 "src/formula.ml" 73 2398 2431
+)
+"src/formula.ml" 73 2398 2400 "src/formula.ml" 73 2398 2407
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.andList
+)
+"src/formula.ml" 73 2398 2409 "src/formula.ml" 73 2398 2425
+type(
+  formula -> formula list
+)
+ident(
+  int_ref flat_and_to_list "src/formula.ml" 48 1791 1795 "src/formula.ml" 48 1791 1811
+)
+"src/formula.ml" 73 2398 2426 "src/formula.ml" 73 2398 2430
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 72 2371 2391 "src/formula.ml" 72 2371 2395
+)
+"src/formula.ml" 73 2398 2409 "src/formula.ml" 73 2398 2430
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 73 2398 2400 "src/formula.ml" 73 2398 2431
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 72 2371 2391 "src/formula.ml" 73 2398 2431
+type(
+  formula -> formula
+)
+"src/formula.ml" 76 2507 2511 "src/formula.ml" 76 2507 2526
+type(
+  formula -> formula list
+)
+ident(
+  def flat_or_to_list "src/formula.ml" 96 2964 2964 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 76 2507 2527 "src/formula.ml" 76 2507 2531
+type(
+  formula
+)
+ident(
+  def form "src/formula.ml" 77 2534 2536 "src/formula.ml" 91 2858 2880
+)
+"src/formula.ml" 77 2534 2540 "src/formula.ml" 77 2534 2552
+type(
+  formula
+)
+ident(
+  def no_imply_neg "src/formula.ml" 78 2583 2585 "src/formula.ml" 91 2858 2880
+)
+"src/formula.ml" 77 2534 2555 "src/formula.ml" 77 2534 2574
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+ident(
+  int_ref eliminate_imply_neg "src/formula.ml" 23 693 701 "src/formula.ml" 23 693 720
+)
+"src/formula.ml" 77 2534 2575 "src/formula.ml" 77 2534 2579
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 76 2507 2527 "src/formula.ml" 76 2507 2531
+)
+"src/formula.ml" 77 2534 2555 "src/formula.ml" 77 2534 2579
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 78 2583 2593 "src/formula.ml" 78 2583 2600
+type(
+  formula -> formula list
+)
+ident(
+  def wrapper "src/formula.ml" 78 2583 2585 "src/formula.ml" 91 2858 2880
+)
+"src/formula.ml" 78 2583 2601 "src/formula.ml" 78 2583 2605
+type(
+  formula
+)
+ident(
+  def form "src/formula.ml" 79 2608 2612 "src/formula.ml" 89 2813 2852
+)
+"src/formula.ml" 79 2608 2618 "src/formula.ml" 79 2608 2622
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 78 2583 2601 "src/formula.ml" 78 2583 2605
+)
+"src/formula.ml" 80 2628 2634 "src/formula.ml" 80 2628 2639
+type(
+  formula
+)
+"src/formula.ml" 81 2640 2646 "src/formula.ml" 81 2640 2653
+type(
+  formula
+)
+"src/formula.ml" 80 2628 2634 "src/formula.ml" 81 2640 2653
+type(
+  formula
+)
+"src/formula.ml" 82 2654 2664 "src/formula.ml" 82 2654 2665
+type(
+  exp
+)
+type(
+  exp
+)
+"src/formula.ml" 82 2654 2660 "src/formula.ml" 82 2654 2666
+type(
+  formula
+)
+"src/formula.ml" 80 2628 2634 "src/formula.ml" 82 2654 2666
+type(
+  formula
+)
+"src/formula.ml" 83 2667 2677 "src/formula.ml" 83 2667 2678
+type(
+  exp list
+)
+type(
+  string
+)
+"src/formula.ml" 83 2667 2673 "src/formula.ml" 83 2667 2679
+type(
+  formula
+)
+"src/formula.ml" 80 2628 2634 "src/formula.ml" 83 2667 2679
+type(
+  formula
+)
+"src/formula.ml" 84 2680 2694 "src/formula.ml" 84 2680 2695
+type(
+  exp list
+)
+type(
+  string
+)
+"src/formula.ml" 84 2680 2690 "src/formula.ml" 84 2680 2696
+type(
+  formula
+)
+"src/formula.ml" 84 2680 2686 "src/formula.ml" 84 2680 2697
+type(
+  formula
+)
+"src/formula.ml" 80 2628 2634 "src/formula.ml" 84 2680 2697
+type(
+  formula
+)
+"src/formula.ml" 85 2698 2712 "src/formula.ml" 85 2698 2713
+type(
+  exp
+)
+type(
+  exp
+)
+"src/formula.ml" 85 2698 2708 "src/formula.ml" 85 2698 2714
+type(
+  formula
+)
+"src/formula.ml" 85 2698 2704 "src/formula.ml" 85 2698 2715
+type(
+  formula
+)
+"src/formula.ml" 80 2628 2634 "src/formula.ml" 85 2698 2715
+type(
+  formula
+)
+"src/formula.ml" 86 2716 2730 "src/formula.ml" 86 2716 2731
+type(
+  formula list
+)
+"src/formula.ml" 86 2716 2722 "src/formula.ml" 86 2716 2732
+type(
+  formula
+)
+"src/formula.ml" 80 2628 2634 "src/formula.ml" 86 2716 2732
+type(
+  formula
+)
+"src/formula.ml" 86 2716 2737 "src/formula.ml" 86 2716 2741
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 78 2583 2601 "src/formula.ml" 78 2583 2605
+)
+type(
+  formula list
+)
+"src/formula.ml" 86 2716 2736 "src/formula.ml" 86 2716 2742
+type(
+  formula list
+)
+"src/formula.ml" 87 2743 2756 "src/formula.ml" 87 2743 2758
+type(
+  formula list
+)
+ident(
+  def fl "src/formula.ml" 87 2743 2763 "src/formula.ml" 87 2743 2799
+)
+"src/formula.ml" 87 2743 2749 "src/formula.ml" 87 2743 2759
+type(
+  formula
+)
+"src/formula.ml" 87 2743 2763 "src/formula.ml" 87 2743 2774
+type(
+  formula list list -> formula list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/formula.ml" 87 2743 2776 "src/formula.ml" 87 2743 2784
+type(
+  formula list -> f:(formula -> formula list) -> formula list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 87 2743 2785 "src/formula.ml" 87 2743 2787
+type(
+  formula list
+)
+ident(
+  int_ref fl "src/formula.ml" 87 2743 2756 "src/formula.ml" 87 2743 2758
+)
+"src/formula.ml" 87 2743 2791 "src/formula.ml" 87 2743 2798
+type(
+  formula -> formula list
+)
+ident(
+  int_ref wrapper "src/formula.ml" 78 2583 2593 "src/formula.ml" 78 2583 2600
+)
+"src/formula.ml" 87 2743 2776 "src/formula.ml" 87 2743 2798
+call(
+  stack
+)
+type(
+  formula list list
+)
+"src/formula.ml" 87 2743 2763 "src/formula.ml" 87 2743 2799
+call(
+  tail
+)
+type(
+  formula list
+)
+"src/formula.ml" 88 2800 2810 "src/formula.ml" 88 2800 2811
+type(
+  formula
+)
+"src/formula.ml" 88 2800 2806 "src/formula.ml" 88 2800 2812
+type(
+  formula
+)
+"src/formula.ml" 89 2813 2825 "src/formula.ml" 89 2813 2826
+type(
+  formula
+)
+type(
+  formula
+)
+"src/formula.ml" 89 2813 2819 "src/formula.ml" 89 2813 2827
+type(
+  formula
+)
+"src/formula.ml" 88 2800 2806 "src/formula.ml" 89 2813 2827
+type(
+  formula
+)
+"src/formula.ml" 89 2813 2831 "src/formula.ml" 89 2813 2836
+type(
+  exn -> formula list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/formula.ml" 89 2813 2837 "src/formula.ml" 89 2813 2852
+type(
+  exn
+)
+"src/formula.ml" 89 2813 2831 "src/formula.ml" 89 2813 2852
+type(
+  formula list
+)
+"src/formula.ml" 79 2608 2612 "src/formula.ml" 89 2813 2852
+type(
+  formula list
+)
+"src/formula.ml" 78 2583 2601 "src/formula.ml" 89 2813 2852
+type(
+  formula -> formula list
+)
+"src/formula.ml" 91 2858 2860 "src/formula.ml" 91 2858 2867
+type(
+  formula -> formula list
+)
+ident(
+  int_ref wrapper "src/formula.ml" 78 2583 2593 "src/formula.ml" 78 2583 2600
+)
+"src/formula.ml" 91 2858 2868 "src/formula.ml" 91 2858 2880
+type(
+  formula
+)
+ident(
+  int_ref no_imply_neg "src/formula.ml" 77 2534 2540 "src/formula.ml" 77 2534 2552
+)
+"src/formula.ml" 91 2858 2860 "src/formula.ml" 91 2858 2880
+call(
+  tail
+)
+type(
+  formula list
+)
+"src/formula.ml" 78 2583 2585 "src/formula.ml" 91 2858 2880
+type(
+  formula list
+)
+"src/formula.ml" 77 2534 2536 "src/formula.ml" 91 2858 2880
+type(
+  formula list
+)
+"src/formula.ml" 76 2507 2527 "src/formula.ml" 91 2858 2880
+type(
+  formula -> formula list
+)
+"src/formula.ml" 96 2964 2968 "src/formula.ml" 96 2964 2982
+type(
+  formula -> formula
+)
+ident(
+  def flat_to_orList "src/formula.ml" 99 3023 3023 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 96 2964 2983 "src/formula.ml" 96 2964 2987
+type(
+  formula
+)
+ident(
+  def form "src/formula.ml" 97 2990 2992 "src/formula.ml" 97 2990 3021
+)
+"src/formula.ml" 97 2990 2992 "src/formula.ml" 97 2990 2998
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.orList
+)
+"src/formula.ml" 97 2990 3000 "src/formula.ml" 97 2990 3015
+type(
+  formula -> formula list
+)
+ident(
+  int_ref flat_or_to_list "src/formula.ml" 76 2507 2511 "src/formula.ml" 76 2507 2526
+)
+"src/formula.ml" 97 2990 3016 "src/formula.ml" 97 2990 3020
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 96 2964 2983 "src/formula.ml" 96 2964 2987
+)
+"src/formula.ml" 97 2990 3000 "src/formula.ml" 97 2990 3020
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 97 2990 2992 "src/formula.ml" 97 2990 3021
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 96 2964 2983 "src/formula.ml" 97 2990 3021
+type(
+  formula -> formula
+)
+"src/formula.ml" 99 3023 3031 "src/formula.ml" 99 3023 3051
+type(
+  formula -> formula list
+)
+ident(
+  def remove_inner_andList "src/formula.ml" 99 3023 3023 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 99 3023 3052 "src/formula.ml" 99 3023 3056
+type(
+  formula
+)
+ident(
+  def form "src/formula.ml" 100 3059 3061 "src/formula.ml" 110 3321 3395
+)
+"src/formula.ml" 100 3059 3067 "src/formula.ml" 100 3059 3071
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 99 3023 3052 "src/formula.ml" 99 3023 3056
+)
+"src/formula.ml" 101 3077 3081 "src/formula.ml" 101 3077 3086
+type(
+  formula
+)
+"src/formula.ml" 102 3087 3091 "src/formula.ml" 102 3087 3098
+type(
+  formula
+)
+"src/formula.ml" 101 3077 3081 "src/formula.ml" 102 3087 3098
+type(
+  formula
+)
+"src/formula.ml" 103 3099 3107 "src/formula.ml" 103 3099 3108
+type(
+  exp
+)
+type(
+  exp
+)
+"src/formula.ml" 103 3099 3103 "src/formula.ml" 103 3099 3109
+type(
+  formula
+)
+"src/formula.ml" 101 3077 3081 "src/formula.ml" 103 3099 3109
+type(
+  formula
+)
+"src/formula.ml" 104 3110 3118 "src/formula.ml" 104 3110 3119
+type(
+  exp list
+)
+type(
+  string
+)
+"src/formula.ml" 104 3110 3114 "src/formula.ml" 104 3110 3120
+type(
+  formula
+)
+"src/formula.ml" 101 3077 3081 "src/formula.ml" 104 3110 3120
+type(
+  formula
+)
+"src/formula.ml" 105 3121 3133 "src/formula.ml" 105 3121 3134
+type(
+  exp list
+)
+type(
+  string
+)
+"src/formula.ml" 105 3121 3129 "src/formula.ml" 105 3121 3135
+type(
+  formula
+)
+"src/formula.ml" 105 3121 3125 "src/formula.ml" 105 3121 3136
+type(
+  formula
+)
+"src/formula.ml" 101 3077 3081 "src/formula.ml" 105 3121 3136
+type(
+  formula
+)
+"src/formula.ml" 106 3137 3149 "src/formula.ml" 106 3137 3150
+type(
+  exp
+)
+type(
+  exp
+)
+"src/formula.ml" 106 3137 3145 "src/formula.ml" 106 3137 3151
+type(
+  formula
+)
+"src/formula.ml" 106 3137 3141 "src/formula.ml" 106 3137 3152
+type(
+  formula
+)
+"src/formula.ml" 101 3077 3081 "src/formula.ml" 106 3137 3152
+type(
+  formula
+)
+"src/formula.ml" 106 3137 3157 "src/formula.ml" 106 3137 3161
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 99 3023 3052 "src/formula.ml" 99 3023 3056
+)
+type(
+  formula list
+)
+"src/formula.ml" 106 3137 3156 "src/formula.ml" 106 3137 3162
+type(
+  formula list
+)
+"src/formula.ml" 107 3163 3175 "src/formula.ml" 107 3163 3177
+type(
+  formula list
+)
+ident(
+  def fl "src/formula.ml" 107 3163 3182 "src/formula.ml" 107 3163 3231
+)
+"src/formula.ml" 107 3163 3167 "src/formula.ml" 107 3163 3178
+type(
+  formula
+)
+"src/formula.ml" 107 3163 3182 "src/formula.ml" 107 3163 3193
+type(
+  formula list list -> formula list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/formula.ml" 107 3163 3195 "src/formula.ml" 107 3163 3203
+type(
+  formula list -> f:(formula -> formula list) -> formula list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 107 3163 3204 "src/formula.ml" 107 3163 3206
+type(
+  formula list
+)
+ident(
+  int_ref fl "src/formula.ml" 107 3163 3175 "src/formula.ml" 107 3163 3177
+)
+"src/formula.ml" 107 3163 3210 "src/formula.ml" 107 3163 3230
+type(
+  formula -> formula list
+)
+ident(
+  int_ref remove_inner_andList "src/formula.ml" 99 3023 3031 "src/formula.ml" 99 3023 3051
+)
+"src/formula.ml" 107 3163 3195 "src/formula.ml" 107 3163 3230
+call(
+  stack
+)
+type(
+  formula list list
+)
+"src/formula.ml" 107 3163 3182 "src/formula.ml" 107 3163 3231
+call(
+  tail
+)
+type(
+  formula list
+)
+"src/formula.ml" 108 3232 3243 "src/formula.ml" 108 3232 3245
+type(
+  formula list
+)
+ident(
+  def fl "src/formula.ml" 108 3232 3251 "src/formula.ml" 108 3232 3308
+)
+"src/formula.ml" 108 3232 3236 "src/formula.ml" 108 3232 3246
+type(
+  formula
+)
+"src/formula.ml" 108 3232 3251 "src/formula.ml" 108 3232 3257
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.orList
+)
+"src/formula.ml" 108 3232 3259 "src/formula.ml" 108 3232 3270
+type(
+  formula list list -> formula list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/formula.ml" 108 3232 3272 "src/formula.ml" 108 3232 3280
+type(
+  formula list -> f:(formula -> formula list) -> formula list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 108 3232 3281 "src/formula.ml" 108 3232 3283
+type(
+  formula list
+)
+ident(
+  int_ref fl "src/formula.ml" 108 3232 3243 "src/formula.ml" 108 3232 3245
+)
+"src/formula.ml" 108 3232 3287 "src/formula.ml" 108 3232 3306
+type(
+  formula -> formula list
+)
+ident(
+  int_ref remove_inner_orList "src/formula.ml" 111 3396 3400 "src/formula.ml" 111 3396 3419
+)
+"src/formula.ml" 108 3232 3272 "src/formula.ml" 108 3232 3306
+call(
+  stack
+)
+type(
+  formula list list
+)
+"src/formula.ml" 108 3232 3259 "src/formula.ml" 108 3232 3307
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 108 3232 3251 "src/formula.ml" 108 3232 3308
+call(
+  stack
+)
+type(
+  formula
+)
+type(
+  formula list
+)
+"src/formula.ml" 108 3232 3250 "src/formula.ml" 108 3232 3309
+type(
+  formula list
+)
+"src/formula.ml" 109 3310 3318 "src/formula.ml" 109 3310 3319
+type(
+  formula
+)
+"src/formula.ml" 109 3310 3314 "src/formula.ml" 109 3310 3320
+type(
+  formula
+)
+"src/formula.ml" 110 3321 3331 "src/formula.ml" 110 3321 3332
+type(
+  formula
+)
+type(
+  formula
+)
+"src/formula.ml" 110 3321 3325 "src/formula.ml" 110 3321 3333
+type(
+  formula
+)
+"src/formula.ml" 109 3310 3314 "src/formula.ml" 110 3321 3333
+type(
+  formula
+)
+"src/formula.ml" 110 3321 3337 "src/formula.ml" 110 3321 3346
+type(
+  string -> unit
+)
+ident(
+  ext_ref Utils.Prt.error
+)
+"src/formula.ml" 110 3321 3348 "src/formula.ml" 110 3321 3366
+type(
+  ?lower:bool -> formula -> string
+)
+ident(
+  ext_ref ToStr.Smv.form_act
+)
+"src/formula.ml" 110 3321 3367 "src/formula.ml" 110 3321 3371
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 99 3023 3052 "src/formula.ml" 99 3023 3056
+)
+"src/formula.ml" 110 3321 3348 "src/formula.ml" 110 3321 3371
+call(
+  stack
+)
+type(
+  string
+)
+"src/formula.ml" 110 3321 3337 "src/formula.ml" 110 3321 3372
+call(
+  stack
+)
+type(
+  unit
+)
+"src/formula.ml" 110 3321 3374 "src/formula.ml" 110 3321 3379
+type(
+  exn -> formula list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/formula.ml" 110 3321 3380 "src/formula.ml" 110 3321 3395
+type(
+  exn
+)
+"src/formula.ml" 110 3321 3374 "src/formula.ml" 110 3321 3395
+type(
+  formula list
+)
+"src/formula.ml" 110 3321 3337 "src/formula.ml" 110 3321 3395
+type(
+  formula list
+)
+"src/formula.ml" 100 3059 3061 "src/formula.ml" 110 3321 3395
+type(
+  formula list
+)
+"src/formula.ml" 99 3023 3052 "src/formula.ml" 110 3321 3395
+type(
+  formula -> formula list
+)
+"src/formula.ml" 111 3396 3400 "src/formula.ml" 111 3396 3419
+type(
+  formula -> formula list
+)
+ident(
+  def remove_inner_orList "src/formula.ml" 99 3023 3023 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 111 3396 3420 "src/formula.ml" 111 3396 3424
+type(
+  formula
+)
+ident(
+  def form "src/formula.ml" 112 3427 3429 "src/formula.ml" 122 3690 3764
+)
+"src/formula.ml" 112 3427 3435 "src/formula.ml" 112 3427 3439
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 111 3396 3420 "src/formula.ml" 111 3396 3424
+)
+"src/formula.ml" 113 3445 3449 "src/formula.ml" 113 3445 3454
+type(
+  formula
+)
+"src/formula.ml" 114 3455 3459 "src/formula.ml" 114 3455 3466
+type(
+  formula
+)
+"src/formula.ml" 113 3445 3449 "src/formula.ml" 114 3455 3466
+type(
+  formula
+)
+"src/formula.ml" 115 3467 3475 "src/formula.ml" 115 3467 3476
+type(
+  exp
+)
+type(
+  exp
+)
+"src/formula.ml" 115 3467 3471 "src/formula.ml" 115 3467 3477
+type(
+  formula
+)
+"src/formula.ml" 113 3445 3449 "src/formula.ml" 115 3467 3477
+type(
+  formula
+)
+"src/formula.ml" 116 3478 3486 "src/formula.ml" 116 3478 3487
+type(
+  exp list
+)
+type(
+  string
+)
+"src/formula.ml" 116 3478 3482 "src/formula.ml" 116 3478 3488
+type(
+  formula
+)
+"src/formula.ml" 113 3445 3449 "src/formula.ml" 116 3478 3488
+type(
+  formula
+)
+"src/formula.ml" 117 3489 3501 "src/formula.ml" 117 3489 3502
+type(
+  exp list
+)
+type(
+  string
+)
+"src/formula.ml" 117 3489 3497 "src/formula.ml" 117 3489 3503
+type(
+  formula
+)
+"src/formula.ml" 117 3489 3493 "src/formula.ml" 117 3489 3504
+type(
+  formula
+)
+"src/formula.ml" 113 3445 3449 "src/formula.ml" 117 3489 3504
+type(
+  formula
+)
+"src/formula.ml" 118 3505 3517 "src/formula.ml" 118 3505 3518
+type(
+  exp
+)
+type(
+  exp
+)
+"src/formula.ml" 118 3505 3513 "src/formula.ml" 118 3505 3519
+type(
+  formula
+)
+"src/formula.ml" 118 3505 3509 "src/formula.ml" 118 3505 3520
+type(
+  formula
+)
+"src/formula.ml" 113 3445 3449 "src/formula.ml" 118 3505 3520
+type(
+  formula
+)
+"src/formula.ml" 118 3505 3525 "src/formula.ml" 118 3505 3529
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 111 3396 3420 "src/formula.ml" 111 3396 3424
+)
+type(
+  formula list
+)
+"src/formula.ml" 118 3505 3524 "src/formula.ml" 118 3505 3530
+type(
+  formula list
+)
+"src/formula.ml" 119 3531 3543 "src/formula.ml" 119 3531 3545
+type(
+  formula list
+)
+ident(
+  def fl "src/formula.ml" 119 3531 3551 "src/formula.ml" 119 3531 3610
+)
+"src/formula.ml" 119 3531 3535 "src/formula.ml" 119 3531 3546
+type(
+  formula
+)
+"src/formula.ml" 119 3531 3551 "src/formula.ml" 119 3531 3558
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.andList
+)
+"src/formula.ml" 119 3531 3560 "src/formula.ml" 119 3531 3571
+type(
+  formula list list -> formula list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/formula.ml" 119 3531 3573 "src/formula.ml" 119 3531 3581
+type(
+  formula list -> f:(formula -> formula list) -> formula list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 119 3531 3582 "src/formula.ml" 119 3531 3584
+type(
+  formula list
+)
+ident(
+  int_ref fl "src/formula.ml" 119 3531 3543 "src/formula.ml" 119 3531 3545
+)
+"src/formula.ml" 119 3531 3588 "src/formula.ml" 119 3531 3608
+type(
+  formula -> formula list
+)
+ident(
+  int_ref remove_inner_andList "src/formula.ml" 99 3023 3031 "src/formula.ml" 99 3023 3051
+)
+"src/formula.ml" 119 3531 3573 "src/formula.ml" 119 3531 3608
+call(
+  stack
+)
+type(
+  formula list list
+)
+"src/formula.ml" 119 3531 3560 "src/formula.ml" 119 3531 3609
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 119 3531 3551 "src/formula.ml" 119 3531 3610
+call(
+  stack
+)
+type(
+  formula
+)
+type(
+  formula list
+)
+"src/formula.ml" 119 3531 3550 "src/formula.ml" 119 3531 3611
+type(
+  formula list
+)
+"src/formula.ml" 120 3612 3623 "src/formula.ml" 120 3612 3625
+type(
+  formula list
+)
+ident(
+  def fl "src/formula.ml" 120 3612 3630 "src/formula.ml" 120 3612 3678
+)
+"src/formula.ml" 120 3612 3616 "src/formula.ml" 120 3612 3626
+type(
+  formula
+)
+"src/formula.ml" 120 3612 3630 "src/formula.ml" 120 3612 3641
+type(
+  formula list list -> formula list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/formula.ml" 120 3612 3643 "src/formula.ml" 120 3612 3651
+type(
+  formula list -> f:(formula -> formula list) -> formula list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 120 3612 3652 "src/formula.ml" 120 3612 3654
+type(
+  formula list
+)
+ident(
+  int_ref fl "src/formula.ml" 120 3612 3623 "src/formula.ml" 120 3612 3625
+)
+"src/formula.ml" 120 3612 3658 "src/formula.ml" 120 3612 3677
+type(
+  formula -> formula list
+)
+ident(
+  int_ref remove_inner_orList "src/formula.ml" 111 3396 3400 "src/formula.ml" 111 3396 3419
+)
+"src/formula.ml" 120 3612 3643 "src/formula.ml" 120 3612 3677
+call(
+  stack
+)
+type(
+  formula list list
+)
+"src/formula.ml" 120 3612 3630 "src/formula.ml" 120 3612 3678
+call(
+  tail
+)
+type(
+  formula list
+)
+"src/formula.ml" 121 3679 3687 "src/formula.ml" 121 3679 3688
+type(
+  formula
+)
+"src/formula.ml" 121 3679 3683 "src/formula.ml" 121 3679 3689
+type(
+  formula
+)
+"src/formula.ml" 122 3690 3700 "src/formula.ml" 122 3690 3701
+type(
+  formula
+)
+type(
+  formula
+)
+"src/formula.ml" 122 3690 3694 "src/formula.ml" 122 3690 3702
+type(
+  formula
+)
+"src/formula.ml" 121 3679 3683 "src/formula.ml" 122 3690 3702
+type(
+  formula
+)
+"src/formula.ml" 122 3690 3706 "src/formula.ml" 122 3690 3715
+type(
+  string -> unit
+)
+ident(
+  ext_ref Utils.Prt.error
+)
+"src/formula.ml" 122 3690 3717 "src/formula.ml" 122 3690 3735
+type(
+  ?lower:bool -> formula -> string
+)
+ident(
+  ext_ref ToStr.Smv.form_act
+)
+"src/formula.ml" 122 3690 3736 "src/formula.ml" 122 3690 3740
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 111 3396 3420 "src/formula.ml" 111 3396 3424
+)
+"src/formula.ml" 122 3690 3717 "src/formula.ml" 122 3690 3740
+call(
+  stack
+)
+type(
+  string
+)
+"src/formula.ml" 122 3690 3706 "src/formula.ml" 122 3690 3741
+call(
+  stack
+)
+type(
+  unit
+)
+"src/formula.ml" 122 3690 3743 "src/formula.ml" 122 3690 3748
+type(
+  exn -> formula list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/formula.ml" 122 3690 3749 "src/formula.ml" 122 3690 3764
+type(
+  exn
+)
+"src/formula.ml" 122 3690 3743 "src/formula.ml" 122 3690 3764
+type(
+  formula list
+)
+"src/formula.ml" 122 3690 3706 "src/formula.ml" 122 3690 3764
+type(
+  formula list
+)
+"src/formula.ml" 112 3427 3429 "src/formula.ml" 122 3690 3764
+type(
+  formula list
+)
+"src/formula.ml" 111 3396 3420 "src/formula.ml" 122 3690 3764
+type(
+  formula -> formula list
+)
+"src/formula.ml" 125 3767 3775 "src/formula.ml" 125 3767 3786
+type(
+  formula list -> formula list
+)
+ident(
+  def forms_dedup "src/formula.ml" 125 3767 3767 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 125 3767 3787 "src/formula.ml" 125 3767 3792
+type(
+  formula list
+)
+ident(
+  def forms "src/formula.ml" 126 3795 3797 "src/formula.ml" 138 4171 4207
+)
+"src/formula.ml" 126 3795 3801 "src/formula.ml" 126 3795 3807
+type(
+  formula list
+)
+ident(
+  def forms' "src/formula.ml" 127 3837 3839 "src/formula.ml" 138 4171 4207
+)
+"src/formula.ml" 126 3795 3810 "src/formula.ml" 126 3795 3818
+type(
+  formula list -> f:(formula -> formula) -> formula list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 126 3795 3819 "src/formula.ml" 126 3795 3824
+type(
+  formula list
+)
+ident(
+  int_ref forms "src/formula.ml" 125 3767 3787 "src/formula.ml" 125 3767 3792
+)
+"src/formula.ml" 126 3795 3828 "src/formula.ml" 126 3795 3833
+type(
+  formula -> formula
+)
+ident(
+  int_ref dedup "src/formula.ml" 139 4208 4212 "src/formula.ml" 139 4208 4217
+)
+"src/formula.ml" 126 3795 3810 "src/formula.ml" 126 3795 3833
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 127 3837 3847 "src/formula.ml" 127 3837 3854
+type(
+  formula list -> formula list -> String.Set.t -> formula list
+)
+ident(
+  def wrapper "src/formula.ml" 127 3837 3839 "src/formula.ml" 138 4171 4207
+)
+"src/formula.ml" 127 3837 3855 "src/formula.ml" 127 3837 3860
+type(
+  formula list
+)
+ident(
+  def forms "src/formula.ml" 127 3837 3861 "src/formula.ml" 136 4156 4165
+)
+"src/formula.ml" 127 3837 3861 "src/formula.ml" 127 3837 3864
+type(
+  formula list
+)
+ident(
+  def res "src/formula.ml" 127 3837 3865 "src/formula.ml" 136 4156 4165
+)
+"src/formula.ml" 127 3837 3865 "src/formula.ml" 127 3837 3868
+type(
+  String.Set.t
+)
+ident(
+  def set "src/formula.ml" 128 3871 3875 "src/formula.ml" 136 4156 4165
+)
+"src/formula.ml" 128 3871 3881 "src/formula.ml" 128 3871 3886
+type(
+  formula list
+)
+ident(
+  int_ref forms "src/formula.ml" 127 3837 3855 "src/formula.ml" 127 3837 3860
+)
+"src/formula.ml" 129 3892 3898 "src/formula.ml" 129 3892 3900
+type(
+  formula list
+)
+"src/formula.ml" 129 3892 3904 "src/formula.ml" 129 3892 3907
+type(
+  formula list
+)
+ident(
+  int_ref res "src/formula.ml" 127 3837 3861 "src/formula.ml" 127 3837 3864
+)
+"src/formula.ml" 130 3908 3914 "src/formula.ml" 130 3908 3915
+type(
+  formula
+)
+ident(
+  def f "src/formula.ml" 132 3939 3947 "src/formula.ml" 135 4088 4155
+)
+"src/formula.ml" 130 3908 3917 "src/formula.ml" 130 3908 3923
+type(
+  formula list
+)
+ident(
+  def forms' "src/formula.ml" 132 3939 3947 "src/formula.ml" 135 4088 4155
+)
+"src/formula.ml" 130 3908 3914 "src/formula.ml" 130 3908 3923
+type(
+  formula list
+)
+"src/formula.ml" 132 3939 3951 "src/formula.ml" 132 3939 3954
+type(
+  string
+)
+ident(
+  def key "src/formula.ml" 133 3983 3991 "src/formula.ml" 135 4088 4155
+)
+"src/formula.ml" 132 3939 3957 "src/formula.ml" 132 3939 3977
+type(
+  formula -> string
+)
+ident(
+  ext_ref ToStr.Debug.form_act
+)
+"src/formula.ml" 132 3939 3978 "src/formula.ml" 132 3939 3979
+type(
+  formula
+)
+ident(
+  int_ref f "src/formula.ml" 130 3908 3914 "src/formula.ml" 130 3908 3915
+)
+"src/formula.ml" 132 3939 3957 "src/formula.ml" 132 3939 3979
+call(
+  stack
+)
+type(
+  string
+)
+"src/formula.ml" 133 3983 3997 "src/formula.ml" 133 3983 4012
+type(
+  String.Set.t -> f:(string -> bool) -> string option
+)
+ident(
+  ext_ref Core.Std.String.Set.find
+)
+"src/formula.ml" 133 3983 4013 "src/formula.ml" 133 3983 4016
+type(
+  String.Set.t
+)
+ident(
+  int_ref set "src/formula.ml" 127 3837 3865 "src/formula.ml" 127 3837 3868
+)
+"src/formula.ml" 133 3983 4025 "src/formula.ml" 133 3983 4026
+type(
+  string
+)
+ident(
+  def g "src/formula.ml" 133 3983 4030 "src/formula.ml" 133 3983 4037
+)
+"src/formula.ml" 133 3983 4030 "src/formula.ml" 133 3983 4031
+type(
+  string
+)
+ident(
+  int_ref g "src/formula.ml" 133 3983 4025 "src/formula.ml" 133 3983 4026
+)
+"src/formula.ml" 133 3983 4032 "src/formula.ml" 133 3983 4033
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/formula.ml" 133 3983 4034 "src/formula.ml" 133 3983 4037
+type(
+  string
+)
+ident(
+  int_ref key "src/formula.ml" 132 3939 3951 "src/formula.ml" 132 3939 3954
+)
+"src/formula.ml" 133 3983 4030 "src/formula.ml" 133 3983 4037
+type(
+  bool
+)
+"src/formula.ml" 133 3983 4025 "src/formula.ml" 133 3983 4037
+type(
+  string -> bool
+)
+"src/formula.ml" 133 3983 3997 "src/formula.ml" 133 3983 4038
+call(
+  stack
+)
+type(
+  string option
+)
+"src/formula.ml" 134 4044 4059 "src/formula.ml" 134 4044 4060
+type(
+  string
+)
+"src/formula.ml" 134 4044 4054 "src/formula.ml" 134 4044 4061
+type(
+  string option
+)
+"src/formula.ml" 134 4044 4065 "src/formula.ml" 134 4044 4072
+type(
+  formula list -> formula list -> String.Set.t -> formula list
+)
+ident(
+  int_ref wrapper "src/formula.ml" 127 3837 3847 "src/formula.ml" 127 3837 3854
+)
+"src/formula.ml" 134 4044 4073 "src/formula.ml" 134 4044 4079
+type(
+  formula list
+)
+ident(
+  int_ref forms' "src/formula.ml" 130 3908 3917 "src/formula.ml" 130 3908 3923
+)
+"src/formula.ml" 134 4044 4080 "src/formula.ml" 134 4044 4083
+type(
+  formula list
+)
+ident(
+  int_ref res "src/formula.ml" 127 3837 3861 "src/formula.ml" 127 3837 3864
+)
+"src/formula.ml" 134 4044 4084 "src/formula.ml" 134 4044 4087
+type(
+  String.Set.t
+)
+ident(
+  int_ref set "src/formula.ml" 127 3837 3865 "src/formula.ml" 127 3837 3868
+)
+"src/formula.ml" 134 4044 4065 "src/formula.ml" 134 4044 4087
+call(
+  tail
+)
+type(
+  formula list
+)
+"src/formula.ml" 135 4088 4098 "src/formula.ml" 135 4088 4102
+type(
+  string option
+)
+"src/formula.ml" 135 4088 4106 "src/formula.ml" 135 4088 4113
+type(
+  formula list -> formula list -> String.Set.t -> formula list
+)
+ident(
+  int_ref wrapper "src/formula.ml" 127 3837 3847 "src/formula.ml" 127 3837 3854
+)
+"src/formula.ml" 135 4088 4114 "src/formula.ml" 135 4088 4120
+type(
+  formula list
+)
+ident(
+  int_ref forms' "src/formula.ml" 130 3908 3917 "src/formula.ml" 130 3908 3923
+)
+"src/formula.ml" 135 4088 4122 "src/formula.ml" 135 4088 4125
+type(
+  formula list
+)
+ident(
+  int_ref res "src/formula.ml" 127 3837 3861 "src/formula.ml" 127 3837 3864
+)
+"src/formula.ml" 135 4088 4125 "src/formula.ml" 135 4088 4126
+type(
+  formula list -> formula list -> formula list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"src/formula.ml" 135 4088 4127 "src/formula.ml" 135 4088 4128
+type(
+  formula
+)
+ident(
+  int_ref f "src/formula.ml" 130 3908 3914 "src/formula.ml" 130 3908 3915
+)
+type(
+  formula list
+)
+"src/formula.ml" 135 4088 4126 "src/formula.ml" 135 4088 4129
+type(
+  formula list
+)
+"src/formula.ml" 135 4088 4122 "src/formula.ml" 135 4088 4129
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 135 4088 4132 "src/formula.ml" 135 4088 4146
+type(
+  String.Set.t -> string -> String.Set.t
+)
+ident(
+  ext_ref Core.Std.String.Set.add
+)
+"src/formula.ml" 135 4088 4147 "src/formula.ml" 135 4088 4150
+type(
+  String.Set.t
+)
+ident(
+  int_ref set "src/formula.ml" 127 3837 3865 "src/formula.ml" 127 3837 3868
+)
+"src/formula.ml" 135 4088 4151 "src/formula.ml" 135 4088 4154
+type(
+  string
+)
+ident(
+  int_ref key "src/formula.ml" 132 3939 3951 "src/formula.ml" 132 3939 3954
+)
+"src/formula.ml" 135 4088 4132 "src/formula.ml" 135 4088 4154
+call(
+  stack
+)
+type(
+  String.Set.t
+)
+"src/formula.ml" 135 4088 4106 "src/formula.ml" 135 4088 4155
+call(
+  tail
+)
+type(
+  formula list
+)
+"src/formula.ml" 133 3983 3991 "src/formula.ml" 135 4088 4155
+type(
+  formula list
+)
+"src/formula.ml" 132 3939 3947 "src/formula.ml" 135 4088 4155
+type(
+  formula list
+)
+"src/formula.ml" 128 3871 3875 "src/formula.ml" 136 4156 4165
+type(
+  formula list
+)
+"src/formula.ml" 127 3837 3865 "src/formula.ml" 136 4156 4165
+type(
+  String.Set.t -> formula list
+)
+"src/formula.ml" 127 3837 3861 "src/formula.ml" 136 4156 4165
+type(
+  formula list -> String.Set.t -> formula list
+)
+"src/formula.ml" 127 3837 3855 "src/formula.ml" 136 4156 4165
+type(
+  formula list -> formula list -> String.Set.t -> formula list
+)
+"src/formula.ml" 138 4171 4173 "src/formula.ml" 138 4171 4180
+type(
+  formula list -> formula list -> String.Set.t -> formula list
+)
+ident(
+  int_ref wrapper "src/formula.ml" 127 3837 3847 "src/formula.ml" 127 3837 3854
+)
+"src/formula.ml" 138 4171 4181 "src/formula.ml" 138 4171 4187
+type(
+  formula list
+)
+ident(
+  int_ref forms' "src/formula.ml" 126 3795 3801 "src/formula.ml" 126 3795 3807
+)
+"src/formula.ml" 138 4171 4188 "src/formula.ml" 138 4171 4190
+type(
+  formula list
+)
+"src/formula.ml" 138 4171 4191 "src/formula.ml" 138 4171 4207
+type(
+  String.Set.t
+)
+ident(
+  ext_ref Core.Std.String.Set.empty
+)
+"src/formula.ml" 138 4171 4173 "src/formula.ml" 138 4171 4207
+call(
+  tail
+)
+type(
+  formula list
+)
+"src/formula.ml" 127 3837 3839 "src/formula.ml" 138 4171 4207
+type(
+  formula list
+)
+"src/formula.ml" 126 3795 3797 "src/formula.ml" 138 4171 4207
+type(
+  formula list
+)
+"src/formula.ml" 125 3767 3787 "src/formula.ml" 138 4171 4207
+type(
+  formula list -> formula list
+)
+"src/formula.ml" 139 4208 4212 "src/formula.ml" 139 4208 4217
+type(
+  formula -> formula
+)
+ident(
+  def dedup "src/formula.ml" 125 3767 3767 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 139 4208 4218 "src/formula.ml" 139 4208 4222
+type(
+  formula
+)
+ident(
+  def form "src/formula.ml" 140 4225 4227 "src/formula.ml" 148 4409 4457
+)
+"src/formula.ml" 140 4225 4233 "src/formula.ml" 140 4225 4237
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 139 4208 4218 "src/formula.ml" 139 4208 4222
+)
+"src/formula.ml" 141 4243 4247 "src/formula.ml" 141 4243 4252
+type(
+  formula
+)
+"src/formula.ml" 142 4253 4257 "src/formula.ml" 142 4253 4264
+type(
+  formula
+)
+"src/formula.ml" 141 4243 4247 "src/formula.ml" 142 4253 4264
+type(
+  formula
+)
+"src/formula.ml" 143 4265 4273 "src/formula.ml" 143 4265 4274
+type(
+  exp list
+)
+type(
+  string
+)
+"src/formula.ml" 143 4265 4269 "src/formula.ml" 143 4265 4275
+type(
+  formula
+)
+"src/formula.ml" 141 4243 4247 "src/formula.ml" 143 4265 4275
+type(
+  formula
+)
+"src/formula.ml" 144 4276 4284 "src/formula.ml" 144 4276 4285
+type(
+  exp
+)
+type(
+  exp
+)
+"src/formula.ml" 144 4276 4280 "src/formula.ml" 144 4276 4286
+type(
+  formula
+)
+"src/formula.ml" 141 4243 4247 "src/formula.ml" 144 4276 4286
+type(
+  formula
+)
+"src/formula.ml" 144 4276 4290 "src/formula.ml" 144 4276 4294
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 139 4208 4218 "src/formula.ml" 139 4208 4222
+)
+"src/formula.ml" 145 4295 4303 "src/formula.ml" 145 4295 4304
+type(
+  formula
+)
+ident(
+  def f "src/formula.ml" 145 4295 4309 "src/formula.ml" 145 4295 4322
+)
+"src/formula.ml" 145 4295 4299 "src/formula.ml" 145 4295 4305
+type(
+  formula
+)
+"src/formula.ml" 145 4295 4309 "src/formula.ml" 145 4295 4312
+type(
+  formula -> formula
+)
+ident(
+  ext_ref Paramecium.neg
+)
+"src/formula.ml" 145 4295 4314 "src/formula.ml" 145 4295 4319
+type(
+  formula -> formula
+)
+ident(
+  int_ref dedup "src/formula.ml" 139 4208 4212 "src/formula.ml" 139 4208 4217
+)
+"src/formula.ml" 145 4295 4320 "src/formula.ml" 145 4295 4321
+type(
+  formula
+)
+ident(
+  int_ref f "src/formula.ml" 145 4295 4303 "src/formula.ml" 145 4295 4304
+)
+"src/formula.ml" 145 4295 4314 "src/formula.ml" 145 4295 4321
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 145 4295 4309 "src/formula.ml" 145 4295 4322
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 146 4323 4335 "src/formula.ml" 146 4323 4337
+type(
+  formula list
+)
+ident(
+  def fl "src/formula.ml" 146 4323 4342 "src/formula.ml" 146 4323 4366
+)
+"src/formula.ml" 146 4323 4327 "src/formula.ml" 146 4323 4338
+type(
+  formula
+)
+"src/formula.ml" 146 4323 4342 "src/formula.ml" 146 4323 4349
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.andList
+)
+"src/formula.ml" 146 4323 4351 "src/formula.ml" 146 4323 4362
+type(
+  formula list -> formula list
+)
+ident(
+  int_ref forms_dedup "src/formula.ml" 125 3767 3775 "src/formula.ml" 125 3767 3786
+)
+"src/formula.ml" 146 4323 4363 "src/formula.ml" 146 4323 4365
+type(
+  formula list
+)
+ident(
+  int_ref fl "src/formula.ml" 146 4323 4335 "src/formula.ml" 146 4323 4337
+)
+"src/formula.ml" 146 4323 4351 "src/formula.ml" 146 4323 4365
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 146 4323 4342 "src/formula.ml" 146 4323 4366
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 147 4367 4378 "src/formula.ml" 147 4367 4380
+type(
+  formula list
+)
+ident(
+  def fl "src/formula.ml" 147 4367 4385 "src/formula.ml" 147 4367 4408
+)
+"src/formula.ml" 147 4367 4371 "src/formula.ml" 147 4367 4381
+type(
+  formula
+)
+"src/formula.ml" 147 4367 4385 "src/formula.ml" 147 4367 4391
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.orList
+)
+"src/formula.ml" 147 4367 4393 "src/formula.ml" 147 4367 4404
+type(
+  formula list -> formula list
+)
+ident(
+  int_ref forms_dedup "src/formula.ml" 125 3767 3775 "src/formula.ml" 125 3767 3786
+)
+"src/formula.ml" 147 4367 4405 "src/formula.ml" 147 4367 4407
+type(
+  formula list
+)
+ident(
+  int_ref fl "src/formula.ml" 147 4367 4378 "src/formula.ml" 147 4367 4380
+)
+"src/formula.ml" 147 4367 4393 "src/formula.ml" 147 4367 4407
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 147 4367 4385 "src/formula.ml" 147 4367 4408
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 148 4409 4419 "src/formula.ml" 148 4409 4421
+type(
+  formula
+)
+ident(
+  def f1 "src/formula.ml" 148 4409 4430 "src/formula.ml" 148 4409 4457
+)
+"src/formula.ml" 148 4409 4423 "src/formula.ml" 148 4409 4425
+type(
+  formula
+)
+ident(
+  def f2 "src/formula.ml" 148 4409 4430 "src/formula.ml" 148 4409 4457
+)
+"src/formula.ml" 148 4409 4413 "src/formula.ml" 148 4409 4426
+type(
+  formula
+)
+"src/formula.ml" 148 4409 4430 "src/formula.ml" 148 4409 4435
+type(
+  formula -> formula -> formula
+)
+ident(
+  ext_ref Paramecium.imply
+)
+"src/formula.ml" 148 4409 4437 "src/formula.ml" 148 4409 4442
+type(
+  formula -> formula
+)
+ident(
+  int_ref dedup "src/formula.ml" 139 4208 4212 "src/formula.ml" 139 4208 4217
+)
+"src/formula.ml" 148 4409 4443 "src/formula.ml" 148 4409 4445
+type(
+  formula
+)
+ident(
+  int_ref f1 "src/formula.ml" 148 4409 4419 "src/formula.ml" 148 4409 4421
+)
+"src/formula.ml" 148 4409 4437 "src/formula.ml" 148 4409 4445
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 148 4409 4448 "src/formula.ml" 148 4409 4453
+type(
+  formula -> formula
+)
+ident(
+  int_ref dedup "src/formula.ml" 139 4208 4212 "src/formula.ml" 139 4208 4217
+)
+"src/formula.ml" 148 4409 4454 "src/formula.ml" 148 4409 4456
+type(
+  formula
+)
+ident(
+  int_ref f2 "src/formula.ml" 148 4409 4423 "src/formula.ml" 148 4409 4425
+)
+"src/formula.ml" 148 4409 4448 "src/formula.ml" 148 4409 4456
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 148 4409 4430 "src/formula.ml" 148 4409 4457
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 140 4225 4227 "src/formula.ml" 148 4409 4457
+type(
+  formula
+)
+"src/formula.ml" 139 4208 4218 "src/formula.ml" 148 4409 4457
+type(
+  formula -> formula
+)
+"src/formula.ml" 151 4485 4489 "src/formula.ml" 151 4485 4497
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+ident(
+  def simplify "src/formula.ml" 208 6512 6512 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 151 4485 4508 "src/formula.ml" 151 4485 4513
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/formula.ml" 151 4485 4508 "src/formula.ml" 151 4485 4513
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/formula.ml" 151 4485 4498 "src/formula.ml" 151 4485 4514
+type(
+  bool
+)
+"src/formula.ml" 151 4485 4515 "src/formula.ml" 151 4485 4519
+type(
+  formula
+)
+ident(
+  def form "src/formula.ml" 152 4522 4524 "src/formula.ml" 205 6405 6427
+)
+"src/formula.ml" 152 4522 4528 "src/formula.ml" 152 4522 4540
+type(
+  formula
+)
+ident(
+  def no_imply_neg "src/formula.ml" 153 4580 4582 "src/formula.ml" 205 6405 6427
+)
+"src/formula.ml" 152 4522 4543 "src/formula.ml" 152 4522 4562
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+ident(
+  int_ref eliminate_imply_neg "src/formula.ml" 23 693 701 "src/formula.ml" 23 693 720
+)
+"src/formula.ml" 152 4522 4563 "src/formula.ml" 152 4522 4571
+type(
+  bool
+)
+ident(
+  int_ref eli_eqn "src/formula.ml" 151 4485 4498 "src/formula.ml" 151 4485 4514
+)
+"src/formula.ml" 152 4522 4572 "src/formula.ml" 152 4522 4576
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 151 4485 4515 "src/formula.ml" 151 4485 4519
+)
+"src/formula.ml" 152 4522 4543 "src/formula.ml" 152 4522 4576
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 153 4580 4590 "src/formula.ml" 153 4580 4597
+type(
+  formula -> formula
+)
+ident(
+  def wrapper "src/formula.ml" 153 4580 4582 "src/formula.ml" 205 6405 6427
+)
+"src/formula.ml" 153 4580 4598 "src/formula.ml" 153 4580 4602
+type(
+  formula
+)
+ident(
+  def form "src/formula.ml" 154 4605 4609 "src/formula.ml" 203 6323 6399
+)
+"src/formula.ml" 154 4605 4615 "src/formula.ml" 154 4605 4619
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 153 4580 4598 "src/formula.ml" 153 4580 4602
+)
+"src/formula.ml" 155 4625 4631 "src/formula.ml" 155 4625 4636
+type(
+  formula
+)
+"src/formula.ml" 155 4625 4640 "src/formula.ml" 155 4625 4645
+type(
+  formula
+)
+ident(
+  ext_ref Paramecium.chaos
+)
+"src/formula.ml" 156 4646 4652 "src/formula.ml" 156 4646 4659
+type(
+  formula
+)
+"src/formula.ml" 156 4646 4663 "src/formula.ml" 156 4646 4670
+type(
+  formula
+)
+ident(
+  ext_ref Paramecium.miracle
+)
+"src/formula.ml" 157 4671 4681 "src/formula.ml" 157 4671 4686
+type(
+  formula
+)
+"src/formula.ml" 157 4671 4677 "src/formula.ml" 157 4671 4687
+type(
+  formula
+)
+"src/formula.ml" 157 4671 4691 "src/formula.ml" 157 4671 4698
+type(
+  formula
+)
+ident(
+  ext_ref Paramecium.miracle
+)
+"src/formula.ml" 158 4699 4709 "src/formula.ml" 158 4699 4716
+type(
+  formula
+)
+"src/formula.ml" 158 4699 4705 "src/formula.ml" 158 4699 4717
+type(
+  formula
+)
+"src/formula.ml" 158 4699 4721 "src/formula.ml" 158 4699 4726
+type(
+  formula
+)
+ident(
+  ext_ref Paramecium.chaos
+)
+"src/formula.ml" 159 4727 4737 "src/formula.ml" 159 4727 4738
+type(
+  exp list
+)
+type(
+  string
+)
+"src/formula.ml" 159 4727 4733 "src/formula.ml" 159 4727 4739
+type(
+  formula
+)
+"src/formula.ml" 160 4740 4754 "src/formula.ml" 160 4740 4755
+type(
+  exp list
+)
+type(
+  string
+)
+"src/formula.ml" 160 4740 4750 "src/formula.ml" 160 4740 4756
+type(
+  formula
+)
+"src/formula.ml" 160 4740 4746 "src/formula.ml" 160 4740 4757
+type(
+  formula
+)
+"src/formula.ml" 159 4727 4733 "src/formula.ml" 160 4740 4757
+type(
+  formula
+)
+"src/formula.ml" 161 4758 4768 "src/formula.ml" 161 4758 4769
+type(
+  exp
+)
+type(
+  exp
+)
+"src/formula.ml" 161 4758 4764 "src/formula.ml" 161 4758 4770
+type(
+  formula
+)
+"src/formula.ml" 159 4727 4733 "src/formula.ml" 161 4758 4770
+type(
+  formula
+)
+"src/formula.ml" 162 4771 4785 "src/formula.ml" 162 4771 4786
+type(
+  exp
+)
+type(
+  exp
+)
+"src/formula.ml" 162 4771 4781 "src/formula.ml" 162 4771 4787
+type(
+  formula
+)
+"src/formula.ml" 162 4771 4777 "src/formula.ml" 162 4771 4788
+type(
+  formula
+)
+"src/formula.ml" 159 4727 4733 "src/formula.ml" 162 4771 4788
+type(
+  formula
+)
+"src/formula.ml" 163 4792 4801 "src/formula.ml" 163 4792 4813
+type(
+  ?quiet:bool -> formula -> bool
+)
+ident(
+  int_ref is_tautology "src/formula.ml" 16 452 456 "src/formula.ml" 16 452 468
+)
+"src/formula.ml" 163 4792 4814 "src/formula.ml" 163 4792 4818
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 153 4580 4598 "src/formula.ml" 153 4580 4602
+)
+"src/formula.ml" 163 4792 4801 "src/formula.ml" 163 4792 4818
+call(
+  stack
+)
+type(
+  bool
+)
+"src/formula.ml" 163 4792 4824 "src/formula.ml" 163 4792 4829
+type(
+  formula
+)
+ident(
+  ext_ref Paramecium.chaos
+)
+"src/formula.ml" 164 4830 4844 "src/formula.ml" 164 4830 4847
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/formula.ml" 164 4830 4849 "src/formula.ml" 164 4830 4863
+type(
+  ?quiet:bool -> formula -> bool
+)
+ident(
+  int_ref is_satisfiable "src/formula.ml" 20 598 602 "src/formula.ml" 20 598 616
+)
+"src/formula.ml" 164 4830 4864 "src/formula.ml" 164 4830 4868
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 153 4580 4598 "src/formula.ml" 153 4580 4602
+)
+"src/formula.ml" 164 4830 4849 "src/formula.ml" 164 4830 4868
+call(
+  stack
+)
+type(
+  bool
+)
+"src/formula.ml" 164 4830 4844 "src/formula.ml" 164 4830 4869
+type(
+  bool
+)
+"src/formula.ml" 164 4830 4875 "src/formula.ml" 164 4830 4882
+type(
+  formula
+)
+ident(
+  ext_ref Paramecium.miracle
+)
+"src/formula.ml" 165 4883 4900 "src/formula.ml" 165 4883 4904
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 153 4580 4598 "src/formula.ml" 153 4580 4602
+)
+"src/formula.ml" 164 4830 4841 "src/formula.ml" 165 4883 4908
+type(
+  formula
+)
+"src/formula.ml" 163 4792 4798 "src/formula.ml" 165 4883 4908
+type(
+  formula
+)
+"src/formula.ml" 166 4909 4923 "src/formula.ml" 166 4909 4925
+type(
+  formula list
+)
+ident(
+  def ls "src/formula.ml" 167 4930 4936 "src/formula.ml" 188 5784 5793
+)
+"src/formula.ml" 166 4909 4915 "src/formula.ml" 166 4909 4926
+type(
+  formula
+)
+"src/formula.ml" 167 4930 4940 "src/formula.ml" 167 4930 4953
+type(
+  formula list
+)
+ident(
+  def simplified_ls "src/formula.ml" 168 4982 4988 "src/formula.ml" 188 5784 5793
+)
+"src/formula.ml" 167 4930 4956 "src/formula.ml" 167 4930 4964
+type(
+  formula list -> f:(formula -> formula) -> formula list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 167 4930 4965 "src/formula.ml" 167 4930 4967
+type(
+  formula list
+)
+ident(
+  int_ref ls "src/formula.ml" 166 4909 4923 "src/formula.ml" 166 4909 4925
+)
+"src/formula.ml" 167 4930 4971 "src/formula.ml" 167 4930 4978
+type(
+  formula -> formula
+)
+ident(
+  int_ref wrapper "src/formula.ml" 153 4580 4590 "src/formula.ml" 153 4580 4597
+)
+"src/formula.ml" 167 4930 4956 "src/formula.ml" 167 4930 4978
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 168 4982 4991 "src/formula.ml" 168 4982 5002
+type(
+  formula list -> f:(formula -> bool) -> bool
+)
+ident(
+  ext_ref Core.Std.List.exists
+)
+"src/formula.ml" 168 4982 5003 "src/formula.ml" 168 4982 5016
+type(
+  formula list
+)
+ident(
+  int_ref simplified_ls "src/formula.ml" 167 4930 4940 "src/formula.ml" 167 4930 4953
+)
+"src/formula.ml" 168 4982 5025 "src/formula.ml" 168 4982 5026
+type(
+  formula
+)
+ident(
+  def x "src/formula.ml" 168 4982 5030 "src/formula.ml" 168 4982 5041
+)
+"src/formula.ml" 168 4982 5030 "src/formula.ml" 168 4982 5031
+type(
+  formula
+)
+ident(
+  int_ref x "src/formula.ml" 168 4982 5025 "src/formula.ml" 168 4982 5026
+)
+"src/formula.ml" 168 4982 5032 "src/formula.ml" 168 4982 5033
+type(
+  formula -> formula -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/formula.ml" 168 4982 5034 "src/formula.ml" 168 4982 5041
+type(
+  formula
+)
+"src/formula.ml" 168 4982 5030 "src/formula.ml" 168 4982 5041
+type(
+  bool
+)
+"src/formula.ml" 168 4982 5025 "src/formula.ml" 168 4982 5041
+type(
+  formula -> bool
+)
+"src/formula.ml" 168 4982 4991 "src/formula.ml" 168 4982 5042
+call(
+  stack
+)
+type(
+  bool
+)
+"src/formula.ml" 168 4982 5048 "src/formula.ml" 168 4982 5055
+type(
+  formula
+)
+ident(
+  ext_ref Paramecium.miracle
+)
+"src/formula.ml" 170 5073 5085 "src/formula.ml" 170 5073 5094
+type(
+  formula list
+)
+ident(
+  def not_chaos "src/formula.ml" 171 5170 5178 "src/formula.ml" 187 5773 5783
+)
+"src/formula.ml" 170 5073 5097 "src/formula.ml" 170 5073 5108
+type(
+  formula list -> formula list
+)
+ident(
+  int_ref forms_dedup "src/formula.ml" 125 3767 3775 "src/formula.ml" 125 3767 3786
+)
+"src/formula.ml" 170 5073 5110 "src/formula.ml" 170 5073 5121
+type(
+  formula list -> f:(formula -> bool) -> formula list
+)
+ident(
+  ext_ref Core.Std.List.filter
+)
+"src/formula.ml" 170 5073 5122 "src/formula.ml" 170 5073 5135
+type(
+  formula list
+)
+ident(
+  int_ref simplified_ls "src/formula.ml" 167 4930 4940 "src/formula.ml" 167 4930 4953
+)
+"src/formula.ml" 170 5073 5144 "src/formula.ml" 170 5073 5145
+type(
+  formula
+)
+ident(
+  def x "src/formula.ml" 170 5073 5149 "src/formula.ml" 170 5073 5164
+)
+"src/formula.ml" 170 5073 5149 "src/formula.ml" 170 5073 5152
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/formula.ml" 170 5073 5154 "src/formula.ml" 170 5073 5155
+type(
+  formula
+)
+ident(
+  int_ref x "src/formula.ml" 170 5073 5144 "src/formula.ml" 170 5073 5145
+)
+"src/formula.ml" 170 5073 5156 "src/formula.ml" 170 5073 5157
+type(
+  formula -> formula -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/formula.ml" 170 5073 5158 "src/formula.ml" 170 5073 5163
+type(
+  formula
+)
+"src/formula.ml" 170 5073 5154 "src/formula.ml" 170 5073 5163
+type(
+  bool
+)
+"src/formula.ml" 170 5073 5149 "src/formula.ml" 170 5073 5164
+type(
+  bool
+)
+"src/formula.ml" 170 5073 5144 "src/formula.ml" 170 5073 5164
+type(
+  formula -> bool
+)
+"src/formula.ml" 170 5073 5110 "src/formula.ml" 170 5073 5165
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 170 5073 5097 "src/formula.ml" 170 5073 5166
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 171 5170 5182 "src/formula.ml" 171 5170 5189
+type(
+  formula list list
+)
+ident(
+  def or_coms "src/formula.ml" 176 5312 5320 "src/formula.ml" 187 5773 5783
+)
+"src/formula.ml" 171 5170 5192 "src/formula.ml" 171 5170 5200
+type(
+  formula list -> f:(formula -> formula list) -> formula list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 171 5170 5201 "src/formula.ml" 171 5170 5210
+type(
+  formula list
+)
+ident(
+  int_ref not_chaos "src/formula.ml" 170 5073 5085 "src/formula.ml" 170 5073 5094
+)
+"src/formula.ml" 171 5170 5219 "src/formula.ml" 171 5170 5220
+type(
+  formula
+)
+ident(
+  def x "src/formula.ml" 172 5224 5234 "src/formula.ml" 174 5278 5298
+)
+"src/formula.ml" 172 5224 5240 "src/formula.ml" 172 5224 5241
+type(
+  formula
+)
+ident(
+  int_ref x "src/formula.ml" 171 5170 5219 "src/formula.ml" 171 5170 5220
+)
+"src/formula.ml" 173 5247 5266 "src/formula.ml" 173 5247 5269
+type(
+  formula list
+)
+ident(
+  def ors "src/formula.ml" 173 5247 5274 "src/formula.ml" 173 5247 5277
+)
+"src/formula.ml" 173 5247 5259 "src/formula.ml" 173 5247 5270
+type(
+  formula
+)
+"src/formula.ml" 173 5247 5274 "src/formula.ml" 173 5247 5277
+type(
+  formula list
+)
+ident(
+  int_ref ors "src/formula.ml" 173 5247 5266 "src/formula.ml" 173 5247 5269
+)
+"src/formula.ml" 174 5278 5290 "src/formula.ml" 174 5278 5291
+type(
+  formula
+)
+"src/formula.ml" 174 5278 5296 "src/formula.ml" 174 5278 5297
+type(
+  formula
+)
+ident(
+  int_ref x "src/formula.ml" 171 5170 5219 "src/formula.ml" 171 5170 5220
+)
+type(
+  formula list
+)
+"src/formula.ml" 174 5278 5295 "src/formula.ml" 174 5278 5298
+type(
+  formula list
+)
+"src/formula.ml" 172 5224 5234 "src/formula.ml" 174 5278 5298
+type(
+  formula list
+)
+"src/formula.ml" 171 5170 5219 "src/formula.ml" 174 5278 5298
+type(
+  formula -> formula list
+)
+"src/formula.ml" 171 5170 5192 "src/formula.ml" 175 5299 5308
+call(
+  stack
+)
+type(
+  formula list list
+)
+"src/formula.ml" 176 5312 5324 "src/formula.ml" 176 5312 5351
+type(
+  formula list -> formula list
+)
+ident(
+  def eliminate_inner_and_of_list "src/formula.ml" 179 5462 5470 "src/formula.ml" 187 5773 5783
+)
+"src/formula.ml" 176 5312 5352 "src/formula.ml" 176 5312 5354
+type(
+  formula list
+)
+ident(
+  def ls "src/formula.ml" 177 5357 5367 "src/formula.ml" 177 5357 5450
+)
+"src/formula.ml" 177 5357 5367 "src/formula.ml" 177 5357 5378
+type(
+  formula list list -> formula list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/formula.ml" 177 5357 5380 "src/formula.ml" 177 5357 5388
+type(
+  formula list -> f:(formula -> formula list) -> formula list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 177 5357 5389 "src/formula.ml" 177 5357 5391
+type(
+  formula list
+)
+ident(
+  int_ref ls "src/formula.ml" 176 5312 5352 "src/formula.ml" 176 5312 5354
+)
+"src/formula.ml" 177 5357 5400 "src/formula.ml" 177 5357 5401
+type(
+  formula
+)
+ident(
+  def x "src/formula.ml" 177 5357 5405 "src/formula.ml" 177 5357 5448
+)
+"src/formula.ml" 177 5357 5411 "src/formula.ml" 177 5357 5412
+type(
+  formula
+)
+ident(
+  int_ref x "src/formula.ml" 177 5357 5400 "src/formula.ml" 177 5357 5401
+)
+"src/formula.ml" 177 5357 5428 "src/formula.ml" 177 5357 5430
+type(
+  formula list
+)
+ident(
+  def ls "src/formula.ml" 177 5357 5435 "src/formula.ml" 177 5357 5437
+)
+"src/formula.ml" 177 5357 5420 "src/formula.ml" 177 5357 5431
+type(
+  formula
+)
+"src/formula.ml" 177 5357 5435 "src/formula.ml" 177 5357 5437
+type(
+  formula list
+)
+ident(
+  int_ref ls "src/formula.ml" 177 5357 5428 "src/formula.ml" 177 5357 5430
+)
+"src/formula.ml" 177 5357 5440 "src/formula.ml" 177 5357 5441
+type(
+  formula
+)
+"src/formula.ml" 177 5357 5446 "src/formula.ml" 177 5357 5447
+type(
+  formula
+)
+ident(
+  int_ref x "src/formula.ml" 177 5357 5400 "src/formula.ml" 177 5357 5401
+)
+type(
+  formula list
+)
+"src/formula.ml" 177 5357 5445 "src/formula.ml" 177 5357 5448
+type(
+  formula list
+)
+"src/formula.ml" 177 5357 5405 "src/formula.ml" 177 5357 5448
+type(
+  formula list
+)
+"src/formula.ml" 177 5357 5400 "src/formula.ml" 177 5357 5448
+type(
+  formula -> formula list
+)
+"src/formula.ml" 177 5357 5380 "src/formula.ml" 177 5357 5449
+call(
+  stack
+)
+type(
+  formula list list
+)
+"src/formula.ml" 177 5357 5367 "src/formula.ml" 177 5357 5450
+call(
+  tail
+)
+type(
+  formula list
+)
+"src/formula.ml" 176 5312 5352 "src/formula.ml" 177 5357 5450
+type(
+  formula list -> formula list
+)
+"src/formula.ml" 179 5462 5476 "src/formula.ml" 179 5462 5493
+type(
+  formula list list -> formula list list
+)
+ident(
+  ext_ref Utils.cartesian_product
+)
+"src/formula.ml" 179 5462 5494 "src/formula.ml" 179 5462 5501
+type(
+  formula list list
+)
+ident(
+  int_ref or_coms "src/formula.ml" 171 5170 5182 "src/formula.ml" 171 5170 5189
+)
+"src/formula.ml" 179 5462 5476 "src/formula.ml" 179 5462 5501
+call(
+  stack
+)
+type(
+  formula list list
+)
+"src/formula.ml" 180 5507 5517 "src/formula.ml" 180 5507 5519
+type(
+  formula list list
+)
+"src/formula.ml" 180 5507 5523 "src/formula.ml" 180 5507 5528
+type(
+  formula
+)
+ident(
+  ext_ref Paramecium.chaos
+)
+"src/formula.ml" 181 5529 5541 "src/formula.ml" 181 5529 5544
+type(
+  formula list
+)
+type(
+  formula
+)
+ident(
+  def one "src/formula.ml" 181 5529 5550 "src/formula.ml" 181 5529 5553
+)
+"src/formula.ml" 181 5529 5540 "src/formula.ml" 181 5529 5545
+type(
+  formula list list
+)
+type(
+  formula list
+)
+"src/formula.ml" 181 5529 5539 "src/formula.ml" 181 5529 5546
+type(
+  formula list list
+)
+"src/formula.ml" 181 5529 5550 "src/formula.ml" 181 5529 5553
+type(
+  formula
+)
+ident(
+  int_ref one "src/formula.ml" 181 5529 5541 "src/formula.ml" 181 5529 5544
+)
+"src/formula.ml" 182 5554 5565 "src/formula.ml" 182 5554 5570
+type(
+  formula list list
+)
+type(
+  formula list
+)
+ident(
+  def andls "src/formula.ml" 182 5554 5575 "src/formula.ml" 182 5554 5618
+)
+"src/formula.ml" 182 5554 5564 "src/formula.ml" 182 5554 5571
+type(
+  formula list list
+)
+"src/formula.ml" 182 5554 5575 "src/formula.ml" 182 5554 5582
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.andList
+)
+"src/formula.ml" 182 5554 5584 "src/formula.ml" 182 5554 5611
+type(
+  formula list -> formula list
+)
+ident(
+  int_ref eliminate_inner_and_of_list "src/formula.ml" 176 5312 5324 "src/formula.ml" 176 5312 5351
+)
+"src/formula.ml" 182 5554 5612 "src/formula.ml" 182 5554 5617
+type(
+  formula list
+)
+ident(
+  int_ref andls "src/formula.ml" 182 5554 5565 "src/formula.ml" 182 5554 5570
+)
+"src/formula.ml" 182 5554 5584 "src/formula.ml" 182 5554 5617
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 182 5554 5575 "src/formula.ml" 182 5554 5618
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 183 5619 5629 "src/formula.ml" 183 5619 5633
+type(
+  formula list list
+)
+ident(
+  def orls "src/formula.ml" 183 5619 5637 "src/formula.ml" 187 5773 5783
+)
+"src/formula.ml" 183 5619 5637 "src/formula.ml" 183 5619 5643
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.orList
+)
+"src/formula.ml" 183 5619 5645 "src/formula.ml" 183 5619 5653
+type(
+  formula list list -> f:(formula list -> formula) -> formula list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 183 5619 5654 "src/formula.ml" 183 5619 5658
+type(
+  formula list list
+)
+ident(
+  int_ref orls "src/formula.ml" 183 5619 5629 "src/formula.ml" 183 5619 5633
+)
+"src/formula.ml" 183 5619 5667 "src/formula.ml" 183 5619 5668
+type(
+  formula list
+)
+ident(
+  def c "src/formula.ml" 184 5672 5682 "src/formula.ml" 186 5716 5772
+)
+"src/formula.ml" 184 5672 5688 "src/formula.ml" 184 5672 5689
+type(
+  formula list
+)
+ident(
+  int_ref c "src/formula.ml" 183 5619 5667 "src/formula.ml" 183 5619 5668
+)
+"src/formula.ml" 185 5695 5708 "src/formula.ml" 185 5695 5709
+type(
+  formula list
+)
+type(
+  formula
+)
+ident(
+  def x "src/formula.ml" 185 5695 5714 "src/formula.ml" 185 5695 5715
+)
+"src/formula.ml" 185 5695 5707 "src/formula.ml" 185 5695 5710
+type(
+  formula list
+)
+"src/formula.ml" 185 5695 5714 "src/formula.ml" 185 5695 5715
+type(
+  formula
+)
+ident(
+  int_ref x "src/formula.ml" 185 5695 5708 "src/formula.ml" 185 5695 5709
+)
+"src/formula.ml" 186 5716 5728 "src/formula.ml" 186 5716 5729
+type(
+  formula list
+)
+"src/formula.ml" 186 5716 5733 "src/formula.ml" 186 5716 5740
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.andList
+)
+"src/formula.ml" 186 5716 5742 "src/formula.ml" 186 5716 5769
+type(
+  formula list -> formula list
+)
+ident(
+  int_ref eliminate_inner_and_of_list "src/formula.ml" 176 5312 5324 "src/formula.ml" 176 5312 5351
+)
+"src/formula.ml" 186 5716 5770 "src/formula.ml" 186 5716 5771
+type(
+  formula list
+)
+ident(
+  int_ref c "src/formula.ml" 183 5619 5667 "src/formula.ml" 183 5619 5668
+)
+"src/formula.ml" 186 5716 5742 "src/formula.ml" 186 5716 5771
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 186 5716 5733 "src/formula.ml" 186 5716 5772
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 184 5672 5682 "src/formula.ml" 186 5716 5772
+type(
+  formula
+)
+"src/formula.ml" 183 5619 5667 "src/formula.ml" 186 5716 5772
+type(
+  formula list -> formula
+)
+"src/formula.ml" 183 5619 5645 "src/formula.ml" 187 5773 5782
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 183 5619 5637 "src/formula.ml" 187 5773 5783
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 179 5462 5470 "src/formula.ml" 187 5773 5783
+type(
+  formula
+)
+"src/formula.ml" 176 5312 5320 "src/formula.ml" 187 5773 5783
+type(
+  formula
+)
+"src/formula.ml" 171 5170 5178 "src/formula.ml" 187 5773 5783
+type(
+  formula
+)
+"src/formula.ml" 170 5073 5081 "src/formula.ml" 187 5773 5783
+type(
+  formula
+)
+"src/formula.ml" 168 4982 4988 "src/formula.ml" 188 5784 5793
+type(
+  formula
+)
+"src/formula.ml" 167 4930 4936 "src/formula.ml" 188 5784 5793
+type(
+  formula
+)
+"src/formula.ml" 189 5794 5807 "src/formula.ml" 189 5794 5809
+type(
+  formula list
+)
+ident(
+  def ls "src/formula.ml" 190 5814 5820 "src/formula.ml" 201 6300 6309
+)
+"src/formula.ml" 189 5794 5800 "src/formula.ml" 189 5794 5810
+type(
+  formula
+)
+"src/formula.ml" 190 5814 5824 "src/formula.ml" 190 5814 5837
+type(
+  formula list
+)
+ident(
+  def simplified_ls "src/formula.ml" 191 5866 5872 "src/formula.ml" 201 6300 6309
+)
+"src/formula.ml" 190 5814 5840 "src/formula.ml" 190 5814 5848
+type(
+  formula list -> f:(formula -> formula) -> formula list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 190 5814 5849 "src/formula.ml" 190 5814 5851
+type(
+  formula list
+)
+ident(
+  int_ref ls "src/formula.ml" 189 5794 5807 "src/formula.ml" 189 5794 5809
+)
+"src/formula.ml" 190 5814 5855 "src/formula.ml" 190 5814 5862
+type(
+  formula -> formula
+)
+ident(
+  int_ref wrapper "src/formula.ml" 153 4580 4590 "src/formula.ml" 153 4580 4597
+)
+"src/formula.ml" 190 5814 5840 "src/formula.ml" 190 5814 5862
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 191 5866 5875 "src/formula.ml" 191 5866 5886
+type(
+  formula list -> f:(formula -> bool) -> bool
+)
+ident(
+  ext_ref Core.Std.List.exists
+)
+"src/formula.ml" 191 5866 5887 "src/formula.ml" 191 5866 5900
+type(
+  formula list
+)
+ident(
+  int_ref simplified_ls "src/formula.ml" 190 5814 5824 "src/formula.ml" 190 5814 5837
+)
+"src/formula.ml" 191 5866 5909 "src/formula.ml" 191 5866 5910
+type(
+  formula
+)
+ident(
+  def x "src/formula.ml" 191 5866 5914 "src/formula.ml" 191 5866 5923
+)
+"src/formula.ml" 191 5866 5914 "src/formula.ml" 191 5866 5915
+type(
+  formula
+)
+ident(
+  int_ref x "src/formula.ml" 191 5866 5909 "src/formula.ml" 191 5866 5910
+)
+"src/formula.ml" 191 5866 5916 "src/formula.ml" 191 5866 5917
+type(
+  formula -> formula -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/formula.ml" 191 5866 5918 "src/formula.ml" 191 5866 5923
+type(
+  formula
+)
+"src/formula.ml" 191 5866 5914 "src/formula.ml" 191 5866 5923
+type(
+  bool
+)
+"src/formula.ml" 191 5866 5909 "src/formula.ml" 191 5866 5923
+type(
+  formula -> bool
+)
+"src/formula.ml" 191 5866 5875 "src/formula.ml" 191 5866 5924
+call(
+  stack
+)
+type(
+  bool
+)
+"src/formula.ml" 191 5866 5930 "src/formula.ml" 191 5866 5935
+type(
+  formula
+)
+ident(
+  ext_ref Paramecium.chaos
+)
+"src/formula.ml" 193 5953 5965 "src/formula.ml" 193 5953 5976
+type(
+  formula list
+)
+ident(
+  def not_miracle "src/formula.ml" 194 6054 6062 "src/formula.ml" 200 6270 6299
+)
+"src/formula.ml" 193 5953 5979 "src/formula.ml" 193 5953 5990
+type(
+  formula list -> formula list
+)
+ident(
+  int_ref forms_dedup "src/formula.ml" 125 3767 3775 "src/formula.ml" 125 3767 3786
+)
+"src/formula.ml" 193 5953 5992 "src/formula.ml" 193 5953 6003
+type(
+  formula list -> f:(formula -> bool) -> formula list
+)
+ident(
+  ext_ref Core.Std.List.filter
+)
+"src/formula.ml" 193 5953 6004 "src/formula.ml" 193 5953 6017
+type(
+  formula list
+)
+ident(
+  int_ref simplified_ls "src/formula.ml" 190 5814 5824 "src/formula.ml" 190 5814 5837
+)
+"src/formula.ml" 193 5953 6026 "src/formula.ml" 193 5953 6027
+type(
+  formula
+)
+ident(
+  def x "src/formula.ml" 193 5953 6031 "src/formula.ml" 193 5953 6048
+)
+"src/formula.ml" 193 5953 6031 "src/formula.ml" 193 5953 6034
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/formula.ml" 193 5953 6036 "src/formula.ml" 193 5953 6037
+type(
+  formula
+)
+ident(
+  int_ref x "src/formula.ml" 193 5953 6026 "src/formula.ml" 193 5953 6027
+)
+"src/formula.ml" 193 5953 6038 "src/formula.ml" 193 5953 6039
+type(
+  formula -> formula -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/formula.ml" 193 5953 6040 "src/formula.ml" 193 5953 6047
+type(
+  formula
+)
+"src/formula.ml" 193 5953 6036 "src/formula.ml" 193 5953 6047
+type(
+  bool
+)
+"src/formula.ml" 193 5953 6031 "src/formula.ml" 193 5953 6048
+type(
+  bool
+)
+"src/formula.ml" 193 5953 6026 "src/formula.ml" 193 5953 6048
+type(
+  formula -> bool
+)
+"src/formula.ml" 193 5953 5992 "src/formula.ml" 193 5953 6049
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 193 5953 5979 "src/formula.ml" 193 5953 6050
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 194 6054 6066 "src/formula.ml" 194 6054 6077
+type(
+  formula list list
+)
+ident(
+  def no_inner_or "src/formula.ml" 197 6180 6188 "src/formula.ml" 200 6270 6299
+)
+"src/formula.ml" 195 6081 6091 "src/formula.ml" 195 6081 6099
+type(
+  formula list -> f:(formula -> formula list) -> formula list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 195 6081 6100 "src/formula.ml" 195 6081 6111
+type(
+  formula list
+)
+ident(
+  int_ref not_miracle "src/formula.ml" 193 5953 5965 "src/formula.ml" 193 5953 5976
+)
+"src/formula.ml" 195 6081 6120 "src/formula.ml" 195 6081 6121
+type(
+  formula
+)
+ident(
+  def x "src/formula.ml" 195 6081 6125 "src/formula.ml" 195 6081 6167
+)
+"src/formula.ml" 195 6081 6131 "src/formula.ml" 195 6081 6132
+type(
+  formula
+)
+ident(
+  int_ref x "src/formula.ml" 195 6081 6120 "src/formula.ml" 195 6081 6121
+)
+"src/formula.ml" 195 6081 6147 "src/formula.ml" 195 6081 6149
+type(
+  formula list
+)
+ident(
+  def ls "src/formula.ml" 195 6081 6154 "src/formula.ml" 195 6081 6156
+)
+"src/formula.ml" 195 6081 6140 "src/formula.ml" 195 6081 6150
+type(
+  formula
+)
+"src/formula.ml" 195 6081 6154 "src/formula.ml" 195 6081 6156
+type(
+  formula list
+)
+ident(
+  int_ref ls "src/formula.ml" 195 6081 6147 "src/formula.ml" 195 6081 6149
+)
+"src/formula.ml" 195 6081 6159 "src/formula.ml" 195 6081 6160
+type(
+  formula
+)
+"src/formula.ml" 195 6081 6165 "src/formula.ml" 195 6081 6166
+type(
+  formula
+)
+ident(
+  int_ref x "src/formula.ml" 195 6081 6120 "src/formula.ml" 195 6081 6121
+)
+type(
+  formula list
+)
+"src/formula.ml" 195 6081 6164 "src/formula.ml" 195 6081 6167
+type(
+  formula list
+)
+"src/formula.ml" 195 6081 6125 "src/formula.ml" 195 6081 6167
+type(
+  formula list
+)
+"src/formula.ml" 195 6081 6120 "src/formula.ml" 195 6081 6167
+type(
+  formula -> formula list
+)
+"src/formula.ml" 195 6081 6091 "src/formula.ml" 195 6081 6168
+call(
+  stack
+)
+type(
+  formula list list
+)
+"src/formula.ml" 197 6180 6194 "src/formula.ml" 197 6180 6205
+type(
+  formula list list -> formula list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/formula.ml" 197 6180 6206 "src/formula.ml" 197 6180 6217
+type(
+  formula list list
+)
+ident(
+  int_ref no_inner_or "src/formula.ml" 194 6054 6066 "src/formula.ml" 194 6054 6077
+)
+"src/formula.ml" 197 6180 6194 "src/formula.ml" 197 6180 6217
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/formula.ml" 198 6223 6233 "src/formula.ml" 198 6223 6235
+type(
+  formula list
+)
+"src/formula.ml" 198 6223 6239 "src/formula.ml" 198 6223 6246
+type(
+  formula
+)
+ident(
+  ext_ref Paramecium.miracle
+)
+"src/formula.ml" 199 6247 6258 "src/formula.ml" 199 6247 6261
+type(
+  formula list
+)
+type(
+  formula
+)
+ident(
+  def one "src/formula.ml" 199 6247 6266 "src/formula.ml" 199 6247 6269
+)
+"src/formula.ml" 199 6247 6257 "src/formula.ml" 199 6247 6262
+type(
+  formula list
+)
+"src/formula.ml" 199 6247 6266 "src/formula.ml" 199 6247 6269
+type(
+  formula
+)
+ident(
+  int_ref one "src/formula.ml" 199 6247 6258 "src/formula.ml" 199 6247 6261
+)
+"src/formula.ml" 200 6270 6280 "src/formula.ml" 200 6270 6284
+type(
+  formula list
+)
+ident(
+  def orls "src/formula.ml" 200 6270 6288 "src/formula.ml" 200 6270 6299
+)
+"src/formula.ml" 200 6270 6288 "src/formula.ml" 200 6270 6294
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.orList
+)
+"src/formula.ml" 200 6270 6295 "src/formula.ml" 200 6270 6299
+type(
+  formula list
+)
+ident(
+  int_ref orls "src/formula.ml" 200 6270 6280 "src/formula.ml" 200 6270 6284
+)
+"src/formula.ml" 200 6270 6288 "src/formula.ml" 200 6270 6299
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 197 6180 6188 "src/formula.ml" 200 6270 6299
+type(
+  formula
+)
+"src/formula.ml" 194 6054 6062 "src/formula.ml" 200 6270 6299
+type(
+  formula
+)
+"src/formula.ml" 193 5953 5961 "src/formula.ml" 200 6270 6299
+type(
+  formula
+)
+"src/formula.ml" 191 5866 5872 "src/formula.ml" 201 6300 6309
+type(
+  formula
+)
+"src/formula.ml" 190 5814 5820 "src/formula.ml" 201 6300 6309
+type(
+  formula
+)
+"src/formula.ml" 202 6310 6320 "src/formula.ml" 202 6310 6321
+type(
+  formula
+)
+"src/formula.ml" 202 6310 6316 "src/formula.ml" 202 6310 6322
+type(
+  formula
+)
+"src/formula.ml" 203 6323 6335 "src/formula.ml" 203 6323 6336
+type(
+  formula
+)
+type(
+  formula
+)
+"src/formula.ml" 203 6323 6329 "src/formula.ml" 203 6323 6337
+type(
+  formula
+)
+"src/formula.ml" 202 6310 6316 "src/formula.ml" 203 6323 6337
+type(
+  formula
+)
+"src/formula.ml" 203 6323 6341 "src/formula.ml" 203 6323 6350
+type(
+  string -> unit
+)
+ident(
+  ext_ref Utils.Prt.error
+)
+"src/formula.ml" 203 6323 6352 "src/formula.ml" 203 6323 6370
+type(
+  ?lower:bool -> formula -> string
+)
+ident(
+  ext_ref ToStr.Smv.form_act
+)
+"src/formula.ml" 203 6323 6371 "src/formula.ml" 203 6323 6375
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 153 4580 4598 "src/formula.ml" 153 4580 4602
+)
+"src/formula.ml" 203 6323 6352 "src/formula.ml" 203 6323 6375
+call(
+  stack
+)
+type(
+  string
+)
+"src/formula.ml" 203 6323 6341 "src/formula.ml" 203 6323 6376
+call(
+  stack
+)
+type(
+  unit
+)
+"src/formula.ml" 203 6323 6378 "src/formula.ml" 203 6323 6383
+type(
+  exn -> formula
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/formula.ml" 203 6323 6384 "src/formula.ml" 203 6323 6399
+type(
+  exn
+)
+"src/formula.ml" 203 6323 6378 "src/formula.ml" 203 6323 6399
+type(
+  formula
+)
+"src/formula.ml" 203 6323 6341 "src/formula.ml" 203 6323 6399
+type(
+  formula
+)
+"src/formula.ml" 154 4605 4609 "src/formula.ml" 203 6323 6399
+type(
+  formula
+)
+"src/formula.ml" 153 4580 4598 "src/formula.ml" 203 6323 6399
+type(
+  formula -> formula
+)
+"src/formula.ml" 205 6405 6407 "src/formula.ml" 205 6405 6414
+type(
+  formula -> formula
+)
+ident(
+  int_ref wrapper "src/formula.ml" 153 4580 4590 "src/formula.ml" 153 4580 4597
+)
+"src/formula.ml" 205 6405 6415 "src/formula.ml" 205 6405 6427
+type(
+  formula
+)
+ident(
+  int_ref no_imply_neg "src/formula.ml" 152 4522 4528 "src/formula.ml" 152 4522 4540
+)
+"src/formula.ml" 205 6405 6407 "src/formula.ml" 205 6405 6427
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 153 4580 4582 "src/formula.ml" 205 6405 6427
+type(
+  formula
+)
+"src/formula.ml" 152 4522 4524 "src/formula.ml" 205 6405 6427
+type(
+  formula
+)
+"src/formula.ml" 151 4485 4515 "src/formula.ml" 205 6405 6427
+type(
+  formula -> formula
+)
+"src/formula.ml" 151 4485 4498 "src/formula.ml" 205 6405 6427
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+type(
+  formula -> formula
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "src/formula.ml" 151 4485 4498 "src/formula.ml" 205 6405 6427
+)
+type(
+  bool option
+)
+"src/formula.ml" 211 6597 6601 "src/formula.ml" 211 6597 6610
+type(
+  formula -> types:typedef list -> formula
+)
+ident(
+  def normalize "src/formula.ml" 266 8610 8610 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 211 6597 6611 "src/formula.ml" 211 6597 6615
+type(
+  formula
+)
+ident(
+  def form "src/formula.ml" 211 6597 6616 "src/formula.ml" 255 8506 8527
+)
+"src/formula.ml" 212 6625 6632 "src/formula.ml" 212 6625 6633
+type(
+  paramdef list
+)
+"src/formula.ml" 212 6625 6635 "src/formula.ml" 212 6625 6638
+type(
+  paramref list
+)
+ident(
+  def pfs "src/formula.ml" 213 6677 6679 "src/formula.ml" 255 8506 8527
+)
+"src/formula.ml" 212 6625 6640 "src/formula.ml" 212 6625 6645
+type(
+  formula
+)
+ident(
+  def form' "src/formula.ml" 213 6677 6679 "src/formula.ml" 255 8506 8527
+)
+"src/formula.ml" 212 6625 6632 "src/formula.ml" 212 6625 6645
+type(
+  paramdef list * paramref list * formula
+)
+"src/formula.ml" 212 6625 6649 "src/formula.ml" 212 6625 6668
+type(
+  ?rename:bool -> formula -> paramdef list * paramref list * formula
+)
+ident(
+  ext_ref Generalize.form_act
+)
+"src/formula.ml" 212 6625 6669 "src/formula.ml" 212 6625 6673
+type(
+  formula
+)
+ident(
+  int_ref form "src/formula.ml" 211 6597 6611 "src/formula.ml" 211 6597 6615
+)
+"src/formula.ml" 212 6625 6649 "src/formula.ml" 212 6625 6673
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * formula
+)
+"src/formula.ml" 213 6677 6683 "src/formula.ml" 213 6677 6692
+type(
+  paramref list list
+)
+ident(
+  def pf_groups "src/formula.ml" 220 7064 7066 "src/formula.ml" 255 8506 8527
+)
+"src/formula.ml" 213 6677 6695 "src/formula.ml" 213 6677 6704
+type(
+  paramref list -> f:(paramref -> string) -> paramref list list
+)
+ident(
+  ext_ref Utils.partition
+)
+"src/formula.ml" 213 6677 6705 "src/formula.ml" 213 6677 6708
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/formula.ml" 212 6625 6635 "src/formula.ml" 212 6625 6638
+)
+"src/formula.ml" 213 6677 6712 "src/formula.ml" 213 6677 6732
+type(
+  paramref -> string
+)
+ident(
+  ext_ref Paramecium.typename_of_paramfix
+)
+"src/formula.ml" 213 6677 6695 "src/formula.ml" 213 6677 6732
+call(
+  stack
+)
+type(
+  paramref list list
+)
+"src/formula.ml" 220 7064 7070 "src/formula.ml" 220 7064 7084
+type(
+  paramref list -> paramref list
+)
+ident(
+  def normalize_type "src/formula.ml" 250 8255 8257 "src/formula.ml" 255 8506 8527
+)
+"src/formula.ml" 220 7064 7085 "src/formula.ml" 220 7064 7088
+type(
+  paramref list
+)
+ident(
+  def pfs "src/formula.ml" 221 7091 7095 "src/formula.ml" 248 8175 8249
+)
+"src/formula.ml" 221 7091 7103 "src/formula.ml" 221 7091 7110
+type(
+  paramref list ->
+  const list -> (string, paramref, 'a) Map.t -> (string, paramref, 'a) Map.t
+)
+ident(
+  def gen_map "src/formula.ml" 221 7091 7095 "src/formula.ml" 248 8175 8249
+)
+"src/formula.ml" 221 7091 7111 "src/formula.ml" 221 7091 7114
+type(
+  paramref list
+)
+ident(
+  def pfs "src/formula.ml" 221 7091 7115 "src/formula.ml" 245 8109 8118
+)
+"src/formula.ml" 221 7091 7115 "src/formula.ml" 221 7091 7120
+type(
+  const list
+)
+ident(
+  def range "src/formula.ml" 221 7091 7121 "src/formula.ml" 245 8109 8118
+)
+"src/formula.ml" 221 7091 7121 "src/formula.ml" 221 7091 7122
+type(
+  (string, paramref, 'a) Map.t
+)
+ident(
+  def m "src/formula.ml" 222 7125 7131 "src/formula.ml" 245 8109 8118
+)
+"src/formula.ml" 222 7125 7137 "src/formula.ml" 222 7125 7140
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/formula.ml" 221 7091 7111 "src/formula.ml" 221 7091 7114
+)
+"src/formula.ml" 223 7146 7154 "src/formula.ml" 223 7146 7156
+type(
+  paramref list
+)
+"src/formula.ml" 223 7146 7160 "src/formula.ml" 223 7146 7161
+type(
+  (string, paramref, 'a) Map.t
+)
+ident(
+  int_ref m "src/formula.ml" 221 7091 7121 "src/formula.ml" 221 7091 7122
+)
+"src/formula.ml" 224 7162 7170 "src/formula.ml" 224 7162 7172
+type(
+  paramref
+)
+ident(
+  def pf "src/formula.ml" 225 7182 7190 "src/formula.ml" 245 8109 8118
+)
+"src/formula.ml" 224 7162 7174 "src/formula.ml" 224 7162 7178
+type(
+  paramref list
+)
+ident(
+  def pfs' "src/formula.ml" 225 7182 7190 "src/formula.ml" 245 8109 8118
+)
+"src/formula.ml" 224 7162 7170 "src/formula.ml" 224 7162 7178
+type(
+  paramref list
+)
+"src/formula.ml" 225 7182 7194 "src/formula.ml" 225 7182 7197
+type(
+  string
+)
+ident(
+  def key "src/formula.ml" 226 7231 7241 "src/formula.ml" 244 8065 8108
+)
+"src/formula.ml" 225 7182 7200 "src/formula.ml" 225 7182 7222
+type(
+  paramref -> string
+)
+ident(
+  ext_ref ToStr.Smv.paramref_act
+)
+"src/formula.ml" 225 7182 7223 "src/formula.ml" 225 7182 7225
+type(
+  paramref
+)
+ident(
+  int_ref pf "src/formula.ml" 224 7162 7170 "src/formula.ml" 224 7162 7172
+)
+"src/formula.ml" 225 7182 7200 "src/formula.ml" 225 7182 7225
+call(
+  stack
+)
+type(
+  string
+)
+"src/formula.ml" 226 7231 7247 "src/formula.ml" 226 7231 7255
+type(
+  (string, paramref, 'a) Map.t -> string -> paramref option
+)
+ident(
+  ext_ref Core.Std.Map.find
+)
+"src/formula.ml" 226 7231 7256 "src/formula.ml" 226 7231 7257
+type(
+  (string, paramref, 'a) Map.t
+)
+ident(
+  int_ref m "src/formula.ml" 221 7091 7121 "src/formula.ml" 221 7091 7122
+)
+"src/formula.ml" 226 7231 7258 "src/formula.ml" 226 7231 7261
+type(
+  string
+)
+ident(
+  int_ref key "src/formula.ml" 225 7182 7194 "src/formula.ml" 225 7182 7197
+)
+"src/formula.ml" 226 7231 7247 "src/formula.ml" 226 7231 7261
+call(
+  stack
+)
+type(
+  paramref option
+)
+"src/formula.ml" 227 7267 7279 "src/formula.ml" 227 7267 7283
+type(
+  paramref option
+)
+"src/formula.ml" 228 7289 7307 "src/formula.ml" 228 7289 7312
+type(
+  string
+)
+ident(
+  def vname "src/formula.ml" 229 7335 7349 "src/formula.ml" 242 8033 8050
+)
+"src/formula.ml" 228 7289 7315 "src/formula.ml" 228 7289 7328
+type(
+  paramref -> string
+)
+ident(
+  ext_ref Paramecium.name_of_param
+)
+"src/formula.ml" 228 7289 7329 "src/formula.ml" 228 7289 7331
+type(
+  paramref
+)
+ident(
+  int_ref pf "src/formula.ml" 224 7162 7170 "src/formula.ml" 224 7162 7172
+)
+"src/formula.ml" 228 7289 7315 "src/formula.ml" 228 7289 7331
+call(
+  stack
+)
+type(
+  string
+)
+"src/formula.ml" 229 7335 7353 "src/formula.ml" 229 7335 7358
+type(
+  string
+)
+ident(
+  def tname "src/formula.ml" 232 7459 7473 "src/formula.ml" 242 8033 8050
+)
+"src/formula.ml" 229 7335 7361 "src/formula.ml" 229 7335 7381
+type(
+  paramref -> string
+)
+ident(
+  ext_ref Paramecium.typename_of_paramfix
+)
+"src/formula.ml" 229 7335 7382 "src/formula.ml" 229 7335 7384
+type(
+  paramref
+)
+ident(
+  int_ref pf "src/formula.ml" 224 7162 7170 "src/formula.ml" 224 7162 7172
+)
+"src/formula.ml" 229 7335 7361 "src/formula.ml" 229 7335 7384
+call(
+  stack
+)
+type(
+  string
+)
+"src/formula.ml" 232 7459 7476 "src/formula.ml" 232 7459 7478
+type(
+  paramref
+)
+ident(
+  int_ref pf "src/formula.ml" 224 7162 7170 "src/formula.ml" 224 7162 7172
+)
+"src/formula.ml" 232 7459 7479 "src/formula.ml" 232 7459 7480
+type(
+  paramref -> paramref -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/formula.ml" 232 7459 7481 "src/formula.ml" 232 7459 7489
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"src/formula.ml" 232 7459 7490 "src/formula.ml" 232 7459 7495
+type(
+  string
+)
+ident(
+  int_ref vname "src/formula.ml" 228 7289 7307 "src/formula.ml" 228 7289 7312
+)
+"src/formula.ml" 232 7459 7496 "src/formula.ml" 232 7459 7501
+type(
+  string
+)
+ident(
+  int_ref tname "src/formula.ml" 229 7335 7353 "src/formula.ml" 229 7335 7358
+)
+"src/formula.ml" 232 7459 7503 "src/formula.ml" 232 7459 7507
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"src/formula.ml" 232 7459 7508 "src/formula.ml" 232 7459 7509
+type(
+  int
+)
+"src/formula.ml" 232 7459 7503 "src/formula.ml" 232 7459 7509
+call(
+  stack
+)
+type(
+  const
+)
+"src/formula.ml" 232 7459 7481 "src/formula.ml" 232 7459 7510
+call(
+  stack
+)
+type(
+  paramref
+)
+"src/formula.ml" 232 7459 7476 "src/formula.ml" 232 7459 7510
+type(
+  bool
+)
+"src/formula.ml" 233 7516 7532 "src/formula.ml" 233 7516 7539
+type(
+  paramref list ->
+  const list -> (string, paramref, 'a) Map.t -> (string, paramref, 'a) Map.t
+)
+ident(
+  int_ref gen_map "src/formula.ml" 221 7091 7103 "src/formula.ml" 221 7091 7110
+)
+"src/formula.ml" 233 7516 7540 "src/formula.ml" 233 7516 7544
+type(
+  paramref list
+)
+ident(
+  int_ref pfs' "src/formula.ml" 224 7162 7174 "src/formula.ml" 224 7162 7178
+)
+"src/formula.ml" 233 7516 7545 "src/formula.ml" 233 7516 7550
+type(
+  const list
+)
+ident(
+  int_ref range "src/formula.ml" 221 7091 7115 "src/formula.ml" 221 7091 7120
+)
+"src/formula.ml" 233 7516 7552 "src/formula.ml" 233 7516 7559
+type(
+  (string, paramref, 'a) Map.t ->
+  key:string -> data:paramref -> (string, paramref, 'a) Map.t
+)
+ident(
+  ext_ref Core.Std.Map.add
+)
+"src/formula.ml" 233 7516 7560 "src/formula.ml" 233 7516 7561
+type(
+  (string, paramref, 'a) Map.t
+)
+ident(
+  int_ref m "src/formula.ml" 221 7091 7121 "src/formula.ml" 221 7091 7122
+)
+"src/formula.ml" 233 7516 7562 "src/formula.ml" 233 7516 7566
+type(
+  string
+)
+ident(
+  int_ref key "src/formula.ml" 225 7182 7194 "src/formula.ml" 225 7182 7197
+)
+"src/formula.ml" 233 7516 7573 "src/formula.ml" 233 7516 7575
+type(
+  paramref
+)
+ident(
+  int_ref pf "src/formula.ml" 224 7162 7170 "src/formula.ml" 224 7162 7172
+)
+"src/formula.ml" 233 7516 7552 "src/formula.ml" 233 7516 7575
+call(
+  stack
+)
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 233 7516 7532 "src/formula.ml" 233 7516 7576
+call(
+  tail
+)
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 235 7602 7624 "src/formula.ml" 235 7602 7629
+type(
+  const list
+)
+ident(
+  int_ref range "src/formula.ml" 221 7091 7115 "src/formula.ml" 221 7091 7120
+)
+"src/formula.ml" 236 7635 7653 "src/formula.ml" 236 7635 7655
+type(
+  const list
+)
+"src/formula.ml" 237 7661 7687 "src/formula.ml" 237 7661 7698
+type(
+  const list -> f:(const -> bool) -> const list
+)
+ident(
+  ext_ref Core.Std.List.filter
+)
+"src/formula.ml" 237 7661 7700 "src/formula.ml" 237 7661 7709
+type(
+  tname:string -> types:typedef list -> const list
+)
+ident(
+  ext_ref Paramecium.name2type
+)
+"src/formula.ml" 237 7661 7710 "src/formula.ml" 237 7661 7716
+type(
+  string
+)
+ident(
+  int_ref tname "src/formula.ml" 229 7335 7353 "src/formula.ml" 229 7335 7358
+)
+"src/formula.ml" 237 7661 7717 "src/formula.ml" 237 7661 7723
+type(
+  typedef list
+)
+ident(
+  int_ref types "src/formula.ml" 211 6597 6616 "src/formula.ml" 255 8506 8527
+)
+"src/formula.ml" 237 7661 7700 "src/formula.ml" 237 7661 7723
+call(
+  stack
+)
+type(
+  const list
+)
+"src/formula.ml" 237 7661 7733 "src/formula.ml" 237 7661 7734
+type(
+  const
+)
+ident(
+  def v "src/formula.ml" 237 7661 7738 "src/formula.ml" 237 7661 7754
+)
+"src/formula.ml" 237 7661 7738 "src/formula.ml" 237 7661 7741
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/formula.ml" 237 7661 7743 "src/formula.ml" 237 7661 7744
+type(
+  const
+)
+ident(
+  int_ref v "src/formula.ml" 237 7661 7733 "src/formula.ml" 237 7661 7734
+)
+"src/formula.ml" 237 7661 7745 "src/formula.ml" 237 7661 7746
+type(
+  const -> const -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/formula.ml" 237 7661 7747 "src/formula.ml" 237 7661 7751
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"src/formula.ml" 237 7661 7752 "src/formula.ml" 237 7661 7753
+type(
+  int
+)
+"src/formula.ml" 237 7661 7747 "src/formula.ml" 237 7661 7753
+call(
+  stack
+)
+type(
+  const
+)
+"src/formula.ml" 237 7661 7743 "src/formula.ml" 237 7661 7753
+type(
+  bool
+)
+"src/formula.ml" 237 7661 7738 "src/formula.ml" 237 7661 7754
+type(
+  bool
+)
+"src/formula.ml" 237 7661 7733 "src/formula.ml" 237 7661 7754
+type(
+  const -> bool
+)
+"src/formula.ml" 237 7661 7687 "src/formula.ml" 237 7661 7755
+call(
+  stack
+)
+type(
+  const list
+)
+"src/formula.ml" 238 7761 7783 "src/formula.ml" 238 7761 7785
+type(
+  const list
+)
+"src/formula.ml" 238 7761 7789 "src/formula.ml" 238 7761 7794
+type(
+  exn -> (string, paramref, 'a) Map.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/formula.ml" 238 7761 7795 "src/formula.ml" 238 7761 7810
+type(
+  exn
+)
+"src/formula.ml" 238 7761 7789 "src/formula.ml" 238 7761 7810
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 239 7811 7833 "src/formula.ml" 239 7811 7834
+type(
+  const
+)
+ident(
+  def v "src/formula.ml" 239 7811 7846 "src/formula.ml" 239 7811 7913
+)
+"src/formula.ml" 239 7811 7836 "src/formula.ml" 239 7811 7842
+type(
+  const list
+)
+ident(
+  def range' "src/formula.ml" 239 7811 7846 "src/formula.ml" 239 7811 7913
+)
+"src/formula.ml" 239 7811 7833 "src/formula.ml" 239 7811 7842
+type(
+  const list
+)
+"src/formula.ml" 239 7811 7846 "src/formula.ml" 239 7811 7853
+type(
+  paramref list ->
+  const list -> (string, paramref, 'a) Map.t -> (string, paramref, 'a) Map.t
+)
+ident(
+  int_ref gen_map "src/formula.ml" 221 7091 7103 "src/formula.ml" 221 7091 7110
+)
+"src/formula.ml" 239 7811 7854 "src/formula.ml" 239 7811 7858
+type(
+  paramref list
+)
+ident(
+  int_ref pfs' "src/formula.ml" 224 7162 7174 "src/formula.ml" 224 7162 7178
+)
+"src/formula.ml" 239 7811 7859 "src/formula.ml" 239 7811 7865
+type(
+  const list
+)
+ident(
+  int_ref range' "src/formula.ml" 239 7811 7836 "src/formula.ml" 239 7811 7842
+)
+"src/formula.ml" 239 7811 7867 "src/formula.ml" 239 7811 7874
+type(
+  (string, paramref, 'a) Map.t ->
+  key:string -> data:paramref -> (string, paramref, 'a) Map.t
+)
+ident(
+  ext_ref Core.Std.Map.add
+)
+"src/formula.ml" 239 7811 7875 "src/formula.ml" 239 7811 7876
+type(
+  (string, paramref, 'a) Map.t
+)
+ident(
+  int_ref m "src/formula.ml" 221 7091 7121 "src/formula.ml" 221 7091 7122
+)
+"src/formula.ml" 239 7811 7877 "src/formula.ml" 239 7811 7881
+type(
+  string
+)
+ident(
+  int_ref key "src/formula.ml" 225 7182 7194 "src/formula.ml" 225 7182 7197
+)
+"src/formula.ml" 239 7811 7889 "src/formula.ml" 239 7811 7897
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"src/formula.ml" 239 7811 7898 "src/formula.ml" 239 7811 7903
+type(
+  string
+)
+ident(
+  int_ref vname "src/formula.ml" 228 7289 7307 "src/formula.ml" 228 7289 7312
+)
+"src/formula.ml" 239 7811 7904 "src/formula.ml" 239 7811 7909
+type(
+  string
+)
+ident(
+  int_ref tname "src/formula.ml" 229 7335 7353 "src/formula.ml" 229 7335 7358
+)
+"src/formula.ml" 239 7811 7910 "src/formula.ml" 239 7811 7911
+type(
+  const
+)
+ident(
+  int_ref v "src/formula.ml" 239 7811 7833 "src/formula.ml" 239 7811 7834
+)
+"src/formula.ml" 239 7811 7889 "src/formula.ml" 239 7811 7911
+call(
+  stack
+)
+type(
+  paramref
+)
+"src/formula.ml" 239 7811 7867 "src/formula.ml" 239 7811 7912
+call(
+  stack
+)
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 239 7811 7846 "src/formula.ml" 239 7811 7913
+call(
+  tail
+)
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 237 7661 7681 "src/formula.ml" 239 7811 7913
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 241 7934 7952 "src/formula.ml" 241 7934 7953
+type(
+  const
+)
+ident(
+  def v "src/formula.ml" 241 7934 7965 "src/formula.ml" 241 7934 8032
+)
+"src/formula.ml" 241 7934 7955 "src/formula.ml" 241 7934 7961
+type(
+  const list
+)
+ident(
+  def range' "src/formula.ml" 241 7934 7965 "src/formula.ml" 241 7934 8032
+)
+"src/formula.ml" 241 7934 7952 "src/formula.ml" 241 7934 7961
+type(
+  const list
+)
+"src/formula.ml" 241 7934 7965 "src/formula.ml" 241 7934 7972
+type(
+  paramref list ->
+  const list -> (string, paramref, 'a) Map.t -> (string, paramref, 'a) Map.t
+)
+ident(
+  int_ref gen_map "src/formula.ml" 221 7091 7103 "src/formula.ml" 221 7091 7110
+)
+"src/formula.ml" 241 7934 7973 "src/formula.ml" 241 7934 7977
+type(
+  paramref list
+)
+ident(
+  int_ref pfs' "src/formula.ml" 224 7162 7174 "src/formula.ml" 224 7162 7178
+)
+"src/formula.ml" 241 7934 7978 "src/formula.ml" 241 7934 7984
+type(
+  const list
+)
+ident(
+  int_ref range' "src/formula.ml" 241 7934 7955 "src/formula.ml" 241 7934 7961
+)
+"src/formula.ml" 241 7934 7986 "src/formula.ml" 241 7934 7993
+type(
+  (string, paramref, 'a) Map.t ->
+  key:string -> data:paramref -> (string, paramref, 'a) Map.t
+)
+ident(
+  ext_ref Core.Std.Map.add
+)
+"src/formula.ml" 241 7934 7994 "src/formula.ml" 241 7934 7995
+type(
+  (string, paramref, 'a) Map.t
+)
+ident(
+  int_ref m "src/formula.ml" 221 7091 7121 "src/formula.ml" 221 7091 7122
+)
+"src/formula.ml" 241 7934 7996 "src/formula.ml" 241 7934 8000
+type(
+  string
+)
+ident(
+  int_ref key "src/formula.ml" 225 7182 7194 "src/formula.ml" 225 7182 7197
+)
+"src/formula.ml" 241 7934 8008 "src/formula.ml" 241 7934 8016
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"src/formula.ml" 241 7934 8017 "src/formula.ml" 241 7934 8022
+type(
+  string
+)
+ident(
+  int_ref vname "src/formula.ml" 228 7289 7307 "src/formula.ml" 228 7289 7312
+)
+"src/formula.ml" 241 7934 8023 "src/formula.ml" 241 7934 8028
+type(
+  string
+)
+ident(
+  int_ref tname "src/formula.ml" 229 7335 7353 "src/formula.ml" 229 7335 7358
+)
+"src/formula.ml" 241 7934 8029 "src/formula.ml" 241 7934 8030
+type(
+  const
+)
+ident(
+  int_ref v "src/formula.ml" 241 7934 7952 "src/formula.ml" 241 7934 7953
+)
+"src/formula.ml" 241 7934 8008 "src/formula.ml" 241 7934 8030
+call(
+  stack
+)
+type(
+  paramref
+)
+"src/formula.ml" 241 7934 7986 "src/formula.ml" 241 7934 8031
+call(
+  stack
+)
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 241 7934 7965 "src/formula.ml" 241 7934 8032
+call(
+  tail
+)
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 235 7602 7618 "src/formula.ml" 241 7934 8032
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 232 7459 7473 "src/formula.ml" 242 8033 8050
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 229 7335 7349 "src/formula.ml" 242 8033 8050
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 228 7289 7303 "src/formula.ml" 242 8033 8050
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 244 8065 8082 "src/formula.ml" 244 8065 8083
+type(
+  paramref
+)
+"src/formula.ml" 244 8065 8077 "src/formula.ml" 244 8065 8084
+type(
+  paramref option
+)
+"src/formula.ml" 244 8065 8088 "src/formula.ml" 244 8065 8095
+type(
+  paramref list ->
+  const list -> (string, paramref, 'a) Map.t -> (string, paramref, 'a) Map.t
+)
+ident(
+  int_ref gen_map "src/formula.ml" 221 7091 7103 "src/formula.ml" 221 7091 7110
+)
+"src/formula.ml" 244 8065 8096 "src/formula.ml" 244 8065 8100
+type(
+  paramref list
+)
+ident(
+  int_ref pfs' "src/formula.ml" 224 7162 7174 "src/formula.ml" 224 7162 7178
+)
+"src/formula.ml" 244 8065 8101 "src/formula.ml" 244 8065 8106
+type(
+  const list
+)
+ident(
+  int_ref range "src/formula.ml" 221 7091 7115 "src/formula.ml" 221 7091 7120
+)
+"src/formula.ml" 244 8065 8107 "src/formula.ml" 244 8065 8108
+type(
+  (string, paramref, 'a) Map.t
+)
+ident(
+  int_ref m "src/formula.ml" 221 7091 7121 "src/formula.ml" 221 7091 7122
+)
+"src/formula.ml" 244 8065 8088 "src/formula.ml" 244 8065 8108
+call(
+  tail
+)
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 226 7231 7241 "src/formula.ml" 244 8065 8108
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 225 7182 7190 "src/formula.ml" 245 8109 8118
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 222 7125 7131 "src/formula.ml" 245 8109 8118
+type(
+  (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 221 7091 7121 "src/formula.ml" 245 8109 8118
+type(
+  (string, paramref, 'a) Map.t -> (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 221 7091 7115 "src/formula.ml" 245 8109 8118
+type(
+  const list -> (string, paramref, 'a) Map.t -> (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 221 7091 7111 "src/formula.ml" 245 8109 8118
+type(
+  paramref list ->
+  const list -> (string, paramref, 'a) Map.t -> (string, paramref, 'a) Map.t
+)
+"src/formula.ml" 247 8126 8134 "src/formula.ml" 247 8126 8135
+type(
+  (string, paramref, String.comparator_witness) Map.t
+)
+ident(
+  def m "src/formula.ml" 248 8175 8179 "src/formula.ml" 248 8175 8249
+)
+"src/formula.ml" 247 8126 8138 "src/formula.ml" 247 8126 8145
+type(
+  paramref list ->
+  const list ->
+  (string, paramref, String.comparator_witness) Map.t ->
+  (string, paramref, String.comparator_witness) Map.t
+)
+ident(
+  int_ref gen_map "src/formula.ml" 221 7091 7103 "src/formula.ml" 221 7091 7110
+)
+"src/formula.ml" 247 8126 8146 "src/formula.ml" 247 8126 8149
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/formula.ml" 220 7064 7085 "src/formula.ml" 220 7064 7088
+)
+"src/formula.ml" 247 8126 8150 "src/formula.ml" 247 8126 8152
+type(
+  const list
+)
+"src/formula.ml" 247 8126 8154 "src/formula.ml" 247 8126 8170
+type(
+  paramref String.Map.t
+)
+ident(
+  ext_ref Core.Std.String.Map.empty
+)
+"src/formula.ml" 247 8126 8138 "src/formula.ml" 247 8126 8171
+call(
+  stack
+)
+type(
+  (string, paramref, String.comparator_witness) Map.t
+)
+"src/formula.ml" 248 8175 8179 "src/formula.ml" 248 8175 8187
+type(
+  paramref list -> f:(paramref -> paramref) -> paramref list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 248 8175 8188 "src/formula.ml" 248 8175 8191
+type(
+  paramref list
+)
+ident(
+  int_ref pfs "src/formula.ml" 220 7064 7085 "src/formula.ml" 220 7064 7088
+)
+"src/formula.ml" 248 8175 8200 "src/formula.ml" 248 8175 8202
+type(
+  paramref
+)
+ident(
+  def pf "src/formula.ml" 248 8175 8206 "src/formula.ml" 248 8175 8248
+)
+"src/formula.ml" 248 8175 8206 "src/formula.ml" 248 8175 8218
+type(
+  (string, paramref, String.comparator_witness) Map.t -> string -> paramref
+)
+ident(
+  ext_ref Core.Std.Map.find_exn
+)
+"src/formula.ml" 248 8175 8219 "src/formula.ml" 248 8175 8220
+type(
+  (string, paramref, String.comparator_witness) Map.t
+)
+ident(
+  int_ref m "src/formula.ml" 247 8126 8134 "src/formula.ml" 247 8126 8135
+)
+"src/formula.ml" 248 8175 8222 "src/formula.ml" 248 8175 8244
+type(
+  paramref -> string
+)
+ident(
+  ext_ref ToStr.Smv.paramref_act
+)
+"src/formula.ml" 248 8175 8245 "src/formula.ml" 248 8175 8247
+type(
+  paramref
+)
+ident(
+  int_ref pf "src/formula.ml" 248 8175 8200 "src/formula.ml" 248 8175 8202
+)
+"src/formula.ml" 248 8175 8222 "src/formula.ml" 248 8175 8247
+call(
+  stack
+)
+type(
+  string
+)
+"src/formula.ml" 248 8175 8206 "src/formula.ml" 248 8175 8248
+call(
+  tail
+)
+type(
+  paramref
+)
+"src/formula.ml" 248 8175 8200 "src/formula.ml" 248 8175 8248
+type(
+  paramref -> paramref
+)
+"src/formula.ml" 248 8175 8179 "src/formula.ml" 248 8175 8249
+call(
+  tail
+)
+type(
+  paramref list
+)
+"src/formula.ml" 247 8126 8130 "src/formula.ml" 248 8175 8249
+type(
+  paramref list
+)
+"src/formula.ml" 221 7091 7095 "src/formula.ml" 248 8175 8249
+type(
+  paramref list
+)
+"src/formula.ml" 220 7064 7085 "src/formula.ml" 248 8175 8249
+type(
+  paramref list -> paramref list
+)
+"src/formula.ml" 250 8255 8261 "src/formula.ml" 250 8255 8262
+type(
+  paramref list
+)
+ident(
+  def p "src/formula.ml" 255 8506 8508 "src/formula.ml" 255 8506 8527
+)
+"src/formula.ml" 250 8255 8265 "src/formula.ml" 250 8255 8276
+type(
+  paramref list list -> paramref list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/formula.ml" 250 8255 8278 "src/formula.ml" 250 8255 8286
+type(
+  paramref list list ->
+  f:(paramref list -> paramref list) -> paramref list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 250 8255 8287 "src/formula.ml" 250 8255 8296
+type(
+  paramref list list
+)
+ident(
+  int_ref pf_groups "src/formula.ml" 213 6677 6683 "src/formula.ml" 213 6677 6692
+)
+"src/formula.ml" 250 8255 8300 "src/formula.ml" 250 8255 8314
+type(
+  paramref list -> paramref list
+)
+ident(
+  int_ref normalize_type "src/formula.ml" 220 7064 7070 "src/formula.ml" 220 7064 7084
+)
+"src/formula.ml" 250 8255 8278 "src/formula.ml" 250 8255 8314
+call(
+  stack
+)
+type(
+  paramref list list
+)
+"src/formula.ml" 250 8255 8265 "src/formula.ml" 250 8255 8315
+call(
+  stack
+)
+type(
+  paramref list
+)
+"src/formula.ml" 255 8506 8508 "src/formula.ml" 255 8506 8518
+type(
+  formula -> p:paramref list -> formula
+)
+ident(
+  ext_ref Paramecium.apply_form
+)
+"src/formula.ml" 255 8506 8519 "src/formula.ml" 255 8506 8524
+type(
+  formula
+)
+ident(
+  int_ref form' "src/formula.ml" 212 6625 6640 "src/formula.ml" 212 6625 6645
+)
+"src/formula.ml" 255 8506 8525 "src/formula.ml" 255 8506 8527
+type(
+  paramref list
+)
+ident(
+  int_ref p "src/formula.ml" 250 8255 8261 "src/formula.ml" 250 8255 8262
+)
+"src/formula.ml" 255 8506 8508 "src/formula.ml" 255 8506 8527
+call(
+  tail
+)
+type(
+  formula
+)
+"src/formula.ml" 250 8255 8257 "src/formula.ml" 255 8506 8527
+type(
+  formula
+)
+"src/formula.ml" 220 7064 7066 "src/formula.ml" 255 8506 8527
+type(
+  formula
+)
+"src/formula.ml" 213 6677 6679 "src/formula.ml" 255 8506 8527
+type(
+  formula
+)
+"src/formula.ml" 212 6625 6627 "src/formula.ml" 255 8506 8527
+type(
+  formula
+)
+"src/formula.ml" 211 6597 6616 "src/formula.ml" 255 8506 8527
+type(
+  types:typedef list -> formula
+)
+type(
+  typedef list
+)
+ident(
+  def types "src/formula.ml" 212 6625 6627 "src/formula.ml" 255 8506 8527
+)
+"src/formula.ml" 211 6597 6611 "src/formula.ml" 255 8506 8527
+type(
+  formula -> types:typedef list -> formula
+)
+"src/formula.ml" 266 8610 8614 "src/formula.ml" 266 8610 8630
+type(
+  paramref list -> (string * paramref list) list
+)
+ident(
+  def sorted_partition "src/formula.ml" 274 8925 8925 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 266 8610 8631 "src/formula.ml" 266 8610 8637
+type(
+  paramref list
+)
+ident(
+  def params "src/formula.ml" 267 8640 8642 "src/formula.ml" 268 8694 8755
+)
+"src/formula.ml" 267 8640 8642 "src/formula.ml" 267 8640 8662
+type(
+  paramref list -> f:(paramref -> string) -> (string * paramref list) list
+)
+ident(
+  ext_ref Utils.partition_with_label
+)
+"src/formula.ml" 267 8640 8663 "src/formula.ml" 267 8640 8669
+type(
+  paramref list
+)
+ident(
+  int_ref params "src/formula.ml" 266 8610 8631 "src/formula.ml" 266 8610 8637
+)
+"src/formula.ml" 267 8640 8673 "src/formula.ml" 267 8640 8693
+type(
+  paramref -> string
+)
+ident(
+  ext_ref Paramecium.typename_of_paramfix
+)
+"src/formula.ml" 267 8640 8642 "src/formula.ml" 267 8640 8693
+call(
+  stack
+)
+type(
+  (string * paramref list) list
+)
+"src/formula.ml" 268 8694 8696 "src/formula.ml" 268 8694 8698
+type(
+  (string * paramref list) list ->
+  ((string * paramref list) list -> (string * paramref list) list) ->
+  (string * paramref list) list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/formula.ml" 268 8694 8699 "src/formula.ml" 268 8694 8708
+type(
+  cmp:(string * paramref list -> string * paramref list -> int) ->
+  (string * paramref list) list -> (string * paramref list) list
+)
+ident(
+  ext_ref Core.Std.List.sort
+)
+"src/formula.ml" 268 8694 8720 "src/formula.ml" 268 8694 8721
+type(
+  string
+)
+ident(
+  def x "src/formula.ml" 268 8694 8726 "src/formula.ml" 268 8694 8754
+)
+"src/formula.ml" 268 8694 8723 "src/formula.ml" 268 8694 8724
+type(
+  paramref list
+)
+"src/formula.ml" 268 8694 8720 "src/formula.ml" 268 8694 8724
+type(
+  string * paramref list
+)
+"src/formula.ml" 268 8694 8727 "src/formula.ml" 268 8694 8728
+type(
+  string
+)
+ident(
+  def y "src/formula.ml" 268 8694 8736 "src/formula.ml" 268 8694 8754
+)
+"src/formula.ml" 268 8694 8730 "src/formula.ml" 268 8694 8731
+type(
+  paramref list
+)
+"src/formula.ml" 268 8694 8727 "src/formula.ml" 268 8694 8731
+type(
+  string * paramref list
+)
+"src/formula.ml" 268 8694 8736 "src/formula.ml" 268 8694 8750
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Core.Std.String.compare
+)
+"src/formula.ml" 268 8694 8751 "src/formula.ml" 268 8694 8752
+type(
+  string
+)
+ident(
+  int_ref x "src/formula.ml" 268 8694 8720 "src/formula.ml" 268 8694 8721
+)
+"src/formula.ml" 268 8694 8753 "src/formula.ml" 268 8694 8754
+type(
+  string
+)
+ident(
+  int_ref y "src/formula.ml" 268 8694 8727 "src/formula.ml" 268 8694 8728
+)
+"src/formula.ml" 268 8694 8736 "src/formula.ml" 268 8694 8754
+call(
+  tail
+)
+type(
+  int
+)
+"src/formula.ml" 268 8694 8726 "src/formula.ml" 268 8694 8754
+type(
+  string * paramref list -> int
+)
+"src/formula.ml" 268 8694 8719 "src/formula.ml" 268 8694 8754
+type(
+  string * paramref list -> string * paramref list -> int
+)
+"src/formula.ml" 268 8694 8699 "src/formula.ml" 268 8694 8755
+call(
+  stack
+)
+type(
+  (string * paramref list) list -> (string * paramref list) list
+)
+"src/formula.ml" 267 8640 8642 "src/formula.ml" 268 8694 8755
+call(
+  tail
+)
+type(
+  (string * paramref list) list
+)
+"src/formula.ml" 266 8610 8631 "src/formula.ml" 268 8694 8755
+type(
+  paramref list -> (string * paramref list) list
+)
+"src/formula.ml" 274 8925 8929 "src/formula.ml" 274 8925 8944
+type(
+  ('a * 'b list) list -> ('c * 'd list) list -> bool
+)
+ident(
+  def not_more_params "src/formula.ml" 282 9252 9252 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 274 8925 8945 "src/formula.ml" 274 8925 8955
+type(
+  ('a * 'b list) list
+)
+ident(
+  def partition1 "src/formula.ml" 274 8925 8956 "src/formula.ml" 277 9094 9142
+)
+"src/formula.ml" 274 8925 8956 "src/formula.ml" 274 8925 8966
+type(
+  ('c * 'd list) list
+)
+ident(
+  def partition2 "src/formula.ml" 275 8969 8971 "src/formula.ml" 277 9094 9142
+)
+"src/formula.ml" 275 8969 8975 "src/formula.ml" 275 8969 8988
+type(
+  'e * 'f list -> 'g * 'h list -> bool
+)
+ident(
+  def not_more_than "src/formula.ml" 276 9039 9041 "src/formula.ml" 277 9094 9142
+)
+"src/formula.ml" 275 8969 8990 "src/formula.ml" 275 8969 8991
+type(
+  'e
+)
+"src/formula.ml" 275 8969 8993 "src/formula.ml" 275 8969 8994
+type(
+  'f list
+)
+ident(
+  def x "src/formula.ml" 275 8969 8996 "src/formula.ml" 275 8969 9035
+)
+"src/formula.ml" 275 8969 8990 "src/formula.ml" 275 8969 8994
+type(
+  'e * 'f list
+)
+"src/formula.ml" 275 8969 8997 "src/formula.ml" 275 8969 8998
+type(
+  'g
+)
+"src/formula.ml" 275 8969 9000 "src/formula.ml" 275 8969 9001
+type(
+  'h list
+)
+ident(
+  def y "src/formula.ml" 275 8969 9005 "src/formula.ml" 275 8969 9035
+)
+"src/formula.ml" 275 8969 8997 "src/formula.ml" 275 8969 9001
+type(
+  'g * 'h list
+)
+"src/formula.ml" 275 8969 9005 "src/formula.ml" 275 8969 9016
+type(
+  'f list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"src/formula.ml" 275 8969 9017 "src/formula.ml" 275 8969 9018
+type(
+  'f list
+)
+ident(
+  int_ref x "src/formula.ml" 275 8969 8993 "src/formula.ml" 275 8969 8994
+)
+"src/formula.ml" 275 8969 9005 "src/formula.ml" 275 8969 9018
+call(
+  stack
+)
+type(
+  int
+)
+"src/formula.ml" 275 8969 9019 "src/formula.ml" 275 8969 9021
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/formula.ml" 275 8969 9022 "src/formula.ml" 275 8969 9033
+type(
+  'h list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"src/formula.ml" 275 8969 9034 "src/formula.ml" 275 8969 9035
+type(
+  'h list
+)
+ident(
+  int_ref y "src/formula.ml" 275 8969 9000 "src/formula.ml" 275 8969 9001
+)
+"src/formula.ml" 275 8969 9022 "src/formula.ml" 275 8969 9035
+call(
+  stack
+)
+type(
+  int
+)
+"src/formula.ml" 275 8969 9005 "src/formula.ml" 275 8969 9035
+type(
+  bool
+)
+"src/formula.ml" 275 8969 8996 "src/formula.ml" 275 8969 9035
+type(
+  'g * 'h list -> bool
+)
+"src/formula.ml" 275 8969 8989 "src/formula.ml" 275 8969 9035
+type(
+  'e * 'f list -> 'g * 'h list -> bool
+)
+"src/formula.ml" 276 9039 9041 "src/formula.ml" 276 9039 9054
+type(
+  ('a * 'b list) list ->
+  ('c * 'd list) list ->
+  f:('a * 'b list -> 'c * 'd list -> bool) -> bool list
+)
+ident(
+  ext_ref Core.Std.List.map2_exn
+)
+"src/formula.ml" 276 9039 9055 "src/formula.ml" 276 9039 9065
+type(
+  ('a * 'b list) list
+)
+ident(
+  int_ref partition1 "src/formula.ml" 274 8925 8945 "src/formula.ml" 274 8925 8955
+)
+"src/formula.ml" 276 9039 9066 "src/formula.ml" 276 9039 9076
+type(
+  ('c * 'd list) list
+)
+ident(
+  int_ref partition2 "src/formula.ml" 274 8925 8956 "src/formula.ml" 274 8925 8966
+)
+"src/formula.ml" 276 9039 9080 "src/formula.ml" 276 9039 9093
+type(
+  'a * 'b list -> 'c * 'd list -> bool
+)
+ident(
+  int_ref not_more_than "src/formula.ml" 275 8969 8975 "src/formula.ml" 275 8969 8988
+)
+"src/formula.ml" 276 9039 9041 "src/formula.ml" 276 9039 9093
+call(
+  stack
+)
+type(
+  bool list
+)
+"src/formula.ml" 277 9094 9096 "src/formula.ml" 277 9094 9098
+type(
+  bool list -> (bool list -> bool) -> bool
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/formula.ml" 277 9094 9099 "src/formula.ml" 277 9094 9105
+type(
+  bool list -> default:bool -> f:(bool -> bool -> bool) -> bool
+)
+ident(
+  ext_ref Utils.reduce
+)
+"src/formula.ml" 277 9094 9115 "src/formula.ml" 277 9094 9119
+type(
+  bool
+)
+"src/formula.ml" 277 9094 9128 "src/formula.ml" 277 9094 9129
+type(
+  bool
+)
+ident(
+  def x "src/formula.ml" 277 9094 9130 "src/formula.ml" 277 9094 9141
+)
+"src/formula.ml" 277 9094 9130 "src/formula.ml" 277 9094 9131
+type(
+  bool
+)
+ident(
+  def y "src/formula.ml" 277 9094 9135 "src/formula.ml" 277 9094 9141
+)
+"src/formula.ml" 277 9094 9135 "src/formula.ml" 277 9094 9136
+type(
+  bool
+)
+ident(
+  int_ref x "src/formula.ml" 277 9094 9128 "src/formula.ml" 277 9094 9129
+)
+"src/formula.ml" 277 9094 9137 "src/formula.ml" 277 9094 9139
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/formula.ml" 277 9094 9140 "src/formula.ml" 277 9094 9141
+type(
+  bool
+)
+ident(
+  int_ref y "src/formula.ml" 277 9094 9130 "src/formula.ml" 277 9094 9131
+)
+"src/formula.ml" 277 9094 9135 "src/formula.ml" 277 9094 9141
+type(
+  bool
+)
+"src/formula.ml" 277 9094 9130 "src/formula.ml" 277 9094 9141
+type(
+  bool -> bool
+)
+"src/formula.ml" 277 9094 9128 "src/formula.ml" 277 9094 9141
+type(
+  bool -> bool -> bool
+)
+"src/formula.ml" 277 9094 9099 "src/formula.ml" 277 9094 9142
+call(
+  tail
+)
+type(
+  bool list -> bool
+)
+"src/formula.ml" 276 9039 9041 "src/formula.ml" 277 9094 9142
+call(
+  tail
+)
+type(
+  bool
+)
+"src/formula.ml" 275 8969 8971 "src/formula.ml" 277 9094 9142
+type(
+  bool
+)
+"src/formula.ml" 274 8925 8956 "src/formula.ml" 277 9094 9142
+type(
+  ('c * 'd list) list -> bool
+)
+"src/formula.ml" 274 8925 8945 "src/formula.ml" 277 9094 9142
+type(
+  ('a * 'b list) list -> ('c * 'd list) list -> bool
+)
+"src/formula.ml" 282 9252 9256 "src/formula.ml" 282 9252 9273
+type(
+  (string * paramref list) list ->
+  (string * paramref list) list -> paramref list list
+)
+ident(
+  def compatible_params "src/formula.ml" 322 11188 11188 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 283 9275 9276 "src/formula.ml" 283 9275 9286
+type(
+  (string * paramref list) list
+)
+ident(
+  def partition1 "src/formula.ml" 284 9319 9319 "src/formula.ml" 305 10496 10524
+)
+"src/formula.ml" 284 9319 9320 "src/formula.ml" 284 9319 9330
+type(
+  (string * paramref list) list
+)
+ident(
+  def partition2 "src/formula.ml" 286 9416 9418 "src/formula.ml" 305 10496 10524
+)
+"src/formula.ml" 286 9416 9422 "src/formula.ml" 286 9416 9440
+type(
+  string list list
+)
+ident(
+  def params_names_part2 "src/formula.ml" 288 9564 9566 "src/formula.ml" 305 10496 10524
+)
+"src/formula.ml" 286 9416 9443 "src/formula.ml" 286 9416 9451
+type(
+  (string * paramref list) list ->
+  f:(string * paramref list -> string list) -> string list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 286 9416 9452 "src/formula.ml" 286 9416 9462
+type(
+  (string * paramref list) list
+)
+ident(
+  int_ref partition2 "src/formula.ml" 284 9319 9320 "src/formula.ml" 284 9319 9330
+)
+"src/formula.ml" 286 9416 9472 "src/formula.ml" 286 9416 9473
+type(
+  string
+)
+"src/formula.ml" 286 9416 9475 "src/formula.ml" 286 9416 9476
+type(
+  paramref list
+)
+ident(
+  def x "src/formula.ml" 286 9416 9481 "src/formula.ml" 286 9416 9508
+)
+"src/formula.ml" 286 9416 9472 "src/formula.ml" 286 9416 9476
+type(
+  string * paramref list
+)
+"src/formula.ml" 286 9416 9481 "src/formula.ml" 286 9416 9489
+type(
+  paramref list -> f:(paramref -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 286 9416 9490 "src/formula.ml" 286 9416 9491
+type(
+  paramref list
+)
+ident(
+  int_ref x "src/formula.ml" 286 9416 9475 "src/formula.ml" 286 9416 9476
+)
+"src/formula.ml" 286 9416 9495 "src/formula.ml" 286 9416 9508
+type(
+  paramref -> string
+)
+ident(
+  ext_ref Paramecium.name_of_param
+)
+"src/formula.ml" 286 9416 9481 "src/formula.ml" 286 9416 9508
+call(
+  tail
+)
+type(
+  string list
+)
+"src/formula.ml" 286 9416 9471 "src/formula.ml" 286 9416 9508
+type(
+  string * paramref list -> string list
+)
+"src/formula.ml" 286 9416 9443 "src/formula.ml" 286 9416 9509
+call(
+  stack
+)
+type(
+  string list list
+)
+"src/formula.ml" 288 9564 9570 "src/formula.ml" 288 9564 9584
+type(
+  int list
+)
+ident(
+  def params_c_part2 "src/formula.ml" 290 9700 9702 "src/formula.ml" 305 10496 10524
+)
+"src/formula.ml" 288 9564 9587 "src/formula.ml" 288 9564 9595
+type(
+  (string * paramref list) list ->
+  f:(string * paramref list -> int) -> int list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 288 9564 9596 "src/formula.ml" 288 9564 9606
+type(
+  (string * paramref list) list
+)
+ident(
+  int_ref partition2 "src/formula.ml" 284 9319 9320 "src/formula.ml" 284 9319 9330
+)
+"src/formula.ml" 288 9564 9616 "src/formula.ml" 288 9564 9617
+type(
+  string
+)
+"src/formula.ml" 288 9564 9619 "src/formula.ml" 288 9564 9620
+type(
+  paramref list
+)
+ident(
+  def x "src/formula.ml" 288 9564 9625 "src/formula.ml" 288 9564 9638
+)
+"src/formula.ml" 288 9564 9616 "src/formula.ml" 288 9564 9620
+type(
+  string * paramref list
+)
+"src/formula.ml" 288 9564 9625 "src/formula.ml" 288 9564 9636
+type(
+  paramref list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"src/formula.ml" 288 9564 9637 "src/formula.ml" 288 9564 9638
+type(
+  paramref list
+)
+ident(
+  int_ref x "src/formula.ml" 288 9564 9619 "src/formula.ml" 288 9564 9620
+)
+"src/formula.ml" 288 9564 9625 "src/formula.ml" 288 9564 9638
+call(
+  tail
+)
+type(
+  int
+)
+"src/formula.ml" 288 9564 9615 "src/formula.ml" 288 9564 9638
+type(
+  string * paramref list -> int
+)
+"src/formula.ml" 288 9564 9587 "src/formula.ml" 288 9564 9639
+call(
+  stack
+)
+type(
+  int list
+)
+"src/formula.ml" 290 9700 9706 "src/formula.ml" 290 9700 9730
+type(
+  paramref list list
+)
+ident(
+  def params_val_shorten_part1 "src/formula.ml" 291 9777 9779 "src/formula.ml" 305 10496 10524
+)
+"src/formula.ml" 290 9700 9733 "src/formula.ml" 290 9700 9741
+type(
+  (string * paramref list) list ->
+  f:(string * paramref list -> paramref list) -> paramref list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 290 9700 9742 "src/formula.ml" 290 9700 9752
+type(
+  (string * paramref list) list
+)
+ident(
+  int_ref partition1 "src/formula.ml" 283 9275 9276 "src/formula.ml" 283 9275 9286
+)
+"src/formula.ml" 290 9700 9762 "src/formula.ml" 290 9700 9763
+type(
+  string
+)
+"src/formula.ml" 290 9700 9765 "src/formula.ml" 290 9700 9766
+type(
+  paramref list
+)
+ident(
+  def x "src/formula.ml" 290 9700 9771 "src/formula.ml" 290 9700 9772
+)
+"src/formula.ml" 290 9700 9762 "src/formula.ml" 290 9700 9766
+type(
+  string * paramref list
+)
+"src/formula.ml" 290 9700 9771 "src/formula.ml" 290 9700 9772
+type(
+  paramref list
+)
+ident(
+  int_ref x "src/formula.ml" 290 9700 9765 "src/formula.ml" 290 9700 9766
+)
+"src/formula.ml" 290 9700 9761 "src/formula.ml" 290 9700 9772
+type(
+  string * paramref list -> paramref list
+)
+"src/formula.ml" 290 9700 9733 "src/formula.ml" 290 9700 9773
+call(
+  stack
+)
+type(
+  paramref list list
+)
+"src/formula.ml" 291 9777 9783 "src/formula.ml" 291 9777 9793
+type(
+  string list -> paramref list list -> paramref list list
+)
+ident(
+  def rename_all "src/formula.ml" 295 10016 10018 "src/formula.ml" 305 10496 10524
+)
+"src/formula.ml" 291 9777 9794 "src/formula.ml" 291 9777 9799
+type(
+  string list
+)
+ident(
+  def names "src/formula.ml" 291 9777 9800 "src/formula.ml" 291 9777 9872
+)
+"src/formula.ml" 291 9777 9800 "src/formula.ml" 291 9777 9802
+type(
+  paramref list list
+)
+ident(
+  def ls "src/formula.ml" 291 9777 9805 "src/formula.ml" 291 9777 9872
+)
+"src/formula.ml" 291 9777 9805 "src/formula.ml" 291 9777 9813
+type(
+  paramref list list ->
+  f:(paramref list -> paramref list) -> paramref list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 291 9777 9814 "src/formula.ml" 291 9777 9816
+type(
+  paramref list list
+)
+ident(
+  int_ref ls "src/formula.ml" 291 9777 9800 "src/formula.ml" 291 9777 9802
+)
+"src/formula.ml" 291 9777 9825 "src/formula.ml" 291 9777 9827
+type(
+  paramref list
+)
+ident(
+  def vs "src/formula.ml" 291 9777 9831 "src/formula.ml" 291 9777 9871
+)
+"src/formula.ml" 291 9777 9831 "src/formula.ml" 291 9777 9844
+type(
+  paramref list ->
+  string list -> f:(paramref -> string -> paramref) -> paramref list
+)
+ident(
+  ext_ref Core.Std.List.map2_exn
+)
+"src/formula.ml" 291 9777 9845 "src/formula.ml" 291 9777 9847
+type(
+  paramref list
+)
+ident(
+  int_ref vs "src/formula.ml" 291 9777 9825 "src/formula.ml" 291 9777 9827
+)
+"src/formula.ml" 291 9777 9848 "src/formula.ml" 291 9777 9853
+type(
+  string list
+)
+ident(
+  int_ref names "src/formula.ml" 291 9777 9794 "src/formula.ml" 291 9777 9799
+)
+"src/formula.ml" 291 9777 9857 "src/formula.ml" 291 9777 9871
+type(
+  paramref -> string -> paramref
+)
+ident(
+  ext_ref Paramecium.set_param_name
+)
+"src/formula.ml" 291 9777 9831 "src/formula.ml" 291 9777 9871
+call(
+  tail
+)
+type(
+  paramref list
+)
+"src/formula.ml" 291 9777 9825 "src/formula.ml" 291 9777 9871
+type(
+  paramref list -> paramref list
+)
+"src/formula.ml" 291 9777 9805 "src/formula.ml" 291 9777 9872
+call(
+  tail
+)
+type(
+  paramref list list
+)
+"src/formula.ml" 291 9777 9800 "src/formula.ml" 291 9777 9872
+type(
+  paramref list list -> paramref list list
+)
+"src/formula.ml" 291 9777 9794 "src/formula.ml" 291 9777 9872
+type(
+  string list -> paramref list list -> paramref list list
+)
+"src/formula.ml" 295 10016 10018 "src/formula.ml" 295 10016 10031
+type(
+  paramref list list ->
+  int list ->
+  f:(paramref list -> int -> paramref list list) -> paramref list list list
+)
+ident(
+  ext_ref Core.Std.List.map2_exn
+)
+"src/formula.ml" 295 10016 10032 "src/formula.ml" 295 10016 10056
+type(
+  paramref list list
+)
+ident(
+  int_ref params_val_shorten_part1 "src/formula.ml" 290 9700 9706 "src/formula.ml" 290 9700 9730
+)
+"src/formula.ml" 295 10016 10057 "src/formula.ml" 295 10016 10071
+type(
+  int list
+)
+ident(
+  int_ref params_c_part2 "src/formula.ml" 288 9564 9570 "src/formula.ml" 288 9564 9584
+)
+"src/formula.ml" 295 10016 10075 "src/formula.ml" 295 10016 10086
+type(
+  paramref list -> int -> paramref list list
+)
+ident(
+  ext_ref Utils.combination
+)
+"src/formula.ml" 295 10016 10018 "src/formula.ml" 295 10016 10086
+call(
+  stack
+)
+type(
+  paramref list list list
+)
+"src/formula.ml" 299 10192 10194 "src/formula.ml" 299 10192 10196
+type(
+  paramref list list list ->
+  (paramref list list list -> paramref list list list) ->
+  paramref list list list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/formula.ml" 299 10192 10197 "src/formula.ml" 299 10192 10205
+type(
+  paramref list list list ->
+  f:(paramref list list -> paramref list list) -> paramref list list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 299 10192 10214 "src/formula.ml" 299 10192 10215
+type(
+  paramref list list
+)
+ident(
+  def x "src/formula.ml" 299 10192 10219 "src/formula.ml" 299 10192 10271
+)
+"src/formula.ml" 299 10192 10219 "src/formula.ml" 299 10192 10230
+type(
+  paramref list list list -> paramref list list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/formula.ml" 299 10192 10232 "src/formula.ml" 299 10192 10240
+type(
+  paramref list list ->
+  f:(paramref list -> paramref list list) -> paramref list list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 299 10192 10241 "src/formula.ml" 299 10192 10242
+type(
+  paramref list list
+)
+ident(
+  int_ref x "src/formula.ml" 299 10192 10214 "src/formula.ml" 299 10192 10215
+)
+"src/formula.ml" 299 10192 10251 "src/formula.ml" 299 10192 10252
+type(
+  paramref list
+)
+ident(
+  def y "src/formula.ml" 299 10192 10256 "src/formula.ml" 299 10192 10269
+)
+"src/formula.ml" 299 10192 10256 "src/formula.ml" 299 10192 10267
+type(
+  paramref list -> paramref list list
+)
+ident(
+  ext_ref Utils.permutation
+)
+"src/formula.ml" 299 10192 10268 "src/formula.ml" 299 10192 10269
+type(
+  paramref list
+)
+ident(
+  int_ref y "src/formula.ml" 299 10192 10251 "src/formula.ml" 299 10192 10252
+)
+"src/formula.ml" 299 10192 10256 "src/formula.ml" 299 10192 10269
+call(
+  tail
+)
+type(
+  paramref list list
+)
+"src/formula.ml" 299 10192 10251 "src/formula.ml" 299 10192 10269
+type(
+  paramref list -> paramref list list
+)
+"src/formula.ml" 299 10192 10232 "src/formula.ml" 299 10192 10270
+call(
+  stack
+)
+type(
+  paramref list list list
+)
+"src/formula.ml" 299 10192 10219 "src/formula.ml" 299 10192 10271
+call(
+  tail
+)
+type(
+  paramref list list
+)
+"src/formula.ml" 299 10192 10214 "src/formula.ml" 299 10192 10271
+type(
+  paramref list list -> paramref list list
+)
+"src/formula.ml" 299 10192 10197 "src/formula.ml" 299 10192 10272
+call(
+  tail
+)
+type(
+  paramref list list list -> paramref list list list
+)
+"src/formula.ml" 295 10016 10018 "src/formula.ml" 299 10192 10272
+call(
+  stack
+)
+type(
+  paramref list list list
+)
+"src/formula.ml" 301 10311 10313 "src/formula.ml" 301 10311 10315
+type(
+  paramref list list list ->
+  (paramref list list list -> paramref list list list) ->
+  paramref list list list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/formula.ml" 301 10311 10316 "src/formula.ml" 301 10311 10329
+type(
+  string list list ->
+  paramref list list list ->
+  f:(string list -> paramref list list -> paramref list list) ->
+  paramref list list list
+)
+ident(
+  ext_ref Core.Std.List.map2_exn
+)
+"src/formula.ml" 301 10311 10330 "src/formula.ml" 301 10311 10348
+type(
+  string list list
+)
+ident(
+  int_ref params_names_part2 "src/formula.ml" 286 9416 9422 "src/formula.ml" 286 9416 9440
+)
+"src/formula.ml" 301 10311 10352 "src/formula.ml" 301 10311 10362
+type(
+  string list -> paramref list list -> paramref list list
+)
+ident(
+  int_ref rename_all "src/formula.ml" 291 9777 9783 "src/formula.ml" 291 9777 9793
+)
+"src/formula.ml" 301 10311 10316 "src/formula.ml" 301 10311 10362
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  paramref list list list -> paramref list list list
+)
+"src/formula.ml" 295 10016 10018 "src/formula.ml" 301 10311 10362
+call(
+  stack
+)
+type(
+  paramref list list list
+)
+"src/formula.ml" 303 10422 10424 "src/formula.ml" 303 10422 10426
+type(
+  paramref list list list ->
+  (paramref list list list -> paramref list list list) ->
+  paramref list list list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/formula.ml" 303 10422 10427 "src/formula.ml" 303 10422 10444
+type(
+  paramref list list list -> paramref list list list
+)
+ident(
+  ext_ref Utils.cartesian_product
+)
+"src/formula.ml" 295 10016 10018 "src/formula.ml" 303 10422 10444
+call(
+  stack
+)
+type(
+  paramref list list list
+)
+"src/formula.ml" 305 10496 10498 "src/formula.ml" 305 10496 10500
+type(
+  paramref list list list ->
+  (paramref list list list -> paramref list list) -> paramref list list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/formula.ml" 305 10496 10501 "src/formula.ml" 305 10496 10509
+type(
+  paramref list list list ->
+  f:(paramref list list -> paramref list) -> paramref list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 305 10496 10513 "src/formula.ml" 305 10496 10524
+type(
+  paramref list list -> paramref list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/formula.ml" 305 10496 10501 "src/formula.ml" 305 10496 10524
+call(
+  tail
+)
+type(
+  paramref list list list -> paramref list list
+)
+"src/formula.ml" 295 10016 10018 "src/formula.ml" 305 10496 10524
+call(
+  tail
+)
+type(
+  paramref list list
+)
+"src/formula.ml" 291 9777 9779 "src/formula.ml" 305 10496 10524
+type(
+  paramref list list
+)
+"src/formula.ml" 290 9700 9702 "src/formula.ml" 305 10496 10524
+type(
+  paramref list list
+)
+"src/formula.ml" 288 9564 9566 "src/formula.ml" 305 10496 10524
+type(
+  paramref list list
+)
+"src/formula.ml" 286 9416 9418 "src/formula.ml" 305 10496 10524
+type(
+  paramref list list
+)
+"src/formula.ml" 284 9319 9319 "src/formula.ml" 305 10496 10524
+type(
+  (string * paramref list) list -> paramref list list
+)
+"src/formula.ml" 283 9275 9275 "src/formula.ml" 305 10496 10524
+type(
+  (string * paramref list) list ->
+  (string * paramref list) list -> paramref list list
+)
+"src/formula.ml" 322 11188 11192 "src/formula.ml" 322 11188 11208
+type(
+  paramref list -> paramref list -> paramref list list
+)
+ident(
+  def param_compatible "src/formula.ml" 347 12144 12144 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 323 11210 11211 "src/formula.ml" 323 11210 11221
+type(
+  paramref list
+)
+ident(
+  def inv_param1 "src/formula.ml" 324 11238 11238 "src/formula.ml" 344 12084 12089
+)
+"src/formula.ml" 324 11238 11239 "src/formula.ml" 324 11238 11249
+type(
+  paramref list
+)
+ident(
+  def inv_param2 "src/formula.ml" 326 11323 11325 "src/formula.ml" 344 12084 12089
+)
+"src/formula.ml" 326 11323 11329 "src/formula.ml" 326 11323 11339
+type(
+  (string * paramref list) list
+)
+ident(
+  def partition1 "src/formula.ml" 327 11373 11375 "src/formula.ml" 344 12084 12089
+)
+"src/formula.ml" 326 11323 11342 "src/formula.ml" 326 11323 11358
+type(
+  paramref list -> (string * paramref list) list
+)
+ident(
+  int_ref sorted_partition "src/formula.ml" 266 8610 8614 "src/formula.ml" 266 8610 8630
+)
+"src/formula.ml" 326 11323 11359 "src/formula.ml" 326 11323 11369
+type(
+  paramref list
+)
+ident(
+  int_ref inv_param1 "src/formula.ml" 323 11210 11211 "src/formula.ml" 323 11210 11221
+)
+"src/formula.ml" 326 11323 11342 "src/formula.ml" 326 11323 11369
+call(
+  stack
+)
+type(
+  (string * paramref list) list
+)
+"src/formula.ml" 327 11373 11379 "src/formula.ml" 327 11373 11389
+type(
+  (string * paramref list) list
+)
+ident(
+  def partition2 "src/formula.ml" 329 11465 11467 "src/formula.ml" 344 12084 12089
+)
+"src/formula.ml" 327 11373 11392 "src/formula.ml" 327 11373 11408
+type(
+  paramref list -> (string * paramref list) list
+)
+ident(
+  int_ref sorted_partition "src/formula.ml" 266 8610 8614 "src/formula.ml" 266 8610 8630
+)
+"src/formula.ml" 327 11373 11409 "src/formula.ml" 327 11373 11419
+type(
+  paramref list
+)
+ident(
+  int_ref inv_param2 "src/formula.ml" 324 11238 11239 "src/formula.ml" 324 11238 11249
+)
+"src/formula.ml" 327 11373 11392 "src/formula.ml" 327 11373 11419
+call(
+  stack
+)
+type(
+  (string * paramref list) list
+)
+"src/formula.ml" 329 11465 11471 "src/formula.ml" 329 11465 11477
+type(
+  String.Set.t
+)
+ident(
+  def types1 "src/formula.ml" 330 11545 11547 "src/formula.ml" 344 12084 12089
+)
+"src/formula.ml" 329 11465 11480 "src/formula.ml" 329 11465 11498
+type(
+  string list -> String.Set.t
+)
+ident(
+  ext_ref Core.Std.String.Set.of_list
+)
+"src/formula.ml" 329 11465 11500 "src/formula.ml" 329 11465 11508
+type(
+  (string * paramref list) list ->
+  f:(string * paramref list -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 329 11465 11509 "src/formula.ml" 329 11465 11519
+type(
+  (string * paramref list) list
+)
+ident(
+  int_ref partition1 "src/formula.ml" 326 11323 11329 "src/formula.ml" 326 11323 11339
+)
+"src/formula.ml" 329 11465 11529 "src/formula.ml" 329 11465 11530
+type(
+  string
+)
+ident(
+  def x "src/formula.ml" 329 11465 11538 "src/formula.ml" 329 11465 11539
+)
+"src/formula.ml" 329 11465 11532 "src/formula.ml" 329 11465 11533
+type(
+  paramref list
+)
+"src/formula.ml" 329 11465 11529 "src/formula.ml" 329 11465 11533
+type(
+  string * paramref list
+)
+"src/formula.ml" 329 11465 11538 "src/formula.ml" 329 11465 11539
+type(
+  string
+)
+ident(
+  int_ref x "src/formula.ml" 329 11465 11529 "src/formula.ml" 329 11465 11530
+)
+"src/formula.ml" 329 11465 11528 "src/formula.ml" 329 11465 11539
+type(
+  string * paramref list -> string
+)
+"src/formula.ml" 329 11465 11500 "src/formula.ml" 329 11465 11540
+call(
+  stack
+)
+type(
+  string list
+)
+"src/formula.ml" 329 11465 11480 "src/formula.ml" 329 11465 11541
+call(
+  stack
+)
+type(
+  String.Set.t
+)
+"src/formula.ml" 330 11545 11551 "src/formula.ml" 330 11545 11557
+type(
+  String.Set.t
+)
+ident(
+  def types2 "src/formula.ml" 332 11664 11666 "src/formula.ml" 344 12084 12089
+)
+"src/formula.ml" 330 11545 11560 "src/formula.ml" 330 11545 11578
+type(
+  string list -> String.Set.t
+)
+ident(
+  ext_ref Core.Std.String.Set.of_list
+)
+"src/formula.ml" 330 11545 11580 "src/formula.ml" 330 11545 11588
+type(
+  (string * paramref list) list ->
+  f:(string * paramref list -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/formula.ml" 330 11545 11589 "src/formula.ml" 330 11545 11599
+type(
+  (string * paramref list) list
+)
+ident(
+  int_ref partition2 "src/formula.ml" 327 11373 11379 "src/formula.ml" 327 11373 11389
+)
+"src/formula.ml" 330 11545 11609 "src/formula.ml" 330 11545 11610
+type(
+  string
+)
+ident(
+  def x "src/formula.ml" 330 11545 11618 "src/formula.ml" 330 11545 11619
+)
+"src/formula.ml" 330 11545 11612 "src/formula.ml" 330 11545 11613
+type(
+  paramref list
+)
+"src/formula.ml" 330 11545 11609 "src/formula.ml" 330 11545 11613
+type(
+  string * paramref list
+)
+"src/formula.ml" 330 11545 11618 "src/formula.ml" 330 11545 11619
+type(
+  string
+)
+ident(
+  int_ref x "src/formula.ml" 330 11545 11609 "src/formula.ml" 330 11545 11610
+)
+"src/formula.ml" 330 11545 11608 "src/formula.ml" 330 11545 11619
+type(
+  string * paramref list -> string
+)
+"src/formula.ml" 330 11545 11580 "src/formula.ml" 330 11545 11620
+call(
+  stack
+)
+type(
+  string list
+)
+"src/formula.ml" 330 11545 11560 "src/formula.ml" 330 11545 11621
+call(
+  stack
+)
+type(
+  String.Set.t
+)
+"src/formula.ml" 332 11664 11669 "src/formula.ml" 332 11664 11672
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/formula.ml" 332 11664 11674 "src/formula.ml" 332 11664 11691
+type(
+  String.Set.t -> String.Set.t -> bool
+)
+ident(
+  ext_ref Core.Std.String.Set.subset
+)
+"src/formula.ml" 332 11664 11692 "src/formula.ml" 332 11664 11698
+type(
+  String.Set.t
+)
+ident(
+  int_ref types2 "src/formula.ml" 330 11545 11551 "src/formula.ml" 330 11545 11557
+)
+"src/formula.ml" 332 11664 11699 "src/formula.ml" 332 11664 11705
+type(
+  String.Set.t
+)
+ident(
+  int_ref types1 "src/formula.ml" 329 11465 11471 "src/formula.ml" 329 11465 11477
+)
+"src/formula.ml" 332 11664 11674 "src/formula.ml" 332 11664 11705
+call(
+  stack
+)
+type(
+  bool
+)
+"src/formula.ml" 332 11664 11669 "src/formula.ml" 332 11664 11706
+type(
+  bool
+)
+"src/formula.ml" 333 11712 11716 "src/formula.ml" 333 11712 11718
+type(
+  paramref list list
+)
+"src/formula.ml" 335 11732 11740 "src/formula.ml" 335 11732 11758
+type(
+  (string * paramref list) list
+)
+ident(
+  def shorten_partition1 "src/formula.ml" 336 11821 11825 "src/formula.ml" 343 12076 12083
+)
+"src/formula.ml" 335 11732 11761 "src/formula.ml" 335 11732 11769
+type(
+  (string * paramref list) list ->
+  pos:int -> len:int -> (string * paramref list) list
+)
+ident(
+  ext_ref Core.Std.List.sub
+)
+"src/formula.ml" 335 11732 11770 "src/formula.ml" 335 11732 11780
+type(
+  (string * paramref list) list
+)
+ident(
+  int_ref partition1 "src/formula.ml" 326 11323 11329 "src/formula.ml" 326 11323 11339
+)
+"src/formula.ml" 335 11732 11786 "src/formula.ml" 335 11732 11787
+type(
+  int
+)
+"src/formula.ml" 335 11732 11794 "src/formula.ml" 335 11732 11805
+type(
+  (string * paramref list) list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"src/formula.ml" 335 11732 11806 "src/formula.ml" 335 11732 11816
+type(
+  (string * paramref list) list
+)
+ident(
+  int_ref partition2 "src/formula.ml" 327 11373 11379 "src/formula.ml" 327 11373 11389
+)
+"src/formula.ml" 335 11732 11794 "src/formula.ml" 335 11732 11816
+call(
+  stack
+)
+type(
+  int
+)
+"src/formula.ml" 335 11732 11761 "src/formula.ml" 335 11732 11817
+call(
+  stack
+)
+type(
+  (string * paramref list) list
+)
+"src/formula.ml" 336 11821 11829 "src/formula.ml" 336 11821 11840
+type(
+  bool
+)
+ident(
+  def more_params "src/formula.ml" 338 11950 11954 "src/formula.ml" 343 12076 12083
+)
+"src/formula.ml" 336 11821 11843 "src/formula.ml" 336 11821 11846
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/formula.ml" 336 11821 11848 "src/formula.ml" 336 11821 11863
+type(
+  (string * paramref list) list -> (string * paramref list) list -> bool
+)
+ident(
+  int_ref not_more_params "src/formula.ml" 274 8925 8929 "src/formula.ml" 274 8925 8944
+)
+"src/formula.ml" 336 11821 11864 "src/formula.ml" 336 11821 11874
+type(
+  (string * paramref list) list
+)
+ident(
+  int_ref partition2 "src/formula.ml" 327 11373 11379 "src/formula.ml" 327 11373 11389
+)
+"src/formula.ml" 336 11821 11875 "src/formula.ml" 336 11821 11893
+type(
+  (string * paramref list) list
+)
+ident(
+  int_ref shorten_partition1 "src/formula.ml" 335 11732 11740 "src/formula.ml" 335 11732 11758
+)
+"src/formula.ml" 336 11821 11848 "src/formula.ml" 336 11821 11893
+call(
+  stack
+)
+type(
+  bool
+)
+"src/formula.ml" 336 11821 11843 "src/formula.ml" 336 11821 11894
+type(
+  bool
+)
+"src/formula.ml" 338 11950 11957 "src/formula.ml" 338 11950 11968
+type(
+  bool
+)
+ident(
+  int_ref more_params "src/formula.ml" 336 11821 11829 "src/formula.ml" 336 11821 11840
+)
+"src/formula.ml" 339 11974 11980 "src/formula.ml" 339 11974 11982
+type(
+  paramref list list
+)
+"src/formula.ml" 342 12022 12028 "src/formula.ml" 342 12022 12045
+type(
+  (string * paramref list) list ->
+  (string * paramref list) list -> paramref list list
+)
+ident(
+  int_ref compatible_params "src/formula.ml" 282 9252 9256 "src/formula.ml" 282 9252 9273
+)
+"src/formula.ml" 342 12022 12046 "src/formula.ml" 342 12022 12064
+type(
+  (string * paramref list) list
+)
+ident(
+  int_ref shorten_partition1 "src/formula.ml" 335 11732 11740 "src/formula.ml" 335 11732 11758
+)
+"src/formula.ml" 342 12022 12065 "src/formula.ml" 342 12022 12075
+type(
+  (string * paramref list) list
+)
+ident(
+  int_ref partition2 "src/formula.ml" 327 11373 11379 "src/formula.ml" 327 11373 11389
+)
+"src/formula.ml" 342 12022 12028 "src/formula.ml" 342 12022 12075
+call(
+  tail
+)
+type(
+  paramref list list
+)
+"src/formula.ml" 338 11950 11954 "src/formula.ml" 343 12076 12083
+type(
+  paramref list list
+)
+"src/formula.ml" 336 11821 11825 "src/formula.ml" 343 12076 12083
+type(
+  paramref list list
+)
+"src/formula.ml" 335 11732 11736 "src/formula.ml" 343 12076 12083
+type(
+  paramref list list
+)
+"src/formula.ml" 332 11664 11666 "src/formula.ml" 344 12084 12089
+type(
+  paramref list list
+)
+"src/formula.ml" 330 11545 11547 "src/formula.ml" 344 12084 12089
+type(
+  paramref list list
+)
+"src/formula.ml" 329 11465 11467 "src/formula.ml" 344 12084 12089
+type(
+  paramref list list
+)
+"src/formula.ml" 327 11373 11375 "src/formula.ml" 344 12084 12089
+type(
+  paramref list list
+)
+"src/formula.ml" 326 11323 11325 "src/formula.ml" 344 12084 12089
+type(
+  paramref list list
+)
+"src/formula.ml" 324 11238 11238 "src/formula.ml" 344 12084 12089
+type(
+  paramref list -> paramref list list
+)
+"src/formula.ml" 323 11210 11210 "src/formula.ml" 344 12084 12089
+type(
+  paramref list -> paramref list -> paramref list list
+)
+"src/formula.ml" 347 12144 12148 "src/formula.ml" 347 12144 12157
+type(
+  formula -> formula -> formula option
+)
+ident(
+  def can_imply "src/formula.ml" 380 13343 13343 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 347 12144 12158 "src/formula.ml" 347 12144 12161
+type(
+  formula
+)
+ident(
+  def ant "src/formula.ml" 347 12144 12162 "src/formula.ml" 378 13336 13341
+)
+"src/formula.ml" 347 12144 12162 "src/formula.ml" 347 12144 12166
+type(
+  formula
+)
+ident(
+  def cons "src/formula.ml" 348 12169 12171 "src/formula.ml" 378 13336 13341
+)
+"src/formula.ml" 348 12169 12175 "src/formula.ml" 348 12169 12183
+type(
+  String.Set.t
+)
+ident(
+  def ant_vars "src/formula.ml" 349 12210 12212 "src/formula.ml" 378 13336 13341
+)
+"src/formula.ml" 348 12169 12186 "src/formula.ml" 348 12169 12202
+type(
+  formula -> String.Set.t
+)
+ident(
+  ext_ref Paramecium.VarNames.of_form
+)
+"src/formula.ml" 348 12169 12203 "src/formula.ml" 348 12169 12206
+type(
+  formula
+)
+ident(
+  int_ref ant "src/formula.ml" 347 12144 12158 "src/formula.ml" 347 12144 12161
+)
+"src/formula.ml" 348 12169 12186 "src/formula.ml" 348 12169 12206
+call(
+  stack
+)
+type(
+  String.Set.t
+)
+"src/formula.ml" 349 12210 12216 "src/formula.ml" 349 12210 12225
+type(
+  String.Set.t
+)
+ident(
+  def cons_vars "src/formula.ml" 350 12253 12255 "src/formula.ml" 378 13336 13341
+)
+"src/formula.ml" 349 12210 12228 "src/formula.ml" 349 12210 12244
+type(
+  formula -> String.Set.t
+)
+ident(
+  ext_ref Paramecium.VarNames.of_form
+)
+"src/formula.ml" 349 12210 12245 "src/formula.ml" 349 12210 12249
+type(
+  formula
+)
+ident(
+  int_ref cons "src/formula.ml" 347 12144 12162 "src/formula.ml" 347 12144 12166
+)
+"src/formula.ml" 349 12210 12228 "src/formula.ml" 349 12210 12249
+call(
+  stack
+)
+type(
+  String.Set.t
+)
+"src/formula.ml" 350 12253 12260 "src/formula.ml" 350 12253 12266
+type(
+  paramdef list
+)
+ident(
+  def ant_pd "src/formula.ml" 351 12315 12317 "src/formula.ml" 378 13336 13341
+)
+"src/formula.ml" 350 12253 12268 "src/formula.ml" 350 12253 12273
+type(
+  paramref list
+)
+ident(
+  def ant_p "src/formula.ml" 351 12315 12317 "src/formula.ml" 378 13336 13341
+)
+"src/formula.ml" 350 12253 12275 "src/formula.ml" 350 12253 12284
+type(
+  formula
+)
+ident(
+  def ant_gened "src/formula.ml" 351 12315 12317 "src/formula.ml" 378 13336 13341
+)
+"src/formula.ml" 350 12253 12260 "src/formula.ml" 350 12253 12284
+type(
+  paramdef list * paramref list * formula
+)
+"src/formula.ml" 350 12253 12288 "src/formula.ml" 350 12253 12307
+type(
+  ?rename:bool -> formula -> paramdef list * paramref list * formula
+)
+ident(
+  ext_ref Generalize.form_act
+)
+"src/formula.ml" 350 12253 12308 "src/formula.ml" 350 12253 12311
+type(
+  formula
+)
+ident(
+  int_ref ant "src/formula.ml" 347 12144 12158 "src/formula.ml" 347 12144 12161
+)
+"src/formula.ml" 350 12253 12288 "src/formula.ml" 350 12253 12311
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * formula
+)
+"src/formula.ml" 351 12315 12322 "src/formula.ml" 351 12315 12323
+type(
+  paramdef list
+)
+"src/formula.ml" 351 12315 12325 "src/formula.ml" 351 12315 12331
+type(
+  paramref list
+)
+ident(
+  def cons_p "src/formula.ml" 354 12487 12489 "src/formula.ml" 378 13336 13341
+)
+"src/formula.ml" 351 12315 12333 "src/formula.ml" 351 12315 12334
+type(
+  formula
+)
+"src/formula.ml" 351 12315 12322 "src/formula.ml" 351 12315 12334
+type(
+  paramdef list * paramref list * formula
+)
+"src/formula.ml" 351 12315 12338 "src/formula.ml" 351 12315 12357
+type(
+  ?rename:bool -> formula -> paramdef list * paramref list * formula
+)
+ident(
+  ext_ref Generalize.form_act
+)
+"src/formula.ml" 351 12315 12358 "src/formula.ml" 351 12315 12362
+type(
+  formula
+)
+ident(
+  int_ref cons "src/formula.ml" 347 12144 12162 "src/formula.ml" 347 12144 12166
+)
+"src/formula.ml" 351 12315 12338 "src/formula.ml" 351 12315 12362
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * formula
+)
+"src/formula.ml" 354 12487 12492 "src/formula.ml" 354 12487 12509
+type(
+  String.Set.t -> int
+)
+ident(
+  ext_ref Core.Std.String.Set.length
+)
+"src/formula.ml" 354 12487 12511 "src/formula.ml" 354 12487 12526
+type(
+  String.Set.t -> String.Set.t -> String.Set.t
+)
+ident(
+  ext_ref Core.Std.String.Set.diff
+)
+"src/formula.ml" 354 12487 12527 "src/formula.ml" 354 12487 12535
+type(
+  String.Set.t
+)
+ident(
+  int_ref ant_vars "src/formula.ml" 348 12169 12175 "src/formula.ml" 348 12169 12183
+)
+"src/formula.ml" 354 12487 12536 "src/formula.ml" 354 12487 12545
+type(
+  String.Set.t
+)
+ident(
+  int_ref cons_vars "src/formula.ml" 349 12210 12216 "src/formula.ml" 349 12210 12225
+)
+"src/formula.ml" 354 12487 12511 "src/formula.ml" 354 12487 12545
+call(
+  stack
+)
+type(
+  String.Set.t
+)
+"src/formula.ml" 354 12487 12492 "src/formula.ml" 354 12487 12546
+call(
+  stack
+)
+type(
+  int
+)
+"src/formula.ml" 354 12487 12547 "src/formula.ml" 354 12487 12548
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/formula.ml" 354 12487 12549 "src/formula.ml" 354 12487 12550
+type(
+  int
+)
+"src/formula.ml" 354 12487 12492 "src/formula.ml" 354 12487 12550
+type(
+  bool
+)
+"src/formula.ml" 355 12556 12560 "src/formula.ml" 355 12556 12564
+type(
+  formula option
+)
+"src/formula.ml" 357 12630 12640 "src/formula.ml" 357 12630 12651
+type(
+  paramdef list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"src/formula.ml" 357 12630 12652 "src/formula.ml" 357 12630 12658
+type(
+  paramdef list
+)
+ident(
+  int_ref ant_pd "src/formula.ml" 350 12253 12260 "src/formula.ml" 350 12253 12266
+)
+"src/formula.ml" 357 12630 12640 "src/formula.ml" 357 12630 12658
+call(
+  stack
+)
+type(
+  int
+)
+"src/formula.ml" 357 12630 12659 "src/formula.ml" 357 12630 12660
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/formula.ml" 357 12630 12661 "src/formula.ml" 357 12630 12662
+type(
+  int
+)
+"src/formula.ml" 357 12630 12640 "src/formula.ml" 357 12630 12662
+type(
+  bool
+)
+"src/formula.ml" 358 12668 12675 "src/formula.ml" 358 12668 12687
+type(
+  ?quiet:bool -> formula -> bool
+)
+ident(
+  int_ref is_tautology "src/formula.ml" 16 452 456 "src/formula.ml" 16 452 468
+)
+"src/formula.ml" 358 12668 12689 "src/formula.ml" 358 12668 12694
+type(
+  formula -> formula -> formula
+)
+ident(
+  ext_ref Paramecium.imply
+)
+"src/formula.ml" 358 12668 12696 "src/formula.ml" 358 12668 12704
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+ident(
+  int_ref simplify "src/formula.ml" 151 4485 4489 "src/formula.ml" 151 4485 4497
+)
+"src/formula.ml" 358 12668 12705 "src/formula.ml" 358 12668 12708
+type(
+  formula
+)
+ident(
+  int_ref ant "src/formula.ml" 347 12144 12158 "src/formula.ml" 347 12144 12161
+)
+"src/formula.ml" 358 12668 12696 "src/formula.ml" 358 12668 12708
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 358 12668 12710 "src/formula.ml" 358 12668 12714
+type(
+  formula
+)
+ident(
+  int_ref cons "src/formula.ml" 347 12144 12162 "src/formula.ml" 347 12144 12166
+)
+"src/formula.ml" 358 12668 12689 "src/formula.ml" 358 12668 12714
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 358 12668 12675 "src/formula.ml" 358 12668 12715
+call(
+  stack
+)
+type(
+  bool
+)
+"src/formula.ml" 358 12668 12726 "src/formula.ml" 358 12668 12729
+type(
+  formula
+)
+ident(
+  int_ref ant "src/formula.ml" 347 12144 12158 "src/formula.ml" 347 12144 12161
+)
+"src/formula.ml" 358 12668 12721 "src/formula.ml" 358 12668 12729
+type(
+  formula option
+)
+"src/formula.ml" 359 12730 12745 "src/formula.ml" 359 12730 12749
+type(
+  formula option
+)
+"src/formula.ml" 358 12668 12672 "src/formula.ml" 359 12730 12753
+type(
+  formula option
+)
+"src/formula.ml" 361 12800 12810 "src/formula.ml" 361 12800 12826
+type(
+  paramref list -> paramref list -> paramref list list
+)
+ident(
+  int_ref param_compatible "src/formula.ml" 322 11188 11192 "src/formula.ml" 322 11188 11208
+)
+"src/formula.ml" 361 12800 12827 "src/formula.ml" 361 12800 12833
+type(
+  paramref list
+)
+ident(
+  int_ref cons_p "src/formula.ml" 351 12315 12325 "src/formula.ml" 351 12315 12331
+)
+"src/formula.ml" 361 12800 12834 "src/formula.ml" 361 12800 12839
+type(
+  paramref list
+)
+ident(
+  int_ref ant_p "src/formula.ml" 350 12253 12268 "src/formula.ml" 350 12253 12273
+)
+"src/formula.ml" 361 12800 12810 "src/formula.ml" 361 12800 12839
+call(
+  stack
+)
+type(
+  paramref list list
+)
+"src/formula.ml" 361 12800 12840 "src/formula.ml" 361 12800 12841
+type(
+  paramref list list -> paramref list list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/formula.ml" 361 12800 12842 "src/formula.ml" 361 12800 12844
+type(
+  paramref list list
+)
+"src/formula.ml" 361 12800 12810 "src/formula.ml" 361 12800 12844
+type(
+  bool
+)
+"src/formula.ml" 361 12800 12850 "src/formula.ml" 361 12800 12854
+type(
+  formula option
+)
+"src/formula.ml" 365 12975 12983 "src/formula.ml" 365 12975 12989
+type(
+  paramref list list
+)
+ident(
+  def params "src/formula.ml" 366 13025 13029 "src/formula.ml" 377 13313 13335
+)
+"src/formula.ml" 365 12975 12992 "src/formula.ml" 365 12975 13008
+type(
+  paramref list -> paramref list -> paramref list list
+)
+ident(
+  int_ref param_compatible "src/formula.ml" 322 11188 11192 "src/formula.ml" 322 11188 11208
+)
+"src/formula.ml" 365 12975 13009 "src/formula.ml" 365 12975 13015
+type(
+  paramref list
+)
+ident(
+  int_ref cons_p "src/formula.ml" 351 12315 12325 "src/formula.ml" 351 12315 12331
+)
+"src/formula.ml" 365 12975 13016 "src/formula.ml" 365 12975 13021
+type(
+  paramref list
+)
+ident(
+  int_ref ant_p "src/formula.ml" 350 12253 12268 "src/formula.ml" 350 12253 12273
+)
+"src/formula.ml" 365 12975 12992 "src/formula.ml" 365 12975 13021
+call(
+  stack
+)
+type(
+  paramref list list
+)
+"src/formula.ml" 366 13025 13037 "src/formula.ml" 366 13025 13048
+type(
+  paramref list list -> formula option
+)
+ident(
+  def has_implied "src/formula.ml" 366 13025 13029 "src/formula.ml" 377 13313 13335
+)
+"src/formula.ml" 366 13025 13049 "src/formula.ml" 366 13025 13055
+type(
+  paramref list list
+)
+ident(
+  def params "src/formula.ml" 367 13058 13064 "src/formula.ml" 375 13294 13305
+)
+"src/formula.ml" 367 13058 13070 "src/formula.ml" 367 13058 13076
+type(
+  paramref list list
+)
+ident(
+  int_ref params "src/formula.ml" 366 13025 13049 "src/formula.ml" 366 13025 13055
+)
+"src/formula.ml" 368 13082 13090 "src/formula.ml" 368 13082 13092
+type(
+  paramref list list
+)
+"src/formula.ml" 368 13082 13096 "src/formula.ml" 368 13082 13100
+type(
+  formula option
+)
+"src/formula.ml" 369 13101 13109 "src/formula.ml" 369 13101 13110
+type(
+  paramref list
+)
+ident(
+  def p "src/formula.ml" 370 13123 13131 "src/formula.ml" 375 13294 13305
+)
+"src/formula.ml" 369 13101 13112 "src/formula.ml" 369 13101 13119
+type(
+  paramref list list
+)
+ident(
+  def params' "src/formula.ml" 370 13123 13131 "src/formula.ml" 375 13294 13305
+)
+"src/formula.ml" 369 13101 13109 "src/formula.ml" 369 13101 13119
+type(
+  paramref list list
+)
+"src/formula.ml" 370 13123 13135 "src/formula.ml" 370 13123 13142
+type(
+  formula
+)
+ident(
+  def new_ant "src/formula.ml" 371 13172 13180 "src/formula.ml" 375 13294 13305
+)
+"src/formula.ml" 370 13123 13145 "src/formula.ml" 370 13123 13155
+type(
+  formula -> p:paramref list -> formula
+)
+ident(
+  ext_ref Paramecium.apply_form
+)
+"src/formula.ml" 370 13123 13156 "src/formula.ml" 370 13123 13165
+type(
+  formula
+)
+ident(
+  int_ref ant_gened "src/formula.ml" 350 12253 12275 "src/formula.ml" 350 12253 12284
+)
+"src/formula.ml" 370 13123 13166 "src/formula.ml" 370 13123 13168
+type(
+  paramref list
+)
+ident(
+  int_ref p "src/formula.ml" 369 13101 13109 "src/formula.ml" 369 13101 13110
+)
+"src/formula.ml" 370 13123 13145 "src/formula.ml" 370 13123 13168
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 371 13172 13183 "src/formula.ml" 371 13172 13195
+type(
+  ?quiet:bool -> formula -> bool
+)
+ident(
+  int_ref is_tautology "src/formula.ml" 16 452 456 "src/formula.ml" 16 452 468
+)
+"src/formula.ml" 371 13172 13197 "src/formula.ml" 371 13172 13202
+type(
+  formula -> formula -> formula
+)
+ident(
+  ext_ref Paramecium.imply
+)
+"src/formula.ml" 371 13172 13203 "src/formula.ml" 371 13172 13210
+type(
+  formula
+)
+ident(
+  int_ref new_ant "src/formula.ml" 370 13123 13135 "src/formula.ml" 370 13123 13142
+)
+"src/formula.ml" 371 13172 13211 "src/formula.ml" 371 13172 13215
+type(
+  formula
+)
+ident(
+  int_ref cons "src/formula.ml" 347 12144 12162 "src/formula.ml" 347 12144 12166
+)
+"src/formula.ml" 371 13172 13197 "src/formula.ml" 371 13172 13215
+call(
+  stack
+)
+type(
+  formula
+)
+"src/formula.ml" 371 13172 13183 "src/formula.ml" 371 13172 13216
+call(
+  stack
+)
+type(
+  bool
+)
+"src/formula.ml" 372 13222 13237 "src/formula.ml" 372 13222 13244
+type(
+  formula
+)
+ident(
+  int_ref new_ant "src/formula.ml" 370 13123 13135 "src/formula.ml" 370 13123 13142
+)
+"src/formula.ml" 372 13222 13232 "src/formula.ml" 372 13222 13244
+type(
+  formula option
+)
+"src/formula.ml" 374 13264 13274 "src/formula.ml" 374 13264 13285
+type(
+  paramref list list -> formula option
+)
+ident(
+  int_ref has_implied "src/formula.ml" 366 13025 13037 "src/formula.ml" 366 13025 13048
+)
+"src/formula.ml" 374 13264 13286 "src/formula.ml" 374 13264 13293
+type(
+  paramref list list
+)
+ident(
+  int_ref params' "src/formula.ml" 369 13101 13112 "src/formula.ml" 369 13101 13119
+)
+"src/formula.ml" 374 13264 13274 "src/formula.ml" 374 13264 13293
+call(
+  tail
+)
+type(
+  formula option
+)
+"src/formula.ml" 371 13172 13180 "src/formula.ml" 375 13294 13305
+type(
+  formula option
+)
+"src/formula.ml" 370 13123 13131 "src/formula.ml" 375 13294 13305
+type(
+  formula option
+)
+"src/formula.ml" 367 13058 13064 "src/formula.ml" 375 13294 13305
+type(
+  formula option
+)
+"src/formula.ml" 366 13025 13049 "src/formula.ml" 375 13294 13305
+type(
+  paramref list list -> formula option
+)
+"src/formula.ml" 377 13313 13317 "src/formula.ml" 377 13313 13328
+type(
+  paramref list list -> formula option
+)
+ident(
+  int_ref has_implied "src/formula.ml" 366 13025 13037 "src/formula.ml" 366 13025 13048
+)
+"src/formula.ml" 377 13313 13329 "src/formula.ml" 377 13313 13335
+type(
+  paramref list list
+)
+ident(
+  int_ref params "src/formula.ml" 365 12975 12983 "src/formula.ml" 365 12975 12989
+)
+"src/formula.ml" 377 13313 13317 "src/formula.ml" 377 13313 13335
+call(
+  tail
+)
+type(
+  formula option
+)
+"src/formula.ml" 366 13025 13029 "src/formula.ml" 377 13313 13335
+type(
+  formula option
+)
+"src/formula.ml" 365 12975 12979 "src/formula.ml" 377 13313 13335
+type(
+  formula option
+)
+"src/formula.ml" 361 12800 12807 "src/formula.ml" 378 13336 13341
+type(
+  formula option
+)
+"src/formula.ml" 357 12630 12637 "src/formula.ml" 378 13336 13341
+type(
+  formula option
+)
+"src/formula.ml" 354 12487 12489 "src/formula.ml" 378 13336 13341
+type(
+  formula option
+)
+"src/formula.ml" 351 12315 12317 "src/formula.ml" 378 13336 13341
+type(
+  formula option
+)
+"src/formula.ml" 350 12253 12255 "src/formula.ml" 378 13336 13341
+type(
+  formula option
+)
+"src/formula.ml" 349 12210 12212 "src/formula.ml" 378 13336 13341
+type(
+  formula option
+)
+"src/formula.ml" 348 12169 12171 "src/formula.ml" 378 13336 13341
+type(
+  formula option
+)
+"src/formula.ml" 347 12144 12162 "src/formula.ml" 378 13336 13341
+type(
+  formula -> formula option
+)
+"src/formula.ml" 347 12144 12158 "src/formula.ml" 378 13336 13341
+type(
+  formula -> formula -> formula option
+)
+"src/formula.ml" 380 13343 13347 "src/formula.ml" 380 13343 13360
+type(
+  formula -> formula -> int
+)
+ident(
+  def symmetry_form "src/formula.ml" 383 13441 13512 "src/formula.ml" 1 0 -1
+)
+"src/formula.ml" 380 13343 13361 "src/formula.ml" 380 13343 13363
+type(
+  formula
+)
+ident(
+  def f1 "src/formula.ml" 380 13343 13364 "src/formula.ml" 383 13441 13512
+)
+"src/formula.ml" 380 13343 13364 "src/formula.ml" 380 13343 13366
+type(
+  formula
+)
+ident(
+  def f2 "src/formula.ml" 381 13369 13371 "src/formula.ml" 383 13441 13512
+)
+"src/formula.ml" 381 13369 13377 "src/formula.ml" 381 13369 13386
+type(
+  formula -> formula -> formula option
+)
+ident(
+  int_ref can_imply "src/formula.ml" 347 12144 12148 "src/formula.ml" 347 12144 12157
+)
+"src/formula.ml" 381 13369 13387 "src/formula.ml" 381 13369 13389
+type(
+  formula
+)
+ident(
+  int_ref f1 "src/formula.ml" 380 13343 13361 "src/formula.ml" 380 13343 13363
+)
+"src/formula.ml" 381 13369 13390 "src/formula.ml" 381 13369 13392
+type(
+  formula
+)
+ident(
+  int_ref f2 "src/formula.ml" 380 13343 13364 "src/formula.ml" 380 13343 13366
+)
+"src/formula.ml" 381 13369 13377 "src/formula.ml" 381 13369 13392
+call(
+  stack
+)
+type(
+  formula option
+)
+"src/formula.ml" 381 13369 13394 "src/formula.ml" 381 13369 13403
+type(
+  formula -> formula -> formula option
+)
+ident(
+  int_ref can_imply "src/formula.ml" 347 12144 12148 "src/formula.ml" 347 12144 12157
+)
+"src/formula.ml" 381 13369 13404 "src/formula.ml" 381 13369 13406
+type(
+  formula
+)
+ident(
+  int_ref f2 "src/formula.ml" 380 13343 13364 "src/formula.ml" 380 13343 13366
+)
+"src/formula.ml" 381 13369 13407 "src/formula.ml" 381 13369 13409
+type(
+  formula
+)
+ident(
+  int_ref f1 "src/formula.ml" 380 13343 13361 "src/formula.ml" 380 13343 13363
+)
+"src/formula.ml" 381 13369 13394 "src/formula.ml" 381 13369 13409
+call(
+  stack
+)
+type(
+  formula option
+)
+"src/formula.ml" 381 13369 13377 "src/formula.ml" 381 13369 13409
+type(
+  formula option * formula option
+)
+"src/formula.ml" 382 13415 13424 "src/formula.ml" 382 13415 13425
+type(
+  formula
+)
+"src/formula.ml" 382 13415 13419 "src/formula.ml" 382 13415 13426
+type(
+  formula option
+)
+"src/formula.ml" 382 13415 13433 "src/formula.ml" 382 13415 13434
+type(
+  formula
+)
+"src/formula.ml" 382 13415 13428 "src/formula.ml" 382 13415 13435
+type(
+  formula option
+)
+"src/formula.ml" 382 13415 13419 "src/formula.ml" 382 13415 13435
+type(
+  formula option * formula option
+)
+"src/formula.ml" 382 13415 13439 "src/formula.ml" 382 13415 13440
+type(
+  int
+)
+"src/formula.ml" 383 13441 13445 "src/formula.ml" 383 13441 13446
+type(
+  formula option * formula option
+)
+"src/formula.ml" 383 13441 13450 "src/formula.ml" 383 13441 13464
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Core.Std.String.compare
+)
+"src/formula.ml" 383 13441 13466 "src/formula.ml" 383 13441 13484
+type(
+  ?lower:bool -> formula -> string
+)
+ident(
+  ext_ref ToStr.Smv.form_act
+)
+"src/formula.ml" 383 13441 13485 "src/formula.ml" 383 13441 13487
+type(
+  formula
+)
+ident(
+  int_ref f1 "src/formula.ml" 380 13343 13361 "src/formula.ml" 380 13343 13363
+)
+"src/formula.ml" 383 13441 13466 "src/formula.ml" 383 13441 13487
+call(
+  stack
+)
+type(
+  string
+)
+"src/formula.ml" 383 13441 13490 "src/formula.ml" 383 13441 13508
+type(
+  ?lower:bool -> formula -> string
+)
+ident(
+  ext_ref ToStr.Smv.form_act
+)
+"src/formula.ml" 383 13441 13509 "src/formula.ml" 383 13441 13511
+type(
+  formula
+)
+ident(
+  int_ref f2 "src/formula.ml" 380 13343 13364 "src/formula.ml" 380 13343 13366
+)
+"src/formula.ml" 383 13441 13490 "src/formula.ml" 383 13441 13511
+call(
+  stack
+)
+type(
+  string
+)
+"src/formula.ml" 383 13441 13450 "src/formula.ml" 383 13441 13512
+call(
+  tail
+)
+type(
+  int
+)
+"src/formula.ml" 381 13369 13371 "src/formula.ml" 383 13441 13512
+type(
+  int
+)
+"src/formula.ml" 380 13343 13364 "src/formula.ml" 383 13441 13512
+type(
+  formula -> int
+)
+"src/formula.ml" 380 13343 13361 "src/formula.ml" 383 13441 13512
+type(
+  formula -> formula -> int
+)

@@ -1,0 +1,2 @@
+val addOneState: Paramecium.var list ->  Paramecium.formula -> unit
+val addOneOrderedState:   Paramecium.formula -> unit

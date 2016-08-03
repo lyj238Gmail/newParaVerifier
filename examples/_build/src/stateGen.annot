@@ -1,0 +1,1067 @@
+"src/stateGen.ml" 8 59 63 "src/stateGen.ml" 8 59 73
+type(
+  formula -> formula -> bool
+)
+ident(
+  def equal_form "src/stateGen.ml" 11 137 137 "src/stateGen.ml" 1 0 -1
+)
+"src/stateGen.ml" 8 59 74 "src/stateGen.ml" 8 59 75
+type(
+  formula
+)
+ident(
+  def f "src/stateGen.ml" 8 59 76 "src/stateGen.ml" 9 80 135
+)
+"src/stateGen.ml" 8 59 76 "src/stateGen.ml" 8 59 77
+type(
+  formula
+)
+ident(
+  def g "src/stateGen.ml" 9 80 82 "src/stateGen.ml" 9 80 135
+)
+"src/stateGen.ml" 9 80 82 "src/stateGen.ml" 9 80 102
+type(
+  ?quiet:bool -> formula -> bool
+)
+ident(
+  ext_ref Formula.is_tautology
+)
+"src/stateGen.ml" 9 80 104 "src/stateGen.ml" 9 80 111
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.andList
+)
+"src/stateGen.ml" 9 80 113 "src/stateGen.ml" 9 80 118
+type(
+  formula -> formula -> formula
+)
+ident(
+  ext_ref Paramecium.imply
+)
+"src/stateGen.ml" 9 80 119 "src/stateGen.ml" 9 80 120
+type(
+  formula
+)
+ident(
+  int_ref f "src/stateGen.ml" 8 59 74 "src/stateGen.ml" 8 59 75
+)
+"src/stateGen.ml" 9 80 121 "src/stateGen.ml" 9 80 122
+type(
+  formula
+)
+ident(
+  int_ref g "src/stateGen.ml" 8 59 76 "src/stateGen.ml" 8 59 77
+)
+"src/stateGen.ml" 9 80 113 "src/stateGen.ml" 9 80 122
+call(
+  stack
+)
+type(
+  formula
+)
+"src/stateGen.ml" 9 80 124 "src/stateGen.ml" 9 80 129
+type(
+  formula -> formula -> formula
+)
+ident(
+  ext_ref Paramecium.imply
+)
+"src/stateGen.ml" 9 80 130 "src/stateGen.ml" 9 80 131
+type(
+  formula
+)
+ident(
+  int_ref g "src/stateGen.ml" 8 59 76 "src/stateGen.ml" 8 59 77
+)
+"src/stateGen.ml" 9 80 132 "src/stateGen.ml" 9 80 133
+type(
+  formula
+)
+ident(
+  int_ref f "src/stateGen.ml" 8 59 74 "src/stateGen.ml" 8 59 75
+)
+"src/stateGen.ml" 9 80 124 "src/stateGen.ml" 9 80 133
+call(
+  stack
+)
+type(
+  formula
+)
+type(
+  formula list
+)
+"src/stateGen.ml" 9 80 113 "src/stateGen.ml" 9 80 133
+type(
+  formula list
+)
+"src/stateGen.ml" 9 80 112 "src/stateGen.ml" 9 80 134
+type(
+  formula list
+)
+"src/stateGen.ml" 9 80 104 "src/stateGen.ml" 9 80 134
+call(
+  stack
+)
+type(
+  formula
+)
+"src/stateGen.ml" 9 80 82 "src/stateGen.ml" 9 80 135
+call(
+  tail
+)
+type(
+  bool
+)
+"src/stateGen.ml" 8 59 76 "src/stateGen.ml" 9 80 135
+type(
+  formula -> bool
+)
+"src/stateGen.ml" 8 59 74 "src/stateGen.ml" 9 80 135
+type(
+  formula -> formula -> bool
+)
+"src/stateGen.ml" 11 137 141 "src/stateGen.ml" 11 137 150
+type(
+  formula -> formula -> bool
+)
+ident(
+  def can_imply "src/stateGen.ml" 15 194 194 "src/stateGen.ml" 1 0 -1
+)
+"src/stateGen.ml" 11 137 151 "src/stateGen.ml" 11 137 152
+type(
+  formula
+)
+ident(
+  def f "src/stateGen.ml" 11 137 153 "src/stateGen.ml" 12 157 191
+)
+"src/stateGen.ml" 11 137 153 "src/stateGen.ml" 11 137 154
+type(
+  formula
+)
+ident(
+  def g "src/stateGen.ml" 12 157 159 "src/stateGen.ml" 12 157 191
+)
+"src/stateGen.ml" 12 157 159 "src/stateGen.ml" 12 157 179
+type(
+  ?quiet:bool -> formula -> bool
+)
+ident(
+  ext_ref Formula.is_tautology
+)
+"src/stateGen.ml" 12 157 181 "src/stateGen.ml" 12 157 186
+type(
+  formula -> formula -> formula
+)
+ident(
+  ext_ref Paramecium.imply
+)
+"src/stateGen.ml" 12 157 187 "src/stateGen.ml" 12 157 188
+type(
+  formula
+)
+ident(
+  int_ref f "src/stateGen.ml" 11 137 151 "src/stateGen.ml" 11 137 152
+)
+"src/stateGen.ml" 12 157 189 "src/stateGen.ml" 12 157 190
+type(
+  formula
+)
+ident(
+  int_ref g "src/stateGen.ml" 11 137 153 "src/stateGen.ml" 11 137 154
+)
+"src/stateGen.ml" 12 157 181 "src/stateGen.ml" 12 157 190
+call(
+  stack
+)
+type(
+  formula
+)
+"src/stateGen.ml" 12 157 159 "src/stateGen.ml" 12 157 191
+call(
+  tail
+)
+type(
+  bool
+)
+"src/stateGen.ml" 11 137 153 "src/stateGen.ml" 12 157 191
+type(
+  formula -> bool
+)
+"src/stateGen.ml" 11 137 151 "src/stateGen.ml" 12 157 191
+type(
+  formula -> formula -> bool
+)
+"src/stateGen.ml" 15 194 202 "src/stateGen.ml" 15 194 221
+type(
+  statement -> (var * exp) list
+)
+ident(
+  def statement_2_assigns "src/stateGen.ml" 15 194 194 "src/stateGen.ml" 1 0 -1
+)
+"src/stateGen.ml" 15 194 222 "src/stateGen.ml" 15 194 231
+type(
+  statement
+)
+ident(
+  def statement "src/stateGen.ml" 16 234 236 "src/stateGen.ml" 18 326 354
+)
+"src/stateGen.ml" 16 234 242 "src/stateGen.ml" 16 234 251
+type(
+  statement
+)
+ident(
+  int_ref statement "src/stateGen.ml" 15 194 222 "src/stateGen.ml" 15 194 231
+)
+"src/stateGen.ml" 17 257 270 "src/stateGen.ml" 17 257 272
+type(
+  statement list
+)
+ident(
+  def sl "src/stateGen.ml" 17 257 277 "src/stateGen.ml" 17 257 325
+)
+"src/stateGen.ml" 17 257 261 "src/stateGen.ml" 17 257 273
+type(
+  statement
+)
+"src/stateGen.ml" 17 257 277 "src/stateGen.ml" 17 257 288
+type(
+  (var * exp) list list -> (var * exp) list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/stateGen.ml" 17 257 290 "src/stateGen.ml" 17 257 298
+type(
+  statement list ->
+  f:(statement -> (var * exp) list) -> (var * exp) list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/stateGen.ml" 17 257 299 "src/stateGen.ml" 17 257 301
+type(
+  statement list
+)
+ident(
+  int_ref sl "src/stateGen.ml" 17 257 270 "src/stateGen.ml" 17 257 272
+)
+"src/stateGen.ml" 17 257 305 "src/stateGen.ml" 17 257 324
+type(
+  statement -> (var * exp) list
+)
+ident(
+  int_ref statement_2_assigns "src/stateGen.ml" 15 194 202 "src/stateGen.ml" 15 194 221
+)
+"src/stateGen.ml" 17 257 290 "src/stateGen.ml" 17 257 324
+call(
+  stack
+)
+type(
+  (var * exp) list list
+)
+"src/stateGen.ml" 17 257 277 "src/stateGen.ml" 17 257 325
+call(
+  tail
+)
+type(
+  (var * exp) list
+)
+"src/stateGen.ml" 18 326 337 "src/stateGen.ml" 18 326 338
+type(
+  var
+)
+ident(
+  def v "src/stateGen.ml" 18 326 347 "src/stateGen.ml" 18 326 353
+)
+"src/stateGen.ml" 18 326 340 "src/stateGen.ml" 18 326 341
+type(
+  exp
+)
+ident(
+  def e "src/stateGen.ml" 18 326 347 "src/stateGen.ml" 18 326 353
+)
+"src/stateGen.ml" 18 326 330 "src/stateGen.ml" 18 326 342
+type(
+  statement
+)
+"src/stateGen.ml" 18 326 348 "src/stateGen.ml" 18 326 349
+type(
+  var
+)
+ident(
+  int_ref v "src/stateGen.ml" 18 326 337 "src/stateGen.ml" 18 326 338
+)
+"src/stateGen.ml" 18 326 351 "src/stateGen.ml" 18 326 352
+type(
+  exp
+)
+ident(
+  int_ref e "src/stateGen.ml" 18 326 340 "src/stateGen.ml" 18 326 341
+)
+"src/stateGen.ml" 18 326 348 "src/stateGen.ml" 18 326 352
+type(
+  var * exp
+)
+"src/stateGen.ml" 18 326 347 "src/stateGen.ml" 18 326 353
+type(
+  (var * exp) list
+)
+"src/stateGen.ml" 18 326 346 "src/stateGen.ml" 18 326 354
+type(
+  (var * exp) list
+)
+"src/stateGen.ml" 16 234 236 "src/stateGen.ml" 18 326 354
+type(
+  (var * exp) list
+)
+"src/stateGen.ml" 15 194 222 "src/stateGen.ml" 18 326 354
+type(
+  statement -> (var * exp) list
+)
+"src/stateGen.ml" 42 1110 1116 "src/stateGen.ml" 42 1110 1119
+type(
+  formula list -> rule list -> int -> formula list
+)
+ident(
+  def bfs "src/stateGen.ml" 62 1842 1863 "src/stateGen.ml" 1 0 -1
+)
+"src/stateGen.ml" 42 1110 1120 "src/stateGen.ml" 42 1110 1125
+type(
+  formula list
+)
+ident(
+  def inits "src/stateGen.ml" 42 1110 1126 "src/stateGen.ml" 62 1842 1863
+)
+"src/stateGen.ml" 42 1110 1126 "src/stateGen.ml" 42 1110 1131
+type(
+  rule list
+)
+ident(
+  def rules "src/stateGen.ml" 42 1110 1132 "src/stateGen.ml" 62 1842 1863
+)
+"src/stateGen.ml" 42 1110 1132 "src/stateGen.ml" 42 1110 1137
+type(
+  int
+)
+ident(
+  def bound "src/stateGen.ml" 43 1140 1142 "src/stateGen.ml" 62 1842 1863
+)
+"src/stateGen.ml" 43 1140 1150 "src/stateGen.ml" 43 1140 1157
+type(
+  formula list -> formula list -> formula list
+)
+ident(
+  def wrapper "src/stateGen.ml" 43 1140 1142 "src/stateGen.ml" 62 1842 1863
+)
+"src/stateGen.ml" 43 1140 1158 "src/stateGen.ml" 43 1140 1161
+type(
+  formula list
+)
+ident(
+  def cur "src/stateGen.ml" 43 1140 1162 "src/stateGen.ml" 60 1829 1836
+)
+"src/stateGen.ml" 43 1140 1162 "src/stateGen.ml" 43 1140 1165
+type(
+  formula list
+)
+ident(
+  def res "src/stateGen.ml" 44 1168 1172 "src/stateGen.ml" 60 1829 1836
+)
+"src/stateGen.ml" 44 1168 1175 "src/stateGen.ml" 44 1168 1186
+type(
+  formula list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"src/stateGen.ml" 44 1168 1187 "src/stateGen.ml" 44 1168 1190
+type(
+  formula list
+)
+ident(
+  int_ref res "src/stateGen.ml" 43 1140 1162 "src/stateGen.ml" 43 1140 1165
+)
+"src/stateGen.ml" 44 1168 1175 "src/stateGen.ml" 44 1168 1190
+call(
+  stack
+)
+type(
+  int
+)
+"src/stateGen.ml" 44 1168 1191 "src/stateGen.ml" 44 1168 1193
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/stateGen.ml" 44 1168 1194 "src/stateGen.ml" 44 1168 1199
+type(
+  int
+)
+ident(
+  int_ref bound "src/stateGen.ml" 42 1110 1132 "src/stateGen.ml" 42 1110 1137
+)
+"src/stateGen.ml" 44 1168 1175 "src/stateGen.ml" 44 1168 1199
+type(
+  bool
+)
+"src/stateGen.ml" 44 1168 1200 "src/stateGen.ml" 44 1168 1202
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/stateGen.ml" 44 1168 1203 "src/stateGen.ml" 44 1168 1216
+type(
+  formula list -> bool
+)
+ident(
+  ext_ref Core.Std.List.is_empty
+)
+"src/stateGen.ml" 44 1168 1217 "src/stateGen.ml" 44 1168 1220
+type(
+  formula list
+)
+ident(
+  int_ref cur "src/stateGen.ml" 43 1140 1158 "src/stateGen.ml" 43 1140 1161
+)
+"src/stateGen.ml" 44 1168 1203 "src/stateGen.ml" 44 1168 1220
+call(
+  stack
+)
+type(
+  bool
+)
+"src/stateGen.ml" 44 1168 1175 "src/stateGen.ml" 44 1168 1220
+type(
+  bool
+)
+"src/stateGen.ml" 45 1226 1232 "src/stateGen.ml" 45 1226 1235
+type(
+  formula list
+)
+ident(
+  int_ref res "src/stateGen.ml" 43 1140 1162 "src/stateGen.ml" 43 1140 1165
+)
+"src/stateGen.ml" 47 1251 1261 "src/stateGen.ml" 47 1251 1262
+type(
+  formula
+)
+ident(
+  def c "src/stateGen.ml" 48 1278 1284 "src/stateGen.ml" 59 1782 1828
+)
+"src/stateGen.ml" 47 1251 1264 "src/stateGen.ml" 47 1251 1268
+type(
+  formula list
+)
+ident(
+  def cur' "src/stateGen.ml" 48 1278 1284 "src/stateGen.ml" 59 1782 1828
+)
+"src/stateGen.ml" 47 1251 1261 "src/stateGen.ml" 47 1251 1268
+type(
+  formula list
+)
+"src/stateGen.ml" 47 1251 1271 "src/stateGen.ml" 47 1251 1274
+type(
+  formula list
+)
+ident(
+  int_ref cur "src/stateGen.ml" 43 1140 1158 "src/stateGen.ml" 43 1140 1161
+)
+"src/stateGen.ml" 48 1278 1288 "src/stateGen.ml" 48 1278 1293
+type(
+  formula list
+)
+ident(
+  def found "src/stateGen.ml" 53 1582 1588 "src/stateGen.ml" 59 1782 1828
+)
+"src/stateGen.ml" 48 1278 1296 "src/stateGen.ml" 48 1278 1307
+type(
+  formula list list -> formula list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/stateGen.ml" 48 1278 1309 "src/stateGen.ml" 48 1278 1317
+type(
+  rule list -> f:(rule -> formula list) -> formula list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/stateGen.ml" 48 1278 1318 "src/stateGen.ml" 48 1278 1323
+type(
+  rule list
+)
+ident(
+  int_ref rules "src/stateGen.ml" 42 1110 1126 "src/stateGen.ml" 42 1110 1131
+)
+"src/stateGen.ml" 48 1278 1338 "src/stateGen.ml" 48 1278 1339
+type(
+  string
+)
+ident(
+  def n "src/stateGen.ml" 49 1354 1362 "src/stateGen.ml" 51 1440 1515
+)
+"src/stateGen.ml" 48 1278 1341 "src/stateGen.ml" 48 1278 1342
+type(
+  paramdef list
+)
+ident(
+  def p "src/stateGen.ml" 49 1354 1362 "src/stateGen.ml" 51 1440 1515
+)
+"src/stateGen.ml" 48 1278 1344 "src/stateGen.ml" 48 1278 1345
+type(
+  formula
+)
+ident(
+  def f "src/stateGen.ml" 49 1354 1362 "src/stateGen.ml" 51 1440 1515
+)
+"src/stateGen.ml" 48 1278 1347 "src/stateGen.ml" 48 1278 1348
+type(
+  statement
+)
+ident(
+  def s "src/stateGen.ml" 49 1354 1362 "src/stateGen.ml" 51 1440 1515
+)
+"src/stateGen.ml" 48 1278 1333 "src/stateGen.ml" 48 1278 1349
+type(
+  rule
+)
+"src/stateGen.ml" 49 1354 1366 "src/stateGen.ml" 49 1354 1373
+type(
+  (var * exp) list
+)
+ident(
+  def assigns "src/stateGen.ml" 50 1401 1409 "src/stateGen.ml" 51 1440 1515
+)
+"src/stateGen.ml" 49 1354 1376 "src/stateGen.ml" 49 1354 1395
+type(
+  statement -> (var * exp) list
+)
+ident(
+  int_ref statement_2_assigns "src/stateGen.ml" 15 194 202 "src/stateGen.ml" 15 194 221
+)
+"src/stateGen.ml" 49 1354 1396 "src/stateGen.ml" 49 1354 1397
+type(
+  statement
+)
+ident(
+  int_ref s "src/stateGen.ml" 48 1278 1347 "src/stateGen.ml" 48 1278 1348
+)
+"src/stateGen.ml" 49 1354 1376 "src/stateGen.ml" 49 1354 1397
+call(
+  stack
+)
+type(
+  (var * exp) list
+)
+"src/stateGen.ml" 50 1401 1413 "src/stateGen.ml" 50 1401 1415
+type(
+  (formula * formula) list
+)
+ident(
+  def c' "src/stateGen.ml" 51 1440 1448 "src/stateGen.ml" 51 1440 1515
+)
+"src/stateGen.ml" 50 1401 1418 "src/stateGen.ml" 50 1401 1426
+type(
+  formula -> (var * exp) list -> (formula * formula) list
+)
+ident(
+  ext_ref InvFinder.pre_cond
+)
+"src/stateGen.ml" 50 1401 1427 "src/stateGen.ml" 50 1401 1428
+type(
+  formula
+)
+ident(
+  int_ref c "src/stateGen.ml" 47 1251 1261 "src/stateGen.ml" 47 1251 1262
+)
+"src/stateGen.ml" 50 1401 1429 "src/stateGen.ml" 50 1401 1436
+type(
+  (var * exp) list
+)
+ident(
+  int_ref assigns "src/stateGen.ml" 49 1354 1366 "src/stateGen.ml" 49 1354 1373
+)
+"src/stateGen.ml" 50 1401 1418 "src/stateGen.ml" 50 1401 1436
+call(
+  stack
+)
+type(
+  (formula * formula) list
+)
+"src/stateGen.ml" 51 1440 1448 "src/stateGen.ml" 51 1440 1456
+type(
+  (formula * formula) list ->
+  f:(formula * formula -> formula) -> formula list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/stateGen.ml" 51 1440 1457 "src/stateGen.ml" 51 1440 1459
+type(
+  (formula * formula) list
+)
+ident(
+  int_ref c' "src/stateGen.ml" 50 1401 1413 "src/stateGen.ml" 50 1401 1415
+)
+"src/stateGen.ml" 51 1440 1469 "src/stateGen.ml" 51 1440 1470
+type(
+  formula
+)
+ident(
+  def b "src/stateGen.ml" 51 1440 1478 "src/stateGen.ml" 51 1440 1514
+)
+"src/stateGen.ml" 51 1440 1472 "src/stateGen.ml" 51 1440 1473
+type(
+  formula
+)
+ident(
+  def g "src/stateGen.ml" 51 1440 1478 "src/stateGen.ml" 51 1440 1514
+)
+"src/stateGen.ml" 51 1440 1469 "src/stateGen.ml" 51 1440 1473
+type(
+  formula * formula
+)
+"src/stateGen.ml" 51 1440 1478 "src/stateGen.ml" 51 1440 1494
+type(
+  ?eli_eqn:bool -> formula -> formula
+)
+ident(
+  ext_ref Formula.simplify
+)
+"src/stateGen.ml" 51 1440 1496 "src/stateGen.ml" 51 1440 1503
+type(
+  formula list -> formula
+)
+ident(
+  ext_ref Paramecium.andList
+)
+"src/stateGen.ml" 51 1440 1505 "src/stateGen.ml" 51 1440 1506
+type(
+  formula
+)
+ident(
+  int_ref f "src/stateGen.ml" 48 1278 1344 "src/stateGen.ml" 48 1278 1345
+)
+"src/stateGen.ml" 51 1440 1508 "src/stateGen.ml" 51 1440 1509
+type(
+  formula
+)
+ident(
+  int_ref b "src/stateGen.ml" 51 1440 1469 "src/stateGen.ml" 51 1440 1470
+)
+"src/stateGen.ml" 51 1440 1511 "src/stateGen.ml" 51 1440 1512
+type(
+  formula
+)
+ident(
+  int_ref g "src/stateGen.ml" 51 1440 1472 "src/stateGen.ml" 51 1440 1473
+)
+type(
+  formula list
+)
+"src/stateGen.ml" 51 1440 1508 "src/stateGen.ml" 51 1440 1512
+type(
+  formula list
+)
+"src/stateGen.ml" 51 1440 1505 "src/stateGen.ml" 51 1440 1512
+type(
+  formula list
+)
+"src/stateGen.ml" 51 1440 1504 "src/stateGen.ml" 51 1440 1513
+type(
+  formula list
+)
+"src/stateGen.ml" 51 1440 1496 "src/stateGen.ml" 51 1440 1513
+call(
+  stack
+)
+type(
+  formula
+)
+"src/stateGen.ml" 51 1440 1478 "src/stateGen.ml" 51 1440 1514
+call(
+  tail
+)
+type(
+  formula
+)
+"src/stateGen.ml" 51 1440 1468 "src/stateGen.ml" 51 1440 1514
+type(
+  formula * formula -> formula
+)
+"src/stateGen.ml" 51 1440 1448 "src/stateGen.ml" 51 1440 1515
+call(
+  tail
+)
+type(
+  formula list
+)
+"src/stateGen.ml" 50 1401 1409 "src/stateGen.ml" 51 1440 1515
+type(
+  formula list
+)
+"src/stateGen.ml" 49 1354 1362 "src/stateGen.ml" 51 1440 1515
+type(
+  formula list
+)
+"src/stateGen.ml" 48 1278 1332 "src/stateGen.ml" 51 1440 1515
+type(
+  rule -> formula list
+)
+"src/stateGen.ml" 48 1278 1309 "src/stateGen.ml" 52 1516 1523
+call(
+  stack
+)
+type(
+  formula list list
+)
+"src/stateGen.ml" 48 1278 1296 "src/stateGen.ml" 52 1516 1524
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/stateGen.ml" 52 1516 1525 "src/stateGen.ml" 52 1516 1527
+type(
+  formula list -> (formula list -> formula list) -> formula list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/stateGen.ml" 52 1516 1528 "src/stateGen.ml" 52 1516 1539
+type(
+  formula list -> f:(formula -> bool) -> formula list
+)
+ident(
+  ext_ref Core.Std.List.filter
+)
+"src/stateGen.ml" 52 1516 1548 "src/stateGen.ml" 52 1516 1549
+type(
+  formula
+)
+ident(
+  def g "src/stateGen.ml" 52 1516 1553 "src/stateGen.ml" 52 1516 1577
+)
+"src/stateGen.ml" 52 1516 1553 "src/stateGen.ml" 52 1516 1575
+type(
+  ?quiet:bool -> formula -> bool
+)
+ident(
+  ext_ref Formula.is_satisfiable
+)
+"src/stateGen.ml" 52 1516 1576 "src/stateGen.ml" 52 1516 1577
+type(
+  formula
+)
+ident(
+  int_ref g "src/stateGen.ml" 52 1516 1548 "src/stateGen.ml" 52 1516 1549
+)
+"src/stateGen.ml" 52 1516 1553 "src/stateGen.ml" 52 1516 1577
+call(
+  tail
+)
+type(
+  bool
+)
+"src/stateGen.ml" 52 1516 1548 "src/stateGen.ml" 52 1516 1577
+type(
+  formula -> bool
+)
+"src/stateGen.ml" 52 1516 1528 "src/stateGen.ml" 52 1516 1578
+call(
+  tail
+)
+type(
+  formula list -> formula list
+)
+"src/stateGen.ml" 48 1278 1296 "src/stateGen.ml" 52 1516 1578
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/stateGen.ml" 53 1582 1592 "src/stateGen.ml" 53 1582 1601
+type(
+  formula list
+)
+ident(
+  def new_found "src/stateGen.ml" 59 1782 1788 "src/stateGen.ml" 59 1782 1828
+)
+"src/stateGen.ml" 53 1582 1604 "src/stateGen.ml" 53 1582 1613
+type(
+  formula list ->
+  init:formula list ->
+  f:(formula list -> formula -> formula list) -> formula list
+)
+ident(
+  ext_ref Core.Std.List.fold
+)
+"src/stateGen.ml" 53 1582 1614 "src/stateGen.ml" 53 1582 1619
+type(
+  formula list
+)
+ident(
+  int_ref found "src/stateGen.ml" 48 1278 1288 "src/stateGen.ml" 48 1278 1293
+)
+"src/stateGen.ml" 53 1582 1626 "src/stateGen.ml" 53 1582 1628
+type(
+  formula list
+)
+"src/stateGen.ml" 53 1582 1637 "src/stateGen.ml" 53 1582 1645
+type(
+  formula list
+)
+ident(
+  def remained "src/stateGen.ml" 53 1582 1646 "src/stateGen.ml" 57 1737 1770
+)
+"src/stateGen.ml" 53 1582 1646 "src/stateGen.ml" 53 1582 1647
+type(
+  formula
+)
+ident(
+  def x "src/stateGen.ml" 55 1659 1667 "src/stateGen.ml" 57 1737 1770
+)
+"src/stateGen.ml" 55 1659 1673 "src/stateGen.ml" 55 1659 1700
+type(
+  formula -> unit option
+)
+ident(
+  ext_ref StateSet.addOneOrderedState
+)
+"src/stateGen.ml" 55 1659 1703 "src/stateGen.ml" 55 1659 1704
+type(
+  formula
+)
+ident(
+  int_ref x "src/stateGen.ml" 53 1582 1646 "src/stateGen.ml" 53 1582 1647
+)
+"src/stateGen.ml" 55 1659 1673 "src/stateGen.ml" 55 1659 1704
+call(
+  stack
+)
+type(
+  unit option
+)
+"src/stateGen.ml" 56 1710 1720 "src/stateGen.ml" 56 1710 1724
+type(
+  unit option
+)
+"src/stateGen.ml" 56 1710 1728 "src/stateGen.ml" 56 1710 1736
+type(
+  formula list
+)
+ident(
+  int_ref remained "src/stateGen.ml" 53 1582 1637 "src/stateGen.ml" 53 1582 1645
+)
+"src/stateGen.ml" 57 1737 1752 "src/stateGen.ml" 57 1737 1753
+type(
+  unit
+)
+ident(
+  def p "src/stateGen.ml" 57 1737 1758 "src/stateGen.ml" 57 1737 1770
+)
+"src/stateGen.ml" 57 1737 1747 "src/stateGen.ml" 57 1737 1754
+type(
+  unit option
+)
+"src/stateGen.ml" 57 1737 1758 "src/stateGen.ml" 57 1737 1766
+type(
+  formula list
+)
+ident(
+  int_ref remained "src/stateGen.ml" 53 1582 1637 "src/stateGen.ml" 53 1582 1645
+)
+"src/stateGen.ml" 57 1737 1766 "src/stateGen.ml" 57 1737 1767
+type(
+  formula list -> formula list -> formula list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"src/stateGen.ml" 57 1737 1768 "src/stateGen.ml" 57 1737 1769
+type(
+  formula
+)
+ident(
+  int_ref x "src/stateGen.ml" 53 1582 1646 "src/stateGen.ml" 53 1582 1647
+)
+type(
+  formula list
+)
+"src/stateGen.ml" 57 1737 1767 "src/stateGen.ml" 57 1737 1770
+type(
+  formula list
+)
+"src/stateGen.ml" 57 1737 1758 "src/stateGen.ml" 57 1737 1770
+call(
+  tail
+)
+type(
+  formula list
+)
+"src/stateGen.ml" 55 1659 1667 "src/stateGen.ml" 57 1737 1770
+type(
+  formula list
+)
+"src/stateGen.ml" 53 1582 1646 "src/stateGen.ml" 57 1737 1770
+type(
+  formula -> formula list
+)
+"src/stateGen.ml" 53 1582 1637 "src/stateGen.ml" 57 1737 1770
+type(
+  formula list -> formula -> formula list
+)
+"src/stateGen.ml" 53 1582 1604 "src/stateGen.ml" 58 1771 1778
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/stateGen.ml" 59 1782 1788 "src/stateGen.ml" 59 1782 1795
+type(
+  formula list -> formula list -> formula list
+)
+ident(
+  int_ref wrapper "src/stateGen.ml" 43 1140 1150 "src/stateGen.ml" 43 1140 1157
+)
+"src/stateGen.ml" 59 1782 1797 "src/stateGen.ml" 59 1782 1801
+type(
+  formula list
+)
+ident(
+  int_ref cur' "src/stateGen.ml" 47 1251 1264 "src/stateGen.ml" 47 1251 1268
+)
+"src/stateGen.ml" 59 1782 1801 "src/stateGen.ml" 59 1782 1802
+type(
+  formula list -> formula list -> formula list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"src/stateGen.ml" 59 1782 1802 "src/stateGen.ml" 59 1782 1811
+type(
+  formula list
+)
+ident(
+  int_ref new_found "src/stateGen.ml" 53 1582 1592 "src/stateGen.ml" 53 1582 1601
+)
+"src/stateGen.ml" 59 1782 1797 "src/stateGen.ml" 59 1782 1811
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/stateGen.ml" 59 1782 1814 "src/stateGen.ml" 59 1782 1817
+type(
+  formula list
+)
+ident(
+  int_ref res "src/stateGen.ml" 43 1140 1162 "src/stateGen.ml" 43 1140 1165
+)
+"src/stateGen.ml" 59 1782 1817 "src/stateGen.ml" 59 1782 1818
+type(
+  formula list -> formula list -> formula list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"src/stateGen.ml" 59 1782 1818 "src/stateGen.ml" 59 1782 1827
+type(
+  formula list
+)
+ident(
+  int_ref new_found "src/stateGen.ml" 53 1582 1592 "src/stateGen.ml" 53 1582 1601
+)
+"src/stateGen.ml" 59 1782 1814 "src/stateGen.ml" 59 1782 1827
+call(
+  stack
+)
+type(
+  formula list
+)
+"src/stateGen.ml" 59 1782 1788 "src/stateGen.ml" 59 1782 1828
+call(
+  tail
+)
+type(
+  formula list
+)
+"src/stateGen.ml" 53 1582 1588 "src/stateGen.ml" 59 1782 1828
+type(
+  formula list
+)
+"src/stateGen.ml" 48 1278 1284 "src/stateGen.ml" 59 1782 1828
+type(
+  formula list
+)
+"src/stateGen.ml" 47 1251 1257 "src/stateGen.ml" 59 1782 1828
+type(
+  formula list
+)
+"src/stateGen.ml" 44 1168 1172 "src/stateGen.ml" 60 1829 1836
+type(
+  formula list
+)
+"src/stateGen.ml" 43 1140 1162 "src/stateGen.ml" 60 1829 1836
+type(
+  formula list -> formula list
+)
+"src/stateGen.ml" 43 1140 1158 "src/stateGen.ml" 60 1829 1836
+type(
+  formula list -> formula list -> formula list
+)
+"src/stateGen.ml" 62 1842 1844 "src/stateGen.ml" 62 1842 1851
+type(
+  formula list -> formula list -> formula list
+)
+ident(
+  int_ref wrapper "src/stateGen.ml" 43 1140 1150 "src/stateGen.ml" 43 1140 1157
+)
+"src/stateGen.ml" 62 1842 1852 "src/stateGen.ml" 62 1842 1857
+type(
+  formula list
+)
+ident(
+  int_ref inits "src/stateGen.ml" 42 1110 1120 "src/stateGen.ml" 42 1110 1125
+)
+"src/stateGen.ml" 62 1842 1858 "src/stateGen.ml" 62 1842 1863
+type(
+  formula list
+)
+ident(
+  int_ref inits "src/stateGen.ml" 42 1110 1120 "src/stateGen.ml" 42 1110 1125
+)
+"src/stateGen.ml" 62 1842 1844 "src/stateGen.ml" 62 1842 1863
+call(
+  tail
+)
+type(
+  formula list
+)
+"src/stateGen.ml" 43 1140 1142 "src/stateGen.ml" 62 1842 1863
+type(
+  formula list
+)
+"src/stateGen.ml" 42 1110 1132 "src/stateGen.ml" 62 1842 1863
+type(
+  int -> formula list
+)
+"src/stateGen.ml" 42 1110 1126 "src/stateGen.ml" 62 1842 1863
+type(
+  rule list -> int -> formula list
+)
+"src/stateGen.ml" 42 1110 1120 "src/stateGen.ml" 62 1842 1863
+type(
+  formula list -> rule list -> int -> formula list
+)

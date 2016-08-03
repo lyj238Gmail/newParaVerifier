@@ -1,0 +1,3731 @@
+"src/client.ml" 26 365 369 "src/client.ml" 26 365 388
+type(
+  request_type -> string
+)
+ident(
+  def request_type_to_str "src/client.ml" 44 761 761 "src/client.ml" 1 0 -1
+)
+"src/client.ml" 26 365 389 "src/client.ml" 26 365 391
+type(
+  request_type
+)
+ident(
+  def rt "src/client.ml" 27 394 396 "src/client.ml" 42 733 759
+)
+"src/client.ml" 27 394 402 "src/client.ml" 27 394 404
+type(
+  request_type
+)
+ident(
+  int_ref rt "src/client.ml" 26 365 389 "src/client.ml" 26 365 391
+)
+"src/client.ml" 28 410 414 "src/client.ml" 28 410 419
+type(
+  request_type
+)
+"src/client.ml" 28 410 423 "src/client.ml" 28 410 427
+type(
+  string
+)
+"src/client.ml" 29 428 432 "src/client.ml" 29 428 439
+type(
+  request_type
+)
+"src/client.ml" 29 428 443 "src/client.ml" 29 428 447
+type(
+  string
+)
+"src/client.ml" 30 448 452 "src/client.ml" 30 448 454
+type(
+  request_type
+)
+"src/client.ml" 30 448 458 "src/client.ml" 30 448 461
+type(
+  string
+)
+"src/client.ml" 31 462 466 "src/client.ml" 31 462 483
+type(
+  request_type
+)
+"src/client.ml" 31 462 487 "src/client.ml" 31 462 490
+type(
+  string
+)
+"src/client.ml" 32 491 495 "src/client.ml" 32 491 510
+type(
+  request_type
+)
+"src/client.ml" 32 491 514 "src/client.ml" 32 491 517
+type(
+  string
+)
+"src/client.ml" 33 518 522 "src/client.ml" 33 518 531
+type(
+  request_type
+)
+"src/client.ml" 33 518 535 "src/client.ml" 33 518 538
+type(
+  string
+)
+"src/client.ml" 34 539 543 "src/client.ml" 34 539 551
+type(
+  request_type
+)
+"src/client.ml" 34 539 555 "src/client.ml" 34 539 558
+type(
+  string
+)
+"src/client.ml" 35 559 563 "src/client.ml" 35 559 569
+type(
+  request_type
+)
+"src/client.ml" 35 559 573 "src/client.ml" 35 559 577
+type(
+  string
+)
+"src/client.ml" 36 578 582 "src/client.ml" 36 578 595
+type(
+  request_type
+)
+"src/client.ml" 36 578 599 "src/client.ml" 36 578 603
+type(
+  string
+)
+"src/client.ml" 37 604 608 "src/client.ml" 37 604 620
+type(
+  request_type
+)
+"src/client.ml" 37 604 624 "src/client.ml" 37 604 628
+type(
+  string
+)
+"src/client.ml" 38 629 633 "src/client.ml" 38 629 649
+type(
+  request_type
+)
+"src/client.ml" 38 629 653 "src/client.ml" 38 629 656
+type(
+  string
+)
+"src/client.ml" 39 657 661 "src/client.ml" 39 657 671
+type(
+  request_type
+)
+"src/client.ml" 39 657 675 "src/client.ml" 39 657 678
+type(
+  string
+)
+"src/client.ml" 40 679 683 "src/client.ml" 40 679 699
+type(
+  request_type
+)
+"src/client.ml" 40 679 703 "src/client.ml" 40 679 706
+type(
+  string
+)
+"src/client.ml" 41 707 711 "src/client.ml" 41 707 725
+type(
+  request_type
+)
+"src/client.ml" 41 707 729 "src/client.ml" 41 707 732
+type(
+  string
+)
+"src/client.ml" 42 733 737 "src/client.ml" 42 733 752
+type(
+  request_type
+)
+"src/client.ml" 42 733 756 "src/client.ml" 42 733 759
+type(
+  string
+)
+"src/client.ml" 27 394 396 "src/client.ml" 42 733 759
+type(
+  string
+)
+"src/client.ml" 26 365 389 "src/client.ml" 42 733 759
+type(
+  request_type -> string
+)
+"src/client.ml" 44 761 765 "src/client.ml" 44 761 784
+type(
+  string -> request_type
+)
+ident(
+  def str_to_request_type "src/client.ml" 63 1251 1251 "src/client.ml" 1 0 -1
+)
+"src/client.ml" 44 761 785 "src/client.ml" 44 761 788
+type(
+  string
+)
+ident(
+  def str "src/client.ml" 45 791 793 "src/client.ml" 61 1158 1249
+)
+"src/client.ml" 45 791 799 "src/client.ml" 45 791 802
+type(
+  string
+)
+ident(
+  int_ref str "src/client.ml" 44 761 785 "src/client.ml" 44 761 788
+)
+"src/client.ml" 46 808 812 "src/client.ml" 46 808 816
+type(
+  string
+)
+"src/client.ml" 46 808 820 "src/client.ml" 46 808 825
+type(
+  request_type
+)
+"src/client.ml" 47 826 830 "src/client.ml" 47 826 834
+type(
+  string
+)
+"src/client.ml" 47 826 838 "src/client.ml" 47 826 845
+type(
+  request_type
+)
+"src/client.ml" 48 846 850 "src/client.ml" 48 846 853
+type(
+  string
+)
+"src/client.ml" 48 846 857 "src/client.ml" 48 846 859
+type(
+  request_type
+)
+"src/client.ml" 49 860 864 "src/client.ml" 49 860 867
+type(
+  string
+)
+"src/client.ml" 49 860 871 "src/client.ml" 49 860 888
+type(
+  request_type
+)
+"src/client.ml" 50 889 893 "src/client.ml" 50 889 896
+type(
+  string
+)
+"src/client.ml" 50 889 900 "src/client.ml" 50 889 915
+type(
+  request_type
+)
+"src/client.ml" 51 916 920 "src/client.ml" 51 916 923
+type(
+  string
+)
+"src/client.ml" 51 916 927 "src/client.ml" 51 916 936
+type(
+  request_type
+)
+"src/client.ml" 52 937 941 "src/client.ml" 52 937 944
+type(
+  string
+)
+"src/client.ml" 52 937 948 "src/client.ml" 52 937 956
+type(
+  request_type
+)
+"src/client.ml" 53 957 961 "src/client.ml" 53 957 965
+type(
+  string
+)
+"src/client.ml" 53 957 969 "src/client.ml" 53 957 975
+type(
+  request_type
+)
+"src/client.ml" 54 976 980 "src/client.ml" 54 976 984
+type(
+  string
+)
+"src/client.ml" 54 976 988 "src/client.ml" 54 976 1001
+type(
+  request_type
+)
+"src/client.ml" 55 1002 1006 "src/client.ml" 55 1002 1010
+type(
+  string
+)
+"src/client.ml" 55 1002 1014 "src/client.ml" 55 1002 1026
+type(
+  request_type
+)
+"src/client.ml" 56 1027 1031 "src/client.ml" 56 1027 1034
+type(
+  string
+)
+"src/client.ml" 56 1027 1038 "src/client.ml" 56 1027 1054
+type(
+  request_type
+)
+"src/client.ml" 57 1055 1059 "src/client.ml" 57 1055 1062
+type(
+  string
+)
+"src/client.ml" 57 1055 1066 "src/client.ml" 57 1055 1076
+type(
+  request_type
+)
+"src/client.ml" 58 1077 1081 "src/client.ml" 58 1077 1084
+type(
+  string
+)
+"src/client.ml" 58 1077 1088 "src/client.ml" 58 1077 1104
+type(
+  request_type
+)
+"src/client.ml" 59 1105 1109 "src/client.ml" 59 1105 1112
+type(
+  string
+)
+"src/client.ml" 59 1105 1116 "src/client.ml" 59 1105 1130
+type(
+  request_type
+)
+"src/client.ml" 60 1131 1135 "src/client.ml" 60 1131 1138
+type(
+  string
+)
+"src/client.ml" 60 1131 1142 "src/client.ml" 60 1131 1157
+type(
+  request_type
+)
+"src/client.ml" 61 1158 1162 "src/client.ml" 61 1158 1163
+type(
+  string
+)
+"src/client.ml" 61 1158 1167 "src/client.ml" 61 1158 1176
+type(
+  string -> unit
+)
+ident(
+  ext_ref Utils.Prt.error
+)
+"src/client.ml" 61 1158 1178 "src/client.ml" 61 1158 1185
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/client.ml" 61 1158 1186 "src/client.ml" 61 1158 1221
+type(
+  (string -> string, unit, string) format
+)
+"src/client.ml" 61 1158 1222 "src/client.ml" 61 1158 1225
+type(
+  string
+)
+ident(
+  int_ref str "src/client.ml" 44 761 785 "src/client.ml" 44 761 788
+)
+"src/client.ml" 61 1158 1178 "src/client.ml" 61 1158 1225
+call(
+  stack
+)
+type(
+  string
+)
+"src/client.ml" 61 1158 1167 "src/client.ml" 61 1158 1226
+call(
+  stack
+)
+type(
+  unit
+)
+"src/client.ml" 61 1158 1228 "src/client.ml" 61 1158 1233
+type(
+  exn -> request_type
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 61 1158 1234 "src/client.ml" 61 1158 1249
+type(
+  exn
+)
+"src/client.ml" 61 1158 1228 "src/client.ml" 61 1158 1249
+type(
+  request_type
+)
+"src/client.ml" 61 1158 1167 "src/client.ml" 61 1158 1249
+type(
+  request_type
+)
+"src/client.ml" 45 791 793 "src/client.ml" 61 1158 1249
+type(
+  request_type
+)
+"src/client.ml" 44 761 785 "src/client.ml" 61 1158 1249
+type(
+  string -> request_type
+)
+"src/client.ml" 63 1251 1255 "src/client.ml" 63 1251 1267
+type(
+  string -> UnixLabels.inet_addr -> int -> string
+)
+ident(
+  def make_request "src/client.ml" 72 1613 1613 "src/client.ml" 1 0 -1
+)
+"src/client.ml" 63 1251 1268 "src/client.ml" 63 1251 1271
+type(
+  string
+)
+ident(
+  def str "src/client.ml" 63 1251 1272 "src/client.ml" 70 1583 1611
+)
+"src/client.ml" 63 1251 1272 "src/client.ml" 63 1251 1276
+type(
+  UnixLabels.inet_addr
+)
+ident(
+  def host "src/client.ml" 63 1251 1277 "src/client.ml" 70 1583 1611
+)
+"src/client.ml" 63 1251 1277 "src/client.ml" 63 1251 1281
+type(
+  int
+)
+ident(
+  def port "src/client.ml" 64 1284 1286 "src/client.ml" 70 1583 1611
+)
+"src/client.ml" 64 1284 1290 "src/client.ml" 64 1284 1294
+type(
+  UnixLabels.file_descr
+)
+ident(
+  def sock "src/client.ml" 65 1380 1382 "src/client.ml" 70 1583 1611
+)
+"src/client.ml" 64 1284 1297 "src/client.ml" 64 1284 1308
+type(
+  domain:UnixLabels.socket_domain ->
+  kind:UnixLabels.socket_type -> protocol:int -> UnixLabels.file_descr
+)
+ident(
+  ext_ref Core.Std.Unix.socket
+)
+"src/client.ml" 64 1284 1317 "src/client.ml" 64 1284 1335
+type(
+  UnixLabels.socket_domain
+)
+"src/client.ml" 64 1284 1342 "src/client.ml" 64 1284 1364
+type(
+  UnixLabels.socket_type
+)
+"src/client.ml" 64 1284 1375 "src/client.ml" 64 1284 1376
+type(
+  int
+)
+"src/client.ml" 64 1284 1297 "src/client.ml" 64 1284 1376
+call(
+  stack
+)
+type(
+  UnixLabels.file_descr
+)
+"src/client.ml" 65 1380 1386 "src/client.ml" 65 1380 1389
+type(
+  string
+)
+ident(
+  def res "src/client.ml" 66 1419 1421 "src/client.ml" 70 1583 1611
+)
+"src/client.ml" 65 1380 1392 "src/client.ml" 65 1380 1403
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref Core.Std.String.make
+)
+"src/client.ml" 65 1380 1404 "src/client.ml" 65 1380 1408
+type(
+  int
+)
+"src/client.ml" 65 1380 1409 "src/client.ml" 65 1380 1415
+type(
+  char
+)
+"src/client.ml" 65 1380 1392 "src/client.ml" 65 1380 1415
+call(
+  stack
+)
+type(
+  string
+)
+"src/client.ml" 66 1419 1421 "src/client.ml" 66 1419 1433
+type(
+  UnixLabels.file_descr -> addr:UnixLabels.sockaddr -> unit
+)
+ident(
+  ext_ref Core.Std.Unix.connect
+)
+"src/client.ml" 66 1419 1434 "src/client.ml" 66 1419 1438
+type(
+  UnixLabels.file_descr
+)
+ident(
+  int_ref sock "src/client.ml" 64 1284 1290 "src/client.ml" 64 1284 1294
+)
+"src/client.ml" 66 1419 1467 "src/client.ml" 66 1419 1471
+type(
+  UnixLabels.inet_addr
+)
+ident(
+  int_ref host "src/client.ml" 63 1251 1272 "src/client.ml" 63 1251 1276
+)
+"src/client.ml" 66 1419 1473 "src/client.ml" 66 1419 1477
+type(
+  int
+)
+ident(
+  int_ref port "src/client.ml" 63 1251 1277 "src/client.ml" 63 1251 1281
+)
+"src/client.ml" 66 1419 1446 "src/client.ml" 66 1419 1478
+type(
+  UnixLabels.sockaddr
+)
+"src/client.ml" 66 1419 1421 "src/client.ml" 66 1419 1479
+call(
+  stack
+)
+type(
+  unit
+)
+"src/client.ml" 67 1481 1487 "src/client.ml" 67 1481 1494
+type(
+  int
+)
+ident(
+  def _writed "src/client.ml" 68 1525 1527 "src/client.ml" 70 1583 1611
+)
+"src/client.ml" 67 1481 1497 "src/client.ml" 67 1481 1507
+type(
+  ?pos:int -> ?len:int -> UnixLabels.file_descr -> buf:string -> int
+)
+ident(
+  ext_ref Core.Std.Unix.write
+)
+"src/client.ml" 67 1481 1508 "src/client.ml" 67 1481 1512
+type(
+  UnixLabels.file_descr
+)
+ident(
+  int_ref sock "src/client.ml" 64 1284 1290 "src/client.ml" 64 1284 1294
+)
+"src/client.ml" 67 1481 1518 "src/client.ml" 67 1481 1521
+type(
+  string
+)
+ident(
+  int_ref str "src/client.ml" 63 1251 1268 "src/client.ml" 63 1251 1271
+)
+"src/client.ml" 67 1481 1497 "src/client.ml" 67 1481 1521
+call(
+  stack
+)
+type(
+  int
+)
+"src/client.ml" 68 1525 1531 "src/client.ml" 68 1525 1534
+type(
+  int
+)
+ident(
+  def len "src/client.ml" 69 1564 1566 "src/client.ml" 70 1583 1611
+)
+"src/client.ml" 68 1525 1537 "src/client.ml" 68 1525 1546
+type(
+  ?restart:bool ->
+  ?pos:int -> ?len:int -> UnixLabels.file_descr -> buf:string -> int
+)
+ident(
+  ext_ref Core.Std.Unix.read
+)
+"src/client.ml" 68 1525 1547 "src/client.ml" 68 1525 1551
+type(
+  UnixLabels.file_descr
+)
+ident(
+  int_ref sock "src/client.ml" 64 1284 1290 "src/client.ml" 64 1284 1294
+)
+"src/client.ml" 68 1525 1557 "src/client.ml" 68 1525 1560
+type(
+  string
+)
+ident(
+  int_ref res "src/client.ml" 65 1380 1386 "src/client.ml" 65 1380 1389
+)
+"src/client.ml" 68 1525 1537 "src/client.ml" 68 1525 1560
+call(
+  stack
+)
+type(
+  int
+)
+"src/client.ml" 69 1564 1566 "src/client.ml" 69 1564 1576
+type(
+  ?restart:bool -> UnixLabels.file_descr -> unit
+)
+ident(
+  ext_ref Core.Std.Unix.close
+)
+"src/client.ml" 69 1564 1577 "src/client.ml" 69 1564 1581
+type(
+  UnixLabels.file_descr
+)
+ident(
+  int_ref sock "src/client.ml" 64 1284 1290 "src/client.ml" 64 1284 1294
+)
+"src/client.ml" 69 1564 1566 "src/client.ml" 69 1564 1581
+call(
+  stack
+)
+type(
+  unit
+)
+"src/client.ml" 70 1583 1585 "src/client.ml" 70 1583 1595
+type(
+  (string, string) Blit.sub
+)
+ident(
+  ext_ref Core.Std.String.sub
+)
+"src/client.ml" 70 1583 1596 "src/client.ml" 70 1583 1599
+type(
+  string
+)
+ident(
+  int_ref res "src/client.ml" 65 1380 1386 "src/client.ml" 65 1380 1389
+)
+"src/client.ml" 70 1583 1605 "src/client.ml" 70 1583 1606
+type(
+  int
+)
+"src/client.ml" 70 1583 1607 "src/client.ml" 70 1583 1611
+type(
+  int
+)
+ident(
+  int_ref len "src/client.ml" 68 1525 1531 "src/client.ml" 68 1525 1534
+)
+"src/client.ml" 70 1583 1585 "src/client.ml" 70 1583 1611
+call(
+  tail
+)
+type(
+  string
+)
+"src/client.ml" 69 1564 1566 "src/client.ml" 70 1583 1611
+type(
+  string
+)
+"src/client.ml" 68 1525 1527 "src/client.ml" 70 1583 1611
+type(
+  string
+)
+"src/client.ml" 67 1481 1483 "src/client.ml" 70 1583 1611
+type(
+  string
+)
+"src/client.ml" 66 1419 1421 "src/client.ml" 70 1583 1611
+type(
+  string
+)
+"src/client.ml" 65 1380 1382 "src/client.ml" 70 1583 1611
+type(
+  string
+)
+"src/client.ml" 64 1284 1286 "src/client.ml" 70 1583 1611
+type(
+  string
+)
+"src/client.ml" 63 1251 1277 "src/client.ml" 70 1583 1611
+type(
+  int -> string
+)
+"src/client.ml" 63 1251 1272 "src/client.ml" 70 1583 1611
+type(
+  UnixLabels.inet_addr -> int -> string
+)
+"src/client.ml" 63 1251 1268 "src/client.ml" 70 1583 1611
+type(
+  string -> UnixLabels.inet_addr -> int -> string
+)
+"src/client.ml" 72 1613 1617 "src/client.ml" 72 1613 1627
+type(
+  int ref
+)
+ident(
+  def command_id "src/client.ml" 74 1637 1637 "src/client.ml" 1 0 -1
+)
+"src/client.ml" 72 1613 1630 "src/client.ml" 72 1613 1633
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/client.ml" 72 1613 1634 "src/client.ml" 72 1613 1635
+type(
+  int
+)
+"src/client.ml" 72 1613 1630 "src/client.ml" 72 1613 1635
+type(
+  int ref
+)
+"src/client.ml" 74 1637 1641 "src/client.ml" 74 1637 1648
+type(
+  request_type ->
+  string -> UnixLabels.inet_addr -> int -> request_type * string list
+)
+ident(
+  def request "src/client.ml" 91 2166 2166 "src/client.ml" 1 0 -1
+)
+"src/client.ml" 74 1637 1649 "src/client.ml" 74 1637 1652
+type(
+  request_type
+)
+ident(
+  def cmd "src/client.ml" 74 1637 1653 "src/client.ml" 86 2133 2161
+)
+"src/client.ml" 74 1637 1653 "src/client.ml" 74 1637 1660
+type(
+  string
+)
+ident(
+  def req_str "src/client.ml" 74 1637 1661 "src/client.ml" 86 2133 2161
+)
+"src/client.ml" 74 1637 1661 "src/client.ml" 74 1637 1665
+type(
+  UnixLabels.inet_addr
+)
+ident(
+  def host "src/client.ml" 74 1637 1666 "src/client.ml" 86 2133 2161
+)
+"src/client.ml" 74 1637 1666 "src/client.ml" 74 1637 1670
+type(
+  int
+)
+ident(
+  def port "src/client.ml" 75 1673 1675 "src/client.ml" 86 2133 2161
+)
+"src/client.ml" 75 1673 1679 "src/client.ml" 75 1673 1682
+type(
+  string
+)
+ident(
+  def cmd "src/client.ml" 76 1713 1715 "src/client.ml" 86 2133 2161
+)
+"src/client.ml" 75 1673 1686 "src/client.ml" 75 1673 1705
+type(
+  request_type -> string
+)
+ident(
+  int_ref request_type_to_str "src/client.ml" 26 365 369 "src/client.ml" 26 365 388
+)
+"src/client.ml" 75 1673 1706 "src/client.ml" 75 1673 1709
+type(
+  request_type
+)
+ident(
+  int_ref cmd "src/client.ml" 74 1637 1649 "src/client.ml" 74 1637 1652
+)
+"src/client.ml" 75 1673 1686 "src/client.ml" 75 1673 1709
+call(
+  stack
+)
+type(
+  string
+)
+"src/client.ml" 76 1713 1719 "src/client.ml" 76 1713 1725
+type(
+  int
+)
+ident(
+  def cmd_id "src/client.ml" 77 1743 1745 "src/client.ml" 86 2133 2161
+)
+"src/client.ml" 76 1713 1729 "src/client.ml" 76 1713 1739
+type(
+  int ref
+)
+ident(
+  int_ref command_id "src/client.ml" 72 1613 1617 "src/client.ml" 72 1613 1627
+)
+"src/client.ml" 76 1713 1728 "src/client.ml" 76 1713 1739
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 77 1743 1749 "src/client.ml" 77 1743 1752
+type(
+  string
+)
+ident(
+  def req "src/client.ml" 78 1796 1798 "src/client.ml" 86 2133 2161
+)
+"src/client.ml" 77 1743 1755 "src/client.ml" 77 1743 1762
+type(
+  (string -> int -> string -> string, unit, string) format ->
+  string -> int -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/client.ml" 77 1743 1763 "src/client.ml" 77 1743 1773
+type(
+  (string -> int -> string -> string, unit, string) format
+)
+"src/client.ml" 77 1743 1774 "src/client.ml" 77 1743 1777
+type(
+  string
+)
+ident(
+  int_ref cmd "src/client.ml" 75 1673 1679 "src/client.ml" 75 1673 1682
+)
+"src/client.ml" 77 1743 1778 "src/client.ml" 77 1743 1784
+type(
+  int
+)
+ident(
+  int_ref cmd_id "src/client.ml" 76 1713 1719 "src/client.ml" 76 1713 1725
+)
+"src/client.ml" 77 1743 1785 "src/client.ml" 77 1743 1792
+type(
+  string
+)
+ident(
+  int_ref req_str "src/client.ml" 74 1637 1653 "src/client.ml" 74 1637 1660
+)
+"src/client.ml" 77 1743 1755 "src/client.ml" 77 1743 1792
+call(
+  stack
+)
+type(
+  string
+)
+"src/client.ml" 78 1796 1802 "src/client.ml" 78 1796 1809
+type(
+  string
+)
+ident(
+  def wrapped "src/client.ml" 79 1855 1857 "src/client.ml" 86 2133 2161
+)
+"src/client.ml" 78 1796 1812 "src/client.ml" 78 1796 1819
+type(
+  (int -> string -> string, unit, string) format -> int -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/client.ml" 78 1796 1820 "src/client.ml" 78 1796 1827
+type(
+  (int -> string -> string, unit, string) format
+)
+"src/client.ml" 78 1796 1829 "src/client.ml" 78 1796 1842
+type(
+  string -> int
+)
+ident(
+  ext_ref Core.Std.String.length
+)
+"src/client.ml" 78 1796 1843 "src/client.ml" 78 1796 1846
+type(
+  string
+)
+ident(
+  int_ref req "src/client.ml" 77 1743 1749 "src/client.ml" 77 1743 1752
+)
+"src/client.ml" 78 1796 1829 "src/client.ml" 78 1796 1846
+type(
+  int
+)
+"src/client.ml" 78 1796 1848 "src/client.ml" 78 1796 1851
+type(
+  string
+)
+ident(
+  int_ref req "src/client.ml" 77 1743 1749 "src/client.ml" 77 1743 1752
+)
+"src/client.ml" 78 1796 1812 "src/client.ml" 78 1796 1851
+call(
+  stack
+)
+type(
+  string
+)
+"src/client.ml" 79 1855 1857 "src/client.ml" 79 1855 1861
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/client.ml" 79 1855 1862 "src/client.ml" 79 1855 1872
+type(
+  int ref
+)
+ident(
+  int_ref command_id "src/client.ml" 72 1613 1617 "src/client.ml" 72 1613 1627
+)
+"src/client.ml" 79 1855 1857 "src/client.ml" 79 1855 1872
+type(
+  unit
+)
+"src/client.ml" 80 1907 1913 "src/client.ml" 80 1907 1916
+type(
+  string list
+)
+ident(
+  def res "src/client.ml" 81 1976 1978 "src/client.ml" 86 2133 2161
+)
+"src/client.ml" 80 1907 1919 "src/client.ml" 80 1907 1931
+type(
+  string -> on:char -> string list
+)
+ident(
+  ext_ref Core.Std.String.split
+)
+"src/client.ml" 80 1907 1933 "src/client.ml" 80 1907 1945
+type(
+  string -> UnixLabels.inet_addr -> int -> string
+)
+ident(
+  int_ref make_request "src/client.ml" 63 1251 1255 "src/client.ml" 63 1251 1267
+)
+"src/client.ml" 80 1907 1946 "src/client.ml" 80 1907 1953
+type(
+  string
+)
+ident(
+  int_ref wrapped "src/client.ml" 78 1796 1802 "src/client.ml" 78 1796 1809
+)
+"src/client.ml" 80 1907 1954 "src/client.ml" 80 1907 1958
+type(
+  UnixLabels.inet_addr
+)
+ident(
+  int_ref host "src/client.ml" 74 1637 1661 "src/client.ml" 74 1637 1665
+)
+"src/client.ml" 80 1907 1959 "src/client.ml" 80 1907 1963
+type(
+  int
+)
+ident(
+  int_ref port "src/client.ml" 74 1637 1666 "src/client.ml" 74 1637 1670
+)
+"src/client.ml" 80 1907 1933 "src/client.ml" 80 1907 1963
+call(
+  stack
+)
+type(
+  string
+)
+"src/client.ml" 80 1907 1969 "src/client.ml" 80 1907 1972
+type(
+  char
+)
+"src/client.ml" 80 1907 1919 "src/client.ml" 80 1907 1972
+call(
+  stack
+)
+type(
+  string list
+)
+"src/client.ml" 81 1976 1984 "src/client.ml" 81 1976 1987
+type(
+  string list
+)
+ident(
+  int_ref res "src/client.ml" 80 1907 1913 "src/client.ml" 80 1907 1916
+)
+"src/client.ml" 82 1993 1997 "src/client.ml" 82 1993 1999
+type(
+  string list
+)
+"src/client.ml" 82 1993 2003 "src/client.ml" 82 1993 2008
+type(
+  exn -> request_type * string list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 82 1993 2009 "src/client.ml" 82 1993 2024
+type(
+  exn
+)
+"src/client.ml" 82 1993 2003 "src/client.ml" 82 1993 2024
+type(
+  request_type * string list
+)
+"src/client.ml" 83 2025 2029 "src/client.ml" 83 2025 2035
+type(
+  string
+)
+ident(
+  def status "src/client.ml" 84 2046 2050 "src/client.ml" 86 2133 2161
+)
+"src/client.ml" 83 2025 2037 "src/client.ml" 83 2025 2041
+type(
+  string list
+)
+ident(
+  def res' "src/client.ml" 84 2046 2050 "src/client.ml" 86 2133 2161
+)
+"src/client.ml" 83 2025 2029 "src/client.ml" 83 2025 2041
+type(
+  string list
+)
+"src/client.ml" 84 2046 2054 "src/client.ml" 84 2046 2055
+type(
+  request_type
+)
+ident(
+  def s "src/client.ml" 85 2088 2092 "src/client.ml" 86 2133 2161
+)
+"src/client.ml" 84 2046 2058 "src/client.ml" 84 2046 2077
+type(
+  string -> request_type
+)
+ident(
+  int_ref str_to_request_type "src/client.ml" 44 761 765 "src/client.ml" 44 761 784
+)
+"src/client.ml" 84 2046 2078 "src/client.ml" 84 2046 2084
+type(
+  string
+)
+ident(
+  int_ref status "src/client.ml" 83 2025 2029 "src/client.ml" 83 2025 2035
+)
+"src/client.ml" 84 2046 2058 "src/client.ml" 84 2046 2084
+call(
+  stack
+)
+type(
+  request_type
+)
+"src/client.ml" 85 2088 2095 "src/client.ml" 85 2088 2096
+type(
+  request_type
+)
+ident(
+  int_ref s "src/client.ml" 84 2046 2054 "src/client.ml" 84 2046 2055
+)
+"src/client.ml" 85 2088 2097 "src/client.ml" 85 2088 2098
+type(
+  request_type -> request_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/client.ml" 85 2088 2099 "src/client.ml" 85 2088 2104
+type(
+  request_type
+)
+"src/client.ml" 85 2088 2095 "src/client.ml" 85 2088 2104
+type(
+  bool
+)
+"src/client.ml" 85 2088 2110 "src/client.ml" 85 2088 2115
+type(
+  exn -> request_type * string list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 85 2088 2116 "src/client.ml" 85 2088 2132
+type(
+  exn
+)
+"src/client.ml" 85 2088 2110 "src/client.ml" 85 2088 2132
+type(
+  request_type * string list
+)
+"src/client.ml" 86 2133 2149 "src/client.ml" 86 2133 2150
+type(
+  request_type
+)
+ident(
+  int_ref s "src/client.ml" 84 2046 2054 "src/client.ml" 84 2046 2055
+)
+"src/client.ml" 86 2133 2152 "src/client.ml" 86 2133 2156
+type(
+  string list
+)
+ident(
+  int_ref res' "src/client.ml" 83 2025 2037 "src/client.ml" 83 2025 2041
+)
+"src/client.ml" 86 2133 2149 "src/client.ml" 86 2133 2156
+type(
+  request_type * string list
+)
+"src/client.ml" 85 2088 2092 "src/client.ml" 86 2133 2161
+type(
+  request_type * string list
+)
+"src/client.ml" 84 2046 2050 "src/client.ml" 86 2133 2161
+type(
+  request_type * string list
+)
+"src/client.ml" 81 1976 1978 "src/client.ml" 86 2133 2161
+type(
+  request_type * string list
+)
+"src/client.ml" 80 1907 1909 "src/client.ml" 86 2133 2161
+type(
+  request_type * string list
+)
+"src/client.ml" 79 1855 1857 "src/client.ml" 86 2133 2161
+type(
+  request_type * string list
+)
+"src/client.ml" 78 1796 1798 "src/client.ml" 86 2133 2161
+type(
+  request_type * string list
+)
+"src/client.ml" 77 1743 1745 "src/client.ml" 86 2133 2161
+type(
+  request_type * string list
+)
+"src/client.ml" 76 1713 1715 "src/client.ml" 86 2133 2161
+type(
+  request_type * string list
+)
+"src/client.ml" 75 1673 1675 "src/client.ml" 86 2133 2161
+type(
+  request_type * string list
+)
+"src/client.ml" 74 1637 1666 "src/client.ml" 86 2133 2161
+type(
+  int -> request_type * string list
+)
+"src/client.ml" 74 1637 1661 "src/client.ml" 86 2133 2161
+type(
+  UnixLabels.inet_addr -> int -> request_type * string list
+)
+"src/client.ml" 74 1637 1653 "src/client.ml" 86 2133 2161
+type(
+  string -> UnixLabels.inet_addr -> int -> request_type * string list
+)
+"src/client.ml" 74 1637 1649 "src/client.ml" 86 2133 2161
+type(
+  request_type ->
+  string -> UnixLabels.inet_addr -> int -> request_type * string list
+)
+"src/client.ml" 95 2213 2219 "src/client.ml" 95 2213 2223
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  def host "src/client.ml" 97 2276 2278 "src/client.ml" 127 3181 3184
+)
+"src/client.ml" 95 2213 2226 "src/client.ml" 95 2213 2229
+type(
+  UnixLabels.inet_addr -> UnixLabels.inet_addr ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/client.ml" 95 2213 2231 "src/client.ml" 95 2213 2261
+type(
+  string -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref UnixLabels.inet_addr_of_string
+)
+"src/client.ml" 95 2213 2262 "src/client.ml" 95 2213 2273
+type(
+  string
+)
+"src/client.ml" 95 2213 2231 "src/client.ml" 95 2213 2273
+call(
+  stack
+)
+type(
+  UnixLabels.inet_addr
+)
+"src/client.ml" 95 2213 2226 "src/client.ml" 95 2213 2274
+type(
+  UnixLabels.inet_addr ref
+)
+"src/client.ml" 97 2276 2282 "src/client.ml" 97 2276 2286
+type(
+  int ref
+)
+ident(
+  def port "src/client.ml" 99 2302 2304 "src/client.ml" 127 3181 3184
+)
+"src/client.ml" 97 2276 2289 "src/client.ml" 97 2276 2292
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/client.ml" 97 2276 2293 "src/client.ml" 97 2276 2298
+type(
+  int
+)
+"src/client.ml" 97 2276 2289 "src/client.ml" 97 2276 2298
+type(
+  int ref
+)
+"src/client.ml" 99 2302 2308 "src/client.ml" 99 2302 2325
+type(
+  ?smv_ord:string -> string -> string -> bool
+)
+ident(
+  def compute_reachable "src/client.ml" 105 2491 2493 "src/client.ml" 127 3181 3184
+)
+"src/client.ml" 99 2302 2336 "src/client.ml" 99 2302 2338
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "src/client.ml" 99 2302 2336 "src/client.ml" 99 2302 2338
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+"src/client.ml" 99 2302 2326 "src/client.ml" 99 2302 2339
+type(
+  string
+)
+"src/client.ml" 99 2302 2340 "src/client.ml" 99 2302 2344
+type(
+  string
+)
+ident(
+  def name "src/client.ml" 99 2302 2345 "src/client.ml" 103 2474 2489
+)
+"src/client.ml" 99 2302 2345 "src/client.ml" 99 2302 2352
+type(
+  string
+)
+ident(
+  def content "src/client.ml" 100 2355 2359 "src/client.ml" 103 2474 2489
+)
+"src/client.ml" 100 2355 2364 "src/client.ml" 100 2355 2370
+type(
+  request_type
+)
+ident(
+  def status "src/client.ml" 103 2474 2478 "src/client.ml" 103 2474 2489
+)
+"src/client.ml" 100 2355 2372 "src/client.ml" 100 2355 2373
+type(
+  string list
+)
+"src/client.ml" 100 2355 2364 "src/client.ml" 100 2355 2373
+type(
+  request_type * string list
+)
+"src/client.ml" 101 2377 2383 "src/client.ml" 101 2377 2390
+type(
+  request_type ->
+  string -> UnixLabels.inet_addr -> int -> request_type * string list
+)
+ident(
+  int_ref request "src/client.ml" 74 1637 1641 "src/client.ml" 74 1637 1648
+)
+"src/client.ml" 101 2377 2391 "src/client.ml" 101 2377 2408
+type(
+  request_type
+)
+"src/client.ml" 101 2377 2410 "src/client.ml" 101 2377 2417
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/client.ml" 101 2377 2418 "src/client.ml" 101 2377 2428
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"src/client.ml" 101 2377 2429 "src/client.ml" 101 2377 2433
+type(
+  string
+)
+ident(
+  int_ref name "src/client.ml" 99 2302 2340 "src/client.ml" 99 2302 2344
+)
+"src/client.ml" 101 2377 2434 "src/client.ml" 101 2377 2441
+type(
+  string
+)
+ident(
+  int_ref content "src/client.ml" 99 2302 2345 "src/client.ml" 99 2302 2352
+)
+"src/client.ml" 101 2377 2442 "src/client.ml" 101 2377 2449
+type(
+  string
+)
+ident(
+  int_ref smv_ord "src/client.ml" 99 2302 2326 "src/client.ml" 99 2302 2339
+)
+"src/client.ml" 101 2377 2410 "src/client.ml" 101 2377 2449
+call(
+  stack
+)
+type(
+  string
+)
+"src/client.ml" 101 2377 2453 "src/client.ml" 101 2377 2457
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  int_ref host "src/client.ml" 95 2213 2219 "src/client.ml" 95 2213 2223
+)
+"src/client.ml" 101 2377 2452 "src/client.ml" 101 2377 2457
+type(
+  UnixLabels.inet_addr
+)
+type(
+  UnixLabels.inet_addr ref -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 101 2377 2461 "src/client.ml" 101 2377 2465
+type(
+  int ref
+)
+ident(
+  int_ref port "src/client.ml" 97 2276 2282 "src/client.ml" 97 2276 2286
+)
+"src/client.ml" 101 2377 2460 "src/client.ml" 101 2377 2465
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 101 2377 2383 "src/client.ml" 101 2377 2466
+call(
+  stack
+)
+type(
+  request_type * string list
+)
+"src/client.ml" 103 2474 2478 "src/client.ml" 103 2474 2484
+type(
+  request_type
+)
+ident(
+  int_ref status "src/client.ml" 100 2355 2364 "src/client.ml" 100 2355 2370
+)
+"src/client.ml" 103 2474 2485 "src/client.ml" 103 2474 2486
+type(
+  request_type -> request_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/client.ml" 103 2474 2487 "src/client.ml" 103 2474 2489
+type(
+  request_type
+)
+"src/client.ml" 103 2474 2478 "src/client.ml" 103 2474 2489
+type(
+  bool
+)
+"src/client.ml" 100 2355 2359 "src/client.ml" 103 2474 2489
+type(
+  bool
+)
+"src/client.ml" 99 2302 2345 "src/client.ml" 103 2474 2489
+type(
+  string -> bool
+)
+"src/client.ml" 99 2302 2340 "src/client.ml" 103 2474 2489
+type(
+  string -> string -> bool
+)
+"src/client.ml" 99 2302 2326 "src/client.ml" 103 2474 2489
+type(
+  ?smv_ord:string -> string -> string -> bool
+)
+type(
+  string -> string -> bool
+)
+type(
+  string
+)
+type(
+  string option
+)
+ident(
+  int_ref *opt* "src/client.ml" 99 2302 2326 "src/client.ml" 103 2474 2489
+)
+type(
+  string option
+)
+"src/client.ml" 105 2491 2497 "src/client.ml" 105 2491 2512
+type(
+  string -> int
+)
+ident(
+  def query_reachable "src/client.ml" 114 2782 2784 "src/client.ml" 127 3181 3184
+)
+"src/client.ml" 105 2491 2513 "src/client.ml" 105 2491 2517
+type(
+  string
+)
+ident(
+  def name "src/client.ml" 106 2520 2524 "src/client.ml" 112 2760 2780
+)
+"src/client.ml" 106 2520 2529 "src/client.ml" 106 2520 2535
+type(
+  request_type
+)
+ident(
+  def status "src/client.ml" 107 2597 2601 "src/client.ml" 112 2760 2780
+)
+"src/client.ml" 106 2520 2537 "src/client.ml" 106 2520 2545
+type(
+  string list
+)
+ident(
+  def diameter "src/client.ml" 107 2597 2601 "src/client.ml" 112 2760 2780
+)
+"src/client.ml" 106 2520 2529 "src/client.ml" 106 2520 2545
+type(
+  request_type * string list
+)
+"src/client.ml" 106 2520 2549 "src/client.ml" 106 2520 2556
+type(
+  request_type ->
+  string -> UnixLabels.inet_addr -> int -> request_type * string list
+)
+ident(
+  int_ref request "src/client.ml" 74 1637 1641 "src/client.ml" 74 1637 1648
+)
+"src/client.ml" 106 2520 2557 "src/client.ml" 106 2520 2572
+type(
+  request_type
+)
+"src/client.ml" 106 2520 2573 "src/client.ml" 106 2520 2577
+type(
+  string
+)
+ident(
+  int_ref name "src/client.ml" 105 2491 2513 "src/client.ml" 105 2491 2517
+)
+"src/client.ml" 106 2520 2580 "src/client.ml" 106 2520 2584
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  int_ref host "src/client.ml" 95 2213 2219 "src/client.ml" 95 2213 2223
+)
+"src/client.ml" 106 2520 2579 "src/client.ml" 106 2520 2584
+type(
+  UnixLabels.inet_addr
+)
+type(
+  UnixLabels.inet_addr ref -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 106 2520 2588 "src/client.ml" 106 2520 2592
+type(
+  int ref
+)
+ident(
+  int_ref port "src/client.ml" 97 2276 2282 "src/client.ml" 97 2276 2286
+)
+"src/client.ml" 106 2520 2587 "src/client.ml" 106 2520 2592
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 106 2520 2549 "src/client.ml" 106 2520 2593
+call(
+  stack
+)
+type(
+  request_type * string list
+)
+"src/client.ml" 107 2597 2604 "src/client.ml" 107 2597 2610
+type(
+  request_type
+)
+ident(
+  int_ref status "src/client.ml" 106 2520 2529 "src/client.ml" 106 2520 2535
+)
+"src/client.ml" 107 2597 2611 "src/client.ml" 107 2597 2612
+type(
+  request_type -> request_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/client.ml" 107 2597 2613 "src/client.ml" 107 2597 2615
+type(
+  request_type
+)
+"src/client.ml" 107 2597 2604 "src/client.ml" 107 2597 2615
+type(
+  bool
+)
+"src/client.ml" 108 2622 2634 "src/client.ml" 108 2622 2642
+type(
+  string list
+)
+ident(
+  int_ref diameter "src/client.ml" 106 2520 2537 "src/client.ml" 106 2520 2545
+)
+"src/client.ml" 109 2648 2656 "src/client.ml" 109 2648 2660
+type(
+  string
+)
+"src/client.ml" 109 2648 2662 "src/client.ml" 109 2648 2664
+type(
+  string list
+)
+"src/client.ml" 109 2648 2656 "src/client.ml" 109 2648 2664
+type(
+  string list
+)
+"src/client.ml" 109 2648 2668 "src/client.ml" 109 2648 2673
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 109 2648 2674 "src/client.ml" 109 2648 2690
+type(
+  exn
+)
+"src/client.ml" 109 2648 2668 "src/client.ml" 109 2648 2690
+type(
+  int
+)
+"src/client.ml" 110 2691 2699 "src/client.ml" 110 2691 2700
+type(
+  string
+)
+ident(
+  def d "src/client.ml" 110 2691 2708 "src/client.ml" 110 2691 2723
+)
+"src/client.ml" 110 2691 2702 "src/client.ml" 110 2691 2704
+type(
+  string list
+)
+"src/client.ml" 110 2691 2699 "src/client.ml" 110 2691 2704
+type(
+  string list
+)
+"src/client.ml" 110 2691 2708 "src/client.ml" 110 2691 2721
+type(
+  string -> int
+)
+ident(
+  ext_ref Core.Std.Int.of_string
+)
+"src/client.ml" 110 2691 2722 "src/client.ml" 110 2691 2723
+type(
+  string
+)
+ident(
+  int_ref d "src/client.ml" 110 2691 2699 "src/client.ml" 110 2691 2700
+)
+"src/client.ml" 110 2691 2708 "src/client.ml" 110 2691 2723
+call(
+  tail
+)
+type(
+  int
+)
+"src/client.ml" 111 2724 2732 "src/client.ml" 111 2724 2733
+type(
+  string list
+)
+"src/client.ml" 111 2724 2737 "src/client.ml" 111 2724 2742
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 111 2724 2743 "src/client.ml" 111 2724 2759
+type(
+  exn
+)
+"src/client.ml" 111 2724 2737 "src/client.ml" 111 2724 2759
+type(
+  int
+)
+"src/client.ml" 108 2622 2628 "src/client.ml" 111 2724 2759
+type(
+  int
+)
+"src/client.ml" 112 2760 2775 "src/client.ml" 112 2760 2776
+type(
+  int
+)
+"src/client.ml" 107 2597 2601 "src/client.ml" 112 2760 2780
+type(
+  int
+)
+"src/client.ml" 106 2520 2524 "src/client.ml" 112 2760 2780
+type(
+  int
+)
+"src/client.ml" 105 2491 2513 "src/client.ml" 112 2760 2780
+type(
+  string -> int
+)
+"src/client.ml" 114 2782 2788 "src/client.ml" 114 2782 2797
+type(
+  string -> string -> bool
+)
+ident(
+  def check_inv "src/client.ml" 123 3093 3095 "src/client.ml" 127 3181 3184
+)
+"src/client.ml" 114 2782 2798 "src/client.ml" 114 2782 2802
+type(
+  string
+)
+ident(
+  def name "src/client.ml" 114 2782 2803 "src/client.ml" 121 3050 3091
+)
+"src/client.ml" 114 2782 2803 "src/client.ml" 114 2782 2806
+type(
+  string
+)
+ident(
+  def inv "src/client.ml" 115 2809 2813 "src/client.ml" 121 3050 3091
+)
+"src/client.ml" 115 2809 2818 "src/client.ml" 115 2809 2824
+type(
+  request_type
+)
+ident(
+  def status "src/client.ml" 116 2897 2901 "src/client.ml" 121 3050 3091
+)
+"src/client.ml" 115 2809 2826 "src/client.ml" 115 2809 2829
+type(
+  string list
+)
+ident(
+  def res "src/client.ml" 116 2897 2901 "src/client.ml" 121 3050 3091
+)
+"src/client.ml" 115 2809 2818 "src/client.ml" 115 2809 2829
+type(
+  request_type * string list
+)
+"src/client.ml" 115 2809 2833 "src/client.ml" 115 2809 2840
+type(
+  request_type ->
+  string -> UnixLabels.inet_addr -> int -> request_type * string list
+)
+ident(
+  int_ref request "src/client.ml" 74 1637 1641 "src/client.ml" 74 1637 1648
+)
+"src/client.ml" 115 2809 2841 "src/client.ml" 115 2809 2850
+type(
+  request_type
+)
+"src/client.ml" 115 2809 2852 "src/client.ml" 115 2809 2859
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/client.ml" 115 2809 2860 "src/client.ml" 115 2809 2867
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/client.ml" 115 2809 2868 "src/client.ml" 115 2809 2872
+type(
+  string
+)
+ident(
+  int_ref name "src/client.ml" 114 2782 2798 "src/client.ml" 114 2782 2802
+)
+"src/client.ml" 115 2809 2873 "src/client.ml" 115 2809 2876
+type(
+  string
+)
+ident(
+  int_ref inv "src/client.ml" 114 2782 2803 "src/client.ml" 114 2782 2806
+)
+"src/client.ml" 115 2809 2852 "src/client.ml" 115 2809 2876
+call(
+  stack
+)
+type(
+  string
+)
+"src/client.ml" 115 2809 2880 "src/client.ml" 115 2809 2884
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  int_ref host "src/client.ml" 95 2213 2219 "src/client.ml" 95 2213 2223
+)
+"src/client.ml" 115 2809 2879 "src/client.ml" 115 2809 2884
+type(
+  UnixLabels.inet_addr
+)
+type(
+  UnixLabels.inet_addr ref -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 115 2809 2888 "src/client.ml" 115 2809 2892
+type(
+  int ref
+)
+ident(
+  int_ref port "src/client.ml" 97 2276 2282 "src/client.ml" 97 2276 2286
+)
+"src/client.ml" 115 2809 2887 "src/client.ml" 115 2809 2892
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 115 2809 2833 "src/client.ml" 115 2809 2893
+call(
+  stack
+)
+type(
+  request_type * string list
+)
+"src/client.ml" 116 2897 2904 "src/client.ml" 116 2897 2910
+type(
+  request_type
+)
+ident(
+  int_ref status "src/client.ml" 115 2809 2818 "src/client.ml" 115 2809 2824
+)
+"src/client.ml" 116 2897 2911 "src/client.ml" 116 2897 2912
+type(
+  request_type -> request_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/client.ml" 116 2897 2913 "src/client.ml" 116 2897 2915
+type(
+  request_type
+)
+"src/client.ml" 116 2897 2904 "src/client.ml" 116 2897 2915
+type(
+  bool
+)
+"src/client.ml" 117 2921 2933 "src/client.ml" 117 2921 2936
+type(
+  string list
+)
+ident(
+  int_ref res "src/client.ml" 115 2809 2826 "src/client.ml" 115 2809 2829
+)
+"src/client.ml" 118 2942 2950 "src/client.ml" 118 2942 2953
+type(
+  string
+)
+"src/client.ml" 118 2942 2955 "src/client.ml" 118 2942 2957
+type(
+  string list
+)
+"src/client.ml" 118 2942 2950 "src/client.ml" 118 2942 2957
+type(
+  string list
+)
+"src/client.ml" 118 2942 2961 "src/client.ml" 118 2942 2966
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 118 2942 2967 "src/client.ml" 118 2942 2979
+type(
+  exn
+)
+"src/client.ml" 118 2942 2961 "src/client.ml" 118 2942 2979
+type(
+  bool
+)
+"src/client.ml" 119 2980 2988 "src/client.ml" 119 2980 2989
+type(
+  string
+)
+ident(
+  def r "src/client.ml" 119 2980 2997 "src/client.ml" 119 2980 3013
+)
+"src/client.ml" 119 2980 2991 "src/client.ml" 119 2980 2993
+type(
+  string list
+)
+"src/client.ml" 119 2980 2988 "src/client.ml" 119 2980 2993
+type(
+  string list
+)
+"src/client.ml" 119 2980 2997 "src/client.ml" 119 2980 3011
+type(
+  string -> bool
+)
+ident(
+  ext_ref Core.Std.Bool.of_string
+)
+"src/client.ml" 119 2980 3012 "src/client.ml" 119 2980 3013
+type(
+  string
+)
+ident(
+  int_ref r "src/client.ml" 119 2980 2988 "src/client.ml" 119 2980 2989
+)
+"src/client.ml" 119 2980 2997 "src/client.ml" 119 2980 3013
+call(
+  tail
+)
+type(
+  bool
+)
+"src/client.ml" 120 3014 3022 "src/client.ml" 120 3014 3023
+type(
+  string list
+)
+"src/client.ml" 120 3014 3027 "src/client.ml" 120 3014 3032
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 120 3014 3033 "src/client.ml" 120 3014 3049
+type(
+  exn
+)
+"src/client.ml" 120 3014 3027 "src/client.ml" 120 3014 3049
+type(
+  bool
+)
+"src/client.ml" 117 2921 2927 "src/client.ml" 120 3014 3049
+type(
+  bool
+)
+"src/client.ml" 121 3050 3065 "src/client.ml" 121 3050 3070
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 121 3050 3071 "src/client.ml" 121 3050 3087
+type(
+  exn
+)
+"src/client.ml" 121 3050 3065 "src/client.ml" 121 3050 3087
+type(
+  bool
+)
+"src/client.ml" 116 2897 2901 "src/client.ml" 121 3050 3091
+type(
+  bool
+)
+"src/client.ml" 115 2809 2813 "src/client.ml" 121 3050 3091
+type(
+  bool
+)
+"src/client.ml" 114 2782 2803 "src/client.ml" 121 3050 3091
+type(
+  string -> bool
+)
+"src/client.ml" 114 2782 2798 "src/client.ml" 121 3050 3091
+type(
+  string -> string -> bool
+)
+"src/client.ml" 123 3093 3099 "src/client.ml" 123 3093 3103
+type(
+  string -> bool
+)
+ident(
+  def quit "src/client.ml" 125 3169 3179 "src/client.ml" 127 3181 3184
+)
+"src/client.ml" 123 3093 3104 "src/client.ml" 123 3093 3108
+type(
+  string
+)
+ident(
+  def name "src/client.ml" 124 3111 3115 "src/client.ml" 125 3169 3179
+)
+"src/client.ml" 124 3111 3120 "src/client.ml" 124 3111 3121
+type(
+  request_type
+)
+ident(
+  def s "src/client.ml" 125 3169 3173 "src/client.ml" 125 3169 3179
+)
+"src/client.ml" 124 3111 3123 "src/client.ml" 124 3111 3124
+type(
+  string list
+)
+"src/client.ml" 124 3111 3120 "src/client.ml" 124 3111 3124
+type(
+  request_type * string list
+)
+"src/client.ml" 124 3111 3128 "src/client.ml" 124 3111 3135
+type(
+  request_type ->
+  string -> UnixLabels.inet_addr -> int -> request_type * string list
+)
+ident(
+  int_ref request "src/client.ml" 74 1637 1641 "src/client.ml" 74 1637 1648
+)
+"src/client.ml" 124 3111 3136 "src/client.ml" 124 3111 3144
+type(
+  request_type
+)
+"src/client.ml" 124 3111 3145 "src/client.ml" 124 3111 3149
+type(
+  string
+)
+ident(
+  int_ref name "src/client.ml" 123 3093 3104 "src/client.ml" 123 3093 3108
+)
+"src/client.ml" 124 3111 3152 "src/client.ml" 124 3111 3156
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  int_ref host "src/client.ml" 95 2213 2219 "src/client.ml" 95 2213 2223
+)
+"src/client.ml" 124 3111 3151 "src/client.ml" 124 3111 3156
+type(
+  UnixLabels.inet_addr
+)
+type(
+  UnixLabels.inet_addr ref -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 124 3111 3160 "src/client.ml" 124 3111 3164
+type(
+  int ref
+)
+ident(
+  int_ref port "src/client.ml" 97 2276 2282 "src/client.ml" 97 2276 2286
+)
+"src/client.ml" 124 3111 3159 "src/client.ml" 124 3111 3164
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 124 3111 3128 "src/client.ml" 124 3111 3165
+call(
+  stack
+)
+type(
+  request_type * string list
+)
+"src/client.ml" 125 3169 3173 "src/client.ml" 125 3169 3174
+type(
+  request_type
+)
+ident(
+  int_ref s "src/client.ml" 124 3111 3120 "src/client.ml" 124 3111 3121
+)
+"src/client.ml" 125 3169 3175 "src/client.ml" 125 3169 3176
+type(
+  request_type -> request_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/client.ml" 125 3169 3177 "src/client.ml" 125 3169 3179
+type(
+  request_type
+)
+"src/client.ml" 125 3169 3173 "src/client.ml" 125 3169 3179
+type(
+  bool
+)
+"src/client.ml" 124 3111 3115 "src/client.ml" 125 3169 3179
+type(
+  bool
+)
+"src/client.ml" 123 3093 3104 "src/client.ml" 125 3169 3179
+type(
+  string -> bool
+)
+"src/client.ml" 134 3237 3243 "src/client.ml" 134 3237 3247
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  def host "src/client.ml" 136 3300 3302 "src/client.ml" 155 3865 3868
+)
+"src/client.ml" 134 3237 3250 "src/client.ml" 134 3237 3253
+type(
+  UnixLabels.inet_addr -> UnixLabels.inet_addr ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/client.ml" 134 3237 3255 "src/client.ml" 134 3237 3285
+type(
+  string -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref UnixLabels.inet_addr_of_string
+)
+"src/client.ml" 134 3237 3286 "src/client.ml" 134 3237 3297
+type(
+  string
+)
+"src/client.ml" 134 3237 3255 "src/client.ml" 134 3237 3297
+call(
+  stack
+)
+type(
+  UnixLabels.inet_addr
+)
+"src/client.ml" 134 3237 3250 "src/client.ml" 134 3237 3298
+type(
+  UnixLabels.inet_addr ref
+)
+"src/client.ml" 136 3300 3306 "src/client.ml" 136 3300 3310
+type(
+  int ref
+)
+ident(
+  def port "src/client.ml" 138 3326 3328 "src/client.ml" 155 3865 3868
+)
+"src/client.ml" 136 3300 3313 "src/client.ml" 136 3300 3316
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/client.ml" 136 3300 3317 "src/client.ml" 136 3300 3322
+type(
+  int
+)
+"src/client.ml" 136 3300 3313 "src/client.ml" 136 3300 3322
+type(
+  int ref
+)
+"src/client.ml" 138 3326 3332 "src/client.ml" 138 3326 3338
+type(
+  string -> string -> bool
+)
+ident(
+  def go_bmc "src/client.ml" 142 3458 3460 "src/client.ml" 155 3865 3868
+)
+"src/client.ml" 138 3326 3339 "src/client.ml" 138 3326 3343
+type(
+  string
+)
+ident(
+  def name "src/client.ml" 138 3326 3344 "src/client.ml" 140 3441 3456
+)
+"src/client.ml" 138 3326 3344 "src/client.ml" 138 3326 3351
+type(
+  string
+)
+ident(
+  def content "src/client.ml" 139 3354 3358 "src/client.ml" 140 3441 3456
+)
+"src/client.ml" 139 3354 3363 "src/client.ml" 139 3354 3369
+type(
+  request_type
+)
+ident(
+  def status "src/client.ml" 140 3441 3445 "src/client.ml" 140 3441 3456
+)
+"src/client.ml" 139 3354 3371 "src/client.ml" 139 3354 3372
+type(
+  string list
+)
+"src/client.ml" 139 3354 3363 "src/client.ml" 139 3354 3372
+type(
+  request_type * string list
+)
+"src/client.ml" 139 3354 3376 "src/client.ml" 139 3354 3383
+type(
+  request_type ->
+  string -> UnixLabels.inet_addr -> int -> request_type * string list
+)
+ident(
+  int_ref request "src/client.ml" 74 1637 1641 "src/client.ml" 74 1637 1648
+)
+"src/client.ml" 139 3354 3384 "src/client.ml" 139 3354 3390
+type(
+  request_type
+)
+"src/client.ml" 139 3354 3392 "src/client.ml" 139 3354 3399
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/client.ml" 139 3354 3400 "src/client.ml" 139 3354 3407
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/client.ml" 139 3354 3408 "src/client.ml" 139 3354 3412
+type(
+  string
+)
+ident(
+  int_ref name "src/client.ml" 138 3326 3339 "src/client.ml" 138 3326 3343
+)
+"src/client.ml" 139 3354 3413 "src/client.ml" 139 3354 3420
+type(
+  string
+)
+ident(
+  int_ref content "src/client.ml" 138 3326 3344 "src/client.ml" 138 3326 3351
+)
+"src/client.ml" 139 3354 3392 "src/client.ml" 139 3354 3420
+call(
+  stack
+)
+type(
+  string
+)
+"src/client.ml" 139 3354 3424 "src/client.ml" 139 3354 3428
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  int_ref host "src/client.ml" 134 3237 3243 "src/client.ml" 134 3237 3247
+)
+"src/client.ml" 139 3354 3423 "src/client.ml" 139 3354 3428
+type(
+  UnixLabels.inet_addr
+)
+type(
+  UnixLabels.inet_addr ref -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 139 3354 3432 "src/client.ml" 139 3354 3436
+type(
+  int ref
+)
+ident(
+  int_ref port "src/client.ml" 136 3300 3306 "src/client.ml" 136 3300 3310
+)
+"src/client.ml" 139 3354 3431 "src/client.ml" 139 3354 3436
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 139 3354 3376 "src/client.ml" 139 3354 3437
+call(
+  stack
+)
+type(
+  request_type * string list
+)
+"src/client.ml" 140 3441 3445 "src/client.ml" 140 3441 3451
+type(
+  request_type
+)
+ident(
+  int_ref status "src/client.ml" 139 3354 3363 "src/client.ml" 139 3354 3369
+)
+"src/client.ml" 140 3441 3452 "src/client.ml" 140 3441 3453
+type(
+  request_type -> request_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/client.ml" 140 3441 3454 "src/client.ml" 140 3441 3456
+type(
+  request_type
+)
+"src/client.ml" 140 3441 3445 "src/client.ml" 140 3441 3456
+type(
+  bool
+)
+"src/client.ml" 139 3354 3358 "src/client.ml" 140 3441 3456
+type(
+  bool
+)
+"src/client.ml" 138 3326 3344 "src/client.ml" 140 3441 3456
+type(
+  string -> bool
+)
+"src/client.ml" 138 3326 3339 "src/client.ml" 140 3441 3456
+type(
+  string -> string -> bool
+)
+"src/client.ml" 142 3458 3464 "src/client.ml" 142 3458 3473
+type(
+  string -> string -> bool
+)
+ident(
+  def check_inv "src/client.ml" 151 3773 3775 "src/client.ml" 155 3865 3868
+)
+"src/client.ml" 142 3458 3474 "src/client.ml" 142 3458 3478
+type(
+  string
+)
+ident(
+  def name "src/client.ml" 142 3458 3479 "src/client.ml" 149 3730 3771
+)
+"src/client.ml" 142 3458 3479 "src/client.ml" 142 3458 3482
+type(
+  string
+)
+ident(
+  def inv "src/client.ml" 143 3485 3489 "src/client.ml" 149 3730 3771
+)
+"src/client.ml" 143 3485 3494 "src/client.ml" 143 3485 3500
+type(
+  request_type
+)
+ident(
+  def status "src/client.ml" 144 3577 3581 "src/client.ml" 149 3730 3771
+)
+"src/client.ml" 143 3485 3502 "src/client.ml" 143 3485 3505
+type(
+  string list
+)
+ident(
+  def res "src/client.ml" 144 3577 3581 "src/client.ml" 149 3730 3771
+)
+"src/client.ml" 143 3485 3494 "src/client.ml" 143 3485 3505
+type(
+  request_type * string list
+)
+"src/client.ml" 143 3485 3509 "src/client.ml" 143 3485 3516
+type(
+  request_type ->
+  string -> UnixLabels.inet_addr -> int -> request_type * string list
+)
+ident(
+  int_ref request "src/client.ml" 74 1637 1641 "src/client.ml" 74 1637 1648
+)
+"src/client.ml" 143 3485 3517 "src/client.ml" 143 3485 3530
+type(
+  request_type
+)
+"src/client.ml" 143 3485 3532 "src/client.ml" 143 3485 3539
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/client.ml" 143 3485 3540 "src/client.ml" 143 3485 3547
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/client.ml" 143 3485 3548 "src/client.ml" 143 3485 3552
+type(
+  string
+)
+ident(
+  int_ref name "src/client.ml" 142 3458 3474 "src/client.ml" 142 3458 3478
+)
+"src/client.ml" 143 3485 3553 "src/client.ml" 143 3485 3556
+type(
+  string
+)
+ident(
+  int_ref inv "src/client.ml" 142 3458 3479 "src/client.ml" 142 3458 3482
+)
+"src/client.ml" 143 3485 3532 "src/client.ml" 143 3485 3556
+call(
+  stack
+)
+type(
+  string
+)
+"src/client.ml" 143 3485 3560 "src/client.ml" 143 3485 3564
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  int_ref host "src/client.ml" 134 3237 3243 "src/client.ml" 134 3237 3247
+)
+"src/client.ml" 143 3485 3559 "src/client.ml" 143 3485 3564
+type(
+  UnixLabels.inet_addr
+)
+type(
+  UnixLabels.inet_addr ref -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 143 3485 3568 "src/client.ml" 143 3485 3572
+type(
+  int ref
+)
+ident(
+  int_ref port "src/client.ml" 136 3300 3306 "src/client.ml" 136 3300 3310
+)
+"src/client.ml" 143 3485 3567 "src/client.ml" 143 3485 3572
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 143 3485 3509 "src/client.ml" 143 3485 3573
+call(
+  stack
+)
+type(
+  request_type * string list
+)
+"src/client.ml" 144 3577 3584 "src/client.ml" 144 3577 3590
+type(
+  request_type
+)
+ident(
+  int_ref status "src/client.ml" 143 3485 3494 "src/client.ml" 143 3485 3500
+)
+"src/client.ml" 144 3577 3591 "src/client.ml" 144 3577 3592
+type(
+  request_type -> request_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/client.ml" 144 3577 3593 "src/client.ml" 144 3577 3595
+type(
+  request_type
+)
+"src/client.ml" 144 3577 3584 "src/client.ml" 144 3577 3595
+type(
+  bool
+)
+"src/client.ml" 145 3601 3613 "src/client.ml" 145 3601 3616
+type(
+  string list
+)
+ident(
+  int_ref res "src/client.ml" 143 3485 3502 "src/client.ml" 143 3485 3505
+)
+"src/client.ml" 146 3622 3630 "src/client.ml" 146 3622 3633
+type(
+  string
+)
+"src/client.ml" 146 3622 3635 "src/client.ml" 146 3622 3637
+type(
+  string list
+)
+"src/client.ml" 146 3622 3630 "src/client.ml" 146 3622 3637
+type(
+  string list
+)
+"src/client.ml" 146 3622 3641 "src/client.ml" 146 3622 3646
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 146 3622 3647 "src/client.ml" 146 3622 3659
+type(
+  exn
+)
+"src/client.ml" 146 3622 3641 "src/client.ml" 146 3622 3659
+type(
+  bool
+)
+"src/client.ml" 147 3660 3668 "src/client.ml" 147 3660 3669
+type(
+  string
+)
+ident(
+  def r "src/client.ml" 147 3660 3677 "src/client.ml" 147 3660 3693
+)
+"src/client.ml" 147 3660 3671 "src/client.ml" 147 3660 3673
+type(
+  string list
+)
+"src/client.ml" 147 3660 3668 "src/client.ml" 147 3660 3673
+type(
+  string list
+)
+"src/client.ml" 147 3660 3677 "src/client.ml" 147 3660 3691
+type(
+  string -> bool
+)
+ident(
+  ext_ref Core.Std.Bool.of_string
+)
+"src/client.ml" 147 3660 3692 "src/client.ml" 147 3660 3693
+type(
+  string
+)
+ident(
+  int_ref r "src/client.ml" 147 3660 3668 "src/client.ml" 147 3660 3669
+)
+"src/client.ml" 147 3660 3677 "src/client.ml" 147 3660 3693
+call(
+  tail
+)
+type(
+  bool
+)
+"src/client.ml" 148 3694 3702 "src/client.ml" 148 3694 3703
+type(
+  string list
+)
+"src/client.ml" 148 3694 3707 "src/client.ml" 148 3694 3712
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 148 3694 3713 "src/client.ml" 148 3694 3729
+type(
+  exn
+)
+"src/client.ml" 148 3694 3707 "src/client.ml" 148 3694 3729
+type(
+  bool
+)
+"src/client.ml" 145 3601 3607 "src/client.ml" 148 3694 3729
+type(
+  bool
+)
+"src/client.ml" 149 3730 3745 "src/client.ml" 149 3730 3750
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 149 3730 3751 "src/client.ml" 149 3730 3767
+type(
+  exn
+)
+"src/client.ml" 149 3730 3745 "src/client.ml" 149 3730 3767
+type(
+  bool
+)
+"src/client.ml" 144 3577 3581 "src/client.ml" 149 3730 3771
+type(
+  bool
+)
+"src/client.ml" 143 3485 3489 "src/client.ml" 149 3730 3771
+type(
+  bool
+)
+"src/client.ml" 142 3458 3479 "src/client.ml" 149 3730 3771
+type(
+  string -> bool
+)
+"src/client.ml" 142 3458 3474 "src/client.ml" 149 3730 3771
+type(
+  string -> string -> bool
+)
+"src/client.ml" 151 3773 3779 "src/client.ml" 151 3773 3783
+type(
+  string -> bool
+)
+ident(
+  def quit "src/client.ml" 153 3853 3863 "src/client.ml" 155 3865 3868
+)
+"src/client.ml" 151 3773 3784 "src/client.ml" 151 3773 3788
+type(
+  string
+)
+ident(
+  def name "src/client.ml" 152 3791 3795 "src/client.ml" 153 3853 3863
+)
+"src/client.ml" 152 3791 3800 "src/client.ml" 152 3791 3801
+type(
+  request_type
+)
+ident(
+  def s "src/client.ml" 153 3853 3857 "src/client.ml" 153 3853 3863
+)
+"src/client.ml" 152 3791 3803 "src/client.ml" 152 3791 3804
+type(
+  string list
+)
+"src/client.ml" 152 3791 3800 "src/client.ml" 152 3791 3804
+type(
+  request_type * string list
+)
+"src/client.ml" 152 3791 3808 "src/client.ml" 152 3791 3815
+type(
+  request_type ->
+  string -> UnixLabels.inet_addr -> int -> request_type * string list
+)
+ident(
+  int_ref request "src/client.ml" 74 1637 1641 "src/client.ml" 74 1637 1648
+)
+"src/client.ml" 152 3791 3816 "src/client.ml" 152 3791 3828
+type(
+  request_type
+)
+"src/client.ml" 152 3791 3829 "src/client.ml" 152 3791 3833
+type(
+  string
+)
+ident(
+  int_ref name "src/client.ml" 151 3773 3784 "src/client.ml" 151 3773 3788
+)
+"src/client.ml" 152 3791 3836 "src/client.ml" 152 3791 3840
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  int_ref host "src/client.ml" 134 3237 3243 "src/client.ml" 134 3237 3247
+)
+"src/client.ml" 152 3791 3835 "src/client.ml" 152 3791 3840
+type(
+  UnixLabels.inet_addr
+)
+type(
+  UnixLabels.inet_addr ref -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 152 3791 3844 "src/client.ml" 152 3791 3848
+type(
+  int ref
+)
+ident(
+  int_ref port "src/client.ml" 136 3300 3306 "src/client.ml" 136 3300 3310
+)
+"src/client.ml" 152 3791 3843 "src/client.ml" 152 3791 3848
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 152 3791 3808 "src/client.ml" 152 3791 3849
+call(
+  stack
+)
+type(
+  request_type * string list
+)
+"src/client.ml" 153 3853 3857 "src/client.ml" 153 3853 3858
+type(
+  request_type
+)
+ident(
+  int_ref s "src/client.ml" 152 3791 3800 "src/client.ml" 152 3791 3801
+)
+"src/client.ml" 153 3853 3859 "src/client.ml" 153 3853 3860
+type(
+  request_type -> request_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/client.ml" 153 3853 3861 "src/client.ml" 153 3853 3863
+type(
+  request_type
+)
+"src/client.ml" 153 3853 3857 "src/client.ml" 153 3853 3863
+type(
+  bool
+)
+"src/client.ml" 152 3791 3795 "src/client.ml" 153 3853 3863
+type(
+  bool
+)
+"src/client.ml" 151 3773 3784 "src/client.ml" 153 3853 3863
+type(
+  string -> bool
+)
+"src/client.ml" 162 3897 3903 "src/client.ml" 162 3897 3907
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  def host "src/client.ml" 164 3960 3962 "src/client.ml" 176 4321 4324
+)
+"src/client.ml" 162 3897 3910 "src/client.ml" 162 3897 3913
+type(
+  UnixLabels.inet_addr -> UnixLabels.inet_addr ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/client.ml" 162 3897 3915 "src/client.ml" 162 3897 3945
+type(
+  string -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref UnixLabels.inet_addr_of_string
+)
+"src/client.ml" 162 3897 3946 "src/client.ml" 162 3897 3957
+type(
+  string
+)
+"src/client.ml" 162 3897 3915 "src/client.ml" 162 3897 3957
+call(
+  stack
+)
+type(
+  UnixLabels.inet_addr
+)
+"src/client.ml" 162 3897 3910 "src/client.ml" 162 3897 3958
+type(
+  UnixLabels.inet_addr ref
+)
+"src/client.ml" 164 3960 3966 "src/client.ml" 164 3960 3970
+type(
+  int ref
+)
+ident(
+  def port "src/client.ml" 166 3984 3986 "src/client.ml" 176 4321 4324
+)
+"src/client.ml" 164 3960 3973 "src/client.ml" 164 3960 3976
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/client.ml" 164 3960 3977 "src/client.ml" 164 3960 3982
+type(
+  int
+)
+"src/client.ml" 164 3960 3973 "src/client.ml" 164 3960 3982
+type(
+  int ref
+)
+"src/client.ml" 166 3984 3990 "src/client.ml" 166 3984 4001
+type(
+  string -> string -> bool
+)
+ident(
+  def set_context "src/client.ml" 170 4119 4121 "src/client.ml" 176 4321 4324
+)
+"src/client.ml" 166 3984 4002 "src/client.ml" 166 3984 4006
+type(
+  string
+)
+ident(
+  def name "src/client.ml" 166 3984 4007 "src/client.ml" 168 4107 4117
+)
+"src/client.ml" 166 3984 4007 "src/client.ml" 166 3984 4014
+type(
+  string
+)
+ident(
+  def context "src/client.ml" 167 4017 4021 "src/client.ml" 168 4107 4117
+)
+"src/client.ml" 167 4017 4026 "src/client.ml" 167 4017 4027
+type(
+  request_type
+)
+ident(
+  def s "src/client.ml" 168 4107 4111 "src/client.ml" 168 4107 4117
+)
+"src/client.ml" 167 4017 4029 "src/client.ml" 167 4017 4030
+type(
+  string list
+)
+"src/client.ml" 167 4017 4026 "src/client.ml" 167 4017 4030
+type(
+  request_type * string list
+)
+"src/client.ml" 167 4017 4034 "src/client.ml" 167 4017 4041
+type(
+  request_type ->
+  string -> UnixLabels.inet_addr -> int -> request_type * string list
+)
+ident(
+  int_ref request "src/client.ml" 74 1637 1641 "src/client.ml" 74 1637 1648
+)
+"src/client.ml" 167 4017 4042 "src/client.ml" 167 4017 4056
+type(
+  request_type
+)
+"src/client.ml" 167 4017 4058 "src/client.ml" 167 4017 4065
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/client.ml" 167 4017 4066 "src/client.ml" 167 4017 4073
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/client.ml" 167 4017 4074 "src/client.ml" 167 4017 4078
+type(
+  string
+)
+ident(
+  int_ref name "src/client.ml" 166 3984 4002 "src/client.ml" 166 3984 4006
+)
+"src/client.ml" 167 4017 4079 "src/client.ml" 167 4017 4086
+type(
+  string
+)
+ident(
+  int_ref context "src/client.ml" 166 3984 4007 "src/client.ml" 166 3984 4014
+)
+"src/client.ml" 167 4017 4058 "src/client.ml" 167 4017 4086
+call(
+  stack
+)
+type(
+  string
+)
+"src/client.ml" 167 4017 4090 "src/client.ml" 167 4017 4094
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  int_ref host "src/client.ml" 162 3897 3903 "src/client.ml" 162 3897 3907
+)
+"src/client.ml" 167 4017 4089 "src/client.ml" 167 4017 4094
+type(
+  UnixLabels.inet_addr
+)
+type(
+  UnixLabels.inet_addr ref -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 167 4017 4098 "src/client.ml" 167 4017 4102
+type(
+  int ref
+)
+ident(
+  int_ref port "src/client.ml" 164 3960 3966 "src/client.ml" 164 3960 3970
+)
+"src/client.ml" 167 4017 4097 "src/client.ml" 167 4017 4102
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 167 4017 4034 "src/client.ml" 167 4017 4103
+call(
+  stack
+)
+type(
+  request_type * string list
+)
+"src/client.ml" 168 4107 4111 "src/client.ml" 168 4107 4112
+type(
+  request_type
+)
+ident(
+  int_ref s "src/client.ml" 167 4017 4026 "src/client.ml" 167 4017 4027
+)
+"src/client.ml" 168 4107 4113 "src/client.ml" 168 4107 4114
+type(
+  request_type -> request_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/client.ml" 168 4107 4115 "src/client.ml" 168 4107 4117
+type(
+  request_type
+)
+"src/client.ml" 168 4107 4111 "src/client.ml" 168 4107 4117
+type(
+  bool
+)
+"src/client.ml" 167 4017 4021 "src/client.ml" 168 4107 4117
+type(
+  bool
+)
+"src/client.ml" 166 3984 4007 "src/client.ml" 168 4107 4117
+type(
+  string -> bool
+)
+"src/client.ml" 166 3984 4002 "src/client.ml" 168 4107 4117
+type(
+  string -> string -> bool
+)
+"src/client.ml" 170 4119 4125 "src/client.ml" 170 4119 4134
+type(
+  string -> string -> bool
+)
+ident(
+  def check_inv "src/client.ml" 174 4286 4319 "src/client.ml" 176 4321 4324
+)
+"src/client.ml" 170 4119 4135 "src/client.ml" 170 4119 4139
+type(
+  string
+)
+ident(
+  def name "src/client.ml" 170 4119 4140 "src/client.ml" 174 4286 4319
+)
+"src/client.ml" 170 4119 4140 "src/client.ml" 170 4119 4143
+type(
+  string
+)
+ident(
+  def inv "src/client.ml" 171 4146 4150 "src/client.ml" 174 4286 4319
+)
+"src/client.ml" 171 4146 4155 "src/client.ml" 171 4146 4156
+type(
+  request_type
+)
+"src/client.ml" 171 4146 4158 "src/client.ml" 171 4146 4161
+type(
+  string list
+)
+ident(
+  def res "src/client.ml" 172 4235 4239 "src/client.ml" 174 4286 4319
+)
+"src/client.ml" 171 4146 4155 "src/client.ml" 171 4146 4161
+type(
+  request_type * string list
+)
+"src/client.ml" 171 4146 4165 "src/client.ml" 171 4146 4172
+type(
+  request_type ->
+  string -> UnixLabels.inet_addr -> int -> request_type * string list
+)
+ident(
+  int_ref request "src/client.ml" 74 1637 1641 "src/client.ml" 74 1637 1648
+)
+"src/client.ml" 171 4146 4173 "src/client.ml" 171 4146 4188
+type(
+  request_type
+)
+"src/client.ml" 171 4146 4190 "src/client.ml" 171 4146 4197
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/client.ml" 171 4146 4198 "src/client.ml" 171 4146 4205
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/client.ml" 171 4146 4206 "src/client.ml" 171 4146 4210
+type(
+  string
+)
+ident(
+  int_ref name "src/client.ml" 170 4119 4135 "src/client.ml" 170 4119 4139
+)
+"src/client.ml" 171 4146 4211 "src/client.ml" 171 4146 4214
+type(
+  string
+)
+ident(
+  int_ref inv "src/client.ml" 170 4119 4140 "src/client.ml" 170 4119 4143
+)
+"src/client.ml" 171 4146 4190 "src/client.ml" 171 4146 4214
+call(
+  stack
+)
+type(
+  string
+)
+"src/client.ml" 171 4146 4218 "src/client.ml" 171 4146 4222
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  int_ref host "src/client.ml" 162 3897 3903 "src/client.ml" 162 3897 3907
+)
+"src/client.ml" 171 4146 4217 "src/client.ml" 171 4146 4222
+type(
+  UnixLabels.inet_addr
+)
+type(
+  UnixLabels.inet_addr ref -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 171 4146 4226 "src/client.ml" 171 4146 4230
+type(
+  int ref
+)
+ident(
+  int_ref port "src/client.ml" 164 3960 3966 "src/client.ml" 164 3960 3970
+)
+"src/client.ml" 171 4146 4225 "src/client.ml" 171 4146 4230
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 171 4146 4165 "src/client.ml" 171 4146 4231
+call(
+  stack
+)
+type(
+  request_type * string list
+)
+"src/client.ml" 172 4235 4245 "src/client.ml" 172 4235 4248
+type(
+  string list
+)
+ident(
+  int_ref res "src/client.ml" 171 4146 4158 "src/client.ml" 171 4146 4161
+)
+"src/client.ml" 173 4254 4260 "src/client.ml" 173 4254 4261
+type(
+  string
+)
+ident(
+  def r "src/client.ml" 173 4254 4269 "src/client.ml" 173 4254 4285
+)
+"src/client.ml" 173 4254 4263 "src/client.ml" 173 4254 4265
+type(
+  string list
+)
+"src/client.ml" 173 4254 4260 "src/client.ml" 173 4254 4265
+type(
+  string list
+)
+"src/client.ml" 173 4254 4269 "src/client.ml" 173 4254 4283
+type(
+  string -> bool
+)
+ident(
+  ext_ref Core.Std.Bool.of_string
+)
+"src/client.ml" 173 4254 4284 "src/client.ml" 173 4254 4285
+type(
+  string
+)
+ident(
+  int_ref r "src/client.ml" 173 4254 4260 "src/client.ml" 173 4254 4261
+)
+"src/client.ml" 173 4254 4269 "src/client.ml" 173 4254 4285
+call(
+  tail
+)
+type(
+  bool
+)
+"src/client.ml" 174 4286 4292 "src/client.ml" 174 4286 4293
+type(
+  string list
+)
+"src/client.ml" 174 4286 4297 "src/client.ml" 174 4286 4302
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 174 4286 4303 "src/client.ml" 174 4286 4319
+type(
+  exn
+)
+"src/client.ml" 174 4286 4297 "src/client.ml" 174 4286 4319
+type(
+  bool
+)
+"src/client.ml" 172 4235 4239 "src/client.ml" 174 4286 4319
+type(
+  bool
+)
+"src/client.ml" 171 4146 4150 "src/client.ml" 174 4286 4319
+type(
+  bool
+)
+"src/client.ml" 170 4119 4140 "src/client.ml" 174 4286 4319
+type(
+  string -> bool
+)
+"src/client.ml" 170 4119 4135 "src/client.ml" 174 4286 4319
+type(
+  string -> string -> bool
+)
+"src/client.ml" 185 4353 4357 "src/client.ml" 185 4353 4361
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  def host "src/client.ml" 187 4414 4414 "src/client.ml" 211 5136 5139
+)
+"src/client.ml" 185 4353 4364 "src/client.ml" 185 4353 4367
+type(
+  UnixLabels.inet_addr -> UnixLabels.inet_addr ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/client.ml" 185 4353 4369 "src/client.ml" 185 4353 4399
+type(
+  string -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref UnixLabels.inet_addr_of_string
+)
+"src/client.ml" 185 4353 4400 "src/client.ml" 185 4353 4411
+type(
+  string
+)
+"src/client.ml" 185 4353 4369 "src/client.ml" 185 4353 4411
+call(
+  stack
+)
+type(
+  UnixLabels.inet_addr
+)
+"src/client.ml" 185 4353 4364 "src/client.ml" 185 4353 4412
+type(
+  UnixLabels.inet_addr ref
+)
+"src/client.ml" 187 4414 4418 "src/client.ml" 187 4414 4422
+type(
+  int ref
+)
+ident(
+  def port "src/client.ml" 189 4436 4438 "src/client.ml" 211 5136 5139
+)
+"src/client.ml" 187 4414 4425 "src/client.ml" 187 4414 4428
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/client.ml" 187 4414 4429 "src/client.ml" 187 4414 4434
+type(
+  int
+)
+"src/client.ml" 187 4414 4425 "src/client.ml" 187 4414 4434
+type(
+  int ref
+)
+"src/client.ml" 189 4436 4442 "src/client.ml" 189 4436 4453
+type(
+  string -> string -> bool
+)
+ident(
+  def set_context "src/client.ml" 193 4573 4575 "src/client.ml" 211 5136 5139
+)
+"src/client.ml" 189 4436 4454 "src/client.ml" 189 4436 4458
+type(
+  string
+)
+ident(
+  def name "src/client.ml" 189 4436 4459 "src/client.ml" 191 4561 4571
+)
+"src/client.ml" 189 4436 4459 "src/client.ml" 189 4436 4466
+type(
+  string
+)
+ident(
+  def context "src/client.ml" 190 4469 4473 "src/client.ml" 191 4561 4571
+)
+"src/client.ml" 190 4469 4478 "src/client.ml" 190 4469 4479
+type(
+  request_type
+)
+ident(
+  def s "src/client.ml" 191 4561 4565 "src/client.ml" 191 4561 4571
+)
+"src/client.ml" 190 4469 4481 "src/client.ml" 190 4469 4482
+type(
+  string list
+)
+"src/client.ml" 190 4469 4478 "src/client.ml" 190 4469 4482
+type(
+  request_type * string list
+)
+"src/client.ml" 190 4469 4486 "src/client.ml" 190 4469 4493
+type(
+  request_type ->
+  string -> UnixLabels.inet_addr -> int -> request_type * string list
+)
+ident(
+  int_ref request "src/client.ml" 74 1637 1641 "src/client.ml" 74 1637 1648
+)
+"src/client.ml" 190 4469 4494 "src/client.ml" 190 4469 4510
+type(
+  request_type
+)
+"src/client.ml" 190 4469 4512 "src/client.ml" 190 4469 4519
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/client.ml" 190 4469 4520 "src/client.ml" 190 4469 4527
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/client.ml" 190 4469 4528 "src/client.ml" 190 4469 4532
+type(
+  string
+)
+ident(
+  int_ref name "src/client.ml" 189 4436 4454 "src/client.ml" 189 4436 4458
+)
+"src/client.ml" 190 4469 4533 "src/client.ml" 190 4469 4540
+type(
+  string
+)
+ident(
+  int_ref context "src/client.ml" 189 4436 4459 "src/client.ml" 189 4436 4466
+)
+"src/client.ml" 190 4469 4512 "src/client.ml" 190 4469 4540
+call(
+  stack
+)
+type(
+  string
+)
+"src/client.ml" 190 4469 4544 "src/client.ml" 190 4469 4548
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  int_ref host "src/client.ml" 185 4353 4357 "src/client.ml" 185 4353 4361
+)
+"src/client.ml" 190 4469 4543 "src/client.ml" 190 4469 4548
+type(
+  UnixLabels.inet_addr
+)
+type(
+  UnixLabels.inet_addr ref -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 190 4469 4552 "src/client.ml" 190 4469 4556
+type(
+  int ref
+)
+ident(
+  int_ref port "src/client.ml" 187 4414 4418 "src/client.ml" 187 4414 4422
+)
+"src/client.ml" 190 4469 4551 "src/client.ml" 190 4469 4556
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 190 4469 4486 "src/client.ml" 190 4469 4557
+call(
+  stack
+)
+type(
+  request_type * string list
+)
+"src/client.ml" 191 4561 4565 "src/client.ml" 191 4561 4566
+type(
+  request_type
+)
+ident(
+  int_ref s "src/client.ml" 190 4469 4478 "src/client.ml" 190 4469 4479
+)
+"src/client.ml" 191 4561 4567 "src/client.ml" 191 4561 4568
+type(
+  request_type -> request_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/client.ml" 191 4561 4569 "src/client.ml" 191 4561 4571
+type(
+  request_type
+)
+"src/client.ml" 191 4561 4565 "src/client.ml" 191 4561 4571
+type(
+  bool
+)
+"src/client.ml" 190 4469 4473 "src/client.ml" 191 4561 4571
+type(
+  bool
+)
+"src/client.ml" 189 4436 4459 "src/client.ml" 191 4561 4571
+type(
+  string -> bool
+)
+"src/client.ml" 189 4436 4454 "src/client.ml" 191 4561 4571
+type(
+  string -> string -> bool
+)
+"src/client.ml" 193 4573 4579 "src/client.ml" 193 4573 4584
+type(
+  string -> string -> bool
+)
+ident(
+  def check "src/client.ml" 202 4845 4847 "src/client.ml" 211 5136 5139
+)
+"src/client.ml" 193 4573 4585 "src/client.ml" 193 4573 4589
+type(
+  string
+)
+ident(
+  def name "src/client.ml" 193 4573 4590 "src/client.ml" 200 4810 4843
+)
+"src/client.ml" 193 4573 4590 "src/client.ml" 193 4573 4591
+type(
+  string
+)
+ident(
+  def f "src/client.ml" 194 4594 4598 "src/client.ml" 200 4810 4843
+)
+"src/client.ml" 194 4594 4603 "src/client.ml" 194 4594 4604
+type(
+  request_type
+)
+"src/client.ml" 194 4594 4606 "src/client.ml" 194 4594 4609
+type(
+  string list
+)
+ident(
+  def res "src/client.ml" 195 4676 4680 "src/client.ml" 200 4810 4843
+)
+"src/client.ml" 194 4594 4603 "src/client.ml" 194 4594 4609
+type(
+  request_type * string list
+)
+"src/client.ml" 194 4594 4613 "src/client.ml" 194 4594 4620
+type(
+  request_type ->
+  string -> UnixLabels.inet_addr -> int -> request_type * string list
+)
+ident(
+  int_ref request "src/client.ml" 74 1637 1641 "src/client.ml" 74 1637 1648
+)
+"src/client.ml" 194 4594 4621 "src/client.ml" 194 4594 4631
+type(
+  request_type
+)
+"src/client.ml" 194 4594 4633 "src/client.ml" 194 4594 4640
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/client.ml" 194 4594 4641 "src/client.ml" 194 4594 4648
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/client.ml" 194 4594 4649 "src/client.ml" 194 4594 4653
+type(
+  string
+)
+ident(
+  int_ref name "src/client.ml" 193 4573 4585 "src/client.ml" 193 4573 4589
+)
+"src/client.ml" 194 4594 4654 "src/client.ml" 194 4594 4655
+type(
+  string
+)
+ident(
+  int_ref f "src/client.ml" 193 4573 4590 "src/client.ml" 193 4573 4591
+)
+"src/client.ml" 194 4594 4633 "src/client.ml" 194 4594 4655
+call(
+  stack
+)
+type(
+  string
+)
+"src/client.ml" 194 4594 4659 "src/client.ml" 194 4594 4663
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  int_ref host "src/client.ml" 185 4353 4357 "src/client.ml" 185 4353 4361
+)
+"src/client.ml" 194 4594 4658 "src/client.ml" 194 4594 4663
+type(
+  UnixLabels.inet_addr
+)
+type(
+  UnixLabels.inet_addr ref -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 194 4594 4667 "src/client.ml" 194 4594 4671
+type(
+  int ref
+)
+ident(
+  int_ref port "src/client.ml" 187 4414 4418 "src/client.ml" 187 4414 4422
+)
+"src/client.ml" 194 4594 4666 "src/client.ml" 194 4594 4671
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 194 4594 4613 "src/client.ml" 194 4594 4672
+call(
+  stack
+)
+type(
+  request_type * string list
+)
+"src/client.ml" 195 4676 4686 "src/client.ml" 195 4676 4689
+type(
+  string list
+)
+ident(
+  int_ref res "src/client.ml" 194 4594 4606 "src/client.ml" 194 4594 4609
+)
+"src/client.ml" 196 4695 4701 "src/client.ml" 196 4695 4702
+type(
+  string
+)
+ident(
+  def r "src/client.ml" 197 4710 4716 "src/client.ml" 199 4776 4809
+)
+"src/client.ml" 196 4695 4704 "src/client.ml" 196 4695 4706
+type(
+  string list
+)
+"src/client.ml" 196 4695 4701 "src/client.ml" 196 4695 4706
+type(
+  string list
+)
+"src/client.ml" 197 4710 4719 "src/client.ml" 197 4710 4720
+type(
+  string
+)
+ident(
+  int_ref r "src/client.ml" 196 4695 4701 "src/client.ml" 196 4695 4702
+)
+"src/client.ml" 197 4710 4721 "src/client.ml" 197 4710 4722
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/client.ml" 197 4710 4723 "src/client.ml" 197 4710 4730
+type(
+  string
+)
+"src/client.ml" 197 4710 4719 "src/client.ml" 197 4710 4730
+type(
+  bool
+)
+"src/client.ml" 197 4710 4736 "src/client.ml" 197 4710 4741
+type(
+  bool
+)
+"src/client.ml" 198 4742 4756 "src/client.ml" 198 4742 4757
+type(
+  string
+)
+ident(
+  int_ref r "src/client.ml" 196 4695 4701 "src/client.ml" 196 4695 4702
+)
+"src/client.ml" 198 4742 4758 "src/client.ml" 198 4742 4759
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/client.ml" 198 4742 4760 "src/client.ml" 198 4742 4765
+type(
+  string
+)
+"src/client.ml" 198 4742 4756 "src/client.ml" 198 4742 4765
+type(
+  bool
+)
+"src/client.ml" 198 4742 4771 "src/client.ml" 198 4742 4775
+type(
+  bool
+)
+"src/client.ml" 199 4776 4787 "src/client.ml" 199 4776 4792
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 199 4776 4793 "src/client.ml" 199 4776 4809
+type(
+  exn
+)
+"src/client.ml" 199 4776 4787 "src/client.ml" 199 4776 4809
+type(
+  bool
+)
+"src/client.ml" 198 4742 4753 "src/client.ml" 199 4776 4809
+type(
+  bool
+)
+"src/client.ml" 197 4710 4716 "src/client.ml" 199 4776 4809
+type(
+  bool
+)
+"src/client.ml" 200 4810 4816 "src/client.ml" 200 4810 4817
+type(
+  string list
+)
+"src/client.ml" 200 4810 4821 "src/client.ml" 200 4810 4826
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 200 4810 4827 "src/client.ml" 200 4810 4843
+type(
+  exn
+)
+"src/client.ml" 200 4810 4821 "src/client.ml" 200 4810 4843
+type(
+  bool
+)
+"src/client.ml" 195 4676 4680 "src/client.ml" 200 4810 4843
+type(
+  bool
+)
+"src/client.ml" 194 4594 4598 "src/client.ml" 200 4810 4843
+type(
+  bool
+)
+"src/client.ml" 193 4573 4590 "src/client.ml" 200 4810 4843
+type(
+  string -> bool
+)
+"src/client.ml" 193 4573 4585 "src/client.ml" 200 4810 4843
+type(
+  string -> string -> bool
+)
+"src/client.ml" 202 4845 4851 "src/client.ml" 202 4845 4862
+type(
+  string -> string -> bool
+)
+ident(
+  def check_stand "src/client.ml" 209 5101 5134 "src/client.ml" 211 5136 5139
+)
+"src/client.ml" 202 4845 4863 "src/client.ml" 202 4845 4870
+type(
+  string
+)
+ident(
+  def context "src/client.ml" 202 4845 4871 "src/client.ml" 209 5101 5134
+)
+"src/client.ml" 202 4845 4871 "src/client.ml" 202 4845 4872
+type(
+  string
+)
+ident(
+  def f "src/client.ml" 203 4875 4879 "src/client.ml" 209 5101 5134
+)
+"src/client.ml" 203 4875 4884 "src/client.ml" 203 4875 4885
+type(
+  request_type
+)
+"src/client.ml" 203 4875 4887 "src/client.ml" 203 4875 4890
+type(
+  string list
+)
+ident(
+  def res "src/client.ml" 204 4966 4970 "src/client.ml" 209 5101 5134
+)
+"src/client.ml" 203 4875 4884 "src/client.ml" 203 4875 4890
+type(
+  request_type * string list
+)
+"src/client.ml" 203 4875 4894 "src/client.ml" 203 4875 4901
+type(
+  request_type ->
+  string -> UnixLabels.inet_addr -> int -> request_type * string list
+)
+ident(
+  int_ref request "src/client.ml" 74 1637 1641 "src/client.ml" 74 1637 1648
+)
+"src/client.ml" 203 4875 4902 "src/client.ml" 203 4875 4918
+type(
+  request_type
+)
+"src/client.ml" 203 4875 4920 "src/client.ml" 203 4875 4927
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/client.ml" 203 4875 4928 "src/client.ml" 203 4875 4935
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/client.ml" 203 4875 4936 "src/client.ml" 203 4875 4943
+type(
+  string
+)
+ident(
+  int_ref context "src/client.ml" 202 4845 4863 "src/client.ml" 202 4845 4870
+)
+"src/client.ml" 203 4875 4944 "src/client.ml" 203 4875 4945
+type(
+  string
+)
+ident(
+  int_ref f "src/client.ml" 202 4845 4871 "src/client.ml" 202 4845 4872
+)
+"src/client.ml" 203 4875 4920 "src/client.ml" 203 4875 4945
+call(
+  stack
+)
+type(
+  string
+)
+"src/client.ml" 203 4875 4949 "src/client.ml" 203 4875 4953
+type(
+  UnixLabels.inet_addr ref
+)
+ident(
+  int_ref host "src/client.ml" 185 4353 4357 "src/client.ml" 185 4353 4361
+)
+"src/client.ml" 203 4875 4948 "src/client.ml" 203 4875 4953
+type(
+  UnixLabels.inet_addr
+)
+type(
+  UnixLabels.inet_addr ref -> UnixLabels.inet_addr
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 203 4875 4957 "src/client.ml" 203 4875 4961
+type(
+  int ref
+)
+ident(
+  int_ref port "src/client.ml" 187 4414 4418 "src/client.ml" 187 4414 4422
+)
+"src/client.ml" 203 4875 4956 "src/client.ml" 203 4875 4961
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/client.ml" 203 4875 4894 "src/client.ml" 203 4875 4962
+call(
+  stack
+)
+type(
+  request_type * string list
+)
+"src/client.ml" 204 4966 4976 "src/client.ml" 204 4966 4979
+type(
+  string list
+)
+ident(
+  int_ref res "src/client.ml" 203 4875 4887 "src/client.ml" 203 4875 4890
+)
+"src/client.ml" 205 4985 4991 "src/client.ml" 205 4985 4992
+type(
+  string
+)
+ident(
+  def r "src/client.ml" 206 5001 5007 "src/client.ml" 208 5067 5100
+)
+"src/client.ml" 205 4985 4994 "src/client.ml" 205 4985 4996
+type(
+  string list
+)
+"src/client.ml" 205 4985 4991 "src/client.ml" 205 4985 4996
+type(
+  string list
+)
+"src/client.ml" 206 5001 5010 "src/client.ml" 206 5001 5011
+type(
+  string
+)
+ident(
+  int_ref r "src/client.ml" 205 4985 4991 "src/client.ml" 205 4985 4992
+)
+"src/client.ml" 206 5001 5012 "src/client.ml" 206 5001 5013
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/client.ml" 206 5001 5014 "src/client.ml" 206 5001 5021
+type(
+  string
+)
+"src/client.ml" 206 5001 5010 "src/client.ml" 206 5001 5021
+type(
+  bool
+)
+"src/client.ml" 206 5001 5027 "src/client.ml" 206 5001 5032
+type(
+  bool
+)
+"src/client.ml" 207 5033 5047 "src/client.ml" 207 5033 5048
+type(
+  string
+)
+ident(
+  int_ref r "src/client.ml" 205 4985 4991 "src/client.ml" 205 4985 4992
+)
+"src/client.ml" 207 5033 5049 "src/client.ml" 207 5033 5050
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/client.ml" 207 5033 5051 "src/client.ml" 207 5033 5056
+type(
+  string
+)
+"src/client.ml" 207 5033 5047 "src/client.ml" 207 5033 5056
+type(
+  bool
+)
+"src/client.ml" 207 5033 5062 "src/client.ml" 207 5033 5066
+type(
+  bool
+)
+"src/client.ml" 208 5067 5078 "src/client.ml" 208 5067 5083
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 208 5067 5084 "src/client.ml" 208 5067 5100
+type(
+  exn
+)
+"src/client.ml" 208 5067 5078 "src/client.ml" 208 5067 5100
+type(
+  bool
+)
+"src/client.ml" 207 5033 5044 "src/client.ml" 208 5067 5100
+type(
+  bool
+)
+"src/client.ml" 206 5001 5007 "src/client.ml" 208 5067 5100
+type(
+  bool
+)
+"src/client.ml" 209 5101 5107 "src/client.ml" 209 5101 5108
+type(
+  string list
+)
+"src/client.ml" 209 5101 5112 "src/client.ml" 209 5101 5117
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/client.ml" 209 5101 5118 "src/client.ml" 209 5101 5134
+type(
+  exn
+)
+"src/client.ml" 209 5101 5112 "src/client.ml" 209 5101 5134
+type(
+  bool
+)
+"src/client.ml" 204 4966 4970 "src/client.ml" 209 5101 5134
+type(
+  bool
+)
+"src/client.ml" 203 4875 4879 "src/client.ml" 209 5101 5134
+type(
+  bool
+)
+"src/client.ml" 202 4845 4871 "src/client.ml" 209 5101 5134
+type(
+  string -> bool
+)
+"src/client.ml" 202 4845 4863 "src/client.ml" 209 5101 5134
+type(
+  string -> string -> bool
+)

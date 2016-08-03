@@ -1,0 +1,969 @@
+"src/info2Tbl.ml" 5 28 32 "src/info2Tbl.ml" 5 28 35
+type(
+  (string, string list) Hashtbl.t
+)
+ident(
+  def env "src/info2Tbl.ml" 7 101 101 "src/info2Tbl.ml" 1 0 -1
+)
+"src/info2Tbl.ml" 5 28 38 "src/info2Tbl.ml" 5 28 61
+type(
+  (string, string list, unit -> (string, string list) Hashtbl.t)
+  Core_kernel.Core_hashtbl_intf.create_options_with_hashable
+)
+ident(
+  ext_ref Core.Std.Hashtbl.create
+)
+"src/info2Tbl.ml" 5 28 72 "src/info2Tbl.ml" 5 28 96
+type(
+  string Pooled_hashtbl.Hashable.t
+)
+ident(
+  ext_ref Core.Std.String.hashable
+)
+"src/info2Tbl.ml" 5 28 97 "src/info2Tbl.ml" 5 28 99
+type(
+  unit
+)
+"src/info2Tbl.ml" 5 28 38 "src/info2Tbl.ml" 5 28 99
+call(
+  stack
+)
+type(
+  (string, string list) Hashtbl.t
+)
+"src/info2Tbl.ml" 7 101 105 "src/info2Tbl.ml" 7 101 113
+type(
+  in_channel -> (string, string list) Hashtbl.t -> bool
+)
+ident(
+  def readLine "src/info2Tbl.ml" 30 920 920 "src/info2Tbl.ml" 1 0 -1
+)
+"src/info2Tbl.ml" 7 101 114 "src/info2Tbl.ml" 7 101 120
+type(
+  in_channel
+)
+ident(
+  def inChan "src/info2Tbl.ml" 7 101 121 "src/info2Tbl.ml" 28 902 918
+)
+"src/info2Tbl.ml" 7 101 121 "src/info2Tbl.ml" 7 101 124
+type(
+  (string, string list) Hashtbl.t
+)
+ident(
+  def tbl "src/info2Tbl.ml" 8 126 129 "src/info2Tbl.ml" 28 902 918
+)
+"src/info2Tbl.ml" 8 126 133 "src/info2Tbl.ml" 8 126 140
+type(
+  string option
+)
+ident(
+  def lineOpt "src/info2Tbl.ml" 9 183 184 "src/info2Tbl.ml" 28 902 918
+)
+"src/info2Tbl.ml" 8 126 141 "src/info2Tbl.ml" 8 126 171
+type(
+  ?fix_win_eol:bool -> in_channel -> string option
+)
+ident(
+  ext_ref Core.Std.In_channel.input_line
+)
+"src/info2Tbl.ml" 8 126 173 "src/info2Tbl.ml" 8 126 179
+type(
+  in_channel
+)
+ident(
+  int_ref inChan "src/info2Tbl.ml" 7 101 114 "src/info2Tbl.ml" 7 101 120
+)
+"src/info2Tbl.ml" 8 126 141 "src/info2Tbl.ml" 8 126 179
+call(
+  stack
+)
+type(
+  string option
+)
+"src/info2Tbl.ml" 9 183 190 "src/info2Tbl.ml" 9 183 197
+type(
+  string option
+)
+ident(
+  int_ref lineOpt "src/info2Tbl.ml" 8 126 133 "src/info2Tbl.ml" 8 126 140
+)
+"src/info2Tbl.ml" 10 203 207 "src/info2Tbl.ml" 10 203 211
+type(
+  string option
+)
+"src/info2Tbl.ml" 10 203 213 "src/info2Tbl.ml" 10 203 217
+type(
+  bool
+)
+"src/info2Tbl.ml" 11 218 227 "src/info2Tbl.ml" 11 218 231
+type(
+  string
+)
+ident(
+  def line "src/info2Tbl.ml" 12 235 242 "src/info2Tbl.ml" 28 902 918
+)
+"src/info2Tbl.ml" 11 218 222 "src/info2Tbl.ml" 11 218 232
+type(
+  string option
+)
+"src/info2Tbl.ml" 12 235 242 "src/info2Tbl.ml" 12 235 248
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"src/info2Tbl.ml" 12 235 249 "src/info2Tbl.ml" 12 235 255
+type(
+  (string -> unit, out_channel, unit) format
+)
+"src/info2Tbl.ml" 12 235 256 "src/info2Tbl.ml" 12 235 260
+type(
+  string
+)
+ident(
+  int_ref line "src/info2Tbl.ml" 11 218 227 "src/info2Tbl.ml" 11 218 231
+)
+"src/info2Tbl.ml" 12 235 242 "src/info2Tbl.ml" 12 235 260
+call(
+  stack
+)
+type(
+  unit
+)
+"src/info2Tbl.ml" 13 263 269 "src/info2Tbl.ml" 13 263 279
+type(
+  bool
+)
+ident(
+  def matchComma "src/info2Tbl.ml" 14 326 328 "src/info2Tbl.ml" 28 902 918
+)
+"src/info2Tbl.ml" 13 263 280 "src/info2Tbl.ml" 13 263 296
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"src/info2Tbl.ml" 13 263 298 "src/info2Tbl.ml" 13 263 308
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"src/info2Tbl.ml" 13 263 309 "src/info2Tbl.ml" 13 263 314
+type(
+  string
+)
+"src/info2Tbl.ml" 13 263 298 "src/info2Tbl.ml" 13 263 314
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"src/info2Tbl.ml" 13 263 316 "src/info2Tbl.ml" 13 263 320
+type(
+  string
+)
+ident(
+  int_ref line "src/info2Tbl.ml" 11 218 227 "src/info2Tbl.ml" 11 218 231
+)
+"src/info2Tbl.ml" 13 263 321 "src/info2Tbl.ml" 13 263 322
+type(
+  int
+)
+"src/info2Tbl.ml" 13 263 280 "src/info2Tbl.ml" 13 263 322
+call(
+  stack
+)
+type(
+  bool
+)
+"src/info2Tbl.ml" 14 326 332 "src/info2Tbl.ml" 14 326 335
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/info2Tbl.ml" 14 326 336 "src/info2Tbl.ml" 14 326 346
+type(
+  bool
+)
+ident(
+  int_ref matchComma "src/info2Tbl.ml" 13 263 269 "src/info2Tbl.ml" 13 263 279
+)
+"src/info2Tbl.ml" 14 326 332 "src/info2Tbl.ml" 14 326 348
+type(
+  bool
+)
+"src/info2Tbl.ml" 15 354 355 "src/info2Tbl.ml" 15 354 360
+type(
+  bool
+)
+"src/info2Tbl.ml" 17 368 373 "src/info2Tbl.ml" 17 368 382
+type(
+  string list
+)
+ident(
+  def var_Range "src/info2Tbl.ml" 18 418 419 "src/info2Tbl.ml" 28 902 918
+)
+"src/info2Tbl.ml" 17 368 383 "src/info2Tbl.ml" 17 368 392
+type(
+  Str.regexp -> string -> string list
+)
+ident(
+  ext_ref Str.split
+)
+"src/info2Tbl.ml" 17 368 394 "src/info2Tbl.ml" 17 368 404
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"src/info2Tbl.ml" 17 368 405 "src/info2Tbl.ml" 17 368 408
+type(
+  string
+)
+"src/info2Tbl.ml" 17 368 394 "src/info2Tbl.ml" 17 368 408
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"src/info2Tbl.ml" 17 368 410 "src/info2Tbl.ml" 17 368 414
+type(
+  string
+)
+ident(
+  int_ref line "src/info2Tbl.ml" 11 218 227 "src/info2Tbl.ml" 11 218 231
+)
+"src/info2Tbl.ml" 17 368 383 "src/info2Tbl.ml" 17 368 414
+call(
+  stack
+)
+type(
+  string list
+)
+"src/info2Tbl.ml" 18 418 423 "src/info2Tbl.ml" 18 418 426
+type(
+  string option
+)
+ident(
+  def var "src/info2Tbl.ml" 20 461 464 "src/info2Tbl.ml" 28 902 918
+)
+"src/info2Tbl.ml" 18 418 427 "src/info2Tbl.ml" 18 418 443
+type(
+  string list -> string option
+)
+ident(
+  ext_ref Core.Std.List.hd
+)
+"src/info2Tbl.ml" 18 418 444 "src/info2Tbl.ml" 18 418 453
+type(
+  string list
+)
+ident(
+  int_ref var_Range "src/info2Tbl.ml" 17 368 373 "src/info2Tbl.ml" 17 368 382
+)
+"src/info2Tbl.ml" 18 418 427 "src/info2Tbl.ml" 18 418 453
+call(
+  stack
+)
+type(
+  string option
+)
+"src/info2Tbl.ml" 20 461 474 "src/info2Tbl.ml" 20 461 477
+type(
+  string
+)
+ident(
+  def var "src/info2Tbl.ml" 21 486 489 "src/info2Tbl.ml" 28 902 918
+)
+"src/info2Tbl.ml" 20 461 469 "src/info2Tbl.ml" 20 461 478
+type(
+  string option
+)
+"src/info2Tbl.ml" 20 461 479 "src/info2Tbl.ml" 20 461 482
+type(
+  string option
+)
+ident(
+  int_ref var "src/info2Tbl.ml" 18 418 423 "src/info2Tbl.ml" 18 418 426
+)
+"src/info2Tbl.ml" 21 486 493 "src/info2Tbl.ml" 21 486 496
+type(
+  string
+)
+ident(
+  def var "src/info2Tbl.ml" 22 549 552 "src/info2Tbl.ml" 28 902 918
+)
+"src/info2Tbl.ml" 21 486 497 "src/info2Tbl.ml" 21 486 515
+type(
+  Str.regexp -> string -> string -> string
+)
+ident(
+  ext_ref Str.global_replace
+)
+"src/info2Tbl.ml" 21 486 517 "src/info2Tbl.ml" 21 486 527
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"src/info2Tbl.ml" 21 486 528 "src/info2Tbl.ml" 21 486 536
+type(
+  string
+)
+"src/info2Tbl.ml" 21 486 517 "src/info2Tbl.ml" 21 486 536
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"src/info2Tbl.ml" 21 486 538 "src/info2Tbl.ml" 21 486 540
+type(
+  string
+)
+"src/info2Tbl.ml" 21 486 542 "src/info2Tbl.ml" 21 486 545
+type(
+  string
+)
+ident(
+  int_ref var "src/info2Tbl.ml" 20 461 474 "src/info2Tbl.ml" 20 461 477
+)
+"src/info2Tbl.ml" 21 486 497 "src/info2Tbl.ml" 21 486 545
+call(
+  stack
+)
+type(
+  string
+)
+"src/info2Tbl.ml" 22 549 561 "src/info2Tbl.ml" 22 549 566
+type(
+  string list
+)
+ident(
+  def range "src/info2Tbl.ml" 23 600 601 "src/info2Tbl.ml" 28 902 918
+)
+"src/info2Tbl.ml" 22 549 556 "src/info2Tbl.ml" 22 549 567
+type(
+  string list option
+)
+"src/info2Tbl.ml" 22 549 569 "src/info2Tbl.ml" 22 549 585
+type(
+  string list -> string list option
+)
+ident(
+  ext_ref Core.Std.List.tl
+)
+"src/info2Tbl.ml" 22 549 586 "src/info2Tbl.ml" 22 549 595
+type(
+  string list
+)
+ident(
+  int_ref var_Range "src/info2Tbl.ml" 17 368 373 "src/info2Tbl.ml" 17 368 382
+)
+"src/info2Tbl.ml" 22 549 569 "src/info2Tbl.ml" 22 549 595
+call(
+  stack
+)
+type(
+  string list option
+)
+"src/info2Tbl.ml" 23 600 610 "src/info2Tbl.ml" 23 600 615
+type(
+  string
+)
+ident(
+  def range "src/info2Tbl.ml" 24 646 650 "src/info2Tbl.ml" 28 902 918
+)
+"src/info2Tbl.ml" 23 600 605 "src/info2Tbl.ml" 23 600 616
+type(
+  string option
+)
+"src/info2Tbl.ml" 23 600 617 "src/info2Tbl.ml" 23 600 633
+type(
+  string list -> string option
+)
+ident(
+  ext_ref Core.Std.List.hd
+)
+"src/info2Tbl.ml" 23 600 635 "src/info2Tbl.ml" 23 600 640
+type(
+  string list
+)
+ident(
+  int_ref range "src/info2Tbl.ml" 22 549 561 "src/info2Tbl.ml" 22 549 566
+)
+"src/info2Tbl.ml" 23 600 617 "src/info2Tbl.ml" 23 600 642
+call(
+  stack
+)
+type(
+  string option
+)
+"src/info2Tbl.ml" 24 646 654 "src/info2Tbl.ml" 24 646 659
+type(
+  string
+)
+ident(
+  def range "src/info2Tbl.ml" 25 714 718 "src/info2Tbl.ml" 28 902 918
+)
+"src/info2Tbl.ml" 24 646 660 "src/info2Tbl.ml" 24 646 678
+type(
+  Str.regexp -> string -> string -> string
+)
+ident(
+  ext_ref Str.global_replace
+)
+"src/info2Tbl.ml" 24 646 680 "src/info2Tbl.ml" 24 646 690
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"src/info2Tbl.ml" 24 646 691 "src/info2Tbl.ml" 24 646 699
+type(
+  string
+)
+"src/info2Tbl.ml" 24 646 680 "src/info2Tbl.ml" 24 646 699
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"src/info2Tbl.ml" 24 646 701 "src/info2Tbl.ml" 24 646 703
+type(
+  string
+)
+"src/info2Tbl.ml" 24 646 705 "src/info2Tbl.ml" 24 646 710
+type(
+  string
+)
+ident(
+  int_ref range "src/info2Tbl.ml" 23 600 610 "src/info2Tbl.ml" 23 600 615
+)
+"src/info2Tbl.ml" 24 646 660 "src/info2Tbl.ml" 24 646 710
+call(
+  stack
+)
+type(
+  string
+)
+"src/info2Tbl.ml" 25 714 722 "src/info2Tbl.ml" 25 714 727
+type(
+  string list
+)
+ident(
+  def range "src/info2Tbl.ml" 26 764 768 "src/info2Tbl.ml" 28 902 918
+)
+"src/info2Tbl.ml" 25 714 728 "src/info2Tbl.ml" 25 714 737
+type(
+  Str.regexp -> string -> string list
+)
+ident(
+  ext_ref Str.split
+)
+"src/info2Tbl.ml" 25 714 739 "src/info2Tbl.ml" 25 714 749
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"src/info2Tbl.ml" 25 714 750 "src/info2Tbl.ml" 25 714 753
+type(
+  string
+)
+"src/info2Tbl.ml" 25 714 739 "src/info2Tbl.ml" 25 714 753
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"src/info2Tbl.ml" 25 714 755 "src/info2Tbl.ml" 25 714 760
+type(
+  string
+)
+ident(
+  int_ref range "src/info2Tbl.ml" 24 646 654 "src/info2Tbl.ml" 24 646 659
+)
+"src/info2Tbl.ml" 25 714 728 "src/info2Tbl.ml" 25 714 760
+call(
+  stack
+)
+type(
+  string list
+)
+"src/info2Tbl.ml" 26 764 772 "src/info2Tbl.ml" 26 764 777
+type(
+  string list
+)
+ident(
+  def range "src/info2Tbl.ml" 27 838 842 "src/info2Tbl.ml" 28 902 918
+)
+"src/info2Tbl.ml" 26 764 782 "src/info2Tbl.ml" 26 764 793
+type(
+  string list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"src/info2Tbl.ml" 26 764 794 "src/info2Tbl.ml" 26 764 799
+type(
+  string list
+)
+ident(
+  int_ref range "src/info2Tbl.ml" 25 714 722 "src/info2Tbl.ml" 25 714 727
+)
+"src/info2Tbl.ml" 26 764 782 "src/info2Tbl.ml" 26 764 799
+call(
+  stack
+)
+type(
+  int
+)
+"src/info2Tbl.ml" 26 764 799 "src/info2Tbl.ml" 26 764 800
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/info2Tbl.ml" 26 764 800 "src/info2Tbl.ml" 26 764 801
+type(
+  int
+)
+"src/info2Tbl.ml" 26 764 782 "src/info2Tbl.ml" 26 764 801
+type(
+  bool
+)
+"src/info2Tbl.ml" 26 764 809 "src/info2Tbl.ml" 26 764 815
+type(
+  string
+)
+"src/info2Tbl.ml" 26 764 816 "src/info2Tbl.ml" 26 764 822
+type(
+  string
+)
+type(
+  string list
+)
+"src/info2Tbl.ml" 26 764 809 "src/info2Tbl.ml" 26 764 822
+type(
+  string list
+)
+"src/info2Tbl.ml" 26 764 808 "src/info2Tbl.ml" 26 764 823
+type(
+  string list
+)
+"src/info2Tbl.ml" 26 764 829 "src/info2Tbl.ml" 26 764 834
+type(
+  string list
+)
+ident(
+  int_ref range "src/info2Tbl.ml" 25 714 722 "src/info2Tbl.ml" 25 714 727
+)
+"src/info2Tbl.ml" 26 764 778 "src/info2Tbl.ml" 26 764 834
+type(
+  string list
+)
+"src/info2Tbl.ml" 27 838 846 "src/info2Tbl.ml" 27 838 848
+type(
+  unit
+)
+"src/info2Tbl.ml" 27 838 849 "src/info2Tbl.ml" 27 838 873
+type(
+  (string, string list) Hashtbl.t -> key:string -> data:string list -> unit
+)
+ident(
+  ext_ref Core.Std.Hashtbl.replace
+)
+"src/info2Tbl.ml" 27 838 874 "src/info2Tbl.ml" 27 838 877
+type(
+  (string, string list) Hashtbl.t
+)
+ident(
+  int_ref tbl "src/info2Tbl.ml" 7 101 121 "src/info2Tbl.ml" 7 101 124
+)
+"src/info2Tbl.ml" 27 838 883 "src/info2Tbl.ml" 27 838 886
+type(
+  string
+)
+ident(
+  int_ref var "src/info2Tbl.ml" 21 486 493 "src/info2Tbl.ml" 21 486 496
+)
+"src/info2Tbl.ml" 27 838 893 "src/info2Tbl.ml" 27 838 898
+type(
+  string list
+)
+ident(
+  int_ref range "src/info2Tbl.ml" 26 764 772 "src/info2Tbl.ml" 26 764 777
+)
+"src/info2Tbl.ml" 27 838 849 "src/info2Tbl.ml" 27 838 898
+call(
+  stack
+)
+type(
+  unit
+)
+"src/info2Tbl.ml" 28 902 913 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 27 838 842 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 26 764 768 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 25 714 718 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 24 646 650 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 23 600 601 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 22 549 552 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 21 486 489 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 20 461 464 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 18 418 419 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 17 368 369 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 14 326 328 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 13 263 265 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 12 235 242 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 9 183 184 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 8 126 129 "src/info2Tbl.ml" 28 902 918
+type(
+  bool
+)
+"src/info2Tbl.ml" 7 101 121 "src/info2Tbl.ml" 28 902 918
+type(
+  (string, string list) Hashtbl.t -> bool
+)
+"src/info2Tbl.ml" 7 101 114 "src/info2Tbl.ml" 28 902 918
+type(
+  in_channel -> (string, string list) Hashtbl.t -> bool
+)
+"src/info2Tbl.ml" 30 920 928 "src/info2Tbl.ml" 30 920 937
+type(
+  in_channel -> (string, string list) Hashtbl.t -> unit
+)
+ident(
+  def readLines "src/info2Tbl.ml" 30 920 920 "src/info2Tbl.ml" 1 0 -1
+)
+"src/info2Tbl.ml" 30 920 938 "src/info2Tbl.ml" 30 920 944
+type(
+  in_channel
+)
+ident(
+  def inChan "src/info2Tbl.ml" 30 920 945 "src/info2Tbl.ml" 33 1022 1051
+)
+"src/info2Tbl.ml" 30 920 945 "src/info2Tbl.ml" 30 920 948
+type(
+  (string, string list) Hashtbl.t
+)
+ident(
+  def tbl "src/info2Tbl.ml" 31 950 953 "src/info2Tbl.ml" 33 1022 1051
+)
+"src/info2Tbl.ml" 31 950 957 "src/info2Tbl.ml" 31 950 965
+type(
+  in_channel -> (string, string list) Hashtbl.t -> bool
+)
+ident(
+  int_ref readLine "src/info2Tbl.ml" 7 101 105 "src/info2Tbl.ml" 7 101 113
+)
+"src/info2Tbl.ml" 31 950 966 "src/info2Tbl.ml" 31 950 972
+type(
+  in_channel
+)
+ident(
+  int_ref inChan "src/info2Tbl.ml" 30 920 938 "src/info2Tbl.ml" 30 920 944
+)
+"src/info2Tbl.ml" 31 950 973 "src/info2Tbl.ml" 31 950 976
+type(
+  (string, string list) Hashtbl.t
+)
+ident(
+  int_ref tbl "src/info2Tbl.ml" 30 920 945 "src/info2Tbl.ml" 30 920 948
+)
+"src/info2Tbl.ml" 31 950 957 "src/info2Tbl.ml" 31 950 976
+call(
+  stack
+)
+type(
+  bool
+)
+"src/info2Tbl.ml" 32 983 989 "src/info2Tbl.ml" 32 983 1014
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Core.Std.In_channel.close
+)
+"src/info2Tbl.ml" 32 983 1015 "src/info2Tbl.ml" 32 983 1021
+type(
+  in_channel
+)
+ident(
+  int_ref inChan "src/info2Tbl.ml" 30 920 938 "src/info2Tbl.ml" 30 920 944
+)
+"src/info2Tbl.ml" 32 983 989 "src/info2Tbl.ml" 32 983 1021
+call(
+  tail
+)
+type(
+  unit
+)
+"src/info2Tbl.ml" 33 1022 1031 "src/info2Tbl.ml" 33 1022 1040
+type(
+  in_channel -> (string, string list) Hashtbl.t -> unit
+)
+ident(
+  int_ref readLines "src/info2Tbl.ml" 30 920 928 "src/info2Tbl.ml" 30 920 937
+)
+"src/info2Tbl.ml" 33 1022 1041 "src/info2Tbl.ml" 33 1022 1047
+type(
+  in_channel
+)
+ident(
+  int_ref inChan "src/info2Tbl.ml" 30 920 938 "src/info2Tbl.ml" 30 920 944
+)
+"src/info2Tbl.ml" 33 1022 1048 "src/info2Tbl.ml" 33 1022 1051
+type(
+  (string, string list) Hashtbl.t
+)
+ident(
+  int_ref tbl "src/info2Tbl.ml" 30 920 945 "src/info2Tbl.ml" 30 920 948
+)
+"src/info2Tbl.ml" 33 1022 1031 "src/info2Tbl.ml" 33 1022 1051
+call(
+  tail
+)
+type(
+  unit
+)
+"src/info2Tbl.ml" 31 950 953 "src/info2Tbl.ml" 33 1022 1051
+type(
+  unit
+)
+"src/info2Tbl.ml" 30 920 945 "src/info2Tbl.ml" 33 1022 1051
+type(
+  (string, string list) Hashtbl.t -> unit
+)
+"src/info2Tbl.ml" 30 920 938 "src/info2Tbl.ml" 33 1022 1051
+type(
+  in_channel -> (string, string list) Hashtbl.t -> unit
+)
+"src/info2Tbl.ml" 37 1060 1064 "src/info2Tbl.ml" 37 1060 1072
+type(
+  string -> unit
+)
+ident(
+  def info2Tbl "src/info2Tbl.ml" 42 1213 1214 "src/info2Tbl.ml" 1 0 -1
+)
+"src/info2Tbl.ml" 37 1060 1073 "src/info2Tbl.ml" 37 1060 1077
+type(
+  string
+)
+ident(
+  def file "src/info2Tbl.ml" 38 1080 1083 "src/info2Tbl.ml" 40 1184 1211
+)
+"src/info2Tbl.ml" 38 1080 1087 "src/info2Tbl.ml" 38 1080 1093
+type(
+  in_channel
+)
+ident(
+  def inChan "src/info2Tbl.ml" 39 1131 1133 "src/info2Tbl.ml" 40 1184 1211
+)
+"src/info2Tbl.ml" 38 1080 1096 "src/info2Tbl.ml" 38 1080 1122
+type(
+  ?binary:bool -> string -> in_channel
+)
+ident(
+  ext_ref Core.Std.In_channel.create
+)
+"src/info2Tbl.ml" 38 1080 1123 "src/info2Tbl.ml" 38 1080 1127
+type(
+  string
+)
+ident(
+  int_ref file "src/info2Tbl.ml" 37 1060 1073 "src/info2Tbl.ml" 37 1060 1077
+)
+"src/info2Tbl.ml" 38 1080 1096 "src/info2Tbl.ml" 38 1080 1127
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/info2Tbl.ml" 39 1131 1137 "src/info2Tbl.ml" 39 1131 1141
+type(
+  string option
+)
+ident(
+  def line "src/info2Tbl.ml" 40 1184 1191 "src/info2Tbl.ml" 40 1184 1211
+)
+"src/info2Tbl.ml" 39 1131 1142 "src/info2Tbl.ml" 39 1131 1172
+type(
+  ?fix_win_eol:bool -> in_channel -> string option
+)
+ident(
+  ext_ref Core.Std.In_channel.input_line
+)
+"src/info2Tbl.ml" 39 1131 1174 "src/info2Tbl.ml" 39 1131 1180
+type(
+  in_channel
+)
+ident(
+  int_ref inChan "src/info2Tbl.ml" 38 1080 1087 "src/info2Tbl.ml" 38 1080 1093
+)
+"src/info2Tbl.ml" 39 1131 1142 "src/info2Tbl.ml" 39 1131 1180
+call(
+  stack
+)
+type(
+  string option
+)
+"src/info2Tbl.ml" 40 1184 1191 "src/info2Tbl.ml" 40 1184 1200
+type(
+  in_channel -> (string, string list) Hashtbl.t -> unit
+)
+ident(
+  int_ref readLines "src/info2Tbl.ml" 30 920 928 "src/info2Tbl.ml" 30 920 937
+)
+"src/info2Tbl.ml" 40 1184 1201 "src/info2Tbl.ml" 40 1184 1207
+type(
+  in_channel
+)
+ident(
+  int_ref inChan "src/info2Tbl.ml" 38 1080 1087 "src/info2Tbl.ml" 38 1080 1093
+)
+"src/info2Tbl.ml" 40 1184 1208 "src/info2Tbl.ml" 40 1184 1211
+type(
+  (string, string list) Hashtbl.t
+)
+ident(
+  int_ref env "src/info2Tbl.ml" 5 28 32 "src/info2Tbl.ml" 5 28 35
+)
+"src/info2Tbl.ml" 40 1184 1191 "src/info2Tbl.ml" 40 1184 1211
+call(
+  tail
+)
+type(
+  unit
+)
+"src/info2Tbl.ml" 39 1131 1133 "src/info2Tbl.ml" 40 1184 1211
+type(
+  unit
+)
+"src/info2Tbl.ml" 38 1080 1083 "src/info2Tbl.ml" 40 1184 1211
+type(
+  unit
+)
+"src/info2Tbl.ml" 37 1060 1073 "src/info2Tbl.ml" 40 1184 1211
+type(
+  string -> unit
+)
+"src/info2Tbl.ml" 42 1213 1218 "src/info2Tbl.ml" 42 1213 1221
+type(
+  unit -> (string, string list) Hashtbl.t
+)
+ident(
+  def get "src/info2Tbl.ml" 44 1230 1230 "src/info2Tbl.ml" 1 0 -1
+)
+"src/info2Tbl.ml" 42 1213 1222 "src/info2Tbl.ml" 42 1213 1224
+type(
+  unit
+)
+"src/info2Tbl.ml" 42 1213 1225 "src/info2Tbl.ml" 42 1213 1228
+type(
+  (string, string list) Hashtbl.t
+)
+ident(
+  int_ref env "src/info2Tbl.ml" 5 28 32 "src/info2Tbl.ml" 5 28 35
+)
+"src/info2Tbl.ml" 42 1213 1222 "src/info2Tbl.ml" 42 1213 1228
+type(
+  unit -> (string, string list) Hashtbl.t
+)
+"src/info2Tbl.ml" 44 1230 1234 "src/info2Tbl.ml" 44 1230 1239
+type(
+  unit -> unit
+)
+ident(
+  def reset "src/info2Tbl.ml" 44 1230 1269 "src/info2Tbl.ml" 1 0 -1
+)
+"src/info2Tbl.ml" 44 1230 1240 "src/info2Tbl.ml" 44 1230 1242
+type(
+  unit
+)
+"src/info2Tbl.ml" 44 1230 1243 "src/info2Tbl.ml" 44 1230 1265
+type(
+  (string, string list) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Core.Std.Hashtbl.clear
+)
+"src/info2Tbl.ml" 44 1230 1266 "src/info2Tbl.ml" 44 1230 1269
+type(
+  (string, string list) Hashtbl.t
+)
+ident(
+  int_ref env "src/info2Tbl.ml" 5 28 32 "src/info2Tbl.ml" 5 28 35
+)
+"src/info2Tbl.ml" 44 1230 1243 "src/info2Tbl.ml" 44 1230 1269
+call(
+  tail
+)
+type(
+  unit
+)
+"src/info2Tbl.ml" 44 1230 1240 "src/info2Tbl.ml" 44 1230 1269
+type(
+  unit -> unit
+)

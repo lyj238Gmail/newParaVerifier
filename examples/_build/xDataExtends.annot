@@ -1,0 +1,40 @@
+"xDataExtends.ml" 1 0 0 "xDataExtends.ml" 1 0 27
+type(
+  string -> unit
+)
+ident(
+  ext_ref TransCsvWithX.transCsvWithX
+)
+"xDataExtends.ml" 1 0 28 "xDataExtends.ml" 1 0 44
+type(
+  string
+)
+"xDataExtends.ml" 1 0 0 "xDataExtends.ml" 1 0 44
+call(
+  stack
+)
+type(
+  unit
+)
+"xDataExtends.ml" 2 46 46 "xDataExtends.ml" 2 46 73
+type(
+  string -> unit
+)
+ident(
+  ext_ref TransCsvWithX.transCsvWithX
+)
+"xDataExtends.ml" 2 46 74 "xDataExtends.ml" 2 46 88
+type(
+  string
+)
+"xDataExtends.ml" 2 46 46 "xDataExtends.ml" 2 46 88
+call(
+  stack
+)
+type(
+  unit
+)
+"xDataExtends.ml" 1 0 0 "xDataExtends.ml" 2 46 88
+type(
+  unit
+)

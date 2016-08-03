@@ -1,0 +1,400 @@
+"src/smt.ml" 11 165 169 "src/smt.ml" 11 165 182
+type(
+  string ref
+)
+ident(
+  def protocol_name "src/smt.ml" 13 193 193 "src/smt.ml" 1 0 -1
+)
+"src/smt.ml" 11 165 185 "src/smt.ml" 11 165 188
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/smt.ml" 11 165 189 "src/smt.ml" 11 165 191
+type(
+  string
+)
+"src/smt.ml" 11 165 185 "src/smt.ml" 11 165 191
+type(
+  string ref
+)
+"src/smt.ml" 13 193 197 "src/smt.ml" 13 193 202
+type(
+  (string, bool) Hashtbl.t
+)
+ident(
+  def table "src/smt.ml" 15 250 250 "src/smt.ml" 1 0 -1
+)
+"src/smt.ml" 13 193 205 "src/smt.ml" 13 193 219
+type(
+  (string, bool, unit -> (string, bool) Hashtbl.t)
+  Core_kernel.Core_hashtbl_intf.create_options_with_hashable
+)
+ident(
+  ext_ref Core.Std.Hashtbl.create
+)
+"src/smt.ml" 13 193 230 "src/smt.ml" 13 193 245
+type(
+  string Pooled_hashtbl.Hashable.t
+)
+ident(
+  ext_ref Core.Std.String.hashable
+)
+"src/smt.ml" 13 193 246 "src/smt.ml" 13 193 248
+type(
+  unit
+)
+"src/smt.ml" 13 193 205 "src/smt.ml" 13 193 248
+call(
+  stack
+)
+type(
+  (string, bool) Hashtbl.t
+)
+"src/smt.ml" 15 250 254 "src/smt.ml" 15 250 265
+type(
+  string -> string -> bool
+)
+ident(
+  def set_context "src/smt.ml" 25 561 561 "src/smt.ml" 1 0 -1
+)
+"src/smt.ml" 15 250 266 "src/smt.ml" 15 250 270
+type(
+  string
+)
+ident(
+  def name "src/smt.ml" 15 250 271 "src/smt.ml" 17 306 344
+)
+"src/smt.ml" 15 250 271 "src/smt.ml" 15 250 278
+type(
+  string
+)
+ident(
+  def context "src/smt.ml" 16 281 283 "src/smt.ml" 17 306 344
+)
+"src/smt.ml" 16 281 283 "src/smt.ml" 16 281 296
+type(
+  string ref
+)
+ident(
+  int_ref protocol_name "src/smt.ml" 11 165 169 "src/smt.ml" 11 165 182
+)
+"src/smt.ml" 16 281 300 "src/smt.ml" 16 281 304
+type(
+  string
+)
+ident(
+  int_ref name "src/smt.ml" 15 250 266 "src/smt.ml" 15 250 270
+)
+"src/smt.ml" 16 281 283 "src/smt.ml" 16 281 304
+type(
+  unit
+)
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/smt.ml" 17 306 308 "src/smt.ml" 17 306 331
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Client.Smt2.set_context
+)
+"src/smt.ml" 17 306 332 "src/smt.ml" 17 306 336
+type(
+  string
+)
+ident(
+  int_ref name "src/smt.ml" 15 250 266 "src/smt.ml" 15 250 270
+)
+"src/smt.ml" 17 306 337 "src/smt.ml" 17 306 344
+type(
+  string
+)
+ident(
+  int_ref context "src/smt.ml" 15 250 271 "src/smt.ml" 15 250 278
+)
+"src/smt.ml" 17 306 308 "src/smt.ml" 17 306 344
+call(
+  tail
+)
+type(
+  bool
+)
+"src/smt.ml" 16 281 283 "src/smt.ml" 17 306 344
+type(
+  bool
+)
+"src/smt.ml" 15 250 271 "src/smt.ml" 17 306 344
+type(
+  string -> bool
+)
+"src/smt.ml" 15 250 266 "src/smt.ml" 17 306 344
+type(
+  string -> string -> bool
+)
+"src/smt.ml" 25 561 565 "src/smt.ml" 25 561 579
+type(
+  ?quiet:bool -> string -> bool
+)
+ident(
+  def is_satisfiable "src/smt.ml" 33 840 847 "src/smt.ml" 1 0 -1
+)
+"src/smt.ml" 25 561 588 "src/smt.ml" 25 561 592
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/smt.ml" 25 561 588 "src/smt.ml" 25 561 592
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/smt.ml" 25 561 580 "src/smt.ml" 25 561 593
+type(
+  bool
+)
+"src/smt.ml" 25 561 594 "src/smt.ml" 25 561 595
+type(
+  string
+)
+ident(
+  def f "src/smt.ml" 26 598 600 "src/smt.ml" 33 840 847
+)
+"src/smt.ml" 26 598 606 "src/smt.ml" 26 598 618
+type(
+  (string, bool) Hashtbl.t -> string -> bool option
+)
+ident(
+  ext_ref Core.Std.Hashtbl.find
+)
+"src/smt.ml" 26 598 619 "src/smt.ml" 26 598 624
+type(
+  (string, bool) Hashtbl.t
+)
+ident(
+  int_ref table "src/smt.ml" 13 193 197 "src/smt.ml" 13 193 202
+)
+"src/smt.ml" 26 598 625 "src/smt.ml" 26 598 626
+type(
+  string
+)
+ident(
+  int_ref f "src/smt.ml" 25 561 594 "src/smt.ml" 25 561 595
+)
+"src/smt.ml" 26 598 606 "src/smt.ml" 26 598 626
+call(
+  stack
+)
+type(
+  bool option
+)
+"src/smt.ml" 27 632 642 "src/smt.ml" 27 632 643
+type(
+  bool
+)
+ident(
+  def r "src/smt.ml" 27 632 648 "src/smt.ml" 27 632 649
+)
+"src/smt.ml" 27 632 636 "src/smt.ml" 27 632 644
+type(
+  bool option
+)
+"src/smt.ml" 27 632 648 "src/smt.ml" 27 632 649
+type(
+  bool
+)
+ident(
+  int_ref r "src/smt.ml" 27 632 642 "src/smt.ml" 27 632 643
+)
+"src/smt.ml" 28 650 654 "src/smt.ml" 28 650 658
+type(
+  bool option
+)
+"src/smt.ml" 29 663 672 "src/smt.ml" 29 663 685
+type(
+  string ref
+)
+ident(
+  int_ref protocol_name "src/smt.ml" 11 165 169 "src/smt.ml" 11 165 182
+)
+"src/smt.ml" 29 663 671 "src/smt.ml" 29 663 685
+type(
+  string
+)
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/smt.ml" 29 663 687 "src/smt.ml" 29 663 688
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/smt.ml" 29 663 689 "src/smt.ml" 29 663 691
+type(
+  string
+)
+"src/smt.ml" 29 663 670 "src/smt.ml" 29 663 691
+type(
+  bool
+)
+"src/smt.ml" 29 663 697 "src/smt.ml" 29 663 702
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/smt.ml" 29 663 703 "src/smt.ml" 29 663 724
+type(
+  exn
+)
+"src/smt.ml" 29 663 697 "src/smt.ml" 29 663 724
+type(
+  bool
+)
+"src/smt.ml" 31 740 750 "src/smt.ml" 31 740 751
+type(
+  bool
+)
+ident(
+  def r "src/smt.ml" 32 794 800 "src/smt.ml" 32 794 839
+)
+"src/smt.ml" 31 740 754 "src/smt.ml" 31 740 771
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Client.Smt2.check
+)
+"src/smt.ml" 31 740 774 "src/smt.ml" 31 740 787
+type(
+  string ref
+)
+ident(
+  int_ref protocol_name "src/smt.ml" 11 165 169 "src/smt.ml" 11 165 182
+)
+"src/smt.ml" 31 740 773 "src/smt.ml" 31 740 787
+type(
+  string
+)
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/smt.ml" 31 740 789 "src/smt.ml" 31 740 790
+type(
+  string
+)
+ident(
+  int_ref f "src/smt.ml" 25 561 594 "src/smt.ml" 25 561 595
+)
+"src/smt.ml" 31 740 754 "src/smt.ml" 31 740 790
+call(
+  stack
+)
+type(
+  bool
+)
+"src/smt.ml" 32 794 800 "src/smt.ml" 32 794 815
+type(
+  (string, bool) Hashtbl.t -> key:string -> data:bool -> unit
+)
+ident(
+  ext_ref Core.Std.Hashtbl.replace
+)
+"src/smt.ml" 32 794 816 "src/smt.ml" 32 794 821
+type(
+  (string, bool) Hashtbl.t
+)
+ident(
+  int_ref table "src/smt.ml" 13 193 197 "src/smt.ml" 13 193 202
+)
+"src/smt.ml" 32 794 827 "src/smt.ml" 32 794 828
+type(
+  string
+)
+ident(
+  int_ref f "src/smt.ml" 25 561 594 "src/smt.ml" 25 561 595
+)
+"src/smt.ml" 32 794 835 "src/smt.ml" 32 794 836
+type(
+  bool
+)
+ident(
+  int_ref r "src/smt.ml" 31 740 750 "src/smt.ml" 31 740 751
+)
+"src/smt.ml" 32 794 800 "src/smt.ml" 32 794 836
+call(
+  stack
+)
+type(
+  unit
+)
+"src/smt.ml" 32 794 838 "src/smt.ml" 32 794 839
+type(
+  bool
+)
+ident(
+  int_ref r "src/smt.ml" 31 740 750 "src/smt.ml" 31 740 751
+)
+"src/smt.ml" 32 794 800 "src/smt.ml" 32 794 839
+type(
+  bool
+)
+"src/smt.ml" 31 740 746 "src/smt.ml" 32 794 839
+type(
+  bool
+)
+"src/smt.ml" 29 663 667 "src/smt.ml" 33 840 847
+type(
+  bool
+)
+"src/smt.ml" 26 598 600 "src/smt.ml" 33 840 847
+type(
+  bool
+)
+"src/smt.ml" 25 561 594 "src/smt.ml" 33 840 847
+type(
+  string -> bool
+)
+"src/smt.ml" 25 561 580 "src/smt.ml" 33 840 847
+type(
+  ?quiet:bool -> string -> bool
+)
+type(
+  string -> bool
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "src/smt.ml" 25 561 580 "src/smt.ml" 33 840 847
+)
+type(
+  bool option
+)

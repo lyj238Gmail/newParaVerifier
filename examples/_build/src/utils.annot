@@ -1,0 +1,4931 @@
+"src/utils.ml" 8 146 150 "src/utils.ml" 8 146 162
+type(
+  bool ref
+)
+ident(
+  def debug_switch "src/utils.ml" 13 326 326 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 8 146 165 "src/utils.ml" 8 146 168
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/utils.ml" 8 146 169 "src/utils.ml" 8 146 174
+type(
+  bool
+)
+"src/utils.ml" 8 146 165 "src/utils.ml" 8 146 174
+type(
+  bool ref
+)
+"src/utils.ml" 20 520 524 "src/utils.ml" 20 520 529
+type(
+  int -> int list
+)
+ident(
+  def up_to "src/utils.ml" 29 697 697 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 20 520 530 "src/utils.ml" 20 520 531
+type(
+  int
+)
+ident(
+  def n "src/utils.ml" 21 534 536 "src/utils.ml" 26 639 653
+)
+"src/utils.ml" 21 534 544 "src/utils.ml" 21 534 551
+type(
+  int -> int list -> int list
+)
+ident(
+  def wrapper "src/utils.ml" 21 534 536 "src/utils.ml" 26 639 653
+)
+"src/utils.ml" 21 534 552 "src/utils.ml" 21 534 553
+type(
+  int
+)
+ident(
+  def n "src/utils.ml" 21 534 554 "src/utils.ml" 24 592 633
+)
+"src/utils.ml" 21 534 554 "src/utils.ml" 21 534 557
+type(
+  int list
+)
+ident(
+  def res "src/utils.ml" 22 560 564 "src/utils.ml" 24 592 633
+)
+"src/utils.ml" 22 560 570 "src/utils.ml" 22 560 571
+type(
+  int
+)
+ident(
+  int_ref n "src/utils.ml" 21 534 552 "src/utils.ml" 21 534 553
+)
+"src/utils.ml" 23 577 583 "src/utils.ml" 23 577 584
+type(
+  int
+)
+"src/utils.ml" 23 577 588 "src/utils.ml" 23 577 591
+type(
+  int list
+)
+ident(
+  int_ref res "src/utils.ml" 21 534 554 "src/utils.ml" 21 534 557
+)
+"src/utils.ml" 24 592 598 "src/utils.ml" 24 592 599
+type(
+  int
+)
+"src/utils.ml" 24 592 603 "src/utils.ml" 24 592 610
+type(
+  int -> int list -> int list
+)
+ident(
+  int_ref wrapper "src/utils.ml" 21 534 544 "src/utils.ml" 21 534 551
+)
+"src/utils.ml" 24 592 612 "src/utils.ml" 24 592 613
+type(
+  int
+)
+ident(
+  int_ref n "src/utils.ml" 21 534 552 "src/utils.ml" 21 534 553
+)
+"src/utils.ml" 24 592 614 "src/utils.ml" 24 592 615
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/utils.ml" 24 592 616 "src/utils.ml" 24 592 617
+type(
+  int
+)
+"src/utils.ml" 24 592 612 "src/utils.ml" 24 592 617
+type(
+  int
+)
+"src/utils.ml" 24 592 621 "src/utils.ml" 24 592 622
+type(
+  int
+)
+ident(
+  int_ref n "src/utils.ml" 21 534 552 "src/utils.ml" 21 534 553
+)
+"src/utils.ml" 24 592 623 "src/utils.ml" 24 592 624
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/utils.ml" 24 592 625 "src/utils.ml" 24 592 626
+type(
+  int
+)
+"src/utils.ml" 24 592 621 "src/utils.ml" 24 592 626
+type(
+  int
+)
+"src/utils.ml" 24 592 629 "src/utils.ml" 24 592 632
+type(
+  int list
+)
+ident(
+  int_ref res "src/utils.ml" 21 534 554 "src/utils.ml" 21 534 557
+)
+"src/utils.ml" 24 592 620 "src/utils.ml" 24 592 632
+type(
+  int list
+)
+"src/utils.ml" 24 592 603 "src/utils.ml" 24 592 633
+call(
+  tail
+)
+type(
+  int list
+)
+"src/utils.ml" 22 560 564 "src/utils.ml" 24 592 633
+type(
+  int list
+)
+"src/utils.ml" 21 534 554 "src/utils.ml" 24 592 633
+type(
+  int list -> int list
+)
+"src/utils.ml" 21 534 552 "src/utils.ml" 24 592 633
+type(
+  int -> int list -> int list
+)
+"src/utils.ml" 26 639 641 "src/utils.ml" 26 639 648
+type(
+  int -> int list -> int list
+)
+ident(
+  int_ref wrapper "src/utils.ml" 21 534 544 "src/utils.ml" 21 534 551
+)
+"src/utils.ml" 26 639 649 "src/utils.ml" 26 639 650
+type(
+  int
+)
+ident(
+  int_ref n "src/utils.ml" 20 520 530 "src/utils.ml" 20 520 531
+)
+"src/utils.ml" 26 639 651 "src/utils.ml" 26 639 653
+type(
+  int list
+)
+"src/utils.ml" 26 639 641 "src/utils.ml" 26 639 653
+call(
+  tail
+)
+type(
+  int list
+)
+"src/utils.ml" 21 534 536 "src/utils.ml" 26 639 653
+type(
+  int list
+)
+"src/utils.ml" 20 520 530 "src/utils.ml" 26 639 653
+type(
+  int -> int list
+)
+"src/utils.ml" 29 697 705 "src/utils.ml" 29 697 716
+type(
+  'a list -> 'a list list
+)
+ident(
+  def permutation "src/utils.ml" 29 697 697 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 29 697 717 "src/utils.ml" 29 697 721
+type(
+  'a list
+)
+ident(
+  def list "src/utils.ml" 30 724 726 "src/utils.ml" 44 1184 1202
+)
+"src/utils.ml" 30 724 732 "src/utils.ml" 30 724 736
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 29 697 717 "src/utils.ml" 29 697 721
+)
+"src/utils.ml" 31 742 746 "src/utils.ml" 31 742 748
+type(
+  'a list
+)
+"src/utils.ml" 31 742 752 "src/utils.ml" 31 742 754
+type(
+  'a list list
+)
+"src/utils.ml" 32 755 759 "src/utils.ml" 32 755 760
+type(
+  'a list
+)
+"src/utils.ml" 33 764 772 "src/utils.ml" 33 764 781
+type(
+  'a list -> int -> int -> 'a list list
+)
+ident(
+  def remove_at "src/utils.ml" 42 1101 1105 "src/utils.ml" 44 1184 1202
+)
+"src/utils.ml" 33 764 782 "src/utils.ml" 33 764 786
+type(
+  'a list
+)
+ident(
+  def list "src/utils.ml" 33 764 787 "src/utils.ml" 40 1084 1093
+)
+"src/utils.ml" 33 764 787 "src/utils.ml" 33 764 790
+type(
+  int
+)
+ident(
+  def len "src/utils.ml" 33 764 791 "src/utils.ml" 40 1084 1093
+)
+"src/utils.ml" 33 764 791 "src/utils.ml" 33 764 792
+type(
+  int
+)
+ident(
+  def i "src/utils.ml" 34 796 802 "src/utils.ml" 40 1084 1093
+)
+"src/utils.ml" 34 796 806 "src/utils.ml" 34 796 810
+type(
+  'a list
+)
+ident(
+  def head "src/utils.ml" 35 845 851 "src/utils.ml" 40 1084 1093
+)
+"src/utils.ml" 34 796 813 "src/utils.ml" 34 796 821
+type(
+  'a list -> pos:int -> len:int -> 'a list
+)
+ident(
+  ext_ref Core.Std.List.sub
+)
+"src/utils.ml" 34 796 822 "src/utils.ml" 34 796 826
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 33 764 782 "src/utils.ml" 33 764 786
+)
+"src/utils.ml" 34 796 832 "src/utils.ml" 34 796 833
+type(
+  int
+)
+"src/utils.ml" 34 796 839 "src/utils.ml" 34 796 840
+type(
+  int
+)
+ident(
+  int_ref i "src/utils.ml" 33 764 791 "src/utils.ml" 33 764 792
+)
+"src/utils.ml" 34 796 813 "src/utils.ml" 34 796 840
+call(
+  stack
+)
+type(
+  'a list
+)
+"src/utils.ml" 35 845 855 "src/utils.ml" 35 845 859
+type(
+  'a list
+)
+ident(
+  def tail "src/utils.ml" 36 911 917 "src/utils.ml" 40 1084 1093
+)
+"src/utils.ml" 35 845 862 "src/utils.ml" 35 845 870
+type(
+  'a list -> pos:int -> len:int -> 'a list
+)
+ident(
+  ext_ref Core.Std.List.sub
+)
+"src/utils.ml" 35 845 871 "src/utils.ml" 35 845 875
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 33 764 782 "src/utils.ml" 33 764 786
+)
+"src/utils.ml" 35 845 882 "src/utils.ml" 35 845 883
+type(
+  int
+)
+ident(
+  int_ref i "src/utils.ml" 33 764 791 "src/utils.ml" 33 764 792
+)
+"src/utils.ml" 35 845 884 "src/utils.ml" 35 845 885
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/utils.ml" 35 845 886 "src/utils.ml" 35 845 887
+type(
+  int
+)
+"src/utils.ml" 35 845 882 "src/utils.ml" 35 845 887
+type(
+  int
+)
+"src/utils.ml" 35 845 895 "src/utils.ml" 35 845 898
+type(
+  int
+)
+ident(
+  int_ref len "src/utils.ml" 33 764 787 "src/utils.ml" 33 764 790
+)
+"src/utils.ml" 35 845 899 "src/utils.ml" 35 845 900
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/utils.ml" 35 845 901 "src/utils.ml" 35 845 902
+type(
+  int
+)
+ident(
+  int_ref i "src/utils.ml" 33 764 791 "src/utils.ml" 33 764 792
+)
+"src/utils.ml" 35 845 895 "src/utils.ml" 35 845 902
+type(
+  int
+)
+"src/utils.ml" 35 845 903 "src/utils.ml" 35 845 904
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/utils.ml" 35 845 905 "src/utils.ml" 35 845 906
+type(
+  int
+)
+"src/utils.ml" 35 845 895 "src/utils.ml" 35 845 906
+type(
+  int
+)
+"src/utils.ml" 35 845 862 "src/utils.ml" 35 845 907
+call(
+  stack
+)
+type(
+  'a list
+)
+"src/utils.ml" 36 911 920 "src/utils.ml" 36 911 924
+type(
+  'a list
+)
+ident(
+  int_ref head "src/utils.ml" 34 796 806 "src/utils.ml" 34 796 810
+)
+"src/utils.ml" 36 911 924 "src/utils.ml" 36 911 925
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"src/utils.ml" 36 911 925 "src/utils.ml" 36 911 929
+type(
+  'a list
+)
+ident(
+  int_ref tail "src/utils.ml" 35 845 855 "src/utils.ml" 35 845 859
+)
+"src/utils.ml" 36 911 920 "src/utils.ml" 36 911 929
+call(
+  stack
+)
+type(
+  'a list
+)
+"src/utils.ml" 36 911 930 "src/utils.ml" 36 911 931
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/utils.ml" 36 911 932 "src/utils.ml" 36 911 934
+type(
+  'a list
+)
+"src/utils.ml" 36 911 920 "src/utils.ml" 36 911 934
+type(
+  bool
+)
+"src/utils.ml" 37 940 949 "src/utils.ml" 37 940 957
+type(
+  'a list -> pos:int -> len:int -> 'a list
+)
+ident(
+  ext_ref Core.Std.List.sub
+)
+"src/utils.ml" 37 940 958 "src/utils.ml" 37 940 962
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 33 764 782 "src/utils.ml" 33 764 786
+)
+"src/utils.ml" 37 940 968 "src/utils.ml" 37 940 969
+type(
+  int
+)
+ident(
+  int_ref i "src/utils.ml" 33 764 791 "src/utils.ml" 33 764 792
+)
+"src/utils.ml" 37 940 975 "src/utils.ml" 37 940 976
+type(
+  int
+)
+"src/utils.ml" 37 940 949 "src/utils.ml" 37 940 976
+call(
+  stack
+)
+type(
+  'a list
+)
+type(
+  'a list list
+)
+"src/utils.ml" 37 940 948 "src/utils.ml" 37 940 977
+type(
+  'a list list
+)
+"src/utils.ml" 39 995 1003 "src/utils.ml" 39 995 1011
+type(
+  'a list list -> f:('a list -> 'a list) -> 'a list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/utils.ml" 39 995 1013 "src/utils.ml" 39 995 1024
+type(
+  'a list -> 'a list list
+)
+ident(
+  int_ref permutation "src/utils.ml" 29 697 705 "src/utils.ml" 29 697 716
+)
+"src/utils.ml" 39 995 1026 "src/utils.ml" 39 995 1030
+type(
+  'a list
+)
+ident(
+  int_ref head "src/utils.ml" 34 796 806 "src/utils.ml" 34 796 810
+)
+"src/utils.ml" 39 995 1030 "src/utils.ml" 39 995 1031
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"src/utils.ml" 39 995 1031 "src/utils.ml" 39 995 1035
+type(
+  'a list
+)
+ident(
+  int_ref tail "src/utils.ml" 35 845 855 "src/utils.ml" 35 845 859
+)
+"src/utils.ml" 39 995 1026 "src/utils.ml" 39 995 1035
+call(
+  stack
+)
+type(
+  'a list
+)
+"src/utils.ml" 39 995 1013 "src/utils.ml" 39 995 1036
+call(
+  stack
+)
+type(
+  'a list list
+)
+"src/utils.ml" 39 995 1046 "src/utils.ml" 39 995 1047
+type(
+  'a list
+)
+ident(
+  def x "src/utils.ml" 39 995 1051 "src/utils.ml" 39 995 1082
+)
+"src/utils.ml" 39 995 1052 "src/utils.ml" 39 995 1060
+type(
+  'a list -> pos:int -> len:int -> 'a list
+)
+ident(
+  ext_ref Core.Std.List.sub
+)
+"src/utils.ml" 39 995 1061 "src/utils.ml" 39 995 1065
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 33 764 782 "src/utils.ml" 33 764 786
+)
+"src/utils.ml" 39 995 1071 "src/utils.ml" 39 995 1072
+type(
+  int
+)
+ident(
+  int_ref i "src/utils.ml" 33 764 791 "src/utils.ml" 33 764 792
+)
+"src/utils.ml" 39 995 1078 "src/utils.ml" 39 995 1079
+type(
+  int
+)
+"src/utils.ml" 39 995 1052 "src/utils.ml" 39 995 1079
+call(
+  stack
+)
+type(
+  'a list
+)
+"src/utils.ml" 39 995 1080 "src/utils.ml" 39 995 1081
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"src/utils.ml" 39 995 1081 "src/utils.ml" 39 995 1082
+type(
+  'a list
+)
+ident(
+  int_ref x "src/utils.ml" 39 995 1046 "src/utils.ml" 39 995 1047
+)
+"src/utils.ml" 39 995 1051 "src/utils.ml" 39 995 1082
+call(
+  tail
+)
+type(
+  'a list
+)
+"src/utils.ml" 39 995 1046 "src/utils.ml" 39 995 1082
+type(
+  'a list -> 'a list
+)
+"src/utils.ml" 39 995 1003 "src/utils.ml" 39 995 1083
+call(
+  tail
+)
+type(
+  'a list list
+)
+"src/utils.ml" 36 911 917 "src/utils.ml" 40 1084 1093
+type(
+  'a list list
+)
+"src/utils.ml" 35 845 851 "src/utils.ml" 40 1084 1093
+type(
+  'a list list
+)
+"src/utils.ml" 34 796 802 "src/utils.ml" 40 1084 1093
+type(
+  'a list list
+)
+"src/utils.ml" 33 764 791 "src/utils.ml" 40 1084 1093
+type(
+  int -> 'a list list
+)
+"src/utils.ml" 33 764 787 "src/utils.ml" 40 1084 1093
+type(
+  int -> int -> 'a list list
+)
+"src/utils.ml" 33 764 782 "src/utils.ml" 40 1084 1093
+type(
+  'a list -> int -> int -> 'a list list
+)
+"src/utils.ml" 42 1101 1109 "src/utils.ml" 42 1101 1112
+type(
+  int
+)
+ident(
+  def len "src/utils.ml" 43 1135 1139 "src/utils.ml" 44 1184 1202
+)
+"src/utils.ml" 42 1101 1115 "src/utils.ml" 42 1101 1126
+type(
+  'a list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"src/utils.ml" 42 1101 1127 "src/utils.ml" 42 1101 1131
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 29 697 717 "src/utils.ml" 29 697 721
+)
+"src/utils.ml" 42 1101 1115 "src/utils.ml" 42 1101 1131
+call(
+  stack
+)
+type(
+  int
+)
+"src/utils.ml" 43 1135 1139 "src/utils.ml" 43 1135 1147
+type(
+  int list -> f:(int -> 'a list list) -> 'a list list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/utils.ml" 43 1135 1149 "src/utils.ml" 43 1135 1154
+type(
+  int -> int list
+)
+ident(
+  int_ref up_to "src/utils.ml" 20 520 524 "src/utils.ml" 20 520 529
+)
+"src/utils.ml" 43 1135 1155 "src/utils.ml" 43 1135 1158
+type(
+  int
+)
+ident(
+  int_ref len "src/utils.ml" 42 1101 1109 "src/utils.ml" 42 1101 1112
+)
+"src/utils.ml" 43 1135 1149 "src/utils.ml" 43 1135 1158
+call(
+  stack
+)
+type(
+  int list
+)
+"src/utils.ml" 43 1135 1164 "src/utils.ml" 43 1135 1173
+type(
+  'a list -> int -> int -> 'a list list
+)
+ident(
+  int_ref remove_at "src/utils.ml" 33 764 772 "src/utils.ml" 33 764 781
+)
+"src/utils.ml" 43 1135 1174 "src/utils.ml" 43 1135 1178
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 29 697 717 "src/utils.ml" 29 697 721
+)
+"src/utils.ml" 43 1135 1179 "src/utils.ml" 43 1135 1182
+type(
+  int
+)
+ident(
+  int_ref len "src/utils.ml" 42 1101 1109 "src/utils.ml" 42 1101 1112
+)
+"src/utils.ml" 43 1135 1164 "src/utils.ml" 43 1135 1182
+call(
+  stack
+)
+type(
+  int -> 'a list list
+)
+"src/utils.ml" 43 1135 1139 "src/utils.ml" 43 1135 1183
+call(
+  stack
+)
+type(
+  'a list list list
+)
+"src/utils.ml" 44 1184 1188 "src/utils.ml" 44 1184 1190
+type(
+  'a list list list -> ('a list list list -> 'a list list) -> 'a list list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/utils.ml" 44 1184 1191 "src/utils.ml" 44 1184 1202
+type(
+  'a list list list -> 'a list list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/utils.ml" 43 1135 1139 "src/utils.ml" 44 1184 1202
+call(
+  tail
+)
+type(
+  'a list list
+)
+"src/utils.ml" 42 1101 1105 "src/utils.ml" 44 1184 1202
+type(
+  'a list list
+)
+"src/utils.ml" 33 764 768 "src/utils.ml" 44 1184 1202
+type(
+  'a list list
+)
+"src/utils.ml" 30 724 726 "src/utils.ml" 44 1184 1202
+type(
+  'a list list
+)
+"src/utils.ml" 29 697 717 "src/utils.ml" 44 1184 1202
+type(
+  'a list -> 'a list list
+)
+"src/utils.ml" 47 1246 1254 "src/utils.ml" 47 1246 1265
+type(
+  'a list -> int -> 'a list list
+)
+ident(
+  def combination "src/utils.ml" 47 1246 1246 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 47 1246 1266 "src/utils.ml" 47 1246 1270
+type(
+  'a list
+)
+ident(
+  def list "src/utils.ml" 47 1246 1271 "src/utils.ml" 61 1620 1627
+)
+"src/utils.ml" 47 1246 1271 "src/utils.ml" 47 1246 1272
+type(
+  int
+)
+ident(
+  def n "src/utils.ml" 48 1275 1277 "src/utils.ml" 61 1620 1627
+)
+"src/utils.ml" 48 1275 1283 "src/utils.ml" 48 1275 1287
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 47 1246 1266 "src/utils.ml" 47 1246 1270
+)
+"src/utils.ml" 49 1293 1297 "src/utils.ml" 49 1293 1299
+type(
+  'a list
+)
+"src/utils.ml" 49 1293 1303 "src/utils.ml" 49 1293 1305
+type(
+  'a list list
+)
+"src/utils.ml" 50 1306 1310 "src/utils.ml" 50 1306 1313
+type(
+  'a
+)
+ident(
+  def ele "src/utils.ml" 51 1324 1328 "src/utils.ml" 61 1620 1627
+)
+"src/utils.ml" 50 1306 1315 "src/utils.ml" 50 1306 1320
+type(
+  'a list
+)
+ident(
+  def list' "src/utils.ml" 51 1324 1328 "src/utils.ml" 61 1620 1627
+)
+"src/utils.ml" 50 1306 1310 "src/utils.ml" 50 1306 1320
+type(
+  'a list
+)
+"src/utils.ml" 51 1324 1332 "src/utils.ml" 51 1324 1335
+type(
+  int
+)
+ident(
+  def len "src/utils.ml" 52 1358 1362 "src/utils.ml" 61 1620 1627
+)
+"src/utils.ml" 51 1324 1338 "src/utils.ml" 51 1324 1349
+type(
+  'a list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"src/utils.ml" 51 1324 1350 "src/utils.ml" 51 1324 1354
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 47 1246 1266 "src/utils.ml" 47 1246 1270
+)
+"src/utils.ml" 51 1324 1338 "src/utils.ml" 51 1324 1354
+call(
+  stack
+)
+type(
+  int
+)
+"src/utils.ml" 52 1358 1365 "src/utils.ml" 52 1358 1368
+type(
+  int
+)
+ident(
+  int_ref len "src/utils.ml" 51 1324 1332 "src/utils.ml" 51 1324 1335
+)
+"src/utils.ml" 52 1358 1369 "src/utils.ml" 52 1358 1370
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/utils.ml" 52 1358 1371 "src/utils.ml" 52 1358 1372
+type(
+  int
+)
+ident(
+  int_ref n "src/utils.ml" 47 1246 1271 "src/utils.ml" 47 1246 1272
+)
+"src/utils.ml" 52 1358 1365 "src/utils.ml" 52 1358 1372
+type(
+  bool
+)
+"src/utils.ml" 53 1378 1384 "src/utils.ml" 53 1378 1386
+type(
+  'a list list
+)
+"src/utils.ml" 55 1402 1414 "src/utils.ml" 55 1402 1415
+type(
+  int
+)
+ident(
+  int_ref n "src/utils.ml" 47 1246 1271 "src/utils.ml" 47 1246 1272
+)
+"src/utils.ml" 56 1421 1429 "src/utils.ml" 56 1421 1430
+type(
+  int
+)
+"src/utils.ml" 56 1421 1434 "src/utils.ml" 56 1421 1436
+type(
+  'a list list
+)
+"src/utils.ml" 57 1437 1445 "src/utils.ml" 57 1437 1446
+type(
+  int
+)
+"src/utils.ml" 57 1437 1450 "src/utils.ml" 57 1437 1458
+type(
+  'a list -> f:('a -> 'a list) -> 'a list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/utils.ml" 57 1437 1459 "src/utils.ml" 57 1437 1463
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 47 1246 1266 "src/utils.ml" 47 1246 1270
+)
+"src/utils.ml" 57 1437 1472 "src/utils.ml" 57 1437 1473
+type(
+  'a
+)
+ident(
+  def x "src/utils.ml" 57 1437 1478 "src/utils.ml" 57 1437 1479
+)
+"src/utils.ml" 57 1437 1478 "src/utils.ml" 57 1437 1479
+type(
+  'a
+)
+ident(
+  int_ref x "src/utils.ml" 57 1437 1472 "src/utils.ml" 57 1437 1473
+)
+type(
+  'a list
+)
+"src/utils.ml" 57 1437 1477 "src/utils.ml" 57 1437 1480
+type(
+  'a list
+)
+"src/utils.ml" 57 1437 1472 "src/utils.ml" 57 1437 1480
+type(
+  'a -> 'a list
+)
+"src/utils.ml" 57 1437 1450 "src/utils.ml" 57 1437 1481
+call(
+  tail
+)
+type(
+  'a list list
+)
+"src/utils.ml" 58 1482 1490 "src/utils.ml" 58 1482 1491
+type(
+  int
+)
+"src/utils.ml" 59 1495 1507 "src/utils.ml" 59 1495 1516
+type(
+  'a list list
+)
+ident(
+  def first_set "src/utils.ml" 60 1580 1588 "src/utils.ml" 60 1580 1619
+)
+"src/utils.ml" 59 1495 1519 "src/utils.ml" 59 1495 1527
+type(
+  'a list list -> f:('a list -> 'a list) -> 'a list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/utils.ml" 59 1495 1529 "src/utils.ml" 59 1495 1540
+type(
+  'a list -> int -> 'a list list
+)
+ident(
+  int_ref combination "src/utils.ml" 47 1246 1254 "src/utils.ml" 47 1246 1265
+)
+"src/utils.ml" 59 1495 1541 "src/utils.ml" 59 1495 1546
+type(
+  'a list
+)
+ident(
+  int_ref list' "src/utils.ml" 50 1306 1315 "src/utils.ml" 50 1306 1320
+)
+"src/utils.ml" 59 1495 1548 "src/utils.ml" 59 1495 1549
+type(
+  int
+)
+ident(
+  int_ref n "src/utils.ml" 47 1246 1271 "src/utils.ml" 47 1246 1272
+)
+"src/utils.ml" 59 1495 1550 "src/utils.ml" 59 1495 1551
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/utils.ml" 59 1495 1552 "src/utils.ml" 59 1495 1553
+type(
+  int
+)
+"src/utils.ml" 59 1495 1548 "src/utils.ml" 59 1495 1553
+type(
+  int
+)
+"src/utils.ml" 59 1495 1529 "src/utils.ml" 59 1495 1554
+call(
+  stack
+)
+type(
+  'a list list
+)
+"src/utils.ml" 59 1495 1564 "src/utils.ml" 59 1495 1565
+type(
+  'a list
+)
+ident(
+  def x "src/utils.ml" 59 1495 1569 "src/utils.ml" 59 1495 1575
+)
+"src/utils.ml" 59 1495 1569 "src/utils.ml" 59 1495 1572
+type(
+  'a
+)
+ident(
+  int_ref ele "src/utils.ml" 50 1306 1310 "src/utils.ml" 50 1306 1313
+)
+"src/utils.ml" 59 1495 1574 "src/utils.ml" 59 1495 1575
+type(
+  'a list
+)
+ident(
+  int_ref x "src/utils.ml" 59 1495 1564 "src/utils.ml" 59 1495 1565
+)
+"src/utils.ml" 59 1495 1569 "src/utils.ml" 59 1495 1575
+type(
+  'a list
+)
+"src/utils.ml" 59 1495 1564 "src/utils.ml" 59 1495 1575
+type(
+  'a list -> 'a list
+)
+"src/utils.ml" 59 1495 1519 "src/utils.ml" 59 1495 1576
+call(
+  stack
+)
+type(
+  'a list list
+)
+"src/utils.ml" 60 1580 1588 "src/utils.ml" 60 1580 1597
+type(
+  'a list list
+)
+ident(
+  int_ref first_set "src/utils.ml" 59 1495 1507 "src/utils.ml" 59 1495 1516
+)
+"src/utils.ml" 60 1580 1597 "src/utils.ml" 60 1580 1598
+type(
+  'a list list -> 'a list list -> 'a list list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"src/utils.ml" 60 1580 1599 "src/utils.ml" 60 1580 1610
+type(
+  'a list -> int -> 'a list list
+)
+ident(
+  int_ref combination "src/utils.ml" 47 1246 1254 "src/utils.ml" 47 1246 1265
+)
+"src/utils.ml" 60 1580 1611 "src/utils.ml" 60 1580 1616
+type(
+  'a list
+)
+ident(
+  int_ref list' "src/utils.ml" 50 1306 1315 "src/utils.ml" 50 1306 1320
+)
+"src/utils.ml" 60 1580 1617 "src/utils.ml" 60 1580 1618
+type(
+  int
+)
+ident(
+  int_ref n "src/utils.ml" 47 1246 1271 "src/utils.ml" 47 1246 1272
+)
+"src/utils.ml" 60 1580 1599 "src/utils.ml" 60 1580 1618
+call(
+  stack
+)
+type(
+  'a list list
+)
+"src/utils.ml" 60 1580 1588 "src/utils.ml" 60 1580 1619
+call(
+  tail
+)
+type(
+  'a list list
+)
+"src/utils.ml" 59 1495 1503 "src/utils.ml" 60 1580 1619
+type(
+  'a list list
+)
+"src/utils.ml" 55 1402 1408 "src/utils.ml" 60 1580 1619
+type(
+  'a list list
+)
+"src/utils.ml" 52 1358 1362 "src/utils.ml" 61 1620 1627
+type(
+  'a list list
+)
+"src/utils.ml" 51 1324 1328 "src/utils.ml" 61 1620 1627
+type(
+  'a list list
+)
+"src/utils.ml" 48 1275 1277 "src/utils.ml" 61 1620 1627
+type(
+  'a list list
+)
+"src/utils.ml" 47 1246 1271 "src/utils.ml" 61 1620 1627
+type(
+  int -> 'a list list
+)
+"src/utils.ml" 47 1246 1266 "src/utils.ml" 61 1620 1627
+type(
+  'a list -> int -> 'a list list
+)
+"src/utils.ml" 64 1672 1676 "src/utils.ml" 64 1672 1691
+type(
+  'a list -> 'a list list
+)
+ident(
+  def combination_all "src/utils.ml" 70 1915 1915 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 64 1672 1692 "src/utils.ml" 64 1672 1696
+type(
+  'a list
+)
+ident(
+  def list "src/utils.ml" 65 1699 1701 "src/utils.ml" 66 1771 1833
+)
+"src/utils.ml" 65 1699 1705 "src/utils.ml" 65 1699 1709
+type(
+  int list
+)
+ident(
+  def nums "src/utils.ml" 66 1771 1773 "src/utils.ml" 66 1771 1833
+)
+"src/utils.ml" 65 1699 1712 "src/utils.ml" 65 1699 1720
+type(
+  int list -> f:(int -> int) -> int list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/utils.ml" 65 1699 1722 "src/utils.ml" 65 1699 1727
+type(
+  int -> int list
+)
+ident(
+  int_ref up_to "src/utils.ml" 20 520 524 "src/utils.ml" 20 520 529
+)
+"src/utils.ml" 65 1699 1729 "src/utils.ml" 65 1699 1740
+type(
+  'a list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"src/utils.ml" 65 1699 1741 "src/utils.ml" 65 1699 1745
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 64 1672 1692 "src/utils.ml" 64 1672 1696
+)
+"src/utils.ml" 65 1699 1729 "src/utils.ml" 65 1699 1745
+call(
+  stack
+)
+type(
+  int
+)
+"src/utils.ml" 65 1699 1722 "src/utils.ml" 65 1699 1746
+call(
+  stack
+)
+type(
+  int list
+)
+"src/utils.ml" 65 1699 1756 "src/utils.ml" 65 1699 1757
+type(
+  int
+)
+ident(
+  def x "src/utils.ml" 65 1699 1761 "src/utils.ml" 65 1699 1766
+)
+"src/utils.ml" 65 1699 1761 "src/utils.ml" 65 1699 1762
+type(
+  int
+)
+ident(
+  int_ref x "src/utils.ml" 65 1699 1756 "src/utils.ml" 65 1699 1757
+)
+"src/utils.ml" 65 1699 1763 "src/utils.ml" 65 1699 1764
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/utils.ml" 65 1699 1765 "src/utils.ml" 65 1699 1766
+type(
+  int
+)
+"src/utils.ml" 65 1699 1761 "src/utils.ml" 65 1699 1766
+type(
+  int
+)
+"src/utils.ml" 65 1699 1756 "src/utils.ml" 65 1699 1766
+type(
+  int -> int
+)
+"src/utils.ml" 65 1699 1712 "src/utils.ml" 65 1699 1767
+call(
+  stack
+)
+type(
+  int list
+)
+"src/utils.ml" 66 1771 1773 "src/utils.ml" 66 1771 1784
+type(
+  'a list list list -> 'a list list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/utils.ml" 66 1771 1786 "src/utils.ml" 66 1771 1794
+type(
+  int list -> f:(int -> 'a list list) -> 'a list list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/utils.ml" 66 1771 1795 "src/utils.ml" 66 1771 1799
+type(
+  int list
+)
+ident(
+  int_ref nums "src/utils.ml" 65 1699 1705 "src/utils.ml" 65 1699 1709
+)
+"src/utils.ml" 66 1771 1808 "src/utils.ml" 66 1771 1809
+type(
+  int
+)
+ident(
+  def n "src/utils.ml" 66 1771 1813 "src/utils.ml" 66 1771 1831
+)
+"src/utils.ml" 66 1771 1813 "src/utils.ml" 66 1771 1824
+type(
+  'a list -> int -> 'a list list
+)
+ident(
+  int_ref combination "src/utils.ml" 47 1246 1254 "src/utils.ml" 47 1246 1265
+)
+"src/utils.ml" 66 1771 1825 "src/utils.ml" 66 1771 1829
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 64 1672 1692 "src/utils.ml" 64 1672 1696
+)
+"src/utils.ml" 66 1771 1830 "src/utils.ml" 66 1771 1831
+type(
+  int
+)
+ident(
+  int_ref n "src/utils.ml" 66 1771 1808 "src/utils.ml" 66 1771 1809
+)
+"src/utils.ml" 66 1771 1813 "src/utils.ml" 66 1771 1831
+call(
+  tail
+)
+type(
+  'a list list
+)
+"src/utils.ml" 66 1771 1808 "src/utils.ml" 66 1771 1831
+type(
+  int -> 'a list list
+)
+"src/utils.ml" 66 1771 1786 "src/utils.ml" 66 1771 1832
+call(
+  stack
+)
+type(
+  'a list list list
+)
+"src/utils.ml" 66 1771 1773 "src/utils.ml" 66 1771 1833
+call(
+  tail
+)
+type(
+  'a list list
+)
+"src/utils.ml" 65 1699 1701 "src/utils.ml" 66 1771 1833
+type(
+  'a list list
+)
+"src/utils.ml" 64 1672 1692 "src/utils.ml" 66 1771 1833
+type(
+  'a list -> 'a list list
+)
+"src/utils.ml" 70 1915 1919 "src/utils.ml" 70 1915 1942
+type(
+  'a list -> int -> 'a list list
+)
+ident(
+  def combination_permutation "src/utils.ml" 81 2282 2282 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 70 1915 1943 "src/utils.ml" 70 1915 1947
+type(
+  'a list
+)
+ident(
+  def list "src/utils.ml" 70 1915 1948 "src/utils.ml" 73 2002 2018
+)
+"src/utils.ml" 70 1915 1948 "src/utils.ml" 70 1915 1949
+type(
+  int
+)
+ident(
+  def n "src/utils.ml" 71 1952 1954 "src/utils.ml" 73 2002 2018
+)
+"src/utils.ml" 71 1952 1954 "src/utils.ml" 71 1952 1965
+type(
+  'a list -> int -> 'a list list
+)
+ident(
+  int_ref combination "src/utils.ml" 47 1246 1254 "src/utils.ml" 47 1246 1265
+)
+"src/utils.ml" 71 1952 1966 "src/utils.ml" 71 1952 1970
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 70 1915 1943 "src/utils.ml" 70 1915 1947
+)
+"src/utils.ml" 71 1952 1971 "src/utils.ml" 71 1952 1972
+type(
+  int
+)
+ident(
+  int_ref n "src/utils.ml" 70 1915 1948 "src/utils.ml" 70 1915 1949
+)
+"src/utils.ml" 71 1952 1954 "src/utils.ml" 71 1952 1972
+call(
+  stack
+)
+type(
+  'a list list
+)
+"src/utils.ml" 72 1973 1975 "src/utils.ml" 72 1973 1977
+type(
+  'a list list -> ('a list list -> 'a list list list) -> 'a list list list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/utils.ml" 72 1973 1978 "src/utils.ml" 72 1973 1986
+type(
+  'a list list -> f:('a list -> 'a list list) -> 'a list list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/utils.ml" 72 1973 1990 "src/utils.ml" 72 1973 2001
+type(
+  'a list -> 'a list list
+)
+ident(
+  int_ref permutation "src/utils.ml" 29 697 705 "src/utils.ml" 29 697 716
+)
+"src/utils.ml" 72 1973 1978 "src/utils.ml" 72 1973 2001
+call(
+  tail
+)
+type(
+  'a list list -> 'a list list list
+)
+"src/utils.ml" 71 1952 1954 "src/utils.ml" 72 1973 2001
+call(
+  stack
+)
+type(
+  'a list list list
+)
+"src/utils.ml" 73 2002 2004 "src/utils.ml" 73 2002 2006
+type(
+  'a list list list -> ('a list list list -> 'a list list) -> 'a list list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/utils.ml" 73 2002 2007 "src/utils.ml" 73 2002 2018
+type(
+  'a list list list -> 'a list list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/utils.ml" 71 1952 1954 "src/utils.ml" 73 2002 2018
+call(
+  tail
+)
+type(
+  'a list list
+)
+"src/utils.ml" 70 1915 1948 "src/utils.ml" 73 2002 2018
+type(
+  int -> 'a list list
+)
+"src/utils.ml" 70 1915 1943 "src/utils.ml" 73 2002 2018
+type(
+  'a list -> int -> 'a list list
+)
+"src/utils.ml" 81 2282 2286 "src/utils.ml" 81 2282 2303
+type(
+  'a list list -> 'a list list
+)
+ident(
+  def cartesian_product "src/utils.ml" 97 2766 2766 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 81 2282 2304 "src/utils.ml" 81 2282 2308
+type(
+  'a list list
+)
+ident(
+  def list "src/utils.ml" 82 2311 2313 "src/utils.ml" 89 2557 2594
+)
+"src/utils.ml" 82 2311 2317 "src/utils.ml" 82 2311 2327
+type(
+  'b list list -> 'b -> 'b list list
+)
+ident(
+  def append_all "src/utils.ml" 83 2380 2382 "src/utils.ml" 89 2557 2594
+)
+"src/utils.ml" 82 2311 2328 "src/utils.ml" 82 2311 2333
+type(
+  'b list list
+)
+ident(
+  def alist "src/utils.ml" 82 2311 2334 "src/utils.ml" 82 2311 2376
+)
+"src/utils.ml" 82 2311 2334 "src/utils.ml" 82 2311 2337
+type(
+  'b
+)
+ident(
+  def ele "src/utils.ml" 82 2311 2340 "src/utils.ml" 82 2311 2376
+)
+"src/utils.ml" 82 2311 2340 "src/utils.ml" 82 2311 2348
+type(
+  'b list list -> f:('b list -> 'b list) -> 'b list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/utils.ml" 82 2311 2357 "src/utils.ml" 82 2311 2358
+type(
+  'b list
+)
+ident(
+  def x "src/utils.ml" 82 2311 2362 "src/utils.ml" 82 2311 2369
+)
+"src/utils.ml" 82 2311 2362 "src/utils.ml" 82 2311 2363
+type(
+  'b list
+)
+ident(
+  int_ref x "src/utils.ml" 82 2311 2357 "src/utils.ml" 82 2311 2358
+)
+"src/utils.ml" 82 2311 2363 "src/utils.ml" 82 2311 2364
+type(
+  'b list -> 'b list -> 'b list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"src/utils.ml" 82 2311 2365 "src/utils.ml" 82 2311 2368
+type(
+  'b
+)
+ident(
+  int_ref ele "src/utils.ml" 82 2311 2334 "src/utils.ml" 82 2311 2337
+)
+type(
+  'b list
+)
+"src/utils.ml" 82 2311 2364 "src/utils.ml" 82 2311 2369
+type(
+  'b list
+)
+"src/utils.ml" 82 2311 2362 "src/utils.ml" 82 2311 2369
+call(
+  tail
+)
+type(
+  'b list
+)
+"src/utils.ml" 82 2311 2357 "src/utils.ml" 82 2311 2369
+type(
+  'b list -> 'b list
+)
+"src/utils.ml" 82 2311 2371 "src/utils.ml" 82 2311 2376
+type(
+  'b list list
+)
+ident(
+  int_ref alist "src/utils.ml" 82 2311 2328 "src/utils.ml" 82 2311 2333
+)
+"src/utils.ml" 82 2311 2340 "src/utils.ml" 82 2311 2376
+call(
+  tail
+)
+type(
+  'b list list
+)
+"src/utils.ml" 82 2311 2334 "src/utils.ml" 82 2311 2376
+type(
+  'b -> 'b list list
+)
+"src/utils.ml" 82 2311 2328 "src/utils.ml" 82 2311 2376
+type(
+  'b list list -> 'b -> 'b list list
+)
+"src/utils.ml" 83 2380 2386 "src/utils.ml" 83 2380 2394
+type(
+  'c list list -> 'c list -> 'c list list
+)
+ident(
+  def com_next "src/utils.ml" 89 2557 2559 "src/utils.ml" 89 2557 2594
+)
+"src/utils.ml" 83 2380 2395 "src/utils.ml" 83 2380 2398
+type(
+  'c list list
+)
+ident(
+  def res "src/utils.ml" 83 2380 2399 "src/utils.ml" 87 2496 2551
+)
+"src/utils.ml" 83 2380 2399 "src/utils.ml" 83 2380 2400
+type(
+  'c list
+)
+ident(
+  def b "src/utils.ml" 84 2403 2407 "src/utils.ml" 87 2496 2551
+)
+"src/utils.ml" 84 2403 2414 "src/utils.ml" 84 2403 2417
+type(
+  'c list list
+)
+ident(
+  int_ref res "src/utils.ml" 83 2380 2395 "src/utils.ml" 83 2380 2398
+)
+"src/utils.ml" 84 2403 2419 "src/utils.ml" 84 2403 2420
+type(
+  'c list
+)
+ident(
+  int_ref b "src/utils.ml" 83 2380 2399 "src/utils.ml" 83 2380 2400
+)
+"src/utils.ml" 84 2403 2414 "src/utils.ml" 84 2403 2420
+type(
+  'c list list * 'c list
+)
+"src/utils.ml" 85 2427 2434 "src/utils.ml" 85 2427 2437
+type(
+  'c list list
+)
+ident(
+  def res "src/utils.ml" 85 2427 2446 "src/utils.ml" 85 2427 2449
+)
+"src/utils.ml" 85 2427 2439 "src/utils.ml" 85 2427 2441
+type(
+  'c list
+)
+"src/utils.ml" 85 2427 2434 "src/utils.ml" 85 2427 2441
+type(
+  'c list list * 'c list
+)
+"src/utils.ml" 85 2427 2446 "src/utils.ml" 85 2427 2449
+type(
+  'c list list
+)
+ident(
+  int_ref res "src/utils.ml" 85 2427 2434 "src/utils.ml" 85 2427 2437
+)
+"src/utils.ml" 86 2450 2457 "src/utils.ml" 86 2450 2459
+type(
+  'c list list
+)
+"src/utils.ml" 86 2450 2461 "src/utils.ml" 86 2450 2462
+type(
+  'c list
+)
+ident(
+  def b "src/utils.ml" 86 2450 2467 "src/utils.ml" 86 2450 2495
+)
+"src/utils.ml" 86 2450 2457 "src/utils.ml" 86 2450 2462
+type(
+  'c list list * 'c list
+)
+"src/utils.ml" 86 2450 2467 "src/utils.ml" 86 2450 2475
+type(
+  'c list -> f:('c -> 'c list) -> 'c list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/utils.ml" 86 2450 2484 "src/utils.ml" 86 2450 2485
+type(
+  'c
+)
+ident(
+  def x "src/utils.ml" 86 2450 2490 "src/utils.ml" 86 2450 2491
+)
+"src/utils.ml" 86 2450 2490 "src/utils.ml" 86 2450 2491
+type(
+  'c
+)
+ident(
+  int_ref x "src/utils.ml" 86 2450 2484 "src/utils.ml" 86 2450 2485
+)
+type(
+  'c list
+)
+"src/utils.ml" 86 2450 2489 "src/utils.ml" 86 2450 2492
+type(
+  'c list
+)
+"src/utils.ml" 86 2450 2484 "src/utils.ml" 86 2450 2492
+type(
+  'c -> 'c list
+)
+"src/utils.ml" 86 2450 2494 "src/utils.ml" 86 2450 2495
+type(
+  'c list
+)
+ident(
+  int_ref b "src/utils.ml" 86 2450 2461 "src/utils.ml" 86 2450 2462
+)
+"src/utils.ml" 86 2450 2467 "src/utils.ml" 86 2450 2495
+call(
+  tail
+)
+type(
+  'c list list
+)
+"src/utils.ml" 87 2496 2502 "src/utils.ml" 87 2496 2503
+type(
+  'c list list * 'c list
+)
+"src/utils.ml" 87 2496 2507 "src/utils.ml" 87 2496 2518
+type(
+  'c list list list -> 'c list list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"src/utils.ml" 87 2496 2520 "src/utils.ml" 87 2496 2528
+type(
+  'c list -> f:('c -> 'c list list) -> 'c list list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/utils.ml" 87 2496 2533 "src/utils.ml" 87 2496 2543
+type(
+  'c list list -> 'c -> 'c list list
+)
+ident(
+  int_ref append_all "src/utils.ml" 82 2311 2317 "src/utils.ml" 82 2311 2327
+)
+"src/utils.ml" 87 2496 2544 "src/utils.ml" 87 2496 2547
+type(
+  'c list list
+)
+ident(
+  int_ref res "src/utils.ml" 83 2380 2395 "src/utils.ml" 83 2380 2398
+)
+"src/utils.ml" 87 2496 2533 "src/utils.ml" 87 2496 2547
+call(
+  stack
+)
+type(
+  'c -> 'c list list
+)
+"src/utils.ml" 87 2496 2549 "src/utils.ml" 87 2496 2550
+type(
+  'c list
+)
+ident(
+  int_ref b "src/utils.ml" 83 2380 2399 "src/utils.ml" 83 2380 2400
+)
+"src/utils.ml" 87 2496 2520 "src/utils.ml" 87 2496 2550
+call(
+  stack
+)
+type(
+  'c list list list
+)
+"src/utils.ml" 87 2496 2507 "src/utils.ml" 87 2496 2551
+call(
+  tail
+)
+type(
+  'c list list
+)
+"src/utils.ml" 84 2403 2407 "src/utils.ml" 87 2496 2551
+type(
+  'c list list
+)
+"src/utils.ml" 83 2380 2399 "src/utils.ml" 87 2496 2551
+type(
+  'c list -> 'c list list
+)
+"src/utils.ml" 83 2380 2395 "src/utils.ml" 87 2496 2551
+type(
+  'c list list -> 'c list -> 'c list list
+)
+"src/utils.ml" 89 2557 2559 "src/utils.ml" 89 2557 2568
+type(
+  'a list list ->
+  init:'a list list ->
+  f:('a list list -> 'a list -> 'a list list) -> 'a list list
+)
+ident(
+  ext_ref Core.Std.List.fold
+)
+"src/utils.ml" 89 2557 2575 "src/utils.ml" 89 2557 2577
+type(
+  'a list list
+)
+"src/utils.ml" 89 2557 2581 "src/utils.ml" 89 2557 2589
+type(
+  'a list list -> 'a list -> 'a list list
+)
+ident(
+  int_ref com_next "src/utils.ml" 83 2380 2386 "src/utils.ml" 83 2380 2394
+)
+"src/utils.ml" 89 2557 2590 "src/utils.ml" 89 2557 2594
+type(
+  'a list list
+)
+ident(
+  int_ref list "src/utils.ml" 81 2282 2304 "src/utils.ml" 81 2282 2308
+)
+"src/utils.ml" 89 2557 2559 "src/utils.ml" 89 2557 2594
+call(
+  tail
+)
+type(
+  'a list list
+)
+"src/utils.ml" 83 2380 2382 "src/utils.ml" 89 2557 2594
+type(
+  'a list list
+)
+"src/utils.ml" 82 2311 2313 "src/utils.ml" 89 2557 2594
+type(
+  'a list list
+)
+"src/utils.ml" 81 2282 2304 "src/utils.ml" 89 2557 2594
+type(
+  'a list list -> 'a list list
+)
+"src/utils.ml" 97 2766 2770 "src/utils.ml" 97 2766 2773
+type(
+  'a list -> f:('a -> bool) -> bool
+)
+ident(
+  def all "src/utils.ml" 108 3036 3036 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 97 2766 2774 "src/utils.ml" 97 2766 2778
+type(
+  'a list
+)
+ident(
+  def list "src/utils.ml" 97 2766 2779 "src/utils.ml" 100 2808 2860
+)
+"src/utils.ml" 98 2784 2786 "src/utils.ml" 98 2784 2790
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 97 2766 2774 "src/utils.ml" 97 2766 2778
+)
+"src/utils.ml" 99 2791 2793 "src/utils.ml" 99 2791 2795
+type(
+  'a list -> ('a list -> bool list) -> bool list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/utils.ml" 99 2791 2796 "src/utils.ml" 99 2791 2804
+type(
+  'a list -> f:('a -> bool) -> bool list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/utils.ml" 99 2791 2805 "src/utils.ml" 99 2791 2807
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "src/utils.ml" 97 2766 2779 "src/utils.ml" 100 2808 2860
+)
+"src/utils.ml" 99 2791 2796 "src/utils.ml" 99 2791 2807
+call(
+  tail
+)
+type(
+  'a list -> bool list
+)
+"src/utils.ml" 98 2784 2786 "src/utils.ml" 99 2791 2807
+call(
+  stack
+)
+type(
+  bool list
+)
+"src/utils.ml" 100 2808 2810 "src/utils.ml" 100 2808 2812
+type(
+  bool list -> (bool list -> bool) -> bool
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/utils.ml" 100 2808 2813 "src/utils.ml" 100 2808 2822
+type(
+  bool list -> init:bool -> f:(bool -> bool -> bool) -> bool
+)
+ident(
+  ext_ref Core.Std.List.fold
+)
+"src/utils.ml" 100 2808 2831 "src/utils.ml" 100 2808 2834
+type(
+  bool
+)
+ident(
+  def res "src/utils.ml" 100 2808 2835 "src/utils.ml" 100 2808 2848
+)
+"src/utils.ml" 100 2808 2835 "src/utils.ml" 100 2808 2836
+type(
+  bool
+)
+ident(
+  def x "src/utils.ml" 100 2808 2840 "src/utils.ml" 100 2808 2848
+)
+"src/utils.ml" 100 2808 2840 "src/utils.ml" 100 2808 2843
+type(
+  bool
+)
+ident(
+  int_ref res "src/utils.ml" 100 2808 2831 "src/utils.ml" 100 2808 2834
+)
+"src/utils.ml" 100 2808 2844 "src/utils.ml" 100 2808 2846
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/utils.ml" 100 2808 2847 "src/utils.ml" 100 2808 2848
+type(
+  bool
+)
+ident(
+  int_ref x "src/utils.ml" 100 2808 2835 "src/utils.ml" 100 2808 2836
+)
+"src/utils.ml" 100 2808 2840 "src/utils.ml" 100 2808 2848
+type(
+  bool
+)
+"src/utils.ml" 100 2808 2835 "src/utils.ml" 100 2808 2848
+type(
+  bool -> bool
+)
+"src/utils.ml" 100 2808 2831 "src/utils.ml" 100 2808 2848
+type(
+  bool -> bool -> bool
+)
+"src/utils.ml" 100 2808 2856 "src/utils.ml" 100 2808 2860
+type(
+  bool
+)
+"src/utils.ml" 100 2808 2813 "src/utils.ml" 100 2808 2860
+call(
+  tail
+)
+type(
+  bool list -> bool
+)
+"src/utils.ml" 98 2784 2786 "src/utils.ml" 100 2808 2860
+call(
+  tail
+)
+type(
+  bool
+)
+"src/utils.ml" 97 2766 2779 "src/utils.ml" 100 2808 2860
+type(
+  f:('a -> bool) -> bool
+)
+type(
+  'a -> bool
+)
+ident(
+  def f "src/utils.ml" 98 2784 2786 "src/utils.ml" 100 2808 2860
+)
+"src/utils.ml" 97 2766 2774 "src/utils.ml" 100 2808 2860
+type(
+  'a list -> f:('a -> bool) -> bool
+)
+"src/utils.ml" 108 3036 3040 "src/utils.ml" 108 3036 3043
+type(
+  'a list -> f:('a -> bool) -> bool
+)
+ident(
+  def any "src/utils.ml" 114 3205 3205 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 108 3036 3044 "src/utils.ml" 108 3036 3048
+type(
+  'a list
+)
+ident(
+  def list "src/utils.ml" 108 3036 3049 "src/utils.ml" 111 3078 3131
+)
+"src/utils.ml" 109 3054 3056 "src/utils.ml" 109 3054 3060
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 108 3036 3044 "src/utils.ml" 108 3036 3048
+)
+"src/utils.ml" 110 3061 3063 "src/utils.ml" 110 3061 3065
+type(
+  'a list -> ('a list -> bool list) -> bool list
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/utils.ml" 110 3061 3066 "src/utils.ml" 110 3061 3074
+type(
+  'a list -> f:('a -> bool) -> bool list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/utils.ml" 110 3061 3075 "src/utils.ml" 110 3061 3077
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "src/utils.ml" 108 3036 3049 "src/utils.ml" 111 3078 3131
+)
+"src/utils.ml" 110 3061 3066 "src/utils.ml" 110 3061 3077
+call(
+  tail
+)
+type(
+  'a list -> bool list
+)
+"src/utils.ml" 109 3054 3056 "src/utils.ml" 110 3061 3077
+call(
+  stack
+)
+type(
+  bool list
+)
+"src/utils.ml" 111 3078 3080 "src/utils.ml" 111 3078 3082
+type(
+  bool list -> (bool list -> bool) -> bool
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/utils.ml" 111 3078 3083 "src/utils.ml" 111 3078 3092
+type(
+  bool list -> init:bool -> f:(bool -> bool -> bool) -> bool
+)
+ident(
+  ext_ref Core.Std.List.fold
+)
+"src/utils.ml" 111 3078 3101 "src/utils.ml" 111 3078 3104
+type(
+  bool
+)
+ident(
+  def res "src/utils.ml" 111 3078 3105 "src/utils.ml" 111 3078 3118
+)
+"src/utils.ml" 111 3078 3105 "src/utils.ml" 111 3078 3106
+type(
+  bool
+)
+ident(
+  def x "src/utils.ml" 111 3078 3110 "src/utils.ml" 111 3078 3118
+)
+"src/utils.ml" 111 3078 3110 "src/utils.ml" 111 3078 3113
+type(
+  bool
+)
+ident(
+  int_ref res "src/utils.ml" 111 3078 3101 "src/utils.ml" 111 3078 3104
+)
+"src/utils.ml" 111 3078 3114 "src/utils.ml" 111 3078 3116
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/utils.ml" 111 3078 3117 "src/utils.ml" 111 3078 3118
+type(
+  bool
+)
+ident(
+  int_ref x "src/utils.ml" 111 3078 3105 "src/utils.ml" 111 3078 3106
+)
+"src/utils.ml" 111 3078 3110 "src/utils.ml" 111 3078 3118
+type(
+  bool
+)
+"src/utils.ml" 111 3078 3105 "src/utils.ml" 111 3078 3118
+type(
+  bool -> bool
+)
+"src/utils.ml" 111 3078 3101 "src/utils.ml" 111 3078 3118
+type(
+  bool -> bool -> bool
+)
+"src/utils.ml" 111 3078 3126 "src/utils.ml" 111 3078 3131
+type(
+  bool
+)
+"src/utils.ml" 111 3078 3083 "src/utils.ml" 111 3078 3131
+call(
+  tail
+)
+type(
+  bool list -> bool
+)
+"src/utils.ml" 109 3054 3056 "src/utils.ml" 111 3078 3131
+call(
+  tail
+)
+type(
+  bool
+)
+"src/utils.ml" 108 3036 3049 "src/utils.ml" 111 3078 3131
+type(
+  f:('a -> bool) -> bool
+)
+type(
+  'a -> bool
+)
+ident(
+  def f "src/utils.ml" 109 3054 3056 "src/utils.ml" 111 3078 3131
+)
+"src/utils.ml" 108 3036 3044 "src/utils.ml" 111 3078 3131
+type(
+  'a list -> f:('a -> bool) -> bool
+)
+"src/utils.ml" 114 3205 3209 "src/utils.ml" 114 3205 3215
+type(
+  'a list -> default:'a -> f:('a -> 'a -> 'a) -> 'a
+)
+ident(
+  def reduce "src/utils.ml" 119 3306 3306 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 114 3205 3216 "src/utils.ml" 114 3205 3220
+type(
+  'a list
+)
+ident(
+  def list "src/utils.ml" 114 3205 3221 "src/utils.ml" 117 3285 3304
+)
+"src/utils.ml" 115 3235 3243 "src/utils.ml" 115 3235 3254
+type(
+  'a list -> f:('a -> 'a -> 'a) -> 'a option
+)
+ident(
+  ext_ref Core.Std.List.reduce
+)
+"src/utils.ml" 115 3235 3255 "src/utils.ml" 115 3235 3259
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 114 3205 3216 "src/utils.ml" 114 3205 3220
+)
+"src/utils.ml" 115 3235 3260 "src/utils.ml" 115 3235 3262
+type(
+  'a -> 'a -> 'a
+)
+ident(
+  int_ref f "src/utils.ml" 114 3205 3230 "src/utils.ml" 117 3285 3304
+)
+"src/utils.ml" 115 3235 3243 "src/utils.ml" 115 3235 3262
+call(
+  stack
+)
+type(
+  'a option
+)
+"src/utils.ml" 116 3268 3277 "src/utils.ml" 116 3268 3278
+type(
+  'a
+)
+ident(
+  def x "src/utils.ml" 116 3268 3283 "src/utils.ml" 116 3268 3284
+)
+"src/utils.ml" 116 3268 3272 "src/utils.ml" 116 3268 3279
+type(
+  'a option
+)
+"src/utils.ml" 116 3268 3283 "src/utils.ml" 116 3268 3284
+type(
+  'a
+)
+ident(
+  int_ref x "src/utils.ml" 116 3268 3277 "src/utils.ml" 116 3268 3278
+)
+"src/utils.ml" 117 3285 3289 "src/utils.ml" 117 3285 3293
+type(
+  'a option
+)
+"src/utils.ml" 117 3285 3297 "src/utils.ml" 117 3285 3304
+type(
+  'a
+)
+ident(
+  int_ref default "src/utils.ml" 114 3205 3221 "src/utils.ml" 117 3285 3304
+)
+"src/utils.ml" 115 3235 3237 "src/utils.ml" 117 3285 3304
+type(
+  'a
+)
+"src/utils.ml" 114 3205 3230 "src/utils.ml" 117 3285 3304
+type(
+  f:('a -> 'a -> 'a) -> 'a
+)
+type(
+  'a -> 'a -> 'a
+)
+ident(
+  def f "src/utils.ml" 115 3235 3237 "src/utils.ml" 117 3285 3304
+)
+"src/utils.ml" 114 3205 3221 "src/utils.ml" 117 3285 3304
+type(
+  default:'a -> f:('a -> 'a -> 'a) -> 'a
+)
+type(
+  'a
+)
+ident(
+  def default "src/utils.ml" 114 3205 3230 "src/utils.ml" 117 3285 3304
+)
+"src/utils.ml" 114 3205 3216 "src/utils.ml" 117 3285 3304
+type(
+  'a list -> default:'a -> f:('a -> 'a -> 'a) -> 'a
+)
+"src/utils.ml" 119 3306 3310 "src/utils.ml" 119 3306 3322
+type(
+  'a list -> f:('a -> bool) -> 'a list
+)
+ident(
+  def rm_from_list "src/utils.ml" 132 3679 3679 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 119 3306 3323 "src/utils.ml" 119 3306 3325
+type(
+  'a list
+)
+ident(
+  def ls "src/utils.ml" 119 3306 3326 "src/utils.ml" 126 3474 3489
+)
+"src/utils.ml" 120 3331 3341 "src/utils.ml" 120 3331 3348
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def wrapper "src/utils.ml" 120 3331 3333 "src/utils.ml" 126 3474 3489
+)
+"src/utils.ml" 120 3331 3349 "src/utils.ml" 120 3331 3351
+type(
+  'a list
+)
+ident(
+  def ls "src/utils.ml" 120 3331 3352 "src/utils.ml" 124 3408 3468
+)
+"src/utils.ml" 120 3331 3352 "src/utils.ml" 120 3331 3355
+type(
+  'a list
+)
+ident(
+  def res "src/utils.ml" 121 3358 3362 "src/utils.ml" 124 3408 3468
+)
+"src/utils.ml" 121 3358 3368 "src/utils.ml" 121 3358 3370
+type(
+  'a list
+)
+ident(
+  int_ref ls "src/utils.ml" 120 3331 3349 "src/utils.ml" 120 3331 3351
+)
+"src/utils.ml" 122 3376 3382 "src/utils.ml" 122 3376 3384
+type(
+  'a list
+)
+"src/utils.ml" 122 3376 3388 "src/utils.ml" 122 3376 3391
+type(
+  'a list
+)
+ident(
+  int_ref res "src/utils.ml" 120 3331 3352 "src/utils.ml" 120 3331 3355
+)
+"src/utils.ml" 123 3392 3398 "src/utils.ml" 123 3392 3399
+type(
+  'a
+)
+ident(
+  def i "src/utils.ml" 124 3408 3414 "src/utils.ml" 124 3408 3468
+)
+"src/utils.ml" 123 3392 3401 "src/utils.ml" 123 3392 3404
+type(
+  'a list
+)
+ident(
+  def ls' "src/utils.ml" 124 3408 3414 "src/utils.ml" 124 3408 3468
+)
+"src/utils.ml" 123 3392 3398 "src/utils.ml" 123 3392 3404
+type(
+  'a list
+)
+"src/utils.ml" 124 3408 3417 "src/utils.ml" 124 3408 3418
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "src/utils.ml" 119 3306 3326 "src/utils.ml" 126 3474 3489
+)
+"src/utils.ml" 124 3408 3419 "src/utils.ml" 124 3408 3420
+type(
+  'a
+)
+ident(
+  int_ref i "src/utils.ml" 123 3392 3398 "src/utils.ml" 123 3392 3399
+)
+"src/utils.ml" 124 3408 3417 "src/utils.ml" 124 3408 3420
+call(
+  stack
+)
+type(
+  bool
+)
+"src/utils.ml" 124 3408 3426 "src/utils.ml" 124 3408 3433
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref wrapper "src/utils.ml" 120 3331 3341 "src/utils.ml" 120 3331 3348
+)
+"src/utils.ml" 124 3408 3434 "src/utils.ml" 124 3408 3437
+type(
+  'a list
+)
+ident(
+  int_ref ls' "src/utils.ml" 123 3392 3401 "src/utils.ml" 123 3392 3404
+)
+"src/utils.ml" 124 3408 3438 "src/utils.ml" 124 3408 3441
+type(
+  'a list
+)
+ident(
+  int_ref res "src/utils.ml" 120 3331 3352 "src/utils.ml" 120 3331 3355
+)
+"src/utils.ml" 124 3408 3426 "src/utils.ml" 124 3408 3441
+call(
+  tail
+)
+type(
+  'a list
+)
+"src/utils.ml" 124 3408 3447 "src/utils.ml" 124 3408 3454
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref wrapper "src/utils.ml" 120 3331 3341 "src/utils.ml" 120 3331 3348
+)
+"src/utils.ml" 124 3408 3455 "src/utils.ml" 124 3408 3458
+type(
+  'a list
+)
+ident(
+  int_ref ls' "src/utils.ml" 123 3392 3401 "src/utils.ml" 123 3392 3404
+)
+"src/utils.ml" 124 3408 3460 "src/utils.ml" 124 3408 3463
+type(
+  'a list
+)
+ident(
+  int_ref res "src/utils.ml" 120 3331 3352 "src/utils.ml" 120 3331 3355
+)
+"src/utils.ml" 124 3408 3463 "src/utils.ml" 124 3408 3464
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"src/utils.ml" 124 3408 3465 "src/utils.ml" 124 3408 3466
+type(
+  'a
+)
+ident(
+  int_ref i "src/utils.ml" 123 3392 3398 "src/utils.ml" 123 3392 3399
+)
+type(
+  'a list
+)
+"src/utils.ml" 124 3408 3464 "src/utils.ml" 124 3408 3467
+type(
+  'a list
+)
+"src/utils.ml" 124 3408 3460 "src/utils.ml" 124 3408 3467
+call(
+  stack
+)
+type(
+  'a list
+)
+"src/utils.ml" 124 3408 3447 "src/utils.ml" 124 3408 3468
+call(
+  tail
+)
+type(
+  'a list
+)
+"src/utils.ml" 124 3408 3414 "src/utils.ml" 124 3408 3468
+type(
+  'a list
+)
+"src/utils.ml" 121 3358 3362 "src/utils.ml" 124 3408 3468
+type(
+  'a list
+)
+"src/utils.ml" 120 3331 3352 "src/utils.ml" 124 3408 3468
+type(
+  'a list -> 'a list
+)
+"src/utils.ml" 120 3331 3349 "src/utils.ml" 124 3408 3468
+type(
+  'a list -> 'a list -> 'a list
+)
+"src/utils.ml" 126 3474 3476 "src/utils.ml" 126 3474 3483
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref wrapper "src/utils.ml" 120 3331 3341 "src/utils.ml" 120 3331 3348
+)
+"src/utils.ml" 126 3474 3484 "src/utils.ml" 126 3474 3486
+type(
+  'a list
+)
+ident(
+  int_ref ls "src/utils.ml" 119 3306 3323 "src/utils.ml" 119 3306 3325
+)
+"src/utils.ml" 126 3474 3487 "src/utils.ml" 126 3474 3489
+type(
+  'a list
+)
+"src/utils.ml" 126 3474 3476 "src/utils.ml" 126 3474 3489
+call(
+  tail
+)
+type(
+  'a list
+)
+"src/utils.ml" 120 3331 3333 "src/utils.ml" 126 3474 3489
+type(
+  'a list
+)
+"src/utils.ml" 119 3306 3326 "src/utils.ml" 126 3474 3489
+type(
+  f:('a -> bool) -> 'a list
+)
+type(
+  'a -> bool
+)
+ident(
+  def f "src/utils.ml" 120 3331 3333 "src/utils.ml" 126 3474 3489
+)
+"src/utils.ml" 119 3306 3323 "src/utils.ml" 126 3474 3489
+type(
+  'a list -> f:('a -> bool) -> 'a list
+)
+"src/utils.ml" 132 3679 3683 "src/utils.ml" 132 3679 3703
+type(
+  'a list -> f:('a -> 'b) -> ('b, 'a list) List.Assoc.t
+)
+ident(
+  def partition_with_label "src/utils.ml" 151 4294 4294 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 132 3679 3704 "src/utils.ml" 132 3679 3708
+type(
+  'a list
+)
+ident(
+  def list "src/utils.ml" 132 3679 3709 "src/utils.ml" 145 4099 4127
+)
+"src/utils.ml" 133 3714 3724 "src/utils.ml" 133 3714 3731
+type(
+  'a list -> ('b, 'a list) List.Assoc.t -> ('b, 'a list) List.Assoc.t
+)
+ident(
+  def wrapper "src/utils.ml" 133 3714 3716 "src/utils.ml" 145 4099 4127
+)
+"src/utils.ml" 133 3714 3732 "src/utils.ml" 133 3714 3736
+type(
+  'a list
+)
+ident(
+  def list "src/utils.ml" 133 3714 3737 "src/utils.ml" 143 4086 4093
+)
+"src/utils.ml" 133 3714 3737 "src/utils.ml" 133 3714 3742
+type(
+  ('b, 'a list) List.Assoc.t
+)
+ident(
+  def assoc "src/utils.ml" 134 3745 3749 "src/utils.ml" 143 4086 4093
+)
+"src/utils.ml" 134 3745 3755 "src/utils.ml" 134 3745 3759
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 133 3714 3732 "src/utils.ml" 133 3714 3736
+)
+"src/utils.ml" 135 3765 3771 "src/utils.ml" 135 3765 3773
+type(
+  'a list
+)
+"src/utils.ml" 135 3765 3777 "src/utils.ml" 135 3765 3782
+type(
+  ('b, 'a list) List.Assoc.t
+)
+ident(
+  int_ref assoc "src/utils.ml" 133 3714 3737 "src/utils.ml" 133 3714 3742
+)
+"src/utils.ml" 136 3783 3789 "src/utils.ml" 136 3783 3792
+type(
+  'a
+)
+ident(
+  def ele "src/utils.ml" 137 3803 3809 "src/utils.ml" 143 4086 4093
+)
+"src/utils.ml" 136 3783 3794 "src/utils.ml" 136 3783 3799
+type(
+  'a list
+)
+ident(
+  def list' "src/utils.ml" 137 3803 3809 "src/utils.ml" 143 4086 4093
+)
+"src/utils.ml" 136 3783 3789 "src/utils.ml" 136 3783 3799
+type(
+  'a list
+)
+"src/utils.ml" 137 3803 3813 "src/utils.ml" 137 3803 3818
+type(
+  'b
+)
+ident(
+  def value "src/utils.ml" 138 3832 3840 "src/utils.ml" 142 4023 4085
+)
+"src/utils.ml" 137 3803 3821 "src/utils.ml" 137 3803 3822
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "src/utils.ml" 132 3679 3709 "src/utils.ml" 145 4099 4127
+)
+"src/utils.ml" 137 3803 3823 "src/utils.ml" 137 3803 3826
+type(
+  'a
+)
+ident(
+  int_ref ele "src/utils.ml" 136 3783 3789 "src/utils.ml" 136 3783 3792
+)
+"src/utils.ml" 137 3803 3821 "src/utils.ml" 137 3803 3826
+call(
+  stack
+)
+type(
+  'b
+)
+"src/utils.ml" 138 3832 3846 "src/utils.ml" 138 3832 3861
+type(
+  ('b, 'a list) List.Assoc.t ->
+  ?equal:('b -> 'b -> bool) -> 'b -> 'a list option
+)
+ident(
+  ext_ref Core.Std.List.Assoc.find
+)
+"src/utils.ml" 138 3832 3862 "src/utils.ml" 138 3832 3867
+type(
+  ('b, 'a list) List.Assoc.t
+)
+ident(
+  int_ref assoc "src/utils.ml" 133 3714 3737 "src/utils.ml" 133 3714 3742
+)
+"src/utils.ml" 138 3832 3868 "src/utils.ml" 138 3832 3873
+type(
+  'b
+)
+ident(
+  int_ref value "src/utils.ml" 137 3803 3813 "src/utils.ml" 137 3803 3818
+)
+"src/utils.ml" 138 3832 3846 "src/utils.ml" 138 3832 3873
+call(
+  stack
+)
+type(
+  'a list option
+)
+"src/utils.ml" 139 3879 3889 "src/utils.ml" 139 3879 3893
+type(
+  'a list option
+)
+"src/utils.ml" 139 3879 3897 "src/utils.ml" 139 3879 3904
+type(
+  'a list -> ('b, 'a list) List.Assoc.t -> ('b, 'a list) List.Assoc.t
+)
+ident(
+  int_ref wrapper "src/utils.ml" 133 3714 3724 "src/utils.ml" 133 3714 3731
+)
+"src/utils.ml" 139 3879 3905 "src/utils.ml" 139 3879 3910
+type(
+  'a list
+)
+ident(
+  int_ref list' "src/utils.ml" 136 3783 3794 "src/utils.ml" 136 3783 3799
+)
+"src/utils.ml" 139 3879 3912 "src/utils.ml" 139 3879 3926
+type(
+  ('b, 'a list) List.Assoc.t ->
+  ?equal:('b -> 'b -> bool) -> 'b -> 'a list -> ('b, 'a list) List.Assoc.t
+)
+ident(
+  ext_ref Core.Std.List.Assoc.add
+)
+"src/utils.ml" 139 3879 3927 "src/utils.ml" 139 3879 3932
+type(
+  ('b, 'a list) List.Assoc.t
+)
+ident(
+  int_ref assoc "src/utils.ml" 133 3714 3737 "src/utils.ml" 133 3714 3742
+)
+"src/utils.ml" 139 3879 3933 "src/utils.ml" 139 3879 3938
+type(
+  'b
+)
+ident(
+  int_ref value "src/utils.ml" 137 3803 3813 "src/utils.ml" 137 3803 3818
+)
+"src/utils.ml" 139 3879 3940 "src/utils.ml" 139 3879 3943
+type(
+  'a
+)
+ident(
+  int_ref ele "src/utils.ml" 136 3783 3789 "src/utils.ml" 136 3783 3792
+)
+type(
+  'a list
+)
+"src/utils.ml" 139 3879 3939 "src/utils.ml" 139 3879 3944
+type(
+  'a list
+)
+"src/utils.ml" 139 3879 3912 "src/utils.ml" 139 3879 3944
+call(
+  stack
+)
+type(
+  ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 139 3879 3897 "src/utils.ml" 139 3879 3945
+call(
+  tail
+)
+type(
+  ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 140 3946 3961 "src/utils.ml" 140 3946 3962
+type(
+  'a list
+)
+ident(
+  def v "src/utils.ml" 141 3967 3977 "src/utils.ml" 142 4023 4085
+)
+"src/utils.ml" 140 3946 3956 "src/utils.ml" 140 3946 3963
+type(
+  'a list option
+)
+"src/utils.ml" 141 3967 3981 "src/utils.ml" 141 3967 3987
+type(
+  ('b, 'a list) List.Assoc.t
+)
+ident(
+  def assoc' "src/utils.ml" 142 4023 4033 "src/utils.ml" 142 4023 4085
+)
+"src/utils.ml" 141 3967 3990 "src/utils.ml" 141 3967 4007
+type(
+  ('b, 'a list) List.Assoc.t ->
+  ?equal:('b -> 'b -> bool) -> 'b -> ('b, 'a list) List.Assoc.t
+)
+ident(
+  ext_ref Core.Std.List.Assoc.remove
+)
+"src/utils.ml" 141 3967 4008 "src/utils.ml" 141 3967 4013
+type(
+  ('b, 'a list) List.Assoc.t
+)
+ident(
+  int_ref assoc "src/utils.ml" 133 3714 3737 "src/utils.ml" 133 3714 3742
+)
+"src/utils.ml" 141 3967 4014 "src/utils.ml" 141 3967 4019
+type(
+  'b
+)
+ident(
+  int_ref value "src/utils.ml" 137 3803 3813 "src/utils.ml" 137 3803 3818
+)
+"src/utils.ml" 141 3967 3990 "src/utils.ml" 141 3967 4019
+call(
+  stack
+)
+type(
+  ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 142 4023 4033 "src/utils.ml" 142 4023 4040
+type(
+  'a list -> ('b, 'a list) List.Assoc.t -> ('b, 'a list) List.Assoc.t
+)
+ident(
+  int_ref wrapper "src/utils.ml" 133 3714 3724 "src/utils.ml" 133 3714 3731
+)
+"src/utils.ml" 142 4023 4041 "src/utils.ml" 142 4023 4046
+type(
+  'a list
+)
+ident(
+  int_ref list' "src/utils.ml" 136 3783 3794 "src/utils.ml" 136 3783 3799
+)
+"src/utils.ml" 142 4023 4048 "src/utils.ml" 142 4023 4062
+type(
+  ('b, 'a list) List.Assoc.t ->
+  ?equal:('b -> 'b -> bool) -> 'b -> 'a list -> ('b, 'a list) List.Assoc.t
+)
+ident(
+  ext_ref Core.Std.List.Assoc.add
+)
+"src/utils.ml" 142 4023 4063 "src/utils.ml" 142 4023 4069
+type(
+  ('b, 'a list) List.Assoc.t
+)
+ident(
+  int_ref assoc' "src/utils.ml" 141 3967 3981 "src/utils.ml" 141 3967 3987
+)
+"src/utils.ml" 142 4023 4070 "src/utils.ml" 142 4023 4075
+type(
+  'b
+)
+ident(
+  int_ref value "src/utils.ml" 137 3803 3813 "src/utils.ml" 137 3803 3818
+)
+"src/utils.ml" 142 4023 4077 "src/utils.ml" 142 4023 4080
+type(
+  'a
+)
+ident(
+  int_ref ele "src/utils.ml" 136 3783 3789 "src/utils.ml" 136 3783 3792
+)
+"src/utils.ml" 142 4023 4082 "src/utils.ml" 142 4023 4083
+type(
+  'a list
+)
+ident(
+  int_ref v "src/utils.ml" 140 3946 3961 "src/utils.ml" 140 3946 3962
+)
+"src/utils.ml" 142 4023 4077 "src/utils.ml" 142 4023 4083
+type(
+  'a list
+)
+"src/utils.ml" 142 4023 4048 "src/utils.ml" 142 4023 4084
+call(
+  stack
+)
+type(
+  ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 142 4023 4033 "src/utils.ml" 142 4023 4085
+call(
+  tail
+)
+type(
+  ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 141 3967 3977 "src/utils.ml" 142 4023 4085
+type(
+  ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 138 3832 3840 "src/utils.ml" 142 4023 4085
+type(
+  ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 137 3803 3809 "src/utils.ml" 143 4086 4093
+type(
+  ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 134 3745 3749 "src/utils.ml" 143 4086 4093
+type(
+  ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 133 3714 3737 "src/utils.ml" 143 4086 4093
+type(
+  ('b, 'a list) List.Assoc.t -> ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 133 3714 3732 "src/utils.ml" 143 4086 4093
+type(
+  'a list -> ('b, 'a list) List.Assoc.t -> ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 145 4099 4101 "src/utils.ml" 145 4099 4108
+type(
+  'a list -> ('b, 'a list) List.Assoc.t -> ('b, 'a list) List.Assoc.t
+)
+ident(
+  int_ref wrapper "src/utils.ml" 133 3714 3724 "src/utils.ml" 133 3714 3731
+)
+"src/utils.ml" 145 4099 4110 "src/utils.ml" 145 4099 4118
+type(
+  'a list -> 'a list
+)
+ident(
+  ext_ref Core.Std.List.rev
+)
+"src/utils.ml" 145 4099 4119 "src/utils.ml" 145 4099 4123
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 132 3679 3704 "src/utils.ml" 132 3679 3708
+)
+"src/utils.ml" 145 4099 4110 "src/utils.ml" 145 4099 4123
+call(
+  stack
+)
+type(
+  'a list
+)
+"src/utils.ml" 145 4099 4125 "src/utils.ml" 145 4099 4127
+type(
+  ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 145 4099 4101 "src/utils.ml" 145 4099 4127
+call(
+  tail
+)
+type(
+  ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 133 3714 3716 "src/utils.ml" 145 4099 4127
+type(
+  ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 132 3679 3709 "src/utils.ml" 145 4099 4127
+type(
+  f:('a -> 'b) -> ('b, 'a list) List.Assoc.t
+)
+type(
+  'a -> 'b
+)
+ident(
+  def f "src/utils.ml" 133 3714 3716 "src/utils.ml" 145 4099 4127
+)
+"src/utils.ml" 132 3679 3704 "src/utils.ml" 145 4099 4127
+type(
+  'a list -> f:('a -> 'b) -> ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 151 4294 4298 "src/utils.ml" 151 4294 4307
+type(
+  'a list -> f:('a -> 'b) -> 'a list list
+)
+ident(
+  def partition "src/utils.ml" 156 4404 4404 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 151 4294 4308 "src/utils.ml" 151 4294 4312
+type(
+  'a list
+)
+ident(
+  def list "src/utils.ml" 151 4294 4313 "src/utils.ml" 153 4364 4401
+)
+"src/utils.ml" 152 4318 4324 "src/utils.ml" 152 4318 4329
+type(
+  ('b, 'a list) List.Assoc.t
+)
+ident(
+  def assoc "src/utils.ml" 153 4364 4366 "src/utils.ml" 153 4364 4401
+)
+"src/utils.ml" 152 4318 4332 "src/utils.ml" 152 4318 4352
+type(
+  'a list -> f:('a -> 'b) -> ('b, 'a list) List.Assoc.t
+)
+ident(
+  int_ref partition_with_label "src/utils.ml" 132 3679 3683 "src/utils.ml" 132 3679 3703
+)
+"src/utils.ml" 152 4318 4353 "src/utils.ml" 152 4318 4357
+type(
+  'a list
+)
+ident(
+  int_ref list "src/utils.ml" 151 4294 4308 "src/utils.ml" 151 4294 4312
+)
+"src/utils.ml" 152 4318 4358 "src/utils.ml" 152 4318 4360
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "src/utils.ml" 151 4294 4313 "src/utils.ml" 153 4364 4401
+)
+"src/utils.ml" 152 4318 4332 "src/utils.ml" 152 4318 4360
+call(
+  stack
+)
+type(
+  ('b, 'a list) List.Assoc.t
+)
+"src/utils.ml" 153 4364 4366 "src/utils.ml" 153 4364 4374
+type(
+  ('b * 'a list) list -> f:('b * 'a list -> 'a list) -> 'a list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/utils.ml" 153 4364 4375 "src/utils.ml" 153 4364 4380
+type(
+  ('b, 'a list) List.Assoc.t
+)
+ident(
+  int_ref assoc "src/utils.ml" 152 4318 4324 "src/utils.ml" 152 4318 4329
+)
+"src/utils.ml" 153 4364 4390 "src/utils.ml" 153 4364 4391
+type(
+  'b
+)
+"src/utils.ml" 153 4364 4393 "src/utils.ml" 153 4364 4394
+type(
+  'a list
+)
+ident(
+  def v "src/utils.ml" 153 4364 4399 "src/utils.ml" 153 4364 4400
+)
+"src/utils.ml" 153 4364 4390 "src/utils.ml" 153 4364 4394
+type(
+  'b * 'a list
+)
+"src/utils.ml" 153 4364 4399 "src/utils.ml" 153 4364 4400
+type(
+  'a list
+)
+ident(
+  int_ref v "src/utils.ml" 153 4364 4393 "src/utils.ml" 153 4364 4394
+)
+"src/utils.ml" 153 4364 4389 "src/utils.ml" 153 4364 4400
+type(
+  'b * 'a list -> 'a list
+)
+"src/utils.ml" 153 4364 4366 "src/utils.ml" 153 4364 4401
+call(
+  tail
+)
+type(
+  'a list list
+)
+"src/utils.ml" 152 4318 4320 "src/utils.ml" 153 4364 4401
+type(
+  'a list list
+)
+"src/utils.ml" 151 4294 4313 "src/utils.ml" 153 4364 4401
+type(
+  f:('a -> 'b) -> 'a list list
+)
+type(
+  'a -> 'b
+)
+ident(
+  def f "src/utils.ml" 152 4318 4320 "src/utils.ml" 153 4364 4401
+)
+"src/utils.ml" 151 4294 4308 "src/utils.ml" 153 4364 4401
+type(
+  'a list -> f:('a -> 'b) -> 'a list list
+)
+"src/utils.ml" 156 4404 4412 "src/utils.ml" 156 4404 4429
+type(
+  'a list -> f:('a -> 'a -> bool) -> 'a list
+)
+ident(
+  def stupid_dedup_list "src/utils.ml" 156 4404 4404 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 156 4404 4430 "src/utils.ml" 156 4404 4432
+type(
+  'a list
+)
+ident(
+  def ls "src/utils.ml" 156 4404 4433 "src/utils.ml" 161 4526 4595
+)
+"src/utils.ml" 157 4438 4446 "src/utils.ml" 157 4438 4448
+type(
+  'a list
+)
+ident(
+  int_ref ls "src/utils.ml" 156 4404 4430 "src/utils.ml" 156 4404 4432
+)
+"src/utils.ml" 158 4454 4458 "src/utils.ml" 158 4454 4460
+type(
+  'a list
+)
+"src/utils.ml" 158 4454 4464 "src/utils.ml" 158 4454 4466
+type(
+  'a list
+)
+"src/utils.ml" 159 4467 4471 "src/utils.ml" 159 4467 4474
+type(
+  'a
+)
+ident(
+  def ele "src/utils.ml" 160 4483 4487 "src/utils.ml" 161 4526 4595
+)
+"src/utils.ml" 159 4467 4476 "src/utils.ml" 159 4467 4479
+type(
+  'a list
+)
+ident(
+  def ls' "src/utils.ml" 160 4483 4487 "src/utils.ml" 161 4526 4595
+)
+"src/utils.ml" 159 4467 4471 "src/utils.ml" 159 4467 4479
+type(
+  'a list
+)
+"src/utils.ml" 160 4483 4491 "src/utils.ml" 160 4483 4495
+type(
+  'a list
+)
+ident(
+  def tail "src/utils.ml" 161 4526 4530 "src/utils.ml" 161 4526 4595
+)
+"src/utils.ml" 160 4483 4498 "src/utils.ml" 160 4483 4515
+type(
+  'a list -> f:('a -> 'a -> bool) -> 'a list
+)
+ident(
+  int_ref stupid_dedup_list "src/utils.ml" 156 4404 4412 "src/utils.ml" 156 4404 4429
+)
+"src/utils.ml" 160 4483 4516 "src/utils.ml" 160 4483 4519
+type(
+  'a list
+)
+ident(
+  int_ref ls' "src/utils.ml" 159 4467 4476 "src/utils.ml" 159 4467 4479
+)
+"src/utils.ml" 160 4483 4520 "src/utils.ml" 160 4483 4522
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref f "src/utils.ml" 156 4404 4433 "src/utils.ml" 161 4526 4595
+)
+"src/utils.ml" 160 4483 4498 "src/utils.ml" 160 4483 4522
+call(
+  stack
+)
+type(
+  'a list
+)
+"src/utils.ml" 161 4526 4533 "src/utils.ml" 161 4526 4544
+type(
+  'a list -> f:('a -> bool) -> bool
+)
+ident(
+  ext_ref Core.Std.List.exists
+)
+"src/utils.ml" 161 4526 4545 "src/utils.ml" 161 4526 4548
+type(
+  'a list
+)
+ident(
+  int_ref ls' "src/utils.ml" 159 4467 4476 "src/utils.ml" 159 4467 4479
+)
+"src/utils.ml" 161 4526 4557 "src/utils.ml" 161 4526 4558
+type(
+  'a
+)
+ident(
+  def x "src/utils.ml" 161 4526 4562 "src/utils.ml" 161 4526 4569
+)
+"src/utils.ml" 161 4526 4562 "src/utils.ml" 161 4526 4563
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref f "src/utils.ml" 156 4404 4433 "src/utils.ml" 161 4526 4595
+)
+"src/utils.ml" 161 4526 4564 "src/utils.ml" 161 4526 4565
+type(
+  'a
+)
+ident(
+  int_ref x "src/utils.ml" 161 4526 4557 "src/utils.ml" 161 4526 4558
+)
+"src/utils.ml" 161 4526 4566 "src/utils.ml" 161 4526 4569
+type(
+  'a
+)
+ident(
+  int_ref ele "src/utils.ml" 159 4467 4471 "src/utils.ml" 159 4467 4474
+)
+"src/utils.ml" 161 4526 4562 "src/utils.ml" 161 4526 4569
+call(
+  tail
+)
+type(
+  bool
+)
+"src/utils.ml" 161 4526 4557 "src/utils.ml" 161 4526 4569
+type(
+  'a -> bool
+)
+"src/utils.ml" 161 4526 4533 "src/utils.ml" 161 4526 4570
+call(
+  stack
+)
+type(
+  bool
+)
+"src/utils.ml" 161 4526 4576 "src/utils.ml" 161 4526 4580
+type(
+  'a list
+)
+ident(
+  int_ref tail "src/utils.ml" 160 4483 4491 "src/utils.ml" 160 4483 4495
+)
+"src/utils.ml" 161 4526 4586 "src/utils.ml" 161 4526 4589
+type(
+  'a
+)
+ident(
+  int_ref ele "src/utils.ml" 159 4467 4471 "src/utils.ml" 159 4467 4474
+)
+"src/utils.ml" 161 4526 4591 "src/utils.ml" 161 4526 4595
+type(
+  'a list
+)
+ident(
+  int_ref tail "src/utils.ml" 160 4483 4491 "src/utils.ml" 160 4483 4495
+)
+"src/utils.ml" 161 4526 4586 "src/utils.ml" 161 4526 4595
+type(
+  'a list
+)
+"src/utils.ml" 161 4526 4530 "src/utils.ml" 161 4526 4595
+type(
+  'a list
+)
+"src/utils.ml" 160 4483 4487 "src/utils.ml" 161 4526 4595
+type(
+  'a list
+)
+"src/utils.ml" 157 4438 4440 "src/utils.ml" 161 4526 4595
+type(
+  'a list
+)
+"src/utils.ml" 156 4404 4433 "src/utils.ml" 161 4526 4595
+type(
+  f:('a -> 'a -> bool) -> 'a list
+)
+type(
+  'a -> 'a -> bool
+)
+ident(
+  def f "src/utils.ml" 157 4438 4440 "src/utils.ml" 161 4526 4595
+)
+"src/utils.ml" 156 4404 4430 "src/utils.ml" 161 4526 4595
+type(
+  'a list -> f:('a -> 'a -> bool) -> 'a list
+)
+"src/utils.ml" 164 4598 4602 "src/utils.ml" 164 4598 4616
+type(
+  string -> string -> string -> string
+)
+ident(
+  def string_replace "src/utils.ml" 179 4751 4751 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 164 4598 4617 "src/utils.ml" 164 4598 4618
+type(
+  string
+)
+ident(
+  def s "src/utils.ml" 164 4598 4619 "src/utils.ml" 165 4623 4682
+)
+"src/utils.ml" 164 4598 4619 "src/utils.ml" 164 4598 4620
+type(
+  string
+)
+ident(
+  def d "src/utils.ml" 165 4623 4625 "src/utils.ml" 165 4623 4682
+)
+"src/utils.ml" 165 4623 4625 "src/utils.ml" 165 4623 4646
+type(
+  Re2.Regex.t -> template:string -> string -> string
+)
+ident(
+  ext_ref Re2.Regex.rewrite_exn
+)
+"src/utils.ml" 165 4623 4648 "src/utils.ml" 165 4623 4667
+type(
+  string -> Re2.Regex.t
+)
+ident(
+  ext_ref Re2.Regex.of_string
+)
+"src/utils.ml" 165 4623 4668 "src/utils.ml" 165 4623 4669
+type(
+  string
+)
+ident(
+  int_ref s "src/utils.ml" 164 4598 4617 "src/utils.ml" 164 4598 4618
+)
+"src/utils.ml" 165 4623 4648 "src/utils.ml" 165 4623 4669
+call(
+  stack
+)
+type(
+  Re2.Regex.t
+)
+"src/utils.ml" 165 4623 4681 "src/utils.ml" 165 4623 4682
+type(
+  string
+)
+ident(
+  int_ref d "src/utils.ml" 164 4598 4619 "src/utils.ml" 164 4598 4620
+)
+"src/utils.ml" 165 4623 4625 "src/utils.ml" 165 4623 4682
+call(
+  tail
+)
+type(
+  string -> string
+)
+"src/utils.ml" 164 4598 4619 "src/utils.ml" 165 4623 4682
+type(
+  string -> string -> string
+)
+"src/utils.ml" 164 4598 4617 "src/utils.ml" 165 4623 4682
+type(
+  string -> string -> string -> string
+)
+"src/utils.ml" 182 4818 4822 "src/utils.ml" 182 4818 4833
+type(
+  int -> string
+)
+ident(
+  def new_str_buf "src/utils.ml" 188 4962 4962 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 182 4818 4834 "src/utils.ml" 182 4818 4838
+type(
+  int
+)
+ident(
+  def size "src/utils.ml" 183 4841 4843 "src/utils.ml" 185 4918 4923
+)
+"src/utils.ml" 183 4841 4847 "src/utils.ml" 183 4841 4850
+type(
+  string
+)
+ident(
+  def buf "src/utils.ml" 184 4875 4877 "src/utils.ml" 185 4918 4923
+)
+"src/utils.ml" 183 4841 4853 "src/utils.ml" 183 4841 4866
+type(
+  int -> string
+)
+ident(
+  ext_ref Core.Std.String.create
+)
+"src/utils.ml" 183 4841 4867 "src/utils.ml" 183 4841 4871
+type(
+  int
+)
+ident(
+  int_ref size "src/utils.ml" 182 4818 4834 "src/utils.ml" 182 4818 4838
+)
+"src/utils.ml" 183 4841 4853 "src/utils.ml" 183 4841 4871
+type(
+  string
+)
+"src/utils.ml" 184 4875 4877 "src/utils.ml" 184 4875 4888
+type(
+  string -> pos:int -> len:int -> char -> unit
+)
+ident(
+  ext_ref Core.Std.String.fill
+)
+"src/utils.ml" 184 4875 4889 "src/utils.ml" 184 4875 4892
+type(
+  string
+)
+ident(
+  int_ref buf "src/utils.ml" 183 4841 4847 "src/utils.ml" 183 4841 4850
+)
+"src/utils.ml" 184 4875 4898 "src/utils.ml" 184 4875 4899
+type(
+  int
+)
+"src/utils.ml" 184 4875 4905 "src/utils.ml" 184 4875 4909
+type(
+  int
+)
+ident(
+  int_ref size "src/utils.ml" 182 4818 4834 "src/utils.ml" 182 4818 4838
+)
+"src/utils.ml" 184 4875 4910 "src/utils.ml" 184 4875 4916
+type(
+  char
+)
+"src/utils.ml" 184 4875 4877 "src/utils.ml" 184 4875 4916
+call(
+  stack
+)
+type(
+  unit
+)
+"src/utils.ml" 185 4918 4920 "src/utils.ml" 185 4918 4923
+type(
+  string
+)
+ident(
+  int_ref buf "src/utils.ml" 183 4841 4847 "src/utils.ml" 183 4841 4850
+)
+"src/utils.ml" 184 4875 4877 "src/utils.ml" 185 4918 4923
+type(
+  string
+)
+"src/utils.ml" 183 4841 4843 "src/utils.ml" 185 4918 4923
+type(
+  string
+)
+"src/utils.ml" 182 4818 4834 "src/utils.ml" 185 4918 4923
+type(
+  int -> string
+)
+"src/utils.ml" 188 4962 4966 "src/utils.ml" 188 4962 4977
+type(
+  UnixLabels.file_descr -> string
+)
+ident(
+  def read_to_end "src/utils.ml" 207 5505 5505 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 188 4962 4978 "src/utils.ml" 188 4962 4985
+type(
+  UnixLabels.file_descr
+)
+ident(
+  def filedsr "src/utils.ml" 189 4988 4990 "src/utils.ml" 198 5267 5292
+)
+"src/utils.ml" 189 4988 4998 "src/utils.ml" 189 4988 5002
+type(
+  UnixLabels.file_descr -> string list -> string list
+)
+ident(
+  def read "src/utils.ml" 189 4988 4990 "src/utils.ml" 198 5267 5292
+)
+"src/utils.ml" 189 4988 5003 "src/utils.ml" 189 4988 5010
+type(
+  UnixLabels.file_descr
+)
+ident(
+  def filedsr "src/utils.ml" 189 4988 5011 "src/utils.ml" 195 5140 5203
+)
+"src/utils.ml" 189 4988 5011 "src/utils.ml" 189 4988 5018
+type(
+  string list
+)
+ident(
+  def results "src/utils.ml" 190 5021 5025 "src/utils.ml" 195 5140 5203
+)
+"src/utils.ml" 190 5021 5029 "src/utils.ml" 190 5021 5032
+type(
+  string
+)
+ident(
+  def buf "src/utils.ml" 191 5055 5059 "src/utils.ml" 195 5140 5203
+)
+"src/utils.ml" 190 5021 5035 "src/utils.ml" 190 5021 5046
+type(
+  int -> string
+)
+ident(
+  int_ref new_str_buf "src/utils.ml" 182 4818 4822 "src/utils.ml" 182 4818 4833
+)
+"src/utils.ml" 190 5021 5047 "src/utils.ml" 190 5021 5051
+type(
+  int
+)
+"src/utils.ml" 190 5021 5035 "src/utils.ml" 190 5021 5051
+call(
+  stack
+)
+type(
+  string
+)
+"src/utils.ml" 191 5055 5063 "src/utils.ml" 191 5055 5067
+type(
+  int
+)
+ident(
+  def size "src/utils.ml" 192 5096 5100 "src/utils.ml" 195 5140 5203
+)
+"src/utils.ml" 191 5055 5070 "src/utils.ml" 191 5055 5079
+type(
+  ?restart:bool ->
+  ?pos:int -> ?len:int -> UnixLabels.file_descr -> buf:string -> int
+)
+ident(
+  ext_ref Core.Std.Unix.read
+)
+"src/utils.ml" 191 5055 5080 "src/utils.ml" 191 5055 5087
+type(
+  UnixLabels.file_descr
+)
+ident(
+  int_ref filedsr "src/utils.ml" 189 4988 5003 "src/utils.ml" 189 4988 5010
+)
+"src/utils.ml" 191 5055 5088 "src/utils.ml" 191 5055 5092
+type(
+  string
+)
+ident(
+  int_ref buf "src/utils.ml" 190 5021 5029 "src/utils.ml" 190 5021 5032
+)
+"src/utils.ml" 191 5055 5070 "src/utils.ml" 191 5055 5092
+call(
+  stack
+)
+type(
+  int
+)
+"src/utils.ml" 192 5096 5103 "src/utils.ml" 192 5096 5107
+type(
+  int
+)
+ident(
+  int_ref size "src/utils.ml" 191 5055 5063 "src/utils.ml" 191 5055 5067
+)
+"src/utils.ml" 192 5096 5108 "src/utils.ml" 192 5096 5109
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/utils.ml" 192 5096 5110 "src/utils.ml" 192 5096 5111
+type(
+  int
+)
+"src/utils.ml" 192 5096 5103 "src/utils.ml" 192 5096 5111
+type(
+  bool
+)
+"src/utils.ml" 193 5117 5123 "src/utils.ml" 193 5117 5130
+type(
+  string list
+)
+ident(
+  int_ref results "src/utils.ml" 189 4988 5011 "src/utils.ml" 189 4988 5018
+)
+"src/utils.ml" 195 5140 5146 "src/utils.ml" 195 5140 5150
+type(
+  UnixLabels.file_descr -> string list -> string list
+)
+ident(
+  int_ref read "src/utils.ml" 189 4988 4998 "src/utils.ml" 189 4988 5002
+)
+"src/utils.ml" 195 5140 5151 "src/utils.ml" 195 5140 5158
+type(
+  UnixLabels.file_descr
+)
+ident(
+  int_ref filedsr "src/utils.ml" 189 4988 5003 "src/utils.ml" 189 4988 5010
+)
+"src/utils.ml" 195 5140 5161 "src/utils.ml" 195 5140 5171
+type(
+  (string, string) Blit.sub
+)
+ident(
+  ext_ref Core.Std.String.sub
+)
+"src/utils.ml" 195 5140 5172 "src/utils.ml" 195 5140 5175
+type(
+  string
+)
+ident(
+  int_ref buf "src/utils.ml" 190 5021 5029 "src/utils.ml" 190 5021 5032
+)
+"src/utils.ml" 195 5140 5181 "src/utils.ml" 195 5140 5182
+type(
+  int
+)
+"src/utils.ml" 195 5140 5188 "src/utils.ml" 195 5140 5192
+type(
+  int
+)
+ident(
+  int_ref size "src/utils.ml" 191 5055 5063 "src/utils.ml" 191 5055 5067
+)
+"src/utils.ml" 195 5140 5161 "src/utils.ml" 195 5140 5192
+call(
+  stack
+)
+type(
+  string
+)
+"src/utils.ml" 195 5140 5195 "src/utils.ml" 195 5140 5202
+type(
+  string list
+)
+ident(
+  int_ref results "src/utils.ml" 189 4988 5011 "src/utils.ml" 189 4988 5018
+)
+"src/utils.ml" 195 5140 5160 "src/utils.ml" 195 5140 5202
+type(
+  string list
+)
+"src/utils.ml" 195 5140 5146 "src/utils.ml" 195 5140 5203
+call(
+  tail
+)
+type(
+  string list
+)
+"src/utils.ml" 192 5096 5100 "src/utils.ml" 195 5140 5203
+type(
+  string list
+)
+"src/utils.ml" 191 5055 5059 "src/utils.ml" 195 5140 5203
+type(
+  string list
+)
+"src/utils.ml" 190 5021 5025 "src/utils.ml" 195 5140 5203
+type(
+  string list
+)
+"src/utils.ml" 189 4988 5011 "src/utils.ml" 195 5140 5203
+type(
+  string list -> string list
+)
+"src/utils.ml" 189 4988 5003 "src/utils.ml" 195 5140 5203
+type(
+  UnixLabels.file_descr -> string list -> string list
+)
+"src/utils.ml" 197 5209 5215 "src/utils.ml" 197 5209 5218
+type(
+  string
+)
+ident(
+  def res "src/utils.ml" 198 5267 5269 "src/utils.ml" 198 5267 5292
+)
+"src/utils.ml" 197 5209 5221 "src/utils.ml" 197 5209 5234
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/utils.ml" 197 5209 5236 "src/utils.ml" 197 5209 5244
+type(
+  string list -> string list
+)
+ident(
+  ext_ref Core.Std.List.rev
+)
+"src/utils.ml" 197 5209 5246 "src/utils.ml" 197 5209 5250
+type(
+  UnixLabels.file_descr -> string list -> string list
+)
+ident(
+  int_ref read "src/utils.ml" 189 4988 4998 "src/utils.ml" 189 4988 5002
+)
+"src/utils.ml" 197 5209 5251 "src/utils.ml" 197 5209 5258
+type(
+  UnixLabels.file_descr
+)
+ident(
+  int_ref filedsr "src/utils.ml" 188 4962 4978 "src/utils.ml" 188 4962 4985
+)
+"src/utils.ml" 197 5209 5259 "src/utils.ml" 197 5209 5261
+type(
+  string list
+)
+"src/utils.ml" 197 5209 5246 "src/utils.ml" 197 5209 5261
+call(
+  stack
+)
+type(
+  string list
+)
+"src/utils.ml" 197 5209 5236 "src/utils.ml" 197 5209 5262
+call(
+  stack
+)
+type(
+  string list
+)
+"src/utils.ml" 197 5209 5221 "src/utils.ml" 197 5209 5263
+call(
+  stack
+)
+type(
+  string
+)
+"src/utils.ml" 198 5267 5269 "src/utils.ml" 198 5267 5279
+type(
+  ?restart:bool -> UnixLabels.file_descr -> unit
+)
+ident(
+  ext_ref Core.Std.Unix.close
+)
+"src/utils.ml" 198 5267 5280 "src/utils.ml" 198 5267 5287
+type(
+  UnixLabels.file_descr
+)
+ident(
+  int_ref filedsr "src/utils.ml" 188 4962 4978 "src/utils.ml" 188 4962 4985
+)
+"src/utils.ml" 198 5267 5269 "src/utils.ml" 198 5267 5287
+call(
+  stack
+)
+type(
+  unit
+)
+"src/utils.ml" 198 5267 5289 "src/utils.ml" 198 5267 5292
+type(
+  string
+)
+ident(
+  int_ref res "src/utils.ml" 197 5209 5215 "src/utils.ml" 197 5209 5218
+)
+"src/utils.ml" 198 5267 5269 "src/utils.ml" 198 5267 5292
+type(
+  string
+)
+"src/utils.ml" 197 5209 5211 "src/utils.ml" 198 5267 5292
+type(
+  string
+)
+"src/utils.ml" 189 4988 4990 "src/utils.ml" 198 5267 5292
+type(
+  string
+)
+"src/utils.ml" 188 4962 4978 "src/utils.ml" 198 5267 5292
+type(
+  UnixLabels.file_descr -> string
+)
+"src/utils.ml" 207 5505 5509 "src/utils.ml" 207 5505 5513
+type(
+  prog:string -> args:string list -> string * string
+)
+ident(
+  def exec "src/utils.ml" 221 5947 5947 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 209 5560 5566 "src/utils.ml" 209 5560 5569
+type(
+  t
+)
+ident(
+  def sub "src/utils.ml" 210 5607 5609 "src/utils.ml" 211 5631 5680
+)
+"src/utils.ml" 209 5560 5572 "src/utils.ml" 209 5560 5591
+type(
+  prog:string -> args:string list -> t
+)
+ident(
+  ext_ref Core.Std.Unix.create_process
+)
+"src/utils.ml" 209 5560 5592 "src/utils.ml" 209 5560 5597
+type(
+  string
+)
+ident(
+  int_ref prog "src/utils.ml" 207 5505 5514 "src/utils.ml" 211 5631 5681
+)
+"src/utils.ml" 209 5560 5598 "src/utils.ml" 209 5560 5603
+type(
+  string list
+)
+ident(
+  int_ref args "src/utils.ml" 207 5505 5520 "src/utils.ml" 211 5631 5681
+)
+"src/utils.ml" 209 5560 5572 "src/utils.ml" 209 5560 5603
+call(
+  stack
+)
+type(
+  t
+)
+"src/utils.ml" 210 5607 5609 "src/utils.ml" 210 5607 5619
+type(
+  ?restart:bool -> UnixLabels.file_descr -> unit
+)
+ident(
+  ext_ref Core.Std.Unix.close
+)
+"src/utils.ml" 210 5607 5620 "src/utils.ml" 210 5607 5623
+type(
+  t
+)
+ident(
+  int_ref sub "src/utils.ml" 209 5560 5566 "src/utils.ml" 209 5560 5569
+)
+"src/utils.ml" 210 5607 5620 "src/utils.ml" 210 5607 5629
+type(
+  UnixLabels.file_descr
+)
+"src/utils.ml" 210 5607 5609 "src/utils.ml" 210 5607 5629
+call(
+  stack
+)
+type(
+  unit
+)
+"src/utils.ml" 211 5631 5634 "src/utils.ml" 211 5631 5645
+type(
+  UnixLabels.file_descr -> string
+)
+ident(
+  int_ref read_to_end "src/utils.ml" 188 4962 4966 "src/utils.ml" 188 4962 4977
+)
+"src/utils.ml" 211 5631 5646 "src/utils.ml" 211 5631 5649
+type(
+  t
+)
+ident(
+  int_ref sub "src/utils.ml" 209 5560 5566 "src/utils.ml" 209 5560 5569
+)
+"src/utils.ml" 211 5631 5646 "src/utils.ml" 211 5631 5656
+type(
+  UnixLabels.file_descr
+)
+"src/utils.ml" 211 5631 5634 "src/utils.ml" 211 5631 5656
+call(
+  stack
+)
+type(
+  string
+)
+"src/utils.ml" 211 5631 5658 "src/utils.ml" 211 5631 5669
+type(
+  UnixLabels.file_descr -> string
+)
+ident(
+  int_ref read_to_end "src/utils.ml" 188 4962 4966 "src/utils.ml" 188 4962 4977
+)
+"src/utils.ml" 211 5631 5670 "src/utils.ml" 211 5631 5673
+type(
+  t
+)
+ident(
+  int_ref sub "src/utils.ml" 209 5560 5566 "src/utils.ml" 209 5560 5569
+)
+"src/utils.ml" 211 5631 5670 "src/utils.ml" 211 5631 5680
+type(
+  UnixLabels.file_descr
+)
+"src/utils.ml" 211 5631 5658 "src/utils.ml" 211 5631 5680
+call(
+  stack
+)
+type(
+  string
+)
+"src/utils.ml" 211 5631 5634 "src/utils.ml" 211 5631 5680
+type(
+  string * string
+)
+"src/utils.ml" 210 5607 5609 "src/utils.ml" 211 5631 5680
+type(
+  string * string
+)
+"src/utils.ml" 209 5560 5562 "src/utils.ml" 211 5631 5681
+type(
+  string * string
+)
+"src/utils.ml" 207 5505 5520 "src/utils.ml" 211 5631 5681
+type(
+  args:string list -> string * string
+)
+type(
+  string list
+)
+ident(
+  def args "src/utils.ml" 208 5528 5530 "src/utils.ml" 211 5631 5681
+)
+"src/utils.ml" 207 5505 5514 "src/utils.ml" 211 5631 5681
+type(
+  prog:string -> args:string list -> string * string
+)
+type(
+  string
+)
+ident(
+  def prog "src/utils.ml" 207 5505 5520 "src/utils.ml" 211 5631 5681
+)
+"src/utils.ml" 221 5947 5951 "src/utils.ml" 221 5947 5966
+type(
+  prog:string -> args:string list -> string -> string * string
+)
+ident(
+  def exec_with_input "src/utils.ml" 243 6320 6320 "src/utils.ml" 1 0 -1
+)
+"src/utils.ml" 221 5947 5979 "src/utils.ml" 221 5947 5984
+type(
+  string
+)
+ident(
+  def input "src/utils.ml" 222 5987 5989 "src/utils.ml" 231 6212 6264
+)
+"src/utils.ml" 223 6019 6025 "src/utils.ml" 223 6019 6028
+type(
+  t
+)
+ident(
+  def sub "src/utils.ml" 224 6066 6068 "src/utils.ml" 231 6212 6264
+)
+"src/utils.ml" 223 6019 6031 "src/utils.ml" 223 6019 6050
+type(
+  prog:string -> args:string list -> t
+)
+ident(
+  ext_ref Core.Std.Unix.create_process
+)
+"src/utils.ml" 223 6019 6051 "src/utils.ml" 223 6019 6056
+type(
+  string
+)
+ident(
+  int_ref prog "src/utils.ml" 221 5947 5967 "src/utils.ml" 231 6212 6264
+)
+"src/utils.ml" 223 6019 6057 "src/utils.ml" 223 6019 6062
+type(
+  string list
+)
+ident(
+  int_ref args "src/utils.ml" 221 5947 5973 "src/utils.ml" 231 6212 6264
+)
+"src/utils.ml" 223 6019 6031 "src/utils.ml" 223 6019 6062
+call(
+  stack
+)
+type(
+  t
+)
+"src/utils.ml" 224 6066 6072 "src/utils.ml" 224 6066 6076
+type(
+  int
+)
+ident(
+  def size "src/utils.ml" 228 6160 6162 "src/utils.ml" 231 6212 6264
+)
+"src/utils.ml" 225 6080 6088 "src/utils.ml" 225 6080 6089
+type(
+  int
+)
+ident(
+  def s "src/utils.ml" 226 6127 6131 "src/utils.ml" 226 6127 6154
+)
+"src/utils.ml" 225 6080 6092 "src/utils.ml" 225 6080 6102
+type(
+  ?pos:int -> ?len:int -> UnixLabels.file_descr -> buf:string -> int
+)
+ident(
+  ext_ref Core.Std.Unix.write
+)
+"src/utils.ml" 225 6080 6103 "src/utils.ml" 225 6080 6106
+type(
+  t
+)
+ident(
+  int_ref sub "src/utils.ml" 223 6019 6025 "src/utils.ml" 223 6019 6028
+)
+"src/utils.ml" 225 6080 6103 "src/utils.ml" 225 6080 6112
+type(
+  UnixLabels.file_descr
+)
+"src/utils.ml" 225 6080 6118 "src/utils.ml" 225 6080 6123
+type(
+  string
+)
+ident(
+  int_ref input "src/utils.ml" 221 5947 5979 "src/utils.ml" 221 5947 5984
+)
+"src/utils.ml" 225 6080 6092 "src/utils.ml" 225 6080 6123
+call(
+  stack
+)
+type(
+  int
+)
+"src/utils.ml" 226 6127 6131 "src/utils.ml" 226 6127 6141
+type(
+  ?restart:bool -> UnixLabels.file_descr -> unit
+)
+ident(
+  ext_ref Core.Std.Unix.close
+)
+"src/utils.ml" 226 6127 6142 "src/utils.ml" 226 6127 6145
+type(
+  t
+)
+ident(
+  int_ref sub "src/utils.ml" 223 6019 6025 "src/utils.ml" 223 6019 6028
+)
+"src/utils.ml" 226 6127 6142 "src/utils.ml" 226 6127 6151
+type(
+  UnixLabels.file_descr
+)
+"src/utils.ml" 226 6127 6131 "src/utils.ml" 226 6127 6151
+call(
+  stack
+)
+type(
+  unit
+)
+"src/utils.ml" 226 6127 6153 "src/utils.ml" 226 6127 6154
+type(
+  int
+)
+ident(
+  int_ref s "src/utils.ml" 225 6080 6088 "src/utils.ml" 225 6080 6089
+)
+"src/utils.ml" 226 6127 6131 "src/utils.ml" 226 6127 6154
+type(
+  int
+)
+"src/utils.ml" 225 6080 6084 "src/utils.ml" 226 6127 6154
+type(
+  int
+)
+"src/utils.ml" 228 6160 6165 "src/utils.ml" 228 6160 6169
+type(
+  int
+)
+ident(
+  int_ref size "src/utils.ml" 224 6066 6072 "src/utils.ml" 224 6066 6076
+)
+"src/utils.ml" 228 6160 6170 "src/utils.ml" 228 6160 6171
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/utils.ml" 228 6160 6172 "src/utils.ml" 228 6160 6173
+type(
+  int
+)
+"src/utils.ml" 228 6160 6165 "src/utils.ml" 228 6160 6173
+type(
+  bool
+)
+"src/utils.ml" 229 6179 6183 "src/utils.ml" 229 6179 6188
+type(
+  exn -> string * string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/utils.ml" 229 6179 6189 "src/utils.ml" 229 6179 6204
+type(
+  exn
+)
+"src/utils.ml" 229 6179 6183 "src/utils.ml" 229 6179 6204
+type(
+  string * string
+)
+"src/utils.ml" 231 6212 6217 "src/utils.ml" 231 6212 6228
+type(
+  UnixLabels.file_descr -> string
+)
+ident(
+  int_ref read_to_end "src/utils.ml" 188 4962 4966 "src/utils.ml" 188 4962 4977
+)
+"src/utils.ml" 231 6212 6229 "src/utils.ml" 231 6212 6232
+type(
+  t
+)
+ident(
+  int_ref sub "src/utils.ml" 223 6019 6025 "src/utils.ml" 223 6019 6028
+)
+"src/utils.ml" 231 6212 6229 "src/utils.ml" 231 6212 6239
+type(
+  UnixLabels.file_descr
+)
+"src/utils.ml" 231 6212 6217 "src/utils.ml" 231 6212 6239
+call(
+  stack
+)
+type(
+  string
+)
+"src/utils.ml" 231 6212 6241 "src/utils.ml" 231 6212 6252
+type(
+  UnixLabels.file_descr -> string
+)
+ident(
+  int_ref read_to_end "src/utils.ml" 188 4962 4966 "src/utils.ml" 188 4962 4977
+)
+"src/utils.ml" 231 6212 6253 "src/utils.ml" 231 6212 6256
+type(
+  t
+)
+ident(
+  int_ref sub "src/utils.ml" 223 6019 6025 "src/utils.ml" 223 6019 6028
+)
+"src/utils.ml" 231 6212 6253 "src/utils.ml" 231 6212 6263
+type(
+  UnixLabels.file_descr
+)
+"src/utils.ml" 231 6212 6241 "src/utils.ml" 231 6212 6263
+call(
+  stack
+)
+type(
+  string
+)
+"src/utils.ml" 231 6212 6217 "src/utils.ml" 231 6212 6263
+type(
+  string * string
+)
+"src/utils.ml" 228 6160 6162 "src/utils.ml" 231 6212 6264
+type(
+  string * string
+)
+"src/utils.ml" 224 6066 6068 "src/utils.ml" 231 6212 6264
+type(
+  string * string
+)
+"src/utils.ml" 223 6019 6021 "src/utils.ml" 231 6212 6264
+type(
+  string * string
+)
+"src/utils.ml" 221 5947 5979 "src/utils.ml" 231 6212 6264
+type(
+  string -> string * string
+)
+"src/utils.ml" 221 5947 5973 "src/utils.ml" 231 6212 6264
+type(
+  args:string list -> string -> string * string
+)
+type(
+  string list
+)
+ident(
+  def args "src/utils.ml" 221 5947 5979 "src/utils.ml" 231 6212 6264
+)
+"src/utils.ml" 221 5947 5967 "src/utils.ml" 231 6212 6264
+type(
+  prog:string -> args:string list -> string -> string * string
+)
+type(
+  string
+)
+ident(
+  def prog "src/utils.ml" 221 5947 5973 "src/utils.ml" 231 6212 6264
+)
+"src/utils.ml" 271 6781 6787 "src/utils.ml" 271 6781 6792
+type(
+  basic_color -> color
+)
+ident(
+  def basic "src/utils.ml" 272 6805 6807 "src/utils.ml" 319 8043 8046
+)
+"src/utils.ml" 271 6781 6793 "src/utils.ml" 271 6781 6794
+type(
+  basic_color
+)
+ident(
+  def c "src/utils.ml" 271 6781 6797 "src/utils.ml" 271 6781 6804
+)
+"src/utils.ml" 271 6781 6803 "src/utils.ml" 271 6781 6804
+type(
+  basic_color
+)
+ident(
+  int_ref c "src/utils.ml" 271 6781 6793 "src/utils.ml" 271 6781 6794
+)
+"src/utils.ml" 271 6781 6797 "src/utils.ml" 271 6781 6804
+type(
+  color
+)
+"src/utils.ml" 271 6781 6793 "src/utils.ml" 271 6781 6804
+type(
+  basic_color -> color
+)
+"src/utils.ml" 272 6805 6811 "src/utils.ml" 272 6805 6815
+type(
+  basic_color -> color
+)
+ident(
+  def bold "src/utils.ml" 273 6827 6829 "src/utils.ml" 319 8043 8046
+)
+"src/utils.ml" 272 6805 6816 "src/utils.ml" 272 6805 6817
+type(
+  basic_color
+)
+ident(
+  def c "src/utils.ml" 272 6805 6820 "src/utils.ml" 272 6805 6826
+)
+"src/utils.ml" 272 6805 6825 "src/utils.ml" 272 6805 6826
+type(
+  basic_color
+)
+ident(
+  int_ref c "src/utils.ml" 272 6805 6816 "src/utils.ml" 272 6805 6817
+)
+"src/utils.ml" 272 6805 6820 "src/utils.ml" 272 6805 6826
+type(
+  color
+)
+"src/utils.ml" 272 6805 6816 "src/utils.ml" 272 6805 6826
+type(
+  basic_color -> color
+)
+"src/utils.ml" 273 6827 6833 "src/utils.ml" 273 6827 6836
+type(
+  int -> int -> int -> color
+)
+ident(
+  def rgb "src/utils.ml" 279 6989 6991 "src/utils.ml" 319 8043 8046
+)
+"src/utils.ml" 273 6827 6837 "src/utils.ml" 273 6827 6838
+type(
+  int
+)
+ident(
+  def r "src/utils.ml" 273 6827 6839 "src/utils.ml" 278 6965 6988
+)
+"src/utils.ml" 273 6827 6839 "src/utils.ml" 273 6827 6840
+type(
+  int
+)
+ident(
+  def g "src/utils.ml" 273 6827 6841 "src/utils.ml" 278 6965 6988
+)
+"src/utils.ml" 273 6827 6841 "src/utils.ml" 273 6827 6842
+type(
+  int
+)
+ident(
+  def b "src/utils.ml" 274 6845 6849 "src/utils.ml" 278 6965 6988
+)
+"src/utils.ml" 274 6845 6853 "src/utils.ml" 274 6845 6861
+type(
+  int -> bool
+)
+ident(
+  def in_range "src/utils.ml" 275 6885 6889 "src/utils.ml" 278 6965 6988
+)
+"src/utils.ml" 274 6845 6862 "src/utils.ml" 274 6845 6863
+type(
+  int
+)
+ident(
+  def i "src/utils.ml" 274 6845 6866 "src/utils.ml" 274 6845 6881
+)
+"src/utils.ml" 274 6845 6866 "src/utils.ml" 274 6845 6867
+type(
+  int
+)
+ident(
+  int_ref i "src/utils.ml" 274 6845 6862 "src/utils.ml" 274 6845 6863
+)
+"src/utils.ml" 274 6845 6868 "src/utils.ml" 274 6845 6870
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/utils.ml" 274 6845 6871 "src/utils.ml" 274 6845 6872
+type(
+  int
+)
+"src/utils.ml" 274 6845 6866 "src/utils.ml" 274 6845 6872
+type(
+  bool
+)
+"src/utils.ml" 274 6845 6873 "src/utils.ml" 274 6845 6875
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/utils.ml" 274 6845 6876 "src/utils.ml" 274 6845 6877
+type(
+  int
+)
+ident(
+  int_ref i "src/utils.ml" 274 6845 6862 "src/utils.ml" 274 6845 6863
+)
+"src/utils.ml" 274 6845 6878 "src/utils.ml" 274 6845 6879
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/utils.ml" 274 6845 6880 "src/utils.ml" 274 6845 6881
+type(
+  int
+)
+"src/utils.ml" 274 6845 6876 "src/utils.ml" 274 6845 6881
+type(
+  bool
+)
+"src/utils.ml" 274 6845 6866 "src/utils.ml" 274 6845 6881
+type(
+  bool
+)
+"src/utils.ml" 274 6845 6862 "src/utils.ml" 274 6845 6881
+type(
+  int -> bool
+)
+"src/utils.ml" 275 6885 6892 "src/utils.ml" 275 6885 6900
+type(
+  int -> bool
+)
+ident(
+  int_ref in_range "src/utils.ml" 274 6845 6853 "src/utils.ml" 274 6845 6861
+)
+"src/utils.ml" 275 6885 6901 "src/utils.ml" 275 6885 6902
+type(
+  int
+)
+ident(
+  int_ref r "src/utils.ml" 273 6827 6837 "src/utils.ml" 273 6827 6838
+)
+"src/utils.ml" 275 6885 6892 "src/utils.ml" 275 6885 6902
+call(
+  stack
+)
+type(
+  bool
+)
+"src/utils.ml" 275 6885 6903 "src/utils.ml" 275 6885 6905
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/utils.ml" 275 6885 6906 "src/utils.ml" 275 6885 6914
+type(
+  int -> bool
+)
+ident(
+  int_ref in_range "src/utils.ml" 274 6845 6853 "src/utils.ml" 274 6845 6861
+)
+"src/utils.ml" 275 6885 6915 "src/utils.ml" 275 6885 6916
+type(
+  int
+)
+ident(
+  int_ref g "src/utils.ml" 273 6827 6839 "src/utils.ml" 273 6827 6840
+)
+"src/utils.ml" 275 6885 6906 "src/utils.ml" 275 6885 6916
+call(
+  stack
+)
+type(
+  bool
+)
+"src/utils.ml" 275 6885 6917 "src/utils.ml" 275 6885 6919
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/utils.ml" 275 6885 6920 "src/utils.ml" 275 6885 6928
+type(
+  int -> bool
+)
+ident(
+  int_ref in_range "src/utils.ml" 274 6845 6853 "src/utils.ml" 274 6845 6861
+)
+"src/utils.ml" 275 6885 6929 "src/utils.ml" 275 6885 6930
+type(
+  int
+)
+ident(
+  int_ref b "src/utils.ml" 273 6827 6841 "src/utils.ml" 273 6827 6842
+)
+"src/utils.ml" 275 6885 6920 "src/utils.ml" 275 6885 6930
+call(
+  stack
+)
+type(
+  bool
+)
+"src/utils.ml" 275 6885 6906 "src/utils.ml" 275 6885 6930
+type(
+  bool
+)
+"src/utils.ml" 275 6885 6892 "src/utils.ml" 275 6885 6930
+type(
+  bool
+)
+"src/utils.ml" 276 6936 6947 "src/utils.ml" 276 6936 6948
+type(
+  int
+)
+ident(
+  int_ref r "src/utils.ml" 273 6827 6837 "src/utils.ml" 273 6827 6838
+)
+"src/utils.ml" 276 6936 6950 "src/utils.ml" 276 6936 6951
+type(
+  int
+)
+ident(
+  int_ref g "src/utils.ml" 273 6827 6839 "src/utils.ml" 273 6827 6840
+)
+"src/utils.ml" 276 6936 6953 "src/utils.ml" 276 6936 6954
+type(
+  int
+)
+ident(
+  int_ref b "src/utils.ml" 273 6827 6841 "src/utils.ml" 273 6827 6842
+)
+"src/utils.ml" 276 6936 6942 "src/utils.ml" 276 6936 6955
+type(
+  color
+)
+"src/utils.ml" 278 6965 6971 "src/utils.ml" 278 6965 6976
+type(
+  exn -> color
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/utils.ml" 278 6965 6977 "src/utils.ml" 278 6965 6988
+type(
+  exn
+)
+"src/utils.ml" 278 6965 6971 "src/utils.ml" 278 6965 6988
+type(
+  color
+)
+"src/utils.ml" 275 6885 6889 "src/utils.ml" 278 6965 6988
+type(
+  color
+)
+"src/utils.ml" 274 6845 6849 "src/utils.ml" 278 6965 6988
+type(
+  color
+)
+"src/utils.ml" 273 6827 6841 "src/utils.ml" 278 6965 6988
+type(
+  int -> color
+)
+"src/utils.ml" 273 6827 6839 "src/utils.ml" 278 6965 6988
+type(
+  int -> int -> color
+)
+"src/utils.ml" 273 6827 6837 "src/utils.ml" 278 6965 6988
+type(
+  int -> int -> int -> color
+)
+"src/utils.ml" 279 6989 6995 "src/utils.ml" 279 6989 6999
+type(
+  int -> color
+)
+ident(
+  def gray "src/utils.ml" 282 7128 7130 "src/utils.ml" 319 8043 8046
+)
+"src/utils.ml" 279 6989 7000 "src/utils.ml" 279 6989 7001
+type(
+  int
+)
+ident(
+  def i "src/utils.ml" 279 6989 7004 "src/utils.ml" 279 6989 7057
+)
+"src/utils.ml" 279 6989 7007 "src/utils.ml" 279 6989 7008
+type(
+  int
+)
+ident(
+  int_ref i "src/utils.ml" 279 6989 7000 "src/utils.ml" 279 6989 7001
+)
+"src/utils.ml" 279 6989 7009 "src/utils.ml" 279 6989 7011
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/utils.ml" 279 6989 7011 "src/utils.ml" 279 6989 7012
+type(
+  int
+)
+"src/utils.ml" 279 6989 7007 "src/utils.ml" 279 6989 7012
+type(
+  bool
+)
+"src/utils.ml" 279 6989 7013 "src/utils.ml" 279 6989 7015
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/utils.ml" 279 6989 7016 "src/utils.ml" 279 6989 7017
+type(
+  int
+)
+ident(
+  int_ref i "src/utils.ml" 279 6989 7000 "src/utils.ml" 279 6989 7001
+)
+"src/utils.ml" 279 6989 7018 "src/utils.ml" 279 6989 7019
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/utils.ml" 279 6989 7020 "src/utils.ml" 279 6989 7022
+type(
+  int
+)
+"src/utils.ml" 279 6989 7016 "src/utils.ml" 279 6989 7022
+type(
+  bool
+)
+"src/utils.ml" 279 6989 7007 "src/utils.ml" 279 6989 7022
+type(
+  bool
+)
+"src/utils.ml" 279 6989 7033 "src/utils.ml" 279 6989 7034
+type(
+  int
+)
+ident(
+  int_ref i "src/utils.ml" 279 6989 7000 "src/utils.ml" 279 6989 7001
+)
+"src/utils.ml" 279 6989 7028 "src/utils.ml" 279 6989 7034
+type(
+  color
+)
+"src/utils.ml" 279 6989 7040 "src/utils.ml" 279 6989 7045
+type(
+  exn -> color
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/utils.ml" 279 6989 7046 "src/utils.ml" 279 6989 7057
+type(
+  exn
+)
+"src/utils.ml" 279 6989 7040 "src/utils.ml" 279 6989 7057
+type(
+  color
+)
+"src/utils.ml" 279 6989 7004 "src/utils.ml" 279 6989 7057
+type(
+  color
+)
+"src/utils.ml" 279 6989 7000 "src/utils.ml" 279 6989 7057
+type(
+  int -> color
+)
+"src/utils.ml" 282 7128 7134 "src/utils.ml" 282 7128 7152
+type(
+  basic_color -> int
+)
+ident(
+  def basic_color_to_int "src/utils.ml" 293 7334 7336 "src/utils.ml" 319 8043 8046
+)
+"src/utils.ml" 283 7164 7170 "src/utils.ml" 283 7164 7175
+type(
+  basic_color
+)
+"src/utils.ml" 283 7164 7179 "src/utils.ml" 283 7164 7180
+type(
+  int
+)
+"src/utils.ml" 284 7181 7187 "src/utils.ml" 284 7181 7190
+type(
+  basic_color
+)
+"src/utils.ml" 284 7181 7194 "src/utils.ml" 284 7181 7195
+type(
+  int
+)
+"src/utils.ml" 285 7196 7202 "src/utils.ml" 285 7196 7207
+type(
+  basic_color
+)
+"src/utils.ml" 285 7196 7211 "src/utils.ml" 285 7196 7212
+type(
+  int
+)
+"src/utils.ml" 286 7213 7219 "src/utils.ml" 286 7213 7225
+type(
+  basic_color
+)
+"src/utils.ml" 286 7213 7229 "src/utils.ml" 286 7213 7230
+type(
+  int
+)
+"src/utils.ml" 287 7231 7237 "src/utils.ml" 287 7231 7241
+type(
+  basic_color
+)
+"src/utils.ml" 287 7231 7245 "src/utils.ml" 287 7231 7246
+type(
+  int
+)
+"src/utils.ml" 288 7247 7253 "src/utils.ml" 288 7247 7260
+type(
+  basic_color
+)
+"src/utils.ml" 288 7247 7264 "src/utils.ml" 288 7247 7265
+type(
+  int
+)
+"src/utils.ml" 289 7266 7272 "src/utils.ml" 289 7266 7276
+type(
+  basic_color
+)
+"src/utils.ml" 289 7266 7280 "src/utils.ml" 289 7266 7281
+type(
+  int
+)
+"src/utils.ml" 290 7282 7288 "src/utils.ml" 290 7282 7293
+type(
+  basic_color
+)
+"src/utils.ml" 290 7282 7297 "src/utils.ml" 290 7282 7298
+type(
+  int
+)
+"src/utils.ml" 282 7128 7155 "src/utils.ml" 290 7282 7298
+type(
+  basic_color -> int
+)
+"src/utils.ml" 293 7334 7340 "src/utils.ml" 293 7334 7352
+type(
+  color -> int
+)
+ident(
+  def color_to_int "src/utils.ml" 304 7669 7671 "src/utils.ml" 319 8043 8046
+)
+"src/utils.ml" 294 7364 7376 "src/utils.ml" 294 7364 7387
+type(
+  basic_color
+)
+ident(
+  def basic_color "src/utils.ml" 294 7364 7391 "src/utils.ml" 294 7364 7421
+)
+"src/utils.ml" 294 7364 7370 "src/utils.ml" 294 7364 7387
+type(
+  color
+)
+"src/utils.ml" 294 7364 7391 "src/utils.ml" 294 7364 7409
+type(
+  basic_color -> int
+)
+ident(
+  int_ref basic_color_to_int "src/utils.ml" 282 7128 7134 "src/utils.ml" 282 7128 7152
+)
+"src/utils.ml" 294 7364 7410 "src/utils.ml" 294 7364 7421
+type(
+  basic_color
+)
+ident(
+  int_ref basic_color "src/utils.ml" 294 7364 7376 "src/utils.ml" 294 7364 7387
+)
+"src/utils.ml" 294 7364 7391 "src/utils.ml" 294 7364 7421
+call(
+  tail
+)
+type(
+  int
+)
+"src/utils.ml" 295 7422 7433 "src/utils.ml" 295 7422 7444
+type(
+  basic_color
+)
+ident(
+  def basic_color "src/utils.ml" 295 7422 7448 "src/utils.ml" 295 7422 7482
+)
+"src/utils.ml" 295 7422 7428 "src/utils.ml" 295 7422 7444
+type(
+  color
+)
+"src/utils.ml" 295 7422 7448 "src/utils.ml" 295 7422 7449
+type(
+  int
+)
+"src/utils.ml" 295 7422 7450 "src/utils.ml" 295 7422 7451
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/utils.ml" 295 7422 7452 "src/utils.ml" 295 7422 7470
+type(
+  basic_color -> int
+)
+ident(
+  int_ref basic_color_to_int "src/utils.ml" 282 7128 7134 "src/utils.ml" 282 7128 7152
+)
+"src/utils.ml" 295 7422 7471 "src/utils.ml" 295 7422 7482
+type(
+  basic_color
+)
+ident(
+  int_ref basic_color "src/utils.ml" 295 7422 7433 "src/utils.ml" 295 7422 7444
+)
+"src/utils.ml" 295 7422 7452 "src/utils.ml" 295 7422 7482
+call(
+  stack
+)
+type(
+  int
+)
+"src/utils.ml" 295 7422 7448 "src/utils.ml" 295 7422 7482
+type(
+  int
+)
+"src/utils.ml" 296 7483 7494 "src/utils.ml" 296 7483 7495
+type(
+  int
+)
+ident(
+  def r "src/utils.ml" 296 7483 7506 "src/utils.ml" 296 7483 7525
+)
+"src/utils.ml" 296 7483 7497 "src/utils.ml" 296 7483 7498
+type(
+  int
+)
+ident(
+  def g "src/utils.ml" 296 7483 7506 "src/utils.ml" 296 7483 7525
+)
+"src/utils.ml" 296 7483 7500 "src/utils.ml" 296 7483 7501
+type(
+  int
+)
+ident(
+  def b "src/utils.ml" 296 7483 7506 "src/utils.ml" 296 7483 7525
+)
+"src/utils.ml" 296 7483 7489 "src/utils.ml" 296 7483 7502
+type(
+  color
+)
+"src/utils.ml" 296 7483 7506 "src/utils.ml" 296 7483 7508
+type(
+  int
+)
+"src/utils.ml" 296 7483 7509 "src/utils.ml" 296 7483 7510
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/utils.ml" 296 7483 7511 "src/utils.ml" 296 7483 7512
+type(
+  int
+)
+ident(
+  int_ref b "src/utils.ml" 296 7483 7500 "src/utils.ml" 296 7483 7501
+)
+"src/utils.ml" 296 7483 7506 "src/utils.ml" 296 7483 7512
+type(
+  int
+)
+"src/utils.ml" 296 7483 7513 "src/utils.ml" 296 7483 7514
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/utils.ml" 296 7483 7515 "src/utils.ml" 296 7483 7516
+type(
+  int
+)
+"src/utils.ml" 296 7483 7516 "src/utils.ml" 296 7483 7517
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/utils.ml" 296 7483 7517 "src/utils.ml" 296 7483 7518
+type(
+  int
+)
+ident(
+  int_ref g "src/utils.ml" 296 7483 7497 "src/utils.ml" 296 7483 7498
+)
+"src/utils.ml" 296 7483 7515 "src/utils.ml" 296 7483 7518
+type(
+  int
+)
+"src/utils.ml" 296 7483 7506 "src/utils.ml" 296 7483 7518
+type(
+  int
+)
+"src/utils.ml" 296 7483 7519 "src/utils.ml" 296 7483 7520
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/utils.ml" 296 7483 7521 "src/utils.ml" 296 7483 7523
+type(
+  int
+)
+"src/utils.ml" 296 7483 7523 "src/utils.ml" 296 7483 7524
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/utils.ml" 296 7483 7524 "src/utils.ml" 296 7483 7525
+type(
+  int
+)
+ident(
+  int_ref r "src/utils.ml" 296 7483 7494 "src/utils.ml" 296 7483 7495
+)
+"src/utils.ml" 296 7483 7521 "src/utils.ml" 296 7483 7525
+type(
+  int
+)
+"src/utils.ml" 296 7483 7506 "src/utils.ml" 296 7483 7525
+type(
+  int
+)
+"src/utils.ml" 297 7526 7537 "src/utils.ml" 297 7526 7538
+type(
+  int
+)
+ident(
+  def i "src/utils.ml" 297 7526 7542 "src/utils.ml" 297 7526 7549
+)
+"src/utils.ml" 297 7526 7532 "src/utils.ml" 297 7526 7538
+type(
+  color
+)
+"src/utils.ml" 297 7526 7542 "src/utils.ml" 297 7526 7545
+type(
+  int
+)
+"src/utils.ml" 297 7526 7546 "src/utils.ml" 297 7526 7547
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/utils.ml" 297 7526 7548 "src/utils.ml" 297 7526 7549
+type(
+  int
+)
+ident(
+  int_ref i "src/utils.ml" 297 7526 7537 "src/utils.ml" 297 7526 7538
+)
+"src/utils.ml" 297 7526 7542 "src/utils.ml" 297 7526 7549
+type(
+  int
+)
+"src/utils.ml" 293 7334 7355 "src/utils.ml" 297 7526 7549
+type(
+  color -> int
+)
+"src/utils.ml" 304 7669 7675 "src/utils.ml" 304 7669 7683
+type(
+  text:string -> color:color -> unit
+)
+ident(
+  def colorful "src/utils.ml" 308 7806 7808 "src/utils.ml" 319 8043 8046
+)
+"src/utils.ml" 305 7699 7703 "src/utils.ml" 305 7699 7716
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/utils.ml" 305 7699 7718 "src/utils.ml" 305 7699 7725
+type(
+  (int -> string -> string, unit, string) format -> int -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/utils.ml" 305 7699 7726 "src/utils.ml" 305 7699 7750
+type(
+  (int -> string -> string, unit, string) format
+)
+"src/utils.ml" 305 7699 7752 "src/utils.ml" 305 7699 7764
+type(
+  color -> int
+)
+ident(
+  int_ref color_to_int "src/utils.ml" 293 7334 7340 "src/utils.ml" 293 7334 7352
+)
+"src/utils.ml" 305 7699 7765 "src/utils.ml" 305 7699 7770
+type(
+  color
+)
+ident(
+  int_ref color "src/utils.ml" 304 7669 7690 "src/utils.ml" 305 7699 7777
+)
+"src/utils.ml" 305 7699 7752 "src/utils.ml" 305 7699 7770
+call(
+  stack
+)
+type(
+  int
+)
+"src/utils.ml" 305 7699 7772 "src/utils.ml" 305 7699 7776
+type(
+  string
+)
+ident(
+  int_ref text "src/utils.ml" 304 7669 7684 "src/utils.ml" 305 7699 7777
+)
+"src/utils.ml" 305 7699 7718 "src/utils.ml" 305 7699 7776
+call(
+  stack
+)
+type(
+  string
+)
+"src/utils.ml" 305 7699 7703 "src/utils.ml" 305 7699 7777
+call(
+  tail
+)
+type(
+  unit
+)
+"src/utils.ml" 304 7669 7690 "src/utils.ml" 305 7699 7777
+type(
+  color:color -> unit
+)
+type(
+  color
+)
+ident(
+  def color "src/utils.ml" 305 7699 7703 "src/utils.ml" 305 7699 7777
+)
+"src/utils.ml" 304 7669 7684 "src/utils.ml" 305 7699 7777
+type(
+  text:string -> color:color -> unit
+)
+type(
+  string
+)
+ident(
+  def text "src/utils.ml" 304 7669 7690 "src/utils.ml" 305 7699 7777
+)
+"src/utils.ml" 308 7806 7812 "src/utils.ml" 308 7806 7816
+type(
+  string -> unit
+)
+ident(
+  def info "src/utils.ml" 312 7894 7896 "src/utils.ml" 319 8043 8046
+)
+"src/utils.ml" 308 7806 7817 "src/utils.ml" 308 7806 7821
+type(
+  string
+)
+ident(
+  def text "src/utils.ml" 309 7824 7828 "src/utils.ml" 309 7824 7862
+)
+"src/utils.ml" 309 7824 7828 "src/utils.ml" 309 7824 7836
+type(
+  text:string -> color:color -> unit
+)
+ident(
+  int_ref colorful "src/utils.ml" 304 7669 7675 "src/utils.ml" 304 7669 7683
+)
+"src/utils.ml" 309 7824 7837 "src/utils.ml" 309 7824 7842
+type(
+  string
+)
+ident(
+  int_ref text "src/utils.ml" 308 7806 7817 "src/utils.ml" 308 7806 7821
+)
+"src/utils.ml" 309 7824 7851 "src/utils.ml" 309 7824 7856
+type(
+  basic_color -> color
+)
+ident(
+  int_ref basic "src/utils.ml" 271 6781 6787 "src/utils.ml" 271 6781 6792
+)
+"src/utils.ml" 309 7824 7857 "src/utils.ml" 309 7824 7861
+type(
+  basic_color
+)
+"src/utils.ml" 309 7824 7851 "src/utils.ml" 309 7824 7861
+call(
+  stack
+)
+type(
+  color
+)
+"src/utils.ml" 309 7824 7828 "src/utils.ml" 309 7824 7862
+call(
+  tail
+)
+type(
+  unit
+)
+"src/utils.ml" 308 7806 7817 "src/utils.ml" 309 7824 7862
+type(
+  string -> unit
+)
+"src/utils.ml" 312 7894 7900 "src/utils.ml" 312 7894 7907
+type(
+  string -> unit
+)
+ident(
+  def warning "src/utils.ml" 316 7985 7987 "src/utils.ml" 319 8043 8046
+)
+"src/utils.ml" 312 7894 7908 "src/utils.ml" 312 7894 7912
+type(
+  string
+)
+ident(
+  def text "src/utils.ml" 313 7915 7919 "src/utils.ml" 313 7915 7955
+)
+"src/utils.ml" 313 7915 7919 "src/utils.ml" 313 7915 7927
+type(
+  text:string -> color:color -> unit
+)
+ident(
+  int_ref colorful "src/utils.ml" 304 7669 7675 "src/utils.ml" 304 7669 7683
+)
+"src/utils.ml" 313 7915 7928 "src/utils.ml" 313 7915 7933
+type(
+  string
+)
+ident(
+  int_ref text "src/utils.ml" 312 7894 7908 "src/utils.ml" 312 7894 7912
+)
+"src/utils.ml" 313 7915 7942 "src/utils.ml" 313 7915 7947
+type(
+  basic_color -> color
+)
+ident(
+  int_ref basic "src/utils.ml" 271 6781 6787 "src/utils.ml" 271 6781 6792
+)
+"src/utils.ml" 313 7915 7948 "src/utils.ml" 313 7915 7954
+type(
+  basic_color
+)
+"src/utils.ml" 313 7915 7942 "src/utils.ml" 313 7915 7954
+call(
+  stack
+)
+type(
+  color
+)
+"src/utils.ml" 313 7915 7919 "src/utils.ml" 313 7915 7955
+call(
+  tail
+)
+type(
+  unit
+)
+"src/utils.ml" 312 7894 7908 "src/utils.ml" 313 7915 7955
+type(
+  string -> unit
+)
+"src/utils.ml" 316 7985 7991 "src/utils.ml" 316 7985 7996
+type(
+  string -> unit
+)
+ident(
+  def error "src/utils.ml" 317 8004 8041 "src/utils.ml" 319 8043 8046
+)
+"src/utils.ml" 316 7985 7997 "src/utils.ml" 316 7985 8001
+type(
+  string
+)
+ident(
+  def text "src/utils.ml" 317 8004 8008 "src/utils.ml" 317 8004 8041
+)
+"src/utils.ml" 317 8004 8008 "src/utils.ml" 317 8004 8016
+type(
+  text:string -> color:color -> unit
+)
+ident(
+  int_ref colorful "src/utils.ml" 304 7669 7675 "src/utils.ml" 304 7669 7683
+)
+"src/utils.ml" 317 8004 8017 "src/utils.ml" 317 8004 8022
+type(
+  string
+)
+ident(
+  int_ref text "src/utils.ml" 316 7985 7997 "src/utils.ml" 316 7985 8001
+)
+"src/utils.ml" 317 8004 8031 "src/utils.ml" 317 8004 8036
+type(
+  basic_color -> color
+)
+ident(
+  int_ref basic "src/utils.ml" 271 6781 6787 "src/utils.ml" 271 6781 6792
+)
+"src/utils.ml" 317 8004 8037 "src/utils.ml" 317 8004 8040
+type(
+  basic_color
+)
+"src/utils.ml" 317 8004 8031 "src/utils.ml" 317 8004 8040
+call(
+  stack
+)
+type(
+  color
+)
+"src/utils.ml" 317 8004 8008 "src/utils.ml" 317 8004 8041
+call(
+  tail
+)
+type(
+  unit
+)
+"src/utils.ml" 316 7985 7997 "src/utils.ml" 317 8004 8041
+type(
+  string -> unit
+)
