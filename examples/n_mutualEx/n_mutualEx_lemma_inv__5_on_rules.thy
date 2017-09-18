@@ -9,7 +9,7 @@ theory n_mutualEx_lemma_inv__5_on_rules imports n_mutualEx_lemma_on_inv__5
 begin
 section{*All lemmas on causal relation between inv__5*}
 lemma lemma_inv__5_on_rules:
-  assumes b1: "r \<in> rules N" and b2: "(\<exists> p__Inv3 p__Inv4. p__Inv3\<le>N\<and>p__Inv4\<le>N\<and>p__Inv3~=p__Inv4\<and>f=inv__5  p__Inv3 p__Inv4)"
+  assumes b1: "r \<in> rules N" and b2: "(\<exists> p__Inv0 p__Inv1. p__Inv0\<le>N\<and>p__Inv1\<le>N\<and>p__Inv0~=p__Inv1\<and>f=inv__5  p__Inv0 p__Inv1)"
   shows "invHoldForRule s f r (invariants N)"
   proof -
   have c1: "(\<exists> i. i\<le>N\<and>r=n_Try  i)\<or>

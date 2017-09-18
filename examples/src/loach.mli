@@ -103,6 +103,7 @@ with sexp
 (*----------------------------- Exceptions ----------------------------------*)
 
 (*----------------------------- Functions ----------------------------------*)
+(*\beta substitution *)
 val apply_exp : exp -> p:Paramecium.paramref list -> exp
 val apply_form : formula -> p:Paramecium.paramref list -> formula
 val apply_statement : statement -> p:Paramecium.paramref list -> types:Paramecium.typedef list -> 
@@ -132,6 +133,7 @@ module Trans : sig
       @return the protocol in Paramecium
   *)
   val act : loach:protocol -> Paramecium.protocol
+  val trans_formula:    types:Paramecium.typedef list ->  formula -> Paramecium.formula
 end
 
 

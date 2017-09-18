@@ -1,0 +1,942 @@
+"src/checkInv.ml" 12 119 123 "src/checkInv.ml" 12 119 140
+type(
+  Paramecium.formula -> bool
+)
+ident(
+  def check_with_murphi "src/checkInv.ml" 17 337 337 "src/checkInv.ml" 41 1202 1205
+)
+"src/checkInv.ml" 12 119 141 "src/checkInv.ml" 12 119 145
+type(
+  Paramecium.formula
+)
+ident(
+  def form "src/checkInv.ml" 13 148 158 "src/checkInv.ml" 15 262 335
+)
+"src/checkInv.ml" 13 148 162 "src/checkInv.ml" 13 148 170
+type(
+  string
+)
+ident(
+  def form_str "src/checkInv.ml" 14 216 226 "src/checkInv.ml" 15 262 335
+)
+"src/checkInv.ml" 13 148 173 "src/checkInv.ml" 13 148 191
+type(
+  ?lower:bool -> Paramecium.formula -> string
+)
+ident(
+  ext_ref ToStr.Smv.form_act
+)
+"src/checkInv.ml" 13 148 199 "src/checkInv.ml" 13 148 204
+type(
+  bool
+)
+"src/checkInv.ml" 13 148 207 "src/checkInv.ml" 13 148 211
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref form "src/checkInv.ml" 12 119 141 "src/checkInv.ml" 12 119 145
+)
+"src/checkInv.ml" 13 148 173 "src/checkInv.ml" 13 148 212
+call(
+  stack
+)
+type(
+  string
+)
+"src/checkInv.ml" 14 216 230 "src/checkInv.ml" 14 216 233
+type(
+  bool
+)
+ident(
+  def res "src/checkInv.ml" 15 262 272 "src/checkInv.ml" 15 262 335
+)
+"src/checkInv.ml" 14 216 236 "src/checkInv.ml" 14 216 249
+type(
+  ?quiet:bool -> string -> bool
+)
+ident(
+  ext_ref Murphi.is_inv
+)
+"src/checkInv.ml" 14 216 250 "src/checkInv.ml" 14 216 258
+type(
+  string
+)
+ident(
+  int_ref form_str "src/checkInv.ml" 13 148 162 "src/checkInv.ml" 13 148 170
+)
+"src/checkInv.ml" 14 216 236 "src/checkInv.ml" 14 216 258
+call(
+  stack
+)
+type(
+  bool
+)
+"src/checkInv.ml" 15 262 272 "src/checkInv.ml" 15 262 285
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/checkInv.ml" 15 262 287 "src/checkInv.ml" 15 262 294
+type(
+  (string -> bool -> string, unit, string) format -> string -> bool -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/checkInv.ml" 15 262 295 "src/checkInv.ml" 15 262 316
+type(
+  (string -> bool -> string, unit, string) format
+)
+"src/checkInv.ml" 15 262 317 "src/checkInv.ml" 15 262 325
+type(
+  string
+)
+ident(
+  int_ref form_str "src/checkInv.ml" 13 148 162 "src/checkInv.ml" 13 148 170
+)
+"src/checkInv.ml" 15 262 326 "src/checkInv.ml" 15 262 329
+type(
+  bool
+)
+ident(
+  int_ref res "src/checkInv.ml" 14 216 230 "src/checkInv.ml" 14 216 233
+)
+"src/checkInv.ml" 15 262 287 "src/checkInv.ml" 15 262 329
+call(
+  stack
+)
+type(
+  string
+)
+"src/checkInv.ml" 15 262 272 "src/checkInv.ml" 15 262 330
+call(
+  stack
+)
+type(
+  unit
+)
+"src/checkInv.ml" 15 262 332 "src/checkInv.ml" 15 262 335
+type(
+  bool
+)
+ident(
+  int_ref res "src/checkInv.ml" 14 216 230 "src/checkInv.ml" 14 216 233
+)
+"src/checkInv.ml" 15 262 272 "src/checkInv.ml" 15 262 335
+type(
+  bool
+)
+"src/checkInv.ml" 14 216 226 "src/checkInv.ml" 15 262 335
+type(
+  bool
+)
+"src/checkInv.ml" 13 148 158 "src/checkInv.ml" 15 262 335
+type(
+  bool
+)
+"src/checkInv.ml" 12 119 141 "src/checkInv.ml" 15 262 335
+type(
+  Paramecium.formula -> bool
+)
+"src/checkInv.ml" 17 337 341 "src/checkInv.ml" 17 337 352
+type(
+  ?smv_escape:(string -> string) ->
+  ?smv:string ->
+  ?smv_ord:string -> ?murphi:string -> string -> string -> 'a -> 'b -> unit
+)
+ident(
+  def startServer "src/checkInv.ml" 27 656 656 "src/checkInv.ml" 41 1202 1205
+)
+"src/checkInv.ml" 17 337 373 "src/checkInv.ml" 17 337 380
+type(
+  string
+)
+ident(
+  def inv_str "src/checkInv.ml" 17 337 384 "src/checkInv.ml" 17 337 391
+)
+"src/checkInv.ml" 17 337 384 "src/checkInv.ml" 17 337 391
+type(
+  string
+)
+ident(
+  int_ref inv_str "src/checkInv.ml" 17 337 373 "src/checkInv.ml" 17 337 380
+)
+"src/checkInv.ml" 17 337 373 "src/checkInv.ml" 17 337 391
+type(
+  string -> string
+)
+type(
+  string -> string
+)
+ident(
+  int_ref *sth* "src/checkInv.ml" 17 337 373 "src/checkInv.ml" 17 337 391
+)
+type(
+  (string -> string) option
+)
+type(
+  (string -> string) option
+)
+type(
+  string -> string
+)
+"src/checkInv.ml" 17 337 355 "src/checkInv.ml" 17 337 393
+type(
+  string -> string
+)
+"src/checkInv.ml" 18 394 404 "src/checkInv.ml" 18 394 406
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "src/checkInv.ml" 18 394 404 "src/checkInv.ml" 18 394 406
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+"src/checkInv.ml" 18 394 398 "src/checkInv.ml" 18 394 407
+type(
+  string
+)
+"src/checkInv.ml" 18 394 418 "src/checkInv.ml" 18 394 420
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "src/checkInv.ml" 18 394 418 "src/checkInv.ml" 18 394 420
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+"src/checkInv.ml" 18 394 408 "src/checkInv.ml" 18 394 421
+type(
+  string
+)
+"src/checkInv.ml" 18 394 433 "src/checkInv.ml" 18 394 435
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "src/checkInv.ml" 18 394 433 "src/checkInv.ml" 18 394 435
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+"src/checkInv.ml" 18 394 424 "src/checkInv.ml" 18 394 436
+type(
+  string
+)
+"src/checkInv.ml" 18 394 438 "src/checkInv.ml" 18 394 448
+type(
+  string
+)
+ident(
+  def murphiName "src/checkInv.ml" 18 394 449 "src/checkInv.ml" 25 642 649
+)
+"src/checkInv.ml" 18 394 449 "src/checkInv.ml" 18 394 456
+type(
+  string
+)
+ident(
+  def smvName "src/checkInv.ml" 19 457 461 "src/checkInv.ml" 25 642 649
+)
+"src/checkInv.ml" 19 457 461 "src/checkInv.ml" 19 457 469
+type(
+  'a
+)
+ident(
+  def muServer "src/checkInv.ml" 19 457 470 "src/checkInv.ml" 25 642 649
+)
+"src/checkInv.ml" 19 457 470 "src/checkInv.ml" 19 457 479
+type(
+  'b
+)
+ident(
+  def smvServer "src/checkInv.ml" 21 492 494 "src/checkInv.ml" 25 642 649
+)
+"src/checkInv.ml" 21 492 498 "src/checkInv.ml" 21 492 509
+type(
+  bool
+)
+ident(
+  def _mu_context "src/checkInv.ml" 23 556 558 "src/checkInv.ml" 25 642 649
+)
+"src/checkInv.ml" 21 492 512 "src/checkInv.ml" 21 492 530
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Murphi.set_context
+)
+"src/checkInv.ml" 21 492 531 "src/checkInv.ml" 21 492 541
+type(
+  string
+)
+ident(
+  int_ref murphiName "src/checkInv.ml" 18 394 438 "src/checkInv.ml" 18 394 448
+)
+"src/checkInv.ml" 21 492 542 "src/checkInv.ml" 21 492 548
+type(
+  string
+)
+ident(
+  int_ref murphi "src/checkInv.ml" 18 394 424 "src/checkInv.ml" 18 394 436
+)
+"src/checkInv.ml" 21 492 512 "src/checkInv.ml" 21 492 548
+call(
+  stack
+)
+type(
+  bool
+)
+"src/checkInv.ml" 23 556 562 "src/checkInv.ml" 23 556 574
+type(
+  int
+)
+ident(
+  def _smv_context "src/checkInv.ml" 25 642 647 "src/checkInv.ml" 25 642 649
+)
+"src/checkInv.ml" 24 577 582 "src/checkInv.ml" 24 577 597
+type(
+  ?escape:(string -> string) -> ?smv_ord:string -> string -> string -> int
+)
+ident(
+  ext_ref Smv.set_context
+)
+"src/checkInv.ml" 24 577 606 "src/checkInv.ml" 24 577 616
+type(
+  string -> string
+)
+ident(
+  int_ref smv_escape "src/checkInv.ml" 17 337 355 "src/checkInv.ml" 17 337 393
+)
+"src/checkInv.ml" 24 577 617 "src/checkInv.ml" 24 577 624
+type(
+  string
+)
+ident(
+  int_ref smvName "src/checkInv.ml" 18 394 449 "src/checkInv.ml" 18 394 456
+)
+"src/checkInv.ml" 24 577 625 "src/checkInv.ml" 24 577 628
+type(
+  string
+)
+ident(
+  int_ref smv "src/checkInv.ml" 18 394 398 "src/checkInv.ml" 18 394 407
+)
+"src/checkInv.ml" 24 577 629 "src/checkInv.ml" 24 577 637
+type(
+  string
+)
+ident(
+  int_ref smv_ord "src/checkInv.ml" 18 394 408 "src/checkInv.ml" 18 394 421
+)
+"src/checkInv.ml" 24 577 582 "src/checkInv.ml" 24 577 637
+call(
+  stack
+)
+type(
+  int
+)
+"src/checkInv.ml" 25 642 647 "src/checkInv.ml" 25 642 649
+type(
+  unit
+)
+"src/checkInv.ml" 23 556 558 "src/checkInv.ml" 25 642 649
+type(
+  unit
+)
+"src/checkInv.ml" 21 492 494 "src/checkInv.ml" 25 642 649
+type(
+  unit
+)
+"src/checkInv.ml" 19 457 470 "src/checkInv.ml" 25 642 649
+type(
+  'b -> unit
+)
+"src/checkInv.ml" 19 457 461 "src/checkInv.ml" 25 642 649
+type(
+  'a -> 'b -> unit
+)
+"src/checkInv.ml" 18 394 449 "src/checkInv.ml" 25 642 649
+type(
+  string -> 'a -> 'b -> unit
+)
+"src/checkInv.ml" 18 394 438 "src/checkInv.ml" 25 642 649
+type(
+  string -> string -> 'a -> 'b -> unit
+)
+"src/checkInv.ml" 18 394 424 "src/checkInv.ml" 25 642 649
+type(
+  ?murphi:string -> string -> string -> 'a -> 'b -> unit
+)
+type(
+  string -> string -> 'a -> 'b -> unit
+)
+type(
+  string
+)
+type(
+  string option
+)
+ident(
+  int_ref *opt* "src/checkInv.ml" 18 394 424 "src/checkInv.ml" 25 642 649
+)
+type(
+  string option
+)
+"src/checkInv.ml" 18 394 408 "src/checkInv.ml" 25 642 649
+type(
+  ?smv_ord:string -> ?murphi:string -> string -> string -> 'a -> 'b -> unit
+)
+type(
+  ?murphi:string -> string -> string -> 'a -> 'b -> unit
+)
+type(
+  string
+)
+type(
+  string option
+)
+ident(
+  int_ref *opt* "src/checkInv.ml" 18 394 408 "src/checkInv.ml" 25 642 649
+)
+type(
+  string option
+)
+"src/checkInv.ml" 18 394 398 "src/checkInv.ml" 25 642 649
+type(
+  ?smv:string ->
+  ?smv_ord:string -> ?murphi:string -> string -> string -> 'a -> 'b -> unit
+)
+type(
+  ?smv_ord:string -> ?murphi:string -> string -> string -> 'a -> 'b -> unit
+)
+type(
+  string
+)
+type(
+  string option
+)
+ident(
+  int_ref *opt* "src/checkInv.ml" 18 394 398 "src/checkInv.ml" 25 642 649
+)
+type(
+  string option
+)
+"src/checkInv.ml" 17 337 355 "src/checkInv.ml" 25 642 649
+type(
+  ?smv_escape:(string -> string) ->
+  ?smv:string ->
+  ?smv_ord:string -> ?murphi:string -> string -> string -> 'a -> 'b -> unit
+)
+type(
+  ?smv:string ->
+  ?smv_ord:string -> ?murphi:string -> string -> string -> 'a -> 'b -> unit
+)
+type(
+  string -> string
+)
+type(
+  (string -> string) option
+)
+ident(
+  int_ref *opt* "src/checkInv.ml" 17 337 355 "src/checkInv.ml" 25 642 649
+)
+type(
+  (string -> string) option
+)
+"src/checkInv.ml" 27 656 660 "src/checkInv.ml" 27 656 665
+type(
+  typedef list -> Loach.prop -> bool
+)
+ident(
+  def check "src/checkInv.ml" 38 1123 1123 "src/checkInv.ml" 41 1202 1205
+)
+"src/checkInv.ml" 27 656 666 "src/checkInv.ml" 27 656 671
+type(
+  typedef list
+)
+ident(
+  def types "src/checkInv.ml" 27 656 672 "src/checkInv.ml" 35 1067 1112
+)
+"src/checkInv.ml" 27 656 672 "src/checkInv.ml" 27 656 676
+type(
+  Loach.prop
+)
+ident(
+  def prop "src/checkInv.ml" 28 678 679 "src/checkInv.ml" 35 1067 1112
+)
+"src/checkInv.ml" 28 678 689 "src/checkInv.ml" 28 678 693
+type(
+  string
+)
+ident(
+  def name "src/checkInv.ml" 29 716 717 "src/checkInv.ml" 35 1067 1112
+)
+"src/checkInv.ml" 28 678 695 "src/checkInv.ml" 28 678 701
+type(
+  paramdef list
+)
+ident(
+  def params "src/checkInv.ml" 29 716 717 "src/checkInv.ml" 35 1067 1112
+)
+"src/checkInv.ml" 28 678 703 "src/checkInv.ml" 28 678 706
+type(
+  Loach.formula
+)
+ident(
+  def inv "src/checkInv.ml" 29 716 717 "src/checkInv.ml" 35 1067 1112
+)
+"src/checkInv.ml" 28 678 683 "src/checkInv.ml" 28 678 707
+type(
+  Loach.prop
+)
+"src/checkInv.ml" 28 678 708 "src/checkInv.ml" 28 678 712
+type(
+  Loach.prop
+)
+ident(
+  int_ref prop "src/checkInv.ml" 27 656 672 "src/checkInv.ml" 27 656 676
+)
+"src/checkInv.ml" 29 716 721 "src/checkInv.ml" 29 716 724
+type(
+  Paramecium.formula
+)
+ident(
+  def inv "src/checkInv.ml" 30 759 760 "src/checkInv.ml" 35 1067 1112
+)
+"src/checkInv.ml" 29 716 725 "src/checkInv.ml" 29 716 744
+type(
+  types:typedef list -> Loach.formula -> Paramecium.formula
+)
+ident(
+  ext_ref Loach.Trans.trans_formula
+)
+"src/checkInv.ml" 29 716 746 "src/checkInv.ml" 29 716 751
+type(
+  typedef list
+)
+ident(
+  int_ref types "src/checkInv.ml" 27 656 666 "src/checkInv.ml" 27 656 671
+)
+"src/checkInv.ml" 29 716 752 "src/checkInv.ml" 29 716 755
+type(
+  Loach.formula
+)
+ident(
+  int_ref inv "src/checkInv.ml" 28 678 703 "src/checkInv.ml" 28 678 706
+)
+"src/checkInv.ml" 29 716 725 "src/checkInv.ml" 29 716 755
+call(
+  stack
+)
+type(
+  Paramecium.formula
+)
+"src/checkInv.ml" 30 759 764 "src/checkInv.ml" 30 759 765
+type(
+  bool
+)
+ident(
+  def b "src/checkInv.ml" 33 989 991 "src/checkInv.ml" 35 1067 1112
+)
+"src/checkInv.ml" 30 759 770 "src/checkInv.ml" 30 759 780
+type(
+  ?quiet:bool -> string -> bool
+)
+ident(
+  ext_ref Smv.is_inv
+)
+"src/checkInv.ml" 30 759 782 "src/checkInv.ml" 30 759 800
+type(
+  ?lower:bool -> Paramecium.formula -> string
+)
+ident(
+  ext_ref ToStr.Smv.form_act
+)
+"src/checkInv.ml" 30 759 803 "src/checkInv.ml" 30 759 806
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref inv "src/checkInv.ml" 29 716 721 "src/checkInv.ml" 29 716 724
+)
+"src/checkInv.ml" 30 759 782 "src/checkInv.ml" 30 759 807
+call(
+  stack
+)
+type(
+  string
+)
+"src/checkInv.ml" 30 759 770 "src/checkInv.ml" 30 759 809
+call(
+  stack
+)
+type(
+  bool
+)
+"src/checkInv.ml" 30 759 810 "src/checkInv.ml" 30 759 812
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/checkInv.ml" 30 759 816 "src/checkInv.ml" 30 759 819
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/checkInv.ml" 30 759 821 "src/checkInv.ml" 30 759 844
+type(
+  bool ref
+)
+ident(
+  ext_ref Cmdline.confirm_with_mu
+)
+"src/checkInv.ml" 30 759 820 "src/checkInv.ml" 30 759 844
+type(
+  bool
+)
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/checkInv.ml" 30 759 816 "src/checkInv.ml" 30 759 844
+type(
+  bool
+)
+"src/checkInv.ml" 30 759 846 "src/checkInv.ml" 30 759 848
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/checkInv.ml" 30 759 849 "src/checkInv.ml" 30 759 866
+type(
+  Paramecium.formula -> bool
+)
+ident(
+  int_ref check_with_murphi "src/checkInv.ml" 12 119 123 "src/checkInv.ml" 12 119 140
+)
+"src/checkInv.ml" 30 759 867 "src/checkInv.ml" 30 759 870
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref inv "src/checkInv.ml" 29 716 721 "src/checkInv.ml" 29 716 724
+)
+"src/checkInv.ml" 30 759 849 "src/checkInv.ml" 30 759 870
+call(
+  stack
+)
+type(
+  bool
+)
+"src/checkInv.ml" 30 759 815 "src/checkInv.ml" 30 759 870
+type(
+  bool
+)
+"src/checkInv.ml" 30 759 770 "src/checkInv.ml" 30 759 871
+type(
+  bool
+)
+"src/checkInv.ml" 31 877 889 "src/checkInv.ml" 31 877 912
+type(
+  exn
+)
+"src/checkInv.ml" 31 877 916 "src/checkInv.ml" 31 877 933
+type(
+  Paramecium.formula -> bool
+)
+ident(
+  int_ref check_with_murphi "src/checkInv.ml" 12 119 123 "src/checkInv.ml" 12 119 140
+)
+"src/checkInv.ml" 31 877 934 "src/checkInv.ml" 31 877 937
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref inv "src/checkInv.ml" 29 716 721 "src/checkInv.ml" 29 716 724
+)
+"src/checkInv.ml" 31 877 916 "src/checkInv.ml" 31 877 937
+call(
+  stack
+)
+type(
+  bool
+)
+"src/checkInv.ml" 32 938 950 "src/checkInv.ml" 32 938 951
+type(
+  exn
+)
+"src/checkInv.ml" 32 938 955 "src/checkInv.ml" 32 938 960
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/checkInv.ml" 32 938 961 "src/checkInv.ml" 32 938 982
+type(
+  exn
+)
+"src/checkInv.ml" 32 938 955 "src/checkInv.ml" 32 938 982
+type(
+  bool
+)
+"src/checkInv.ml" 30 759 766 "src/checkInv.ml" 32 938 982
+type(
+  bool
+)
+"src/checkInv.ml" 33 989 994 "src/checkInv.ml" 33 989 995
+type(
+  bool
+)
+ident(
+  int_ref b "src/checkInv.ml" 30 759 764 "src/checkInv.ml" 30 759 765
+)
+"src/checkInv.ml" 34 997 1007 "src/checkInv.ml" 34 997 1009
+type(
+  unit
+)
+"src/checkInv.ml" 34 997 1010 "src/checkInv.ml" 34 997 1023
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/checkInv.ml" 34 997 1026 "src/checkInv.ml" 34 997 1044
+type(
+  ?lower:bool -> Paramecium.formula -> string
+)
+ident(
+  ext_ref ToStr.Smv.form_act
+)
+"src/checkInv.ml" 34 997 1046 "src/checkInv.ml" 34 997 1049
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref inv "src/checkInv.ml" 29 716 721 "src/checkInv.ml" 29 716 724
+)
+"src/checkInv.ml" 34 997 1026 "src/checkInv.ml" 34 997 1049
+call(
+  stack
+)
+type(
+  string
+)
+"src/checkInv.ml" 34 997 1050 "src/checkInv.ml" 34 997 1051
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/checkInv.ml" 34 997 1051 "src/checkInv.ml" 34 997 1057
+type(
+  string
+)
+"src/checkInv.ml" 34 997 1025 "src/checkInv.ml" 34 997 1057
+call(
+  stack
+)
+type(
+  string
+)
+"src/checkInv.ml" 34 997 1010 "src/checkInv.ml" 34 997 1058
+call(
+  stack
+)
+type(
+  unit
+)
+"src/checkInv.ml" 34 997 1062 "src/checkInv.ml" 34 997 1066
+type(
+  bool
+)
+"src/checkInv.ml" 34 997 1003 "src/checkInv.ml" 34 997 1066
+type(
+  bool
+)
+"src/checkInv.ml" 35 1067 1077 "src/checkInv.ml" 35 1067 1079
+type(
+  unit
+)
+"src/checkInv.ml" 35 1067 1080 "src/checkInv.ml" 35 1067 1093
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/checkInv.ml" 35 1067 1094 "src/checkInv.ml" 35 1067 1103
+type(
+  string
+)
+"src/checkInv.ml" 35 1067 1080 "src/checkInv.ml" 35 1067 1103
+call(
+  stack
+)
+type(
+  unit
+)
+"src/checkInv.ml" 35 1067 1107 "src/checkInv.ml" 35 1067 1112
+type(
+  bool
+)
+"src/checkInv.ml" 35 1067 1073 "src/checkInv.ml" 35 1067 1112
+type(
+  bool
+)
+"src/checkInv.ml" 33 989 991 "src/checkInv.ml" 35 1067 1112
+type(
+  bool
+)
+"src/checkInv.ml" 30 759 760 "src/checkInv.ml" 35 1067 1112
+type(
+  bool
+)
+"src/checkInv.ml" 29 716 717 "src/checkInv.ml" 35 1067 1112
+type(
+  bool
+)
+"src/checkInv.ml" 28 678 679 "src/checkInv.ml" 35 1067 1112
+type(
+  bool
+)
+"src/checkInv.ml" 27 656 672 "src/checkInv.ml" 35 1067 1112
+type(
+  Loach.prop -> bool
+)
+"src/checkInv.ml" 27 656 666 "src/checkInv.ml" 35 1067 1112
+type(
+  typedef list -> Loach.prop -> bool
+)
+"src/checkInv.ml" 38 1123 1127 "src/checkInv.ml" 38 1123 1137
+type(
+  typedef list -> Loach.prop list -> Loach.prop list
+)
+ident(
+  def checkProps "src/checkInv.ml" 39 1151 1199 "src/checkInv.ml" 41 1202 1205
+)
+"src/checkInv.ml" 38 1123 1138 "src/checkInv.ml" 38 1123 1143
+type(
+  typedef list
+)
+ident(
+  def types "src/checkInv.ml" 38 1123 1144 "src/checkInv.ml" 39 1151 1199
+)
+"src/checkInv.ml" 38 1123 1144 "src/checkInv.ml" 38 1123 1149
+type(
+  Loach.prop list
+)
+ident(
+  def props "src/checkInv.ml" 39 1151 1152 "src/checkInv.ml" 39 1151 1199
+)
+"src/checkInv.ml" 39 1151 1152 "src/checkInv.ml" 39 1151 1163
+type(
+  Loach.prop list -> f:(Loach.prop -> bool) -> Loach.prop list
+)
+ident(
+  ext_ref Core.Std.List.filter
+)
+"src/checkInv.ml" 39 1151 1172 "src/checkInv.ml" 39 1151 1173
+type(
+  Loach.prop
+)
+ident(
+  def x "src/checkInv.ml" 39 1151 1178 "src/checkInv.ml" 39 1151 1191
+)
+"src/checkInv.ml" 39 1151 1178 "src/checkInv.ml" 39 1151 1183
+type(
+  typedef list -> Loach.prop -> bool
+)
+ident(
+  int_ref check "src/checkInv.ml" 27 656 660 "src/checkInv.ml" 27 656 665
+)
+"src/checkInv.ml" 39 1151 1184 "src/checkInv.ml" 39 1151 1189
+type(
+  typedef list
+)
+ident(
+  int_ref types "src/checkInv.ml" 38 1123 1138 "src/checkInv.ml" 38 1123 1143
+)
+"src/checkInv.ml" 39 1151 1190 "src/checkInv.ml" 39 1151 1191
+type(
+  Loach.prop
+)
+ident(
+  int_ref x "src/checkInv.ml" 39 1151 1172 "src/checkInv.ml" 39 1151 1173
+)
+"src/checkInv.ml" 39 1151 1178 "src/checkInv.ml" 39 1151 1191
+call(
+  tail
+)
+type(
+  bool
+)
+"src/checkInv.ml" 39 1151 1172 "src/checkInv.ml" 39 1151 1191
+type(
+  Loach.prop -> bool
+)
+"src/checkInv.ml" 39 1151 1194 "src/checkInv.ml" 39 1151 1199
+type(
+  Loach.prop list
+)
+ident(
+  int_ref props "src/checkInv.ml" 38 1123 1144 "src/checkInv.ml" 38 1123 1149
+)
+"src/checkInv.ml" 39 1151 1152 "src/checkInv.ml" 39 1151 1199
+call(
+  tail
+)
+type(
+  Loach.prop list
+)
+"src/checkInv.ml" 38 1123 1144 "src/checkInv.ml" 39 1151 1199
+type(
+  Loach.prop list -> Loach.prop list
+)
+"src/checkInv.ml" 38 1123 1138 "src/checkInv.ml" 39 1151 1199
+type(
+  typedef list -> Loach.prop list -> Loach.prop list
+)

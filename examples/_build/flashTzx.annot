@@ -1,0 +1,3596 @@
+"flashTzx.ml" 9 94 98 "flashTzx.ml" 9 94 106
+type(
+  const
+)
+ident(
+  def _CACHE_I "flashTzx.ml" 10 124 124 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 9 94 109 "flashTzx.ml" 9 94 113
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 9 94 114 "flashTzx.ml" 9 94 123
+type(
+  string
+)
+"flashTzx.ml" 9 94 109 "flashTzx.ml" 9 94 123
+type(
+  const
+)
+"flashTzx.ml" 10 124 128 "flashTzx.ml" 10 124 136
+type(
+  const
+)
+ident(
+  def _CACHE_S "flashTzx.ml" 11 154 154 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 10 124 139 "flashTzx.ml" 10 124 143
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 10 124 144 "flashTzx.ml" 10 124 153
+type(
+  string
+)
+"flashTzx.ml" 10 124 139 "flashTzx.ml" 10 124 153
+type(
+  const
+)
+"flashTzx.ml" 11 154 158 "flashTzx.ml" 11 154 166
+type(
+  const
+)
+ident(
+  def _CACHE_E "flashTzx.ml" 12 184 184 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 11 154 169 "flashTzx.ml" 11 154 173
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 11 154 174 "flashTzx.ml" 11 154 183
+type(
+  string
+)
+"flashTzx.ml" 11 154 169 "flashTzx.ml" 11 154 183
+type(
+  const
+)
+"flashTzx.ml" 12 184 188 "flashTzx.ml" 12 184 198
+type(
+  const
+)
+ident(
+  def _NODE_None "flashTzx.ml" 13 218 218 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 12 184 201 "flashTzx.ml" 12 184 205
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 12 184 206 "flashTzx.ml" 12 184 217
+type(
+  string
+)
+"flashTzx.ml" 12 184 201 "flashTzx.ml" 12 184 217
+type(
+  const
+)
+"flashTzx.ml" 13 218 222 "flashTzx.ml" 13 218 231
+type(
+  const
+)
+ident(
+  def _NODE_Get "flashTzx.ml" 14 250 250 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 13 218 234 "flashTzx.ml" 13 218 238
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 13 218 239 "flashTzx.ml" 13 218 249
+type(
+  string
+)
+"flashTzx.ml" 13 218 234 "flashTzx.ml" 13 218 249
+type(
+  const
+)
+"flashTzx.ml" 14 250 254 "flashTzx.ml" 14 250 264
+type(
+  const
+)
+ident(
+  def _NODE_GetX "flashTzx.ml" 15 284 284 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 14 250 267 "flashTzx.ml" 14 250 271
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 14 250 272 "flashTzx.ml" 14 250 283
+type(
+  string
+)
+"flashTzx.ml" 14 250 267 "flashTzx.ml" 14 250 283
+type(
+  const
+)
+"flashTzx.ml" 15 284 288 "flashTzx.ml" 15 284 297
+type(
+  const
+)
+ident(
+  def _UNI_None "flashTzx.ml" 16 316 316 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 15 284 300 "flashTzx.ml" 15 284 304
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 15 284 305 "flashTzx.ml" 15 284 315
+type(
+  string
+)
+"flashTzx.ml" 15 284 300 "flashTzx.ml" 15 284 315
+type(
+  const
+)
+"flashTzx.ml" 16 316 320 "flashTzx.ml" 16 316 328
+type(
+  const
+)
+ident(
+  def _UNI_Get "flashTzx.ml" 17 346 346 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 16 316 331 "flashTzx.ml" 16 316 335
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 16 316 336 "flashTzx.ml" 16 316 345
+type(
+  string
+)
+"flashTzx.ml" 16 316 331 "flashTzx.ml" 16 316 345
+type(
+  const
+)
+"flashTzx.ml" 17 346 350 "flashTzx.ml" 17 346 359
+type(
+  const
+)
+ident(
+  def _UNI_GetX "flashTzx.ml" 18 378 378 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 17 346 362 "flashTzx.ml" 17 346 366
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 17 346 367 "flashTzx.ml" 17 346 377
+type(
+  string
+)
+"flashTzx.ml" 17 346 362 "flashTzx.ml" 17 346 377
+type(
+  const
+)
+"flashTzx.ml" 18 378 382 "flashTzx.ml" 18 378 390
+type(
+  const
+)
+ident(
+  def _UNI_Put "flashTzx.ml" 19 408 408 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 18 378 393 "flashTzx.ml" 18 378 397
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 18 378 398 "flashTzx.ml" 18 378 407
+type(
+  string
+)
+"flashTzx.ml" 18 378 393 "flashTzx.ml" 18 378 407
+type(
+  const
+)
+"flashTzx.ml" 19 408 412 "flashTzx.ml" 19 408 421
+type(
+  const
+)
+ident(
+  def _UNI_PutX "flashTzx.ml" 20 440 440 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 19 408 424 "flashTzx.ml" 19 408 428
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 19 408 429 "flashTzx.ml" 19 408 439
+type(
+  string
+)
+"flashTzx.ml" 19 408 424 "flashTzx.ml" 19 408 439
+type(
+  const
+)
+"flashTzx.ml" 20 440 444 "flashTzx.ml" 20 440 452
+type(
+  const
+)
+ident(
+  def _UNI_Nak "flashTzx.ml" 21 470 470 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 20 440 455 "flashTzx.ml" 20 440 459
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 20 440 460 "flashTzx.ml" 20 440 469
+type(
+  string
+)
+"flashTzx.ml" 20 440 455 "flashTzx.ml" 20 440 469
+type(
+  const
+)
+"flashTzx.ml" 21 470 474 "flashTzx.ml" 21 470 483
+type(
+  const
+)
+ident(
+  def _INV_None "flashTzx.ml" 22 502 502 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 21 470 486 "flashTzx.ml" 21 470 490
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 21 470 491 "flashTzx.ml" 21 470 501
+type(
+  string
+)
+"flashTzx.ml" 21 470 486 "flashTzx.ml" 21 470 501
+type(
+  const
+)
+"flashTzx.ml" 22 502 506 "flashTzx.ml" 22 502 514
+type(
+  const
+)
+ident(
+  def _INV_Inv "flashTzx.ml" 23 532 532 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 22 502 517 "flashTzx.ml" 22 502 521
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 22 502 522 "flashTzx.ml" 22 502 531
+type(
+  string
+)
+"flashTzx.ml" 22 502 517 "flashTzx.ml" 22 502 531
+type(
+  const
+)
+"flashTzx.ml" 23 532 536 "flashTzx.ml" 23 532 547
+type(
+  const
+)
+ident(
+  def _INV_InvAck "flashTzx.ml" 24 568 568 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 23 532 550 "flashTzx.ml" 23 532 554
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 23 532 555 "flashTzx.ml" 23 532 567
+type(
+  string
+)
+"flashTzx.ml" 23 532 550 "flashTzx.ml" 23 532 567
+type(
+  const
+)
+"flashTzx.ml" 24 568 572 "flashTzx.ml" 24 568 580
+type(
+  const
+)
+ident(
+  def _RP_None "flashTzx.ml" 25 598 598 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 24 568 583 "flashTzx.ml" 24 568 587
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 24 568 588 "flashTzx.ml" 24 568 597
+type(
+  string
+)
+"flashTzx.ml" 24 568 583 "flashTzx.ml" 24 568 597
+type(
+  const
+)
+"flashTzx.ml" 25 598 602 "flashTzx.ml" 25 598 613
+type(
+  const
+)
+ident(
+  def _RP_Replace "flashTzx.ml" 26 634 634 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 25 598 616 "flashTzx.ml" 25 598 620
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 25 598 621 "flashTzx.ml" 25 598 633
+type(
+  string
+)
+"flashTzx.ml" 25 598 616 "flashTzx.ml" 25 598 633
+type(
+  const
+)
+"flashTzx.ml" 26 634 638 "flashTzx.ml" 26 634 646
+type(
+  const
+)
+ident(
+  def _WB_None "flashTzx.ml" 27 664 664 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 26 634 649 "flashTzx.ml" 26 634 653
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 26 634 654 "flashTzx.ml" 26 634 663
+type(
+  string
+)
+"flashTzx.ml" 26 634 649 "flashTzx.ml" 26 634 663
+type(
+  const
+)
+"flashTzx.ml" 27 664 668 "flashTzx.ml" 27 664 674
+type(
+  const
+)
+ident(
+  def _WB_Wb "flashTzx.ml" 28 690 690 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 27 664 677 "flashTzx.ml" 27 664 681
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 27 664 682 "flashTzx.ml" 27 664 689
+type(
+  string
+)
+"flashTzx.ml" 27 664 677 "flashTzx.ml" 27 664 689
+type(
+  const
+)
+"flashTzx.ml" 28 690 694 "flashTzx.ml" 28 690 704
+type(
+  const
+)
+ident(
+  def _SHWB_None "flashTzx.ml" 29 724 724 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 28 690 707 "flashTzx.ml" 28 690 711
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 28 690 712 "flashTzx.ml" 28 690 723
+type(
+  string
+)
+"flashTzx.ml" 28 690 707 "flashTzx.ml" 28 690 723
+type(
+  const
+)
+"flashTzx.ml" 29 724 728 "flashTzx.ml" 29 724 738
+type(
+  const
+)
+ident(
+  def _SHWB_ShWb "flashTzx.ml" 30 758 758 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 29 724 741 "flashTzx.ml" 29 724 745
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 29 724 746 "flashTzx.ml" 29 724 757
+type(
+  string
+)
+"flashTzx.ml" 29 724 741 "flashTzx.ml" 29 724 757
+type(
+  const
+)
+"flashTzx.ml" 30 758 762 "flashTzx.ml" 30 758 772
+type(
+  const
+)
+ident(
+  def _SHWB_FAck "flashTzx.ml" 31 792 792 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 30 758 775 "flashTzx.ml" 30 758 779
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 30 758 780 "flashTzx.ml" 30 758 791
+type(
+  string
+)
+"flashTzx.ml" 30 758 775 "flashTzx.ml" 30 758 791
+type(
+  const
+)
+"flashTzx.ml" 31 792 796 "flashTzx.ml" 31 792 806
+type(
+  const
+)
+ident(
+  def _NAKC_None "flashTzx.ml" 32 826 826 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 31 792 809 "flashTzx.ml" 31 792 813
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 31 792 814 "flashTzx.ml" 31 792 825
+type(
+  string
+)
+"flashTzx.ml" 31 792 809 "flashTzx.ml" 31 792 825
+type(
+  const
+)
+"flashTzx.ml" 32 826 830 "flashTzx.ml" 32 826 840
+type(
+  const
+)
+ident(
+  def _NAKC_Nakc "flashTzx.ml" 33 860 860 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 32 826 843 "flashTzx.ml" 32 826 847
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashTzx.ml" 32 826 848 "flashTzx.ml" 32 826 859
+type(
+  string
+)
+"flashTzx.ml" 32 826 843 "flashTzx.ml" 32 826 859
+type(
+  const
+)
+"flashTzx.ml" 33 860 864 "flashTzx.ml" 33 860 869
+type(
+  const
+)
+ident(
+  def _true "flashTzx.ml" 34 883 883 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 33 860 872 "flashTzx.ml" 33 860 877
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"flashTzx.ml" 33 860 878 "flashTzx.ml" 33 860 882
+type(
+  bool
+)
+"flashTzx.ml" 33 860 872 "flashTzx.ml" 33 860 882
+type(
+  const
+)
+"flashTzx.ml" 34 883 887 "flashTzx.ml" 34 883 893
+type(
+  const
+)
+ident(
+  def _false "flashTzx.ml" 36 909 909 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 34 883 896 "flashTzx.ml" 34 883 901
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"flashTzx.ml" 34 883 902 "flashTzx.ml" 34 883 907
+type(
+  bool
+)
+"flashTzx.ml" 34 883 896 "flashTzx.ml" 34 883 907
+type(
+  const
+)
+"flashTzx.ml" 36 909 913 "flashTzx.ml" 36 909 918
+type(
+  typedef list
+)
+ident(
+  def types "flashTzx.ml" 50 1437 1437 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 37 923 925 "flashTzx.ml" 37 923 929
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashTzx.ml" 37 923 930 "flashTzx.ml" 37 923 936
+type(
+  string
+)
+"flashTzx.ml" 37 923 938 "flashTzx.ml" 37 923 948
+type(
+  int list -> const list
+)
+ident(
+  ext_ref Paramecium.int_consts
+)
+"flashTzx.ml" 37 923 950 "flashTzx.ml" 37 923 951
+type(
+  int
+)
+"flashTzx.ml" 37 923 952 "flashTzx.ml" 37 923 953
+type(
+  int
+)
+"flashTzx.ml" 37 923 954 "flashTzx.ml" 37 923 955
+type(
+  int
+)
+"flashTzx.ml" 37 923 956 "flashTzx.ml" 37 923 957
+type(
+  int
+)
+type(
+  int list
+)
+"flashTzx.ml" 37 923 954 "flashTzx.ml" 37 923 957
+type(
+  int list
+)
+"flashTzx.ml" 37 923 952 "flashTzx.ml" 37 923 957
+type(
+  int list
+)
+"flashTzx.ml" 37 923 950 "flashTzx.ml" 37 923 957
+type(
+  int list
+)
+"flashTzx.ml" 37 923 949 "flashTzx.ml" 37 923 958
+type(
+  int list
+)
+"flashTzx.ml" 37 923 938 "flashTzx.ml" 37 923 958
+type(
+  const list
+)
+"flashTzx.ml" 37 923 925 "flashTzx.ml" 37 923 959
+type(
+  typedef
+)
+"flashTzx.ml" 38 961 963 "flashTzx.ml" 38 961 967
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashTzx.ml" 38 961 968 "flashTzx.ml" 38 961 974
+type(
+  string
+)
+"flashTzx.ml" 38 961 976 "flashTzx.ml" 38 961 986
+type(
+  int list -> const list
+)
+ident(
+  ext_ref Paramecium.int_consts
+)
+"flashTzx.ml" 38 961 988 "flashTzx.ml" 38 961 989
+type(
+  int
+)
+"flashTzx.ml" 38 961 990 "flashTzx.ml" 38 961 991
+type(
+  int
+)
+type(
+  int list
+)
+"flashTzx.ml" 38 961 988 "flashTzx.ml" 38 961 991
+type(
+  int list
+)
+"flashTzx.ml" 38 961 987 "flashTzx.ml" 38 961 992
+type(
+  int list
+)
+"flashTzx.ml" 38 961 976 "flashTzx.ml" 38 961 992
+type(
+  const list
+)
+"flashTzx.ml" 38 961 963 "flashTzx.ml" 38 961 993
+type(
+  typedef
+)
+"flashTzx.ml" 39 995 997 "flashTzx.ml" 39 995 1001
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashTzx.ml" 39 995 1002 "flashTzx.ml" 39 995 1015
+type(
+  string
+)
+"flashTzx.ml" 39 995 1017 "flashTzx.ml" 39 995 1025
+type(
+  const
+)
+ident(
+  int_ref _CACHE_I "flashTzx.ml" 9 94 98 "flashTzx.ml" 9 94 106
+)
+"flashTzx.ml" 39 995 1026 "flashTzx.ml" 39 995 1034
+type(
+  const
+)
+ident(
+  int_ref _CACHE_S "flashTzx.ml" 10 124 128 "flashTzx.ml" 10 124 136
+)
+"flashTzx.ml" 39 995 1035 "flashTzx.ml" 39 995 1043
+type(
+  const
+)
+ident(
+  int_ref _CACHE_E "flashTzx.ml" 11 154 158 "flashTzx.ml" 11 154 166
+)
+type(
+  const list
+)
+"flashTzx.ml" 39 995 1026 "flashTzx.ml" 39 995 1043
+type(
+  const list
+)
+"flashTzx.ml" 39 995 1017 "flashTzx.ml" 39 995 1043
+type(
+  const list
+)
+"flashTzx.ml" 39 995 1016 "flashTzx.ml" 39 995 1044
+type(
+  const list
+)
+"flashTzx.ml" 39 995 997 "flashTzx.ml" 39 995 1044
+type(
+  typedef
+)
+"flashTzx.ml" 40 1046 1048 "flashTzx.ml" 40 1046 1052
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashTzx.ml" 40 1046 1053 "flashTzx.ml" 40 1046 1063
+type(
+  string
+)
+"flashTzx.ml" 40 1046 1065 "flashTzx.ml" 40 1046 1075
+type(
+  const
+)
+ident(
+  int_ref _NODE_None "flashTzx.ml" 12 184 188 "flashTzx.ml" 12 184 198
+)
+"flashTzx.ml" 40 1046 1076 "flashTzx.ml" 40 1046 1085
+type(
+  const
+)
+ident(
+  int_ref _NODE_Get "flashTzx.ml" 13 218 222 "flashTzx.ml" 13 218 231
+)
+"flashTzx.ml" 40 1046 1086 "flashTzx.ml" 40 1046 1096
+type(
+  const
+)
+ident(
+  int_ref _NODE_GetX "flashTzx.ml" 14 250 254 "flashTzx.ml" 14 250 264
+)
+type(
+  const list
+)
+"flashTzx.ml" 40 1046 1076 "flashTzx.ml" 40 1046 1096
+type(
+  const list
+)
+"flashTzx.ml" 40 1046 1065 "flashTzx.ml" 40 1046 1096
+type(
+  const list
+)
+"flashTzx.ml" 40 1046 1064 "flashTzx.ml" 40 1046 1097
+type(
+  const list
+)
+"flashTzx.ml" 40 1046 1048 "flashTzx.ml" 40 1046 1097
+type(
+  typedef
+)
+"flashTzx.ml" 41 1099 1101 "flashTzx.ml" 41 1099 1105
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashTzx.ml" 41 1099 1106 "flashTzx.ml" 41 1099 1115
+type(
+  string
+)
+"flashTzx.ml" 41 1099 1117 "flashTzx.ml" 41 1099 1126
+type(
+  const
+)
+ident(
+  int_ref _UNI_None "flashTzx.ml" 15 284 288 "flashTzx.ml" 15 284 297
+)
+"flashTzx.ml" 41 1099 1127 "flashTzx.ml" 41 1099 1135
+type(
+  const
+)
+ident(
+  int_ref _UNI_Get "flashTzx.ml" 16 316 320 "flashTzx.ml" 16 316 328
+)
+"flashTzx.ml" 41 1099 1136 "flashTzx.ml" 41 1099 1145
+type(
+  const
+)
+ident(
+  int_ref _UNI_GetX "flashTzx.ml" 17 346 350 "flashTzx.ml" 17 346 359
+)
+"flashTzx.ml" 41 1099 1146 "flashTzx.ml" 41 1099 1154
+type(
+  const
+)
+ident(
+  int_ref _UNI_Put "flashTzx.ml" 18 378 382 "flashTzx.ml" 18 378 390
+)
+"flashTzx.ml" 41 1099 1155 "flashTzx.ml" 41 1099 1164
+type(
+  const
+)
+ident(
+  int_ref _UNI_PutX "flashTzx.ml" 19 408 412 "flashTzx.ml" 19 408 421
+)
+"flashTzx.ml" 41 1099 1165 "flashTzx.ml" 41 1099 1173
+type(
+  const
+)
+ident(
+  int_ref _UNI_Nak "flashTzx.ml" 20 440 444 "flashTzx.ml" 20 440 452
+)
+type(
+  const list
+)
+"flashTzx.ml" 41 1099 1155 "flashTzx.ml" 41 1099 1173
+type(
+  const list
+)
+"flashTzx.ml" 41 1099 1146 "flashTzx.ml" 41 1099 1173
+type(
+  const list
+)
+"flashTzx.ml" 41 1099 1136 "flashTzx.ml" 41 1099 1173
+type(
+  const list
+)
+"flashTzx.ml" 41 1099 1127 "flashTzx.ml" 41 1099 1173
+type(
+  const list
+)
+"flashTzx.ml" 41 1099 1117 "flashTzx.ml" 41 1099 1173
+type(
+  const list
+)
+"flashTzx.ml" 41 1099 1116 "flashTzx.ml" 41 1099 1174
+type(
+  const list
+)
+"flashTzx.ml" 41 1099 1101 "flashTzx.ml" 41 1099 1174
+type(
+  typedef
+)
+"flashTzx.ml" 42 1176 1178 "flashTzx.ml" 42 1176 1182
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashTzx.ml" 42 1176 1183 "flashTzx.ml" 42 1176 1192
+type(
+  string
+)
+"flashTzx.ml" 42 1176 1194 "flashTzx.ml" 42 1176 1203
+type(
+  const
+)
+ident(
+  int_ref _INV_None "flashTzx.ml" 21 470 474 "flashTzx.ml" 21 470 483
+)
+"flashTzx.ml" 42 1176 1204 "flashTzx.ml" 42 1176 1212
+type(
+  const
+)
+ident(
+  int_ref _INV_Inv "flashTzx.ml" 22 502 506 "flashTzx.ml" 22 502 514
+)
+"flashTzx.ml" 42 1176 1213 "flashTzx.ml" 42 1176 1224
+type(
+  const
+)
+ident(
+  int_ref _INV_InvAck "flashTzx.ml" 23 532 536 "flashTzx.ml" 23 532 547
+)
+type(
+  const list
+)
+"flashTzx.ml" 42 1176 1204 "flashTzx.ml" 42 1176 1224
+type(
+  const list
+)
+"flashTzx.ml" 42 1176 1194 "flashTzx.ml" 42 1176 1224
+type(
+  const list
+)
+"flashTzx.ml" 42 1176 1193 "flashTzx.ml" 42 1176 1225
+type(
+  const list
+)
+"flashTzx.ml" 42 1176 1178 "flashTzx.ml" 42 1176 1225
+type(
+  typedef
+)
+"flashTzx.ml" 43 1227 1229 "flashTzx.ml" 43 1227 1233
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashTzx.ml" 43 1227 1234 "flashTzx.ml" 43 1227 1242
+type(
+  string
+)
+"flashTzx.ml" 43 1227 1244 "flashTzx.ml" 43 1227 1252
+type(
+  const
+)
+ident(
+  int_ref _RP_None "flashTzx.ml" 24 568 572 "flashTzx.ml" 24 568 580
+)
+"flashTzx.ml" 43 1227 1253 "flashTzx.ml" 43 1227 1264
+type(
+  const
+)
+ident(
+  int_ref _RP_Replace "flashTzx.ml" 25 598 602 "flashTzx.ml" 25 598 613
+)
+type(
+  const list
+)
+"flashTzx.ml" 43 1227 1244 "flashTzx.ml" 43 1227 1264
+type(
+  const list
+)
+"flashTzx.ml" 43 1227 1243 "flashTzx.ml" 43 1227 1265
+type(
+  const list
+)
+"flashTzx.ml" 43 1227 1229 "flashTzx.ml" 43 1227 1265
+type(
+  typedef
+)
+"flashTzx.ml" 44 1267 1269 "flashTzx.ml" 44 1267 1273
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashTzx.ml" 44 1267 1274 "flashTzx.ml" 44 1267 1282
+type(
+  string
+)
+"flashTzx.ml" 44 1267 1284 "flashTzx.ml" 44 1267 1292
+type(
+  const
+)
+ident(
+  int_ref _WB_None "flashTzx.ml" 26 634 638 "flashTzx.ml" 26 634 646
+)
+"flashTzx.ml" 44 1267 1293 "flashTzx.ml" 44 1267 1299
+type(
+  const
+)
+ident(
+  int_ref _WB_Wb "flashTzx.ml" 27 664 668 "flashTzx.ml" 27 664 674
+)
+type(
+  const list
+)
+"flashTzx.ml" 44 1267 1284 "flashTzx.ml" 44 1267 1299
+type(
+  const list
+)
+"flashTzx.ml" 44 1267 1283 "flashTzx.ml" 44 1267 1300
+type(
+  const list
+)
+"flashTzx.ml" 44 1267 1269 "flashTzx.ml" 44 1267 1300
+type(
+  typedef
+)
+"flashTzx.ml" 45 1302 1304 "flashTzx.ml" 45 1302 1308
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashTzx.ml" 45 1302 1309 "flashTzx.ml" 45 1302 1319
+type(
+  string
+)
+"flashTzx.ml" 45 1302 1321 "flashTzx.ml" 45 1302 1331
+type(
+  const
+)
+ident(
+  int_ref _SHWB_None "flashTzx.ml" 28 690 694 "flashTzx.ml" 28 690 704
+)
+"flashTzx.ml" 45 1302 1332 "flashTzx.ml" 45 1302 1342
+type(
+  const
+)
+ident(
+  int_ref _SHWB_ShWb "flashTzx.ml" 29 724 728 "flashTzx.ml" 29 724 738
+)
+"flashTzx.ml" 45 1302 1343 "flashTzx.ml" 45 1302 1353
+type(
+  const
+)
+ident(
+  int_ref _SHWB_FAck "flashTzx.ml" 30 758 762 "flashTzx.ml" 30 758 772
+)
+type(
+  const list
+)
+"flashTzx.ml" 45 1302 1332 "flashTzx.ml" 45 1302 1353
+type(
+  const list
+)
+"flashTzx.ml" 45 1302 1321 "flashTzx.ml" 45 1302 1353
+type(
+  const list
+)
+"flashTzx.ml" 45 1302 1320 "flashTzx.ml" 45 1302 1354
+type(
+  const list
+)
+"flashTzx.ml" 45 1302 1304 "flashTzx.ml" 45 1302 1354
+type(
+  typedef
+)
+"flashTzx.ml" 46 1356 1358 "flashTzx.ml" 46 1356 1362
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashTzx.ml" 46 1356 1363 "flashTzx.ml" 46 1356 1373
+type(
+  string
+)
+"flashTzx.ml" 46 1356 1375 "flashTzx.ml" 46 1356 1385
+type(
+  const
+)
+ident(
+  int_ref _NAKC_None "flashTzx.ml" 31 792 796 "flashTzx.ml" 31 792 806
+)
+"flashTzx.ml" 46 1356 1386 "flashTzx.ml" 46 1356 1396
+type(
+  const
+)
+ident(
+  int_ref _NAKC_Nakc "flashTzx.ml" 32 826 830 "flashTzx.ml" 32 826 840
+)
+type(
+  const list
+)
+"flashTzx.ml" 46 1356 1375 "flashTzx.ml" 46 1356 1396
+type(
+  const list
+)
+"flashTzx.ml" 46 1356 1374 "flashTzx.ml" 46 1356 1397
+type(
+  const list
+)
+"flashTzx.ml" 46 1356 1358 "flashTzx.ml" 46 1356 1397
+type(
+  typedef
+)
+"flashTzx.ml" 47 1399 1401 "flashTzx.ml" 47 1399 1405
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashTzx.ml" 47 1399 1406 "flashTzx.ml" 47 1399 1415
+type(
+  string
+)
+"flashTzx.ml" 47 1399 1417 "flashTzx.ml" 47 1399 1422
+type(
+  const
+)
+ident(
+  int_ref _true "flashTzx.ml" 33 860 864 "flashTzx.ml" 33 860 869
+)
+"flashTzx.ml" 47 1399 1424 "flashTzx.ml" 47 1399 1430
+type(
+  const
+)
+ident(
+  int_ref _false "flashTzx.ml" 34 883 887 "flashTzx.ml" 34 883 893
+)
+type(
+  const list
+)
+"flashTzx.ml" 47 1399 1417 "flashTzx.ml" 47 1399 1430
+type(
+  const list
+)
+"flashTzx.ml" 47 1399 1416 "flashTzx.ml" 47 1399 1431
+type(
+  const list
+)
+"flashTzx.ml" 47 1399 1401 "flashTzx.ml" 47 1399 1431
+type(
+  typedef
+)
+"flashTzx.ml" 47 1399 1401 "flashTzx.ml" 47 1399 1432
+type(
+  typedef list
+)
+"flashTzx.ml" 46 1356 1358 "flashTzx.ml" 47 1399 1432
+type(
+  typedef list
+)
+"flashTzx.ml" 45 1302 1304 "flashTzx.ml" 47 1399 1432
+type(
+  typedef list
+)
+"flashTzx.ml" 44 1267 1269 "flashTzx.ml" 47 1399 1432
+type(
+  typedef list
+)
+"flashTzx.ml" 43 1227 1229 "flashTzx.ml" 47 1399 1432
+type(
+  typedef list
+)
+"flashTzx.ml" 42 1176 1178 "flashTzx.ml" 47 1399 1432
+type(
+  typedef list
+)
+"flashTzx.ml" 41 1099 1101 "flashTzx.ml" 47 1399 1432
+type(
+  typedef list
+)
+"flashTzx.ml" 40 1046 1048 "flashTzx.ml" 47 1399 1432
+type(
+  typedef list
+)
+"flashTzx.ml" 39 995 997 "flashTzx.ml" 47 1399 1432
+type(
+  typedef list
+)
+"flashTzx.ml" 38 961 963 "flashTzx.ml" 47 1399 1432
+type(
+  typedef list
+)
+"flashTzx.ml" 37 923 925 "flashTzx.ml" 47 1399 1432
+type(
+  typedef list
+)
+"flashTzx.ml" 36 909 921 "flashTzx.ml" 48 1433 1434
+type(
+  typedef list
+)
+"flashTzx.ml" 50 1437 1441 "flashTzx.ml" 50 1437 1452
+type(
+  vardef list
+)
+ident(
+  def _NODE_STATE "flashTzx.ml" 56 1636 1636 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 50 1437 1455 "flashTzx.ml" 50 1437 1466
+type(
+  vardef list list -> vardef list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"flashTzx.ml" 51 1470 1473 "flashTzx.ml" 51 1470 1479
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 51 1470 1482 "flashTzx.ml" 51 1470 1491
+type(
+  string
+)
+"flashTzx.ml" 51 1470 1492 "flashTzx.ml" 51 1470 1494
+type(
+  paramdef list
+)
+"flashTzx.ml" 51 1470 1482 "flashTzx.ml" 51 1470 1494
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 51 1470 1481 "flashTzx.ml" 51 1470 1495
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 51 1470 1480 "flashTzx.ml" 51 1470 1496
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 51 1470 1497 "flashTzx.ml" 51 1470 1507
+type(
+  string
+)
+"flashTzx.ml" 51 1470 1473 "flashTzx.ml" 51 1470 1507
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 51 1470 1472 "flashTzx.ml" 51 1470 1508
+type(
+  vardef list
+)
+"flashTzx.ml" 52 1510 1513 "flashTzx.ml" 52 1510 1519
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 52 1510 1522 "flashTzx.ml" 52 1510 1533
+type(
+  string
+)
+"flashTzx.ml" 52 1510 1534 "flashTzx.ml" 52 1510 1536
+type(
+  paramdef list
+)
+"flashTzx.ml" 52 1510 1522 "flashTzx.ml" 52 1510 1536
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 52 1510 1521 "flashTzx.ml" 52 1510 1537
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 52 1510 1520 "flashTzx.ml" 52 1510 1538
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 52 1510 1539 "flashTzx.ml" 52 1510 1548
+type(
+  string
+)
+"flashTzx.ml" 52 1510 1513 "flashTzx.ml" 52 1510 1548
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 52 1510 1512 "flashTzx.ml" 52 1510 1549
+type(
+  vardef list
+)
+"flashTzx.ml" 53 1551 1554 "flashTzx.ml" 53 1551 1560
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 53 1551 1563 "flashTzx.ml" 53 1551 1575
+type(
+  string
+)
+"flashTzx.ml" 53 1551 1576 "flashTzx.ml" 53 1551 1578
+type(
+  paramdef list
+)
+"flashTzx.ml" 53 1551 1563 "flashTzx.ml" 53 1551 1578
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 53 1551 1562 "flashTzx.ml" 53 1551 1579
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 53 1551 1561 "flashTzx.ml" 53 1551 1580
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 53 1551 1581 "flashTzx.ml" 53 1551 1594
+type(
+  string
+)
+"flashTzx.ml" 53 1551 1554 "flashTzx.ml" 53 1551 1594
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 53 1551 1553 "flashTzx.ml" 53 1551 1595
+type(
+  vardef list
+)
+"flashTzx.ml" 54 1597 1600 "flashTzx.ml" 54 1597 1606
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 54 1597 1609 "flashTzx.ml" 54 1597 1620
+type(
+  string
+)
+"flashTzx.ml" 54 1597 1621 "flashTzx.ml" 54 1597 1623
+type(
+  paramdef list
+)
+"flashTzx.ml" 54 1597 1609 "flashTzx.ml" 54 1597 1623
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 54 1597 1608 "flashTzx.ml" 54 1597 1624
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 54 1597 1607 "flashTzx.ml" 54 1597 1625
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 54 1597 1626 "flashTzx.ml" 54 1597 1632
+type(
+  string
+)
+"flashTzx.ml" 54 1597 1600 "flashTzx.ml" 54 1597 1632
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 54 1597 1599 "flashTzx.ml" 54 1597 1633
+type(
+  vardef list
+)
+type(
+  vardef list list
+)
+"flashTzx.ml" 53 1551 1553 "flashTzx.ml" 54 1597 1633
+type(
+  vardef list list
+)
+"flashTzx.ml" 52 1510 1512 "flashTzx.ml" 54 1597 1633
+type(
+  vardef list list
+)
+"flashTzx.ml" 51 1470 1472 "flashTzx.ml" 54 1597 1633
+type(
+  vardef list list
+)
+"flashTzx.ml" 50 1437 1468 "flashTzx.ml" 55 1634 1635
+type(
+  vardef list list
+)
+"flashTzx.ml" 50 1437 1455 "flashTzx.ml" 55 1634 1635
+type(
+  vardef list
+)
+"flashTzx.ml" 56 1636 1640 "flashTzx.ml" 56 1636 1650
+type(
+  vardef list
+)
+ident(
+  def _DIR_STATE "flashTzx.ml" 66 2013 2013 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 56 1636 1653 "flashTzx.ml" 56 1636 1664
+type(
+  vardef list list -> vardef list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"flashTzx.ml" 57 1668 1671 "flashTzx.ml" 57 1668 1677
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 57 1668 1680 "flashTzx.ml" 57 1668 1689
+type(
+  string
+)
+"flashTzx.ml" 57 1668 1690 "flashTzx.ml" 57 1668 1692
+type(
+  paramdef list
+)
+"flashTzx.ml" 57 1668 1680 "flashTzx.ml" 57 1668 1692
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 57 1668 1679 "flashTzx.ml" 57 1668 1693
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 57 1668 1678 "flashTzx.ml" 57 1668 1694
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 57 1668 1695 "flashTzx.ml" 57 1668 1704
+type(
+  string
+)
+"flashTzx.ml" 57 1668 1671 "flashTzx.ml" 57 1668 1704
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 57 1668 1670 "flashTzx.ml" 57 1668 1705
+type(
+  vardef list
+)
+"flashTzx.ml" 58 1707 1710 "flashTzx.ml" 58 1707 1716
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 58 1707 1719 "flashTzx.ml" 58 1707 1726
+type(
+  string
+)
+"flashTzx.ml" 58 1707 1727 "flashTzx.ml" 58 1707 1729
+type(
+  paramdef list
+)
+"flashTzx.ml" 58 1707 1719 "flashTzx.ml" 58 1707 1729
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 58 1707 1718 "flashTzx.ml" 58 1707 1730
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 58 1707 1717 "flashTzx.ml" 58 1707 1731
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 58 1707 1732 "flashTzx.ml" 58 1707 1741
+type(
+  string
+)
+"flashTzx.ml" 58 1707 1710 "flashTzx.ml" 58 1707 1741
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 58 1707 1709 "flashTzx.ml" 58 1707 1742
+type(
+  vardef list
+)
+"flashTzx.ml" 59 1744 1747 "flashTzx.ml" 59 1744 1753
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 59 1744 1756 "flashTzx.ml" 59 1744 1763
+type(
+  string
+)
+"flashTzx.ml" 59 1744 1764 "flashTzx.ml" 59 1744 1766
+type(
+  paramdef list
+)
+"flashTzx.ml" 59 1744 1756 "flashTzx.ml" 59 1744 1766
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 59 1744 1755 "flashTzx.ml" 59 1744 1767
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 59 1744 1754 "flashTzx.ml" 59 1744 1768
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 59 1744 1769 "flashTzx.ml" 59 1744 1778
+type(
+  string
+)
+"flashTzx.ml" 59 1744 1747 "flashTzx.ml" 59 1744 1778
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 59 1744 1746 "flashTzx.ml" 59 1744 1779
+type(
+  vardef list
+)
+"flashTzx.ml" 60 1781 1784 "flashTzx.ml" 60 1781 1790
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 60 1781 1793 "flashTzx.ml" 60 1781 1802
+type(
+  string
+)
+"flashTzx.ml" 60 1781 1803 "flashTzx.ml" 60 1781 1805
+type(
+  paramdef list
+)
+"flashTzx.ml" 60 1781 1793 "flashTzx.ml" 60 1781 1805
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 60 1781 1792 "flashTzx.ml" 60 1781 1806
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 60 1781 1791 "flashTzx.ml" 60 1781 1807
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 60 1781 1808 "flashTzx.ml" 60 1781 1817
+type(
+  string
+)
+"flashTzx.ml" 60 1781 1784 "flashTzx.ml" 60 1781 1817
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 60 1781 1783 "flashTzx.ml" 60 1781 1818
+type(
+  vardef list
+)
+"flashTzx.ml" 61 1820 1823 "flashTzx.ml" 61 1820 1829
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 61 1820 1832 "flashTzx.ml" 61 1820 1841
+type(
+  string
+)
+"flashTzx.ml" 61 1820 1842 "flashTzx.ml" 61 1820 1844
+type(
+  paramdef list
+)
+"flashTzx.ml" 61 1820 1832 "flashTzx.ml" 61 1820 1844
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 61 1820 1831 "flashTzx.ml" 61 1820 1845
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 61 1820 1830 "flashTzx.ml" 61 1820 1846
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 61 1820 1847 "flashTzx.ml" 61 1820 1853
+type(
+  string
+)
+"flashTzx.ml" 61 1820 1823 "flashTzx.ml" 61 1820 1853
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 61 1820 1822 "flashTzx.ml" 61 1820 1854
+type(
+  vardef list
+)
+"flashTzx.ml" 62 1856 1859 "flashTzx.ml" 62 1856 1865
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 62 1856 1868 "flashTzx.ml" 62 1856 1876
+type(
+  string
+)
+"flashTzx.ml" 62 1856 1877 "flashTzx.ml" 62 1856 1879
+type(
+  paramdef list
+)
+"flashTzx.ml" 62 1856 1868 "flashTzx.ml" 62 1856 1879
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 62 1856 1867 "flashTzx.ml" 62 1856 1880
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 62 1856 1866 "flashTzx.ml" 62 1856 1881
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 62 1856 1882 "flashTzx.ml" 62 1856 1891
+type(
+  string
+)
+"flashTzx.ml" 62 1856 1859 "flashTzx.ml" 62 1856 1891
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 62 1856 1858 "flashTzx.ml" 62 1856 1892
+type(
+  vardef list
+)
+"flashTzx.ml" 63 1894 1897 "flashTzx.ml" 63 1894 1903
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 63 1894 1906 "flashTzx.ml" 63 1894 1914
+type(
+  string
+)
+"flashTzx.ml" 63 1894 1917 "flashTzx.ml" 63 1894 1925
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"flashTzx.ml" 63 1894 1926 "flashTzx.ml" 63 1894 1930
+type(
+  string
+)
+"flashTzx.ml" 63 1894 1931 "flashTzx.ml" 63 1894 1937
+type(
+  string
+)
+"flashTzx.ml" 63 1894 1917 "flashTzx.ml" 63 1894 1937
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"flashTzx.ml" 63 1894 1916 "flashTzx.ml" 63 1894 1938
+type(
+  paramdef list
+)
+"flashTzx.ml" 63 1894 1906 "flashTzx.ml" 63 1894 1938
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 63 1894 1905 "flashTzx.ml" 63 1894 1939
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 63 1894 1904 "flashTzx.ml" 63 1894 1940
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 63 1894 1941 "flashTzx.ml" 63 1894 1950
+type(
+  string
+)
+"flashTzx.ml" 63 1894 1897 "flashTzx.ml" 63 1894 1950
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 63 1894 1896 "flashTzx.ml" 63 1894 1951
+type(
+  vardef list
+)
+"flashTzx.ml" 64 1953 1956 "flashTzx.ml" 64 1953 1962
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 64 1953 1965 "flashTzx.ml" 64 1953 1973
+type(
+  string
+)
+"flashTzx.ml" 64 1953 1976 "flashTzx.ml" 64 1953 1984
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"flashTzx.ml" 64 1953 1985 "flashTzx.ml" 64 1953 1989
+type(
+  string
+)
+"flashTzx.ml" 64 1953 1990 "flashTzx.ml" 64 1953 1996
+type(
+  string
+)
+"flashTzx.ml" 64 1953 1976 "flashTzx.ml" 64 1953 1996
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"flashTzx.ml" 64 1953 1975 "flashTzx.ml" 64 1953 1997
+type(
+  paramdef list
+)
+"flashTzx.ml" 64 1953 1965 "flashTzx.ml" 64 1953 1997
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 64 1953 1964 "flashTzx.ml" 64 1953 1998
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 64 1953 1963 "flashTzx.ml" 64 1953 1999
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 64 1953 2000 "flashTzx.ml" 64 1953 2009
+type(
+  string
+)
+"flashTzx.ml" 64 1953 1956 "flashTzx.ml" 64 1953 2009
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 64 1953 1955 "flashTzx.ml" 64 1953 2010
+type(
+  vardef list
+)
+type(
+  vardef list list
+)
+"flashTzx.ml" 63 1894 1896 "flashTzx.ml" 64 1953 2010
+type(
+  vardef list list
+)
+"flashTzx.ml" 62 1856 1858 "flashTzx.ml" 64 1953 2010
+type(
+  vardef list list
+)
+"flashTzx.ml" 61 1820 1822 "flashTzx.ml" 64 1953 2010
+type(
+  vardef list list
+)
+"flashTzx.ml" 60 1781 1783 "flashTzx.ml" 64 1953 2010
+type(
+  vardef list list
+)
+"flashTzx.ml" 59 1744 1746 "flashTzx.ml" 64 1953 2010
+type(
+  vardef list list
+)
+"flashTzx.ml" 58 1707 1709 "flashTzx.ml" 64 1953 2010
+type(
+  vardef list list
+)
+"flashTzx.ml" 57 1668 1670 "flashTzx.ml" 64 1953 2010
+type(
+  vardef list list
+)
+"flashTzx.ml" 56 1636 1666 "flashTzx.ml" 65 2011 2012
+type(
+  vardef list list
+)
+"flashTzx.ml" 56 1636 1653 "flashTzx.ml" 65 2011 2012
+type(
+  vardef list
+)
+"flashTzx.ml" 66 2013 2017 "flashTzx.ml" 66 2013 2025
+type(
+  vardef list
+)
+ident(
+  def _UNI_MSG "flashTzx.ml" 71 2145 2145 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 66 2013 2028 "flashTzx.ml" 66 2013 2039
+type(
+  vardef list list -> vardef list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"flashTzx.ml" 67 2043 2046 "flashTzx.ml" 67 2043 2052
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 67 2043 2055 "flashTzx.ml" 67 2043 2060
+type(
+  string
+)
+"flashTzx.ml" 67 2043 2061 "flashTzx.ml" 67 2043 2063
+type(
+  paramdef list
+)
+"flashTzx.ml" 67 2043 2055 "flashTzx.ml" 67 2043 2063
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 67 2043 2054 "flashTzx.ml" 67 2043 2064
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 67 2043 2053 "flashTzx.ml" 67 2043 2065
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 67 2043 2066 "flashTzx.ml" 67 2043 2075
+type(
+  string
+)
+"flashTzx.ml" 67 2043 2046 "flashTzx.ml" 67 2043 2075
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 67 2043 2045 "flashTzx.ml" 67 2043 2076
+type(
+  vardef list
+)
+"flashTzx.ml" 68 2078 2081 "flashTzx.ml" 68 2078 2087
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 68 2078 2090 "flashTzx.ml" 68 2078 2096
+type(
+  string
+)
+"flashTzx.ml" 68 2078 2097 "flashTzx.ml" 68 2078 2099
+type(
+  paramdef list
+)
+"flashTzx.ml" 68 2078 2090 "flashTzx.ml" 68 2078 2099
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 68 2078 2089 "flashTzx.ml" 68 2078 2100
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 68 2078 2088 "flashTzx.ml" 68 2078 2101
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 68 2078 2102 "flashTzx.ml" 68 2078 2108
+type(
+  string
+)
+"flashTzx.ml" 68 2078 2081 "flashTzx.ml" 68 2078 2108
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 68 2078 2080 "flashTzx.ml" 68 2078 2109
+type(
+  vardef list
+)
+"flashTzx.ml" 69 2111 2114 "flashTzx.ml" 69 2111 2120
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 69 2111 2123 "flashTzx.ml" 69 2111 2129
+type(
+  string
+)
+"flashTzx.ml" 69 2111 2130 "flashTzx.ml" 69 2111 2132
+type(
+  paramdef list
+)
+"flashTzx.ml" 69 2111 2123 "flashTzx.ml" 69 2111 2132
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 69 2111 2122 "flashTzx.ml" 69 2111 2133
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 69 2111 2121 "flashTzx.ml" 69 2111 2134
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 69 2111 2135 "flashTzx.ml" 69 2111 2141
+type(
+  string
+)
+"flashTzx.ml" 69 2111 2114 "flashTzx.ml" 69 2111 2141
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 69 2111 2113 "flashTzx.ml" 69 2111 2142
+type(
+  vardef list
+)
+type(
+  vardef list list
+)
+"flashTzx.ml" 68 2078 2080 "flashTzx.ml" 69 2111 2142
+type(
+  vardef list list
+)
+"flashTzx.ml" 67 2043 2045 "flashTzx.ml" 69 2111 2142
+type(
+  vardef list list
+)
+"flashTzx.ml" 66 2013 2041 "flashTzx.ml" 70 2143 2144
+type(
+  vardef list list
+)
+"flashTzx.ml" 66 2013 2028 "flashTzx.ml" 70 2143 2144
+type(
+  vardef list
+)
+"flashTzx.ml" 71 2145 2149 "flashTzx.ml" 71 2145 2157
+type(
+  vardef list
+)
+ident(
+  def _INV_MSG "flashTzx.ml" 74 2211 2211 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 71 2145 2160 "flashTzx.ml" 71 2145 2171
+type(
+  vardef list list -> vardef list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"flashTzx.ml" 72 2175 2178 "flashTzx.ml" 72 2175 2184
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 72 2175 2187 "flashTzx.ml" 72 2175 2192
+type(
+  string
+)
+"flashTzx.ml" 72 2175 2193 "flashTzx.ml" 72 2175 2195
+type(
+  paramdef list
+)
+"flashTzx.ml" 72 2175 2187 "flashTzx.ml" 72 2175 2195
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 72 2175 2186 "flashTzx.ml" 72 2175 2196
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 72 2175 2185 "flashTzx.ml" 72 2175 2197
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 72 2175 2198 "flashTzx.ml" 72 2175 2207
+type(
+  string
+)
+"flashTzx.ml" 72 2175 2178 "flashTzx.ml" 72 2175 2207
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 72 2175 2177 "flashTzx.ml" 72 2175 2208
+type(
+  vardef list
+)
+type(
+  vardef list list
+)
+"flashTzx.ml" 71 2145 2173 "flashTzx.ml" 73 2209 2210
+type(
+  vardef list list
+)
+"flashTzx.ml" 71 2145 2160 "flashTzx.ml" 73 2209 2210
+type(
+  vardef list
+)
+"flashTzx.ml" 74 2211 2215 "flashTzx.ml" 74 2211 2222
+type(
+  vardef list
+)
+ident(
+  def _RP_MSG "flashTzx.ml" 77 2275 2275 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 74 2211 2225 "flashTzx.ml" 74 2211 2236
+type(
+  vardef list list -> vardef list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"flashTzx.ml" 75 2240 2243 "flashTzx.ml" 75 2240 2249
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 75 2240 2252 "flashTzx.ml" 75 2240 2257
+type(
+  string
+)
+"flashTzx.ml" 75 2240 2258 "flashTzx.ml" 75 2240 2260
+type(
+  paramdef list
+)
+"flashTzx.ml" 75 2240 2252 "flashTzx.ml" 75 2240 2260
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 75 2240 2251 "flashTzx.ml" 75 2240 2261
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 75 2240 2250 "flashTzx.ml" 75 2240 2262
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 75 2240 2263 "flashTzx.ml" 75 2240 2271
+type(
+  string
+)
+"flashTzx.ml" 75 2240 2243 "flashTzx.ml" 75 2240 2271
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 75 2240 2242 "flashTzx.ml" 75 2240 2272
+type(
+  vardef list
+)
+type(
+  vardef list list
+)
+"flashTzx.ml" 74 2211 2238 "flashTzx.ml" 76 2273 2274
+type(
+  vardef list list
+)
+"flashTzx.ml" 74 2211 2225 "flashTzx.ml" 76 2273 2274
+type(
+  vardef list
+)
+"flashTzx.ml" 77 2275 2279 "flashTzx.ml" 77 2275 2286
+type(
+  vardef list
+)
+ident(
+  def _WB_MSG "flashTzx.ml" 82 2405 2405 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 77 2275 2289 "flashTzx.ml" 77 2275 2300
+type(
+  vardef list list -> vardef list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"flashTzx.ml" 78 2304 2307 "flashTzx.ml" 78 2304 2313
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 78 2304 2316 "flashTzx.ml" 78 2304 2321
+type(
+  string
+)
+"flashTzx.ml" 78 2304 2322 "flashTzx.ml" 78 2304 2324
+type(
+  paramdef list
+)
+"flashTzx.ml" 78 2304 2316 "flashTzx.ml" 78 2304 2324
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 78 2304 2315 "flashTzx.ml" 78 2304 2325
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 78 2304 2314 "flashTzx.ml" 78 2304 2326
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 78 2304 2327 "flashTzx.ml" 78 2304 2335
+type(
+  string
+)
+"flashTzx.ml" 78 2304 2307 "flashTzx.ml" 78 2304 2335
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 78 2304 2306 "flashTzx.ml" 78 2304 2336
+type(
+  vardef list
+)
+"flashTzx.ml" 79 2338 2341 "flashTzx.ml" 79 2338 2347
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 79 2338 2350 "flashTzx.ml" 79 2338 2356
+type(
+  string
+)
+"flashTzx.ml" 79 2338 2357 "flashTzx.ml" 79 2338 2359
+type(
+  paramdef list
+)
+"flashTzx.ml" 79 2338 2350 "flashTzx.ml" 79 2338 2359
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 79 2338 2349 "flashTzx.ml" 79 2338 2360
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 79 2338 2348 "flashTzx.ml" 79 2338 2361
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 79 2338 2362 "flashTzx.ml" 79 2338 2368
+type(
+  string
+)
+"flashTzx.ml" 79 2338 2341 "flashTzx.ml" 79 2338 2368
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 79 2338 2340 "flashTzx.ml" 79 2338 2369
+type(
+  vardef list
+)
+"flashTzx.ml" 80 2371 2374 "flashTzx.ml" 80 2371 2380
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 80 2371 2383 "flashTzx.ml" 80 2371 2389
+type(
+  string
+)
+"flashTzx.ml" 80 2371 2390 "flashTzx.ml" 80 2371 2392
+type(
+  paramdef list
+)
+"flashTzx.ml" 80 2371 2383 "flashTzx.ml" 80 2371 2392
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 80 2371 2382 "flashTzx.ml" 80 2371 2393
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 80 2371 2381 "flashTzx.ml" 80 2371 2394
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 80 2371 2395 "flashTzx.ml" 80 2371 2401
+type(
+  string
+)
+"flashTzx.ml" 80 2371 2374 "flashTzx.ml" 80 2371 2401
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 80 2371 2373 "flashTzx.ml" 80 2371 2402
+type(
+  vardef list
+)
+type(
+  vardef list list
+)
+"flashTzx.ml" 79 2338 2340 "flashTzx.ml" 80 2371 2402
+type(
+  vardef list list
+)
+"flashTzx.ml" 78 2304 2306 "flashTzx.ml" 80 2371 2402
+type(
+  vardef list list
+)
+"flashTzx.ml" 77 2275 2302 "flashTzx.ml" 81 2403 2404
+type(
+  vardef list list
+)
+"flashTzx.ml" 77 2275 2289 "flashTzx.ml" 81 2403 2404
+type(
+  vardef list
+)
+"flashTzx.ml" 82 2405 2409 "flashTzx.ml" 82 2405 2418
+type(
+  vardef list
+)
+ident(
+  def _SHWB_MSG "flashTzx.ml" 87 2539 2539 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 82 2405 2421 "flashTzx.ml" 82 2405 2432
+type(
+  vardef list list -> vardef list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"flashTzx.ml" 83 2436 2439 "flashTzx.ml" 83 2436 2445
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 83 2436 2448 "flashTzx.ml" 83 2436 2453
+type(
+  string
+)
+"flashTzx.ml" 83 2436 2454 "flashTzx.ml" 83 2436 2456
+type(
+  paramdef list
+)
+"flashTzx.ml" 83 2436 2448 "flashTzx.ml" 83 2436 2456
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 83 2436 2447 "flashTzx.ml" 83 2436 2457
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 83 2436 2446 "flashTzx.ml" 83 2436 2458
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 83 2436 2459 "flashTzx.ml" 83 2436 2469
+type(
+  string
+)
+"flashTzx.ml" 83 2436 2439 "flashTzx.ml" 83 2436 2469
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 83 2436 2438 "flashTzx.ml" 83 2436 2470
+type(
+  vardef list
+)
+"flashTzx.ml" 84 2472 2475 "flashTzx.ml" 84 2472 2481
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 84 2472 2484 "flashTzx.ml" 84 2472 2490
+type(
+  string
+)
+"flashTzx.ml" 84 2472 2491 "flashTzx.ml" 84 2472 2493
+type(
+  paramdef list
+)
+"flashTzx.ml" 84 2472 2484 "flashTzx.ml" 84 2472 2493
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 84 2472 2483 "flashTzx.ml" 84 2472 2494
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 84 2472 2482 "flashTzx.ml" 84 2472 2495
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 84 2472 2496 "flashTzx.ml" 84 2472 2502
+type(
+  string
+)
+"flashTzx.ml" 84 2472 2475 "flashTzx.ml" 84 2472 2502
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 84 2472 2474 "flashTzx.ml" 84 2472 2503
+type(
+  vardef list
+)
+"flashTzx.ml" 85 2505 2508 "flashTzx.ml" 85 2505 2514
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 85 2505 2517 "flashTzx.ml" 85 2505 2523
+type(
+  string
+)
+"flashTzx.ml" 85 2505 2524 "flashTzx.ml" 85 2505 2526
+type(
+  paramdef list
+)
+"flashTzx.ml" 85 2505 2517 "flashTzx.ml" 85 2505 2526
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 85 2505 2516 "flashTzx.ml" 85 2505 2527
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 85 2505 2515 "flashTzx.ml" 85 2505 2528
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 85 2505 2529 "flashTzx.ml" 85 2505 2535
+type(
+  string
+)
+"flashTzx.ml" 85 2505 2508 "flashTzx.ml" 85 2505 2535
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 85 2505 2507 "flashTzx.ml" 85 2505 2536
+type(
+  vardef list
+)
+type(
+  vardef list list
+)
+"flashTzx.ml" 84 2472 2474 "flashTzx.ml" 85 2505 2536
+type(
+  vardef list list
+)
+"flashTzx.ml" 83 2436 2438 "flashTzx.ml" 85 2505 2536
+type(
+  vardef list list
+)
+"flashTzx.ml" 82 2405 2434 "flashTzx.ml" 86 2537 2538
+type(
+  vardef list list
+)
+"flashTzx.ml" 82 2405 2421 "flashTzx.ml" 86 2537 2538
+type(
+  vardef list
+)
+"flashTzx.ml" 87 2539 2543 "flashTzx.ml" 87 2539 2552
+type(
+  vardef list
+)
+ident(
+  def _NAKC_MSG "flashTzx.ml" 90 2607 2607 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 87 2539 2555 "flashTzx.ml" 87 2539 2566
+type(
+  vardef list list -> vardef list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"flashTzx.ml" 88 2570 2573 "flashTzx.ml" 88 2570 2579
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 88 2570 2582 "flashTzx.ml" 88 2570 2587
+type(
+  string
+)
+"flashTzx.ml" 88 2570 2588 "flashTzx.ml" 88 2570 2590
+type(
+  paramdef list
+)
+"flashTzx.ml" 88 2570 2582 "flashTzx.ml" 88 2570 2590
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 88 2570 2581 "flashTzx.ml" 88 2570 2591
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 88 2570 2580 "flashTzx.ml" 88 2570 2592
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 88 2570 2593 "flashTzx.ml" 88 2570 2603
+type(
+  string
+)
+"flashTzx.ml" 88 2570 2573 "flashTzx.ml" 88 2570 2603
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 88 2570 2572 "flashTzx.ml" 88 2570 2604
+type(
+  vardef list
+)
+type(
+  vardef list list
+)
+"flashTzx.ml" 87 2539 2568 "flashTzx.ml" 89 2605 2606
+type(
+  vardef list list
+)
+"flashTzx.ml" 87 2539 2555 "flashTzx.ml" 89 2605 2606
+type(
+  vardef list
+)
+"flashTzx.ml" 90 2607 2611 "flashTzx.ml" 90 2607 2617
+type(
+  vardef list
+)
+ident(
+  def _STATE "flashTzx.ml" 111 3421 3421 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 90 2607 2620 "flashTzx.ml" 90 2607 2631
+type(
+  vardef list list -> vardef list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"flashTzx.ml" 91 2635 2637 "flashTzx.ml" 91 2635 2647
+type(
+  string -> paramdef list -> vardef list -> vardef list
+)
+ident(
+  ext_ref Loach.record_def
+)
+"flashTzx.ml" 91 2635 2648 "flashTzx.ml" 91 2635 2654
+type(
+  string
+)
+"flashTzx.ml" 91 2635 2656 "flashTzx.ml" 91 2635 2664
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"flashTzx.ml" 91 2635 2665 "flashTzx.ml" 91 2635 2668
+type(
+  string
+)
+"flashTzx.ml" 91 2635 2669 "flashTzx.ml" 91 2635 2675
+type(
+  string
+)
+"flashTzx.ml" 91 2635 2656 "flashTzx.ml" 91 2635 2675
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"flashTzx.ml" 91 2635 2655 "flashTzx.ml" 91 2635 2676
+type(
+  paramdef list
+)
+"flashTzx.ml" 91 2635 2677 "flashTzx.ml" 91 2635 2688
+type(
+  vardef list
+)
+ident(
+  int_ref _NODE_STATE "flashTzx.ml" 50 1437 1441 "flashTzx.ml" 50 1437 1452
+)
+"flashTzx.ml" 91 2635 2637 "flashTzx.ml" 91 2635 2688
+type(
+  vardef list
+)
+"flashTzx.ml" 92 2690 2692 "flashTzx.ml" 92 2690 2702
+type(
+  string -> paramdef list -> vardef list -> vardef list
+)
+ident(
+  ext_ref Loach.record_def
+)
+"flashTzx.ml" 92 2690 2703 "flashTzx.ml" 92 2690 2708
+type(
+  string
+)
+"flashTzx.ml" 92 2690 2709 "flashTzx.ml" 92 2690 2711
+type(
+  paramdef list
+)
+"flashTzx.ml" 92 2690 2713 "flashTzx.ml" 92 2690 2723
+type(
+  vardef list
+)
+ident(
+  int_ref _DIR_STATE "flashTzx.ml" 56 1636 1640 "flashTzx.ml" 56 1636 1650
+)
+"flashTzx.ml" 92 2690 2692 "flashTzx.ml" 92 2690 2723
+type(
+  vardef list
+)
+"flashTzx.ml" 93 2725 2728 "flashTzx.ml" 93 2725 2734
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 93 2725 2737 "flashTzx.ml" 93 2725 2746
+type(
+  string
+)
+"flashTzx.ml" 93 2725 2747 "flashTzx.ml" 93 2725 2749
+type(
+  paramdef list
+)
+"flashTzx.ml" 93 2725 2737 "flashTzx.ml" 93 2725 2749
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 93 2725 2736 "flashTzx.ml" 93 2725 2750
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 93 2725 2735 "flashTzx.ml" 93 2725 2751
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 93 2725 2752 "flashTzx.ml" 93 2725 2758
+type(
+  string
+)
+"flashTzx.ml" 93 2725 2728 "flashTzx.ml" 93 2725 2758
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 93 2725 2727 "flashTzx.ml" 93 2725 2759
+type(
+  vardef list
+)
+"flashTzx.ml" 94 2761 2763 "flashTzx.ml" 94 2761 2773
+type(
+  string -> paramdef list -> vardef list -> vardef list
+)
+ident(
+  ext_ref Loach.record_def
+)
+"flashTzx.ml" 94 2761 2774 "flashTzx.ml" 94 2761 2782
+type(
+  string
+)
+"flashTzx.ml" 94 2761 2784 "flashTzx.ml" 94 2761 2792
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"flashTzx.ml" 94 2761 2793 "flashTzx.ml" 94 2761 2796
+type(
+  string
+)
+"flashTzx.ml" 94 2761 2797 "flashTzx.ml" 94 2761 2803
+type(
+  string
+)
+"flashTzx.ml" 94 2761 2784 "flashTzx.ml" 94 2761 2803
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"flashTzx.ml" 94 2761 2783 "flashTzx.ml" 94 2761 2804
+type(
+  paramdef list
+)
+"flashTzx.ml" 94 2761 2805 "flashTzx.ml" 94 2761 2813
+type(
+  vardef list
+)
+ident(
+  int_ref _UNI_MSG "flashTzx.ml" 66 2013 2017 "flashTzx.ml" 66 2013 2025
+)
+"flashTzx.ml" 94 2761 2763 "flashTzx.ml" 94 2761 2813
+type(
+  vardef list
+)
+"flashTzx.ml" 95 2815 2817 "flashTzx.ml" 95 2815 2827
+type(
+  string -> paramdef list -> vardef list -> vardef list
+)
+ident(
+  ext_ref Loach.record_def
+)
+"flashTzx.ml" 95 2815 2828 "flashTzx.ml" 95 2815 2836
+type(
+  string
+)
+"flashTzx.ml" 95 2815 2838 "flashTzx.ml" 95 2815 2846
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"flashTzx.ml" 95 2815 2847 "flashTzx.ml" 95 2815 2850
+type(
+  string
+)
+"flashTzx.ml" 95 2815 2851 "flashTzx.ml" 95 2815 2857
+type(
+  string
+)
+"flashTzx.ml" 95 2815 2838 "flashTzx.ml" 95 2815 2857
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"flashTzx.ml" 95 2815 2837 "flashTzx.ml" 95 2815 2858
+type(
+  paramdef list
+)
+"flashTzx.ml" 95 2815 2859 "flashTzx.ml" 95 2815 2867
+type(
+  vardef list
+)
+ident(
+  int_ref _INV_MSG "flashTzx.ml" 71 2145 2149 "flashTzx.ml" 71 2145 2157
+)
+"flashTzx.ml" 95 2815 2817 "flashTzx.ml" 95 2815 2867
+type(
+  vardef list
+)
+"flashTzx.ml" 96 2869 2871 "flashTzx.ml" 96 2869 2881
+type(
+  string -> paramdef list -> vardef list -> vardef list
+)
+ident(
+  ext_ref Loach.record_def
+)
+"flashTzx.ml" 96 2869 2882 "flashTzx.ml" 96 2869 2889
+type(
+  string
+)
+"flashTzx.ml" 96 2869 2891 "flashTzx.ml" 96 2869 2899
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"flashTzx.ml" 96 2869 2900 "flashTzx.ml" 96 2869 2903
+type(
+  string
+)
+"flashTzx.ml" 96 2869 2904 "flashTzx.ml" 96 2869 2910
+type(
+  string
+)
+"flashTzx.ml" 96 2869 2891 "flashTzx.ml" 96 2869 2910
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"flashTzx.ml" 96 2869 2890 "flashTzx.ml" 96 2869 2911
+type(
+  paramdef list
+)
+"flashTzx.ml" 96 2869 2912 "flashTzx.ml" 96 2869 2919
+type(
+  vardef list
+)
+ident(
+  int_ref _RP_MSG "flashTzx.ml" 74 2211 2215 "flashTzx.ml" 74 2211 2222
+)
+"flashTzx.ml" 96 2869 2871 "flashTzx.ml" 96 2869 2919
+type(
+  vardef list
+)
+"flashTzx.ml" 97 2921 2923 "flashTzx.ml" 97 2921 2933
+type(
+  string -> paramdef list -> vardef list -> vardef list
+)
+ident(
+  ext_ref Loach.record_def
+)
+"flashTzx.ml" 97 2921 2934 "flashTzx.ml" 97 2921 2941
+type(
+  string
+)
+"flashTzx.ml" 97 2921 2942 "flashTzx.ml" 97 2921 2944
+type(
+  paramdef list
+)
+"flashTzx.ml" 97 2921 2946 "flashTzx.ml" 97 2921 2953
+type(
+  vardef list
+)
+ident(
+  int_ref _WB_MSG "flashTzx.ml" 77 2275 2279 "flashTzx.ml" 77 2275 2286
+)
+"flashTzx.ml" 97 2921 2923 "flashTzx.ml" 97 2921 2953
+type(
+  vardef list
+)
+"flashTzx.ml" 98 2955 2957 "flashTzx.ml" 98 2955 2967
+type(
+  string -> paramdef list -> vardef list -> vardef list
+)
+ident(
+  ext_ref Loach.record_def
+)
+"flashTzx.ml" 98 2955 2968 "flashTzx.ml" 98 2955 2977
+type(
+  string
+)
+"flashTzx.ml" 98 2955 2978 "flashTzx.ml" 98 2955 2980
+type(
+  paramdef list
+)
+"flashTzx.ml" 98 2955 2982 "flashTzx.ml" 98 2955 2991
+type(
+  vardef list
+)
+ident(
+  int_ref _SHWB_MSG "flashTzx.ml" 82 2405 2409 "flashTzx.ml" 82 2405 2418
+)
+"flashTzx.ml" 98 2955 2957 "flashTzx.ml" 98 2955 2991
+type(
+  vardef list
+)
+"flashTzx.ml" 99 2993 2995 "flashTzx.ml" 99 2993 3005
+type(
+  string -> paramdef list -> vardef list -> vardef list
+)
+ident(
+  ext_ref Loach.record_def
+)
+"flashTzx.ml" 99 2993 3006 "flashTzx.ml" 99 2993 3015
+type(
+  string
+)
+"flashTzx.ml" 99 2993 3016 "flashTzx.ml" 99 2993 3018
+type(
+  paramdef list
+)
+"flashTzx.ml" 99 2993 3020 "flashTzx.ml" 99 2993 3029
+type(
+  vardef list
+)
+ident(
+  int_ref _NAKC_MSG "flashTzx.ml" 87 2539 2543 "flashTzx.ml" 87 2539 2552
+)
+"flashTzx.ml" 99 2993 2995 "flashTzx.ml" 99 2993 3029
+type(
+  vardef list
+)
+"flashTzx.ml" 100 3031 3034 "flashTzx.ml" 100 3031 3040
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 100 3031 3043 "flashTzx.ml" 100 3031 3053
+type(
+  string
+)
+"flashTzx.ml" 100 3031 3054 "flashTzx.ml" 100 3031 3056
+type(
+  paramdef list
+)
+"flashTzx.ml" 100 3031 3043 "flashTzx.ml" 100 3031 3056
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 100 3031 3042 "flashTzx.ml" 100 3031 3057
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 100 3031 3041 "flashTzx.ml" 100 3031 3058
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 100 3031 3059 "flashTzx.ml" 100 3031 3065
+type(
+  string
+)
+"flashTzx.ml" 100 3031 3034 "flashTzx.ml" 100 3031 3065
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 100 3031 3033 "flashTzx.ml" 100 3031 3066
+type(
+  vardef list
+)
+"flashTzx.ml" 101 3068 3071 "flashTzx.ml" 101 3068 3077
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 101 3068 3080 "flashTzx.ml" 101 3068 3090
+type(
+  string
+)
+"flashTzx.ml" 101 3068 3091 "flashTzx.ml" 101 3068 3093
+type(
+  paramdef list
+)
+"flashTzx.ml" 101 3068 3080 "flashTzx.ml" 101 3068 3093
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 101 3068 3079 "flashTzx.ml" 101 3068 3094
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 101 3068 3078 "flashTzx.ml" 101 3068 3095
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 101 3068 3096 "flashTzx.ml" 101 3068 3102
+type(
+  string
+)
+"flashTzx.ml" 101 3068 3071 "flashTzx.ml" 101 3068 3102
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 101 3068 3070 "flashTzx.ml" 101 3068 3103
+type(
+  vardef list
+)
+"flashTzx.ml" 102 3105 3108 "flashTzx.ml" 102 3105 3114
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 102 3105 3117 "flashTzx.ml" 102 3105 3128
+type(
+  string
+)
+"flashTzx.ml" 102 3105 3129 "flashTzx.ml" 102 3105 3131
+type(
+  paramdef list
+)
+"flashTzx.ml" 102 3105 3117 "flashTzx.ml" 102 3105 3131
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 102 3105 3116 "flashTzx.ml" 102 3105 3132
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 102 3105 3115 "flashTzx.ml" 102 3105 3133
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 102 3105 3134 "flashTzx.ml" 102 3105 3143
+type(
+  string
+)
+"flashTzx.ml" 102 3105 3108 "flashTzx.ml" 102 3105 3143
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 102 3105 3107 "flashTzx.ml" 102 3105 3144
+type(
+  vardef list
+)
+"flashTzx.ml" 103 3146 3149 "flashTzx.ml" 103 3146 3155
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 103 3146 3158 "flashTzx.ml" 103 3146 3169
+type(
+  string
+)
+"flashTzx.ml" 103 3146 3170 "flashTzx.ml" 103 3146 3172
+type(
+  paramdef list
+)
+"flashTzx.ml" 103 3146 3158 "flashTzx.ml" 103 3146 3172
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 103 3146 3157 "flashTzx.ml" 103 3146 3173
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 103 3146 3156 "flashTzx.ml" 103 3146 3174
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 103 3146 3175 "flashTzx.ml" 103 3146 3181
+type(
+  string
+)
+"flashTzx.ml" 103 3146 3149 "flashTzx.ml" 103 3146 3181
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 103 3146 3148 "flashTzx.ml" 103 3146 3182
+type(
+  vardef list
+)
+"flashTzx.ml" 104 3184 3187 "flashTzx.ml" 104 3184 3193
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 104 3184 3196 "flashTzx.ml" 104 3184 3207
+type(
+  string
+)
+"flashTzx.ml" 104 3184 3208 "flashTzx.ml" 104 3184 3210
+type(
+  paramdef list
+)
+"flashTzx.ml" 104 3184 3196 "flashTzx.ml" 104 3184 3210
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 104 3184 3195 "flashTzx.ml" 104 3184 3211
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 104 3184 3194 "flashTzx.ml" 104 3184 3212
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 104 3184 3213 "flashTzx.ml" 104 3184 3219
+type(
+  string
+)
+"flashTzx.ml" 104 3184 3187 "flashTzx.ml" 104 3184 3219
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 104 3184 3186 "flashTzx.ml" 104 3184 3220
+type(
+  vardef list
+)
+"flashTzx.ml" 105 3222 3225 "flashTzx.ml" 105 3222 3231
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 105 3222 3234 "flashTzx.ml" 105 3222 3246
+type(
+  string
+)
+"flashTzx.ml" 105 3222 3247 "flashTzx.ml" 105 3222 3249
+type(
+  paramdef list
+)
+"flashTzx.ml" 105 3222 3234 "flashTzx.ml" 105 3222 3249
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 105 3222 3233 "flashTzx.ml" 105 3222 3250
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 105 3222 3232 "flashTzx.ml" 105 3222 3251
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 105 3222 3252 "flashTzx.ml" 105 3222 3261
+type(
+  string
+)
+"flashTzx.ml" 105 3222 3225 "flashTzx.ml" 105 3222 3261
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 105 3222 3224 "flashTzx.ml" 105 3222 3262
+type(
+  vardef list
+)
+"flashTzx.ml" 106 3264 3267 "flashTzx.ml" 106 3264 3273
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 106 3264 3276 "flashTzx.ml" 106 3264 3284
+type(
+  string
+)
+"flashTzx.ml" 106 3264 3285 "flashTzx.ml" 106 3264 3287
+type(
+  paramdef list
+)
+"flashTzx.ml" 106 3264 3276 "flashTzx.ml" 106 3264 3287
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 106 3264 3275 "flashTzx.ml" 106 3264 3288
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 106 3264 3274 "flashTzx.ml" 106 3264 3289
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 106 3264 3290 "flashTzx.ml" 106 3264 3299
+type(
+  string
+)
+"flashTzx.ml" 106 3264 3267 "flashTzx.ml" 106 3264 3299
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 106 3264 3266 "flashTzx.ml" 106 3264 3300
+type(
+  vardef list
+)
+"flashTzx.ml" 107 3302 3305 "flashTzx.ml" 107 3302 3311
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 107 3302 3314 "flashTzx.ml" 107 3302 3322
+type(
+  string
+)
+"flashTzx.ml" 107 3302 3323 "flashTzx.ml" 107 3302 3325
+type(
+  paramdef list
+)
+"flashTzx.ml" 107 3302 3314 "flashTzx.ml" 107 3302 3325
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 107 3302 3313 "flashTzx.ml" 107 3302 3326
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 107 3302 3312 "flashTzx.ml" 107 3302 3327
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 107 3302 3328 "flashTzx.ml" 107 3302 3334
+type(
+  string
+)
+"flashTzx.ml" 107 3302 3305 "flashTzx.ml" 107 3302 3334
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 107 3302 3304 "flashTzx.ml" 107 3302 3335
+type(
+  vardef list
+)
+"flashTzx.ml" 108 3337 3340 "flashTzx.ml" 108 3337 3346
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 108 3337 3349 "flashTzx.ml" 108 3337 3361
+type(
+  string
+)
+"flashTzx.ml" 108 3337 3362 "flashTzx.ml" 108 3337 3364
+type(
+  paramdef list
+)
+"flashTzx.ml" 108 3337 3349 "flashTzx.ml" 108 3337 3364
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 108 3337 3348 "flashTzx.ml" 108 3337 3365
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 108 3337 3347 "flashTzx.ml" 108 3337 3366
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 108 3337 3367 "flashTzx.ml" 108 3337 3373
+type(
+  string
+)
+"flashTzx.ml" 108 3337 3340 "flashTzx.ml" 108 3337 3373
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 108 3337 3339 "flashTzx.ml" 108 3337 3374
+type(
+  vardef list
+)
+"flashTzx.ml" 109 3376 3379 "flashTzx.ml" 109 3376 3385
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 109 3376 3388 "flashTzx.ml" 109 3376 3405
+type(
+  string
+)
+"flashTzx.ml" 109 3376 3406 "flashTzx.ml" 109 3376 3408
+type(
+  paramdef list
+)
+"flashTzx.ml" 109 3376 3388 "flashTzx.ml" 109 3376 3408
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 109 3376 3387 "flashTzx.ml" 109 3376 3409
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 109 3376 3386 "flashTzx.ml" 109 3376 3410
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 109 3376 3411 "flashTzx.ml" 109 3376 3417
+type(
+  string
+)
+"flashTzx.ml" 109 3376 3379 "flashTzx.ml" 109 3376 3417
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 109 3376 3378 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list
+)
+type(
+  vardef list list
+)
+"flashTzx.ml" 108 3337 3339 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 107 3302 3304 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 106 3264 3266 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 105 3222 3224 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 104 3184 3186 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 103 3146 3148 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 102 3105 3107 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 101 3068 3070 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 100 3031 3033 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 99 2993 2995 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 98 2955 2957 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 97 2921 2923 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 96 2869 2871 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 95 2815 2817 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 94 2761 2763 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 93 2725 2727 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 92 2690 2692 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 91 2635 2637 "flashTzx.ml" 109 3376 3418
+type(
+  vardef list list
+)
+"flashTzx.ml" 90 2607 2633 "flashTzx.ml" 110 3419 3420
+type(
+  vardef list list
+)
+"flashTzx.ml" 90 2607 2620 "flashTzx.ml" 110 3419 3420
+type(
+  vardef list
+)
+"flashTzx.ml" 111 3421 3425 "flashTzx.ml" 111 3421 3432
+type(
+  vardef list
+)
+ident(
+  def vardefs "flashTzx.ml" 121 6012 6012 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 111 3421 3435 "flashTzx.ml" 111 3421 3446
+type(
+  vardef list list -> vardef list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"flashTzx.ml" 112 3448 3451 "flashTzx.ml" 112 3448 3457
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"flashTzx.ml" 112 3448 3460 "flashTzx.ml" 112 3448 3466
+type(
+  string
+)
+"flashTzx.ml" 112 3448 3467 "flashTzx.ml" 112 3448 3469
+type(
+  paramdef list
+)
+"flashTzx.ml" 112 3448 3460 "flashTzx.ml" 112 3448 3469
+type(
+  string * paramdef list
+)
+"flashTzx.ml" 112 3448 3459 "flashTzx.ml" 112 3448 3470
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 112 3448 3458 "flashTzx.ml" 112 3448 3471
+type(
+  (string * paramdef list) list
+)
+"flashTzx.ml" 112 3448 3472 "flashTzx.ml" 112 3448 3478
+type(
+  string
+)
+"flashTzx.ml" 112 3448 3451 "flashTzx.ml" 112 3448 3478
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"flashTzx.ml" 112 3448 3450 "flashTzx.ml" 112 3448 3479
+type(
+  vardef list
+)
+"flashTzx.ml" 113 3481 3483 "flashTzx.ml" 113 3481 3493
+type(
+  string -> paramdef list -> vardef list -> vardef list
+)
+ident(
+  ext_ref Loach.record_def
+)
+"flashTzx.ml" 113 3481 3494 "flashTzx.ml" 113 3481 3499
+type(
+  string
+)
+"flashTzx.ml" 113 3481 3500 "flashTzx.ml" 113 3481 3502
+type(
+  paramdef list
+)
+"flashTzx.ml" 113 3481 3504 "flashTzx.ml" 113 3481 3510
+type(
+  vardef list
+)
+ident(
+  int_ref _STATE "flashTzx.ml" 90 2607 2611 "flashTzx.ml" 90 2607 2617
+)
+"flashTzx.ml" 113 3481 3483 "flashTzx.ml" 113 3481 3510
+type(
+  vardef list
+)
+"flashTzx.ml" 113 3481 3483 "flashTzx.ml" 113 3481 3511
+type(
+  vardef list list
+)
+"flashTzx.ml" 112 3448 3450 "flashTzx.ml" 113 3481 3511
+type(
+  vardef list list
+)
+"flashTzx.ml" 111 3421 3446 "flashTzx.ml" 114 3512 3513
+type(
+  vardef list list
+)
+"flashTzx.ml" 111 3421 3435 "flashTzx.ml" 114 3512 3513
+type(
+  vardef list
+)
+"flashTzx.ml" 121 6012 6016 "flashTzx.ml" 121 6012 6028
+type(
+  '_a
+)
+ident(
+  def n_NI_Replace "flashTzx.ml" 128 6775 6775 "flashTzx.ml" 1 0 -1
+)
+"flashTzx.ml" 122 6030 6036 "flashTzx.ml" 122 6030 6040
+type(
+  string
+)
+ident(
+  def name "flashTzx.ml" 123 6057 6059 "flashTzx.ml" 126 6737 6773
+)
+"flashTzx.ml" 122 6030 6041 "flashTzx.ml" 122 6030 6053
+type(
+  string
+)
+"flashTzx.ml" 123 6057 6063 "flashTzx.ml" 123 6057 6069
+type(
+  paramdef list
+)
+ident(
+  def params "flashTzx.ml" 124 6097 6099 "flashTzx.ml" 126 6737 6773
+)
+"flashTzx.ml" 123 6057 6071 "flashTzx.ml" 123 6057 6079
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"flashTzx.ml" 123 6057 6080 "flashTzx.ml" 123 6057 6085
+type(
+  string
+)
+"flashTzx.ml" 123 6057 6086 "flashTzx.ml" 123 6057 6092
+type(
+  string
+)
+"flashTzx.ml" 123 6057 6071 "flashTzx.ml" 123 6057 6092
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"flashTzx.ml" 123 6057 6070 "flashTzx.ml" 123 6057 6093
+type(
+  paramdef list
+)
+"flashTzx.ml" 124 6097 6103 "flashTzx.ml" 124 6097 6110
+type(
+  '_b
+)
+ident(
+  def formula "flashTzx.ml" 125 6242 6244 "flashTzx.ml" 126 6737 6773
+)
+"flashTzx.ml" 124 6097 6112 "flashTzx.ml" 124 6097 6115
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashTzx.ml" 124 6097 6117 "flashTzx.ml" 124 6097 6120
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashTzx.ml" 124 6097 6122 "flashTzx.ml" 124 6097 6128
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashTzx.ml" 124 6097 6131 "flashTzx.ml" 124 6097 6134
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"flashTzx.ml" 124 6097 6138 "flashTzx.ml" 124 6097 6144
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashTzx.ml" 124 6097 6147 "flashTzx.ml" 124 6097 6153
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashTzx.ml" 124 6097 6154 "flashTzx.ml" 124 6097 6159
+type(
+  string
+)
+"flashTzx.ml" 124 6097 6147 "flashTzx.ml" 124 6097 6159
+type(
+  var
+)
+"flashTzx.ml" 124 6097 6163 "flashTzx.ml" 124 6097 6169
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashTzx.ml" 124 6097 6170 "flashTzx.ml" 124 6097 6177
+type(
+  string
+)
+"flashTzx.ml" 124 6097 6163 "flashTzx.ml" 124 6097 6177
+type(
+  var
+)
+type(
+  var list
+)
+"flashTzx.ml" 124 6097 6146 "flashTzx.ml" 124 6097 6177
+type(
+  var list
+)
+"flashTzx.ml" 124 6097 6145 "flashTzx.ml" 124 6097 6178
+type(
+  var list
+)
+"flashTzx.ml" 124 6097 6138 "flashTzx.ml" 124 6097 6178
+type(
+  var
+)
+"flashTzx.ml" 124 6097 6136 "flashTzx.ml" 124 6097 6197
+type(
+  (string * paramref list) list
+)
+"flashTzx.ml" 124 6097 6130 "flashTzx.ml" 124 6097 6214
+type(
+  var list
+)

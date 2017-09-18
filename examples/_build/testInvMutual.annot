@@ -1,0 +1,880 @@
+"testInvMutual.ml" 11 110 114 "testInvMutual.ml" 11 110 116
+type(
+  const
+)
+ident(
+  def _I "testInvMutual.ml" 12 128 128 "testInvMutual.ml" 1 0 -1
+)
+"testInvMutual.ml" 11 110 119 "testInvMutual.ml" 11 110 123
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"testInvMutual.ml" 11 110 124 "testInvMutual.ml" 11 110 127
+type(
+  string
+)
+"testInvMutual.ml" 11 110 119 "testInvMutual.ml" 11 110 127
+call(
+  stack
+)
+type(
+  const
+)
+"testInvMutual.ml" 12 128 132 "testInvMutual.ml" 12 128 134
+type(
+  const
+)
+ident(
+  def _T "testInvMutual.ml" 13 146 146 "testInvMutual.ml" 1 0 -1
+)
+"testInvMutual.ml" 12 128 137 "testInvMutual.ml" 12 128 141
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"testInvMutual.ml" 12 128 142 "testInvMutual.ml" 12 128 145
+type(
+  string
+)
+"testInvMutual.ml" 12 128 137 "testInvMutual.ml" 12 128 145
+call(
+  stack
+)
+type(
+  const
+)
+"testInvMutual.ml" 13 146 150 "testInvMutual.ml" 13 146 152
+type(
+  const
+)
+ident(
+  def _C "testInvMutual.ml" 14 164 164 "testInvMutual.ml" 1 0 -1
+)
+"testInvMutual.ml" 13 146 155 "testInvMutual.ml" 13 146 159
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"testInvMutual.ml" 13 146 160 "testInvMutual.ml" 13 146 163
+type(
+  string
+)
+"testInvMutual.ml" 13 146 155 "testInvMutual.ml" 13 146 163
+call(
+  stack
+)
+type(
+  const
+)
+"testInvMutual.ml" 14 164 168 "testInvMutual.ml" 14 164 170
+type(
+  const
+)
+ident(
+  def _E "testInvMutual.ml" 15 182 182 "testInvMutual.ml" 1 0 -1
+)
+"testInvMutual.ml" 14 164 173 "testInvMutual.ml" 14 164 177
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"testInvMutual.ml" 14 164 178 "testInvMutual.ml" 14 164 181
+type(
+  string
+)
+"testInvMutual.ml" 14 164 173 "testInvMutual.ml" 14 164 181
+call(
+  stack
+)
+type(
+  const
+)
+"testInvMutual.ml" 15 182 186 "testInvMutual.ml" 15 182 191
+type(
+  const
+)
+ident(
+  def _True "testInvMutual.ml" 16 205 205 "testInvMutual.ml" 1 0 -1
+)
+"testInvMutual.ml" 15 182 194 "testInvMutual.ml" 15 182 199
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"testInvMutual.ml" 15 182 200 "testInvMutual.ml" 15 182 204
+type(
+  bool
+)
+"testInvMutual.ml" 15 182 194 "testInvMutual.ml" 15 182 204
+call(
+  stack
+)
+type(
+  const
+)
+"testInvMutual.ml" 16 205 209 "testInvMutual.ml" 16 205 215
+type(
+  const
+)
+ident(
+  def _False "testInvMutual.ml" 18 231 231 "testInvMutual.ml" 1 0 -1
+)
+"testInvMutual.ml" 16 205 218 "testInvMutual.ml" 16 205 223
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"testInvMutual.ml" 16 205 224 "testInvMutual.ml" 16 205 229
+type(
+  bool
+)
+"testInvMutual.ml" 16 205 218 "testInvMutual.ml" 16 205 229
+call(
+  stack
+)
+type(
+  const
+)
+"testInvMutual.ml" 18 231 235 "testInvMutual.ml" 18 231 240
+type(
+  typedef list
+)
+ident(
+  def types "testInvMutual.ml" 26 354 354 "testInvMutual.ml" 1 0 -1
+)
+"testInvMutual.ml" 19 245 247 "testInvMutual.ml" 19 245 251
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"testInvMutual.ml" 19 245 252 "testInvMutual.ml" 19 245 259
+type(
+  string
+)
+"testInvMutual.ml" 19 245 261 "testInvMutual.ml" 19 245 263
+type(
+  const
+)
+ident(
+  int_ref _I "testInvMutual.ml" 11 110 114 "testInvMutual.ml" 11 110 116
+)
+"testInvMutual.ml" 19 245 265 "testInvMutual.ml" 19 245 267
+type(
+  const
+)
+ident(
+  int_ref _T "testInvMutual.ml" 12 128 132 "testInvMutual.ml" 12 128 134
+)
+"testInvMutual.ml" 19 245 269 "testInvMutual.ml" 19 245 271
+type(
+  const
+)
+ident(
+  int_ref _C "testInvMutual.ml" 13 146 150 "testInvMutual.ml" 13 146 152
+)
+"testInvMutual.ml" 19 245 273 "testInvMutual.ml" 19 245 275
+type(
+  const
+)
+ident(
+  int_ref _E "testInvMutual.ml" 14 164 168 "testInvMutual.ml" 14 164 170
+)
+type(
+  const list
+)
+"testInvMutual.ml" 19 245 269 "testInvMutual.ml" 19 245 275
+type(
+  const list
+)
+"testInvMutual.ml" 19 245 265 "testInvMutual.ml" 19 245 275
+type(
+  const list
+)
+"testInvMutual.ml" 19 245 261 "testInvMutual.ml" 19 245 275
+type(
+  const list
+)
+"testInvMutual.ml" 19 245 260 "testInvMutual.ml" 19 245 276
+type(
+  const list
+)
+"testInvMutual.ml" 19 245 247 "testInvMutual.ml" 19 245 276
+call(
+  stack
+)
+type(
+  typedef
+)
+"testInvMutual.ml" 20 278 280 "testInvMutual.ml" 20 278 284
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"testInvMutual.ml" 20 278 285 "testInvMutual.ml" 20 278 293
+type(
+  string
+)
+"testInvMutual.ml" 20 278 295 "testInvMutual.ml" 20 278 305
+type(
+  int list -> const list
+)
+ident(
+  ext_ref Paramecium.int_consts
+)
+"testInvMutual.ml" 20 278 307 "testInvMutual.ml" 20 278 308
+type(
+  int
+)
+"testInvMutual.ml" 20 278 309 "testInvMutual.ml" 20 278 310
+type(
+  int
+)
+type(
+  int list
+)
+"testInvMutual.ml" 20 278 307 "testInvMutual.ml" 20 278 310
+type(
+  int list
+)
+"testInvMutual.ml" 20 278 306 "testInvMutual.ml" 20 278 311
+type(
+  int list
+)
+"testInvMutual.ml" 20 278 295 "testInvMutual.ml" 20 278 311
+call(
+  stack
+)
+type(
+  const list
+)
+"testInvMutual.ml" 20 278 280 "testInvMutual.ml" 20 278 312
+call(
+  stack
+)
+type(
+  typedef
+)
+"testInvMutual.ml" 21 314 316 "testInvMutual.ml" 21 314 320
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"testInvMutual.ml" 21 314 321 "testInvMutual.ml" 21 314 330
+type(
+  string
+)
+"testInvMutual.ml" 21 314 332 "testInvMutual.ml" 21 314 337
+type(
+  const
+)
+ident(
+  int_ref _True "testInvMutual.ml" 15 182 186 "testInvMutual.ml" 15 182 191
+)
+"testInvMutual.ml" 21 314 339 "testInvMutual.ml" 21 314 345
+type(
+  const
+)
+ident(
+  int_ref _False "testInvMutual.ml" 16 205 209 "testInvMutual.ml" 16 205 215
+)
+type(
+  const list
+)
+"testInvMutual.ml" 21 314 332 "testInvMutual.ml" 21 314 345
+type(
+  const list
+)
+"testInvMutual.ml" 21 314 331 "testInvMutual.ml" 21 314 346
+type(
+  const list
+)
+"testInvMutual.ml" 21 314 316 "testInvMutual.ml" 21 314 346
+call(
+  stack
+)
+type(
+  typedef
+)
+"testInvMutual.ml" 21 314 316 "testInvMutual.ml" 21 314 347
+type(
+  typedef list
+)
+"testInvMutual.ml" 20 278 280 "testInvMutual.ml" 21 314 347
+type(
+  typedef list
+)
+"testInvMutual.ml" 19 245 247 "testInvMutual.ml" 21 314 347
+type(
+  typedef list
+)
+"testInvMutual.ml" 18 231 243 "testInvMutual.ml" 22 348 349
+type(
+  typedef list
+)
+"testInvMutual.ml" 26 354 358 "testInvMutual.ml" 26 354 365
+type(
+  Loach.prop
+)
+ident(
+  def n_test1 "testInvMutual.ml" 40 900 900 "testInvMutual.ml" 1 0 -1
+)
+"testInvMutual.ml" 27 368 374 "testInvMutual.ml" 27 368 378
+type(
+  string
+)
+ident(
+  def name "testInvMutual.ml" 28 394 396 "testInvMutual.ml" 31 597 623
+)
+"testInvMutual.ml" 27 368 381 "testInvMutual.ml" 27 368 390
+type(
+  string
+)
+"testInvMutual.ml" 28 394 400 "testInvMutual.ml" 28 394 406
+type(
+  'a list
+)
+ident(
+  def params "testInvMutual.ml" 29 415 417 "testInvMutual.ml" 31 597 623
+)
+"testInvMutual.ml" 28 394 409 "testInvMutual.ml" 28 394 411
+type(
+  'a list
+)
+"testInvMutual.ml" 29 415 421 "testInvMutual.ml" 29 415 428
+type(
+  Loach.formula
+)
+ident(
+  def formula "testInvMutual.ml" 31 597 599 "testInvMutual.ml" 31 597 623
+)
+"testInvMutual.ml" 29 415 432 "testInvMutual.ml" 29 415 437
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"testInvMutual.ml" 29 415 439 "testInvMutual.ml" 29 415 442
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"testInvMutual.ml" 29 415 444 "testInvMutual.ml" 29 415 447
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"testInvMutual.ml" 29 415 449 "testInvMutual.ml" 29 415 452
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"testInvMutual.ml" 29 415 455 "testInvMutual.ml" 29 415 460
+type(
+  string
+)
+"testInvMutual.ml" 29 415 463 "testInvMutual.ml" 29 415 471
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"testInvMutual.ml" 29 415 472 "testInvMutual.ml" 29 415 475
+type(
+  string
+)
+"testInvMutual.ml" 29 415 476 "testInvMutual.ml" 29 415 484
+type(
+  string
+)
+"testInvMutual.ml" 29 415 491 "testInvMutual.ml" 29 415 492
+type(
+  int
+)
+"testInvMutual.ml" 29 415 486 "testInvMutual.ml" 29 415 492
+type(
+  const
+)
+"testInvMutual.ml" 29 415 463 "testInvMutual.ml" 29 415 493
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"testInvMutual.ml" 29 415 462 "testInvMutual.ml" 29 415 494
+type(
+  paramref list
+)
+"testInvMutual.ml" 29 415 455 "testInvMutual.ml" 29 415 494
+type(
+  string * paramref list
+)
+"testInvMutual.ml" 29 415 454 "testInvMutual.ml" 29 415 495
+type(
+  (string * paramref list) list
+)
+"testInvMutual.ml" 29 415 453 "testInvMutual.ml" 29 415 496
+type(
+  (string * paramref list) list
+)
+"testInvMutual.ml" 29 415 449 "testInvMutual.ml" 29 415 496
+call(
+  stack
+)
+type(
+  var
+)
+"testInvMutual.ml" 29 415 444 "testInvMutual.ml" 29 415 497
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"testInvMutual.ml" 29 415 500 "testInvMutual.ml" 29 415 505
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"testInvMutual.ml" 29 415 506 "testInvMutual.ml" 29 415 508
+type(
+  const
+)
+ident(
+  int_ref _C "testInvMutual.ml" 13 146 150 "testInvMutual.ml" 13 146 152
+)
+"testInvMutual.ml" 29 415 500 "testInvMutual.ml" 29 415 508
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"testInvMutual.ml" 29 415 439 "testInvMutual.ml" 29 415 509
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"testInvMutual.ml" 30 512 515 "testInvMutual.ml" 30 512 518
+type(
+  Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.neg
+)
+"testInvMutual.ml" 30 512 520 "testInvMutual.ml" 30 512 523
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"testInvMutual.ml" 30 512 525 "testInvMutual.ml" 30 512 528
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"testInvMutual.ml" 30 512 530 "testInvMutual.ml" 30 512 533
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"testInvMutual.ml" 30 512 536 "testInvMutual.ml" 30 512 541
+type(
+  string
+)
+"testInvMutual.ml" 30 512 544 "testInvMutual.ml" 30 512 552
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"testInvMutual.ml" 30 512 553 "testInvMutual.ml" 30 512 556
+type(
+  string
+)
+"testInvMutual.ml" 30 512 557 "testInvMutual.ml" 30 512 565
+type(
+  string
+)
+"testInvMutual.ml" 30 512 572 "testInvMutual.ml" 30 512 573
+type(
+  int
+)
+"testInvMutual.ml" 30 512 567 "testInvMutual.ml" 30 512 573
+type(
+  const
+)
+"testInvMutual.ml" 30 512 544 "testInvMutual.ml" 30 512 574
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"testInvMutual.ml" 30 512 543 "testInvMutual.ml" 30 512 575
+type(
+  paramref list
+)
+"testInvMutual.ml" 30 512 536 "testInvMutual.ml" 30 512 575
+type(
+  string * paramref list
+)
+"testInvMutual.ml" 30 512 535 "testInvMutual.ml" 30 512 576
+type(
+  (string * paramref list) list
+)
+"testInvMutual.ml" 30 512 534 "testInvMutual.ml" 30 512 577
+type(
+  (string * paramref list) list
+)
+"testInvMutual.ml" 30 512 530 "testInvMutual.ml" 30 512 577
+call(
+  stack
+)
+type(
+  var
+)
+"testInvMutual.ml" 30 512 525 "testInvMutual.ml" 30 512 578
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"testInvMutual.ml" 30 512 581 "testInvMutual.ml" 30 512 586
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"testInvMutual.ml" 30 512 587 "testInvMutual.ml" 30 512 589
+type(
+  const
+)
+ident(
+  int_ref _C "testInvMutual.ml" 13 146 150 "testInvMutual.ml" 13 146 152
+)
+"testInvMutual.ml" 30 512 581 "testInvMutual.ml" 30 512 589
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"testInvMutual.ml" 30 512 520 "testInvMutual.ml" 30 512 590
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"testInvMutual.ml" 30 512 515 "testInvMutual.ml" 30 512 591
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"testInvMutual.ml" 29 415 432 "testInvMutual.ml" 30 512 592
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"testInvMutual.ml" 31 597 599 "testInvMutual.ml" 31 597 603
+type(
+  string -> paramdef list -> Loach.formula -> Loach.prop
+)
+ident(
+  ext_ref Loach.prop
+)
+"testInvMutual.ml" 31 597 604 "testInvMutual.ml" 31 597 608
+type(
+  string
+)
+ident(
+  int_ref name "testInvMutual.ml" 27 368 374 "testInvMutual.ml" 27 368 378
+)
+"testInvMutual.ml" 31 597 609 "testInvMutual.ml" 31 597 615
+type(
+  paramdef list
+)
+ident(
+  int_ref params "testInvMutual.ml" 28 394 400 "testInvMutual.ml" 28 394 406
+)
+"testInvMutual.ml" 31 597 616 "testInvMutual.ml" 31 597 623
+type(
+  Loach.formula
+)
+ident(
+  int_ref formula "testInvMutual.ml" 29 415 421 "testInvMutual.ml" 29 415 428
+)
+"testInvMutual.ml" 31 597 599 "testInvMutual.ml" 31 597 623
+call(
+  stack
+)
+type(
+  Loach.prop
+)
+"testInvMutual.ml" 29 415 417 "testInvMutual.ml" 31 597 623
+type(
+  Loach.prop
+)
+"testInvMutual.ml" 28 394 396 "testInvMutual.ml" 31 597 623
+type(
+  Loach.prop
+)
+"testInvMutual.ml" 27 368 370 "testInvMutual.ml" 31 597 623
+type(
+  Loach.prop
+)
+"testInvMutual.ml" 40 900 904 "testInvMutual.ml" 40 900 914
+type(
+  Loach.prop list
+)
+ident(
+  def properties "testInvMutual.ml" 43 933 933 "testInvMutual.ml" 1 0 -1
+)
+"testInvMutual.ml" 40 900 920 "testInvMutual.ml" 40 900 927
+type(
+  Loach.prop
+)
+ident(
+  int_ref n_test1 "testInvMutual.ml" 26 354 358 "testInvMutual.ml" 26 354 365
+)
+type(
+  Loach.prop list
+)
+"testInvMutual.ml" 40 900 917 "testInvMutual.ml" 40 900 928
+type(
+  Loach.prop list
+)
+"testInvMutual.ml" 43 933 937 "testInvMutual.ml" 43 933 941
+type(
+  unit -> unit
+)
+ident(
+  def prog "testInvMutual.ml" 51 1216 1216 "testInvMutual.ml" 1 0 -1
+)
+"testInvMutual.ml" 43 933 942 "testInvMutual.ml" 43 933 944
+type(
+  unit
+)
+"testInvMutual.ml" 44 947 952 "testInvMutual.ml" 44 947 961
+type(
+  string
+)
+ident(
+  def localhost "testInvMutual.ml" 45 980 982 "testInvMutual.ml" 49 1208 1212
+)
+"testInvMutual.ml" 44 947 962 "testInvMutual.ml" 44 947 976
+type(
+  string
+)
+"testInvMutual.ml" 45 980 986 "testInvMutual.ml" 45 980 987
+type(
+  unit
+)
+ident(
+  def a "testInvMutual.ml" 48 1159 1161 "testInvMutual.ml" 49 1208 1212
+)
+"testInvMutual.ml" 45 980 988 "testInvMutual.ml" 45 980 1008
+type(
+  ?smv_escape:(string -> string) ->
+  ?smv:string ->
+  ?smv_ord:string ->
+  ?murphi:string -> string -> string -> string -> string -> unit
+)
+ident(
+  ext_ref CheckInv.CheckInv.startServer
+)
+"testInvMutual.ml" 45 980 1018 "testInvMutual.ml" 45 980 1037
+type(
+  string -> string
+)
+ident(
+  ext_ref Core.Std.In_channel.read_all
+)
+"testInvMutual.ml" 45 980 1038 "testInvMutual.ml" 45 980 1052
+type(
+  string
+)
+"testInvMutual.ml" 45 980 1018 "testInvMutual.ml" 45 980 1052
+call(
+  stack
+)
+type(
+  string
+)
+"testInvMutual.ml" 46 1054 1064 "testInvMutual.ml" 46 1054 1083
+type(
+  string -> string
+)
+ident(
+  ext_ref Core.Std.In_channel.read_all
+)
+"testInvMutual.ml" 46 1054 1084 "testInvMutual.ml" 46 1054 1098
+type(
+  string
+)
+"testInvMutual.ml" 46 1054 1064 "testInvMutual.ml" 46 1054 1098
+call(
+  stack
+)
+type(
+  string
+)
+"testInvMutual.ml" 46 1054 1100 "testInvMutual.ml" 46 1054 1114
+type(
+  string
+)
+"testInvMutual.ml" 46 1054 1116 "testInvMutual.ml" 46 1054 1130
+type(
+  string
+)
+"testInvMutual.ml" 47 1132 1136 "testInvMutual.ml" 47 1132 1145
+type(
+  string
+)
+ident(
+  int_ref localhost "testInvMutual.ml" 44 947 952 "testInvMutual.ml" 44 947 961
+)
+"testInvMutual.ml" 47 1132 1146 "testInvMutual.ml" 47 1132 1155
+type(
+  string
+)
+ident(
+  int_ref localhost "testInvMutual.ml" 44 947 952 "testInvMutual.ml" 44 947 961
+)
+"testInvMutual.ml" 45 980 988 "testInvMutual.ml" 47 1132 1155
+call(
+  stack
+)
+type(
+  unit
+)
+"testInvMutual.ml" 48 1159 1165 "testInvMutual.ml" 48 1159 1166
+type(
+  Loach.prop list
+)
+ident(
+  def b "testInvMutual.ml" 49 1208 1210 "testInvMutual.ml" 49 1208 1212
+)
+"testInvMutual.ml" 48 1159 1167 "testInvMutual.ml" 48 1159 1186
+type(
+  typedef list -> Loach.prop list -> Loach.prop list
+)
+ident(
+  ext_ref CheckInv.CheckInv.checkProps
+)
+"testInvMutual.ml" 48 1159 1187 "testInvMutual.ml" 48 1159 1192
+type(
+  typedef list
+)
+ident(
+  int_ref types "testInvMutual.ml" 18 231 235 "testInvMutual.ml" 18 231 240
+)
+"testInvMutual.ml" 48 1159 1194 "testInvMutual.ml" 48 1159 1204
+type(
+  Loach.prop list
+)
+ident(
+  int_ref properties "testInvMutual.ml" 40 900 904 "testInvMutual.ml" 40 900 914
+)
+"testInvMutual.ml" 48 1159 1167 "testInvMutual.ml" 48 1159 1204
+call(
+  stack
+)
+type(
+  Loach.prop list
+)
+"testInvMutual.ml" 49 1208 1210 "testInvMutual.ml" 49 1208 1212
+type(
+  unit
+)
+"testInvMutual.ml" 48 1159 1161 "testInvMutual.ml" 49 1208 1212
+type(
+  unit
+)
+"testInvMutual.ml" 45 980 982 "testInvMutual.ml" 49 1208 1212
+type(
+  unit
+)
+"testInvMutual.ml" 44 947 948 "testInvMutual.ml" 49 1208 1212
+type(
+  unit
+)
+"testInvMutual.ml" 43 933 942 "testInvMutual.ml" 49 1208 1212
+type(
+  unit -> unit
+)
+"testInvMutual.ml" 51 1216 1220 "testInvMutual.ml" 51 1216 1222
+type(
+  unit
+)
+"testInvMutual.ml" 51 1216 1224 "testInvMutual.ml" 51 1216 1240
+type(
+  (unit -> unit) -> unit
+)
+ident(
+  ext_ref Cmdline.run_with_cmdline
+)
+"testInvMutual.ml" 51 1216 1242 "testInvMutual.ml" 51 1216 1246
+type(
+  unit -> unit
+)
+ident(
+  int_ref prog "testInvMutual.ml" 43 933 937 "testInvMutual.ml" 43 933 941
+)
+"testInvMutual.ml" 51 1216 1224 "testInvMutual.ml" 51 1216 1246
+call(
+  stack
+)
+type(
+  unit
+)

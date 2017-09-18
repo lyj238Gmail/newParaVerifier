@@ -945,6 +945,100 @@ module PartParam = struct
 
 end
 
+module CMP = struct
+
+	let relate inv r ~types=
+		let Rule(name,paramdefs,g, act)=r in		
+		let Imply(ant,cons)=inv in
+		let ant=Trans.trans_formula ~types ant in
+		let g=Trans.trans_formula ~types g in
+		Formula.can_imply ant g
+
+(*let vardefs = List.concat [
+  [arrdef [("n", [paramdef "i0" "client"])] "state"];
+  [arrdef [("x", [])] "boolean"]
+]
+ 
+  let params = [paramdef "i" "client"] in
+  let formula = (eqn (var (arr [("n", [paramref "i"])])) (const _I)) in
+  let statement = (assign (arr [("n", [paramref "i"])]) (const _T)) in
+*)
+
+(*limitation! now we only deal one-arity like a[1], a[2],
+notice the formal def of paramRef above,
+Index i is on a[i]  List.fold ~init:true ~f:(fun res x -> res && x)
+*)
+let effectOnVar index var=		
+		match var with
+		|Arr([(name,[paramRef1])])->
+			match paramRef1 with 
+			|Paramfix(pname,vname, Intc(index'))->index=index'
+			|_->false
+		|_->false
+		
+			
+let rec effectOnStatement index statement= 
+	match statement with
+	|Assign(var,value) -> effectOnVar index var 
+	|Parallel(statementList) -> 
+		List.fold  (List.map ~f:(effectOnStatement index) statementList) 
+		 ~f:(fun x y -> x || y) ~init:false
+	|IfStatement(bcond,statement) ->
+		effectOnStatement index statement
+	|IfelseStatement(b,s1,s2) ->
+	 (effectOnStatement index s1) || (effectOnStatement index s2)
+	|ForStatement(s,parmDefs) ->false
+		(*regularForStatement(s)*)
+		
+		
+(*(forallFormula [paramdef "j" "NODE"] (eqn (var (arr [("ShrSet", [paramref "j"])])) (const (boolc false))))])*)	
+(*let drawConclusion index invaraint  nodesTypeStr=
+	let Imply(ant,cons)=invaraint in
+	match cons with
+	|Eqn(Var(var),value)	-> 
+		match var with
+		|Arr([(name,[paramRef1])])->
+			match paramRef1 with 
+			|Paramfix(pname,vname, Intc(index'))->
+				if (index=index') then []
+				else 
+					let iIndexStr=? in
+					let paramDefs=[paramdef iIndexStr nodesTypeStr] in
+					[ForallFormula(sub?(f,index',iIndex'), paramDefs)]
+			|_->false
+		|_->false
+		if (effectOnVar index var) then []
+		else 
+			[cons]
+	|Neg( Eqn(Var(var),value))	-> 
+		if (effectOnVar index var) then []
+		else [cons]
+	
+let drawConclusion invs =
+	List.map ~f:drawConclusion invs *)
+
+(*The form of rule and invariant is the key!
+invs=[..., inv,...], where inv is concrete, e.g., inv= n[other]=c--> x=false, where usually other is a constant 3;
+r may be mixed with parameterized vars and concrete constant other, but also can be 0-parameterized *)
+(*let cmpRefine invs r ~types index=
+	let doAffect= effectOn r index in
+	if doAffect then None
+	else 
+		let invs=List.map ~f(relate ~rule:r ~types: types) invs in
+		let conclusions=List.concat (drawConclusions invs)  in
+		let Rule(name,paramdefs,g, act)=r  in	
+		let AndList(gs)=g in
+		let g=andList (gs@conclusions) in
+		let action=rightSubByInvs act index invs in
+		let newR=Rule(name,paramdefs,g, action) in
+		Some(	newR)
+*)				
+		
+		
+end		
+		
+		
+
 
 
 

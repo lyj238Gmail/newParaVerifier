@@ -1,0 +1,6186 @@
+"mutualExTest.ml" 11 96 100 "mutualExTest.ml" 11 96 102
+type(
+  const
+)
+ident(
+  def _I "mutualExTest.ml" 12 114 114 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 11 96 105 "mutualExTest.ml" 11 96 109
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"mutualExTest.ml" 11 96 110 "mutualExTest.ml" 11 96 113
+type(
+  string
+)
+"mutualExTest.ml" 11 96 105 "mutualExTest.ml" 11 96 113
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 12 114 118 "mutualExTest.ml" 12 114 120
+type(
+  const
+)
+ident(
+  def _T "mutualExTest.ml" 13 132 132 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 12 114 123 "mutualExTest.ml" 12 114 127
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"mutualExTest.ml" 12 114 128 "mutualExTest.ml" 12 114 131
+type(
+  string
+)
+"mutualExTest.ml" 12 114 123 "mutualExTest.ml" 12 114 131
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 13 132 136 "mutualExTest.ml" 13 132 138
+type(
+  const
+)
+ident(
+  def _C "mutualExTest.ml" 14 150 150 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 13 132 141 "mutualExTest.ml" 13 132 145
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"mutualExTest.ml" 13 132 146 "mutualExTest.ml" 13 132 149
+type(
+  string
+)
+"mutualExTest.ml" 13 132 141 "mutualExTest.ml" 13 132 149
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 14 150 154 "mutualExTest.ml" 14 150 156
+type(
+  const
+)
+ident(
+  def _E "mutualExTest.ml" 15 168 168 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 14 150 159 "mutualExTest.ml" 14 150 163
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"mutualExTest.ml" 14 150 164 "mutualExTest.ml" 14 150 167
+type(
+  string
+)
+"mutualExTest.ml" 14 150 159 "mutualExTest.ml" 14 150 167
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 15 168 172 "mutualExTest.ml" 15 168 177
+type(
+  const
+)
+ident(
+  def _True "mutualExTest.ml" 16 191 191 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 15 168 180 "mutualExTest.ml" 15 168 185
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"mutualExTest.ml" 15 168 186 "mutualExTest.ml" 15 168 190
+type(
+  bool
+)
+"mutualExTest.ml" 15 168 180 "mutualExTest.ml" 15 168 190
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 16 191 195 "mutualExTest.ml" 16 191 201
+type(
+  const
+)
+ident(
+  def _False "mutualExTest.ml" 18 217 217 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 16 191 204 "mutualExTest.ml" 16 191 209
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"mutualExTest.ml" 16 191 210 "mutualExTest.ml" 16 191 215
+type(
+  bool
+)
+"mutualExTest.ml" 16 191 204 "mutualExTest.ml" 16 191 215
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 18 217 221 "mutualExTest.ml" 18 217 226
+type(
+  typedef list
+)
+ident(
+  def types "mutualExTest.ml" 26 342 342 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 19 231 233 "mutualExTest.ml" 19 231 237
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"mutualExTest.ml" 19 231 238 "mutualExTest.ml" 19 231 245
+type(
+  string
+)
+"mutualExTest.ml" 19 231 247 "mutualExTest.ml" 19 231 249
+type(
+  const
+)
+ident(
+  int_ref _I "mutualExTest.ml" 11 96 100 "mutualExTest.ml" 11 96 102
+)
+"mutualExTest.ml" 19 231 251 "mutualExTest.ml" 19 231 253
+type(
+  const
+)
+ident(
+  int_ref _T "mutualExTest.ml" 12 114 118 "mutualExTest.ml" 12 114 120
+)
+"mutualExTest.ml" 19 231 255 "mutualExTest.ml" 19 231 257
+type(
+  const
+)
+ident(
+  int_ref _C "mutualExTest.ml" 13 132 136 "mutualExTest.ml" 13 132 138
+)
+"mutualExTest.ml" 19 231 259 "mutualExTest.ml" 19 231 261
+type(
+  const
+)
+ident(
+  int_ref _E "mutualExTest.ml" 14 150 154 "mutualExTest.ml" 14 150 156
+)
+type(
+  const list
+)
+"mutualExTest.ml" 19 231 255 "mutualExTest.ml" 19 231 261
+type(
+  const list
+)
+"mutualExTest.ml" 19 231 251 "mutualExTest.ml" 19 231 261
+type(
+  const list
+)
+"mutualExTest.ml" 19 231 247 "mutualExTest.ml" 19 231 261
+type(
+  const list
+)
+"mutualExTest.ml" 19 231 246 "mutualExTest.ml" 19 231 262
+type(
+  const list
+)
+"mutualExTest.ml" 19 231 233 "mutualExTest.ml" 19 231 262
+call(
+  stack
+)
+type(
+  typedef
+)
+"mutualExTest.ml" 20 264 266 "mutualExTest.ml" 20 264 270
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"mutualExTest.ml" 20 264 271 "mutualExTest.ml" 20 264 279
+type(
+  string
+)
+"mutualExTest.ml" 20 264 281 "mutualExTest.ml" 20 264 291
+type(
+  int list -> const list
+)
+ident(
+  ext_ref Paramecium.int_consts
+)
+"mutualExTest.ml" 20 264 293 "mutualExTest.ml" 20 264 294
+type(
+  int
+)
+"mutualExTest.ml" 20 264 296 "mutualExTest.ml" 20 264 297
+type(
+  int
+)
+"mutualExTest.ml" 20 264 298 "mutualExTest.ml" 20 264 299
+type(
+  int
+)
+type(
+  int list
+)
+"mutualExTest.ml" 20 264 296 "mutualExTest.ml" 20 264 299
+type(
+  int list
+)
+"mutualExTest.ml" 20 264 293 "mutualExTest.ml" 20 264 299
+type(
+  int list
+)
+"mutualExTest.ml" 20 264 292 "mutualExTest.ml" 20 264 300
+type(
+  int list
+)
+"mutualExTest.ml" 20 264 281 "mutualExTest.ml" 20 264 300
+call(
+  stack
+)
+type(
+  const list
+)
+"mutualExTest.ml" 20 264 266 "mutualExTest.ml" 20 264 301
+call(
+  stack
+)
+type(
+  typedef
+)
+"mutualExTest.ml" 21 303 305 "mutualExTest.ml" 21 303 309
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"mutualExTest.ml" 21 303 310 "mutualExTest.ml" 21 303 319
+type(
+  string
+)
+"mutualExTest.ml" 21 303 321 "mutualExTest.ml" 21 303 326
+type(
+  const
+)
+ident(
+  int_ref _True "mutualExTest.ml" 15 168 172 "mutualExTest.ml" 15 168 177
+)
+"mutualExTest.ml" 21 303 328 "mutualExTest.ml" 21 303 334
+type(
+  const
+)
+ident(
+  int_ref _False "mutualExTest.ml" 16 191 195 "mutualExTest.ml" 16 191 201
+)
+type(
+  const list
+)
+"mutualExTest.ml" 21 303 321 "mutualExTest.ml" 21 303 334
+type(
+  const list
+)
+"mutualExTest.ml" 21 303 320 "mutualExTest.ml" 21 303 335
+type(
+  const list
+)
+"mutualExTest.ml" 21 303 305 "mutualExTest.ml" 21 303 335
+call(
+  stack
+)
+type(
+  typedef
+)
+"mutualExTest.ml" 21 303 305 "mutualExTest.ml" 21 303 336
+type(
+  typedef list
+)
+"mutualExTest.ml" 20 264 266 "mutualExTest.ml" 21 303 336
+type(
+  typedef list
+)
+"mutualExTest.ml" 19 231 233 "mutualExTest.ml" 21 303 336
+type(
+  typedef list
+)
+"mutualExTest.ml" 18 217 229 "mutualExTest.ml" 22 337 338
+type(
+  typedef list
+)
+"mutualExTest.ml" 26 342 346 "mutualExTest.ml" 26 342 353
+type(
+  vardef list
+)
+ident(
+  def vardefs "mutualExTest.ml" 31 460 460 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 26 342 356 "mutualExTest.ml" 26 342 367
+type(
+  vardef list list -> vardef list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"mutualExTest.ml" 27 370 373 "mutualExTest.ml" 27 370 379
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"mutualExTest.ml" 27 370 382 "mutualExTest.ml" 27 370 385
+type(
+  string
+)
+"mutualExTest.ml" 27 370 388 "mutualExTest.ml" 27 370 396
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"mutualExTest.ml" 27 370 397 "mutualExTest.ml" 27 370 401
+type(
+  string
+)
+"mutualExTest.ml" 27 370 402 "mutualExTest.ml" 27 370 410
+type(
+  string
+)
+"mutualExTest.ml" 27 370 388 "mutualExTest.ml" 27 370 410
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"mutualExTest.ml" 27 370 387 "mutualExTest.ml" 27 370 411
+type(
+  paramdef list
+)
+"mutualExTest.ml" 27 370 382 "mutualExTest.ml" 27 370 411
+type(
+  string * paramdef list
+)
+"mutualExTest.ml" 27 370 381 "mutualExTest.ml" 27 370 412
+type(
+  (string * paramdef list) list
+)
+"mutualExTest.ml" 27 370 380 "mutualExTest.ml" 27 370 413
+type(
+  (string * paramdef list) list
+)
+"mutualExTest.ml" 27 370 414 "mutualExTest.ml" 27 370 421
+type(
+  string
+)
+"mutualExTest.ml" 27 370 373 "mutualExTest.ml" 27 370 421
+call(
+  stack
+)
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"mutualExTest.ml" 27 370 372 "mutualExTest.ml" 27 370 422
+type(
+  vardef list
+)
+"mutualExTest.ml" 28 424 427 "mutualExTest.ml" 28 424 433
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"mutualExTest.ml" 28 424 436 "mutualExTest.ml" 28 424 439
+type(
+  string
+)
+"mutualExTest.ml" 28 424 441 "mutualExTest.ml" 28 424 443
+type(
+  paramdef list
+)
+"mutualExTest.ml" 28 424 436 "mutualExTest.ml" 28 424 443
+type(
+  string * paramdef list
+)
+"mutualExTest.ml" 28 424 435 "mutualExTest.ml" 28 424 444
+type(
+  (string * paramdef list) list
+)
+"mutualExTest.ml" 28 424 434 "mutualExTest.ml" 28 424 445
+type(
+  (string * paramdef list) list
+)
+"mutualExTest.ml" 28 424 446 "mutualExTest.ml" 28 424 455
+type(
+  string
+)
+"mutualExTest.ml" 28 424 427 "mutualExTest.ml" 28 424 455
+call(
+  stack
+)
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"mutualExTest.ml" 28 424 426 "mutualExTest.ml" 28 424 456
+type(
+  vardef list
+)
+type(
+  vardef list list
+)
+"mutualExTest.ml" 27 370 372 "mutualExTest.ml" 28 424 456
+type(
+  vardef list list
+)
+"mutualExTest.ml" 26 342 368 "mutualExTest.ml" 29 457 458
+type(
+  vardef list list
+)
+"mutualExTest.ml" 26 342 356 "mutualExTest.ml" 29 457 458
+call(
+  stack
+)
+type(
+  vardef list
+)
+"mutualExTest.ml" 31 460 464 "mutualExTest.ml" 31 460 468
+type(
+  Loach.statement
+)
+ident(
+  def init "mutualExTest.ml" 34 619 619 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 31 460 472 "mutualExTest.ml" 31 460 480
+type(
+  Loach.statement list -> Loach.statement
+)
+ident(
+  ext_ref Loach.parallel
+)
+"mutualExTest.ml" 31 460 483 "mutualExTest.ml" 31 460 495
+type(
+  Loach.statement -> paramdef list -> Loach.statement
+)
+ident(
+  ext_ref Loach.forStatement
+)
+"mutualExTest.ml" 31 460 497 "mutualExTest.ml" 31 460 503
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"mutualExTest.ml" 31 460 505 "mutualExTest.ml" 31 460 508
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 31 460 511 "mutualExTest.ml" 31 460 514
+type(
+  string
+)
+"mutualExTest.ml" 31 460 517 "mutualExTest.ml" 31 460 525
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTest.ml" 31 460 526 "mutualExTest.ml" 31 460 529
+type(
+  string
+)
+"mutualExTest.ml" 31 460 517 "mutualExTest.ml" 31 460 529
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 31 460 516 "mutualExTest.ml" 31 460 530
+type(
+  paramref list
+)
+"mutualExTest.ml" 31 460 511 "mutualExTest.ml" 31 460 530
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 31 460 510 "mutualExTest.ml" 31 460 531
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 31 460 509 "mutualExTest.ml" 31 460 532
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 31 460 505 "mutualExTest.ml" 31 460 532
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 31 460 535 "mutualExTest.ml" 31 460 540
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 31 460 541 "mutualExTest.ml" 31 460 543
+type(
+  const
+)
+ident(
+  int_ref _I "mutualExTest.ml" 11 96 100 "mutualExTest.ml" 11 96 102
+)
+"mutualExTest.ml" 31 460 535 "mutualExTest.ml" 31 460 543
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 31 460 497 "mutualExTest.ml" 31 460 544
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"mutualExTest.ml" 31 460 547 "mutualExTest.ml" 31 460 555
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"mutualExTest.ml" 31 460 556 "mutualExTest.ml" 31 460 559
+type(
+  string
+)
+"mutualExTest.ml" 31 460 560 "mutualExTest.ml" 31 460 568
+type(
+  string
+)
+"mutualExTest.ml" 31 460 547 "mutualExTest.ml" 31 460 568
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"mutualExTest.ml" 31 460 546 "mutualExTest.ml" 31 460 569
+type(
+  paramdef list
+)
+"mutualExTest.ml" 31 460 483 "mutualExTest.ml" 31 460 569
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"mutualExTest.ml" 31 460 573 "mutualExTest.ml" 31 460 579
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"mutualExTest.ml" 31 460 581 "mutualExTest.ml" 31 460 587
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"mutualExTest.ml" 31 460 588 "mutualExTest.ml" 31 460 591
+type(
+  string
+)
+"mutualExTest.ml" 31 460 581 "mutualExTest.ml" 31 460 591
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 31 460 594 "mutualExTest.ml" 31 460 599
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 31 460 601 "mutualExTest.ml" 31 460 606
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"mutualExTest.ml" 31 460 607 "mutualExTest.ml" 31 460 611
+type(
+  bool
+)
+"mutualExTest.ml" 31 460 601 "mutualExTest.ml" 31 460 611
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 31 460 594 "mutualExTest.ml" 31 460 612
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 31 460 573 "mutualExTest.ml" 31 460 613
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"mutualExTest.ml" 31 460 572 "mutualExTest.ml" 31 460 614
+type(
+  Loach.statement list
+)
+"mutualExTest.ml" 31 460 482 "mutualExTest.ml" 31 460 614
+type(
+  Loach.statement list
+)
+"mutualExTest.ml" 31 460 481 "mutualExTest.ml" 31 460 615
+type(
+  Loach.statement list
+)
+"mutualExTest.ml" 31 460 472 "mutualExTest.ml" 31 460 615
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"mutualExTest.ml" 34 619 623 "mutualExTest.ml" 34 619 628
+type(
+  Loach.rule
+)
+ident(
+  def n_Try "mutualExTest.ml" 41 878 878 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 35 631 637 "mutualExTest.ml" 35 631 641
+type(
+  string
+)
+ident(
+  def name "mutualExTest.ml" 36 655 657 "mutualExTest.ml" 39 840 876
+)
+"mutualExTest.ml" 35 631 644 "mutualExTest.ml" 35 631 651
+type(
+  string
+)
+"mutualExTest.ml" 36 655 661 "mutualExTest.ml" 36 655 667
+type(
+  paramdef list
+)
+ident(
+  def params "mutualExTest.ml" 37 697 699 "mutualExTest.ml" 39 840 876
+)
+"mutualExTest.ml" 36 655 671 "mutualExTest.ml" 36 655 679
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"mutualExTest.ml" 36 655 680 "mutualExTest.ml" 36 655 683
+type(
+  string
+)
+"mutualExTest.ml" 36 655 684 "mutualExTest.ml" 36 655 692
+type(
+  string
+)
+"mutualExTest.ml" 36 655 671 "mutualExTest.ml" 36 655 692
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"mutualExTest.ml" 36 655 670 "mutualExTest.ml" 36 655 693
+type(
+  paramdef list
+)
+"mutualExTest.ml" 37 697 703 "mutualExTest.ml" 37 697 710
+type(
+  Loach.formula
+)
+ident(
+  def formula "mutualExTest.ml" 38 769 771 "mutualExTest.ml" 39 840 876
+)
+"mutualExTest.ml" 37 697 714 "mutualExTest.ml" 37 697 717
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTest.ml" 37 697 719 "mutualExTest.ml" 37 697 722
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"mutualExTest.ml" 37 697 724 "mutualExTest.ml" 37 697 727
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 37 697 730 "mutualExTest.ml" 37 697 733
+type(
+  string
+)
+"mutualExTest.ml" 37 697 736 "mutualExTest.ml" 37 697 744
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTest.ml" 37 697 745 "mutualExTest.ml" 37 697 748
+type(
+  string
+)
+"mutualExTest.ml" 37 697 736 "mutualExTest.ml" 37 697 748
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 37 697 735 "mutualExTest.ml" 37 697 749
+type(
+  paramref list
+)
+"mutualExTest.ml" 37 697 730 "mutualExTest.ml" 37 697 749
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 37 697 729 "mutualExTest.ml" 37 697 750
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 37 697 728 "mutualExTest.ml" 37 697 751
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 37 697 724 "mutualExTest.ml" 37 697 751
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 37 697 719 "mutualExTest.ml" 37 697 752
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 37 697 755 "mutualExTest.ml" 37 697 760
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 37 697 761 "mutualExTest.ml" 37 697 763
+type(
+  const
+)
+ident(
+  int_ref _I "mutualExTest.ml" 11 96 100 "mutualExTest.ml" 11 96 102
+)
+"mutualExTest.ml" 37 697 755 "mutualExTest.ml" 37 697 763
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 37 697 714 "mutualExTest.ml" 37 697 764
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 38 769 775 "mutualExTest.ml" 38 769 784
+type(
+  Loach.statement
+)
+ident(
+  def statement "mutualExTest.ml" 39 840 842 "mutualExTest.ml" 39 840 876
+)
+"mutualExTest.ml" 38 769 788 "mutualExTest.ml" 38 769 794
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"mutualExTest.ml" 38 769 796 "mutualExTest.ml" 38 769 799
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 38 769 802 "mutualExTest.ml" 38 769 805
+type(
+  string
+)
+"mutualExTest.ml" 38 769 808 "mutualExTest.ml" 38 769 816
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTest.ml" 38 769 817 "mutualExTest.ml" 38 769 820
+type(
+  string
+)
+"mutualExTest.ml" 38 769 808 "mutualExTest.ml" 38 769 820
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 38 769 807 "mutualExTest.ml" 38 769 821
+type(
+  paramref list
+)
+"mutualExTest.ml" 38 769 802 "mutualExTest.ml" 38 769 821
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 38 769 801 "mutualExTest.ml" 38 769 822
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 38 769 800 "mutualExTest.ml" 38 769 823
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 38 769 796 "mutualExTest.ml" 38 769 823
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 38 769 826 "mutualExTest.ml" 38 769 831
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 38 769 832 "mutualExTest.ml" 38 769 834
+type(
+  const
+)
+ident(
+  int_ref _T "mutualExTest.ml" 12 114 118 "mutualExTest.ml" 12 114 120
+)
+"mutualExTest.ml" 38 769 826 "mutualExTest.ml" 38 769 834
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 38 769 788 "mutualExTest.ml" 38 769 835
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"mutualExTest.ml" 39 840 842 "mutualExTest.ml" 39 840 846
+type(
+  string -> paramdef list -> Loach.formula -> Loach.statement -> Loach.rule
+)
+ident(
+  ext_ref Loach.rule
+)
+"mutualExTest.ml" 39 840 847 "mutualExTest.ml" 39 840 851
+type(
+  string
+)
+ident(
+  int_ref name "mutualExTest.ml" 35 631 637 "mutualExTest.ml" 35 631 641
+)
+"mutualExTest.ml" 39 840 852 "mutualExTest.ml" 39 840 858
+type(
+  paramdef list
+)
+ident(
+  int_ref params "mutualExTest.ml" 36 655 661 "mutualExTest.ml" 36 655 667
+)
+"mutualExTest.ml" 39 840 859 "mutualExTest.ml" 39 840 866
+type(
+  Loach.formula
+)
+ident(
+  int_ref formula "mutualExTest.ml" 37 697 703 "mutualExTest.ml" 37 697 710
+)
+"mutualExTest.ml" 39 840 867 "mutualExTest.ml" 39 840 876
+type(
+  Loach.statement
+)
+ident(
+  int_ref statement "mutualExTest.ml" 38 769 775 "mutualExTest.ml" 38 769 784
+)
+"mutualExTest.ml" 39 840 842 "mutualExTest.ml" 39 840 876
+call(
+  stack
+)
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 38 769 771 "mutualExTest.ml" 39 840 876
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 37 697 699 "mutualExTest.ml" 39 840 876
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 36 655 657 "mutualExTest.ml" 39 840 876
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 35 631 633 "mutualExTest.ml" 39 840 876
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 41 878 882 "mutualExTest.ml" 41 878 888
+type(
+  Loach.rule
+)
+ident(
+  def n_Crit "mutualExTest.ml" 48 1256 1256 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 42 891 897 "mutualExTest.ml" 42 891 901
+type(
+  string
+)
+ident(
+  def name "mutualExTest.ml" 43 916 918 "mutualExTest.ml" 46 1218 1254
+)
+"mutualExTest.ml" 42 891 904 "mutualExTest.ml" 42 891 912
+type(
+  string
+)
+"mutualExTest.ml" 43 916 922 "mutualExTest.ml" 43 916 928
+type(
+  paramdef list
+)
+ident(
+  def params "mutualExTest.ml" 44 958 960 "mutualExTest.ml" 46 1218 1254
+)
+"mutualExTest.ml" 43 916 932 "mutualExTest.ml" 43 916 940
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"mutualExTest.ml" 43 916 941 "mutualExTest.ml" 43 916 944
+type(
+  string
+)
+"mutualExTest.ml" 43 916 945 "mutualExTest.ml" 43 916 953
+type(
+  string
+)
+"mutualExTest.ml" 43 916 932 "mutualExTest.ml" 43 916 953
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"mutualExTest.ml" 43 916 931 "mutualExTest.ml" 43 916 954
+type(
+  paramdef list
+)
+"mutualExTest.ml" 44 958 964 "mutualExTest.ml" 44 958 971
+type(
+  Loach.formula
+)
+ident(
+  def formula "mutualExTest.ml" 45 1089 1091 "mutualExTest.ml" 46 1218 1254
+)
+"mutualExTest.ml" 44 958 975 "mutualExTest.ml" 44 958 982
+type(
+  Loach.formula list -> Loach.formula
+)
+ident(
+  ext_ref Loach.andList
+)
+"mutualExTest.ml" 44 958 985 "mutualExTest.ml" 44 958 988
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTest.ml" 44 958 990 "mutualExTest.ml" 44 958 993
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"mutualExTest.ml" 44 958 995 "mutualExTest.ml" 44 958 998
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 44 958 1001 "mutualExTest.ml" 44 958 1004
+type(
+  string
+)
+"mutualExTest.ml" 44 958 1007 "mutualExTest.ml" 44 958 1015
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTest.ml" 44 958 1016 "mutualExTest.ml" 44 958 1019
+type(
+  string
+)
+"mutualExTest.ml" 44 958 1007 "mutualExTest.ml" 44 958 1019
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 44 958 1006 "mutualExTest.ml" 44 958 1020
+type(
+  paramref list
+)
+"mutualExTest.ml" 44 958 1001 "mutualExTest.ml" 44 958 1020
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 44 958 1000 "mutualExTest.ml" 44 958 1021
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 44 958 999 "mutualExTest.ml" 44 958 1022
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 44 958 995 "mutualExTest.ml" 44 958 1022
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 44 958 990 "mutualExTest.ml" 44 958 1023
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 44 958 1026 "mutualExTest.ml" 44 958 1031
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 44 958 1032 "mutualExTest.ml" 44 958 1034
+type(
+  const
+)
+ident(
+  int_ref _T "mutualExTest.ml" 12 114 118 "mutualExTest.ml" 12 114 120
+)
+"mutualExTest.ml" 44 958 1026 "mutualExTest.ml" 44 958 1034
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 44 958 985 "mutualExTest.ml" 44 958 1035
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 44 958 1039 "mutualExTest.ml" 44 958 1042
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTest.ml" 44 958 1044 "mutualExTest.ml" 44 958 1047
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"mutualExTest.ml" 44 958 1049 "mutualExTest.ml" 44 958 1055
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"mutualExTest.ml" 44 958 1056 "mutualExTest.ml" 44 958 1059
+type(
+  string
+)
+"mutualExTest.ml" 44 958 1049 "mutualExTest.ml" 44 958 1059
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 44 958 1044 "mutualExTest.ml" 44 958 1060
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 44 958 1063 "mutualExTest.ml" 44 958 1068
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 44 958 1070 "mutualExTest.ml" 44 958 1075
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"mutualExTest.ml" 44 958 1076 "mutualExTest.ml" 44 958 1080
+type(
+  bool
+)
+"mutualExTest.ml" 44 958 1070 "mutualExTest.ml" 44 958 1080
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 44 958 1063 "mutualExTest.ml" 44 958 1081
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 44 958 1039 "mutualExTest.ml" 44 958 1082
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 44 958 1038 "mutualExTest.ml" 44 958 1083
+type(
+  Loach.formula list
+)
+"mutualExTest.ml" 44 958 984 "mutualExTest.ml" 44 958 1083
+type(
+  Loach.formula list
+)
+"mutualExTest.ml" 44 958 983 "mutualExTest.ml" 44 958 1084
+type(
+  Loach.formula list
+)
+"mutualExTest.ml" 44 958 975 "mutualExTest.ml" 44 958 1084
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 45 1089 1095 "mutualExTest.ml" 45 1089 1104
+type(
+  Loach.statement
+)
+ident(
+  def statement "mutualExTest.ml" 46 1218 1220 "mutualExTest.ml" 46 1218 1254
+)
+"mutualExTest.ml" 45 1089 1108 "mutualExTest.ml" 45 1089 1116
+type(
+  Loach.statement list -> Loach.statement
+)
+ident(
+  ext_ref Loach.parallel
+)
+"mutualExTest.ml" 45 1089 1119 "mutualExTest.ml" 45 1089 1125
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"mutualExTest.ml" 45 1089 1127 "mutualExTest.ml" 45 1089 1130
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 45 1089 1133 "mutualExTest.ml" 45 1089 1136
+type(
+  string
+)
+"mutualExTest.ml" 45 1089 1139 "mutualExTest.ml" 45 1089 1147
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTest.ml" 45 1089 1148 "mutualExTest.ml" 45 1089 1151
+type(
+  string
+)
+"mutualExTest.ml" 45 1089 1139 "mutualExTest.ml" 45 1089 1151
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 45 1089 1138 "mutualExTest.ml" 45 1089 1152
+type(
+  paramref list
+)
+"mutualExTest.ml" 45 1089 1133 "mutualExTest.ml" 45 1089 1152
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 45 1089 1132 "mutualExTest.ml" 45 1089 1153
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 45 1089 1131 "mutualExTest.ml" 45 1089 1154
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 45 1089 1127 "mutualExTest.ml" 45 1089 1154
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 45 1089 1157 "mutualExTest.ml" 45 1089 1162
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 45 1089 1163 "mutualExTest.ml" 45 1089 1165
+type(
+  const
+)
+ident(
+  int_ref _C "mutualExTest.ml" 13 132 136 "mutualExTest.ml" 13 132 138
+)
+"mutualExTest.ml" 45 1089 1157 "mutualExTest.ml" 45 1089 1165
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 45 1089 1119 "mutualExTest.ml" 45 1089 1166
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"mutualExTest.ml" 45 1089 1170 "mutualExTest.ml" 45 1089 1176
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"mutualExTest.ml" 45 1089 1178 "mutualExTest.ml" 45 1089 1184
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"mutualExTest.ml" 45 1089 1185 "mutualExTest.ml" 45 1089 1188
+type(
+  string
+)
+"mutualExTest.ml" 45 1089 1178 "mutualExTest.ml" 45 1089 1188
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 45 1089 1191 "mutualExTest.ml" 45 1089 1196
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 45 1089 1198 "mutualExTest.ml" 45 1089 1203
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"mutualExTest.ml" 45 1089 1204 "mutualExTest.ml" 45 1089 1209
+type(
+  bool
+)
+"mutualExTest.ml" 45 1089 1198 "mutualExTest.ml" 45 1089 1209
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 45 1089 1191 "mutualExTest.ml" 45 1089 1210
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 45 1089 1170 "mutualExTest.ml" 45 1089 1211
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"mutualExTest.ml" 45 1089 1169 "mutualExTest.ml" 45 1089 1212
+type(
+  Loach.statement list
+)
+"mutualExTest.ml" 45 1089 1118 "mutualExTest.ml" 45 1089 1212
+type(
+  Loach.statement list
+)
+"mutualExTest.ml" 45 1089 1117 "mutualExTest.ml" 45 1089 1213
+type(
+  Loach.statement list
+)
+"mutualExTest.ml" 45 1089 1108 "mutualExTest.ml" 45 1089 1213
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"mutualExTest.ml" 46 1218 1220 "mutualExTest.ml" 46 1218 1224
+type(
+  string -> paramdef list -> Loach.formula -> Loach.statement -> Loach.rule
+)
+ident(
+  ext_ref Loach.rule
+)
+"mutualExTest.ml" 46 1218 1225 "mutualExTest.ml" 46 1218 1229
+type(
+  string
+)
+ident(
+  int_ref name "mutualExTest.ml" 42 891 897 "mutualExTest.ml" 42 891 901
+)
+"mutualExTest.ml" 46 1218 1230 "mutualExTest.ml" 46 1218 1236
+type(
+  paramdef list
+)
+ident(
+  int_ref params "mutualExTest.ml" 43 916 922 "mutualExTest.ml" 43 916 928
+)
+"mutualExTest.ml" 46 1218 1237 "mutualExTest.ml" 46 1218 1244
+type(
+  Loach.formula
+)
+ident(
+  int_ref formula "mutualExTest.ml" 44 958 964 "mutualExTest.ml" 44 958 971
+)
+"mutualExTest.ml" 46 1218 1245 "mutualExTest.ml" 46 1218 1254
+type(
+  Loach.statement
+)
+ident(
+  int_ref statement "mutualExTest.ml" 45 1089 1095 "mutualExTest.ml" 45 1089 1104
+)
+"mutualExTest.ml" 46 1218 1220 "mutualExTest.ml" 46 1218 1254
+call(
+  stack
+)
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 45 1089 1091 "mutualExTest.ml" 46 1218 1254
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 44 958 960 "mutualExTest.ml" 46 1218 1254
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 43 916 918 "mutualExTest.ml" 46 1218 1254
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 42 891 893 "mutualExTest.ml" 46 1218 1254
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 48 1256 1260 "mutualExTest.ml" 48 1256 1266
+type(
+  Loach.rule
+)
+ident(
+  def n_Exit "mutualExTest.ml" 55 1517 1517 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 49 1269 1275 "mutualExTest.ml" 49 1269 1279
+type(
+  string
+)
+ident(
+  def name "mutualExTest.ml" 50 1294 1296 "mutualExTest.ml" 53 1479 1515
+)
+"mutualExTest.ml" 49 1269 1282 "mutualExTest.ml" 49 1269 1290
+type(
+  string
+)
+"mutualExTest.ml" 50 1294 1300 "mutualExTest.ml" 50 1294 1306
+type(
+  paramdef list
+)
+ident(
+  def params "mutualExTest.ml" 51 1336 1338 "mutualExTest.ml" 53 1479 1515
+)
+"mutualExTest.ml" 50 1294 1310 "mutualExTest.ml" 50 1294 1318
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"mutualExTest.ml" 50 1294 1319 "mutualExTest.ml" 50 1294 1322
+type(
+  string
+)
+"mutualExTest.ml" 50 1294 1323 "mutualExTest.ml" 50 1294 1331
+type(
+  string
+)
+"mutualExTest.ml" 50 1294 1310 "mutualExTest.ml" 50 1294 1331
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"mutualExTest.ml" 50 1294 1309 "mutualExTest.ml" 50 1294 1332
+type(
+  paramdef list
+)
+"mutualExTest.ml" 51 1336 1342 "mutualExTest.ml" 51 1336 1349
+type(
+  Loach.formula
+)
+ident(
+  def formula "mutualExTest.ml" 52 1408 1410 "mutualExTest.ml" 53 1479 1515
+)
+"mutualExTest.ml" 51 1336 1353 "mutualExTest.ml" 51 1336 1356
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTest.ml" 51 1336 1358 "mutualExTest.ml" 51 1336 1361
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"mutualExTest.ml" 51 1336 1363 "mutualExTest.ml" 51 1336 1366
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 51 1336 1369 "mutualExTest.ml" 51 1336 1372
+type(
+  string
+)
+"mutualExTest.ml" 51 1336 1375 "mutualExTest.ml" 51 1336 1383
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTest.ml" 51 1336 1384 "mutualExTest.ml" 51 1336 1387
+type(
+  string
+)
+"mutualExTest.ml" 51 1336 1375 "mutualExTest.ml" 51 1336 1387
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 51 1336 1374 "mutualExTest.ml" 51 1336 1388
+type(
+  paramref list
+)
+"mutualExTest.ml" 51 1336 1369 "mutualExTest.ml" 51 1336 1388
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 51 1336 1368 "mutualExTest.ml" 51 1336 1389
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 51 1336 1367 "mutualExTest.ml" 51 1336 1390
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 51 1336 1363 "mutualExTest.ml" 51 1336 1390
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 51 1336 1358 "mutualExTest.ml" 51 1336 1391
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 51 1336 1394 "mutualExTest.ml" 51 1336 1399
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 51 1336 1400 "mutualExTest.ml" 51 1336 1402
+type(
+  const
+)
+ident(
+  int_ref _C "mutualExTest.ml" 13 132 136 "mutualExTest.ml" 13 132 138
+)
+"mutualExTest.ml" 51 1336 1394 "mutualExTest.ml" 51 1336 1402
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 51 1336 1353 "mutualExTest.ml" 51 1336 1403
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 52 1408 1414 "mutualExTest.ml" 52 1408 1423
+type(
+  Loach.statement
+)
+ident(
+  def statement "mutualExTest.ml" 53 1479 1481 "mutualExTest.ml" 53 1479 1515
+)
+"mutualExTest.ml" 52 1408 1427 "mutualExTest.ml" 52 1408 1433
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"mutualExTest.ml" 52 1408 1435 "mutualExTest.ml" 52 1408 1438
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 52 1408 1441 "mutualExTest.ml" 52 1408 1444
+type(
+  string
+)
+"mutualExTest.ml" 52 1408 1447 "mutualExTest.ml" 52 1408 1455
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTest.ml" 52 1408 1456 "mutualExTest.ml" 52 1408 1459
+type(
+  string
+)
+"mutualExTest.ml" 52 1408 1447 "mutualExTest.ml" 52 1408 1459
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 52 1408 1446 "mutualExTest.ml" 52 1408 1460
+type(
+  paramref list
+)
+"mutualExTest.ml" 52 1408 1441 "mutualExTest.ml" 52 1408 1460
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 52 1408 1440 "mutualExTest.ml" 52 1408 1461
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 52 1408 1439 "mutualExTest.ml" 52 1408 1462
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 52 1408 1435 "mutualExTest.ml" 52 1408 1462
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 52 1408 1465 "mutualExTest.ml" 52 1408 1470
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 52 1408 1471 "mutualExTest.ml" 52 1408 1473
+type(
+  const
+)
+ident(
+  int_ref _E "mutualExTest.ml" 14 150 154 "mutualExTest.ml" 14 150 156
+)
+"mutualExTest.ml" 52 1408 1465 "mutualExTest.ml" 52 1408 1473
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 52 1408 1427 "mutualExTest.ml" 52 1408 1474
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"mutualExTest.ml" 53 1479 1481 "mutualExTest.ml" 53 1479 1485
+type(
+  string -> paramdef list -> Loach.formula -> Loach.statement -> Loach.rule
+)
+ident(
+  ext_ref Loach.rule
+)
+"mutualExTest.ml" 53 1479 1486 "mutualExTest.ml" 53 1479 1490
+type(
+  string
+)
+ident(
+  int_ref name "mutualExTest.ml" 49 1269 1275 "mutualExTest.ml" 49 1269 1279
+)
+"mutualExTest.ml" 53 1479 1491 "mutualExTest.ml" 53 1479 1497
+type(
+  paramdef list
+)
+ident(
+  int_ref params "mutualExTest.ml" 50 1294 1300 "mutualExTest.ml" 50 1294 1306
+)
+"mutualExTest.ml" 53 1479 1498 "mutualExTest.ml" 53 1479 1505
+type(
+  Loach.formula
+)
+ident(
+  int_ref formula "mutualExTest.ml" 51 1336 1342 "mutualExTest.ml" 51 1336 1349
+)
+"mutualExTest.ml" 53 1479 1506 "mutualExTest.ml" 53 1479 1515
+type(
+  Loach.statement
+)
+ident(
+  int_ref statement "mutualExTest.ml" 52 1408 1414 "mutualExTest.ml" 52 1408 1423
+)
+"mutualExTest.ml" 53 1479 1481 "mutualExTest.ml" 53 1479 1515
+call(
+  stack
+)
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 52 1408 1410 "mutualExTest.ml" 53 1479 1515
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 51 1336 1338 "mutualExTest.ml" 53 1479 1515
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 50 1294 1296 "mutualExTest.ml" 53 1479 1515
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 49 1269 1271 "mutualExTest.ml" 53 1479 1515
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 55 1517 1521 "mutualExTest.ml" 55 1517 1527
+type(
+  Loach.rule
+)
+ident(
+  def n_Idle "mutualExTest.ml" 63 1836 1836 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 56 1530 1536 "mutualExTest.ml" 56 1530 1540
+type(
+  string
+)
+ident(
+  def name "mutualExTest.ml" 57 1555 1557 "mutualExTest.ml" 60 1797 1833
+)
+"mutualExTest.ml" 56 1530 1543 "mutualExTest.ml" 56 1530 1551
+type(
+  string
+)
+"mutualExTest.ml" 57 1555 1561 "mutualExTest.ml" 57 1555 1567
+type(
+  paramdef list
+)
+ident(
+  def params "mutualExTest.ml" 58 1597 1599 "mutualExTest.ml" 60 1797 1833
+)
+"mutualExTest.ml" 57 1555 1571 "mutualExTest.ml" 57 1555 1579
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"mutualExTest.ml" 57 1555 1580 "mutualExTest.ml" 57 1555 1583
+type(
+  string
+)
+"mutualExTest.ml" 57 1555 1584 "mutualExTest.ml" 57 1555 1592
+type(
+  string
+)
+"mutualExTest.ml" 57 1555 1571 "mutualExTest.ml" 57 1555 1592
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"mutualExTest.ml" 57 1555 1570 "mutualExTest.ml" 57 1555 1593
+type(
+  paramdef list
+)
+"mutualExTest.ml" 58 1597 1603 "mutualExTest.ml" 58 1597 1610
+type(
+  Loach.formula
+)
+ident(
+  def formula "mutualExTest.ml" 59 1669 1671 "mutualExTest.ml" 60 1797 1833
+)
+"mutualExTest.ml" 58 1597 1614 "mutualExTest.ml" 58 1597 1617
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTest.ml" 58 1597 1619 "mutualExTest.ml" 58 1597 1622
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"mutualExTest.ml" 58 1597 1624 "mutualExTest.ml" 58 1597 1627
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 58 1597 1630 "mutualExTest.ml" 58 1597 1633
+type(
+  string
+)
+"mutualExTest.ml" 58 1597 1636 "mutualExTest.ml" 58 1597 1644
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTest.ml" 58 1597 1645 "mutualExTest.ml" 58 1597 1648
+type(
+  string
+)
+"mutualExTest.ml" 58 1597 1636 "mutualExTest.ml" 58 1597 1648
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 58 1597 1635 "mutualExTest.ml" 58 1597 1649
+type(
+  paramref list
+)
+"mutualExTest.ml" 58 1597 1630 "mutualExTest.ml" 58 1597 1649
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 58 1597 1629 "mutualExTest.ml" 58 1597 1650
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 58 1597 1628 "mutualExTest.ml" 58 1597 1651
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 58 1597 1624 "mutualExTest.ml" 58 1597 1651
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 58 1597 1619 "mutualExTest.ml" 58 1597 1652
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 58 1597 1655 "mutualExTest.ml" 58 1597 1660
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 58 1597 1661 "mutualExTest.ml" 58 1597 1663
+type(
+  const
+)
+ident(
+  int_ref _E "mutualExTest.ml" 14 150 154 "mutualExTest.ml" 14 150 156
+)
+"mutualExTest.ml" 58 1597 1655 "mutualExTest.ml" 58 1597 1663
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 58 1597 1614 "mutualExTest.ml" 58 1597 1664
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 59 1669 1675 "mutualExTest.ml" 59 1669 1684
+type(
+  Loach.statement
+)
+ident(
+  def statement "mutualExTest.ml" 60 1797 1799 "mutualExTest.ml" 60 1797 1833
+)
+"mutualExTest.ml" 59 1669 1688 "mutualExTest.ml" 59 1669 1696
+type(
+  Loach.statement list -> Loach.statement
+)
+ident(
+  ext_ref Loach.parallel
+)
+"mutualExTest.ml" 59 1669 1699 "mutualExTest.ml" 59 1669 1705
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"mutualExTest.ml" 59 1669 1707 "mutualExTest.ml" 59 1669 1710
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 59 1669 1713 "mutualExTest.ml" 59 1669 1716
+type(
+  string
+)
+"mutualExTest.ml" 59 1669 1719 "mutualExTest.ml" 59 1669 1727
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTest.ml" 59 1669 1728 "mutualExTest.ml" 59 1669 1731
+type(
+  string
+)
+"mutualExTest.ml" 59 1669 1719 "mutualExTest.ml" 59 1669 1731
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 59 1669 1718 "mutualExTest.ml" 59 1669 1732
+type(
+  paramref list
+)
+"mutualExTest.ml" 59 1669 1713 "mutualExTest.ml" 59 1669 1732
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 59 1669 1712 "mutualExTest.ml" 59 1669 1733
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 59 1669 1711 "mutualExTest.ml" 59 1669 1734
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 59 1669 1707 "mutualExTest.ml" 59 1669 1734
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 59 1669 1737 "mutualExTest.ml" 59 1669 1742
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 59 1669 1743 "mutualExTest.ml" 59 1669 1745
+type(
+  const
+)
+ident(
+  int_ref _I "mutualExTest.ml" 11 96 100 "mutualExTest.ml" 11 96 102
+)
+"mutualExTest.ml" 59 1669 1737 "mutualExTest.ml" 59 1669 1745
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 59 1669 1699 "mutualExTest.ml" 59 1669 1746
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"mutualExTest.ml" 59 1669 1750 "mutualExTest.ml" 59 1669 1756
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"mutualExTest.ml" 59 1669 1758 "mutualExTest.ml" 59 1669 1764
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"mutualExTest.ml" 59 1669 1765 "mutualExTest.ml" 59 1669 1768
+type(
+  string
+)
+"mutualExTest.ml" 59 1669 1758 "mutualExTest.ml" 59 1669 1768
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 59 1669 1771 "mutualExTest.ml" 59 1669 1776
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 59 1669 1778 "mutualExTest.ml" 59 1669 1783
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"mutualExTest.ml" 59 1669 1784 "mutualExTest.ml" 59 1669 1788
+type(
+  bool
+)
+"mutualExTest.ml" 59 1669 1778 "mutualExTest.ml" 59 1669 1788
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 59 1669 1771 "mutualExTest.ml" 59 1669 1789
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 59 1669 1750 "mutualExTest.ml" 59 1669 1790
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"mutualExTest.ml" 59 1669 1749 "mutualExTest.ml" 59 1669 1791
+type(
+  Loach.statement list
+)
+"mutualExTest.ml" 59 1669 1698 "mutualExTest.ml" 59 1669 1791
+type(
+  Loach.statement list
+)
+"mutualExTest.ml" 59 1669 1697 "mutualExTest.ml" 59 1669 1792
+type(
+  Loach.statement list
+)
+"mutualExTest.ml" 59 1669 1688 "mutualExTest.ml" 59 1669 1792
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"mutualExTest.ml" 60 1797 1799 "mutualExTest.ml" 60 1797 1803
+type(
+  string -> paramdef list -> Loach.formula -> Loach.statement -> Loach.rule
+)
+ident(
+  ext_ref Loach.rule
+)
+"mutualExTest.ml" 60 1797 1804 "mutualExTest.ml" 60 1797 1808
+type(
+  string
+)
+ident(
+  int_ref name "mutualExTest.ml" 56 1530 1536 "mutualExTest.ml" 56 1530 1540
+)
+"mutualExTest.ml" 60 1797 1809 "mutualExTest.ml" 60 1797 1815
+type(
+  paramdef list
+)
+ident(
+  int_ref params "mutualExTest.ml" 57 1555 1561 "mutualExTest.ml" 57 1555 1567
+)
+"mutualExTest.ml" 60 1797 1816 "mutualExTest.ml" 60 1797 1823
+type(
+  Loach.formula
+)
+ident(
+  int_ref formula "mutualExTest.ml" 58 1597 1603 "mutualExTest.ml" 58 1597 1610
+)
+"mutualExTest.ml" 60 1797 1824 "mutualExTest.ml" 60 1797 1833
+type(
+  Loach.statement
+)
+ident(
+  int_ref statement "mutualExTest.ml" 59 1669 1675 "mutualExTest.ml" 59 1669 1684
+)
+"mutualExTest.ml" 60 1797 1799 "mutualExTest.ml" 60 1797 1833
+call(
+  stack
+)
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 59 1669 1671 "mutualExTest.ml" 60 1797 1833
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 58 1597 1599 "mutualExTest.ml" 60 1797 1833
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 57 1555 1557 "mutualExTest.ml" 60 1797 1833
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 56 1530 1532 "mutualExTest.ml" 60 1797 1833
+type(
+  Loach.rule
+)
+"mutualExTest.ml" 63 1836 1840 "mutualExTest.ml" 63 1836 1845
+type(
+  Loach.rule list
+)
+ident(
+  def rules "mutualExTest.ml" 65 1881 1881 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 63 1836 1849 "mutualExTest.ml" 63 1836 1854
+type(
+  Loach.rule
+)
+ident(
+  int_ref n_Try "mutualExTest.ml" 34 619 623 "mutualExTest.ml" 34 619 628
+)
+"mutualExTest.ml" 63 1836 1856 "mutualExTest.ml" 63 1836 1862
+type(
+  Loach.rule
+)
+ident(
+  int_ref n_Crit "mutualExTest.ml" 41 878 882 "mutualExTest.ml" 41 878 888
+)
+"mutualExTest.ml" 63 1836 1864 "mutualExTest.ml" 63 1836 1870
+type(
+  Loach.rule
+)
+ident(
+  int_ref n_Exit "mutualExTest.ml" 48 1256 1260 "mutualExTest.ml" 48 1256 1266
+)
+"mutualExTest.ml" 63 1836 1872 "mutualExTest.ml" 63 1836 1878
+type(
+  Loach.rule
+)
+ident(
+  int_ref n_Idle "mutualExTest.ml" 55 1517 1521 "mutualExTest.ml" 55 1517 1527
+)
+type(
+  Loach.rule list
+)
+"mutualExTest.ml" 63 1836 1864 "mutualExTest.ml" 63 1836 1878
+type(
+  Loach.rule list
+)
+"mutualExTest.ml" 63 1836 1856 "mutualExTest.ml" 63 1836 1878
+type(
+  Loach.rule list
+)
+"mutualExTest.ml" 63 1836 1849 "mutualExTest.ml" 63 1836 1878
+type(
+  Loach.rule list
+)
+"mutualExTest.ml" 63 1836 1848 "mutualExTest.ml" 63 1836 1879
+type(
+  Loach.rule list
+)
+"mutualExTest.ml" 65 1881 1885 "mutualExTest.ml" 65 1881 1896
+type(
+  Loach.prop
+)
+ident(
+  def n_coherence "mutualExTest.ml" 71 2227 2227 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 66 1899 1905 "mutualExTest.ml" 66 1899 1909
+type(
+  string
+)
+ident(
+  def name "mutualExTest.ml" 67 1929 1931 "mutualExTest.ml" 69 2199 2225
+)
+"mutualExTest.ml" 66 1899 1912 "mutualExTest.ml" 66 1899 1925
+type(
+  string
+)
+"mutualExTest.ml" 67 1929 1935 "mutualExTest.ml" 67 1929 1941
+type(
+  paramdef list
+)
+ident(
+  def params "mutualExTest.ml" 68 1994 1996 "mutualExTest.ml" 69 2199 2225
+)
+"mutualExTest.ml" 67 1929 1945 "mutualExTest.ml" 67 1929 1953
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"mutualExTest.ml" 67 1929 1954 "mutualExTest.ml" 67 1929 1957
+type(
+  string
+)
+"mutualExTest.ml" 67 1929 1958 "mutualExTest.ml" 67 1929 1966
+type(
+  string
+)
+"mutualExTest.ml" 67 1929 1945 "mutualExTest.ml" 67 1929 1966
+call(
+  stack
+)
+type(
+  paramdef
+)
+"mutualExTest.ml" 67 1929 1968 "mutualExTest.ml" 67 1929 1976
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"mutualExTest.ml" 67 1929 1977 "mutualExTest.ml" 67 1929 1980
+type(
+  string
+)
+"mutualExTest.ml" 67 1929 1981 "mutualExTest.ml" 67 1929 1989
+type(
+  string
+)
+"mutualExTest.ml" 67 1929 1968 "mutualExTest.ml" 67 1929 1989
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"mutualExTest.ml" 67 1929 1945 "mutualExTest.ml" 67 1929 1989
+type(
+  paramdef list
+)
+"mutualExTest.ml" 67 1929 1944 "mutualExTest.ml" 67 1929 1990
+type(
+  paramdef list
+)
+"mutualExTest.ml" 68 1994 2000 "mutualExTest.ml" 68 1994 2007
+type(
+  Loach.formula
+)
+ident(
+  def formula "mutualExTest.ml" 69 2199 2201 "mutualExTest.ml" 69 2199 2225
+)
+"mutualExTest.ml" 68 1994 2011 "mutualExTest.ml" 68 1994 2016
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"mutualExTest.ml" 68 1994 2018 "mutualExTest.ml" 68 1994 2021
+type(
+  Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.neg
+)
+"mutualExTest.ml" 68 1994 2023 "mutualExTest.ml" 68 1994 2026
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTest.ml" 68 1994 2028 "mutualExTest.ml" 68 1994 2033
+type(
+  paramref -> Loach.exp
+)
+ident(
+  ext_ref Loach.param
+)
+"mutualExTest.ml" 68 1994 2035 "mutualExTest.ml" 68 1994 2043
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTest.ml" 68 1994 2044 "mutualExTest.ml" 68 1994 2047
+type(
+  string
+)
+"mutualExTest.ml" 68 1994 2035 "mutualExTest.ml" 68 1994 2047
+call(
+  stack
+)
+type(
+  paramref
+)
+"mutualExTest.ml" 68 1994 2028 "mutualExTest.ml" 68 1994 2048
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 68 1994 2051 "mutualExTest.ml" 68 1994 2056
+type(
+  paramref -> Loach.exp
+)
+ident(
+  ext_ref Loach.param
+)
+"mutualExTest.ml" 68 1994 2058 "mutualExTest.ml" 68 1994 2066
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTest.ml" 68 1994 2067 "mutualExTest.ml" 68 1994 2070
+type(
+  string
+)
+"mutualExTest.ml" 68 1994 2058 "mutualExTest.ml" 68 1994 2070
+call(
+  stack
+)
+type(
+  paramref
+)
+"mutualExTest.ml" 68 1994 2051 "mutualExTest.ml" 68 1994 2071
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 68 1994 2023 "mutualExTest.ml" 68 1994 2072
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 68 1994 2018 "mutualExTest.ml" 68 1994 2073
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 68 1994 2076 "mutualExTest.ml" 68 1994 2081
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"mutualExTest.ml" 68 1994 2083 "mutualExTest.ml" 68 1994 2086
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTest.ml" 68 1994 2088 "mutualExTest.ml" 68 1994 2091
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"mutualExTest.ml" 68 1994 2093 "mutualExTest.ml" 68 1994 2096
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 68 1994 2099 "mutualExTest.ml" 68 1994 2102
+type(
+  string
+)
+"mutualExTest.ml" 68 1994 2105 "mutualExTest.ml" 68 1994 2113
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTest.ml" 68 1994 2114 "mutualExTest.ml" 68 1994 2117
+type(
+  string
+)
+"mutualExTest.ml" 68 1994 2105 "mutualExTest.ml" 68 1994 2117
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 68 1994 2104 "mutualExTest.ml" 68 1994 2118
+type(
+  paramref list
+)
+"mutualExTest.ml" 68 1994 2099 "mutualExTest.ml" 68 1994 2118
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 68 1994 2098 "mutualExTest.ml" 68 1994 2119
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 68 1994 2097 "mutualExTest.ml" 68 1994 2120
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 68 1994 2093 "mutualExTest.ml" 68 1994 2120
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 68 1994 2088 "mutualExTest.ml" 68 1994 2121
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 68 1994 2124 "mutualExTest.ml" 68 1994 2129
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 68 1994 2130 "mutualExTest.ml" 68 1994 2132
+type(
+  const
+)
+ident(
+  int_ref _C "mutualExTest.ml" 13 132 136 "mutualExTest.ml" 13 132 138
+)
+"mutualExTest.ml" 68 1994 2124 "mutualExTest.ml" 68 1994 2132
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 68 1994 2083 "mutualExTest.ml" 68 1994 2133
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 68 1994 2136 "mutualExTest.ml" 68 1994 2139
+type(
+  Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.neg
+)
+"mutualExTest.ml" 68 1994 2141 "mutualExTest.ml" 68 1994 2144
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTest.ml" 68 1994 2146 "mutualExTest.ml" 68 1994 2149
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"mutualExTest.ml" 68 1994 2151 "mutualExTest.ml" 68 1994 2154
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 68 1994 2157 "mutualExTest.ml" 68 1994 2160
+type(
+  string
+)
+"mutualExTest.ml" 68 1994 2163 "mutualExTest.ml" 68 1994 2171
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTest.ml" 68 1994 2172 "mutualExTest.ml" 68 1994 2175
+type(
+  string
+)
+"mutualExTest.ml" 68 1994 2163 "mutualExTest.ml" 68 1994 2175
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 68 1994 2162 "mutualExTest.ml" 68 1994 2176
+type(
+  paramref list
+)
+"mutualExTest.ml" 68 1994 2157 "mutualExTest.ml" 68 1994 2176
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 68 1994 2156 "mutualExTest.ml" 68 1994 2177
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 68 1994 2155 "mutualExTest.ml" 68 1994 2178
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 68 1994 2151 "mutualExTest.ml" 68 1994 2178
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 68 1994 2146 "mutualExTest.ml" 68 1994 2179
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 68 1994 2182 "mutualExTest.ml" 68 1994 2187
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 68 1994 2188 "mutualExTest.ml" 68 1994 2190
+type(
+  const
+)
+ident(
+  int_ref _C "mutualExTest.ml" 13 132 136 "mutualExTest.ml" 13 132 138
+)
+"mutualExTest.ml" 68 1994 2182 "mutualExTest.ml" 68 1994 2190
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 68 1994 2141 "mutualExTest.ml" 68 1994 2191
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 68 1994 2136 "mutualExTest.ml" 68 1994 2192
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 68 1994 2076 "mutualExTest.ml" 68 1994 2193
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 68 1994 2011 "mutualExTest.ml" 68 1994 2194
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 69 2199 2201 "mutualExTest.ml" 69 2199 2205
+type(
+  string -> paramdef list -> Loach.formula -> Loach.prop
+)
+ident(
+  ext_ref Loach.prop
+)
+"mutualExTest.ml" 69 2199 2206 "mutualExTest.ml" 69 2199 2210
+type(
+  string
+)
+ident(
+  int_ref name "mutualExTest.ml" 66 1899 1905 "mutualExTest.ml" 66 1899 1909
+)
+"mutualExTest.ml" 69 2199 2211 "mutualExTest.ml" 69 2199 2217
+type(
+  paramdef list
+)
+ident(
+  int_ref params "mutualExTest.ml" 67 1929 1935 "mutualExTest.ml" 67 1929 1941
+)
+"mutualExTest.ml" 69 2199 2218 "mutualExTest.ml" 69 2199 2225
+type(
+  Loach.formula
+)
+ident(
+  int_ref formula "mutualExTest.ml" 68 1994 2000 "mutualExTest.ml" 68 1994 2007
+)
+"mutualExTest.ml" 69 2199 2201 "mutualExTest.ml" 69 2199 2225
+call(
+  stack
+)
+type(
+  Loach.prop
+)
+"mutualExTest.ml" 68 1994 1996 "mutualExTest.ml" 69 2199 2225
+type(
+  Loach.prop
+)
+"mutualExTest.ml" 67 1929 1931 "mutualExTest.ml" 69 2199 2225
+type(
+  Loach.prop
+)
+"mutualExTest.ml" 66 1899 1901 "mutualExTest.ml" 69 2199 2225
+type(
+  Loach.prop
+)
+"mutualExTest.ml" 71 2227 2232 "mutualExTest.ml" 71 2227 2234
+type(
+  Loach.formula
+)
+ident(
+  def f1 "mutualExTest.ml" 76 2437 2437 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 71 2227 2239 "mutualExTest.ml" 71 2227 2244
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"mutualExTest.ml" 72 2245 2247 "mutualExTest.ml" 72 2245 2250
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTest.ml" 72 2245 2252 "mutualExTest.ml" 72 2245 2255
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"mutualExTest.ml" 72 2245 2257 "mutualExTest.ml" 72 2245 2260
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 72 2245 2263 "mutualExTest.ml" 72 2245 2266
+type(
+  string
+)
+"mutualExTest.ml" 72 2245 2269 "mutualExTest.ml" 72 2245 2277
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"mutualExTest.ml" 72 2245 2278 "mutualExTest.ml" 72 2245 2281
+type(
+  string
+)
+"mutualExTest.ml" 72 2245 2282 "mutualExTest.ml" 72 2245 2290
+type(
+  string
+)
+"mutualExTest.ml" 72 2245 2292 "mutualExTest.ml" 72 2245 2296
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"mutualExTest.ml" 72 2245 2297 "mutualExTest.ml" 72 2245 2298
+type(
+  int
+)
+"mutualExTest.ml" 72 2245 2292 "mutualExTest.ml" 72 2245 2298
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 72 2245 2269 "mutualExTest.ml" 72 2245 2299
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 72 2245 2268 "mutualExTest.ml" 72 2245 2300
+type(
+  paramref list
+)
+"mutualExTest.ml" 72 2245 2263 "mutualExTest.ml" 72 2245 2300
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 72 2245 2262 "mutualExTest.ml" 72 2245 2301
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 72 2245 2261 "mutualExTest.ml" 72 2245 2302
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 72 2245 2257 "mutualExTest.ml" 72 2245 2302
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 72 2245 2252 "mutualExTest.ml" 72 2245 2303
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 72 2245 2306 "mutualExTest.ml" 72 2245 2311
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 72 2245 2312 "mutualExTest.ml" 72 2245 2314
+type(
+  const
+)
+ident(
+  int_ref _C "mutualExTest.ml" 13 132 136 "mutualExTest.ml" 13 132 138
+)
+"mutualExTest.ml" 72 2245 2306 "mutualExTest.ml" 72 2245 2314
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 72 2245 2247 "mutualExTest.ml" 72 2245 2316
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 73 2319 2321 "mutualExTest.ml" 73 2319 2324
+type(
+  Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.neg
+)
+"mutualExTest.ml" 73 2319 2326 "mutualExTest.ml" 73 2319 2329
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTest.ml" 73 2319 2331 "mutualExTest.ml" 73 2319 2334
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"mutualExTest.ml" 73 2319 2336 "mutualExTest.ml" 73 2319 2339
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 73 2319 2342 "mutualExTest.ml" 73 2319 2345
+type(
+  string
+)
+"mutualExTest.ml" 73 2319 2348 "mutualExTest.ml" 73 2319 2356
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"mutualExTest.ml" 73 2319 2357 "mutualExTest.ml" 73 2319 2360
+type(
+  string
+)
+"mutualExTest.ml" 73 2319 2361 "mutualExTest.ml" 73 2319 2369
+type(
+  string
+)
+"mutualExTest.ml" 73 2319 2371 "mutualExTest.ml" 73 2319 2375
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"mutualExTest.ml" 73 2319 2376 "mutualExTest.ml" 73 2319 2377
+type(
+  int
+)
+"mutualExTest.ml" 73 2319 2371 "mutualExTest.ml" 73 2319 2377
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 73 2319 2348 "mutualExTest.ml" 73 2319 2378
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 73 2319 2347 "mutualExTest.ml" 73 2319 2379
+type(
+  paramref list
+)
+"mutualExTest.ml" 73 2319 2342 "mutualExTest.ml" 73 2319 2379
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 73 2319 2341 "mutualExTest.ml" 73 2319 2380
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 73 2319 2340 "mutualExTest.ml" 73 2319 2381
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 73 2319 2336 "mutualExTest.ml" 73 2319 2381
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 73 2319 2331 "mutualExTest.ml" 73 2319 2382
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 73 2319 2385 "mutualExTest.ml" 73 2319 2390
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 73 2319 2391 "mutualExTest.ml" 73 2319 2393
+type(
+  const
+)
+ident(
+  int_ref _T "mutualExTest.ml" 12 114 118 "mutualExTest.ml" 12 114 120
+)
+"mutualExTest.ml" 73 2319 2385 "mutualExTest.ml" 73 2319 2393
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 73 2319 2326 "mutualExTest.ml" 73 2319 2394
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 73 2319 2321 "mutualExTest.ml" 73 2319 2395
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 71 2227 2239 "mutualExTest.ml" 73 2319 2396
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 76 2437 2442 "mutualExTest.ml" 76 2437 2444
+type(
+  Loach.formula
+)
+ident(
+  def f2 "mutualExTest.ml" 80 2610 2610 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 76 2437 2448 "mutualExTest.ml" 76 2437 2453
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"mutualExTest.ml" 77 2454 2456 "mutualExTest.ml" 77 2454 2459
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTest.ml" 77 2454 2461 "mutualExTest.ml" 77 2454 2464
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"mutualExTest.ml" 77 2454 2466 "mutualExTest.ml" 77 2454 2469
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 77 2454 2472 "mutualExTest.ml" 77 2454 2475
+type(
+  string
+)
+"mutualExTest.ml" 77 2454 2478 "mutualExTest.ml" 77 2454 2486
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"mutualExTest.ml" 77 2454 2487 "mutualExTest.ml" 77 2454 2490
+type(
+  string
+)
+"mutualExTest.ml" 77 2454 2491 "mutualExTest.ml" 77 2454 2499
+type(
+  string
+)
+"mutualExTest.ml" 77 2454 2501 "mutualExTest.ml" 77 2454 2505
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"mutualExTest.ml" 77 2454 2506 "mutualExTest.ml" 77 2454 2507
+type(
+  int
+)
+"mutualExTest.ml" 77 2454 2501 "mutualExTest.ml" 77 2454 2507
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 77 2454 2478 "mutualExTest.ml" 77 2454 2508
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 77 2454 2477 "mutualExTest.ml" 77 2454 2509
+type(
+  paramref list
+)
+"mutualExTest.ml" 77 2454 2472 "mutualExTest.ml" 77 2454 2509
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 77 2454 2471 "mutualExTest.ml" 77 2454 2510
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 77 2454 2470 "mutualExTest.ml" 77 2454 2511
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 77 2454 2466 "mutualExTest.ml" 77 2454 2511
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 77 2454 2461 "mutualExTest.ml" 77 2454 2512
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 77 2454 2515 "mutualExTest.ml" 77 2454 2520
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 77 2454 2521 "mutualExTest.ml" 77 2454 2523
+type(
+  const
+)
+ident(
+  int_ref _C "mutualExTest.ml" 13 132 136 "mutualExTest.ml" 13 132 138
+)
+"mutualExTest.ml" 77 2454 2515 "mutualExTest.ml" 77 2454 2523
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 77 2454 2456 "mutualExTest.ml" 77 2454 2525
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 78 2528 2530 "mutualExTest.ml" 78 2528 2533
+type(
+  Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.neg
+)
+"mutualExTest.ml" 78 2528 2535 "mutualExTest.ml" 78 2528 2538
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTest.ml" 78 2528 2540 "mutualExTest.ml" 78 2528 2543
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"mutualExTest.ml" 78 2528 2545 "mutualExTest.ml" 78 2528 2548
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 78 2528 2551 "mutualExTest.ml" 78 2528 2554
+type(
+  string
+)
+"mutualExTest.ml" 78 2528 2557 "mutualExTest.ml" 78 2528 2565
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"mutualExTest.ml" 78 2528 2566 "mutualExTest.ml" 78 2528 2569
+type(
+  string
+)
+"mutualExTest.ml" 78 2528 2570 "mutualExTest.ml" 78 2528 2578
+type(
+  string
+)
+"mutualExTest.ml" 78 2528 2580 "mutualExTest.ml" 78 2528 2584
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"mutualExTest.ml" 78 2528 2585 "mutualExTest.ml" 78 2528 2586
+type(
+  int
+)
+"mutualExTest.ml" 78 2528 2580 "mutualExTest.ml" 78 2528 2586
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 78 2528 2557 "mutualExTest.ml" 78 2528 2587
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 78 2528 2556 "mutualExTest.ml" 78 2528 2588
+type(
+  paramref list
+)
+"mutualExTest.ml" 78 2528 2551 "mutualExTest.ml" 78 2528 2588
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 78 2528 2550 "mutualExTest.ml" 78 2528 2589
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 78 2528 2549 "mutualExTest.ml" 78 2528 2590
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 78 2528 2545 "mutualExTest.ml" 78 2528 2590
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 78 2528 2540 "mutualExTest.ml" 78 2528 2591
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 78 2528 2594 "mutualExTest.ml" 78 2528 2599
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 78 2528 2600 "mutualExTest.ml" 78 2528 2602
+type(
+  const
+)
+ident(
+  int_ref _T "mutualExTest.ml" 12 114 118 "mutualExTest.ml" 12 114 120
+)
+"mutualExTest.ml" 78 2528 2594 "mutualExTest.ml" 78 2528 2602
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 78 2528 2535 "mutualExTest.ml" 78 2528 2603
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 78 2528 2530 "mutualExTest.ml" 78 2528 2604
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 76 2437 2448 "mutualExTest.ml" 78 2528 2605
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 80 2610 2615 "mutualExTest.ml" 80 2610 2617
+type(
+  Loach.formula
+)
+ident(
+  def f3 "mutualExTest.ml" 84 2790 2791 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 80 2610 2620 "mutualExTest.ml" 80 2610 2623
+type(
+  Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.neg
+)
+"mutualExTest.ml" 80 2610 2626 "mutualExTest.ml" 80 2610 2631
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"mutualExTest.ml" 81 2632 2634 "mutualExTest.ml" 81 2632 2637
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTest.ml" 81 2632 2639 "mutualExTest.ml" 81 2632 2642
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"mutualExTest.ml" 81 2632 2644 "mutualExTest.ml" 81 2632 2647
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 81 2632 2650 "mutualExTest.ml" 81 2632 2653
+type(
+  string
+)
+"mutualExTest.ml" 81 2632 2656 "mutualExTest.ml" 81 2632 2664
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"mutualExTest.ml" 81 2632 2665 "mutualExTest.ml" 81 2632 2668
+type(
+  string
+)
+"mutualExTest.ml" 81 2632 2669 "mutualExTest.ml" 81 2632 2677
+type(
+  string
+)
+"mutualExTest.ml" 81 2632 2679 "mutualExTest.ml" 81 2632 2683
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"mutualExTest.ml" 81 2632 2684 "mutualExTest.ml" 81 2632 2685
+type(
+  int
+)
+"mutualExTest.ml" 81 2632 2679 "mutualExTest.ml" 81 2632 2685
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 81 2632 2656 "mutualExTest.ml" 81 2632 2686
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 81 2632 2655 "mutualExTest.ml" 81 2632 2687
+type(
+  paramref list
+)
+"mutualExTest.ml" 81 2632 2650 "mutualExTest.ml" 81 2632 2687
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 81 2632 2649 "mutualExTest.ml" 81 2632 2688
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 81 2632 2648 "mutualExTest.ml" 81 2632 2689
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 81 2632 2644 "mutualExTest.ml" 81 2632 2689
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 81 2632 2639 "mutualExTest.ml" 81 2632 2690
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 81 2632 2693 "mutualExTest.ml" 81 2632 2698
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 81 2632 2699 "mutualExTest.ml" 81 2632 2701
+type(
+  const
+)
+ident(
+  int_ref _C "mutualExTest.ml" 13 132 136 "mutualExTest.ml" 13 132 138
+)
+"mutualExTest.ml" 81 2632 2693 "mutualExTest.ml" 81 2632 2701
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 81 2632 2634 "mutualExTest.ml" 81 2632 2703
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 82 2706 2708 "mutualExTest.ml" 82 2706 2711
+type(
+  Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.neg
+)
+"mutualExTest.ml" 82 2706 2713 "mutualExTest.ml" 82 2706 2716
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTest.ml" 82 2706 2718 "mutualExTest.ml" 82 2706 2721
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"mutualExTest.ml" 82 2706 2723 "mutualExTest.ml" 82 2706 2726
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTest.ml" 82 2706 2729 "mutualExTest.ml" 82 2706 2732
+type(
+  string
+)
+"mutualExTest.ml" 82 2706 2735 "mutualExTest.ml" 82 2706 2743
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"mutualExTest.ml" 82 2706 2744 "mutualExTest.ml" 82 2706 2747
+type(
+  string
+)
+"mutualExTest.ml" 82 2706 2748 "mutualExTest.ml" 82 2706 2756
+type(
+  string
+)
+"mutualExTest.ml" 82 2706 2758 "mutualExTest.ml" 82 2706 2762
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"mutualExTest.ml" 82 2706 2763 "mutualExTest.ml" 82 2706 2764
+type(
+  int
+)
+"mutualExTest.ml" 82 2706 2758 "mutualExTest.ml" 82 2706 2764
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 82 2706 2735 "mutualExTest.ml" 82 2706 2765
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 82 2706 2734 "mutualExTest.ml" 82 2706 2766
+type(
+  paramref list
+)
+"mutualExTest.ml" 82 2706 2729 "mutualExTest.ml" 82 2706 2766
+type(
+  string * paramref list
+)
+"mutualExTest.ml" 82 2706 2728 "mutualExTest.ml" 82 2706 2767
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 82 2706 2727 "mutualExTest.ml" 82 2706 2768
+type(
+  (string * paramref list) list
+)
+"mutualExTest.ml" 82 2706 2723 "mutualExTest.ml" 82 2706 2768
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 82 2706 2718 "mutualExTest.ml" 82 2706 2769
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 82 2706 2772 "mutualExTest.ml" 82 2706 2777
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 82 2706 2778 "mutualExTest.ml" 82 2706 2780
+type(
+  const
+)
+ident(
+  int_ref _T "mutualExTest.ml" 12 114 118 "mutualExTest.ml" 12 114 120
+)
+"mutualExTest.ml" 82 2706 2772 "mutualExTest.ml" 82 2706 2780
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 82 2706 2713 "mutualExTest.ml" 82 2706 2781
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 82 2706 2708 "mutualExTest.ml" 82 2706 2782
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 80 2610 2626 "mutualExTest.ml" 82 2706 2783
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 80 2610 2620 "mutualExTest.ml" 82 2706 2786
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 84 2790 2795 "mutualExTest.ml" 84 2790 2797
+type(
+  Loach.formula
+)
+ident(
+  def f3 "mutualExTest.ml" 86 2845 2845 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 84 2790 2798 "mutualExTest.ml" 84 2790 2801
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTest.ml" 84 2790 2803 "mutualExTest.ml" 84 2790 2806
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"mutualExTest.ml" 84 2790 2808 "mutualExTest.ml" 84 2790 2814
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"mutualExTest.ml" 84 2790 2815 "mutualExTest.ml" 84 2790 2818
+type(
+  string
+)
+"mutualExTest.ml" 84 2790 2808 "mutualExTest.ml" 84 2790 2818
+call(
+  stack
+)
+type(
+  var
+)
+"mutualExTest.ml" 84 2790 2803 "mutualExTest.ml" 84 2790 2819
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 84 2790 2822 "mutualExTest.ml" 84 2790 2827
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTest.ml" 84 2790 2829 "mutualExTest.ml" 84 2790 2834
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"mutualExTest.ml" 84 2790 2835 "mutualExTest.ml" 84 2790 2839
+type(
+  bool
+)
+"mutualExTest.ml" 84 2790 2829 "mutualExTest.ml" 84 2790 2839
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 84 2790 2822 "mutualExTest.ml" 84 2790 2840
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"mutualExTest.ml" 84 2790 2798 "mutualExTest.ml" 84 2790 2841
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"mutualExTest.ml" 86 2845 2849 "mutualExTest.ml" 86 2845 2859
+type(
+  Loach.prop list
+)
+ident(
+  def properties "mutualExTest.ml" 89 2922 2922 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 86 2845 2863 "mutualExTest.ml" 86 2845 2867
+type(
+  string -> paramdef list -> Loach.formula -> Loach.prop
+)
+ident(
+  ext_ref Loach.prop
+)
+"mutualExTest.ml" 86 2845 2868 "mutualExTest.ml" 86 2845 2870
+type(
+  string
+)
+"mutualExTest.ml" 86 2845 2871 "mutualExTest.ml" 86 2845 2873
+type(
+  paramdef list
+)
+"mutualExTest.ml" 86 2845 2874 "mutualExTest.ml" 86 2845 2876
+type(
+  Loach.formula
+)
+ident(
+  int_ref f1 "mutualExTest.ml" 71 2227 2232 "mutualExTest.ml" 71 2227 2234
+)
+"mutualExTest.ml" 86 2845 2863 "mutualExTest.ml" 86 2845 2876
+call(
+  stack
+)
+type(
+  Loach.prop
+)
+"mutualExTest.ml" 86 2845 2877 "mutualExTest.ml" 86 2845 2881
+type(
+  string -> paramdef list -> Loach.formula -> Loach.prop
+)
+ident(
+  ext_ref Loach.prop
+)
+"mutualExTest.ml" 86 2845 2882 "mutualExTest.ml" 86 2845 2884
+type(
+  string
+)
+"mutualExTest.ml" 86 2845 2885 "mutualExTest.ml" 86 2845 2887
+type(
+  paramdef list
+)
+"mutualExTest.ml" 86 2845 2889 "mutualExTest.ml" 86 2845 2891
+type(
+  Loach.formula
+)
+ident(
+  int_ref f2 "mutualExTest.ml" 76 2437 2442 "mutualExTest.ml" 76 2437 2444
+)
+"mutualExTest.ml" 86 2845 2877 "mutualExTest.ml" 86 2845 2891
+call(
+  stack
+)
+type(
+  Loach.prop
+)
+"mutualExTest.ml" 86 2845 2892 "mutualExTest.ml" 86 2845 2896
+type(
+  string -> paramdef list -> Loach.formula -> Loach.prop
+)
+ident(
+  ext_ref Loach.prop
+)
+"mutualExTest.ml" 86 2845 2897 "mutualExTest.ml" 86 2845 2899
+type(
+  string
+)
+"mutualExTest.ml" 86 2845 2900 "mutualExTest.ml" 86 2845 2902
+type(
+  paramdef list
+)
+"mutualExTest.ml" 86 2845 2904 "mutualExTest.ml" 86 2845 2906
+type(
+  Loach.formula
+)
+ident(
+  int_ref f3 "mutualExTest.ml" 84 2790 2795 "mutualExTest.ml" 84 2790 2797
+)
+"mutualExTest.ml" 86 2845 2892 "mutualExTest.ml" 86 2845 2906
+call(
+  stack
+)
+type(
+  Loach.prop
+)
+"mutualExTest.ml" 86 2845 2907 "mutualExTest.ml" 86 2845 2918
+type(
+  Loach.prop
+)
+ident(
+  int_ref n_coherence "mutualExTest.ml" 65 1881 1885 "mutualExTest.ml" 65 1881 1896
+)
+type(
+  Loach.prop list
+)
+"mutualExTest.ml" 86 2845 2892 "mutualExTest.ml" 86 2845 2918
+type(
+  Loach.prop list
+)
+"mutualExTest.ml" 86 2845 2877 "mutualExTest.ml" 86 2845 2918
+type(
+  Loach.prop list
+)
+"mutualExTest.ml" 86 2845 2863 "mutualExTest.ml" 86 2845 2918
+type(
+  Loach.prop list
+)
+"mutualExTest.ml" 86 2845 2862 "mutualExTest.ml" 86 2845 2919
+type(
+  Loach.prop list
+)
+"mutualExTest.ml" 89 2922 2926 "mutualExTest.ml" 89 2922 2934
+type(
+  Loach.protocol
+)
+ident(
+  def protocol "mutualExTest.ml" 98 3016 3016 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 90 2939 2948 "mutualExTest.ml" 90 2939 2960
+type(
+  string
+)
+"mutualExTest.ml" 91 2962 2964 "mutualExTest.ml" 91 2962 2969
+type(
+  typedef list
+)
+ident(
+  int_ref types "mutualExTest.ml" 18 217 221 "mutualExTest.ml" 18 217 226
+)
+"mutualExTest.ml" 92 2971 2973 "mutualExTest.ml" 92 2971 2980
+type(
+  vardef list
+)
+ident(
+  int_ref vardefs "mutualExTest.ml" 26 342 346 "mutualExTest.ml" 26 342 353
+)
+"mutualExTest.ml" 93 2982 2984 "mutualExTest.ml" 93 2982 2988
+type(
+  Loach.statement
+)
+ident(
+  int_ref init "mutualExTest.ml" 31 460 464 "mutualExTest.ml" 31 460 468
+)
+"mutualExTest.ml" 94 2990 2992 "mutualExTest.ml" 94 2990 2997
+type(
+  Loach.rule list
+)
+ident(
+  int_ref rules "mutualExTest.ml" 63 1836 1840 "mutualExTest.ml" 63 1836 1845
+)
+"mutualExTest.ml" 95 2999 3001 "mutualExTest.ml" 95 2999 3011
+type(
+  Loach.prop list
+)
+ident(
+  int_ref properties "mutualExTest.ml" 86 2845 2849 "mutualExTest.ml" 86 2845 2859
+)
+"mutualExTest.ml" 89 2922 2937 "mutualExTest.ml" 96 3013 3014
+type(
+  Loach.protocol
+)
+"mutualExTest.ml" 98 3016 3020 "mutualExTest.ml" 98 3016 3024
+type(
+  Paramecium.protocol
+)
+ident(
+  def prot "mutualExTest.ml" 100 3051 3051 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 98 3016 3025 "mutualExTest.ml" 98 3016 3040
+type(
+  loach:Loach.protocol -> Paramecium.protocol
+)
+ident(
+  ext_ref Loach.Trans.act
+)
+"mutualExTest.ml" 98 3016 3041 "mutualExTest.ml" 98 3016 3049
+type(
+  Loach.protocol
+)
+ident(
+  int_ref protocol "mutualExTest.ml" 89 2922 2926 "mutualExTest.ml" 89 2922 2934
+)
+"mutualExTest.ml" 98 3016 3025 "mutualExTest.ml" 98 3016 3049
+call(
+  stack
+)
+type(
+  Paramecium.protocol
+)
+"mutualExTest.ml" 100 3051 3058 "mutualExTest.ml" 100 3051 3062
+type(
+  string
+)
+ident(
+  def name "mutualExTest.ml" 109 3153 3153 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 101 3064 3067 "mutualExTest.ml" 101 3064 3072
+type(
+  typedef list
+)
+ident(
+  def types "mutualExTest.ml" 109 3153 3153 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 102 3074 3077 "mutualExTest.ml" 102 3074 3084
+type(
+  vardef list
+)
+ident(
+  def vardefs "mutualExTest.ml" 109 3153 3153 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 103 3086 3089 "mutualExTest.ml" 103 3086 3093
+type(
+  Paramecium.statement
+)
+ident(
+  def init "mutualExTest.ml" 109 3153 3153 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 104 3095 3098 "mutualExTest.ml" 104 3095 3103
+type(
+  Paramecium.rule list
+)
+ident(
+  def rules "mutualExTest.ml" 109 3153 3153 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 105 3105 3108 "mutualExTest.ml" 105 3105 3118
+type(
+  Paramecium.prop list
+)
+ident(
+  def properties "mutualExTest.ml" 109 3153 3153 "mutualExTest.ml" 1 0 -1
+)
+"mutualExTest.ml" 100 3051 3056 "mutualExTest.ml" 105 3105 3120
+type(
+  Paramecium.protocol
+)
+"mutualExTest.ml" 105 3105 3142 "mutualExTest.ml" 105 3105 3146
+type(
+  Paramecium.protocol
+)
+ident(
+  int_ref prot "mutualExTest.ml" 98 3016 3020 "mutualExTest.ml" 98 3016 3024
+)
+"mutualExTest.ml" 109 3153 3158 "mutualExTest.ml" 109 3153 3160
+type(
+  Paramecium.prop
+)
+ident(
+  def p1 "mutualExTest.ml" 110 3185 3185 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 109 3153 3161 "mutualExTest.ml" 109 3153 3163
+type(
+  Paramecium.prop
+)
+ident(
+  def p2 "mutualExTest.ml" 110 3185 3185 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 109 3153 3164 "mutualExTest.ml" 109 3153 3166
+type(
+  Paramecium.prop
+)
+ident(
+  def p3 "mutualExTest.ml" 110 3185 3185 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 109 3153 3167 "mutualExTest.ml" 109 3153 3168
+type(
+  Paramecium.prop list
+)
+type(
+  Paramecium.prop
+)
+ident(
+  def f "mutualExTest.ml" 110 3185 3185 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 109 3153 3164 "mutualExTest.ml" 109 3153 3168
+type(
+  Paramecium.prop list
+)
+"mutualExTest.ml" 109 3153 3161 "mutualExTest.ml" 109 3153 3168
+type(
+  Paramecium.prop list
+)
+"mutualExTest.ml" 109 3153 3158 "mutualExTest.ml" 109 3153 3168
+type(
+  Paramecium.prop list
+)
+"mutualExTest.ml" 109 3153 3157 "mutualExTest.ml" 109 3153 3169
+type(
+  Paramecium.prop list
+)
+"mutualExTest.ml" 109 3153 3170 "mutualExTest.ml" 109 3153 3180
+type(
+  Paramecium.prop list
+)
+ident(
+  int_ref properties "mutualExTest.ml" 105 3105 3108 "mutualExTest.ml" 105 3105 3118
+)
+"mutualExTest.ml" 110 3185 3206 "mutualExTest.ml" 110 3185 3208
+type(
+  string
+)
+ident(
+  def n1 "mutualExTest.ml" 111 3226 3226 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 110 3185 3210 "mutualExTest.ml" 110 3185 3213
+type(
+  paramdef list
+)
+ident(
+  def ps1 "mutualExTest.ml" 111 3226 3226 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 110 3185 3215 "mutualExTest.ml" 110 3185 3218
+type(
+  Paramecium.formula
+)
+ident(
+  def f11 "mutualExTest.ml" 111 3226 3226 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 110 3185 3189 "mutualExTest.ml" 110 3185 3219
+type(
+  Paramecium.prop
+)
+"mutualExTest.ml" 110 3185 3220 "mutualExTest.ml" 110 3185 3222
+type(
+  Paramecium.prop
+)
+ident(
+  int_ref p1 "mutualExTest.ml" 109 3153 3158 "mutualExTest.ml" 109 3153 3160
+)
+"mutualExTest.ml" 111 3226 3247 "mutualExTest.ml" 111 3226 3249
+type(
+  string
+)
+ident(
+  def n2 "mutualExTest.ml" 112 3267 3267 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 111 3226 3251 "mutualExTest.ml" 111 3226 3254
+type(
+  paramdef list
+)
+ident(
+  def ps2 "mutualExTest.ml" 112 3267 3267 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 111 3226 3256 "mutualExTest.ml" 111 3226 3259
+type(
+  Paramecium.formula
+)
+ident(
+  def f21 "mutualExTest.ml" 112 3267 3267 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 111 3226 3230 "mutualExTest.ml" 111 3226 3260
+type(
+  Paramecium.prop
+)
+"mutualExTest.ml" 111 3226 3261 "mutualExTest.ml" 111 3226 3263
+type(
+  Paramecium.prop
+)
+ident(
+  int_ref p2 "mutualExTest.ml" 109 3153 3161 "mutualExTest.ml" 109 3153 3163
+)
+"mutualExTest.ml" 112 3267 3288 "mutualExTest.ml" 112 3267 3290
+type(
+  string
+)
+ident(
+  def n3 "mutualExTest.ml" 113 3308 3308 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 112 3267 3292 "mutualExTest.ml" 112 3267 3295
+type(
+  paramdef list
+)
+ident(
+  def ps3 "mutualExTest.ml" 113 3308 3308 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 112 3267 3297 "mutualExTest.ml" 112 3267 3300
+type(
+  Paramecium.formula
+)
+ident(
+  def f31 "mutualExTest.ml" 113 3308 3308 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 112 3267 3271 "mutualExTest.ml" 112 3267 3301
+type(
+  Paramecium.prop
+)
+"mutualExTest.ml" 112 3267 3302 "mutualExTest.ml" 112 3267 3304
+type(
+  Paramecium.prop
+)
+ident(
+  int_ref p3 "mutualExTest.ml" 109 3153 3164 "mutualExTest.ml" 109 3153 3166
+)
+"mutualExTest.ml" 113 3308 3312 "mutualExTest.ml" 113 3308 3324
+type(
+  bool
+)
+ident(
+  def _smt_context "mutualExTest.ml" 114 3409 3409 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 113 3308 3327 "mutualExTest.ml" 113 3308 3342
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Smt.set_context
+)
+"mutualExTest.ml" 113 3308 3343 "mutualExTest.ml" 113 3308 3347
+type(
+  string
+)
+ident(
+  int_ref name "mutualExTest.ml" 100 3051 3058 "mutualExTest.ml" 100 3051 3062
+)
+"mutualExTest.ml" 113 3308 3349 "mutualExTest.ml" 113 3308 3370
+type(
+  insym_types:string list ->
+  types:typedef list -> vardefs:vardef list -> string
+)
+ident(
+  ext_ref ToStr.Smt2.context_of
+)
+"mutualExTest.ml" 113 3308 3384 "mutualExTest.ml" 113 3308 3386
+type(
+  string list
+)
+"mutualExTest.ml" 113 3308 3387 "mutualExTest.ml" 113 3308 3393
+type(
+  typedef list
+)
+ident(
+  int_ref types "mutualExTest.ml" 101 3064 3067 "mutualExTest.ml" 101 3064 3072
+)
+"mutualExTest.ml" 113 3308 3394 "mutualExTest.ml" 113 3308 3402
+type(
+  vardef list
+)
+ident(
+  int_ref vardefs "mutualExTest.ml" 102 3074 3077 "mutualExTest.ml" 102 3074 3084
+)
+"mutualExTest.ml" 113 3308 3349 "mutualExTest.ml" 113 3308 3402
+call(
+  stack
+)
+type(
+  string
+)
+"mutualExTest.ml" 113 3308 3327 "mutualExTest.ml" 113 3308 3403
+call(
+  stack
+)
+type(
+  bool
+)
+"mutualExTest.ml" 114 3409 3414 "mutualExTest.ml" 114 3409 3417
+type(
+  paramdef list
+)
+ident(
+  def pds "mutualExTest.ml" 115 3454 3454 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 114 3409 3418 "mutualExTest.ml" 114 3409 3421
+type(
+  paramref list
+)
+ident(
+  def prs "mutualExTest.ml" 115 3454 3454 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 114 3409 3422 "mutualExTest.ml" 114 3409 3425
+type(
+  Paramecium.formula
+)
+ident(
+  def f1' "mutualExTest.ml" 115 3454 3454 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 114 3409 3414 "mutualExTest.ml" 114 3409 3425
+type(
+  paramdef list * paramref list * Paramecium.formula
+)
+"mutualExTest.ml" 114 3409 3427 "mutualExTest.ml" 114 3409 3446
+type(
+  ?rename:bool ->
+  Paramecium.formula -> paramdef list * paramref list * Paramecium.formula
+)
+ident(
+  ext_ref Generalize.form_act
+)
+"mutualExTest.ml" 114 3409 3447 "mutualExTest.ml" 114 3409 3450
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref f11 "mutualExTest.ml" 110 3185 3215 "mutualExTest.ml" 110 3185 3218
+)
+"mutualExTest.ml" 114 3409 3427 "mutualExTest.ml" 114 3409 3450
+call(
+  stack
+)
+type(
+  paramdef list * paramref list * Paramecium.formula
+)
+"mutualExTest.ml" 115 3454 3458 "mutualExTest.ml" 115 3454 3471
+type(
+  paramdef list list
+)
+ident(
+  def partition_pds "mutualExTest.ml" 116 3526 3526 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 115 3454 3472 "mutualExTest.ml" 115 3454 3481
+type(
+  paramdef list -> f:(paramdef -> string) -> paramdef list list
+)
+ident(
+  ext_ref Utils.partition
+)
+"mutualExTest.ml" 115 3454 3482 "mutualExTest.ml" 115 3454 3485
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "mutualExTest.ml" 114 3409 3414 "mutualExTest.ml" 114 3409 3417
+)
+"mutualExTest.ml" 115 3454 3504 "mutualExTest.ml" 115 3454 3505
+type(
+  string
+)
+"mutualExTest.ml" 115 3454 3506 "mutualExTest.ml" 115 3454 3511
+type(
+  string
+)
+ident(
+  def tname "mutualExTest.ml" 115 3454 3516 "mutualExTest.ml" 115 3454 3521
+)
+"mutualExTest.ml" 115 3454 3495 "mutualExTest.ml" 115 3454 3512
+type(
+  paramdef
+)
+"mutualExTest.ml" 115 3454 3516 "mutualExTest.ml" 115 3454 3521
+type(
+  string
+)
+ident(
+  int_ref tname "mutualExTest.ml" 115 3454 3506 "mutualExTest.ml" 115 3454 3511
+)
+"mutualExTest.ml" 115 3454 3494 "mutualExTest.ml" 115 3454 3521
+type(
+  paramdef -> string
+)
+"mutualExTest.ml" 115 3454 3472 "mutualExTest.ml" 115 3454 3522
+call(
+  stack
+)
+type(
+  paramdef list list
+)
+"mutualExTest.ml" 116 3526 3530 "mutualExTest.ml" 116 3526 3536
+type(
+  paramdef list -> unit list
+)
+ident(
+  def printL "mutualExTest.ml" 119 3664 3664 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 116 3526 3537 "mutualExTest.ml" 116 3526 3538
+type(
+  paramdef list
+)
+ident(
+  def l "mutualExTest.ml" 117 3540 3541 "mutualExTest.ml" 118 3588 3660
+)
+"mutualExTest.ml" 117 3540 3545 "mutualExTest.ml" 117 3540 3547
+type(
+  unit
+)
+"mutualExTest.ml" 117 3540 3549 "mutualExTest.ml" 117 3540 3555
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 117 3540 3556 "mutualExTest.ml" 117 3540 3568
+type(
+  (int -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 117 3540 3570 "mutualExTest.ml" 117 3540 3581
+type(
+  paramdef list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"mutualExTest.ml" 117 3540 3582 "mutualExTest.ml" 117 3540 3583
+type(
+  paramdef list
+)
+ident(
+  int_ref l "mutualExTest.ml" 116 3526 3537 "mutualExTest.ml" 116 3526 3538
+)
+"mutualExTest.ml" 117 3540 3570 "mutualExTest.ml" 117 3540 3583
+call(
+  stack
+)
+type(
+  int
+)
+"mutualExTest.ml" 117 3540 3549 "mutualExTest.ml" 117 3540 3584
+call(
+  stack
+)
+type(
+  unit
+)
+"mutualExTest.ml" 118 3588 3589 "mutualExTest.ml" 118 3588 3597
+type(
+  paramdef list -> f:(paramdef -> unit) -> unit list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"mutualExTest.ml" 118 3588 3616 "mutualExTest.ml" 118 3588 3620
+type(
+  string
+)
+ident(
+  def name "mutualExTest.ml" 118 3588 3630 "mutualExTest.ml" 118 3588 3657
+)
+"mutualExTest.ml" 118 3588 3621 "mutualExTest.ml" 118 3588 3626
+type(
+  string
+)
+ident(
+  def tname "mutualExTest.ml" 118 3588 3630 "mutualExTest.ml" 118 3588 3657
+)
+"mutualExTest.ml" 118 3588 3607 "mutualExTest.ml" 118 3588 3627
+type(
+  paramdef
+)
+"mutualExTest.ml" 118 3588 3630 "mutualExTest.ml" 118 3588 3636
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 118 3588 3637 "mutualExTest.ml" 118 3588 3646
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 118 3588 3647 "mutualExTest.ml" 118 3588 3651
+type(
+  string
+)
+ident(
+  int_ref name "mutualExTest.ml" 118 3588 3616 "mutualExTest.ml" 118 3588 3620
+)
+"mutualExTest.ml" 118 3588 3652 "mutualExTest.ml" 118 3588 3657
+type(
+  string
+)
+ident(
+  int_ref tname "mutualExTest.ml" 118 3588 3621 "mutualExTest.ml" 118 3588 3626
+)
+"mutualExTest.ml" 118 3588 3630 "mutualExTest.ml" 118 3588 3657
+call(
+  tail
+)
+type(
+  unit
+)
+"mutualExTest.ml" 118 3588 3606 "mutualExTest.ml" 118 3588 3657
+type(
+  paramdef -> unit
+)
+"mutualExTest.ml" 118 3588 3659 "mutualExTest.ml" 118 3588 3660
+type(
+  paramdef list
+)
+ident(
+  int_ref l "mutualExTest.ml" 116 3526 3537 "mutualExTest.ml" 116 3526 3538
+)
+"mutualExTest.ml" 118 3588 3589 "mutualExTest.ml" 118 3588 3660
+call(
+  tail
+)
+type(
+  unit list
+)
+"mutualExTest.ml" 117 3540 3541 "mutualExTest.ml" 118 3588 3660
+type(
+  unit list
+)
+"mutualExTest.ml" 116 3526 3537 "mutualExTest.ml" 118 3588 3660
+type(
+  paramdef list -> unit list
+)
+"mutualExTest.ml" 119 3664 3668 "mutualExTest.ml" 119 3664 3675
+type(
+  paramdef list list -> unit list list
+)
+ident(
+  def printLL "mutualExTest.ml" 121 3765 3765 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 119 3664 3676 "mutualExTest.ml" 119 3664 3677
+type(
+  paramdef list list
+)
+ident(
+  def l "mutualExTest.ml" 119 3664 3678 "mutualExTest.ml" 120 3739 3761
+)
+"mutualExTest.ml" 119 3664 3682 "mutualExTest.ml" 119 3664 3684
+type(
+  unit
+)
+"mutualExTest.ml" 119 3664 3685 "mutualExTest.ml" 119 3664 3691
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 119 3664 3692 "mutualExTest.ml" 119 3664 3718
+type(
+  (int -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 119 3664 3720 "mutualExTest.ml" 119 3664 3731
+type(
+  paramdef list list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"mutualExTest.ml" 119 3664 3732 "mutualExTest.ml" 119 3664 3733
+type(
+  paramdef list list
+)
+ident(
+  int_ref l "mutualExTest.ml" 119 3664 3676 "mutualExTest.ml" 119 3664 3677
+)
+"mutualExTest.ml" 119 3664 3720 "mutualExTest.ml" 119 3664 3733
+call(
+  stack
+)
+type(
+  int
+)
+"mutualExTest.ml" 119 3664 3685 "mutualExTest.ml" 119 3664 3734
+call(
+  stack
+)
+type(
+  unit
+)
+"mutualExTest.ml" 120 3739 3741 "mutualExTest.ml" 120 3739 3749
+type(
+  paramdef list list -> f:(paramdef list -> unit list) -> unit list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"mutualExTest.ml" 120 3739 3753 "mutualExTest.ml" 120 3739 3759
+type(
+  paramdef list -> unit list
+)
+ident(
+  int_ref printL "mutualExTest.ml" 116 3526 3530 "mutualExTest.ml" 116 3526 3536
+)
+"mutualExTest.ml" 120 3739 3760 "mutualExTest.ml" 120 3739 3761
+type(
+  paramdef list list
+)
+ident(
+  int_ref l "mutualExTest.ml" 119 3664 3676 "mutualExTest.ml" 119 3664 3677
+)
+"mutualExTest.ml" 120 3739 3741 "mutualExTest.ml" 120 3739 3761
+call(
+  tail
+)
+type(
+  unit list list
+)
+"mutualExTest.ml" 119 3664 3678 "mutualExTest.ml" 120 3739 3761
+type(
+  unit list list
+)
+"mutualExTest.ml" 119 3664 3676 "mutualExTest.ml" 120 3739 3761
+type(
+  paramdef list list -> unit list list
+)
+"mutualExTest.ml" 121 3765 3769 "mutualExTest.ml" 121 3765 3772
+type(
+  unit list list
+)
+ident(
+  def lll "mutualExTest.ml" 122 3801 3801 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 121 3765 3775 "mutualExTest.ml" 121 3765 3782
+type(
+  paramdef list list -> unit list list
+)
+ident(
+  int_ref printLL "mutualExTest.ml" 119 3664 3668 "mutualExTest.ml" 119 3664 3675
+)
+"mutualExTest.ml" 121 3765 3784 "mutualExTest.ml" 121 3765 3797
+type(
+  paramdef list list
+)
+ident(
+  int_ref partition_pds "mutualExTest.ml" 115 3454 3458 "mutualExTest.ml" 115 3454 3471
+)
+"mutualExTest.ml" 121 3765 3775 "mutualExTest.ml" 121 3765 3797
+call(
+  stack
+)
+type(
+  unit list list
+)
+"mutualExTest.ml" 122 3801 3805 "mutualExTest.ml" 122 3801 3811
+type(
+  paramref list list
+)
+ident(
+  def prefss "mutualExTest.ml" 123 3880 3880 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 122 3801 3812 "mutualExTest.ml" 122 3801 3855
+type(
+  paramdef list list -> types:typedef list -> paramref list list
+)
+ident(
+  ext_ref Paramecium.cart_product_with_name_partition
+)
+"mutualExTest.ml" 122 3801 3856 "mutualExTest.ml" 122 3801 3869
+type(
+  paramdef list list
+)
+ident(
+  int_ref partition_pds "mutualExTest.ml" 115 3454 3458 "mutualExTest.ml" 115 3454 3471
+)
+"mutualExTest.ml" 122 3801 3870 "mutualExTest.ml" 122 3801 3876
+type(
+  typedef list
+)
+ident(
+  int_ref types "mutualExTest.ml" 101 3064 3067 "mutualExTest.ml" 101 3064 3072
+)
+"mutualExTest.ml" 122 3801 3812 "mutualExTest.ml" 122 3801 3876
+call(
+  stack
+)
+type(
+  paramref list list
+)
+"mutualExTest.ml" 123 3880 3884 "mutualExTest.ml" 123 3880 3890
+type(
+  paramref list -> unit list
+)
+ident(
+  def printL "mutualExTest.ml" 126 4010 4010 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 123 3880 3891 "mutualExTest.ml" 123 3880 3892
+type(
+  paramref list
+)
+ident(
+  def l "mutualExTest.ml" 124 3894 3895 "mutualExTest.ml" 125 3942 4006
+)
+"mutualExTest.ml" 124 3894 3899 "mutualExTest.ml" 124 3894 3901
+type(
+  unit
+)
+"mutualExTest.ml" 124 3894 3903 "mutualExTest.ml" 124 3894 3909
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 124 3894 3910 "mutualExTest.ml" 124 3894 3922
+type(
+  (int -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 124 3894 3924 "mutualExTest.ml" 124 3894 3935
+type(
+  paramref list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"mutualExTest.ml" 124 3894 3936 "mutualExTest.ml" 124 3894 3937
+type(
+  paramref list
+)
+ident(
+  int_ref l "mutualExTest.ml" 123 3880 3891 "mutualExTest.ml" 123 3880 3892
+)
+"mutualExTest.ml" 124 3894 3924 "mutualExTest.ml" 124 3894 3937
+call(
+  stack
+)
+type(
+  int
+)
+"mutualExTest.ml" 124 3894 3903 "mutualExTest.ml" 124 3894 3938
+call(
+  stack
+)
+type(
+  unit
+)
+"mutualExTest.ml" 125 3942 3943 "mutualExTest.ml" 125 3942 3951
+type(
+  paramref list -> f:(paramref -> unit) -> unit list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"mutualExTest.ml" 125 3942 3960 "mutualExTest.ml" 125 3942 3961
+type(
+  paramref
+)
+ident(
+  def x "mutualExTest.ml" 125 3942 3963 "mutualExTest.ml" 125 3942 4003
+)
+"mutualExTest.ml" 125 3942 3963 "mutualExTest.ml" 125 3942 3969
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 125 3942 3970 "mutualExTest.ml" 125 3942 3974
+type(
+  (string -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 125 3942 3976 "mutualExTest.ml" 125 3942 4000
+type(
+  paramref -> string
+)
+ident(
+  ext_ref ToStr.Debug.paramref_act
+)
+"mutualExTest.ml" 125 3942 4001 "mutualExTest.ml" 125 3942 4002
+type(
+  paramref
+)
+ident(
+  int_ref x "mutualExTest.ml" 125 3942 3960 "mutualExTest.ml" 125 3942 3961
+)
+"mutualExTest.ml" 125 3942 3976 "mutualExTest.ml" 125 3942 4002
+call(
+  stack
+)
+type(
+  string
+)
+"mutualExTest.ml" 125 3942 3963 "mutualExTest.ml" 125 3942 4003
+call(
+  tail
+)
+type(
+  unit
+)
+"mutualExTest.ml" 125 3942 3960 "mutualExTest.ml" 125 3942 4003
+type(
+  paramref -> unit
+)
+"mutualExTest.ml" 125 3942 4005 "mutualExTest.ml" 125 3942 4006
+type(
+  paramref list
+)
+ident(
+  int_ref l "mutualExTest.ml" 123 3880 3891 "mutualExTest.ml" 123 3880 3892
+)
+"mutualExTest.ml" 125 3942 3943 "mutualExTest.ml" 125 3942 4006
+call(
+  tail
+)
+type(
+  unit list
+)
+"mutualExTest.ml" 124 3894 3895 "mutualExTest.ml" 125 3942 4006
+type(
+  unit list
+)
+"mutualExTest.ml" 123 3880 3891 "mutualExTest.ml" 125 3942 4006
+type(
+  paramref list -> unit list
+)
+"mutualExTest.ml" 126 4010 4014 "mutualExTest.ml" 126 4010 4021
+type(
+  paramref list list -> unit list list
+)
+ident(
+  def printLL "mutualExTest.ml" 128 4111 4111 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 126 4010 4022 "mutualExTest.ml" 126 4010 4023
+type(
+  paramref list list
+)
+ident(
+  def l "mutualExTest.ml" 126 4010 4024 "mutualExTest.ml" 127 4085 4107
+)
+"mutualExTest.ml" 126 4010 4028 "mutualExTest.ml" 126 4010 4030
+type(
+  unit
+)
+"mutualExTest.ml" 126 4010 4031 "mutualExTest.ml" 126 4010 4037
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 126 4010 4038 "mutualExTest.ml" 126 4010 4064
+type(
+  (int -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 126 4010 4066 "mutualExTest.ml" 126 4010 4077
+type(
+  paramref list list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"mutualExTest.ml" 126 4010 4078 "mutualExTest.ml" 126 4010 4079
+type(
+  paramref list list
+)
+ident(
+  int_ref l "mutualExTest.ml" 126 4010 4022 "mutualExTest.ml" 126 4010 4023
+)
+"mutualExTest.ml" 126 4010 4066 "mutualExTest.ml" 126 4010 4079
+call(
+  stack
+)
+type(
+  int
+)
+"mutualExTest.ml" 126 4010 4031 "mutualExTest.ml" 126 4010 4080
+call(
+  stack
+)
+type(
+  unit
+)
+"mutualExTest.ml" 127 4085 4087 "mutualExTest.ml" 127 4085 4095
+type(
+  paramref list list -> f:(paramref list -> unit list) -> unit list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"mutualExTest.ml" 127 4085 4099 "mutualExTest.ml" 127 4085 4105
+type(
+  paramref list -> unit list
+)
+ident(
+  int_ref printL "mutualExTest.ml" 123 3880 3884 "mutualExTest.ml" 123 3880 3890
+)
+"mutualExTest.ml" 127 4085 4106 "mutualExTest.ml" 127 4085 4107
+type(
+  paramref list list
+)
+ident(
+  int_ref l "mutualExTest.ml" 126 4010 4022 "mutualExTest.ml" 126 4010 4023
+)
+"mutualExTest.ml" 127 4085 4087 "mutualExTest.ml" 127 4085 4107
+call(
+  tail
+)
+type(
+  unit list list
+)
+"mutualExTest.ml" 126 4010 4024 "mutualExTest.ml" 127 4085 4107
+type(
+  unit list list
+)
+"mutualExTest.ml" 126 4010 4022 "mutualExTest.ml" 127 4085 4107
+type(
+  paramref list list -> unit list list
+)
+"mutualExTest.ml" 128 4111 4115 "mutualExTest.ml" 128 4111 4118
+type(
+  unit list list
+)
+ident(
+  def lll "mutualExTest.ml" 129 4140 4140 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 128 4111 4121 "mutualExTest.ml" 128 4111 4128
+type(
+  paramref list list -> unit list list
+)
+ident(
+  int_ref printLL "mutualExTest.ml" 126 4010 4014 "mutualExTest.ml" 126 4010 4021
+)
+"mutualExTest.ml" 128 4111 4130 "mutualExTest.ml" 128 4111 4136
+type(
+  paramref list list
+)
+ident(
+  int_ref prefss "mutualExTest.ml" 122 3801 3805 "mutualExTest.ml" 122 3801 3811
+)
+"mutualExTest.ml" 128 4111 4121 "mutualExTest.ml" 128 4111 4136
+call(
+  stack
+)
+type(
+  unit list list
+)
+"mutualExTest.ml" 129 4140 4145 "mutualExTest.ml" 129 4140 4147
+type(
+  Paramecium.formula
+)
+ident(
+  def f1 "mutualExTest.ml" 131 4246 4246 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 129 4140 4149 "mutualExTest.ml" 129 4140 4170
+type(
+  Paramecium.formula -> p:paramref list -> Paramecium.formula
+)
+ident(
+  ext_ref Paramecium.apply_form
+)
+"mutualExTest.ml" 129 4140 4171 "mutualExTest.ml" 129 4140 4174
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref f11 "mutualExTest.ml" 110 3185 3215 "mutualExTest.ml" 110 3185 3218
+)
+"mutualExTest.ml" 130 4176 4177 "mutualExTest.ml" 130 4176 4185
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"mutualExTest.ml" 130 4176 4186 "mutualExTest.ml" 130 4176 4189
+type(
+  string
+)
+"mutualExTest.ml" 130 4176 4190 "mutualExTest.ml" 130 4176 4198
+type(
+  string
+)
+"mutualExTest.ml" 130 4176 4200 "mutualExTest.ml" 130 4176 4204
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"mutualExTest.ml" 130 4176 4205 "mutualExTest.ml" 130 4176 4207
+type(
+  int
+)
+"mutualExTest.ml" 130 4176 4200 "mutualExTest.ml" 130 4176 4207
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 130 4176 4177 "mutualExTest.ml" 130 4176 4208
+call(
+  stack
+)
+type(
+  paramref
+)
+"mutualExTest.ml" 130 4176 4210 "mutualExTest.ml" 130 4176 4218
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"mutualExTest.ml" 130 4176 4219 "mutualExTest.ml" 130 4176 4222
+type(
+  string
+)
+"mutualExTest.ml" 130 4176 4223 "mutualExTest.ml" 130 4176 4231
+type(
+  string
+)
+"mutualExTest.ml" 130 4176 4233 "mutualExTest.ml" 130 4176 4237
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"mutualExTest.ml" 130 4176 4238 "mutualExTest.ml" 130 4176 4240
+type(
+  int
+)
+"mutualExTest.ml" 130 4176 4233 "mutualExTest.ml" 130 4176 4240
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 130 4176 4210 "mutualExTest.ml" 130 4176 4241
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 130 4176 4177 "mutualExTest.ml" 130 4176 4241
+type(
+  paramref list
+)
+"mutualExTest.ml" 130 4176 4176 "mutualExTest.ml" 130 4176 4242
+type(
+  paramref list
+)
+"mutualExTest.ml" 129 4140 4149 "mutualExTest.ml" 130 4176 4242
+call(
+  stack
+)
+type(
+  Paramecium.formula
+)
+"mutualExTest.ml" 131 4246 4250 "mutualExTest.ml" 131 4246 4252
+type(
+  unit
+)
+"mutualExTest.ml" 131 4246 4253 "mutualExTest.ml" 131 4246 4259
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 131 4246 4260 "mutualExTest.ml" 131 4246 4272
+type(
+  (string -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 131 4246 4274 "mutualExTest.ml" 131 4246 4294
+type(
+  Paramecium.formula -> string
+)
+ident(
+  ext_ref ToStr.Debug.form_act
+)
+"mutualExTest.ml" 131 4246 4295 "mutualExTest.ml" 131 4246 4297
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref f1 "mutualExTest.ml" 129 4140 4145 "mutualExTest.ml" 129 4140 4147
+)
+"mutualExTest.ml" 131 4246 4274 "mutualExTest.ml" 131 4246 4297
+call(
+  stack
+)
+type(
+  string
+)
+"mutualExTest.ml" 131 4246 4253 "mutualExTest.ml" 131 4246 4298
+call(
+  stack
+)
+type(
+  unit
+)
+"mutualExTest.ml" 132 4302 4307 "mutualExTest.ml" 132 4302 4309
+type(
+  Paramecium.formula
+)
+ident(
+  def f1 "mutualExTest.ml" 134 4420 4420 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 132 4302 4311 "mutualExTest.ml" 132 4302 4332
+type(
+  Paramecium.formula -> p:paramref list -> Paramecium.formula
+)
+ident(
+  ext_ref Paramecium.apply_form
+)
+"mutualExTest.ml" 132 4302 4333 "mutualExTest.ml" 132 4302 4336
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref f1' "mutualExTest.ml" 114 3409 3422 "mutualExTest.ml" 114 3409 3425
+)
+"mutualExTest.ml" 133 4338 4339 "mutualExTest.ml" 133 4338 4347
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"mutualExTest.ml" 133 4338 4348 "mutualExTest.ml" 133 4338 4357
+type(
+  string
+)
+"mutualExTest.ml" 133 4338 4358 "mutualExTest.ml" 133 4338 4366
+type(
+  string
+)
+"mutualExTest.ml" 133 4338 4368 "mutualExTest.ml" 133 4338 4372
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"mutualExTest.ml" 133 4338 4373 "mutualExTest.ml" 133 4338 4375
+type(
+  int
+)
+"mutualExTest.ml" 133 4338 4368 "mutualExTest.ml" 133 4338 4375
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 133 4338 4339 "mutualExTest.ml" 133 4338 4376
+call(
+  stack
+)
+type(
+  paramref
+)
+"mutualExTest.ml" 133 4338 4378 "mutualExTest.ml" 133 4338 4386
+type(
+  string -> string -> const -> paramref
+)
+ident(
+  ext_ref Paramecium.paramfix
+)
+"mutualExTest.ml" 133 4338 4387 "mutualExTest.ml" 133 4338 4396
+type(
+  string
+)
+"mutualExTest.ml" 133 4338 4397 "mutualExTest.ml" 133 4338 4405
+type(
+  string
+)
+"mutualExTest.ml" 133 4338 4407 "mutualExTest.ml" 133 4338 4411
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"mutualExTest.ml" 133 4338 4412 "mutualExTest.ml" 133 4338 4414
+type(
+  int
+)
+"mutualExTest.ml" 133 4338 4407 "mutualExTest.ml" 133 4338 4414
+call(
+  stack
+)
+type(
+  const
+)
+"mutualExTest.ml" 133 4338 4378 "mutualExTest.ml" 133 4338 4415
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTest.ml" 133 4338 4339 "mutualExTest.ml" 133 4338 4415
+type(
+  paramref list
+)
+"mutualExTest.ml" 133 4338 4338 "mutualExTest.ml" 133 4338 4416
+type(
+  paramref list
+)
+"mutualExTest.ml" 132 4302 4311 "mutualExTest.ml" 133 4338 4416
+call(
+  stack
+)
+type(
+  Paramecium.formula
+)
+"mutualExTest.ml" 134 4420 4424 "mutualExTest.ml" 134 4420 4426
+type(
+  unit
+)
+"mutualExTest.ml" 134 4420 4427 "mutualExTest.ml" 134 4420 4433
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 134 4420 4434 "mutualExTest.ml" 134 4420 4440
+type(
+  (string -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 134 4420 4442 "mutualExTest.ml" 134 4420 4462
+type(
+  Paramecium.formula -> string
+)
+ident(
+  ext_ref ToStr.Debug.form_act
+)
+"mutualExTest.ml" 134 4420 4463 "mutualExTest.ml" 134 4420 4465
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref f1 "mutualExTest.ml" 132 4302 4307 "mutualExTest.ml" 132 4302 4309
+)
+"mutualExTest.ml" 134 4420 4442 "mutualExTest.ml" 134 4420 4465
+call(
+  stack
+)
+type(
+  string
+)
+"mutualExTest.ml" 134 4420 4427 "mutualExTest.ml" 134 4420 4466
+call(
+  stack
+)
+type(
+  unit
+)
+"mutualExTest.ml" 135 4470 4474 "mutualExTest.ml" 135 4470 4480
+type(
+  int
+)
+ident(
+  def result "mutualExTest.ml" 136 4508 4508 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 135 4470 4483 "mutualExTest.ml" 135 4470 4496
+type(
+  Paramecium.formula -> Paramecium.formula -> int
+)
+ident(
+  ext_ref Formula.symmetry_form
+)
+"mutualExTest.ml" 135 4470 4497 "mutualExTest.ml" 135 4470 4500
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref f11 "mutualExTest.ml" 110 3185 3215 "mutualExTest.ml" 110 3185 3218
+)
+"mutualExTest.ml" 135 4470 4501 "mutualExTest.ml" 135 4470 4504
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref f21 "mutualExTest.ml" 111 3226 3256 "mutualExTest.ml" 111 3226 3259
+)
+"mutualExTest.ml" 135 4470 4483 "mutualExTest.ml" 135 4470 4504
+call(
+  stack
+)
+type(
+  int
+)
+"mutualExTest.ml" 136 4508 4512 "mutualExTest.ml" 136 4508 4514
+type(
+  unit
+)
+"mutualExTest.ml" 136 4508 4515 "mutualExTest.ml" 136 4508 4521
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 136 4508 4522 "mutualExTest.ml" 136 4508 4526
+type(
+  (int -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 136 4508 4527 "mutualExTest.ml" 136 4508 4533
+type(
+  int
+)
+ident(
+  int_ref result "mutualExTest.ml" 135 4470 4474 "mutualExTest.ml" 135 4470 4480
+)
+"mutualExTest.ml" 136 4508 4515 "mutualExTest.ml" 136 4508 4533
+call(
+  stack
+)
+type(
+  unit
+)
+"mutualExTest.ml" 137 4537 4541 "mutualExTest.ml" 137 4537 4547
+type(
+  int
+)
+ident(
+  def result "mutualExTest.ml" 138 4575 4575 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 137 4537 4550 "mutualExTest.ml" 137 4537 4563
+type(
+  Paramecium.formula -> Paramecium.formula -> int
+)
+ident(
+  ext_ref Formula.symmetry_form
+)
+"mutualExTest.ml" 137 4537 4564 "mutualExTest.ml" 137 4537 4567
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref f11 "mutualExTest.ml" 110 3185 3215 "mutualExTest.ml" 110 3185 3218
+)
+"mutualExTest.ml" 137 4537 4568 "mutualExTest.ml" 137 4537 4571
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref f11 "mutualExTest.ml" 110 3185 3215 "mutualExTest.ml" 110 3185 3218
+)
+"mutualExTest.ml" 137 4537 4550 "mutualExTest.ml" 137 4537 4571
+call(
+  stack
+)
+type(
+  int
+)
+"mutualExTest.ml" 138 4575 4579 "mutualExTest.ml" 138 4575 4581
+type(
+  unit
+)
+"mutualExTest.ml" 138 4575 4582 "mutualExTest.ml" 138 4575 4588
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 138 4575 4589 "mutualExTest.ml" 138 4575 4593
+type(
+  (int -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 138 4575 4594 "mutualExTest.ml" 138 4575 4600
+type(
+  int
+)
+ident(
+  int_ref result "mutualExTest.ml" 137 4537 4541 "mutualExTest.ml" 137 4537 4547
+)
+"mutualExTest.ml" 138 4575 4582 "mutualExTest.ml" 138 4575 4600
+call(
+  stack
+)
+type(
+  unit
+)
+"mutualExTest.ml" 139 4604 4608 "mutualExTest.ml" 139 4604 4614
+type(
+  int
+)
+ident(
+  def result "mutualExTest.ml" 140 4642 4642 "mutualExTest.ml" 141 4675 4756
+)
+"mutualExTest.ml" 139 4604 4617 "mutualExTest.ml" 139 4604 4630
+type(
+  Paramecium.formula -> Paramecium.formula -> int
+)
+ident(
+  ext_ref Formula.symmetry_form
+)
+"mutualExTest.ml" 139 4604 4631 "mutualExTest.ml" 139 4604 4634
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref f11 "mutualExTest.ml" 110 3185 3215 "mutualExTest.ml" 110 3185 3218
+)
+"mutualExTest.ml" 139 4604 4635 "mutualExTest.ml" 139 4604 4638
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref f31 "mutualExTest.ml" 112 3267 3297 "mutualExTest.ml" 112 3267 3300
+)
+"mutualExTest.ml" 139 4604 4617 "mutualExTest.ml" 139 4604 4638
+call(
+  stack
+)
+type(
+  int
+)
+"mutualExTest.ml" 140 4642 4646 "mutualExTest.ml" 140 4642 4648
+type(
+  unit
+)
+"mutualExTest.ml" 140 4642 4649 "mutualExTest.ml" 140 4642 4655
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 140 4642 4656 "mutualExTest.ml" 140 4642 4664
+type(
+  (int -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 140 4642 4665 "mutualExTest.ml" 140 4642 4671
+type(
+  int
+)
+ident(
+  int_ref result "mutualExTest.ml" 139 4604 4608 "mutualExTest.ml" 139 4604 4614
+)
+"mutualExTest.ml" 140 4642 4649 "mutualExTest.ml" 140 4642 4671
+call(
+  stack
+)
+type(
+  unit
+)
+"mutualExTest.ml" 141 4675 4675 "mutualExTest.ml" 141 4675 4681
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 141 4675 4682 "mutualExTest.ml" 141 4675 4693
+type(
+  (string -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 141 4675 4695 "mutualExTest.ml" 141 4675 4715
+type(
+  Paramecium.formula -> string
+)
+ident(
+  ext_ref ToStr.Debug.form_act
+)
+"mutualExTest.ml" 141 4675 4717 "mutualExTest.ml" 141 4675 4740
+type(
+  f:Paramecium.formula -> types:typedef list -> Paramecium.formula
+)
+ident(
+  ext_ref Formula.form2AllSymForm
+)
+"mutualExTest.ml" 141 4675 4744 "mutualExTest.ml" 141 4675 4747
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref f31 "mutualExTest.ml" 112 3267 3297 "mutualExTest.ml" 112 3267 3300
+)
+"mutualExTest.ml" 141 4675 4748 "mutualExTest.ml" 141 4675 4754
+type(
+  typedef list
+)
+ident(
+  int_ref types "mutualExTest.ml" 101 3064 3067 "mutualExTest.ml" 101 3064 3072
+)
+"mutualExTest.ml" 141 4675 4717 "mutualExTest.ml" 141 4675 4754
+call(
+  stack
+)
+type(
+  Paramecium.formula
+)
+"mutualExTest.ml" 141 4675 4695 "mutualExTest.ml" 141 4675 4755
+call(
+  stack
+)
+type(
+  string
+)
+"mutualExTest.ml" 141 4675 4675 "mutualExTest.ml" 141 4675 4756
+call(
+  stack
+)
+type(
+  unit
+)
+"mutualExTest.ml" 140 4642 4642 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 139 4604 4604 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 138 4575 4575 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 137 4537 4537 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 136 4508 4508 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 135 4470 4470 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 134 4420 4420 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 132 4302 4302 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 131 4246 4246 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 129 4140 4140 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 128 4111 4111 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 126 4010 4010 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 123 3880 3880 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 122 3801 3801 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 121 3765 3765 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 119 3664 3664 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 116 3526 3526 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 115 3454 3454 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 114 3409 3409 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 113 3308 3308 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 112 3267 3267 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 111 3226 3226 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 110 3185 3185 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 109 3153 3153 "mutualExTest.ml" 141 4675 4756
+type(
+  unit
+)
+"mutualExTest.ml" 143 4758 4762 "mutualExTest.ml" 143 4758 4763
+type(
+  int list list list
+)
+ident(
+  def l "mutualExTest.ml" 144 4838 4838 "mutualExTest.ml" 153 5155 5166
+)
+"mutualExTest.ml" 143 4758 4767 "mutualExTest.ml" 143 4758 4768
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4769 "mutualExTest.ml" 143 4758 4770
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4771 "mutualExTest.ml" 143 4758 4772
+type(
+  int
+)
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4769 "mutualExTest.ml" 143 4758 4772
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4767 "mutualExTest.ml" 143 4758 4772
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4766 "mutualExTest.ml" 143 4758 4773
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4775 "mutualExTest.ml" 143 4758 4776
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4777 "mutualExTest.ml" 143 4758 4778
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4779 "mutualExTest.ml" 143 4758 4780
+type(
+  int
+)
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4777 "mutualExTest.ml" 143 4758 4780
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4775 "mutualExTest.ml" 143 4758 4780
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4774 "mutualExTest.ml" 143 4758 4781
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4783 "mutualExTest.ml" 143 4758 4784
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4785 "mutualExTest.ml" 143 4758 4786
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4787 "mutualExTest.ml" 143 4758 4788
+type(
+  int
+)
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4785 "mutualExTest.ml" 143 4758 4788
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4783 "mutualExTest.ml" 143 4758 4788
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4782 "mutualExTest.ml" 143 4758 4789
+type(
+  int list
+)
+type(
+  int list list
+)
+"mutualExTest.ml" 143 4758 4774 "mutualExTest.ml" 143 4758 4789
+type(
+  int list list
+)
+"mutualExTest.ml" 143 4758 4766 "mutualExTest.ml" 143 4758 4789
+type(
+  int list list
+)
+"mutualExTest.ml" 143 4758 4765 "mutualExTest.ml" 143 4758 4790
+type(
+  int list list
+)
+"mutualExTest.ml" 143 4758 4793 "mutualExTest.ml" 143 4758 4794
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4795 "mutualExTest.ml" 143 4758 4796
+type(
+  int
+)
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4793 "mutualExTest.ml" 143 4758 4796
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4792 "mutualExTest.ml" 143 4758 4797
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4799 "mutualExTest.ml" 143 4758 4800
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4801 "mutualExTest.ml" 143 4758 4802
+type(
+  int
+)
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4799 "mutualExTest.ml" 143 4758 4802
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4798 "mutualExTest.ml" 143 4758 4803
+type(
+  int list
+)
+type(
+  int list list
+)
+"mutualExTest.ml" 143 4758 4792 "mutualExTest.ml" 143 4758 4803
+type(
+  int list list
+)
+"mutualExTest.ml" 143 4758 4791 "mutualExTest.ml" 143 4758 4804
+type(
+  int list list
+)
+"mutualExTest.ml" 143 4758 4807 "mutualExTest.ml" 143 4758 4808
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4809 "mutualExTest.ml" 143 4758 4810
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4811 "mutualExTest.ml" 143 4758 4812
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4811 "mutualExTest.ml" 143 4758 4813
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4809 "mutualExTest.ml" 143 4758 4813
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4807 "mutualExTest.ml" 143 4758 4813
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4806 "mutualExTest.ml" 143 4758 4814
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4816 "mutualExTest.ml" 143 4758 4817
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4818 "mutualExTest.ml" 143 4758 4819
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4820 "mutualExTest.ml" 143 4758 4821
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4820 "mutualExTest.ml" 143 4758 4822
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4818 "mutualExTest.ml" 143 4758 4822
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4816 "mutualExTest.ml" 143 4758 4822
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4815 "mutualExTest.ml" 143 4758 4823
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4825 "mutualExTest.ml" 143 4758 4826
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4827 "mutualExTest.ml" 143 4758 4828
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4829 "mutualExTest.ml" 143 4758 4830
+type(
+  int
+)
+"mutualExTest.ml" 143 4758 4829 "mutualExTest.ml" 143 4758 4831
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4827 "mutualExTest.ml" 143 4758 4831
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4825 "mutualExTest.ml" 143 4758 4831
+type(
+  int list
+)
+"mutualExTest.ml" 143 4758 4824 "mutualExTest.ml" 143 4758 4832
+type(
+  int list
+)
+type(
+  int list list
+)
+"mutualExTest.ml" 143 4758 4815 "mutualExTest.ml" 143 4758 4832
+type(
+  int list list
+)
+"mutualExTest.ml" 143 4758 4806 "mutualExTest.ml" 143 4758 4832
+type(
+  int list list
+)
+"mutualExTest.ml" 143 4758 4805 "mutualExTest.ml" 143 4758 4833
+type(
+  int list list
+)
+type(
+  int list list list
+)
+"mutualExTest.ml" 143 4758 4791 "mutualExTest.ml" 143 4758 4833
+type(
+  int list list list
+)
+"mutualExTest.ml" 143 4758 4765 "mutualExTest.ml" 143 4758 4833
+type(
+  int list list list
+)
+"mutualExTest.ml" 143 4758 4764 "mutualExTest.ml" 143 4758 4834
+type(
+  int list list list
+)
+"mutualExTest.ml" 144 4838 4842 "mutualExTest.ml" 144 4838 4844
+type(
+  int list list list
+)
+ident(
+  def l0 "mutualExTest.ml" 145 4874 4874 "mutualExTest.ml" 153 5155 5166
+)
+"mutualExTest.ml" 144 4838 4845 "mutualExTest.ml" 144 4838 4868
+type(
+  int list list list -> int list list list
+)
+ident(
+  ext_ref Utils.cartesian_product
+)
+"mutualExTest.ml" 144 4838 4869 "mutualExTest.ml" 144 4838 4870
+type(
+  int list list list
+)
+ident(
+  int_ref l "mutualExTest.ml" 143 4758 4762 "mutualExTest.ml" 143 4758 4763
+)
+"mutualExTest.ml" 144 4838 4845 "mutualExTest.ml" 144 4838 4870
+call(
+  stack
+)
+type(
+  int list list list
+)
+"mutualExTest.ml" 145 4874 4878 "mutualExTest.ml" 145 4874 4884
+type(
+  int list -> unit list
+)
+ident(
+  def printL "mutualExTest.ml" 148 4969 4969 "mutualExTest.ml" 153 5155 5166
+)
+"mutualExTest.ml" 145 4874 4885 "mutualExTest.ml" 145 4874 4886
+type(
+  int list
+)
+ident(
+  def l "mutualExTest.ml" 146 4888 4889 "mutualExTest.ml" 147 4936 4965
+)
+"mutualExTest.ml" 146 4888 4893 "mutualExTest.ml" 146 4888 4895
+type(
+  unit
+)
+"mutualExTest.ml" 146 4888 4897 "mutualExTest.ml" 146 4888 4903
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 146 4888 4904 "mutualExTest.ml" 146 4888 4916
+type(
+  (int -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 146 4888 4918 "mutualExTest.ml" 146 4888 4929
+type(
+  int list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"mutualExTest.ml" 146 4888 4930 "mutualExTest.ml" 146 4888 4931
+type(
+  int list
+)
+ident(
+  int_ref l "mutualExTest.ml" 145 4874 4885 "mutualExTest.ml" 145 4874 4886
+)
+"mutualExTest.ml" 146 4888 4918 "mutualExTest.ml" 146 4888 4931
+call(
+  stack
+)
+type(
+  int
+)
+"mutualExTest.ml" 146 4888 4897 "mutualExTest.ml" 146 4888 4932
+call(
+  stack
+)
+type(
+  unit
+)
+"mutualExTest.ml" 147 4936 4937 "mutualExTest.ml" 147 4936 4945
+type(
+  int list -> f:(int -> unit) -> unit list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"mutualExTest.ml" 147 4936 4950 "mutualExTest.ml" 147 4936 4956
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 147 4936 4957 "mutualExTest.ml" 147 4936 4962
+type(
+  (int -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 147 4936 4950 "mutualExTest.ml" 147 4936 4962
+call(
+  stack
+)
+type(
+  int -> unit
+)
+"mutualExTest.ml" 147 4936 4964 "mutualExTest.ml" 147 4936 4965
+type(
+  int list
+)
+ident(
+  int_ref l "mutualExTest.ml" 145 4874 4885 "mutualExTest.ml" 145 4874 4886
+)
+"mutualExTest.ml" 147 4936 4937 "mutualExTest.ml" 147 4936 4965
+call(
+  tail
+)
+type(
+  unit list
+)
+"mutualExTest.ml" 146 4888 4889 "mutualExTest.ml" 147 4936 4965
+type(
+  unit list
+)
+"mutualExTest.ml" 145 4874 4885 "mutualExTest.ml" 147 4936 4965
+type(
+  int list -> unit list
+)
+"mutualExTest.ml" 148 4969 4973 "mutualExTest.ml" 148 4969 4980
+type(
+  int list list -> unit list list
+)
+ident(
+  def printLL "mutualExTest.ml" 150 5060 5060 "mutualExTest.ml" 153 5155 5166
+)
+"mutualExTest.ml" 148 4969 4981 "mutualExTest.ml" 148 4969 4982
+type(
+  int list list
+)
+ident(
+  def l "mutualExTest.ml" 148 4969 4983 "mutualExTest.ml" 149 5034 5056
+)
+"mutualExTest.ml" 148 4969 4987 "mutualExTest.ml" 148 4969 4989
+type(
+  unit
+)
+"mutualExTest.ml" 148 4969 4990 "mutualExTest.ml" 148 4969 4996
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 148 4969 4997 "mutualExTest.ml" 148 4969 5013
+type(
+  (int -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 148 4969 5015 "mutualExTest.ml" 148 4969 5026
+type(
+  int list list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"mutualExTest.ml" 148 4969 5027 "mutualExTest.ml" 148 4969 5028
+type(
+  int list list
+)
+ident(
+  int_ref l "mutualExTest.ml" 148 4969 4981 "mutualExTest.ml" 148 4969 4982
+)
+"mutualExTest.ml" 148 4969 5015 "mutualExTest.ml" 148 4969 5028
+call(
+  stack
+)
+type(
+  int
+)
+"mutualExTest.ml" 148 4969 4990 "mutualExTest.ml" 148 4969 5029
+call(
+  stack
+)
+type(
+  unit
+)
+"mutualExTest.ml" 149 5034 5036 "mutualExTest.ml" 149 5034 5044
+type(
+  int list list -> f:(int list -> unit list) -> unit list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"mutualExTest.ml" 149 5034 5048 "mutualExTest.ml" 149 5034 5054
+type(
+  int list -> unit list
+)
+ident(
+  int_ref printL "mutualExTest.ml" 145 4874 4878 "mutualExTest.ml" 145 4874 4884
+)
+"mutualExTest.ml" 149 5034 5055 "mutualExTest.ml" 149 5034 5056
+type(
+  int list list
+)
+ident(
+  int_ref l "mutualExTest.ml" 148 4969 4981 "mutualExTest.ml" 148 4969 4982
+)
+"mutualExTest.ml" 149 5034 5036 "mutualExTest.ml" 149 5034 5056
+call(
+  tail
+)
+type(
+  unit list list
+)
+"mutualExTest.ml" 148 4969 4983 "mutualExTest.ml" 149 5034 5056
+type(
+  unit list list
+)
+"mutualExTest.ml" 148 4969 4981 "mutualExTest.ml" 149 5034 5056
+type(
+  int list list -> unit list list
+)
+"mutualExTest.ml" 150 5060 5064 "mutualExTest.ml" 150 5060 5072
+type(
+  int list list list -> unit list list list
+)
+ident(
+  def printLLL "mutualExTest.ml" 153 5155 5155 "mutualExTest.ml" 153 5155 5166
+)
+"mutualExTest.ml" 150 5060 5073 "mutualExTest.ml" 150 5060 5074
+type(
+  int list list list
+)
+ident(
+  def l "mutualExTest.ml" 151 5076 5078 "mutualExTest.ml" 152 5128 5151
+)
+"mutualExTest.ml" 151 5076 5082 "mutualExTest.ml" 151 5076 5084
+type(
+  unit
+)
+"mutualExTest.ml" 151 5076 5085 "mutualExTest.ml" 151 5076 5091
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Core.Std.printf
+)
+"mutualExTest.ml" 151 5076 5092 "mutualExTest.ml" 151 5076 5107
+type(
+  (int -> unit, out_channel, unit) format
+)
+"mutualExTest.ml" 151 5076 5109 "mutualExTest.ml" 151 5076 5120
+type(
+  int list list list -> int
+)
+ident(
+  ext_ref Core.Std.List.length
+)
+"mutualExTest.ml" 151 5076 5121 "mutualExTest.ml" 151 5076 5122
+type(
+  int list list list
+)
+ident(
+  int_ref l "mutualExTest.ml" 150 5060 5073 "mutualExTest.ml" 150 5060 5074
+)
+"mutualExTest.ml" 151 5076 5109 "mutualExTest.ml" 151 5076 5122
+call(
+  stack
+)
+type(
+  int
+)
+"mutualExTest.ml" 151 5076 5085 "mutualExTest.ml" 151 5076 5123
+call(
+  stack
+)
+type(
+  unit
+)
+"mutualExTest.ml" 152 5128 5130 "mutualExTest.ml" 152 5128 5138
+type(
+  int list list list ->
+  f:(int list list -> unit list list) -> unit list list list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"mutualExTest.ml" 152 5128 5142 "mutualExTest.ml" 152 5128 5149
+type(
+  int list list -> unit list list
+)
+ident(
+  int_ref printLL "mutualExTest.ml" 148 4969 4973 "mutualExTest.ml" 148 4969 4980
+)
+"mutualExTest.ml" 152 5128 5150 "mutualExTest.ml" 152 5128 5151
+type(
+  int list list list
+)
+ident(
+  int_ref l "mutualExTest.ml" 150 5060 5073 "mutualExTest.ml" 150 5060 5074
+)
+"mutualExTest.ml" 152 5128 5130 "mutualExTest.ml" 152 5128 5151
+call(
+  tail
+)
+type(
+  unit list list list
+)
+"mutualExTest.ml" 151 5076 5078 "mutualExTest.ml" 152 5128 5151
+type(
+  unit list list list
+)
+"mutualExTest.ml" 150 5060 5073 "mutualExTest.ml" 152 5128 5151
+type(
+  int list list list -> unit list list list
+)
+"mutualExTest.ml" 153 5155 5155 "mutualExTest.ml" 153 5155 5163
+type(
+  int list list list -> unit list list list
+)
+ident(
+  int_ref printLLL "mutualExTest.ml" 150 5060 5064 "mutualExTest.ml" 150 5060 5072
+)
+"mutualExTest.ml" 153 5155 5164 "mutualExTest.ml" 153 5155 5166
+type(
+  int list list list
+)
+ident(
+  int_ref l0 "mutualExTest.ml" 144 4838 4842 "mutualExTest.ml" 144 4838 4844
+)
+"mutualExTest.ml" 153 5155 5155 "mutualExTest.ml" 153 5155 5166
+call(
+  stack
+)
+type(
+  unit list list list
+)
+"mutualExTest.ml" 150 5060 5060 "mutualExTest.ml" 153 5155 5166
+type(
+  unit list list list
+)
+"mutualExTest.ml" 148 4969 4969 "mutualExTest.ml" 153 5155 5166
+type(
+  unit list list list
+)
+"mutualExTest.ml" 145 4874 4874 "mutualExTest.ml" 153 5155 5166
+type(
+  unit list list list
+)
+"mutualExTest.ml" 144 4838 4838 "mutualExTest.ml" 153 5155 5166
+type(
+  unit list list list
+)
+"mutualExTest.ml" 143 4758 4758 "mutualExTest.ml" 153 5155 5166
+type(
+  unit list list list
+)

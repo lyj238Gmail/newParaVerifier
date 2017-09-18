@@ -1,4 +1,4 @@
-const clientNUMS : 5;
+const clientNUMS : 2;
 type state : enum{I, T, C, E};
 
      client: 1..clientNUMS;
@@ -33,3 +33,7 @@ begin
   x := true;
 endstartstate;
 
+ruleset i:client; j: client do
+invariant "coherence"
+  i != j -> (n[i] = C -> n[j] != C);
+endruleset;

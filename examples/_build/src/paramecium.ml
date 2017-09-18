@@ -206,7 +206,21 @@ let cart_product_with_paramfix paramdefs types =
   |> List.map ~f:(fun (Paramdef(n, tname)) -> (n, (tname, name2type ~tname ~types)))
   |> List.map ~f:(fun (n, (tname, trange)) -> List.map trange ~f:(fun x -> paramfix n tname x))
   |> cartesian_product
-
+  
+let auxZippdsConsts pdfs constss= 
+ List.map ~f:(fun consts ->(List.map2_exn ~f:(fun (Paramdef(n, tname))-> (fun c ->Paramfix(n,tname,c))) pdfs consts)) constss
+  
+let cart_product_with_name_partition paramdef_partitions ~types =
+  paramdef_partitions
+  |> List.map ~f:(fun paramDefList ->
+  										 let Some(Paramdef(n, tname))=List.hd paramDefList in
+  										 let len=List.length paramDefList in
+  										 let  range= name2type ~tname ~types in
+  										 let  comb_perms=combination_permutation range len in
+  										 auxZippdsConsts paramDefList comb_perms )
+  
+  |> cartesian_product  
+  |>List.map ~f:(fun list ->List.concat list)
 (** Get the name of parameter
     e.g., For parameter Paramfix("x", "bool", Boolc true)), generate "x"
     For parameter Paramref("n"), generate "n"

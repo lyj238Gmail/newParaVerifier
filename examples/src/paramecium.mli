@@ -178,6 +178,8 @@ val name2type : tname:string -> types:typedef list -> const list
 *)
 val cart_product_with_paramfix : paramdef list -> typedef list -> paramref list list
 
+val cart_product_with_name_partition : paramdef list list-> types:typedef list -> paramref list list
+
 (** Get the name of parameter
     e.g., For parameter Paramfix("x", "bool", Boolc true)), generate "x"
     For parameter Paramref("n"), generate "n"

@@ -1,6 +1,6 @@
 const
 
-  NODE_NUM : 5;
+  NODE_NUM : 3;
   DATA_NUM : 2;
 
 type
@@ -121,6 +121,11 @@ ruleset i : NODE do rule "RecvGntE"
   Cache[i].State := E; Cache[i].Data := Chan2[i].Data;
   Chan2[i].Cmd := Empty;
 endrule; endruleset;
+
+ 
+
+
+
 
 
 

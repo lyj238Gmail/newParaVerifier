@@ -14,6 +14,7 @@ open Core.Std
     @param vardefs variable definitions
 *)
 let is_tautology ?(quiet=true) form =
+  (*et ()=printf "\n---%s---\n" (ToStr.Smt2.form_of form) in*)
   not (Smt.is_satisfiable ~quiet (ToStr.Smt2.form_of (neg form)))
 
 (** Judge if a formula is satisfiable *)
@@ -344,7 +345,8 @@ let param_compatible
   end
 
 (* Decide if formula cons could be implied by ant *)
-let can_imply ant cons =
+let can_imply ant cons ?(symIndex=true) =
+ if symIndex then
   let ant_vars = VarNames.of_form ant in
   let cons_vars = VarNames.of_form cons in
   let (ant_pd, ant_p, ant_gened) = Generalize.form_act ant in
@@ -376,8 +378,30 @@ let can_imply ant cons =
     in
     has_implied params
   end
+ else
+   begin 
+   let ()=printf "exe symIndex=false\n" in
+   if is_tautology (imply (simplify ant) cons) then Some ant
+    else begin None end
+   end
 
 let symmetry_form f1 f2 =
-  match can_imply f1 f2, can_imply f2 f1 with
+  match can_imply f1 f2 ~symIndex:true, can_imply f2 f1 ~symIndex:true with
   | Some(_), Some(_) -> 0
   | _ -> String.compare (ToStr.Smv.form_act f1) (ToStr.Smv.form_act f2)
+  
+(*input: a concrete formula: f; typedefs: ~types；
+generate all possible substitutions sub in types
+for each sub: apply_form f sub and add it into fs 
+output andList fs*)
+
+let form2AllSymForm ~f ~types=
+	 let (pds,prs,pf)=Generalize.form_act f in	
+	 match pds with
+	 |[] -> f   
+	 | _ ->
+   let partition_pds=partition pds ~f:(fun (Paramdef(_,tname))-> tname) in
+   let prefss=Paramecium.cart_product_with_name_partition partition_pds ~types in
+	 let fs=List.map ~f:(fun sub->Paramecium.apply_form pf sub) prefss in
+	 andList fs
+  

@@ -248,7 +248,10 @@ module Smt2 = struct
       |> List.map ~f:(vardef_act ~types)
       |> String.concat ~sep:"\n"
     in
+   (*let ()=printf "%s%s" type_str vardef_str in*)
     sprintf "%s%s" type_str vardef_str
+    
+ 
 
   let form_of form =
     sprintf "(assert %s)" (form_act form)

@@ -1,0 +1,6626 @@
+"src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+type(
+  int ref
+)
+ident(
+  def spaces "src/toMurphi.ml" 15 80 80 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 13 60 73 "src/toMurphi.ml" 13 60 76
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/toMurphi.ml" 13 60 77 "src/toMurphi.ml" 13 60 78
+type(
+  int
+)
+"src/toMurphi.ml" 13 60 73 "src/toMurphi.ml" 13 60 78
+type(
+  int ref
+)
+"src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+type(
+  unit -> string
+)
+ident(
+  def gen_spaces "src/toMurphi.ml" 17 128 128 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 15 80 95 "src/toMurphi.ml" 15 80 97
+type(
+  unit
+)
+"src/toMurphi.ml" 15 80 100 "src/toMurphi.ml" 15 80 111
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref Core.Std.String.make
+)
+"src/toMurphi.ml" 15 80 114 "src/toMurphi.ml" 15 80 120
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 15 80 113 "src/toMurphi.ml" 15 80 120
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/toMurphi.ml" 15 80 122 "src/toMurphi.ml" 15 80 125
+type(
+  char
+)
+"src/toMurphi.ml" 15 80 100 "src/toMurphi.ml" 15 80 125
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 15 80 95 "src/toMurphi.ml" 15 80 125
+type(
+  unit -> string
+)
+"src/toMurphi.ml" 17 128 132 "src/toMurphi.ml" 17 128 141
+type(
+  const -> string
+)
+ident(
+  def const_act "src/toMurphi.ml" 28 248 248 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 17 128 142 "src/toMurphi.ml" 17 128 143
+type(
+  const
+)
+ident(
+  def c "src/toMurphi.ml" 18 146 148 "src/toMurphi.ml" 21 209 241
+)
+"src/toMurphi.ml" 18 146 154 "src/toMurphi.ml" 18 146 155
+type(
+  const
+)
+ident(
+  int_ref c "src/toMurphi.ml" 17 128 142 "src/toMurphi.ml" 17 128 143
+)
+"src/toMurphi.ml" 19 161 170 "src/toMurphi.ml" 19 161 171
+type(
+  int
+)
+ident(
+  def i "src/toMurphi.ml" 19 161 176 "src/toMurphi.ml" 19 161 191
+)
+"src/toMurphi.ml" 19 161 165 "src/toMurphi.ml" 19 161 172
+type(
+  const
+)
+"src/toMurphi.ml" 19 161 176 "src/toMurphi.ml" 19 161 189
+type(
+  int -> string
+)
+ident(
+  ext_ref Core.Std.Int.to_string
+)
+"src/toMurphi.ml" 19 161 190 "src/toMurphi.ml" 19 161 191
+type(
+  int
+)
+ident(
+  int_ref i "src/toMurphi.ml" 19 161 170 "src/toMurphi.ml" 19 161 171
+)
+"src/toMurphi.ml" 19 161 176 "src/toMurphi.ml" 19 161 191
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 20 192 201 "src/toMurphi.ml" 20 192 202
+type(
+  string
+)
+ident(
+  def s "src/toMurphi.ml" 20 192 207 "src/toMurphi.ml" 20 192 208
+)
+"src/toMurphi.ml" 20 192 196 "src/toMurphi.ml" 20 192 203
+type(
+  const
+)
+"src/toMurphi.ml" 20 192 207 "src/toMurphi.ml" 20 192 208
+type(
+  string
+)
+ident(
+  int_ref s "src/toMurphi.ml" 20 192 201 "src/toMurphi.ml" 20 192 202
+)
+"src/toMurphi.ml" 21 209 219 "src/toMurphi.ml" 21 209 220
+type(
+  bool
+)
+ident(
+  def b "src/toMurphi.ml" 21 209 225 "src/toMurphi.ml" 21 209 241
+)
+"src/toMurphi.ml" 21 209 213 "src/toMurphi.ml" 21 209 221
+type(
+  const
+)
+"src/toMurphi.ml" 21 209 225 "src/toMurphi.ml" 21 209 239
+type(
+  bool -> string
+)
+ident(
+  ext_ref Core.Std.Bool.to_string
+)
+"src/toMurphi.ml" 21 209 240 "src/toMurphi.ml" 21 209 241
+type(
+  bool
+)
+ident(
+  int_ref b "src/toMurphi.ml" 21 209 219 "src/toMurphi.ml" 21 209 220
+)
+"src/toMurphi.ml" 21 209 225 "src/toMurphi.ml" 21 209 241
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 18 146 148 "src/toMurphi.ml" 21 209 241
+type(
+  string
+)
+"src/toMurphi.ml" 17 128 142 "src/toMurphi.ml" 21 209 241
+type(
+  const -> string
+)
+"src/toMurphi.ml" 28 248 252 "src/toMurphi.ml" 28 248 260
+type(
+  typedef -> string
+)
+ident(
+  def type_act "src/toMurphi.ml" 51 737 737 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 28 248 261 "src/toMurphi.ml" 28 248 262
+type(
+  typedef
+)
+ident(
+  def t "src/toMurphi.ml" 29 266 268 "src/toMurphi.ml" 42 698 728
+)
+"src/toMurphi.ml" 29 266 277 "src/toMurphi.ml" 29 266 281
+type(
+  string
+)
+ident(
+  def name "src/toMurphi.ml" 30 298 300 "src/toMurphi.ml" 42 698 728
+)
+"src/toMurphi.ml" 29 266 283 "src/toMurphi.ml" 29 266 289
+type(
+  const list
+)
+ident(
+  def consts "src/toMurphi.ml" 30 298 300 "src/toMurphi.ml" 42 698 728
+)
+"src/toMurphi.ml" 29 266 272 "src/toMurphi.ml" 29 266 290
+type(
+  typedef
+)
+"src/toMurphi.ml" 29 266 293 "src/toMurphi.ml" 29 266 294
+type(
+  typedef
+)
+ident(
+  int_ref t "src/toMurphi.ml" 28 248 261 "src/toMurphi.ml" 28 248 262
+)
+"src/toMurphi.ml" 30 298 306 "src/toMurphi.ml" 30 298 312
+type(
+  const list
+)
+ident(
+  int_ref consts "src/toMurphi.ml" 29 266 283 "src/toMurphi.ml" 29 266 289
+)
+"src/toMurphi.ml" 31 318 322 "src/toMurphi.ml" 31 318 323
+type(
+  const
+)
+ident(
+  def c "src/toMurphi.ml" 33 340 346 "src/toMurphi.ml" 40 607 689
+)
+"src/toMurphi.ml" 31 318 325 "src/toMurphi.ml" 31 318 326
+type(
+  const list
+)
+"src/toMurphi.ml" 31 318 322 "src/toMurphi.ml" 31 318 326
+type(
+  const list
+)
+"src/toMurphi.ml" 33 340 352 "src/toMurphi.ml" 33 340 353
+type(
+  const
+)
+ident(
+  int_ref c "src/toMurphi.ml" 31 318 322 "src/toMurphi.ml" 31 318 323
+)
+"src/toMurphi.ml" 34 359 373 "src/toMurphi.ml" 34 359 374
+type(
+  bool
+)
+"src/toMurphi.ml" 34 359 367 "src/toMurphi.ml" 34 359 375
+type(
+  const
+)
+"src/toMurphi.ml" 34 359 379 "src/toMurphi.ml" 34 359 381
+type(
+  string
+)
+"src/toMurphi.ml" 35 382 395 "src/toMurphi.ml" 35 382 396
+type(
+  string
+)
+"src/toMurphi.ml" 35 382 390 "src/toMurphi.ml" 35 382 397
+type(
+  const
+)
+"src/toMurphi.ml" 36 401 413 "src/toMurphi.ml" 36 401 422
+type(
+  string
+)
+ident(
+  def items_str "src/toMurphi.ml" 37 483 491 "src/toMurphi.ml" 37 483 548
+)
+"src/toMurphi.ml" 36 401 425 "src/toMurphi.ml" 36 401 438
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 36 401 444 "src/toMurphi.ml" 36 401 448
+type(
+  string
+)
+"src/toMurphi.ml" 36 401 450 "src/toMurphi.ml" 36 401 458
+type(
+  const list -> f:(const -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 36 401 459 "src/toMurphi.ml" 36 401 465
+type(
+  const list
+)
+ident(
+  int_ref consts "src/toMurphi.ml" 29 266 283 "src/toMurphi.ml" 29 266 289
+)
+"src/toMurphi.ml" 36 401 469 "src/toMurphi.ml" 36 401 478
+type(
+  const -> string
+)
+ident(
+  int_ref const_act "src/toMurphi.ml" 17 128 132 "src/toMurphi.ml" 17 128 141
+)
+"src/toMurphi.ml" 36 401 450 "src/toMurphi.ml" 36 401 478
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 36 401 425 "src/toMurphi.ml" 36 401 479
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 37 483 491 "src/toMurphi.ml" 37 483 498
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 37 483 499 "src/toMurphi.ml" 37 483 517
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 37 483 519 "src/toMurphi.ml" 37 483 529
+type(
+  unit -> string
+)
+ident(
+  int_ref gen_spaces "src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+)
+"src/toMurphi.ml" 37 483 530 "src/toMurphi.ml" 37 483 532
+type(
+  unit
+)
+"src/toMurphi.ml" 37 483 519 "src/toMurphi.ml" 37 483 532
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 37 483 534 "src/toMurphi.ml" 37 483 538
+type(
+  string
+)
+ident(
+  int_ref name "src/toMurphi.ml" 29 266 277 "src/toMurphi.ml" 29 266 281
+)
+"src/toMurphi.ml" 37 483 539 "src/toMurphi.ml" 37 483 548
+type(
+  string
+)
+ident(
+  int_ref items_str "src/toMurphi.ml" 36 401 413 "src/toMurphi.ml" 36 401 422
+)
+"src/toMurphi.ml" 37 483 491 "src/toMurphi.ml" 37 483 548
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 36 401 409 "src/toMurphi.ml" 37 483 548
+type(
+  string
+)
+"src/toMurphi.ml" 38 549 562 "src/toMurphi.ml" 38 549 563
+type(
+  int
+)
+"src/toMurphi.ml" 38 549 557 "src/toMurphi.ml" 38 549 564
+type(
+  const
+)
+"src/toMurphi.ml" 39 568 580 "src/toMurphi.ml" 39 568 582
+type(
+  const
+)
+ident(
+  def c' "src/toMurphi.ml" 40 607 615 "src/toMurphi.ml" 40 607 689
+)
+"src/toMurphi.ml" 39 568 584 "src/toMurphi.ml" 39 568 585
+type(
+  const list
+)
+"src/toMurphi.ml" 39 568 580 "src/toMurphi.ml" 39 568 585
+type(
+  const list
+)
+"src/toMurphi.ml" 39 568 588 "src/toMurphi.ml" 39 568 596
+type(
+  const list -> const list
+)
+ident(
+  ext_ref Core.Std.List.rev
+)
+"src/toMurphi.ml" 39 568 597 "src/toMurphi.ml" 39 568 603
+type(
+  const list
+)
+ident(
+  int_ref consts "src/toMurphi.ml" 29 266 283 "src/toMurphi.ml" 29 266 289
+)
+"src/toMurphi.ml" 39 568 588 "src/toMurphi.ml" 39 568 603
+call(
+  stack
+)
+type(
+  const list
+)
+"src/toMurphi.ml" 40 607 615 "src/toMurphi.ml" 40 607 622
+type(
+  (string -> string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 40 607 623 "src/toMurphi.ml" 40 607 639
+type(
+  (string -> string -> string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 40 607 641 "src/toMurphi.ml" 40 607 651
+type(
+  unit -> string
+)
+ident(
+  int_ref gen_spaces "src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+)
+"src/toMurphi.ml" 40 607 652 "src/toMurphi.ml" 40 607 654
+type(
+  unit
+)
+"src/toMurphi.ml" 40 607 641 "src/toMurphi.ml" 40 607 654
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 40 607 656 "src/toMurphi.ml" 40 607 660
+type(
+  string
+)
+ident(
+  int_ref name "src/toMurphi.ml" 29 266 277 "src/toMurphi.ml" 29 266 281
+)
+"src/toMurphi.ml" 40 607 662 "src/toMurphi.ml" 40 607 671
+type(
+  const -> string
+)
+ident(
+  int_ref const_act "src/toMurphi.ml" 17 128 132 "src/toMurphi.ml" 17 128 141
+)
+"src/toMurphi.ml" 40 607 672 "src/toMurphi.ml" 40 607 673
+type(
+  const
+)
+ident(
+  int_ref c "src/toMurphi.ml" 31 318 322 "src/toMurphi.ml" 31 318 323
+)
+"src/toMurphi.ml" 40 607 662 "src/toMurphi.ml" 40 607 673
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 40 607 676 "src/toMurphi.ml" 40 607 685
+type(
+  const -> string
+)
+ident(
+  int_ref const_act "src/toMurphi.ml" 17 128 132 "src/toMurphi.ml" 17 128 141
+)
+"src/toMurphi.ml" 40 607 686 "src/toMurphi.ml" 40 607 688
+type(
+  const
+)
+ident(
+  int_ref c' "src/toMurphi.ml" 39 568 580 "src/toMurphi.ml" 39 568 582
+)
+"src/toMurphi.ml" 40 607 676 "src/toMurphi.ml" 40 607 688
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 40 607 615 "src/toMurphi.ml" 40 607 689
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 39 568 576 "src/toMurphi.ml" 40 607 689
+type(
+  string
+)
+"src/toMurphi.ml" 33 340 346 "src/toMurphi.ml" 40 607 689
+type(
+  string
+)
+"src/toMurphi.ml" 42 698 702 "src/toMurphi.ml" 42 698 703
+type(
+  const list
+)
+"src/toMurphi.ml" 42 698 707 "src/toMurphi.ml" 42 698 712
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/toMurphi.ml" 42 698 713 "src/toMurphi.ml" 42 698 728
+type(
+  exn
+)
+"src/toMurphi.ml" 42 698 707 "src/toMurphi.ml" 42 698 728
+type(
+  string
+)
+"src/toMurphi.ml" 30 298 300 "src/toMurphi.ml" 42 698 728
+type(
+  string
+)
+"src/toMurphi.ml" 29 266 268 "src/toMurphi.ml" 42 698 728
+type(
+  string
+)
+"src/toMurphi.ml" 28 248 261 "src/toMurphi.ml" 42 698 728
+type(
+  typedef -> string
+)
+"src/toMurphi.ml" 54 806 810 "src/toMurphi.ml" 54 806 818
+type(
+  string * paramdef list -> node list -> node * node list
+)
+ident(
+  def find_vdp "src/toMurphi.ml" 69 1138 1138 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 54 806 819 "src/toMurphi.ml" 54 806 826
+type(
+  string * paramdef list
+)
+ident(
+  def vd_part "src/toMurphi.ml" 54 806 827 "src/toMurphi.ml" 67 1121 1136
+)
+"src/toMurphi.ml" 54 806 827 "src/toMurphi.ml" 54 806 829
+type(
+  node list
+)
+ident(
+  def ls "src/toMurphi.ml" 55 832 834 "src/toMurphi.ml" 67 1121 1136
+)
+"src/toMurphi.ml" 55 832 839 "src/toMurphi.ml" 55 832 843
+type(
+  string
+)
+ident(
+  def name "src/toMurphi.ml" 56 863 865 "src/toMurphi.ml" 67 1121 1136
+)
+"src/toMurphi.ml" 55 832 845 "src/toMurphi.ml" 55 832 848
+type(
+  paramdef list
+)
+ident(
+  def pds "src/toMurphi.ml" 56 863 865 "src/toMurphi.ml" 67 1121 1136
+)
+"src/toMurphi.ml" 55 832 839 "src/toMurphi.ml" 55 832 848
+type(
+  string * paramdef list
+)
+"src/toMurphi.ml" 55 832 852 "src/toMurphi.ml" 55 832 859
+type(
+  string * paramdef list
+)
+ident(
+  int_ref vd_part "src/toMurphi.ml" 54 806 819 "src/toMurphi.ml" 54 806 826
+)
+"src/toMurphi.ml" 56 863 873 "src/toMurphi.ml" 56 863 880
+type(
+  node list -> node list -> node * node list
+)
+ident(
+  def wrapper "src/toMurphi.ml" 56 863 865 "src/toMurphi.ml" 67 1121 1136
+)
+"src/toMurphi.ml" 56 863 881 "src/toMurphi.ml" 56 863 886
+type(
+  node list
+)
+ident(
+  def heads "src/toMurphi.ml" 56 863 887 "src/toMurphi.ml" 65 1106 1115
+)
+"src/toMurphi.ml" 56 863 887 "src/toMurphi.ml" 56 863 889
+type(
+  node list
+)
+ident(
+  def ls "src/toMurphi.ml" 57 892 896 "src/toMurphi.ml" 65 1106 1115
+)
+"src/toMurphi.ml" 57 892 902 "src/toMurphi.ml" 57 892 904
+type(
+  node list
+)
+ident(
+  int_ref ls "src/toMurphi.ml" 56 863 887 "src/toMurphi.ml" 56 863 889
+)
+"src/toMurphi.ml" 58 910 916 "src/toMurphi.ml" 58 910 918
+type(
+  node list
+)
+"src/toMurphi.ml" 58 910 927 "src/toMurphi.ml" 58 910 931
+type(
+  string
+)
+ident(
+  int_ref name "src/toMurphi.ml" 55 832 839 "src/toMurphi.ml" 55 832 843
+)
+"src/toMurphi.ml" 58 910 933 "src/toMurphi.ml" 58 910 936
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/toMurphi.ml" 55 832 845 "src/toMurphi.ml" 55 832 848
+)
+"src/toMurphi.ml" 58 910 938 "src/toMurphi.ml" 58 910 940
+type(
+  node list
+)
+"src/toMurphi.ml" 58 910 942 "src/toMurphi.ml" 58 910 944
+type(
+  string
+)
+"src/toMurphi.ml" 58 910 922 "src/toMurphi.ml" 58 910 945
+type(
+  node
+)
+"src/toMurphi.ml" 58 910 947 "src/toMurphi.ml" 58 910 952
+type(
+  node list
+)
+ident(
+  int_ref heads "src/toMurphi.ml" 56 863 881 "src/toMurphi.ml" 56 863 886
+)
+"src/toMurphi.ml" 58 910 922 "src/toMurphi.ml" 58 910 952
+type(
+  node * node list
+)
+"src/toMurphi.ml" 59 953 959 "src/toMurphi.ml" 59 953 960
+type(
+  node
+)
+ident(
+  def i "src/toMurphi.ml" 60 969 975 "src/toMurphi.ml" 65 1106 1115
+)
+"src/toMurphi.ml" 59 953 962 "src/toMurphi.ml" 59 953 965
+type(
+  node list
+)
+ident(
+  def ls' "src/toMurphi.ml" 60 969 975 "src/toMurphi.ml" 65 1106 1115
+)
+"src/toMurphi.ml" 59 953 959 "src/toMurphi.ml" 59 953 965
+type(
+  node list
+)
+"src/toMurphi.ml" 60 969 984 "src/toMurphi.ml" 60 969 989
+type(
+  string
+)
+ident(
+  def name' "src/toMurphi.ml" 61 1007 1013 "src/toMurphi.ml" 65 1106 1115
+)
+"src/toMurphi.ml" 60 969 991 "src/toMurphi.ml" 60 969 992
+type(
+  paramdef list
+)
+"src/toMurphi.ml" 60 969 994 "src/toMurphi.ml" 60 969 995
+type(
+  node list
+)
+"src/toMurphi.ml" 60 969 997 "src/toMurphi.ml" 60 969 998
+type(
+  string
+)
+"src/toMurphi.ml" 60 969 979 "src/toMurphi.ml" 60 969 999
+type(
+  node
+)
+"src/toMurphi.ml" 60 969 1002 "src/toMurphi.ml" 60 969 1003
+type(
+  node
+)
+ident(
+  int_ref i "src/toMurphi.ml" 59 953 959 "src/toMurphi.ml" 59 953 960
+)
+"src/toMurphi.ml" 61 1007 1016 "src/toMurphi.ml" 61 1007 1020
+type(
+  string
+)
+ident(
+  int_ref name "src/toMurphi.ml" 55 832 839 "src/toMurphi.ml" 55 832 843
+)
+"src/toMurphi.ml" 61 1007 1021 "src/toMurphi.ml" 61 1007 1022
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/toMurphi.ml" 61 1007 1023 "src/toMurphi.ml" 61 1007 1028
+type(
+  string
+)
+ident(
+  int_ref name' "src/toMurphi.ml" 60 969 984 "src/toMurphi.ml" 60 969 989
+)
+"src/toMurphi.ml" 61 1007 1016 "src/toMurphi.ml" 61 1007 1028
+type(
+  bool
+)
+"src/toMurphi.ml" 62 1034 1042 "src/toMurphi.ml" 62 1034 1043
+type(
+  node
+)
+ident(
+  int_ref i "src/toMurphi.ml" 59 953 959 "src/toMurphi.ml" 59 953 960
+)
+"src/toMurphi.ml" 62 1034 1046 "src/toMurphi.ml" 62 1034 1051
+type(
+  node list
+)
+ident(
+  int_ref heads "src/toMurphi.ml" 56 863 881 "src/toMurphi.ml" 56 863 886
+)
+"src/toMurphi.ml" 62 1034 1051 "src/toMurphi.ml" 62 1034 1052
+type(
+  node list -> node list -> node list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"src/toMurphi.ml" 62 1034 1052 "src/toMurphi.ml" 62 1034 1055
+type(
+  node list
+)
+ident(
+  int_ref ls' "src/toMurphi.ml" 59 953 962 "src/toMurphi.ml" 59 953 965
+)
+"src/toMurphi.ml" 62 1034 1046 "src/toMurphi.ml" 62 1034 1055
+call(
+  stack
+)
+type(
+  node list
+)
+"src/toMurphi.ml" 62 1034 1042 "src/toMurphi.ml" 62 1034 1056
+type(
+  node * node list
+)
+"src/toMurphi.ml" 64 1074 1082 "src/toMurphi.ml" 64 1074 1089
+type(
+  node list -> node list -> node * node list
+)
+ident(
+  int_ref wrapper "src/toMurphi.ml" 56 863 873 "src/toMurphi.ml" 56 863 880
+)
+"src/toMurphi.ml" 64 1074 1091 "src/toMurphi.ml" 64 1074 1096
+type(
+  node list
+)
+ident(
+  int_ref heads "src/toMurphi.ml" 56 863 881 "src/toMurphi.ml" 56 863 886
+)
+"src/toMurphi.ml" 64 1074 1096 "src/toMurphi.ml" 64 1074 1097
+type(
+  node list -> node list -> node list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"src/toMurphi.ml" 64 1074 1098 "src/toMurphi.ml" 64 1074 1099
+type(
+  node
+)
+ident(
+  int_ref i "src/toMurphi.ml" 59 953 959 "src/toMurphi.ml" 59 953 960
+)
+type(
+  node list
+)
+"src/toMurphi.ml" 64 1074 1097 "src/toMurphi.ml" 64 1074 1100
+type(
+  node list
+)
+"src/toMurphi.ml" 64 1074 1091 "src/toMurphi.ml" 64 1074 1100
+call(
+  stack
+)
+type(
+  node list
+)
+"src/toMurphi.ml" 64 1074 1102 "src/toMurphi.ml" 64 1074 1105
+type(
+  node list
+)
+ident(
+  int_ref ls' "src/toMurphi.ml" 59 953 962 "src/toMurphi.ml" 59 953 965
+)
+"src/toMurphi.ml" 64 1074 1082 "src/toMurphi.ml" 64 1074 1105
+call(
+  tail
+)
+type(
+  node * node list
+)
+"src/toMurphi.ml" 61 1007 1013 "src/toMurphi.ml" 65 1106 1115
+type(
+  node * node list
+)
+"src/toMurphi.ml" 60 969 975 "src/toMurphi.ml" 65 1106 1115
+type(
+  node * node list
+)
+"src/toMurphi.ml" 57 892 896 "src/toMurphi.ml" 65 1106 1115
+type(
+  node * node list
+)
+"src/toMurphi.ml" 56 863 887 "src/toMurphi.ml" 65 1106 1115
+type(
+  node list -> node * node list
+)
+"src/toMurphi.ml" 56 863 881 "src/toMurphi.ml" 65 1106 1115
+type(
+  node list -> node list -> node * node list
+)
+"src/toMurphi.ml" 67 1121 1123 "src/toMurphi.ml" 67 1121 1130
+type(
+  node list -> node list -> node * node list
+)
+ident(
+  int_ref wrapper "src/toMurphi.ml" 56 863 873 "src/toMurphi.ml" 56 863 880
+)
+"src/toMurphi.ml" 67 1121 1131 "src/toMurphi.ml" 67 1121 1133
+type(
+  node list
+)
+"src/toMurphi.ml" 67 1121 1134 "src/toMurphi.ml" 67 1121 1136
+type(
+  node list
+)
+ident(
+  int_ref ls "src/toMurphi.ml" 54 806 827 "src/toMurphi.ml" 54 806 829
+)
+"src/toMurphi.ml" 67 1121 1123 "src/toMurphi.ml" 67 1121 1136
+call(
+  tail
+)
+type(
+  node * node list
+)
+"src/toMurphi.ml" 56 863 865 "src/toMurphi.ml" 67 1121 1136
+type(
+  node * node list
+)
+"src/toMurphi.ml" 55 832 834 "src/toMurphi.ml" 67 1121 1136
+type(
+  node * node list
+)
+"src/toMurphi.ml" 54 806 827 "src/toMurphi.ml" 67 1121 1136
+type(
+  node list -> node * node list
+)
+"src/toMurphi.ml" 54 806 819 "src/toMurphi.ml" 67 1121 1136
+type(
+  string * paramdef list -> node list -> node * node list
+)
+"src/toMurphi.ml" 69 1138 1142 "src/toMurphi.ml" 69 1138 1157
+type(
+  vardef list -> node list
+)
+ident(
+  def build_vars_tree "src/toMurphi.ml" 87 1717 1717 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 69 1138 1158 "src/toMurphi.ml" 69 1138 1165
+type(
+  vardef list
+)
+ident(
+  def vardefs "src/toMurphi.ml" 70 1168 1170 "src/toMurphi.ml" 85 1712 1715
+)
+"src/toMurphi.ml" 70 1168 1178 "src/toMurphi.ml" 70 1168 1186
+type(
+  node list ->
+  cur_vd:(string * paramdef list) list -> tname:string -> node list
+)
+ident(
+  def traverse "src/toMurphi.ml" 70 1168 1170 "src/toMurphi.ml" 85 1712 1715
+)
+"src/toMurphi.ml" 70 1168 1187 "src/toMurphi.ml" 70 1168 1195
+type(
+  node list
+)
+ident(
+  def cur_list "src/toMurphi.ml" 70 1168 1196 "src/toMurphi.ml" 80 1571 1580
+)
+"src/toMurphi.ml" 71 1213 1223 "src/toMurphi.ml" 71 1213 1229
+type(
+  (string * paramdef list) list
+)
+ident(
+  int_ref cur_vd "src/toMurphi.ml" 70 1168 1196 "src/toMurphi.ml" 80 1571 1580
+)
+"src/toMurphi.ml" 72 1235 1241 "src/toMurphi.ml" 72 1235 1243
+type(
+  (string * paramdef list) list
+)
+"src/toMurphi.ml" 72 1235 1247 "src/toMurphi.ml" 72 1235 1255
+type(
+  node list
+)
+ident(
+  int_ref cur_list "src/toMurphi.ml" 70 1168 1187 "src/toMurphi.ml" 70 1168 1195
+)
+"src/toMurphi.ml" 73 1256 1262 "src/toMurphi.ml" 73 1256 1269
+type(
+  string * paramdef list
+)
+ident(
+  def vd_part "src/toMurphi.ml" 74 1282 1288 "src/toMurphi.ml" 80 1571 1580
+)
+"src/toMurphi.ml" 73 1256 1271 "src/toMurphi.ml" 73 1256 1278
+type(
+  (string * paramdef list) list
+)
+ident(
+  def cur_vd' "src/toMurphi.ml" 74 1282 1288 "src/toMurphi.ml" 80 1571 1580
+)
+"src/toMurphi.ml" 73 1256 1262 "src/toMurphi.ml" 73 1256 1278
+type(
+  (string * paramdef list) list
+)
+"src/toMurphi.ml" 74 1282 1298 "src/toMurphi.ml" 74 1282 1302
+type(
+  string
+)
+ident(
+  def name "src/toMurphi.ml" 75 1363 1369 "src/toMurphi.ml" 80 1571 1580
+)
+"src/toMurphi.ml" 74 1282 1304 "src/toMurphi.ml" 74 1282 1307
+type(
+  paramdef list
+)
+ident(
+  def pds "src/toMurphi.ml" 75 1363 1369 "src/toMurphi.ml" 80 1571 1580
+)
+"src/toMurphi.ml" 74 1282 1309 "src/toMurphi.ml" 74 1282 1316
+type(
+  node list
+)
+ident(
+  def next_ls "src/toMurphi.ml" 75 1363 1369 "src/toMurphi.ml" 80 1571 1580
+)
+"src/toMurphi.ml" 74 1282 1318 "src/toMurphi.ml" 74 1282 1319
+type(
+  string
+)
+"src/toMurphi.ml" 74 1282 1293 "src/toMurphi.ml" 74 1282 1320
+type(
+  node
+)
+"src/toMurphi.ml" 74 1282 1323 "src/toMurphi.ml" 74 1282 1331
+type(
+  node list
+)
+ident(
+  def cur_list "src/toMurphi.ml" 75 1363 1369 "src/toMurphi.ml" 80 1571 1580
+)
+"src/toMurphi.ml" 74 1282 1292 "src/toMurphi.ml" 74 1282 1331
+type(
+  node * node list
+)
+"src/toMurphi.ml" 74 1282 1334 "src/toMurphi.ml" 74 1282 1342
+type(
+  string * paramdef list -> node list -> node * node list
+)
+ident(
+  int_ref find_vdp "src/toMurphi.ml" 54 806 810 "src/toMurphi.ml" 54 806 818
+)
+"src/toMurphi.ml" 74 1282 1343 "src/toMurphi.ml" 74 1282 1350
+type(
+  string * paramdef list
+)
+ident(
+  int_ref vd_part "src/toMurphi.ml" 73 1256 1262 "src/toMurphi.ml" 73 1256 1269
+)
+"src/toMurphi.ml" 74 1282 1351 "src/toMurphi.ml" 74 1282 1359
+type(
+  node list
+)
+ident(
+  int_ref cur_list "src/toMurphi.ml" 70 1168 1187 "src/toMurphi.ml" 70 1168 1195
+)
+"src/toMurphi.ml" 74 1282 1334 "src/toMurphi.ml" 74 1282 1359
+call(
+  stack
+)
+type(
+  node * node list
+)
+"src/toMurphi.ml" 75 1363 1373 "src/toMurphi.ml" 75 1363 1380
+type(
+  node list
+)
+ident(
+  def next_ls "src/toMurphi.ml" 76 1426 1432 "src/toMurphi.ml" 80 1571 1580
+)
+"src/toMurphi.ml" 75 1363 1383 "src/toMurphi.ml" 75 1363 1391
+type(
+  node list ->
+  cur_vd:(string * paramdef list) list -> tname:string -> node list
+)
+ident(
+  int_ref traverse "src/toMurphi.ml" 70 1168 1178 "src/toMurphi.ml" 70 1168 1186
+)
+"src/toMurphi.ml" 75 1363 1392 "src/toMurphi.ml" 75 1363 1399
+type(
+  node list
+)
+ident(
+  int_ref next_ls "src/toMurphi.ml" 74 1282 1309 "src/toMurphi.ml" 74 1282 1316
+)
+"src/toMurphi.ml" 75 1363 1408 "src/toMurphi.ml" 75 1363 1415
+type(
+  (string * paramdef list) list
+)
+ident(
+  int_ref cur_vd' "src/toMurphi.ml" 73 1256 1271 "src/toMurphi.ml" 73 1256 1278
+)
+"src/toMurphi.ml" 75 1363 1416 "src/toMurphi.ml" 75 1363 1422
+type(
+  string
+)
+ident(
+  int_ref tname "src/toMurphi.ml" 70 1168 1204 "src/toMurphi.ml" 80 1571 1580
+)
+"src/toMurphi.ml" 75 1363 1383 "src/toMurphi.ml" 75 1363 1422
+call(
+  stack
+)
+type(
+  node list
+)
+"src/toMurphi.ml" 76 1426 1435 "src/toMurphi.ml" 76 1426 1442
+type(
+  (string * paramdef list) list
+)
+ident(
+  int_ref cur_vd' "src/toMurphi.ml" 73 1256 1271 "src/toMurphi.ml" 73 1256 1278
+)
+"src/toMurphi.ml" 76 1426 1443 "src/toMurphi.ml" 76 1426 1444
+type(
+  (string * paramdef list) list -> (string * paramdef list) list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/toMurphi.ml" 76 1426 1445 "src/toMurphi.ml" 76 1426 1447
+type(
+  (string * paramdef list) list
+)
+"src/toMurphi.ml" 76 1426 1435 "src/toMurphi.ml" 76 1426 1447
+type(
+  bool
+)
+"src/toMurphi.ml" 77 1453 1467 "src/toMurphi.ml" 77 1453 1471
+type(
+  string
+)
+ident(
+  int_ref name "src/toMurphi.ml" 74 1282 1298 "src/toMurphi.ml" 74 1282 1302
+)
+"src/toMurphi.ml" 77 1453 1473 "src/toMurphi.ml" 77 1453 1476
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/toMurphi.ml" 74 1282 1304 "src/toMurphi.ml" 74 1282 1307
+)
+"src/toMurphi.ml" 77 1453 1478 "src/toMurphi.ml" 77 1453 1485
+type(
+  node list
+)
+ident(
+  int_ref next_ls "src/toMurphi.ml" 75 1363 1373 "src/toMurphi.ml" 75 1363 1380
+)
+"src/toMurphi.ml" 77 1453 1487 "src/toMurphi.ml" 77 1453 1492
+type(
+  string
+)
+ident(
+  int_ref tname "src/toMurphi.ml" 70 1168 1204 "src/toMurphi.ml" 80 1571 1580
+)
+"src/toMurphi.ml" 77 1453 1462 "src/toMurphi.ml" 77 1453 1493
+type(
+  node
+)
+"src/toMurphi.ml" 77 1453 1496 "src/toMurphi.ml" 77 1453 1504
+type(
+  node list
+)
+ident(
+  int_ref cur_list "src/toMurphi.ml" 74 1282 1323 "src/toMurphi.ml" 74 1282 1331
+)
+"src/toMurphi.ml" 77 1453 1461 "src/toMurphi.ml" 77 1453 1504
+type(
+  node list
+)
+"src/toMurphi.ml" 79 1522 1536 "src/toMurphi.ml" 79 1522 1540
+type(
+  string
+)
+ident(
+  int_ref name "src/toMurphi.ml" 74 1282 1298 "src/toMurphi.ml" 74 1282 1302
+)
+"src/toMurphi.ml" 79 1522 1542 "src/toMurphi.ml" 79 1522 1545
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/toMurphi.ml" 74 1282 1304 "src/toMurphi.ml" 74 1282 1307
+)
+"src/toMurphi.ml" 79 1522 1547 "src/toMurphi.ml" 79 1522 1554
+type(
+  node list
+)
+ident(
+  int_ref next_ls "src/toMurphi.ml" 75 1363 1373 "src/toMurphi.ml" 75 1363 1380
+)
+"src/toMurphi.ml" 79 1522 1556 "src/toMurphi.ml" 79 1522 1558
+type(
+  string
+)
+"src/toMurphi.ml" 79 1522 1531 "src/toMurphi.ml" 79 1522 1559
+type(
+  node
+)
+"src/toMurphi.ml" 79 1522 1562 "src/toMurphi.ml" 79 1522 1570
+type(
+  node list
+)
+ident(
+  int_ref cur_list "src/toMurphi.ml" 74 1282 1323 "src/toMurphi.ml" 74 1282 1331
+)
+"src/toMurphi.ml" 79 1522 1530 "src/toMurphi.ml" 79 1522 1570
+type(
+  node list
+)
+"src/toMurphi.ml" 76 1426 1432 "src/toMurphi.ml" 80 1571 1580
+type(
+  node list
+)
+"src/toMurphi.ml" 75 1363 1369 "src/toMurphi.ml" 80 1571 1580
+type(
+  node list
+)
+"src/toMurphi.ml" 74 1282 1288 "src/toMurphi.ml" 80 1571 1580
+type(
+  node list
+)
+"src/toMurphi.ml" 71 1213 1217 "src/toMurphi.ml" 80 1571 1580
+type(
+  node list
+)
+"src/toMurphi.ml" 70 1168 1204 "src/toMurphi.ml" 80 1571 1580
+type(
+  tname:string -> node list
+)
+type(
+  string
+)
+ident(
+  def tname "src/toMurphi.ml" 71 1213 1217 "src/toMurphi.ml" 80 1571 1580
+)
+"src/toMurphi.ml" 70 1168 1196 "src/toMurphi.ml" 80 1571 1580
+type(
+  cur_vd:(string * paramdef list) list -> tname:string -> node list
+)
+type(
+  (string * paramdef list) list
+)
+ident(
+  def cur_vd "src/toMurphi.ml" 70 1168 1204 "src/toMurphi.ml" 80 1571 1580
+)
+"src/toMurphi.ml" 70 1168 1187 "src/toMurphi.ml" 80 1571 1580
+type(
+  node list ->
+  cur_vd:(string * paramdef list) list -> tname:string -> node list
+)
+"src/toMurphi.ml" 82 1586 1588 "src/toMurphi.ml" 82 1586 1597
+type(
+  vardef list ->
+  init:node list -> f:(node list -> vardef -> node list) -> node list
+)
+ident(
+  ext_ref Core.Std.List.fold
+)
+"src/toMurphi.ml" 82 1586 1598 "src/toMurphi.ml" 82 1586 1605
+type(
+  vardef list
+)
+ident(
+  int_ref vardefs "src/toMurphi.ml" 69 1138 1158 "src/toMurphi.ml" 69 1138 1165
+)
+"src/toMurphi.ml" 82 1586 1612 "src/toMurphi.ml" 82 1586 1614
+type(
+  node list
+)
+"src/toMurphi.ml" 82 1586 1623 "src/toMurphi.ml" 82 1586 1626
+type(
+  node list
+)
+ident(
+  def res "src/toMurphi.ml" 82 1586 1627 "src/toMurphi.ml" 84 1671 1711
+)
+"src/toMurphi.ml" 82 1586 1627 "src/toMurphi.ml" 82 1586 1628
+type(
+  vardef
+)
+ident(
+  def x "src/toMurphi.ml" 83 1632 1636 "src/toMurphi.ml" 84 1671 1711
+)
+"src/toMurphi.ml" 83 1632 1647 "src/toMurphi.ml" 83 1632 1655
+type(
+  (string * paramdef list) list
+)
+ident(
+  def vd_parts "src/toMurphi.ml" 84 1671 1675 "src/toMurphi.ml" 84 1671 1711
+)
+"src/toMurphi.ml" 83 1632 1657 "src/toMurphi.ml" 83 1632 1662
+type(
+  string
+)
+ident(
+  def tname "src/toMurphi.ml" 84 1671 1675 "src/toMurphi.ml" 84 1671 1711
+)
+"src/toMurphi.ml" 83 1632 1640 "src/toMurphi.ml" 83 1632 1663
+type(
+  vardef
+)
+"src/toMurphi.ml" 83 1632 1666 "src/toMurphi.ml" 83 1632 1667
+type(
+  vardef
+)
+ident(
+  int_ref x "src/toMurphi.ml" 82 1586 1627 "src/toMurphi.ml" 82 1586 1628
+)
+"src/toMurphi.ml" 84 1671 1675 "src/toMurphi.ml" 84 1671 1683
+type(
+  node list ->
+  cur_vd:(string * paramdef list) list -> tname:string -> node list
+)
+ident(
+  int_ref traverse "src/toMurphi.ml" 70 1168 1178 "src/toMurphi.ml" 70 1168 1186
+)
+"src/toMurphi.ml" 84 1671 1684 "src/toMurphi.ml" 84 1671 1687
+type(
+  node list
+)
+ident(
+  int_ref res "src/toMurphi.ml" 82 1586 1623 "src/toMurphi.ml" 82 1586 1626
+)
+"src/toMurphi.ml" 84 1671 1696 "src/toMurphi.ml" 84 1671 1704
+type(
+  (string * paramdef list) list
+)
+ident(
+  int_ref vd_parts "src/toMurphi.ml" 83 1632 1647 "src/toMurphi.ml" 83 1632 1655
+)
+"src/toMurphi.ml" 84 1671 1705 "src/toMurphi.ml" 84 1671 1711
+type(
+  string
+)
+ident(
+  int_ref tname "src/toMurphi.ml" 83 1632 1657 "src/toMurphi.ml" 83 1632 1662
+)
+"src/toMurphi.ml" 84 1671 1675 "src/toMurphi.ml" 84 1671 1711
+call(
+  tail
+)
+type(
+  node list
+)
+"src/toMurphi.ml" 83 1632 1636 "src/toMurphi.ml" 84 1671 1711
+type(
+  node list
+)
+"src/toMurphi.ml" 82 1586 1627 "src/toMurphi.ml" 84 1671 1711
+type(
+  vardef -> node list
+)
+"src/toMurphi.ml" 82 1586 1623 "src/toMurphi.ml" 84 1671 1711
+type(
+  node list -> vardef -> node list
+)
+"src/toMurphi.ml" 82 1586 1588 "src/toMurphi.ml" 85 1712 1715
+call(
+  tail
+)
+type(
+  node list
+)
+"src/toMurphi.ml" 70 1168 1170 "src/toMurphi.ml" 85 1712 1715
+type(
+  node list
+)
+"src/toMurphi.ml" 69 1138 1158 "src/toMurphi.ml" 85 1712 1715
+type(
+  vardef list -> node list
+)
+"src/toMurphi.ml" 87 1717 1721 "src/toMurphi.ml" 87 1717 1733
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  def record_table "src/toMurphi.ml" 89 1781 1781 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 87 1717 1736 "src/toMurphi.ml" 87 1717 1750
+type(
+  (string, string, unit -> (string, string) Hashtbl.t)
+  Core_kernel.Core_hashtbl_intf.create_options_with_hashable
+)
+ident(
+  ext_ref Core.Std.Hashtbl.create
+)
+"src/toMurphi.ml" 87 1717 1761 "src/toMurphi.ml" 87 1717 1776
+type(
+  string Pooled_hashtbl.Hashable.t
+)
+ident(
+  ext_ref Core.Std.String.hashable
+)
+"src/toMurphi.ml" 87 1717 1777 "src/toMurphi.ml" 87 1717 1779
+type(
+  unit
+)
+"src/toMurphi.ml" 87 1717 1736 "src/toMurphi.ml" 87 1717 1779
+call(
+  stack
+)
+type(
+  (string, string) Hashtbl.t
+)
+"src/toMurphi.ml" 89 1781 1785 "src/toMurphi.ml" 89 1781 1796
+type(
+  node list -> string
+)
+ident(
+  def get_type_id "src/toMurphi.ml" 93 1940 1940 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 89 1781 1797 "src/toMurphi.ml" 89 1781 1802
+type(
+  node list
+)
+ident(
+  def nodes "src/toMurphi.ml" 90 1805 1807 "src/toMurphi.ml" 91 1876 1938
+)
+"src/toMurphi.ml" 90 1805 1811 "src/toMurphi.ml" 90 1805 1816
+type(
+  string list
+)
+ident(
+  def names "src/toMurphi.ml" 91 1876 1878 "src/toMurphi.ml" 91 1876 1938
+)
+"src/toMurphi.ml" 90 1805 1819 "src/toMurphi.ml" 90 1805 1827
+type(
+  node list -> f:(node -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 90 1805 1828 "src/toMurphi.ml" 90 1805 1833
+type(
+  node list
+)
+ident(
+  int_ref nodes "src/toMurphi.ml" 89 1781 1797 "src/toMurphi.ml" 89 1781 1802
+)
+"src/toMurphi.ml" 90 1805 1848 "src/toMurphi.ml" 90 1805 1852
+type(
+  string
+)
+ident(
+  def name "src/toMurphi.ml" 90 1805 1867 "src/toMurphi.ml" 90 1805 1871
+)
+"src/toMurphi.ml" 90 1805 1854 "src/toMurphi.ml" 90 1805 1855
+type(
+  paramdef list
+)
+"src/toMurphi.ml" 90 1805 1857 "src/toMurphi.ml" 90 1805 1858
+type(
+  node list
+)
+"src/toMurphi.ml" 90 1805 1860 "src/toMurphi.ml" 90 1805 1861
+type(
+  string
+)
+"src/toMurphi.ml" 90 1805 1843 "src/toMurphi.ml" 90 1805 1862
+type(
+  node
+)
+"src/toMurphi.ml" 90 1805 1867 "src/toMurphi.ml" 90 1805 1871
+type(
+  string
+)
+ident(
+  int_ref name "src/toMurphi.ml" 90 1805 1848 "src/toMurphi.ml" 90 1805 1852
+)
+"src/toMurphi.ml" 90 1805 1842 "src/toMurphi.ml" 90 1805 1871
+type(
+  node -> string
+)
+"src/toMurphi.ml" 90 1805 1819 "src/toMurphi.ml" 90 1805 1872
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 91 1876 1878 "src/toMurphi.ml" 91 1876 1891
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 91 1876 1897 "src/toMurphi.ml" 91 1876 1900
+type(
+  string
+)
+"src/toMurphi.ml" 91 1876 1902 "src/toMurphi.ml" 91 1876 1911
+type(
+  cmp:(string -> string -> int) -> string list -> string list
+)
+ident(
+  ext_ref Core.Std.List.sort
+)
+"src/toMurphi.ml" 91 1876 1912 "src/toMurphi.ml" 91 1876 1917
+type(
+  string list
+)
+ident(
+  int_ref names "src/toMurphi.ml" 90 1805 1811 "src/toMurphi.ml" 90 1805 1816
+)
+"src/toMurphi.ml" 91 1876 1923 "src/toMurphi.ml" 91 1876 1937
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Core.Std.String.compare
+)
+"src/toMurphi.ml" 91 1876 1902 "src/toMurphi.ml" 91 1876 1937
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 91 1876 1878 "src/toMurphi.ml" 91 1876 1938
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 90 1805 1807 "src/toMurphi.ml" 91 1876 1938
+type(
+  string
+)
+"src/toMurphi.ml" 89 1781 1797 "src/toMurphi.ml" 91 1876 1938
+type(
+  node list -> string
+)
+"src/toMurphi.ml" 93 1940 1944 "src/toMurphi.ml" 93 1940 1955
+type(
+  node list -> string list * string list
+)
+ident(
+  def gen_var_str "src/toMurphi.ml" 119 3027 3027 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 93 1940 1956 "src/toMurphi.ml" 93 1940 1961
+type(
+  node list
+)
+ident(
+  def trees "src/toMurphi.ml" 94 1964 1966 "src/toMurphi.ml" 117 3007 3025
+)
+"src/toMurphi.ml" 94 1964 1970 "src/toMurphi.ml" 94 1964 1977
+type(
+  string list ref
+)
+ident(
+  def records "src/toMurphi.ml" 95 1990 1992 "src/toMurphi.ml" 117 3007 3025
+)
+"src/toMurphi.ml" 94 1964 1980 "src/toMurphi.ml" 94 1964 1983
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/toMurphi.ml" 94 1964 1984 "src/toMurphi.ml" 94 1964 1986
+type(
+  string list
+)
+"src/toMurphi.ml" 94 1964 1980 "src/toMurphi.ml" 94 1964 1986
+type(
+  string list ref
+)
+"src/toMurphi.ml" 95 1990 1996 "src/toMurphi.ml" 95 1990 2006
+type(
+  paramdef list -> string
+)
+ident(
+  def get_arr_of "src/toMurphi.ml" 98 2117 2119 "src/toMurphi.ml" 117 3007 3025
+)
+"src/toMurphi.ml" 95 1990 2007 "src/toMurphi.ml" 95 1990 2010
+type(
+  paramdef list
+)
+ident(
+  def pds "src/toMurphi.ml" 95 1990 2013 "src/toMurphi.ml" 97 2110 2113
+)
+"src/toMurphi.ml" 95 1990 2013 "src/toMurphi.ml" 95 1990 2026
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 95 1990 2032 "src/toMurphi.ml" 95 1990 2035
+type(
+  string
+)
+"src/toMurphi.ml" 96 2038 2042 "src/toMurphi.ml" 96 2038 2050
+type(
+  paramdef list -> f:(paramdef -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 96 2038 2051 "src/toMurphi.ml" 96 2038 2054
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/toMurphi.ml" 95 1990 2007 "src/toMurphi.ml" 95 1990 2010
+)
+"src/toMurphi.ml" 96 2038 2073 "src/toMurphi.ml" 96 2038 2074
+type(
+  string
+)
+"src/toMurphi.ml" 96 2038 2076 "src/toMurphi.ml" 96 2038 2077
+type(
+  string
+)
+ident(
+  def t "src/toMurphi.ml" 96 2038 2083 "src/toMurphi.ml" 96 2038 2108
+)
+"src/toMurphi.ml" 96 2038 2064 "src/toMurphi.ml" 96 2038 2078
+type(
+  paramdef
+)
+"src/toMurphi.ml" 96 2038 2083 "src/toMurphi.ml" 96 2038 2090
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 96 2038 2091 "src/toMurphi.ml" 96 2038 2106
+type(
+  (string -> string, unit, string) format
+)
+"src/toMurphi.ml" 96 2038 2107 "src/toMurphi.ml" 96 2038 2108
+type(
+  string
+)
+ident(
+  int_ref t "src/toMurphi.ml" 96 2038 2076 "src/toMurphi.ml" 96 2038 2077
+)
+"src/toMurphi.ml" 96 2038 2083 "src/toMurphi.ml" 96 2038 2108
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 96 2038 2063 "src/toMurphi.ml" 96 2038 2108
+type(
+  paramdef -> string
+)
+"src/toMurphi.ml" 96 2038 2042 "src/toMurphi.ml" 96 2038 2109
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 95 1990 2013 "src/toMurphi.ml" 97 2110 2113
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 95 1990 2007 "src/toMurphi.ml" 97 2110 2113
+type(
+  paramdef list -> string
+)
+"src/toMurphi.ml" 98 2117 2127 "src/toMurphi.ml" 98 2117 2134
+type(
+  node -> string
+)
+ident(
+  def wrapper "src/toMurphi.ml" 98 2117 2119 "src/toMurphi.ml" 117 3007 3025
+)
+"src/toMurphi.ml" 98 2117 2135 "src/toMurphi.ml" 98 2117 2139
+type(
+  node
+)
+ident(
+  def tree "src/toMurphi.ml" 99 2142 2146 "src/toMurphi.ml" 114 2950 2959
+)
+"src/toMurphi.ml" 99 2142 2152 "src/toMurphi.ml" 99 2142 2156
+type(
+  node
+)
+ident(
+  int_ref tree "src/toMurphi.ml" 98 2117 2135 "src/toMurphi.ml" 98 2117 2139
+)
+"src/toMurphi.ml" 100 2162 2173 "src/toMurphi.ml" 100 2162 2177
+type(
+  string
+)
+ident(
+  def name "src/toMurphi.ml" 100 2162 2198 "src/toMurphi.ml" 100 2162 2247
+)
+"src/toMurphi.ml" 100 2162 2179 "src/toMurphi.ml" 100 2162 2182
+type(
+  paramdef list
+)
+ident(
+  def pds "src/toMurphi.ml" 100 2162 2198 "src/toMurphi.ml" 100 2162 2247
+)
+"src/toMurphi.ml" 100 2162 2184 "src/toMurphi.ml" 100 2162 2186
+type(
+  node list
+)
+"src/toMurphi.ml" 100 2162 2188 "src/toMurphi.ml" 100 2162 2193
+type(
+  string
+)
+ident(
+  def tname "src/toMurphi.ml" 100 2162 2198 "src/toMurphi.ml" 100 2162 2247
+)
+"src/toMurphi.ml" 100 2162 2168 "src/toMurphi.ml" 100 2162 2194
+type(
+  node
+)
+"src/toMurphi.ml" 100 2162 2198 "src/toMurphi.ml" 100 2162 2205
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 100 2162 2206 "src/toMurphi.ml" 100 2162 2219
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 100 2162 2220 "src/toMurphi.ml" 100 2162 2224
+type(
+  string
+)
+ident(
+  int_ref name "src/toMurphi.ml" 100 2162 2173 "src/toMurphi.ml" 100 2162 2177
+)
+"src/toMurphi.ml" 100 2162 2226 "src/toMurphi.ml" 100 2162 2236
+type(
+  paramdef list -> string
+)
+ident(
+  int_ref get_arr_of "src/toMurphi.ml" 95 1990 1996 "src/toMurphi.ml" 95 1990 2006
+)
+"src/toMurphi.ml" 100 2162 2237 "src/toMurphi.ml" 100 2162 2240
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/toMurphi.ml" 100 2162 2179 "src/toMurphi.ml" 100 2162 2182
+)
+"src/toMurphi.ml" 100 2162 2226 "src/toMurphi.ml" 100 2162 2240
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 100 2162 2242 "src/toMurphi.ml" 100 2162 2247
+type(
+  string
+)
+ident(
+  int_ref tname "src/toMurphi.ml" 100 2162 2188 "src/toMurphi.ml" 100 2162 2193
+)
+"src/toMurphi.ml" 100 2162 2198 "src/toMurphi.ml" 100 2162 2247
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 101 2248 2259 "src/toMurphi.ml" 101 2248 2263
+type(
+  string
+)
+ident(
+  def name "src/toMurphi.ml" 103 2295 2303 "src/toMurphi.ml" 113 2884 2949
+)
+"src/toMurphi.ml" 101 2248 2265 "src/toMurphi.ml" 101 2248 2268
+type(
+  paramdef list
+)
+ident(
+  def pds "src/toMurphi.ml" 103 2295 2303 "src/toMurphi.ml" 113 2884 2949
+)
+"src/toMurphi.ml" 101 2248 2270 "src/toMurphi.ml" 101 2248 2275
+type(
+  node list
+)
+ident(
+  def nodes "src/toMurphi.ml" 103 2295 2303 "src/toMurphi.ml" 113 2884 2949
+)
+"src/toMurphi.ml" 101 2248 2277 "src/toMurphi.ml" 101 2248 2278
+type(
+  string
+)
+"src/toMurphi.ml" 101 2248 2254 "src/toMurphi.ml" 101 2248 2279
+type(
+  node
+)
+"src/toMurphi.ml" 103 2295 2307 "src/toMurphi.ml" 103 2295 2310
+type(
+  string
+)
+ident(
+  def key "src/toMurphi.ml" 104 2334 2342 "src/toMurphi.ml" 113 2884 2949
+)
+"src/toMurphi.ml" 103 2295 2313 "src/toMurphi.ml" 103 2295 2324
+type(
+  node list -> string
+)
+ident(
+  int_ref get_type_id "src/toMurphi.ml" 89 1781 1785 "src/toMurphi.ml" 89 1781 1796
+)
+"src/toMurphi.ml" 103 2295 2325 "src/toMurphi.ml" 103 2295 2330
+type(
+  node list
+)
+ident(
+  int_ref nodes "src/toMurphi.ml" 101 2248 2270 "src/toMurphi.ml" 101 2248 2275
+)
+"src/toMurphi.ml" 103 2295 2313 "src/toMurphi.ml" 103 2295 2330
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 104 2334 2348 "src/toMurphi.ml" 104 2334 2360
+type(
+  (string, string) Hashtbl.t -> string -> string option
+)
+ident(
+  ext_ref Core.Std.Hashtbl.find
+)
+"src/toMurphi.ml" 104 2334 2361 "src/toMurphi.ml" 104 2334 2373
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref record_table "src/toMurphi.ml" 87 1717 1721 "src/toMurphi.ml" 87 1717 1733
+)
+"src/toMurphi.ml" 104 2334 2374 "src/toMurphi.ml" 104 2334 2377
+type(
+  string
+)
+ident(
+  int_ref key "src/toMurphi.ml" 103 2295 2307 "src/toMurphi.ml" 103 2295 2310
+)
+"src/toMurphi.ml" 104 2334 2348 "src/toMurphi.ml" 104 2334 2377
+call(
+  stack
+)
+type(
+  string option
+)
+"src/toMurphi.ml" 105 2383 2398 "src/toMurphi.ml" 105 2383 2409
+type(
+  string
+)
+ident(
+  def record_name "src/toMurphi.ml" 105 2383 2414 "src/toMurphi.ml" 105 2383 2469
+)
+"src/toMurphi.ml" 105 2383 2393 "src/toMurphi.ml" 105 2383 2410
+type(
+  string option
+)
+"src/toMurphi.ml" 105 2383 2414 "src/toMurphi.ml" 105 2383 2421
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 105 2383 2422 "src/toMurphi.ml" 105 2383 2435
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 105 2383 2436 "src/toMurphi.ml" 105 2383 2440
+type(
+  string
+)
+ident(
+  int_ref name "src/toMurphi.ml" 101 2248 2259 "src/toMurphi.ml" 101 2248 2263
+)
+"src/toMurphi.ml" 105 2383 2442 "src/toMurphi.ml" 105 2383 2452
+type(
+  paramdef list -> string
+)
+ident(
+  int_ref get_arr_of "src/toMurphi.ml" 95 1990 1996 "src/toMurphi.ml" 95 1990 2006
+)
+"src/toMurphi.ml" 105 2383 2453 "src/toMurphi.ml" 105 2383 2456
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/toMurphi.ml" 101 2248 2265 "src/toMurphi.ml" 101 2248 2268
+)
+"src/toMurphi.ml" 105 2383 2442 "src/toMurphi.ml" 105 2383 2456
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 105 2383 2458 "src/toMurphi.ml" 105 2383 2469
+type(
+  string
+)
+ident(
+  int_ref record_name "src/toMurphi.ml" 105 2383 2398 "src/toMurphi.ml" 105 2383 2409
+)
+"src/toMurphi.ml" 105 2383 2414 "src/toMurphi.ml" 105 2383 2469
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 106 2470 2480 "src/toMurphi.ml" 106 2470 2484
+type(
+  string option
+)
+"src/toMurphi.ml" 107 2488 2502 "src/toMurphi.ml" 107 2488 2511
+type(
+  string list
+)
+ident(
+  def sub_items "src/toMurphi.ml" 108 2543 2553 "src/toMurphi.ml" 113 2884 2949
+)
+"src/toMurphi.ml" 107 2488 2514 "src/toMurphi.ml" 107 2488 2522
+type(
+  node list -> f:(node -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 107 2488 2523 "src/toMurphi.ml" 107 2488 2528
+type(
+  node list
+)
+ident(
+  int_ref nodes "src/toMurphi.ml" 101 2248 2270 "src/toMurphi.ml" 101 2248 2275
+)
+"src/toMurphi.ml" 107 2488 2532 "src/toMurphi.ml" 107 2488 2539
+type(
+  node -> string
+)
+ident(
+  int_ref wrapper "src/toMurphi.ml" 98 2117 2127 "src/toMurphi.ml" 98 2117 2134
+)
+"src/toMurphi.ml" 107 2488 2514 "src/toMurphi.ml" 107 2488 2539
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 108 2543 2557 "src/toMurphi.ml" 108 2543 2568
+type(
+  string
+)
+ident(
+  def record_name "src/toMurphi.ml" 109 2624 2634 "src/toMurphi.ml" 113 2884 2949
+)
+"src/toMurphi.ml" 108 2543 2571 "src/toMurphi.ml" 108 2543 2578
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 108 2543 2579 "src/toMurphi.ml" 108 2543 2590
+type(
+  (int -> string, unit, string) format
+)
+"src/toMurphi.ml" 108 2543 2592 "src/toMurphi.ml" 108 2543 2606
+type(
+  (string, string) Hashtbl.t -> int
+)
+ident(
+  ext_ref Core.Std.Hashtbl.length
+)
+"src/toMurphi.ml" 108 2543 2607 "src/toMurphi.ml" 108 2543 2619
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref record_table "src/toMurphi.ml" 87 1717 1721 "src/toMurphi.ml" 87 1717 1733
+)
+"src/toMurphi.ml" 108 2543 2592 "src/toMurphi.ml" 108 2543 2619
+call(
+  stack
+)
+type(
+  int
+)
+"src/toMurphi.ml" 108 2543 2571 "src/toMurphi.ml" 108 2543 2620
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 109 2624 2638 "src/toMurphi.ml" 109 2624 2649
+type(
+  string
+)
+ident(
+  def record_body "src/toMurphi.ml" 110 2689 2699 "src/toMurphi.ml" 113 2884 2949
+)
+"src/toMurphi.ml" 109 2624 2652 "src/toMurphi.ml" 109 2624 2665
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 109 2624 2671 "src/toMurphi.ml" 109 2624 2675
+type(
+  string
+)
+"src/toMurphi.ml" 109 2624 2676 "src/toMurphi.ml" 109 2624 2685
+type(
+  string list
+)
+ident(
+  int_ref sub_items "src/toMurphi.ml" 107 2488 2502 "src/toMurphi.ml" 107 2488 2511
+)
+"src/toMurphi.ml" 109 2624 2652 "src/toMurphi.ml" 109 2624 2685
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 110 2689 2703 "src/toMurphi.ml" 110 2689 2713
+type(
+  string
+)
+ident(
+  def record_str "src/toMurphi.ml" 111 2775 2785 "src/toMurphi.ml" 113 2884 2949
+)
+"src/toMurphi.ml" 110 2689 2716 "src/toMurphi.ml" 110 2689 2723
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 110 2689 2724 "src/toMurphi.ml" 110 2689 2747
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 110 2689 2748 "src/toMurphi.ml" 110 2689 2759
+type(
+  string
+)
+ident(
+  int_ref record_name "src/toMurphi.ml" 108 2543 2557 "src/toMurphi.ml" 108 2543 2568
+)
+"src/toMurphi.ml" 110 2689 2760 "src/toMurphi.ml" 110 2689 2771
+type(
+  string
+)
+ident(
+  int_ref record_body "src/toMurphi.ml" 109 2624 2638 "src/toMurphi.ml" 109 2624 2649
+)
+"src/toMurphi.ml" 110 2689 2716 "src/toMurphi.ml" 110 2689 2771
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 111 2775 2785 "src/toMurphi.ml" 111 2775 2792
+type(
+  string list ref
+)
+ident(
+  int_ref records "src/toMurphi.ml" 94 1964 1970 "src/toMurphi.ml" 94 1964 1977
+)
+"src/toMurphi.ml" 111 2775 2798 "src/toMurphi.ml" 111 2775 2805
+type(
+  string list ref
+)
+ident(
+  int_ref records "src/toMurphi.ml" 94 1964 1970 "src/toMurphi.ml" 94 1964 1977
+)
+"src/toMurphi.ml" 111 2775 2797 "src/toMurphi.ml" 111 2775 2805
+type(
+  string list
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/toMurphi.ml" 111 2775 2806 "src/toMurphi.ml" 111 2775 2807
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Core.Std.( @ )
+)
+"src/toMurphi.ml" 111 2775 2808 "src/toMurphi.ml" 111 2775 2818
+type(
+  string
+)
+ident(
+  int_ref record_str "src/toMurphi.ml" 110 2689 2703 "src/toMurphi.ml" 110 2689 2713
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 111 2775 2807 "src/toMurphi.ml" 111 2775 2819
+type(
+  string list
+)
+"src/toMurphi.ml" 111 2775 2796 "src/toMurphi.ml" 111 2775 2819
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 111 2775 2785 "src/toMurphi.ml" 111 2775 2819
+type(
+  unit
+)
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/toMurphi.ml" 112 2821 2831 "src/toMurphi.ml" 112 2821 2846
+type(
+  (string, string) Hashtbl.t -> key:string -> data:string -> unit
+)
+ident(
+  ext_ref Core.Std.Hashtbl.replace
+)
+"src/toMurphi.ml" 112 2821 2847 "src/toMurphi.ml" 112 2821 2859
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref record_table "src/toMurphi.ml" 87 1717 1721 "src/toMurphi.ml" 87 1717 1733
+)
+"src/toMurphi.ml" 112 2821 2860 "src/toMurphi.ml" 112 2821 2864
+type(
+  string
+)
+ident(
+  int_ref key "src/toMurphi.ml" 103 2295 2307 "src/toMurphi.ml" 103 2295 2310
+)
+"src/toMurphi.ml" 112 2821 2871 "src/toMurphi.ml" 112 2821 2882
+type(
+  string
+)
+ident(
+  int_ref record_name "src/toMurphi.ml" 108 2543 2557 "src/toMurphi.ml" 108 2543 2568
+)
+"src/toMurphi.ml" 112 2821 2831 "src/toMurphi.ml" 112 2821 2882
+call(
+  stack
+)
+type(
+  unit
+)
+"src/toMurphi.ml" 113 2884 2894 "src/toMurphi.ml" 113 2884 2901
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 113 2884 2902 "src/toMurphi.ml" 113 2884 2915
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 113 2884 2916 "src/toMurphi.ml" 113 2884 2920
+type(
+  string
+)
+ident(
+  int_ref name "src/toMurphi.ml" 101 2248 2259 "src/toMurphi.ml" 101 2248 2263
+)
+"src/toMurphi.ml" 113 2884 2922 "src/toMurphi.ml" 113 2884 2932
+type(
+  paramdef list -> string
+)
+ident(
+  int_ref get_arr_of "src/toMurphi.ml" 95 1990 1996 "src/toMurphi.ml" 95 1990 2006
+)
+"src/toMurphi.ml" 113 2884 2933 "src/toMurphi.ml" 113 2884 2936
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/toMurphi.ml" 101 2248 2265 "src/toMurphi.ml" 101 2248 2268
+)
+"src/toMurphi.ml" 113 2884 2922 "src/toMurphi.ml" 113 2884 2936
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 113 2884 2938 "src/toMurphi.ml" 113 2884 2949
+type(
+  string
+)
+ident(
+  int_ref record_name "src/toMurphi.ml" 108 2543 2557 "src/toMurphi.ml" 108 2543 2568
+)
+"src/toMurphi.ml" 113 2884 2894 "src/toMurphi.ml" 113 2884 2949
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 112 2821 2831 "src/toMurphi.ml" 113 2884 2949
+type(
+  string
+)
+"src/toMurphi.ml" 111 2775 2785 "src/toMurphi.ml" 113 2884 2949
+type(
+  string
+)
+"src/toMurphi.ml" 110 2689 2699 "src/toMurphi.ml" 113 2884 2949
+type(
+  string
+)
+"src/toMurphi.ml" 109 2624 2634 "src/toMurphi.ml" 113 2884 2949
+type(
+  string
+)
+"src/toMurphi.ml" 108 2543 2553 "src/toMurphi.ml" 113 2884 2949
+type(
+  string
+)
+"src/toMurphi.ml" 107 2488 2498 "src/toMurphi.ml" 113 2884 2949
+type(
+  string
+)
+"src/toMurphi.ml" 104 2334 2342 "src/toMurphi.ml" 113 2884 2949
+type(
+  string
+)
+"src/toMurphi.ml" 103 2295 2303 "src/toMurphi.ml" 113 2884 2949
+type(
+  string
+)
+"src/toMurphi.ml" 99 2142 2146 "src/toMurphi.ml" 114 2950 2959
+type(
+  string
+)
+"src/toMurphi.ml" 98 2117 2135 "src/toMurphi.ml" 114 2950 2959
+type(
+  node -> string
+)
+"src/toMurphi.ml" 116 2965 2971 "src/toMurphi.ml" 116 2965 2975
+type(
+  string list
+)
+ident(
+  def vars "src/toMurphi.ml" 117 3007 3009 "src/toMurphi.ml" 117 3007 3025
+)
+"src/toMurphi.ml" 116 2965 2978 "src/toMurphi.ml" 116 2965 2986
+type(
+  node list -> f:(node -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 116 2965 2987 "src/toMurphi.ml" 116 2965 2992
+type(
+  node list
+)
+ident(
+  int_ref trees "src/toMurphi.ml" 93 1940 1956 "src/toMurphi.ml" 93 1940 1961
+)
+"src/toMurphi.ml" 116 2965 2996 "src/toMurphi.ml" 116 2965 3003
+type(
+  node -> string
+)
+ident(
+  int_ref wrapper "src/toMurphi.ml" 98 2117 2127 "src/toMurphi.ml" 98 2117 2134
+)
+"src/toMurphi.ml" 116 2965 2978 "src/toMurphi.ml" 116 2965 3003
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 117 3007 3011 "src/toMurphi.ml" 117 3007 3018
+type(
+  string list ref
+)
+ident(
+  int_ref records "src/toMurphi.ml" 94 1964 1970 "src/toMurphi.ml" 94 1964 1977
+)
+"src/toMurphi.ml" 117 3007 3010 "src/toMurphi.ml" 117 3007 3018
+type(
+  string list
+)
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/toMurphi.ml" 117 3007 3021 "src/toMurphi.ml" 117 3007 3025
+type(
+  string list
+)
+ident(
+  int_ref vars "src/toMurphi.ml" 116 2965 2971 "src/toMurphi.ml" 116 2965 2975
+)
+"src/toMurphi.ml" 117 3007 3009 "src/toMurphi.ml" 117 3007 3025
+type(
+  string list * string list
+)
+"src/toMurphi.ml" 116 2965 2967 "src/toMurphi.ml" 117 3007 3025
+type(
+  string list * string list
+)
+"src/toMurphi.ml" 98 2117 2119 "src/toMurphi.ml" 117 3007 3025
+type(
+  string list * string list
+)
+"src/toMurphi.ml" 95 1990 1992 "src/toMurphi.ml" 117 3007 3025
+type(
+  string list * string list
+)
+"src/toMurphi.ml" 94 1964 1966 "src/toMurphi.ml" 117 3007 3025
+type(
+  string list * string list
+)
+"src/toMurphi.ml" 93 1940 1956 "src/toMurphi.ml" 117 3007 3025
+type(
+  node list -> string list * string list
+)
+"src/toMurphi.ml" 119 3027 3031 "src/toMurphi.ml" 119 3027 3041
+type(
+  vardef list -> string
+)
+ident(
+  def record_act "src/toMurphi.ml" 131 3257 3257 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 119 3027 3042 "src/toMurphi.ml" 119 3027 3049
+type(
+  vardef list
+)
+ident(
+  def vardefs "src/toMurphi.ml" 120 3052 3054 "src/toMurphi.ml" 122 3144 3248
+)
+"src/toMurphi.ml" 120 3052 3058 "src/toMurphi.ml" 120 3052 3063
+type(
+  node list
+)
+ident(
+  def trees "src/toMurphi.ml" 121 3093 3095 "src/toMurphi.ml" 122 3144 3248
+)
+"src/toMurphi.ml" 120 3052 3066 "src/toMurphi.ml" 120 3052 3081
+type(
+  vardef list -> node list
+)
+ident(
+  int_ref build_vars_tree "src/toMurphi.ml" 69 1138 1142 "src/toMurphi.ml" 69 1138 1157
+)
+"src/toMurphi.ml" 120 3052 3082 "src/toMurphi.ml" 120 3052 3089
+type(
+  vardef list
+)
+ident(
+  int_ref vardefs "src/toMurphi.ml" 119 3027 3042 "src/toMurphi.ml" 119 3027 3049
+)
+"src/toMurphi.ml" 120 3052 3066 "src/toMurphi.ml" 120 3052 3089
+call(
+  stack
+)
+type(
+  node list
+)
+"src/toMurphi.ml" 121 3093 3099 "src/toMurphi.ml" 121 3093 3110
+type(
+  string list
+)
+ident(
+  def record_defs "src/toMurphi.ml" 122 3144 3146 "src/toMurphi.ml" 122 3144 3248
+)
+"src/toMurphi.ml" 121 3093 3112 "src/toMurphi.ml" 121 3093 3120
+type(
+  string list
+)
+ident(
+  def var_defs "src/toMurphi.ml" 122 3144 3146 "src/toMurphi.ml" 122 3144 3248
+)
+"src/toMurphi.ml" 121 3093 3099 "src/toMurphi.ml" 121 3093 3120
+type(
+  string list * string list
+)
+"src/toMurphi.ml" 121 3093 3123 "src/toMurphi.ml" 121 3093 3134
+type(
+  node list -> string list * string list
+)
+ident(
+  int_ref gen_var_str "src/toMurphi.ml" 93 1940 1944 "src/toMurphi.ml" 93 1940 1955
+)
+"src/toMurphi.ml" 121 3093 3135 "src/toMurphi.ml" 121 3093 3140
+type(
+  node list
+)
+ident(
+  int_ref trees "src/toMurphi.ml" 120 3052 3058 "src/toMurphi.ml" 120 3052 3063
+)
+"src/toMurphi.ml" 121 3093 3123 "src/toMurphi.ml" 121 3093 3140
+call(
+  stack
+)
+type(
+  string list * string list
+)
+"src/toMurphi.ml" 122 3144 3146 "src/toMurphi.ml" 122 3144 3153
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 122 3144 3154 "src/toMurphi.ml" 122 3144 3171
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 122 3144 3173 "src/toMurphi.ml" 122 3144 3186
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 122 3144 3192 "src/toMurphi.ml" 122 3144 3200
+type(
+  string
+)
+"src/toMurphi.ml" 122 3144 3201 "src/toMurphi.ml" 122 3144 3212
+type(
+  string list
+)
+ident(
+  int_ref record_defs "src/toMurphi.ml" 121 3093 3099 "src/toMurphi.ml" 121 3093 3110
+)
+"src/toMurphi.ml" 122 3144 3173 "src/toMurphi.ml" 122 3144 3212
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 122 3144 3215 "src/toMurphi.ml" 122 3144 3228
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 122 3144 3234 "src/toMurphi.ml" 122 3144 3238
+type(
+  string
+)
+"src/toMurphi.ml" 122 3144 3239 "src/toMurphi.ml" 122 3144 3247
+type(
+  string list
+)
+ident(
+  int_ref var_defs "src/toMurphi.ml" 121 3093 3112 "src/toMurphi.ml" 121 3093 3120
+)
+"src/toMurphi.ml" 122 3144 3215 "src/toMurphi.ml" 122 3144 3247
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 122 3144 3146 "src/toMurphi.ml" 122 3144 3248
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 121 3093 3095 "src/toMurphi.ml" 122 3144 3248
+type(
+  string
+)
+"src/toMurphi.ml" 120 3052 3054 "src/toMurphi.ml" 122 3144 3248
+type(
+  string
+)
+"src/toMurphi.ml" 119 3027 3042 "src/toMurphi.ml" 122 3144 3248
+type(
+  vardef list -> string
+)
+"src/toMurphi.ml" 131 3257 3261 "src/toMurphi.ml" 131 3257 3273
+type(
+  paramdef -> string
+)
+ident(
+  def paramdef_act "src/toMurphi.ml" 133 3320 3320 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 131 3257 3284 "src/toMurphi.ml" 131 3257 3286
+type(
+  string
+)
+ident(
+  def vn "src/toMurphi.ml" 131 3257 3295 "src/toMurphi.ml" 131 3257 3318
+)
+"src/toMurphi.ml" 131 3257 3288 "src/toMurphi.ml" 131 3257 3290
+type(
+  string
+)
+ident(
+  def tn "src/toMurphi.ml" 131 3257 3295 "src/toMurphi.ml" 131 3257 3318
+)
+"src/toMurphi.ml" 131 3257 3275 "src/toMurphi.ml" 131 3257 3291
+type(
+  paramdef
+)
+"src/toMurphi.ml" 131 3257 3295 "src/toMurphi.ml" 131 3257 3302
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 131 3257 3303 "src/toMurphi.ml" 131 3257 3312
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 131 3257 3313 "src/toMurphi.ml" 131 3257 3315
+type(
+  string
+)
+ident(
+  int_ref vn "src/toMurphi.ml" 131 3257 3284 "src/toMurphi.ml" 131 3257 3286
+)
+"src/toMurphi.ml" 131 3257 3316 "src/toMurphi.ml" 131 3257 3318
+type(
+  string
+)
+ident(
+  int_ref tn "src/toMurphi.ml" 131 3257 3288 "src/toMurphi.ml" 131 3257 3290
+)
+"src/toMurphi.ml" 131 3257 3295 "src/toMurphi.ml" 131 3257 3318
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 131 3257 3274 "src/toMurphi.ml" 131 3257 3318
+type(
+  paramdef -> string
+)
+"src/toMurphi.ml" 133 3320 3324 "src/toMurphi.ml" 133 3320 3336
+type(
+  paramref -> string
+)
+ident(
+  def paramref_act "src/toMurphi.ml" 138 3423 3423 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 133 3320 3337 "src/toMurphi.ml" 133 3320 3339
+type(
+  paramref
+)
+ident(
+  def pr "src/toMurphi.ml" 134 3342 3344 "src/toMurphi.ml" 136 3395 3421
+)
+"src/toMurphi.ml" 134 3342 3350 "src/toMurphi.ml" 134 3342 3352
+type(
+  paramref
+)
+ident(
+  int_ref pr "src/toMurphi.ml" 133 3320 3337 "src/toMurphi.ml" 133 3320 3339
+)
+"src/toMurphi.ml" 135 3358 3371 "src/toMurphi.ml" 135 3358 3372
+type(
+  string
+)
+"src/toMurphi.ml" 135 3358 3374 "src/toMurphi.ml" 135 3358 3375
+type(
+  string
+)
+"src/toMurphi.ml" 135 3358 3377 "src/toMurphi.ml" 135 3358 3378
+type(
+  const
+)
+ident(
+  def c "src/toMurphi.ml" 135 3358 3383 "src/toMurphi.ml" 135 3358 3394
+)
+"src/toMurphi.ml" 135 3358 3362 "src/toMurphi.ml" 135 3358 3379
+type(
+  paramref
+)
+"src/toMurphi.ml" 135 3358 3383 "src/toMurphi.ml" 135 3358 3392
+type(
+  const -> string
+)
+ident(
+  int_ref const_act "src/toMurphi.ml" 17 128 132 "src/toMurphi.ml" 17 128 141
+)
+"src/toMurphi.ml" 135 3358 3393 "src/toMurphi.ml" 135 3358 3394
+type(
+  const
+)
+ident(
+  int_ref c "src/toMurphi.ml" 135 3358 3377 "src/toMurphi.ml" 135 3358 3378
+)
+"src/toMurphi.ml" 135 3358 3383 "src/toMurphi.ml" 135 3358 3394
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 136 3395 3408 "src/toMurphi.ml" 136 3395 3412
+type(
+  string
+)
+ident(
+  def name "src/toMurphi.ml" 136 3395 3417 "src/toMurphi.ml" 136 3395 3421
+)
+"src/toMurphi.ml" 136 3395 3399 "src/toMurphi.ml" 136 3395 3413
+type(
+  paramref
+)
+"src/toMurphi.ml" 136 3395 3417 "src/toMurphi.ml" 136 3395 3421
+type(
+  string
+)
+ident(
+  int_ref name "src/toMurphi.ml" 136 3395 3408 "src/toMurphi.ml" 136 3395 3412
+)
+"src/toMurphi.ml" 134 3342 3344 "src/toMurphi.ml" 136 3395 3421
+type(
+  string
+)
+"src/toMurphi.ml" 133 3320 3337 "src/toMurphi.ml" 136 3395 3421
+type(
+  paramref -> string
+)
+"src/toMurphi.ml" 138 3423 3427 "src/toMurphi.ml" 138 3423 3434
+type(
+  var -> string
+)
+ident(
+  def var_act "src/toMurphi.ml" 148 3713 3713 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 138 3423 3435 "src/toMurphi.ml" 138 3423 3436
+type(
+  var
+)
+ident(
+  def v "src/toMurphi.ml" 139 3439 3441 "src/toMurphi.ml" 146 3707 3711
+)
+"src/toMurphi.ml" 139 3439 3449 "src/toMurphi.ml" 139 3439 3451
+type(
+  (string * paramref list) list
+)
+ident(
+  def ls "src/toMurphi.ml" 140 3460 3462 "src/toMurphi.ml" 146 3707 3711
+)
+"src/toMurphi.ml" 139 3439 3445 "src/toMurphi.ml" 139 3439 3452
+type(
+  var
+)
+"src/toMurphi.ml" 139 3439 3455 "src/toMurphi.ml" 139 3439 3456
+type(
+  var
+)
+ident(
+  int_ref v "src/toMurphi.ml" 138 3423 3435 "src/toMurphi.ml" 138 3423 3436
+)
+"src/toMurphi.ml" 140 3460 3462 "src/toMurphi.ml" 140 3460 3475
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 140 3460 3481 "src/toMurphi.ml" 140 3460 3484
+type(
+  string
+)
+"src/toMurphi.ml" 140 3460 3486 "src/toMurphi.ml" 140 3460 3494
+type(
+  (string * paramref list) list ->
+  f:(string * paramref list -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 140 3460 3495 "src/toMurphi.ml" 140 3460 3497
+type(
+  (string * paramref list) list
+)
+ident(
+  int_ref ls "src/toMurphi.ml" 139 3439 3449 "src/toMurphi.ml" 139 3439 3451
+)
+"src/toMurphi.ml" 140 3460 3507 "src/toMurphi.ml" 140 3460 3508
+type(
+  string
+)
+ident(
+  def n "src/toMurphi.ml" 141 3518 3522 "src/toMurphi.ml" 145 3616 3706
+)
+"src/toMurphi.ml" 140 3460 3510 "src/toMurphi.ml" 140 3460 3513
+type(
+  paramref list
+)
+ident(
+  def prs "src/toMurphi.ml" 141 3518 3522 "src/toMurphi.ml" 145 3616 3706
+)
+"src/toMurphi.ml" 140 3460 3507 "src/toMurphi.ml" 140 3460 3513
+type(
+  string * paramref list
+)
+"src/toMurphi.ml" 141 3518 3528 "src/toMurphi.ml" 141 3518 3531
+type(
+  paramref list
+)
+ident(
+  int_ref prs "src/toMurphi.ml" 140 3460 3510 "src/toMurphi.ml" 140 3460 3513
+)
+"src/toMurphi.ml" 142 3537 3543 "src/toMurphi.ml" 142 3537 3545
+type(
+  paramref list
+)
+"src/toMurphi.ml" 142 3537 3549 "src/toMurphi.ml" 142 3537 3550
+type(
+  string
+)
+ident(
+  int_ref n "src/toMurphi.ml" 140 3460 3507 "src/toMurphi.ml" 140 3460 3508
+)
+"src/toMurphi.ml" 143 3551 3557 "src/toMurphi.ml" 143 3551 3558
+type(
+  paramref list
+)
+"src/toMurphi.ml" 144 3562 3572 "src/toMurphi.ml" 144 3562 3581
+type(
+  string list
+)
+ident(
+  def actual_ps "src/toMurphi.ml" 145 3616 3622 "src/toMurphi.ml" 145 3616 3706
+)
+"src/toMurphi.ml" 144 3562 3584 "src/toMurphi.ml" 144 3562 3592
+type(
+  paramref list -> f:(paramref -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 144 3562 3593 "src/toMurphi.ml" 144 3562 3596
+type(
+  paramref list
+)
+ident(
+  int_ref prs "src/toMurphi.ml" 140 3460 3510 "src/toMurphi.ml" 140 3460 3513
+)
+"src/toMurphi.ml" 144 3562 3600 "src/toMurphi.ml" 144 3562 3612
+type(
+  paramref -> string
+)
+ident(
+  int_ref paramref_act "src/toMurphi.ml" 133 3320 3324 "src/toMurphi.ml" 133 3320 3336
+)
+"src/toMurphi.ml" 144 3562 3584 "src/toMurphi.ml" 144 3562 3612
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 145 3616 3622 "src/toMurphi.ml" 145 3616 3629
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 145 3616 3630 "src/toMurphi.ml" 145 3616 3636
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 145 3616 3637 "src/toMurphi.ml" 145 3616 3638
+type(
+  string
+)
+ident(
+  int_ref n "src/toMurphi.ml" 140 3460 3507 "src/toMurphi.ml" 140 3460 3508
+)
+"src/toMurphi.ml" 145 3616 3640 "src/toMurphi.ml" 145 3616 3653
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 145 3616 3655 "src/toMurphi.ml" 145 3616 3663
+type(
+  string list -> f:(string -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 145 3616 3664 "src/toMurphi.ml" 145 3616 3673
+type(
+  string list
+)
+ident(
+  int_ref actual_ps "src/toMurphi.ml" 144 3562 3572 "src/toMurphi.ml" 144 3562 3581
+)
+"src/toMurphi.ml" 145 3616 3682 "src/toMurphi.ml" 145 3616 3683
+type(
+  string
+)
+ident(
+  def p "src/toMurphi.ml" 145 3616 3687 "src/toMurphi.ml" 145 3616 3703
+)
+"src/toMurphi.ml" 145 3616 3687 "src/toMurphi.ml" 145 3616 3694
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 145 3616 3695 "src/toMurphi.ml" 145 3616 3701
+type(
+  (string -> string, unit, string) format
+)
+"src/toMurphi.ml" 145 3616 3702 "src/toMurphi.ml" 145 3616 3703
+type(
+  string
+)
+ident(
+  int_ref p "src/toMurphi.ml" 145 3616 3682 "src/toMurphi.ml" 145 3616 3683
+)
+"src/toMurphi.ml" 145 3616 3687 "src/toMurphi.ml" 145 3616 3703
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 145 3616 3682 "src/toMurphi.ml" 145 3616 3703
+type(
+  string -> string
+)
+"src/toMurphi.ml" 145 3616 3655 "src/toMurphi.ml" 145 3616 3704
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 145 3616 3640 "src/toMurphi.ml" 145 3616 3705
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 145 3616 3622 "src/toMurphi.ml" 145 3616 3706
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 144 3562 3568 "src/toMurphi.ml" 145 3616 3706
+type(
+  string
+)
+"src/toMurphi.ml" 141 3518 3522 "src/toMurphi.ml" 145 3616 3706
+type(
+  string
+)
+"src/toMurphi.ml" 140 3460 3506 "src/toMurphi.ml" 145 3616 3706
+type(
+  string * paramref list -> string
+)
+"src/toMurphi.ml" 140 3460 3486 "src/toMurphi.ml" 146 3707 3710
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 140 3460 3462 "src/toMurphi.ml" 146 3707 3711
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 139 3439 3441 "src/toMurphi.ml" 146 3707 3711
+type(
+  string
+)
+"src/toMurphi.ml" 138 3423 3435 "src/toMurphi.ml" 146 3707 3711
+type(
+  var -> string
+)
+"src/toMurphi.ml" 148 3713 3721 "src/toMurphi.ml" 148 3713 3728
+type(
+  Loach.exp -> string
+)
+ident(
+  def exp_act "src/toMurphi.ml" 148 3713 3713 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 148 3713 3729 "src/toMurphi.ml" 148 3713 3732
+type(
+  Loach.exp
+)
+ident(
+  def exp "src/toMurphi.ml" 149 3735 3737 "src/toMurphi.ml" 155 3927 4007
+)
+"src/toMurphi.ml" 149 3735 3743 "src/toMurphi.ml" 149 3735 3746
+type(
+  Loach.exp
+)
+ident(
+  int_ref exp "src/toMurphi.ml" 148 3713 3729 "src/toMurphi.ml" 148 3713 3732
+)
+"src/toMurphi.ml" 150 3752 3762 "src/toMurphi.ml" 150 3752 3763
+type(
+  const
+)
+ident(
+  def c "src/toMurphi.ml" 150 3752 3768 "src/toMurphi.ml" 150 3752 3779
+)
+"src/toMurphi.ml" 150 3752 3756 "src/toMurphi.ml" 150 3752 3764
+type(
+  Loach.exp
+)
+"src/toMurphi.ml" 150 3752 3768 "src/toMurphi.ml" 150 3752 3777
+type(
+  const -> string
+)
+ident(
+  int_ref const_act "src/toMurphi.ml" 17 128 132 "src/toMurphi.ml" 17 128 141
+)
+"src/toMurphi.ml" 150 3752 3778 "src/toMurphi.ml" 150 3752 3779
+type(
+  const
+)
+ident(
+  int_ref c "src/toMurphi.ml" 150 3752 3762 "src/toMurphi.ml" 150 3752 3763
+)
+"src/toMurphi.ml" 150 3752 3768 "src/toMurphi.ml" 150 3752 3779
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 151 3780 3788 "src/toMurphi.ml" 151 3780 3789
+type(
+  var
+)
+ident(
+  def v "src/toMurphi.ml" 151 3780 3794 "src/toMurphi.ml" 151 3780 3803
+)
+"src/toMurphi.ml" 151 3780 3784 "src/toMurphi.ml" 151 3780 3790
+type(
+  Loach.exp
+)
+"src/toMurphi.ml" 151 3780 3794 "src/toMurphi.ml" 151 3780 3801
+type(
+  var -> string
+)
+ident(
+  int_ref var_act "src/toMurphi.ml" 138 3423 3427 "src/toMurphi.ml" 138 3423 3434
+)
+"src/toMurphi.ml" 151 3780 3802 "src/toMurphi.ml" 151 3780 3803
+type(
+  var
+)
+ident(
+  int_ref v "src/toMurphi.ml" 151 3780 3788 "src/toMurphi.ml" 151 3780 3789
+)
+"src/toMurphi.ml" 151 3780 3794 "src/toMurphi.ml" 151 3780 3803
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 152 3804 3814 "src/toMurphi.ml" 152 3804 3816
+type(
+  paramref
+)
+ident(
+  def pr "src/toMurphi.ml" 152 3804 3821 "src/toMurphi.ml" 152 3804 3836
+)
+"src/toMurphi.ml" 152 3804 3808 "src/toMurphi.ml" 152 3804 3817
+type(
+  Loach.exp
+)
+"src/toMurphi.ml" 152 3804 3821 "src/toMurphi.ml" 152 3804 3833
+type(
+  paramref -> string
+)
+ident(
+  int_ref paramref_act "src/toMurphi.ml" 133 3320 3324 "src/toMurphi.ml" 133 3320 3336
+)
+"src/toMurphi.ml" 152 3804 3834 "src/toMurphi.ml" 152 3804 3836
+type(
+  paramref
+)
+ident(
+  int_ref pr "src/toMurphi.ml" 152 3804 3814 "src/toMurphi.ml" 152 3804 3816
+)
+"src/toMurphi.ml" 152 3804 3821 "src/toMurphi.ml" 152 3804 3836
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 153 3837 3845 "src/toMurphi.ml" 153 3837 3846
+type(
+  Loach.formula
+)
+ident(
+  def f "src/toMurphi.ml" 154 3859 3863 "src/toMurphi.ml" 154 3859 3926
+)
+"src/toMurphi.ml" 153 3837 3848 "src/toMurphi.ml" 153 3837 3850
+type(
+  Loach.exp
+)
+ident(
+  def e1 "src/toMurphi.ml" 154 3859 3863 "src/toMurphi.ml" 154 3859 3926
+)
+"src/toMurphi.ml" 153 3837 3852 "src/toMurphi.ml" 153 3837 3854
+type(
+  Loach.exp
+)
+ident(
+  def e2 "src/toMurphi.ml" 154 3859 3863 "src/toMurphi.ml" 154 3859 3926
+)
+"src/toMurphi.ml" 153 3837 3841 "src/toMurphi.ml" 153 3837 3855
+type(
+  Loach.exp
+)
+"src/toMurphi.ml" 154 3859 3863 "src/toMurphi.ml" 154 3859 3870
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 154 3859 3871 "src/toMurphi.ml" 154 3859 3887
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 154 3859 3889 "src/toMurphi.ml" 154 3859 3897
+type(
+  Loach.formula -> string
+)
+ident(
+  int_ref form_act "src/toMurphi.ml" 156 4008 4012 "src/toMurphi.ml" 156 4008 4020
+)
+"src/toMurphi.ml" 154 3859 3898 "src/toMurphi.ml" 154 3859 3899
+type(
+  Loach.formula
+)
+ident(
+  int_ref f "src/toMurphi.ml" 153 3837 3845 "src/toMurphi.ml" 153 3837 3846
+)
+"src/toMurphi.ml" 154 3859 3889 "src/toMurphi.ml" 154 3859 3899
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 154 3859 3902 "src/toMurphi.ml" 154 3859 3909
+type(
+  Loach.exp -> string
+)
+ident(
+  int_ref exp_act "src/toMurphi.ml" 148 3713 3721 "src/toMurphi.ml" 148 3713 3728
+)
+"src/toMurphi.ml" 154 3859 3910 "src/toMurphi.ml" 154 3859 3912
+type(
+  Loach.exp
+)
+ident(
+  int_ref e1 "src/toMurphi.ml" 153 3837 3848 "src/toMurphi.ml" 153 3837 3850
+)
+"src/toMurphi.ml" 154 3859 3902 "src/toMurphi.ml" 154 3859 3912
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 154 3859 3915 "src/toMurphi.ml" 154 3859 3922
+type(
+  Loach.exp -> string
+)
+ident(
+  int_ref exp_act "src/toMurphi.ml" 148 3713 3721 "src/toMurphi.ml" 148 3713 3728
+)
+"src/toMurphi.ml" 154 3859 3923 "src/toMurphi.ml" 154 3859 3925
+type(
+  Loach.exp
+)
+ident(
+  int_ref e2 "src/toMurphi.ml" 153 3837 3852 "src/toMurphi.ml" 153 3837 3854
+)
+"src/toMurphi.ml" 154 3859 3915 "src/toMurphi.ml" 154 3859 3925
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 154 3859 3863 "src/toMurphi.ml" 154 3859 3926
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 155 3927 3935 "src/toMurphi.ml" 155 3927 3936
+type(
+  string
+)
+ident(
+  def n "src/toMurphi.ml" 155 3927 3945 "src/toMurphi.ml" 155 3927 4007
+)
+"src/toMurphi.ml" 155 3927 3938 "src/toMurphi.ml" 155 3927 3940
+type(
+  Loach.exp list
+)
+ident(
+  def el "src/toMurphi.ml" 155 3927 3945 "src/toMurphi.ml" 155 3927 4007
+)
+"src/toMurphi.ml" 155 3927 3931 "src/toMurphi.ml" 155 3927 3941
+type(
+  Loach.exp
+)
+"src/toMurphi.ml" 155 3927 3945 "src/toMurphi.ml" 155 3927 3952
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 155 3927 3953 "src/toMurphi.ml" 155 3927 3959
+type(
+  (string -> string, unit, string) format
+)
+"src/toMurphi.ml" 155 3927 3961 "src/toMurphi.ml" 155 3927 3974
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 155 3927 3980 "src/toMurphi.ml" 155 3927 3981
+type(
+  string
+)
+ident(
+  int_ref n "src/toMurphi.ml" 155 3927 3935 "src/toMurphi.ml" 155 3927 3936
+)
+"src/toMurphi.ml" 155 3927 3983 "src/toMurphi.ml" 155 3927 3991
+type(
+  Loach.exp list -> f:(Loach.exp -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 155 3927 3992 "src/toMurphi.ml" 155 3927 3994
+type(
+  Loach.exp list
+)
+ident(
+  int_ref el "src/toMurphi.ml" 155 3927 3938 "src/toMurphi.ml" 155 3927 3940
+)
+"src/toMurphi.ml" 155 3927 3998 "src/toMurphi.ml" 155 3927 4005
+type(
+  Loach.exp -> string
+)
+ident(
+  int_ref exp_act "src/toMurphi.ml" 148 3713 3721 "src/toMurphi.ml" 148 3713 3728
+)
+"src/toMurphi.ml" 155 3927 3983 "src/toMurphi.ml" 155 3927 4005
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 155 3927 3961 "src/toMurphi.ml" 155 3927 4006
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 155 3927 3945 "src/toMurphi.ml" 155 3927 4007
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 149 3735 3737 "src/toMurphi.ml" 155 3927 4007
+type(
+  string
+)
+"src/toMurphi.ml" 148 3713 3729 "src/toMurphi.ml" 155 3927 4007
+type(
+  Loach.exp -> string
+)
+"src/toMurphi.ml" 156 4008 4012 "src/toMurphi.ml" 156 4008 4020
+type(
+  Loach.formula -> string
+)
+ident(
+  def form_act "src/toMurphi.ml" 148 3713 3713 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 156 4008 4021 "src/toMurphi.ml" 156 4008 4025
+type(
+  Loach.formula
+)
+ident(
+  def form "src/toMurphi.ml" 157 4028 4030 "src/toMurphi.ml" 177 4912 4974
+)
+"src/toMurphi.ml" 157 4028 4036 "src/toMurphi.ml" 157 4028 4040
+type(
+  Loach.formula
+)
+ident(
+  int_ref form "src/toMurphi.ml" 156 4008 4021 "src/toMurphi.ml" 156 4008 4025
+)
+"src/toMurphi.ml" 158 4046 4050 "src/toMurphi.ml" 158 4046 4055
+type(
+  Loach.formula
+)
+"src/toMurphi.ml" 158 4046 4059 "src/toMurphi.ml" 158 4046 4065
+type(
+  string
+)
+"src/toMurphi.ml" 159 4066 4070 "src/toMurphi.ml" 159 4066 4077
+type(
+  Loach.formula
+)
+"src/toMurphi.ml" 159 4066 4081 "src/toMurphi.ml" 159 4066 4088
+type(
+  string
+)
+"src/toMurphi.ml" 160 4089 4097 "src/toMurphi.ml" 160 4089 4098
+type(
+  string
+)
+ident(
+  def n "src/toMurphi.ml" 160 4089 4107 "src/toMurphi.ml" 160 4089 4169
+)
+"src/toMurphi.ml" 160 4089 4100 "src/toMurphi.ml" 160 4089 4102
+type(
+  Loach.exp list
+)
+ident(
+  def el "src/toMurphi.ml" 160 4089 4107 "src/toMurphi.ml" 160 4089 4169
+)
+"src/toMurphi.ml" 160 4089 4093 "src/toMurphi.ml" 160 4089 4103
+type(
+  Loach.formula
+)
+"src/toMurphi.ml" 160 4089 4107 "src/toMurphi.ml" 160 4089 4114
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 160 4089 4115 "src/toMurphi.ml" 160 4089 4121
+type(
+  (string -> string, unit, string) format
+)
+"src/toMurphi.ml" 160 4089 4123 "src/toMurphi.ml" 160 4089 4136
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 160 4089 4142 "src/toMurphi.ml" 160 4089 4143
+type(
+  string
+)
+ident(
+  int_ref n "src/toMurphi.ml" 160 4089 4097 "src/toMurphi.ml" 160 4089 4098
+)
+"src/toMurphi.ml" 160 4089 4145 "src/toMurphi.ml" 160 4089 4153
+type(
+  Loach.exp list -> f:(Loach.exp -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 160 4089 4154 "src/toMurphi.ml" 160 4089 4156
+type(
+  Loach.exp list
+)
+ident(
+  int_ref el "src/toMurphi.ml" 160 4089 4100 "src/toMurphi.ml" 160 4089 4102
+)
+"src/toMurphi.ml" 160 4089 4160 "src/toMurphi.ml" 160 4089 4167
+type(
+  Loach.exp -> string
+)
+ident(
+  int_ref exp_act "src/toMurphi.ml" 148 3713 3721 "src/toMurphi.ml" 148 3713 3728
+)
+"src/toMurphi.ml" 160 4089 4145 "src/toMurphi.ml" 160 4089 4167
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 160 4089 4123 "src/toMurphi.ml" 160 4089 4168
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 160 4089 4107 "src/toMurphi.ml" 160 4089 4169
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 161 4170 4178 "src/toMurphi.ml" 161 4170 4180
+type(
+  Loach.exp
+)
+ident(
+  def e1 "src/toMurphi.ml" 161 4170 4189 "src/toMurphi.ml" 161 4170 4234
+)
+"src/toMurphi.ml" 161 4170 4182 "src/toMurphi.ml" 161 4170 4184
+type(
+  Loach.exp
+)
+ident(
+  def e2 "src/toMurphi.ml" 161 4170 4189 "src/toMurphi.ml" 161 4170 4234
+)
+"src/toMurphi.ml" 161 4170 4174 "src/toMurphi.ml" 161 4170 4185
+type(
+  Loach.formula
+)
+"src/toMurphi.ml" 161 4170 4189 "src/toMurphi.ml" 161 4170 4196
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 161 4170 4197 "src/toMurphi.ml" 161 4170 4208
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 161 4170 4210 "src/toMurphi.ml" 161 4170 4217
+type(
+  Loach.exp -> string
+)
+ident(
+  int_ref exp_act "src/toMurphi.ml" 148 3713 3721 "src/toMurphi.ml" 148 3713 3728
+)
+"src/toMurphi.ml" 161 4170 4218 "src/toMurphi.ml" 161 4170 4220
+type(
+  Loach.exp
+)
+ident(
+  int_ref e1 "src/toMurphi.ml" 161 4170 4178 "src/toMurphi.ml" 161 4170 4180
+)
+"src/toMurphi.ml" 161 4170 4210 "src/toMurphi.ml" 161 4170 4220
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 161 4170 4223 "src/toMurphi.ml" 161 4170 4230
+type(
+  Loach.exp -> string
+)
+ident(
+  int_ref exp_act "src/toMurphi.ml" 148 3713 3721 "src/toMurphi.ml" 148 3713 3728
+)
+"src/toMurphi.ml" 161 4170 4231 "src/toMurphi.ml" 161 4170 4233
+type(
+  Loach.exp
+)
+ident(
+  int_ref e2 "src/toMurphi.ml" 161 4170 4182 "src/toMurphi.ml" 161 4170 4184
+)
+"src/toMurphi.ml" 161 4170 4223 "src/toMurphi.ml" 161 4170 4233
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 161 4170 4189 "src/toMurphi.ml" 161 4170 4234
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 162 4235 4243 "src/toMurphi.ml" 162 4235 4247
+type(
+  Loach.formula
+)
+ident(
+  def form "src/toMurphi.ml" 162 4235 4252 "src/toMurphi.ml" 162 4235 4283
+)
+"src/toMurphi.ml" 162 4235 4239 "src/toMurphi.ml" 162 4235 4248
+type(
+  Loach.formula
+)
+"src/toMurphi.ml" 162 4235 4252 "src/toMurphi.ml" 162 4235 4259
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 162 4235 4260 "src/toMurphi.ml" 162 4235 4267
+type(
+  (string -> string, unit, string) format
+)
+"src/toMurphi.ml" 162 4235 4269 "src/toMurphi.ml" 162 4235 4277
+type(
+  Loach.formula -> string
+)
+ident(
+  int_ref form_act "src/toMurphi.ml" 156 4008 4012 "src/toMurphi.ml" 156 4008 4020
+)
+"src/toMurphi.ml" 162 4235 4278 "src/toMurphi.ml" 162 4235 4282
+type(
+  Loach.formula
+)
+ident(
+  int_ref form "src/toMurphi.ml" 162 4235 4243 "src/toMurphi.ml" 162 4235 4247
+)
+"src/toMurphi.ml" 162 4235 4269 "src/toMurphi.ml" 162 4235 4282
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 162 4235 4252 "src/toMurphi.ml" 162 4235 4283
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 163 4284 4296 "src/toMurphi.ml" 163 4284 4298
+type(
+  Loach.formula list
+)
+ident(
+  def fl "src/toMurphi.ml" 164 4303 4307 "src/toMurphi.ml" 166 4405 4426
+)
+"src/toMurphi.ml" 163 4284 4288 "src/toMurphi.ml" 163 4284 4299
+type(
+  Loach.formula
+)
+"src/toMurphi.ml" 164 4303 4307 "src/toMurphi.ml" 164 4303 4315
+type(
+  Loach.formula list -> f:(Loach.formula -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 164 4303 4316 "src/toMurphi.ml" 164 4303 4318
+type(
+  Loach.formula list
+)
+ident(
+  int_ref fl "src/toMurphi.ml" 163 4284 4296 "src/toMurphi.ml" 163 4284 4298
+)
+"src/toMurphi.ml" 164 4303 4323 "src/toMurphi.ml" 164 4303 4331
+type(
+  Loach.formula -> string
+)
+ident(
+  int_ref form_act "src/toMurphi.ml" 156 4008 4012 "src/toMurphi.ml" 156 4008 4020
+)
+"src/toMurphi.ml" 164 4303 4307 "src/toMurphi.ml" 164 4303 4332
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 165 4333 4337 "src/toMurphi.ml" 165 4333 4339
+type(
+  string list -> (string list -> string) -> string
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/toMurphi.ml" 165 4333 4340 "src/toMurphi.ml" 165 4333 4346
+type(
+  string list -> default:string -> f:(string -> string -> string) -> string
+)
+ident(
+  ext_ref Utils.reduce
+)
+"src/toMurphi.ml" 165 4333 4356 "src/toMurphi.ml" 165 4333 4362
+type(
+  string
+)
+"src/toMurphi.ml" 165 4333 4371 "src/toMurphi.ml" 165 4333 4374
+type(
+  string
+)
+ident(
+  def res "src/toMurphi.ml" 165 4333 4375 "src/toMurphi.ml" 165 4333 4403
+)
+"src/toMurphi.ml" 165 4333 4375 "src/toMurphi.ml" 165 4333 4376
+type(
+  string
+)
+ident(
+  def x "src/toMurphi.ml" 165 4333 4380 "src/toMurphi.ml" 165 4333 4403
+)
+"src/toMurphi.ml" 165 4333 4380 "src/toMurphi.ml" 165 4333 4387
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 165 4333 4388 "src/toMurphi.ml" 165 4333 4397
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 165 4333 4398 "src/toMurphi.ml" 165 4333 4401
+type(
+  string
+)
+ident(
+  int_ref res "src/toMurphi.ml" 165 4333 4371 "src/toMurphi.ml" 165 4333 4374
+)
+"src/toMurphi.ml" 165 4333 4402 "src/toMurphi.ml" 165 4333 4403
+type(
+  string
+)
+ident(
+  int_ref x "src/toMurphi.ml" 165 4333 4375 "src/toMurphi.ml" 165 4333 4376
+)
+"src/toMurphi.ml" 165 4333 4380 "src/toMurphi.ml" 165 4333 4403
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 165 4333 4375 "src/toMurphi.ml" 165 4333 4403
+type(
+  string -> string
+)
+"src/toMurphi.ml" 165 4333 4371 "src/toMurphi.ml" 165 4333 4403
+type(
+  string -> string -> string
+)
+"src/toMurphi.ml" 165 4333 4340 "src/toMurphi.ml" 165 4333 4404
+call(
+  tail
+)
+type(
+  string list -> string
+)
+"src/toMurphi.ml" 164 4303 4307 "src/toMurphi.ml" 165 4333 4404
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 166 4405 4409 "src/toMurphi.ml" 166 4405 4411
+type(
+  string -> (string -> string) -> string
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/toMurphi.ml" 166 4405 4412 "src/toMurphi.ml" 166 4405 4419
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 166 4405 4420 "src/toMurphi.ml" 166 4405 4426
+type(
+  (string -> string, unit, string) format
+)
+"src/toMurphi.ml" 166 4405 4412 "src/toMurphi.ml" 166 4405 4426
+call(
+  stack
+)
+type(
+  string -> string
+)
+"src/toMurphi.ml" 164 4303 4307 "src/toMurphi.ml" 166 4405 4426
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 167 4427 4438 "src/toMurphi.ml" 167 4427 4440
+type(
+  Loach.formula list
+)
+ident(
+  def fl "src/toMurphi.ml" 168 4445 4449 "src/toMurphi.ml" 170 4548 4569
+)
+"src/toMurphi.ml" 167 4427 4431 "src/toMurphi.ml" 167 4427 4441
+type(
+  Loach.formula
+)
+"src/toMurphi.ml" 168 4445 4449 "src/toMurphi.ml" 168 4445 4457
+type(
+  Loach.formula list -> f:(Loach.formula -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 168 4445 4458 "src/toMurphi.ml" 168 4445 4460
+type(
+  Loach.formula list
+)
+ident(
+  int_ref fl "src/toMurphi.ml" 167 4427 4438 "src/toMurphi.ml" 167 4427 4440
+)
+"src/toMurphi.ml" 168 4445 4465 "src/toMurphi.ml" 168 4445 4473
+type(
+  Loach.formula -> string
+)
+ident(
+  int_ref form_act "src/toMurphi.ml" 156 4008 4012 "src/toMurphi.ml" 156 4008 4020
+)
+"src/toMurphi.ml" 168 4445 4449 "src/toMurphi.ml" 168 4445 4474
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 169 4475 4479 "src/toMurphi.ml" 169 4475 4481
+type(
+  string list -> (string list -> string) -> string
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/toMurphi.ml" 169 4475 4482 "src/toMurphi.ml" 169 4475 4488
+type(
+  string list -> default:string -> f:(string -> string -> string) -> string
+)
+ident(
+  ext_ref Utils.reduce
+)
+"src/toMurphi.ml" 169 4475 4498 "src/toMurphi.ml" 169 4475 4505
+type(
+  string
+)
+"src/toMurphi.ml" 169 4475 4514 "src/toMurphi.ml" 169 4475 4517
+type(
+  string
+)
+ident(
+  def res "src/toMurphi.ml" 169 4475 4518 "src/toMurphi.ml" 169 4475 4546
+)
+"src/toMurphi.ml" 169 4475 4518 "src/toMurphi.ml" 169 4475 4519
+type(
+  string
+)
+ident(
+  def x "src/toMurphi.ml" 169 4475 4523 "src/toMurphi.ml" 169 4475 4546
+)
+"src/toMurphi.ml" 169 4475 4523 "src/toMurphi.ml" 169 4475 4530
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 169 4475 4531 "src/toMurphi.ml" 169 4475 4540
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 169 4475 4541 "src/toMurphi.ml" 169 4475 4544
+type(
+  string
+)
+ident(
+  int_ref res "src/toMurphi.ml" 169 4475 4514 "src/toMurphi.ml" 169 4475 4517
+)
+"src/toMurphi.ml" 169 4475 4545 "src/toMurphi.ml" 169 4475 4546
+type(
+  string
+)
+ident(
+  int_ref x "src/toMurphi.ml" 169 4475 4518 "src/toMurphi.ml" 169 4475 4519
+)
+"src/toMurphi.ml" 169 4475 4523 "src/toMurphi.ml" 169 4475 4546
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 169 4475 4518 "src/toMurphi.ml" 169 4475 4546
+type(
+  string -> string
+)
+"src/toMurphi.ml" 169 4475 4514 "src/toMurphi.ml" 169 4475 4546
+type(
+  string -> string -> string
+)
+"src/toMurphi.ml" 169 4475 4482 "src/toMurphi.ml" 169 4475 4547
+call(
+  tail
+)
+type(
+  string list -> string
+)
+"src/toMurphi.ml" 168 4445 4449 "src/toMurphi.ml" 169 4475 4547
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 170 4548 4552 "src/toMurphi.ml" 170 4548 4554
+type(
+  string -> (string -> string) -> string
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"src/toMurphi.ml" 170 4548 4555 "src/toMurphi.ml" 170 4548 4562
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 170 4548 4563 "src/toMurphi.ml" 170 4548 4569
+type(
+  (string -> string, unit, string) format
+)
+"src/toMurphi.ml" 170 4548 4555 "src/toMurphi.ml" 170 4548 4569
+call(
+  stack
+)
+type(
+  string -> string
+)
+"src/toMurphi.ml" 168 4445 4449 "src/toMurphi.ml" 170 4548 4569
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 171 4570 4580 "src/toMurphi.ml" 171 4570 4582
+type(
+  Loach.formula
+)
+ident(
+  def f1 "src/toMurphi.ml" 171 4570 4591 "src/toMurphi.ml" 171 4570 4639
+)
+"src/toMurphi.ml" 171 4570 4584 "src/toMurphi.ml" 171 4570 4586
+type(
+  Loach.formula
+)
+ident(
+  def f2 "src/toMurphi.ml" 171 4570 4591 "src/toMurphi.ml" 171 4570 4639
+)
+"src/toMurphi.ml" 171 4570 4574 "src/toMurphi.ml" 171 4570 4587
+type(
+  Loach.formula
+)
+"src/toMurphi.ml" 171 4570 4591 "src/toMurphi.ml" 171 4570 4598
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 171 4570 4599 "src/toMurphi.ml" 171 4570 4611
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 171 4570 4613 "src/toMurphi.ml" 171 4570 4621
+type(
+  Loach.formula -> string
+)
+ident(
+  int_ref form_act "src/toMurphi.ml" 156 4008 4012 "src/toMurphi.ml" 156 4008 4020
+)
+"src/toMurphi.ml" 171 4570 4622 "src/toMurphi.ml" 171 4570 4624
+type(
+  Loach.formula
+)
+ident(
+  int_ref f1 "src/toMurphi.ml" 171 4570 4580 "src/toMurphi.ml" 171 4570 4582
+)
+"src/toMurphi.ml" 171 4570 4613 "src/toMurphi.ml" 171 4570 4624
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 171 4570 4627 "src/toMurphi.ml" 171 4570 4635
+type(
+  Loach.formula -> string
+)
+ident(
+  int_ref form_act "src/toMurphi.ml" 156 4008 4012 "src/toMurphi.ml" 156 4008 4020
+)
+"src/toMurphi.ml" 171 4570 4636 "src/toMurphi.ml" 171 4570 4638
+type(
+  Loach.formula
+)
+ident(
+  int_ref f2 "src/toMurphi.ml" 171 4570 4584 "src/toMurphi.ml" 171 4570 4586
+)
+"src/toMurphi.ml" 171 4570 4627 "src/toMurphi.ml" 171 4570 4638
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 171 4570 4591 "src/toMurphi.ml" 171 4570 4639
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 172 4640 4658 "src/toMurphi.ml" 172 4640 4661
+type(
+  paramdef list
+)
+ident(
+  def pds "src/toMurphi.ml" 173 4669 4673 "src/toMurphi.ml" 174 4745 4807
+)
+"src/toMurphi.ml" 172 4640 4663 "src/toMurphi.ml" 172 4640 4664
+type(
+  Loach.formula
+)
+ident(
+  def f "src/toMurphi.ml" 173 4669 4673 "src/toMurphi.ml" 174 4745 4807
+)
+"src/toMurphi.ml" 172 4640 4644 "src/toMurphi.ml" 172 4640 4665
+type(
+  Loach.formula
+)
+"src/toMurphi.ml" 173 4669 4677 "src/toMurphi.ml" 173 4669 4684
+type(
+  string
+)
+ident(
+  def pds_str "src/toMurphi.ml" 174 4745 4749 "src/toMurphi.ml" 174 4745 4807
+)
+"src/toMurphi.ml" 173 4669 4687 "src/toMurphi.ml" 173 4669 4700
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 173 4669 4706 "src/toMurphi.ml" 173 4669 4710
+type(
+  string
+)
+"src/toMurphi.ml" 173 4669 4712 "src/toMurphi.ml" 173 4669 4720
+type(
+  paramdef list -> f:(paramdef -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 173 4669 4721 "src/toMurphi.ml" 173 4669 4724
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/toMurphi.ml" 172 4640 4658 "src/toMurphi.ml" 172 4640 4661
+)
+"src/toMurphi.ml" 173 4669 4728 "src/toMurphi.ml" 173 4669 4740
+type(
+  paramdef -> string
+)
+ident(
+  int_ref paramdef_act "src/toMurphi.ml" 131 3257 3261 "src/toMurphi.ml" 131 3257 3273
+)
+"src/toMurphi.ml" 173 4669 4712 "src/toMurphi.ml" 173 4669 4740
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 173 4669 4687 "src/toMurphi.ml" 173 4669 4741
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 174 4745 4749 "src/toMurphi.ml" 174 4745 4756
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 174 4745 4757 "src/toMurphi.ml" 174 4745 4786
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 174 4745 4787 "src/toMurphi.ml" 174 4745 4794
+type(
+  string
+)
+ident(
+  int_ref pds_str "src/toMurphi.ml" 173 4669 4677 "src/toMurphi.ml" 173 4669 4684
+)
+"src/toMurphi.ml" 174 4745 4796 "src/toMurphi.ml" 174 4745 4804
+type(
+  Loach.formula -> string
+)
+ident(
+  int_ref form_act "src/toMurphi.ml" 156 4008 4012 "src/toMurphi.ml" 156 4008 4020
+)
+"src/toMurphi.ml" 174 4745 4805 "src/toMurphi.ml" 174 4745 4806
+type(
+  Loach.formula
+)
+ident(
+  int_ref f "src/toMurphi.ml" 172 4640 4663 "src/toMurphi.ml" 172 4640 4664
+)
+"src/toMurphi.ml" 174 4745 4796 "src/toMurphi.ml" 174 4745 4806
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 174 4745 4749 "src/toMurphi.ml" 174 4745 4807
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 173 4669 4673 "src/toMurphi.ml" 174 4745 4807
+type(
+  string
+)
+"src/toMurphi.ml" 175 4808 4825 "src/toMurphi.ml" 175 4808 4828
+type(
+  paramdef list
+)
+ident(
+  def pds "src/toMurphi.ml" 176 4836 4840 "src/toMurphi.ml" 177 4912 4974
+)
+"src/toMurphi.ml" 175 4808 4830 "src/toMurphi.ml" 175 4808 4831
+type(
+  Loach.formula
+)
+ident(
+  def f "src/toMurphi.ml" 176 4836 4840 "src/toMurphi.ml" 177 4912 4974
+)
+"src/toMurphi.ml" 175 4808 4812 "src/toMurphi.ml" 175 4808 4832
+type(
+  Loach.formula
+)
+"src/toMurphi.ml" 176 4836 4844 "src/toMurphi.ml" 176 4836 4851
+type(
+  string
+)
+ident(
+  def pds_str "src/toMurphi.ml" 177 4912 4916 "src/toMurphi.ml" 177 4912 4974
+)
+"src/toMurphi.ml" 176 4836 4854 "src/toMurphi.ml" 176 4836 4867
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 176 4836 4873 "src/toMurphi.ml" 176 4836 4877
+type(
+  string
+)
+"src/toMurphi.ml" 176 4836 4879 "src/toMurphi.ml" 176 4836 4887
+type(
+  paramdef list -> f:(paramdef -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 176 4836 4888 "src/toMurphi.ml" 176 4836 4891
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/toMurphi.ml" 175 4808 4825 "src/toMurphi.ml" 175 4808 4828
+)
+"src/toMurphi.ml" 176 4836 4895 "src/toMurphi.ml" 176 4836 4907
+type(
+  paramdef -> string
+)
+ident(
+  int_ref paramdef_act "src/toMurphi.ml" 131 3257 3261 "src/toMurphi.ml" 131 3257 3273
+)
+"src/toMurphi.ml" 176 4836 4879 "src/toMurphi.ml" 176 4836 4907
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 176 4836 4854 "src/toMurphi.ml" 176 4836 4908
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 177 4912 4916 "src/toMurphi.ml" 177 4912 4923
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 177 4912 4924 "src/toMurphi.ml" 177 4912 4953
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 177 4912 4954 "src/toMurphi.ml" 177 4912 4961
+type(
+  string
+)
+ident(
+  int_ref pds_str "src/toMurphi.ml" 176 4836 4844 "src/toMurphi.ml" 176 4836 4851
+)
+"src/toMurphi.ml" 177 4912 4963 "src/toMurphi.ml" 177 4912 4971
+type(
+  Loach.formula -> string
+)
+ident(
+  int_ref form_act "src/toMurphi.ml" 156 4008 4012 "src/toMurphi.ml" 156 4008 4020
+)
+"src/toMurphi.ml" 177 4912 4972 "src/toMurphi.ml" 177 4912 4973
+type(
+  Loach.formula
+)
+ident(
+  int_ref f "src/toMurphi.ml" 175 4808 4830 "src/toMurphi.ml" 175 4808 4831
+)
+"src/toMurphi.ml" 177 4912 4963 "src/toMurphi.ml" 177 4912 4973
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 177 4912 4916 "src/toMurphi.ml" 177 4912 4974
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 176 4836 4840 "src/toMurphi.ml" 177 4912 4974
+type(
+  string
+)
+"src/toMurphi.ml" 157 4028 4030 "src/toMurphi.ml" 177 4912 4974
+type(
+  string
+)
+"src/toMurphi.ml" 156 4008 4021 "src/toMurphi.ml" 177 4912 4974
+type(
+  Loach.formula -> string
+)
+"src/toMurphi.ml" 179 4976 4984 "src/toMurphi.ml" 179 4976 4997
+type(
+  Loach.statement -> string
+)
+ident(
+  def statement_act "src/toMurphi.ml" 179 4976 4976 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 179 4976 4998 "src/toMurphi.ml" 179 4976 4999
+type(
+  Loach.statement
+)
+ident(
+  def s "src/toMurphi.ml" 180 5002 5004 "src/toMurphi.ml" 199 5857 5943
+)
+"src/toMurphi.ml" 180 5002 5010 "src/toMurphi.ml" 180 5002 5011
+type(
+  Loach.statement
+)
+ident(
+  int_ref s "src/toMurphi.ml" 179 4976 4998 "src/toMurphi.ml" 179 4976 4999
+)
+"src/toMurphi.ml" 181 5017 5028 "src/toMurphi.ml" 181 5017 5029
+type(
+  var
+)
+ident(
+  def v "src/toMurphi.ml" 181 5017 5037 "src/toMurphi.ml" 181 5017 5098
+)
+"src/toMurphi.ml" 181 5017 5031 "src/toMurphi.ml" 181 5017 5032
+type(
+  Loach.exp
+)
+ident(
+  def e "src/toMurphi.ml" 181 5017 5037 "src/toMurphi.ml" 181 5017 5098
+)
+"src/toMurphi.ml" 181 5017 5021 "src/toMurphi.ml" 181 5017 5033
+type(
+  Loach.statement
+)
+"src/toMurphi.ml" 181 5017 5037 "src/toMurphi.ml" 181 5017 5044
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 181 5017 5045 "src/toMurphi.ml" 181 5017 5058
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 181 5017 5060 "src/toMurphi.ml" 181 5017 5070
+type(
+  unit -> string
+)
+ident(
+  int_ref gen_spaces "src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+)
+"src/toMurphi.ml" 181 5017 5071 "src/toMurphi.ml" 181 5017 5073
+type(
+  unit
+)
+"src/toMurphi.ml" 181 5017 5060 "src/toMurphi.ml" 181 5017 5073
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 181 5017 5076 "src/toMurphi.ml" 181 5017 5083
+type(
+  var -> string
+)
+ident(
+  int_ref var_act "src/toMurphi.ml" 138 3423 3427 "src/toMurphi.ml" 138 3423 3434
+)
+"src/toMurphi.ml" 181 5017 5084 "src/toMurphi.ml" 181 5017 5085
+type(
+  var
+)
+ident(
+  int_ref v "src/toMurphi.ml" 181 5017 5028 "src/toMurphi.ml" 181 5017 5029
+)
+"src/toMurphi.ml" 181 5017 5076 "src/toMurphi.ml" 181 5017 5085
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 181 5017 5088 "src/toMurphi.ml" 181 5017 5095
+type(
+  Loach.exp -> string
+)
+ident(
+  int_ref exp_act "src/toMurphi.ml" 148 3713 3721 "src/toMurphi.ml" 148 3713 3728
+)
+"src/toMurphi.ml" 181 5017 5096 "src/toMurphi.ml" 181 5017 5097
+type(
+  Loach.exp
+)
+ident(
+  int_ref e "src/toMurphi.ml" 181 5017 5031 "src/toMurphi.ml" 181 5017 5032
+)
+"src/toMurphi.ml" 181 5017 5088 "src/toMurphi.ml" 181 5017 5097
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 181 5017 5037 "src/toMurphi.ml" 181 5017 5098
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 182 5099 5112 "src/toMurphi.ml" 182 5099 5114
+type(
+  Loach.statement list
+)
+ident(
+  def ss "src/toMurphi.ml" 182 5099 5119 "src/toMurphi.ml" 182 5099 5173
+)
+"src/toMurphi.ml" 182 5099 5103 "src/toMurphi.ml" 182 5099 5115
+type(
+  Loach.statement
+)
+"src/toMurphi.ml" 182 5099 5119 "src/toMurphi.ml" 182 5099 5132
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 182 5099 5138 "src/toMurphi.ml" 182 5099 5142
+type(
+  string
+)
+"src/toMurphi.ml" 182 5099 5144 "src/toMurphi.ml" 182 5099 5152
+type(
+  Loach.statement list -> f:(Loach.statement -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 182 5099 5153 "src/toMurphi.ml" 182 5099 5155
+type(
+  Loach.statement list
+)
+ident(
+  int_ref ss "src/toMurphi.ml" 182 5099 5112 "src/toMurphi.ml" 182 5099 5114
+)
+"src/toMurphi.ml" 182 5099 5159 "src/toMurphi.ml" 182 5099 5172
+type(
+  Loach.statement -> string
+)
+ident(
+  int_ref statement_act "src/toMurphi.ml" 179 4976 4984 "src/toMurphi.ml" 179 4976 4997
+)
+"src/toMurphi.ml" 182 5099 5144 "src/toMurphi.ml" 182 5099 5172
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 182 5099 5119 "src/toMurphi.ml" 182 5099 5173
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 183 5174 5190 "src/toMurphi.ml" 183 5174 5191
+type(
+  Loach.formula
+)
+ident(
+  def f "src/toMurphi.ml" 184 5199 5203 "src/toMurphi.ml" 187 5292 5383
+)
+"src/toMurphi.ml" 183 5174 5193 "src/toMurphi.ml" 183 5174 5194
+type(
+  Loach.statement
+)
+ident(
+  def s "src/toMurphi.ml" 184 5199 5203 "src/toMurphi.ml" 187 5292 5383
+)
+"src/toMurphi.ml" 183 5174 5178 "src/toMurphi.ml" 183 5174 5195
+type(
+  Loach.statement
+)
+"src/toMurphi.ml" 184 5199 5203 "src/toMurphi.ml" 184 5199 5209
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 184 5199 5215 "src/toMurphi.ml" 184 5199 5221
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 184 5199 5214 "src/toMurphi.ml" 184 5199 5221
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/toMurphi.ml" 184 5199 5223 "src/toMurphi.ml" 184 5199 5224
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/toMurphi.ml" 184 5199 5225 "src/toMurphi.ml" 184 5199 5226
+type(
+  int
+)
+"src/toMurphi.ml" 184 5199 5213 "src/toMurphi.ml" 184 5199 5226
+type(
+  int
+)
+"src/toMurphi.ml" 184 5199 5203 "src/toMurphi.ml" 184 5199 5226
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/toMurphi.ml" 185 5228 5236 "src/toMurphi.ml" 185 5228 5241
+type(
+  string
+)
+ident(
+  def s_str "src/toMurphi.ml" 186 5263 5267 "src/toMurphi.ml" 187 5292 5383
+)
+"src/toMurphi.ml" 185 5228 5244 "src/toMurphi.ml" 185 5228 5257
+type(
+  Loach.statement -> string
+)
+ident(
+  int_ref statement_act "src/toMurphi.ml" 179 4976 4984 "src/toMurphi.ml" 179 4976 4997
+)
+"src/toMurphi.ml" 185 5228 5258 "src/toMurphi.ml" 185 5228 5259
+type(
+  Loach.statement
+)
+ident(
+  int_ref s "src/toMurphi.ml" 183 5174 5193 "src/toMurphi.ml" 183 5174 5194
+)
+"src/toMurphi.ml" 185 5228 5244 "src/toMurphi.ml" 185 5228 5259
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 186 5263 5267 "src/toMurphi.ml" 186 5263 5273
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 186 5263 5279 "src/toMurphi.ml" 186 5263 5285
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 186 5263 5278 "src/toMurphi.ml" 186 5263 5285
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/toMurphi.ml" 186 5263 5287 "src/toMurphi.ml" 186 5263 5288
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/toMurphi.ml" 186 5263 5289 "src/toMurphi.ml" 186 5263 5290
+type(
+  int
+)
+"src/toMurphi.ml" 186 5263 5277 "src/toMurphi.ml" 186 5263 5290
+type(
+  int
+)
+"src/toMurphi.ml" 186 5263 5267 "src/toMurphi.ml" 186 5263 5290
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/toMurphi.ml" 187 5292 5296 "src/toMurphi.ml" 187 5292 5303
+type(
+  (string -> string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 187 5292 5304 "src/toMurphi.ml" 187 5292 5332
+type(
+  (string -> string -> string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 187 5292 5334 "src/toMurphi.ml" 187 5292 5344
+type(
+  unit -> string
+)
+ident(
+  int_ref gen_spaces "src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+)
+"src/toMurphi.ml" 187 5292 5345 "src/toMurphi.ml" 187 5292 5347
+type(
+  unit
+)
+"src/toMurphi.ml" 187 5292 5334 "src/toMurphi.ml" 187 5292 5347
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 187 5292 5350 "src/toMurphi.ml" 187 5292 5358
+type(
+  Loach.formula -> string
+)
+ident(
+  int_ref form_act "src/toMurphi.ml" 156 4008 4012 "src/toMurphi.ml" 156 4008 4020
+)
+"src/toMurphi.ml" 187 5292 5359 "src/toMurphi.ml" 187 5292 5360
+type(
+  Loach.formula
+)
+ident(
+  int_ref f "src/toMurphi.ml" 183 5174 5190 "src/toMurphi.ml" 183 5174 5191
+)
+"src/toMurphi.ml" 187 5292 5350 "src/toMurphi.ml" 187 5292 5360
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 187 5292 5362 "src/toMurphi.ml" 187 5292 5367
+type(
+  string
+)
+ident(
+  int_ref s_str "src/toMurphi.ml" 185 5228 5236 "src/toMurphi.ml" 185 5228 5241
+)
+"src/toMurphi.ml" 187 5292 5369 "src/toMurphi.ml" 187 5292 5379
+type(
+  unit -> string
+)
+ident(
+  int_ref gen_spaces "src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+)
+"src/toMurphi.ml" 187 5292 5380 "src/toMurphi.ml" 187 5292 5382
+type(
+  unit
+)
+"src/toMurphi.ml" 187 5292 5369 "src/toMurphi.ml" 187 5292 5382
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 187 5292 5296 "src/toMurphi.ml" 187 5292 5383
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 186 5263 5267 "src/toMurphi.ml" 187 5292 5383
+type(
+  string
+)
+"src/toMurphi.ml" 185 5228 5232 "src/toMurphi.ml" 187 5292 5383
+type(
+  string
+)
+"src/toMurphi.ml" 184 5199 5203 "src/toMurphi.ml" 187 5292 5383
+type(
+  string
+)
+"src/toMurphi.ml" 188 5384 5404 "src/toMurphi.ml" 188 5384 5405
+type(
+  Loach.formula
+)
+ident(
+  def f "src/toMurphi.ml" 189 5418 5422 "src/toMurphi.ml" 193 5550 5659
+)
+"src/toMurphi.ml" 188 5384 5407 "src/toMurphi.ml" 188 5384 5409
+type(
+  Loach.statement
+)
+ident(
+  def s1 "src/toMurphi.ml" 189 5418 5422 "src/toMurphi.ml" 193 5550 5659
+)
+"src/toMurphi.ml" 188 5384 5411 "src/toMurphi.ml" 188 5384 5413
+type(
+  Loach.statement
+)
+ident(
+  def s2 "src/toMurphi.ml" 189 5418 5422 "src/toMurphi.ml" 193 5550 5659
+)
+"src/toMurphi.ml" 188 5384 5388 "src/toMurphi.ml" 188 5384 5414
+type(
+  Loach.statement
+)
+"src/toMurphi.ml" 189 5418 5422 "src/toMurphi.ml" 189 5418 5428
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 189 5418 5434 "src/toMurphi.ml" 189 5418 5440
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 189 5418 5433 "src/toMurphi.ml" 189 5418 5440
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/toMurphi.ml" 189 5418 5442 "src/toMurphi.ml" 189 5418 5443
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/toMurphi.ml" 189 5418 5444 "src/toMurphi.ml" 189 5418 5445
+type(
+  int
+)
+"src/toMurphi.ml" 189 5418 5432 "src/toMurphi.ml" 189 5418 5445
+type(
+  int
+)
+"src/toMurphi.ml" 189 5418 5422 "src/toMurphi.ml" 189 5418 5445
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/toMurphi.ml" 190 5447 5455 "src/toMurphi.ml" 190 5447 5461
+type(
+  string
+)
+ident(
+  def s1_str "src/toMurphi.ml" 191 5484 5488 "src/toMurphi.ml" 193 5550 5659
+)
+"src/toMurphi.ml" 190 5447 5464 "src/toMurphi.ml" 190 5447 5477
+type(
+  Loach.statement -> string
+)
+ident(
+  int_ref statement_act "src/toMurphi.ml" 179 4976 4984 "src/toMurphi.ml" 179 4976 4997
+)
+"src/toMurphi.ml" 190 5447 5478 "src/toMurphi.ml" 190 5447 5480
+type(
+  Loach.statement
+)
+ident(
+  int_ref s1 "src/toMurphi.ml" 188 5384 5407 "src/toMurphi.ml" 188 5384 5409
+)
+"src/toMurphi.ml" 190 5447 5464 "src/toMurphi.ml" 190 5447 5480
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 191 5484 5492 "src/toMurphi.ml" 191 5484 5498
+type(
+  string
+)
+ident(
+  def s2_str "src/toMurphi.ml" 192 5521 5525 "src/toMurphi.ml" 193 5550 5659
+)
+"src/toMurphi.ml" 191 5484 5501 "src/toMurphi.ml" 191 5484 5514
+type(
+  Loach.statement -> string
+)
+ident(
+  int_ref statement_act "src/toMurphi.ml" 179 4976 4984 "src/toMurphi.ml" 179 4976 4997
+)
+"src/toMurphi.ml" 191 5484 5515 "src/toMurphi.ml" 191 5484 5517
+type(
+  Loach.statement
+)
+ident(
+  int_ref s2 "src/toMurphi.ml" 188 5384 5411 "src/toMurphi.ml" 188 5384 5413
+)
+"src/toMurphi.ml" 191 5484 5501 "src/toMurphi.ml" 191 5484 5517
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 192 5521 5525 "src/toMurphi.ml" 192 5521 5531
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 192 5521 5537 "src/toMurphi.ml" 192 5521 5543
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 192 5521 5536 "src/toMurphi.ml" 192 5521 5543
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/toMurphi.ml" 192 5521 5545 "src/toMurphi.ml" 192 5521 5546
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/toMurphi.ml" 192 5521 5547 "src/toMurphi.ml" 192 5521 5548
+type(
+  int
+)
+"src/toMurphi.ml" 192 5521 5535 "src/toMurphi.ml" 192 5521 5548
+type(
+  int
+)
+"src/toMurphi.ml" 192 5521 5525 "src/toMurphi.ml" 192 5521 5548
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/toMurphi.ml" 193 5550 5554 "src/toMurphi.ml" 193 5550 5561
+type(
+  (string -> string -> string -> string -> string -> string, unit, string)
+  format -> string -> string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 193 5550 5562 "src/toMurphi.ml" 193 5550 5600
+type(
+  (string -> string -> string -> string -> string -> string, unit, string)
+  format
+)
+"src/toMurphi.ml" 193 5550 5602 "src/toMurphi.ml" 193 5550 5612
+type(
+  unit -> string
+)
+ident(
+  int_ref gen_spaces "src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+)
+"src/toMurphi.ml" 193 5550 5613 "src/toMurphi.ml" 193 5550 5615
+type(
+  unit
+)
+"src/toMurphi.ml" 193 5550 5602 "src/toMurphi.ml" 193 5550 5615
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 193 5550 5618 "src/toMurphi.ml" 193 5550 5626
+type(
+  Loach.formula -> string
+)
+ident(
+  int_ref form_act "src/toMurphi.ml" 156 4008 4012 "src/toMurphi.ml" 156 4008 4020
+)
+"src/toMurphi.ml" 193 5550 5627 "src/toMurphi.ml" 193 5550 5628
+type(
+  Loach.formula
+)
+ident(
+  int_ref f "src/toMurphi.ml" 188 5384 5404 "src/toMurphi.ml" 188 5384 5405
+)
+"src/toMurphi.ml" 193 5550 5618 "src/toMurphi.ml" 193 5550 5628
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 193 5550 5630 "src/toMurphi.ml" 193 5550 5636
+type(
+  string
+)
+ident(
+  int_ref s1_str "src/toMurphi.ml" 190 5447 5455 "src/toMurphi.ml" 190 5447 5461
+)
+"src/toMurphi.ml" 193 5550 5637 "src/toMurphi.ml" 193 5550 5643
+type(
+  string
+)
+ident(
+  int_ref s2_str "src/toMurphi.ml" 191 5484 5492 "src/toMurphi.ml" 191 5484 5498
+)
+"src/toMurphi.ml" 193 5550 5645 "src/toMurphi.ml" 193 5550 5655
+type(
+  unit -> string
+)
+ident(
+  int_ref gen_spaces "src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+)
+"src/toMurphi.ml" 193 5550 5656 "src/toMurphi.ml" 193 5550 5658
+type(
+  unit
+)
+"src/toMurphi.ml" 193 5550 5645 "src/toMurphi.ml" 193 5550 5658
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 193 5550 5554 "src/toMurphi.ml" 193 5550 5659
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 192 5521 5525 "src/toMurphi.ml" 193 5550 5659
+type(
+  string
+)
+"src/toMurphi.ml" 191 5484 5488 "src/toMurphi.ml" 193 5550 5659
+type(
+  string
+)
+"src/toMurphi.ml" 190 5447 5451 "src/toMurphi.ml" 193 5550 5659
+type(
+  string
+)
+"src/toMurphi.ml" 189 5418 5422 "src/toMurphi.ml" 193 5550 5659
+type(
+  string
+)
+"src/toMurphi.ml" 194 5660 5677 "src/toMurphi.ml" 194 5660 5678
+type(
+  Loach.statement
+)
+ident(
+  def s "src/toMurphi.ml" 195 5688 5692 "src/toMurphi.ml" 199 5857 5943
+)
+"src/toMurphi.ml" 194 5660 5680 "src/toMurphi.ml" 194 5660 5683
+type(
+  paramdef list
+)
+ident(
+  def pds "src/toMurphi.ml" 195 5688 5692 "src/toMurphi.ml" 199 5857 5943
+)
+"src/toMurphi.ml" 194 5660 5664 "src/toMurphi.ml" 194 5660 5684
+type(
+  Loach.statement
+)
+"src/toMurphi.ml" 195 5688 5696 "src/toMurphi.ml" 195 5688 5703
+type(
+  string
+)
+ident(
+  def pds_str "src/toMurphi.ml" 196 5764 5768 "src/toMurphi.ml" 199 5857 5943
+)
+"src/toMurphi.ml" 195 5688 5706 "src/toMurphi.ml" 195 5688 5719
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 195 5688 5725 "src/toMurphi.ml" 195 5688 5729
+type(
+  string
+)
+"src/toMurphi.ml" 195 5688 5731 "src/toMurphi.ml" 195 5688 5739
+type(
+  paramdef list -> f:(paramdef -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 195 5688 5740 "src/toMurphi.ml" 195 5688 5743
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/toMurphi.ml" 194 5660 5680 "src/toMurphi.ml" 194 5660 5683
+)
+"src/toMurphi.ml" 195 5688 5747 "src/toMurphi.ml" 195 5688 5759
+type(
+  paramdef -> string
+)
+ident(
+  int_ref paramdef_act "src/toMurphi.ml" 131 3257 3261 "src/toMurphi.ml" 131 3257 3273
+)
+"src/toMurphi.ml" 195 5688 5731 "src/toMurphi.ml" 195 5688 5759
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 195 5688 5706 "src/toMurphi.ml" 195 5688 5760
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 196 5764 5768 "src/toMurphi.ml" 196 5764 5774
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 196 5764 5780 "src/toMurphi.ml" 196 5764 5786
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 196 5764 5779 "src/toMurphi.ml" 196 5764 5786
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/toMurphi.ml" 196 5764 5788 "src/toMurphi.ml" 196 5764 5789
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/toMurphi.ml" 196 5764 5790 "src/toMurphi.ml" 196 5764 5791
+type(
+  int
+)
+"src/toMurphi.ml" 196 5764 5778 "src/toMurphi.ml" 196 5764 5791
+type(
+  int
+)
+"src/toMurphi.ml" 196 5764 5768 "src/toMurphi.ml" 196 5764 5791
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/toMurphi.ml" 197 5793 5801 "src/toMurphi.ml" 197 5793 5806
+type(
+  string
+)
+ident(
+  def s_str "src/toMurphi.ml" 198 5828 5832 "src/toMurphi.ml" 199 5857 5943
+)
+"src/toMurphi.ml" 197 5793 5809 "src/toMurphi.ml" 197 5793 5822
+type(
+  Loach.statement -> string
+)
+ident(
+  int_ref statement_act "src/toMurphi.ml" 179 4976 4984 "src/toMurphi.ml" 179 4976 4997
+)
+"src/toMurphi.ml" 197 5793 5823 "src/toMurphi.ml" 197 5793 5824
+type(
+  Loach.statement
+)
+ident(
+  int_ref s "src/toMurphi.ml" 194 5660 5677 "src/toMurphi.ml" 194 5660 5678
+)
+"src/toMurphi.ml" 197 5793 5809 "src/toMurphi.ml" 197 5793 5824
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 198 5828 5832 "src/toMurphi.ml" 198 5828 5838
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 198 5828 5844 "src/toMurphi.ml" 198 5828 5850
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 198 5828 5843 "src/toMurphi.ml" 198 5828 5850
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/toMurphi.ml" 198 5828 5852 "src/toMurphi.ml" 198 5828 5853
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/toMurphi.ml" 198 5828 5854 "src/toMurphi.ml" 198 5828 5855
+type(
+  int
+)
+"src/toMurphi.ml" 198 5828 5842 "src/toMurphi.ml" 198 5828 5855
+type(
+  int
+)
+"src/toMurphi.ml" 198 5828 5832 "src/toMurphi.ml" 198 5828 5855
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/toMurphi.ml" 199 5857 5861 "src/toMurphi.ml" 199 5857 5868
+type(
+  (string -> string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 199 5857 5869 "src/toMurphi.ml" 199 5857 5897
+type(
+  (string -> string -> string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 199 5857 5899 "src/toMurphi.ml" 199 5857 5909
+type(
+  unit -> string
+)
+ident(
+  int_ref gen_spaces "src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+)
+"src/toMurphi.ml" 199 5857 5910 "src/toMurphi.ml" 199 5857 5912
+type(
+  unit
+)
+"src/toMurphi.ml" 199 5857 5899 "src/toMurphi.ml" 199 5857 5912
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 199 5857 5914 "src/toMurphi.ml" 199 5857 5921
+type(
+  string
+)
+ident(
+  int_ref pds_str "src/toMurphi.ml" 195 5688 5696 "src/toMurphi.ml" 195 5688 5703
+)
+"src/toMurphi.ml" 199 5857 5922 "src/toMurphi.ml" 199 5857 5927
+type(
+  string
+)
+ident(
+  int_ref s_str "src/toMurphi.ml" 197 5793 5801 "src/toMurphi.ml" 197 5793 5806
+)
+"src/toMurphi.ml" 199 5857 5929 "src/toMurphi.ml" 199 5857 5939
+type(
+  unit -> string
+)
+ident(
+  int_ref gen_spaces "src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+)
+"src/toMurphi.ml" 199 5857 5940 "src/toMurphi.ml" 199 5857 5942
+type(
+  unit
+)
+"src/toMurphi.ml" 199 5857 5929 "src/toMurphi.ml" 199 5857 5942
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 199 5857 5861 "src/toMurphi.ml" 199 5857 5943
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 198 5828 5832 "src/toMurphi.ml" 199 5857 5943
+type(
+  string
+)
+"src/toMurphi.ml" 197 5793 5797 "src/toMurphi.ml" 199 5857 5943
+type(
+  string
+)
+"src/toMurphi.ml" 196 5764 5768 "src/toMurphi.ml" 199 5857 5943
+type(
+  string
+)
+"src/toMurphi.ml" 195 5688 5692 "src/toMurphi.ml" 199 5857 5943
+type(
+  string
+)
+"src/toMurphi.ml" 180 5002 5004 "src/toMurphi.ml" 199 5857 5943
+type(
+  string
+)
+"src/toMurphi.ml" 179 4976 4998 "src/toMurphi.ml" 199 5857 5943
+type(
+  Loach.statement -> string
+)
+"src/toMurphi.ml" 201 5945 5949 "src/toMurphi.ml" 201 5945 5957
+type(
+  Loach.rule -> string
+)
+ident(
+  def rule_act "src/toMurphi.ml" 220 6657 6657 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 201 5945 5958 "src/toMurphi.ml" 201 5945 5959
+type(
+  Loach.rule
+)
+ident(
+  def r "src/toMurphi.ml" 202 5962 5964 "src/toMurphi.ml" 218 6650 6655
+)
+"src/toMurphi.ml" 202 5962 5973 "src/toMurphi.ml" 202 5962 5977
+type(
+  string
+)
+ident(
+  def name "src/toMurphi.ml" 203 5997 5999 "src/toMurphi.ml" 218 6650 6655
+)
+"src/toMurphi.ml" 202 5962 5979 "src/toMurphi.ml" 202 5962 5982
+type(
+  paramdef list
+)
+ident(
+  def pds "src/toMurphi.ml" 203 5997 5999 "src/toMurphi.ml" 218 6650 6655
+)
+"src/toMurphi.ml" 202 5962 5984 "src/toMurphi.ml" 202 5962 5985
+type(
+  Loach.formula
+)
+ident(
+  def f "src/toMurphi.ml" 203 5997 5999 "src/toMurphi.ml" 218 6650 6655
+)
+"src/toMurphi.ml" 202 5962 5987 "src/toMurphi.ml" 202 5962 5988
+type(
+  Loach.statement
+)
+ident(
+  def s "src/toMurphi.ml" 203 5997 5999 "src/toMurphi.ml" 218 6650 6655
+)
+"src/toMurphi.ml" 202 5962 5968 "src/toMurphi.ml" 202 5962 5989
+type(
+  Loach.rule
+)
+"src/toMurphi.ml" 202 5962 5992 "src/toMurphi.ml" 202 5962 5993
+type(
+  Loach.rule
+)
+ident(
+  int_ref r "src/toMurphi.ml" 201 5945 5958 "src/toMurphi.ml" 201 5945 5959
+)
+"src/toMurphi.ml" 203 5997 6002 "src/toMurphi.ml" 203 5997 6005
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/toMurphi.ml" 202 5962 5979 "src/toMurphi.ml" 202 5962 5982
+)
+"src/toMurphi.ml" 203 5997 6006 "src/toMurphi.ml" 203 5997 6007
+type(
+  paramdef list -> paramdef list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/toMurphi.ml" 203 5997 6008 "src/toMurphi.ml" 203 5997 6010
+type(
+  paramdef list
+)
+"src/toMurphi.ml" 203 5997 6002 "src/toMurphi.ml" 203 5997 6010
+type(
+  bool
+)
+"src/toMurphi.ml" 204 6016 6024 "src/toMurphi.ml" 204 6016 6029
+type(
+  string
+)
+ident(
+  def guard "src/toMurphi.ml" 205 6083 6087 "src/toMurphi.ml" 206 6123 6195
+)
+"src/toMurphi.ml" 204 6016 6032 "src/toMurphi.ml" 204 6016 6039
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 204 6016 6040 "src/toMurphi.ml" 204 6016 6050
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 204 6016 6052 "src/toMurphi.ml" 204 6016 6062
+type(
+  unit -> string
+)
+ident(
+  int_ref gen_spaces "src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+)
+"src/toMurphi.ml" 204 6016 6063 "src/toMurphi.ml" 204 6016 6065
+type(
+  unit
+)
+"src/toMurphi.ml" 204 6016 6052 "src/toMurphi.ml" 204 6016 6065
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 204 6016 6068 "src/toMurphi.ml" 204 6016 6076
+type(
+  Loach.formula -> string
+)
+ident(
+  int_ref form_act "src/toMurphi.ml" 156 4008 4012 "src/toMurphi.ml" 156 4008 4020
+)
+"src/toMurphi.ml" 204 6016 6077 "src/toMurphi.ml" 204 6016 6078
+type(
+  Loach.formula
+)
+ident(
+  int_ref f "src/toMurphi.ml" 202 5962 5984 "src/toMurphi.ml" 202 5962 5985
+)
+"src/toMurphi.ml" 204 6016 6068 "src/toMurphi.ml" 204 6016 6078
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 204 6016 6032 "src/toMurphi.ml" 204 6016 6079
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 205 6083 6091 "src/toMurphi.ml" 205 6083 6101
+type(
+  string
+)
+ident(
+  def statements "src/toMurphi.ml" 206 6123 6127 "src/toMurphi.ml" 206 6123 6195
+)
+"src/toMurphi.ml" 205 6083 6104 "src/toMurphi.ml" 205 6083 6117
+type(
+  Loach.statement -> string
+)
+ident(
+  int_ref statement_act "src/toMurphi.ml" 179 4976 4984 "src/toMurphi.ml" 179 4976 4997
+)
+"src/toMurphi.ml" 205 6083 6118 "src/toMurphi.ml" 205 6083 6119
+type(
+  Loach.statement
+)
+ident(
+  int_ref s "src/toMurphi.ml" 202 5962 5987 "src/toMurphi.ml" 202 5962 5988
+)
+"src/toMurphi.ml" 205 6083 6104 "src/toMurphi.ml" 205 6083 6119
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 206 6123 6127 "src/toMurphi.ml" 206 6123 6134
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 206 6123 6135 "src/toMurphi.ml" 206 6123 6173
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 206 6123 6174 "src/toMurphi.ml" 206 6123 6178
+type(
+  string
+)
+ident(
+  int_ref name "src/toMurphi.ml" 202 5962 5973 "src/toMurphi.ml" 202 5962 5977
+)
+"src/toMurphi.ml" 206 6123 6179 "src/toMurphi.ml" 206 6123 6184
+type(
+  string
+)
+ident(
+  int_ref guard "src/toMurphi.ml" 204 6016 6024 "src/toMurphi.ml" 204 6016 6029
+)
+"src/toMurphi.ml" 206 6123 6185 "src/toMurphi.ml" 206 6123 6195
+type(
+  string
+)
+ident(
+  int_ref statements "src/toMurphi.ml" 205 6083 6091 "src/toMurphi.ml" 205 6083 6101
+)
+"src/toMurphi.ml" 206 6123 6127 "src/toMurphi.ml" 206 6123 6195
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 205 6083 6087 "src/toMurphi.ml" 206 6123 6195
+type(
+  string
+)
+"src/toMurphi.ml" 204 6016 6020 "src/toMurphi.ml" 206 6123 6195
+type(
+  string
+)
+"src/toMurphi.ml" 208 6209 6213 "src/toMurphi.ml" 208 6209 6219
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 208 6209 6225 "src/toMurphi.ml" 208 6209 6231
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 208 6209 6224 "src/toMurphi.ml" 208 6209 6231
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/toMurphi.ml" 208 6209 6233 "src/toMurphi.ml" 208 6209 6234
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/toMurphi.ml" 208 6209 6235 "src/toMurphi.ml" 208 6209 6236
+type(
+  int
+)
+"src/toMurphi.ml" 208 6209 6223 "src/toMurphi.ml" 208 6209 6236
+type(
+  int
+)
+"src/toMurphi.ml" 208 6209 6213 "src/toMurphi.ml" 208 6209 6236
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/toMurphi.ml" 209 6238 6246 "src/toMurphi.ml" 209 6238 6251
+type(
+  string
+)
+ident(
+  def guard "src/toMurphi.ml" 210 6305 6309 "src/toMurphi.ml" 217 6592 6649
+)
+"src/toMurphi.ml" 209 6238 6254 "src/toMurphi.ml" 209 6238 6261
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 209 6238 6262 "src/toMurphi.ml" 209 6238 6272
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 209 6238 6274 "src/toMurphi.ml" 209 6238 6284
+type(
+  unit -> string
+)
+ident(
+  int_ref gen_spaces "src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+)
+"src/toMurphi.ml" 209 6238 6285 "src/toMurphi.ml" 209 6238 6287
+type(
+  unit
+)
+"src/toMurphi.ml" 209 6238 6274 "src/toMurphi.ml" 209 6238 6287
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 209 6238 6290 "src/toMurphi.ml" 209 6238 6298
+type(
+  Loach.formula -> string
+)
+ident(
+  int_ref form_act "src/toMurphi.ml" 156 4008 4012 "src/toMurphi.ml" 156 4008 4020
+)
+"src/toMurphi.ml" 209 6238 6299 "src/toMurphi.ml" 209 6238 6300
+type(
+  Loach.formula
+)
+ident(
+  int_ref f "src/toMurphi.ml" 202 5962 5984 "src/toMurphi.ml" 202 5962 5985
+)
+"src/toMurphi.ml" 209 6238 6290 "src/toMurphi.ml" 209 6238 6300
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 209 6238 6254 "src/toMurphi.ml" 209 6238 6301
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 210 6305 6313 "src/toMurphi.ml" 210 6305 6323
+type(
+  string
+)
+ident(
+  def statements "src/toMurphi.ml" 211 6345 6349 "src/toMurphi.ml" 217 6592 6649
+)
+"src/toMurphi.ml" 210 6305 6326 "src/toMurphi.ml" 210 6305 6339
+type(
+  Loach.statement -> string
+)
+ident(
+  int_ref statement_act "src/toMurphi.ml" 179 4976 4984 "src/toMurphi.ml" 179 4976 4997
+)
+"src/toMurphi.ml" 210 6305 6340 "src/toMurphi.ml" 210 6305 6341
+type(
+  Loach.statement
+)
+ident(
+  int_ref s "src/toMurphi.ml" 202 5962 5987 "src/toMurphi.ml" 202 5962 5988
+)
+"src/toMurphi.ml" 210 6305 6326 "src/toMurphi.ml" 210 6305 6341
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 211 6345 6349 "src/toMurphi.ml" 211 6345 6355
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 211 6345 6361 "src/toMurphi.ml" 211 6345 6367
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 211 6345 6360 "src/toMurphi.ml" 211 6345 6367
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/toMurphi.ml" 211 6345 6369 "src/toMurphi.ml" 211 6345 6370
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/toMurphi.ml" 211 6345 6371 "src/toMurphi.ml" 211 6345 6372
+type(
+  int
+)
+"src/toMurphi.ml" 211 6345 6359 "src/toMurphi.ml" 211 6345 6372
+type(
+  int
+)
+"src/toMurphi.ml" 211 6345 6349 "src/toMurphi.ml" 211 6345 6372
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/toMurphi.ml" 212 6374 6382 "src/toMurphi.ml" 212 6374 6384
+type(
+  string
+)
+ident(
+  def sp "src/toMurphi.ml" 213 6404 6408 "src/toMurphi.ml" 217 6592 6649
+)
+"src/toMurphi.ml" 212 6374 6387 "src/toMurphi.ml" 212 6374 6397
+type(
+  unit -> string
+)
+ident(
+  int_ref gen_spaces "src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+)
+"src/toMurphi.ml" 212 6374 6398 "src/toMurphi.ml" 212 6374 6400
+type(
+  unit
+)
+"src/toMurphi.ml" 212 6374 6387 "src/toMurphi.ml" 212 6374 6400
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 213 6404 6412 "src/toMurphi.ml" 213 6404 6416
+type(
+  string
+)
+ident(
+  def rstr "src/toMurphi.ml" 216 6516 6520 "src/toMurphi.ml" 217 6592 6649
+)
+"src/toMurphi.ml" 214 6419 6425 "src/toMurphi.ml" 214 6419 6432
+type(
+  (string -> string -> string -> string -> string -> string -> string, 
+   unit, string)
+  format ->
+  string -> string -> string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 214 6419 6433 "src/toMurphi.ml" 214 6419 6477
+type(
+  (string -> string -> string -> string -> string -> string -> string, 
+   unit, string)
+  format
+)
+"src/toMurphi.ml" 214 6419 6478 "src/toMurphi.ml" 214 6419 6480
+type(
+  string
+)
+ident(
+  int_ref sp "src/toMurphi.ml" 212 6374 6382 "src/toMurphi.ml" 212 6374 6384
+)
+"src/toMurphi.ml" 214 6419 6481 "src/toMurphi.ml" 214 6419 6485
+type(
+  string
+)
+ident(
+  int_ref name "src/toMurphi.ml" 202 5962 5973 "src/toMurphi.ml" 202 5962 5977
+)
+"src/toMurphi.ml" 214 6419 6486 "src/toMurphi.ml" 214 6419 6491
+type(
+  string
+)
+ident(
+  int_ref guard "src/toMurphi.ml" 209 6238 6246 "src/toMurphi.ml" 209 6238 6251
+)
+"src/toMurphi.ml" 214 6419 6492 "src/toMurphi.ml" 214 6419 6494
+type(
+  string
+)
+ident(
+  int_ref sp "src/toMurphi.ml" 212 6374 6382 "src/toMurphi.ml" 212 6374 6384
+)
+"src/toMurphi.ml" 214 6419 6495 "src/toMurphi.ml" 214 6419 6505
+type(
+  string
+)
+ident(
+  int_ref statements "src/toMurphi.ml" 210 6305 6313 "src/toMurphi.ml" 210 6305 6323
+)
+"src/toMurphi.ml" 214 6419 6506 "src/toMurphi.ml" 214 6419 6508
+type(
+  string
+)
+ident(
+  int_ref sp "src/toMurphi.ml" 212 6374 6382 "src/toMurphi.ml" 212 6374 6384
+)
+"src/toMurphi.ml" 214 6419 6425 "src/toMurphi.ml" 214 6419 6508
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 216 6516 6524 "src/toMurphi.ml" 216 6516 6531
+type(
+  string
+)
+ident(
+  def pds_str "src/toMurphi.ml" 217 6592 6596 "src/toMurphi.ml" 217 6592 6649
+)
+"src/toMurphi.ml" 216 6516 6534 "src/toMurphi.ml" 216 6516 6547
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 216 6516 6553 "src/toMurphi.ml" 216 6516 6557
+type(
+  string
+)
+"src/toMurphi.ml" 216 6516 6559 "src/toMurphi.ml" 216 6516 6567
+type(
+  paramdef list -> f:(paramdef -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 216 6516 6568 "src/toMurphi.ml" 216 6516 6571
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/toMurphi.ml" 202 5962 5979 "src/toMurphi.ml" 202 5962 5982
+)
+"src/toMurphi.ml" 216 6516 6575 "src/toMurphi.ml" 216 6516 6587
+type(
+  paramdef -> string
+)
+ident(
+  int_ref paramdef_act "src/toMurphi.ml" 131 3257 3261 "src/toMurphi.ml" 131 3257 3273
+)
+"src/toMurphi.ml" 216 6516 6559 "src/toMurphi.ml" 216 6516 6587
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 216 6516 6534 "src/toMurphi.ml" 216 6516 6588
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 217 6592 6596 "src/toMurphi.ml" 217 6592 6603
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 217 6592 6604 "src/toMurphi.ml" 217 6592 6636
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 217 6592 6637 "src/toMurphi.ml" 217 6592 6644
+type(
+  string
+)
+ident(
+  int_ref pds_str "src/toMurphi.ml" 216 6516 6524 "src/toMurphi.ml" 216 6516 6531
+)
+"src/toMurphi.ml" 217 6592 6645 "src/toMurphi.ml" 217 6592 6649
+type(
+  string
+)
+ident(
+  int_ref rstr "src/toMurphi.ml" 213 6404 6412 "src/toMurphi.ml" 213 6404 6416
+)
+"src/toMurphi.ml" 217 6592 6596 "src/toMurphi.ml" 217 6592 6649
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 216 6516 6520 "src/toMurphi.ml" 217 6592 6649
+type(
+  string
+)
+"src/toMurphi.ml" 213 6404 6408 "src/toMurphi.ml" 217 6592 6649
+type(
+  string
+)
+"src/toMurphi.ml" 212 6374 6378 "src/toMurphi.ml" 217 6592 6649
+type(
+  string
+)
+"src/toMurphi.ml" 211 6345 6349 "src/toMurphi.ml" 217 6592 6649
+type(
+  string
+)
+"src/toMurphi.ml" 210 6305 6309 "src/toMurphi.ml" 217 6592 6649
+type(
+  string
+)
+"src/toMurphi.ml" 209 6238 6242 "src/toMurphi.ml" 217 6592 6649
+type(
+  string
+)
+"src/toMurphi.ml" 208 6209 6213 "src/toMurphi.ml" 218 6650 6655
+type(
+  string
+)
+"src/toMurphi.ml" 203 5997 5999 "src/toMurphi.ml" 218 6650 6655
+type(
+  string
+)
+"src/toMurphi.ml" 202 5962 5964 "src/toMurphi.ml" 218 6650 6655
+type(
+  string
+)
+"src/toMurphi.ml" 201 5945 5958 "src/toMurphi.ml" 218 6650 6655
+type(
+  Loach.rule -> string
+)
+"src/toMurphi.ml" 220 6657 6661 "src/toMurphi.ml" 220 6657 6669
+type(
+  Loach.prop -> string
+)
+ident(
+  def prop_act "src/toMurphi.ml" 232 7113 7113 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 220 6657 6670 "src/toMurphi.ml" 220 6657 6671
+type(
+  Loach.prop
+)
+ident(
+  def p "src/toMurphi.ml" 221 6674 6676 "src/toMurphi.ml" 230 7106 7111
+)
+"src/toMurphi.ml" 221 6674 6685 "src/toMurphi.ml" 221 6674 6689
+type(
+  string
+)
+ident(
+  def name "src/toMurphi.ml" 222 6706 6708 "src/toMurphi.ml" 230 7106 7111
+)
+"src/toMurphi.ml" 221 6674 6691 "src/toMurphi.ml" 221 6674 6694
+type(
+  paramdef list
+)
+ident(
+  def pds "src/toMurphi.ml" 222 6706 6708 "src/toMurphi.ml" 230 7106 7111
+)
+"src/toMurphi.ml" 221 6674 6696 "src/toMurphi.ml" 221 6674 6697
+type(
+  Loach.formula
+)
+ident(
+  def f "src/toMurphi.ml" 222 6706 6708 "src/toMurphi.ml" 230 7106 7111
+)
+"src/toMurphi.ml" 221 6674 6680 "src/toMurphi.ml" 221 6674 6698
+type(
+  Loach.prop
+)
+"src/toMurphi.ml" 221 6674 6701 "src/toMurphi.ml" 221 6674 6702
+type(
+  Loach.prop
+)
+ident(
+  int_ref p "src/toMurphi.ml" 220 6657 6670 "src/toMurphi.ml" 220 6657 6671
+)
+"src/toMurphi.ml" 222 6706 6711 "src/toMurphi.ml" 222 6706 6714
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/toMurphi.ml" 221 6674 6691 "src/toMurphi.ml" 221 6674 6694
+)
+"src/toMurphi.ml" 222 6706 6715 "src/toMurphi.ml" 222 6706 6716
+type(
+  paramdef list -> paramdef list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/toMurphi.ml" 222 6706 6717 "src/toMurphi.ml" 222 6706 6719
+type(
+  paramdef list
+)
+"src/toMurphi.ml" 222 6706 6711 "src/toMurphi.ml" 222 6706 6719
+type(
+  bool
+)
+"src/toMurphi.ml" 223 6725 6729 "src/toMurphi.ml" 223 6725 6736
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 223 6725 6737 "src/toMurphi.ml" 223 6725 6762
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 223 6725 6763 "src/toMurphi.ml" 223 6725 6767
+type(
+  string
+)
+ident(
+  int_ref name "src/toMurphi.ml" 221 6674 6685 "src/toMurphi.ml" 221 6674 6689
+)
+"src/toMurphi.ml" 223 6725 6769 "src/toMurphi.ml" 223 6725 6779
+type(
+  unit -> string
+)
+ident(
+  int_ref gen_spaces "src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+)
+"src/toMurphi.ml" 223 6725 6780 "src/toMurphi.ml" 223 6725 6782
+type(
+  unit
+)
+"src/toMurphi.ml" 223 6725 6769 "src/toMurphi.ml" 223 6725 6782
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 223 6725 6785 "src/toMurphi.ml" 223 6725 6793
+type(
+  Loach.formula -> string
+)
+ident(
+  int_ref form_act "src/toMurphi.ml" 156 4008 4012 "src/toMurphi.ml" 156 4008 4020
+)
+"src/toMurphi.ml" 223 6725 6794 "src/toMurphi.ml" 223 6725 6795
+type(
+  Loach.formula
+)
+ident(
+  int_ref f "src/toMurphi.ml" 221 6674 6696 "src/toMurphi.ml" 221 6674 6697
+)
+"src/toMurphi.ml" 223 6725 6785 "src/toMurphi.ml" 223 6725 6795
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 223 6725 6729 "src/toMurphi.ml" 223 6725 6796
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 225 6810 6814 "src/toMurphi.ml" 225 6810 6820
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 225 6810 6826 "src/toMurphi.ml" 225 6810 6832
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 225 6810 6825 "src/toMurphi.ml" 225 6810 6832
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/toMurphi.ml" 225 6810 6834 "src/toMurphi.ml" 225 6810 6835
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/toMurphi.ml" 225 6810 6836 "src/toMurphi.ml" 225 6810 6837
+type(
+  int
+)
+"src/toMurphi.ml" 225 6810 6824 "src/toMurphi.ml" 225 6810 6837
+type(
+  int
+)
+"src/toMurphi.ml" 225 6810 6814 "src/toMurphi.ml" 225 6810 6837
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/toMurphi.ml" 226 6839 6847 "src/toMurphi.ml" 226 6839 6851
+type(
+  string
+)
+ident(
+  def fstr "src/toMurphi.ml" 227 6901 6905 "src/toMurphi.ml" 229 7006 7105
+)
+"src/toMurphi.ml" 226 6839 6854 "src/toMurphi.ml" 226 6839 6861
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 226 6839 6862 "src/toMurphi.ml" 226 6839 6868
+type(
+  (string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 226 6839 6870 "src/toMurphi.ml" 226 6839 6880
+type(
+  unit -> string
+)
+ident(
+  int_ref gen_spaces "src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+)
+"src/toMurphi.ml" 226 6839 6881 "src/toMurphi.ml" 226 6839 6883
+type(
+  unit
+)
+"src/toMurphi.ml" 226 6839 6870 "src/toMurphi.ml" 226 6839 6883
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 226 6839 6886 "src/toMurphi.ml" 226 6839 6894
+type(
+  Loach.formula -> string
+)
+ident(
+  int_ref form_act "src/toMurphi.ml" 156 4008 4012 "src/toMurphi.ml" 156 4008 4020
+)
+"src/toMurphi.ml" 226 6839 6895 "src/toMurphi.ml" 226 6839 6896
+type(
+  Loach.formula
+)
+ident(
+  int_ref f "src/toMurphi.ml" 221 6674 6696 "src/toMurphi.ml" 221 6674 6697
+)
+"src/toMurphi.ml" 226 6839 6886 "src/toMurphi.ml" 226 6839 6896
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 226 6839 6854 "src/toMurphi.ml" 226 6839 6897
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 227 6901 6905 "src/toMurphi.ml" 227 6901 6911
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 227 6901 6917 "src/toMurphi.ml" 227 6901 6923
+type(
+  int ref
+)
+ident(
+  int_ref spaces "src/toMurphi.ml" 13 60 64 "src/toMurphi.ml" 13 60 70
+)
+"src/toMurphi.ml" 227 6901 6916 "src/toMurphi.ml" 227 6901 6923
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/toMurphi.ml" 227 6901 6925 "src/toMurphi.ml" 227 6901 6926
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/toMurphi.ml" 227 6901 6927 "src/toMurphi.ml" 227 6901 6928
+type(
+  int
+)
+"src/toMurphi.ml" 227 6901 6915 "src/toMurphi.ml" 227 6901 6928
+type(
+  int
+)
+"src/toMurphi.ml" 227 6901 6905 "src/toMurphi.ml" 227 6901 6928
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/toMurphi.ml" 228 6930 6938 "src/toMurphi.ml" 228 6930 6945
+type(
+  string
+)
+ident(
+  def pds_str "src/toMurphi.ml" 229 7006 7010 "src/toMurphi.ml" 229 7006 7105
+)
+"src/toMurphi.ml" 228 6930 6948 "src/toMurphi.ml" 228 6930 6961
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 228 6930 6967 "src/toMurphi.ml" 228 6930 6971
+type(
+  string
+)
+"src/toMurphi.ml" 228 6930 6973 "src/toMurphi.ml" 228 6930 6981
+type(
+  paramdef list -> f:(paramdef -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 228 6930 6982 "src/toMurphi.ml" 228 6930 6985
+type(
+  paramdef list
+)
+ident(
+  int_ref pds "src/toMurphi.ml" 221 6674 6691 "src/toMurphi.ml" 221 6674 6694
+)
+"src/toMurphi.ml" 228 6930 6989 "src/toMurphi.ml" 228 6930 7001
+type(
+  paramdef -> string
+)
+ident(
+  int_ref paramdef_act "src/toMurphi.ml" 131 3257 3261 "src/toMurphi.ml" 131 3257 3273
+)
+"src/toMurphi.ml" 228 6930 6973 "src/toMurphi.ml" 228 6930 7001
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 228 6930 6948 "src/toMurphi.ml" 228 6930 7002
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 229 7006 7010 "src/toMurphi.ml" 229 7006 7017
+type(
+  (string -> string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 229 7006 7018 "src/toMurphi.ml" 229 7006 7071
+type(
+  (string -> string -> string -> string -> string, unit, string) format
+)
+"src/toMurphi.ml" 229 7006 7072 "src/toMurphi.ml" 229 7006 7079
+type(
+  string
+)
+ident(
+  int_ref pds_str "src/toMurphi.ml" 228 6930 6938 "src/toMurphi.ml" 228 6930 6945
+)
+"src/toMurphi.ml" 229 7006 7081 "src/toMurphi.ml" 229 7006 7091
+type(
+  unit -> string
+)
+ident(
+  int_ref gen_spaces "src/toMurphi.ml" 15 80 84 "src/toMurphi.ml" 15 80 94
+)
+"src/toMurphi.ml" 229 7006 7092 "src/toMurphi.ml" 229 7006 7094
+type(
+  unit
+)
+"src/toMurphi.ml" 229 7006 7081 "src/toMurphi.ml" 229 7006 7094
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 229 7006 7096 "src/toMurphi.ml" 229 7006 7100
+type(
+  string
+)
+ident(
+  int_ref name "src/toMurphi.ml" 221 6674 6685 "src/toMurphi.ml" 221 6674 6689
+)
+"src/toMurphi.ml" 229 7006 7101 "src/toMurphi.ml" 229 7006 7105
+type(
+  string
+)
+ident(
+  int_ref fstr "src/toMurphi.ml" 226 6839 6847 "src/toMurphi.ml" 226 6839 6851
+)
+"src/toMurphi.ml" 229 7006 7010 "src/toMurphi.ml" 229 7006 7105
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 228 6930 6934 "src/toMurphi.ml" 229 7006 7105
+type(
+  string
+)
+"src/toMurphi.ml" 227 6901 6905 "src/toMurphi.ml" 229 7006 7105
+type(
+  string
+)
+"src/toMurphi.ml" 226 6839 6843 "src/toMurphi.ml" 229 7006 7105
+type(
+  string
+)
+"src/toMurphi.ml" 225 6810 6814 "src/toMurphi.ml" 230 7106 7111
+type(
+  string
+)
+"src/toMurphi.ml" 222 6706 6708 "src/toMurphi.ml" 230 7106 7111
+type(
+  string
+)
+"src/toMurphi.ml" 221 6674 6676 "src/toMurphi.ml" 230 7106 7111
+type(
+  string
+)
+"src/toMurphi.ml" 220 6657 6670 "src/toMurphi.ml" 230 7106 7111
+type(
+  Loach.prop -> string
+)
+"src/toMurphi.ml" 232 7113 7117 "src/toMurphi.ml" 232 7113 7125
+type(
+  Loach.statement -> string
+)
+ident(
+  def init_act "src/toMurphi.ml" 235 7205 7205 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 232 7113 7126 "src/toMurphi.ml" 232 7113 7130
+type(
+  Loach.statement
+)
+ident(
+  def init "src/toMurphi.ml" 233 7133 7135 "src/toMurphi.ml" 233 7133 7203
+)
+"src/toMurphi.ml" 233 7133 7135 "src/toMurphi.ml" 233 7133 7142
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Core.Std.sprintf
+)
+"src/toMurphi.ml" 233 7133 7143 "src/toMurphi.ml" 233 7133 7182
+type(
+  (string -> string, unit, string) format
+)
+"src/toMurphi.ml" 233 7133 7184 "src/toMurphi.ml" 233 7133 7197
+type(
+  Loach.statement -> string
+)
+ident(
+  int_ref statement_act "src/toMurphi.ml" 179 4976 4984 "src/toMurphi.ml" 179 4976 4997
+)
+"src/toMurphi.ml" 233 7133 7198 "src/toMurphi.ml" 233 7133 7202
+type(
+  Loach.statement
+)
+ident(
+  int_ref init "src/toMurphi.ml" 232 7113 7126 "src/toMurphi.ml" 232 7113 7130
+)
+"src/toMurphi.ml" 233 7133 7184 "src/toMurphi.ml" 233 7133 7202
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 233 7133 7135 "src/toMurphi.ml" 233 7133 7203
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 232 7113 7126 "src/toMurphi.ml" 233 7133 7203
+type(
+  Loach.statement -> string
+)
+"src/toMurphi.ml" 235 7205 7209 "src/toMurphi.ml" 235 7205 7221
+type(
+  Loach.protocol -> string
+)
+ident(
+  def protocol_act "src/toMurphi.ml" 242 7624 7713 "src/toMurphi.ml" 1 0 -1
+)
+"src/toMurphi.ml" 235 7205 7222 "src/toMurphi.ml" 235 7205 7230
+type(
+  Loach.protocol
+)
+ident(
+  def protocol "src/toMurphi.ml" 236 7233 7235 "src/toMurphi.ml" 242 7624 7713
+)
+"src/toMurphi.ml" 236 7233 7240 "src/toMurphi.ml" 236 7233 7244
+type(
+  string
+)
+ident(
+  def name "src/toMurphi.ml" 237 7301 7303 "src/toMurphi.ml" 242 7624 7713
+)
+"src/toMurphi.ml" 236 7233 7246 "src/toMurphi.ml" 236 7233 7251
+type(
+  typedef list
+)
+ident(
+  def types "src/toMurphi.ml" 237 7301 7303 "src/toMurphi.ml" 242 7624 7713
+)
+"src/toMurphi.ml" 236 7233 7253 "src/toMurphi.ml" 236 7233 7260
+type(
+  vardef list
+)
+ident(
+  def vardefs "src/toMurphi.ml" 237 7301 7303 "src/toMurphi.ml" 242 7624 7713
+)
+"src/toMurphi.ml" 236 7233 7262 "src/toMurphi.ml" 236 7233 7266
+type(
+  Loach.statement
+)
+ident(
+  def init "src/toMurphi.ml" 237 7301 7303 "src/toMurphi.ml" 242 7624 7713
+)
+"src/toMurphi.ml" 236 7233 7268 "src/toMurphi.ml" 236 7233 7273
+type(
+  Loach.rule list
+)
+ident(
+  def rules "src/toMurphi.ml" 237 7301 7303 "src/toMurphi.ml" 242 7624 7713
+)
+"src/toMurphi.ml" 236 7233 7275 "src/toMurphi.ml" 236 7233 7285
+type(
+  Loach.prop list
+)
+ident(
+  def properties "src/toMurphi.ml" 237 7301 7303 "src/toMurphi.ml" 242 7624 7713
+)
+"src/toMurphi.ml" 236 7233 7239 "src/toMurphi.ml" 236 7233 7286
+type(
+  Loach.protocol
+)
+"src/toMurphi.ml" 236 7233 7289 "src/toMurphi.ml" 236 7233 7297
+type(
+  Loach.protocol
+)
+ident(
+  int_ref protocol "src/toMurphi.ml" 235 7205 7222 "src/toMurphi.ml" 235 7205 7230
+)
+"src/toMurphi.ml" 237 7301 7307 "src/toMurphi.ml" 237 7301 7316
+type(
+  string
+)
+ident(
+  def types_str "src/toMurphi.ml" 238 7384 7386 "src/toMurphi.ml" 242 7624 7713
+)
+"src/toMurphi.ml" 237 7301 7319 "src/toMurphi.ml" 237 7301 7327
+type(
+  string
+)
+"src/toMurphi.ml" 237 7301 7327 "src/toMurphi.ml" 237 7301 7328
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/toMurphi.ml" 237 7301 7328 "src/toMurphi.ml" 237 7301 7341
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 237 7301 7347 "src/toMurphi.ml" 237 7301 7351
+type(
+  string
+)
+"src/toMurphi.ml" 237 7301 7353 "src/toMurphi.ml" 237 7301 7361
+type(
+  typedef list -> f:(typedef -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 237 7301 7362 "src/toMurphi.ml" 237 7301 7367
+type(
+  typedef list
+)
+ident(
+  int_ref types "src/toMurphi.ml" 236 7233 7246 "src/toMurphi.ml" 236 7233 7251
+)
+"src/toMurphi.ml" 237 7301 7371 "src/toMurphi.ml" 237 7301 7379
+type(
+  typedef -> string
+)
+ident(
+  int_ref type_act "src/toMurphi.ml" 28 248 252 "src/toMurphi.ml" 28 248 260
+)
+"src/toMurphi.ml" 237 7301 7353 "src/toMurphi.ml" 237 7301 7379
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 237 7301 7328 "src/toMurphi.ml" 237 7301 7380
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 237 7301 7319 "src/toMurphi.ml" 237 7301 7380
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 238 7384 7390 "src/toMurphi.ml" 238 7384 7404
+type(
+  string
+)
+ident(
+  def record_var_str "src/toMurphi.ml" 239 7429 7431 "src/toMurphi.ml" 242 7624 7713
+)
+"src/toMurphi.ml" 238 7384 7407 "src/toMurphi.ml" 238 7384 7417
+type(
+  vardef list -> string
+)
+ident(
+  int_ref record_act "src/toMurphi.ml" 119 3027 3031 "src/toMurphi.ml" 119 3027 3041
+)
+"src/toMurphi.ml" 238 7384 7418 "src/toMurphi.ml" 238 7384 7425
+type(
+  vardef list
+)
+ident(
+  int_ref vardefs "src/toMurphi.ml" 236 7233 7253 "src/toMurphi.ml" 236 7233 7260
+)
+"src/toMurphi.ml" 238 7384 7407 "src/toMurphi.ml" 238 7384 7425
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 239 7429 7435 "src/toMurphi.ml" 239 7429 7443
+type(
+  string
+)
+ident(
+  def init_str "src/toMurphi.ml" 240 7463 7465 "src/toMurphi.ml" 242 7624 7713
+)
+"src/toMurphi.ml" 239 7429 7446 "src/toMurphi.ml" 239 7429 7454
+type(
+  Loach.statement -> string
+)
+ident(
+  int_ref init_act "src/toMurphi.ml" 232 7113 7117 "src/toMurphi.ml" 232 7113 7125
+)
+"src/toMurphi.ml" 239 7429 7455 "src/toMurphi.ml" 239 7429 7459
+type(
+  Loach.statement
+)
+ident(
+  int_ref init "src/toMurphi.ml" 236 7233 7262 "src/toMurphi.ml" 236 7233 7266
+)
+"src/toMurphi.ml" 239 7429 7446 "src/toMurphi.ml" 239 7429 7459
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 240 7463 7469 "src/toMurphi.ml" 240 7463 7478
+type(
+  string
+)
+ident(
+  def rules_str "src/toMurphi.ml" 241 7541 7543 "src/toMurphi.ml" 242 7624 7713
+)
+"src/toMurphi.ml" 240 7463 7481 "src/toMurphi.ml" 240 7463 7494
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 240 7463 7500 "src/toMurphi.ml" 240 7463 7508
+type(
+  string
+)
+"src/toMurphi.ml" 240 7463 7510 "src/toMurphi.ml" 240 7463 7518
+type(
+  Loach.rule list -> f:(Loach.rule -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 240 7463 7519 "src/toMurphi.ml" 240 7463 7524
+type(
+  Loach.rule list
+)
+ident(
+  int_ref rules "src/toMurphi.ml" 236 7233 7268 "src/toMurphi.ml" 236 7233 7273
+)
+"src/toMurphi.ml" 240 7463 7528 "src/toMurphi.ml" 240 7463 7536
+type(
+  Loach.rule -> string
+)
+ident(
+  int_ref rule_act "src/toMurphi.ml" 201 5945 5949 "src/toMurphi.ml" 201 5945 5957
+)
+"src/toMurphi.ml" 240 7463 7510 "src/toMurphi.ml" 240 7463 7536
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 240 7463 7481 "src/toMurphi.ml" 240 7463 7537
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 241 7541 7547 "src/toMurphi.ml" 241 7541 7556
+type(
+  string
+)
+ident(
+  def props_str "src/toMurphi.ml" 242 7624 7626 "src/toMurphi.ml" 242 7624 7713
+)
+"src/toMurphi.ml" 241 7541 7559 "src/toMurphi.ml" 241 7541 7572
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 241 7541 7578 "src/toMurphi.ml" 241 7541 7586
+type(
+  string
+)
+"src/toMurphi.ml" 241 7541 7588 "src/toMurphi.ml" 241 7541 7596
+type(
+  Loach.prop list -> f:(Loach.prop -> string) -> string list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/toMurphi.ml" 241 7541 7597 "src/toMurphi.ml" 241 7541 7607
+type(
+  Loach.prop list
+)
+ident(
+  int_ref properties "src/toMurphi.ml" 236 7233 7275 "src/toMurphi.ml" 236 7233 7285
+)
+"src/toMurphi.ml" 241 7541 7611 "src/toMurphi.ml" 241 7541 7619
+type(
+  Loach.prop -> string
+)
+ident(
+  int_ref prop_act "src/toMurphi.ml" 220 6657 6661 "src/toMurphi.ml" 220 6657 6669
+)
+"src/toMurphi.ml" 241 7541 7588 "src/toMurphi.ml" 241 7541 7619
+call(
+  stack
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 241 7541 7559 "src/toMurphi.ml" 241 7541 7620
+call(
+  stack
+)
+type(
+  string
+)
+"src/toMurphi.ml" 242 7624 7626 "src/toMurphi.ml" 242 7624 7639
+type(
+  ?sep:string -> string list -> string
+)
+ident(
+  ext_ref Core.Std.String.concat
+)
+"src/toMurphi.ml" 242 7624 7645 "src/toMurphi.ml" 242 7624 7653
+type(
+  string
+)
+"src/toMurphi.ml" 242 7624 7655 "src/toMurphi.ml" 242 7624 7664
+type(
+  string
+)
+ident(
+  int_ref types_str "src/toMurphi.ml" 237 7301 7307 "src/toMurphi.ml" 237 7301 7316
+)
+"src/toMurphi.ml" 242 7624 7666 "src/toMurphi.ml" 242 7624 7680
+type(
+  string
+)
+ident(
+  int_ref record_var_str "src/toMurphi.ml" 238 7384 7390 "src/toMurphi.ml" 238 7384 7404
+)
+"src/toMurphi.ml" 242 7624 7682 "src/toMurphi.ml" 242 7624 7690
+type(
+  string
+)
+ident(
+  int_ref init_str "src/toMurphi.ml" 239 7429 7435 "src/toMurphi.ml" 239 7429 7443
+)
+"src/toMurphi.ml" 242 7624 7692 "src/toMurphi.ml" 242 7624 7701
+type(
+  string
+)
+ident(
+  int_ref rules_str "src/toMurphi.ml" 240 7463 7469 "src/toMurphi.ml" 240 7463 7478
+)
+"src/toMurphi.ml" 242 7624 7703 "src/toMurphi.ml" 242 7624 7712
+type(
+  string
+)
+ident(
+  int_ref props_str "src/toMurphi.ml" 241 7541 7547 "src/toMurphi.ml" 241 7541 7556
+)
+type(
+  string list
+)
+"src/toMurphi.ml" 242 7624 7692 "src/toMurphi.ml" 242 7624 7712
+type(
+  string list
+)
+"src/toMurphi.ml" 242 7624 7682 "src/toMurphi.ml" 242 7624 7712
+type(
+  string list
+)
+"src/toMurphi.ml" 242 7624 7666 "src/toMurphi.ml" 242 7624 7712
+type(
+  string list
+)
+"src/toMurphi.ml" 242 7624 7655 "src/toMurphi.ml" 242 7624 7712
+type(
+  string list
+)
+"src/toMurphi.ml" 242 7624 7654 "src/toMurphi.ml" 242 7624 7713
+type(
+  string list
+)
+"src/toMurphi.ml" 242 7624 7626 "src/toMurphi.ml" 242 7624 7713
+call(
+  tail
+)
+type(
+  string
+)
+"src/toMurphi.ml" 241 7541 7543 "src/toMurphi.ml" 242 7624 7713
+type(
+  string
+)
+"src/toMurphi.ml" 240 7463 7465 "src/toMurphi.ml" 242 7624 7713
+type(
+  string
+)
+"src/toMurphi.ml" 239 7429 7431 "src/toMurphi.ml" 242 7624 7713
+type(
+  string
+)
+"src/toMurphi.ml" 238 7384 7386 "src/toMurphi.ml" 242 7624 7713
+type(
+  string
+)
+"src/toMurphi.ml" 237 7301 7303 "src/toMurphi.ml" 242 7624 7713
+type(
+  string
+)
+"src/toMurphi.ml" 236 7233 7235 "src/toMurphi.ml" 242 7624 7713
+type(
+  string
+)
+"src/toMurphi.ml" 235 7205 7222 "src/toMurphi.ml" 242 7624 7713
+type(
+  Loach.protocol -> string
+)

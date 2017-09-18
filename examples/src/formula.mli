@@ -41,6 +41,8 @@ exception Too_many_parameters_of_same_type
 val normalize : formula -> types:typedef list -> formula
 
 (** Decide if formula cons could be implied by ant *)
-val can_imply : Paramecium.formula -> Paramecium.formula -> Paramecium.formula option
+val can_imply : Paramecium.formula -> Paramecium.formula -> ?symIndex:bool -> Paramecium.formula option
 
 val symmetry_form : Paramecium.formula -> Paramecium.formula -> int
+
+val form2AllSymForm : f:Paramecium.formula -> types:typedef list -> Paramecium.formula 

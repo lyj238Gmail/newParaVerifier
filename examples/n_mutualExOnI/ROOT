@@ -1,0 +1,35 @@
+session paraTheory_Session = HOL +
+    theories
+        paraTheory
+
+session n_mutualExOnI_base_Session = paraTheory_Session +
+    theories
+        n_mutualExOnI_base
+
+session n_mutualExOnI_lemma_on_inv__1_Session = n_mutualExOnI_base_Session +
+    theories
+        n_mutualExOnI_lemma_inv__1_on_rules
+
+session n_mutualExOnI_lemma_on_inv__2_Session = n_mutualExOnI_lemma_on_inv__1_Session +
+    theories
+        n_mutualExOnI_lemma_inv__2_on_rules
+
+session n_mutualExOnI_lemma_on_inv__3_Session = n_mutualExOnI_lemma_on_inv__2_Session +
+    theories
+        n_mutualExOnI_lemma_inv__3_on_rules
+
+session n_mutualExOnI_lemma_on_inv__4_Session = n_mutualExOnI_lemma_on_inv__3_Session +
+    theories
+        n_mutualExOnI_lemma_inv__4_on_rules
+
+session n_mutualExOnI_lemma_invs_on_rules_Session = n_mutualExOnI_lemma_on_inv__4_Session +
+    theories
+        n_mutualExOnI_lemma_invs_on_rules
+
+session n_mutualExOnI_invs_on_inis_Session = n_mutualExOnI_lemma_invs_on_rules_Session +
+    theories
+        n_mutualExOnI_on_inis
+
+session n_mutualExOnI_Session = n_mutualExOnI_invs_on_inis_Session +
+    theories
+        n_mutualExOnI

@@ -1,0 +1,5296 @@
+"flashCjlTest.ml" 13 181 185 "flashCjlTest.ml" 13 181 193
+type(
+  const
+)
+ident(
+  def _CACHE_I "flashCjlTest.ml" 14 211 211 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 13 181 196 "flashCjlTest.ml" 13 181 200
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 13 181 201 "flashCjlTest.ml" 13 181 210
+type(
+  string
+)
+"flashCjlTest.ml" 13 181 196 "flashCjlTest.ml" 13 181 210
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 14 211 215 "flashCjlTest.ml" 14 211 223
+type(
+  const
+)
+ident(
+  def _CACHE_S "flashCjlTest.ml" 15 241 241 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 14 211 226 "flashCjlTest.ml" 14 211 230
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 14 211 231 "flashCjlTest.ml" 14 211 240
+type(
+  string
+)
+"flashCjlTest.ml" 14 211 226 "flashCjlTest.ml" 14 211 240
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 15 241 245 "flashCjlTest.ml" 15 241 253
+type(
+  const
+)
+ident(
+  def _CACHE_E "flashCjlTest.ml" 16 271 271 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 15 241 256 "flashCjlTest.ml" 15 241 260
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 15 241 261 "flashCjlTest.ml" 15 241 270
+type(
+  string
+)
+"flashCjlTest.ml" 15 241 256 "flashCjlTest.ml" 15 241 270
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 16 271 275 "flashCjlTest.ml" 16 271 285
+type(
+  const
+)
+ident(
+  def _NODE_None "flashCjlTest.ml" 17 305 305 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 16 271 288 "flashCjlTest.ml" 16 271 292
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 16 271 293 "flashCjlTest.ml" 16 271 304
+type(
+  string
+)
+"flashCjlTest.ml" 16 271 288 "flashCjlTest.ml" 16 271 304
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 17 305 309 "flashCjlTest.ml" 17 305 318
+type(
+  const
+)
+ident(
+  def _NODE_Get "flashCjlTest.ml" 18 337 337 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 17 305 321 "flashCjlTest.ml" 17 305 325
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 17 305 326 "flashCjlTest.ml" 17 305 336
+type(
+  string
+)
+"flashCjlTest.ml" 17 305 321 "flashCjlTest.ml" 17 305 336
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 18 337 341 "flashCjlTest.ml" 18 337 351
+type(
+  const
+)
+ident(
+  def _NODE_GetX "flashCjlTest.ml" 19 371 371 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 18 337 354 "flashCjlTest.ml" 18 337 358
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 18 337 359 "flashCjlTest.ml" 18 337 370
+type(
+  string
+)
+"flashCjlTest.ml" 18 337 354 "flashCjlTest.ml" 18 337 370
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 19 371 375 "flashCjlTest.ml" 19 371 384
+type(
+  const
+)
+ident(
+  def _UNI_None "flashCjlTest.ml" 20 403 403 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 19 371 387 "flashCjlTest.ml" 19 371 391
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 19 371 392 "flashCjlTest.ml" 19 371 402
+type(
+  string
+)
+"flashCjlTest.ml" 19 371 387 "flashCjlTest.ml" 19 371 402
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 20 403 407 "flashCjlTest.ml" 20 403 415
+type(
+  const
+)
+ident(
+  def _UNI_Get "flashCjlTest.ml" 21 433 433 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 20 403 418 "flashCjlTest.ml" 20 403 422
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 20 403 423 "flashCjlTest.ml" 20 403 432
+type(
+  string
+)
+"flashCjlTest.ml" 20 403 418 "flashCjlTest.ml" 20 403 432
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 21 433 437 "flashCjlTest.ml" 21 433 446
+type(
+  const
+)
+ident(
+  def _UNI_GetX "flashCjlTest.ml" 22 465 465 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 21 433 449 "flashCjlTest.ml" 21 433 453
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 21 433 454 "flashCjlTest.ml" 21 433 464
+type(
+  string
+)
+"flashCjlTest.ml" 21 433 449 "flashCjlTest.ml" 21 433 464
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 22 465 469 "flashCjlTest.ml" 22 465 477
+type(
+  const
+)
+ident(
+  def _UNI_Put "flashCjlTest.ml" 23 495 495 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 22 465 480 "flashCjlTest.ml" 22 465 484
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 22 465 485 "flashCjlTest.ml" 22 465 494
+type(
+  string
+)
+"flashCjlTest.ml" 22 465 480 "flashCjlTest.ml" 22 465 494
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 23 495 499 "flashCjlTest.ml" 23 495 508
+type(
+  const
+)
+ident(
+  def _UNI_PutX "flashCjlTest.ml" 24 527 527 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 23 495 511 "flashCjlTest.ml" 23 495 515
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 23 495 516 "flashCjlTest.ml" 23 495 526
+type(
+  string
+)
+"flashCjlTest.ml" 23 495 511 "flashCjlTest.ml" 23 495 526
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 24 527 531 "flashCjlTest.ml" 24 527 539
+type(
+  const
+)
+ident(
+  def _UNI_Nak "flashCjlTest.ml" 25 557 557 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 24 527 542 "flashCjlTest.ml" 24 527 546
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 24 527 547 "flashCjlTest.ml" 24 527 556
+type(
+  string
+)
+"flashCjlTest.ml" 24 527 542 "flashCjlTest.ml" 24 527 556
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 25 557 561 "flashCjlTest.ml" 25 557 570
+type(
+  const
+)
+ident(
+  def _INV_None "flashCjlTest.ml" 26 589 589 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 25 557 573 "flashCjlTest.ml" 25 557 577
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 25 557 578 "flashCjlTest.ml" 25 557 588
+type(
+  string
+)
+"flashCjlTest.ml" 25 557 573 "flashCjlTest.ml" 25 557 588
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 26 589 593 "flashCjlTest.ml" 26 589 601
+type(
+  const
+)
+ident(
+  def _INV_Inv "flashCjlTest.ml" 27 619 619 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 26 589 604 "flashCjlTest.ml" 26 589 608
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 26 589 609 "flashCjlTest.ml" 26 589 618
+type(
+  string
+)
+"flashCjlTest.ml" 26 589 604 "flashCjlTest.ml" 26 589 618
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 27 619 623 "flashCjlTest.ml" 27 619 634
+type(
+  const
+)
+ident(
+  def _INV_InvAck "flashCjlTest.ml" 28 655 655 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 27 619 637 "flashCjlTest.ml" 27 619 641
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 27 619 642 "flashCjlTest.ml" 27 619 654
+type(
+  string
+)
+"flashCjlTest.ml" 27 619 637 "flashCjlTest.ml" 27 619 654
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 28 655 659 "flashCjlTest.ml" 28 655 667
+type(
+  const
+)
+ident(
+  def _RP_None "flashCjlTest.ml" 29 685 685 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 28 655 670 "flashCjlTest.ml" 28 655 674
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 28 655 675 "flashCjlTest.ml" 28 655 684
+type(
+  string
+)
+"flashCjlTest.ml" 28 655 670 "flashCjlTest.ml" 28 655 684
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 29 685 689 "flashCjlTest.ml" 29 685 700
+type(
+  const
+)
+ident(
+  def _RP_Replace "flashCjlTest.ml" 30 721 721 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 29 685 703 "flashCjlTest.ml" 29 685 707
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 29 685 708 "flashCjlTest.ml" 29 685 720
+type(
+  string
+)
+"flashCjlTest.ml" 29 685 703 "flashCjlTest.ml" 29 685 720
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 30 721 725 "flashCjlTest.ml" 30 721 733
+type(
+  const
+)
+ident(
+  def _WB_None "flashCjlTest.ml" 31 751 751 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 30 721 736 "flashCjlTest.ml" 30 721 740
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 30 721 741 "flashCjlTest.ml" 30 721 750
+type(
+  string
+)
+"flashCjlTest.ml" 30 721 736 "flashCjlTest.ml" 30 721 750
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 31 751 755 "flashCjlTest.ml" 31 751 761
+type(
+  const
+)
+ident(
+  def _WB_Wb "flashCjlTest.ml" 32 777 777 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 31 751 764 "flashCjlTest.ml" 31 751 768
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 31 751 769 "flashCjlTest.ml" 31 751 776
+type(
+  string
+)
+"flashCjlTest.ml" 31 751 764 "flashCjlTest.ml" 31 751 776
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 32 777 781 "flashCjlTest.ml" 32 777 791
+type(
+  const
+)
+ident(
+  def _SHWB_None "flashCjlTest.ml" 33 811 811 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 32 777 794 "flashCjlTest.ml" 32 777 798
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 32 777 799 "flashCjlTest.ml" 32 777 810
+type(
+  string
+)
+"flashCjlTest.ml" 32 777 794 "flashCjlTest.ml" 32 777 810
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 33 811 815 "flashCjlTest.ml" 33 811 825
+type(
+  const
+)
+ident(
+  def _SHWB_ShWb "flashCjlTest.ml" 34 845 845 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 33 811 828 "flashCjlTest.ml" 33 811 832
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 33 811 833 "flashCjlTest.ml" 33 811 844
+type(
+  string
+)
+"flashCjlTest.ml" 33 811 828 "flashCjlTest.ml" 33 811 844
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 34 845 849 "flashCjlTest.ml" 34 845 859
+type(
+  const
+)
+ident(
+  def _SHWB_FAck "flashCjlTest.ml" 35 879 879 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 34 845 862 "flashCjlTest.ml" 34 845 866
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 34 845 867 "flashCjlTest.ml" 34 845 878
+type(
+  string
+)
+"flashCjlTest.ml" 34 845 862 "flashCjlTest.ml" 34 845 878
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 35 879 883 "flashCjlTest.ml" 35 879 893
+type(
+  const
+)
+ident(
+  def _NAKC_None "flashCjlTest.ml" 36 913 913 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 35 879 896 "flashCjlTest.ml" 35 879 900
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 35 879 901 "flashCjlTest.ml" 35 879 912
+type(
+  string
+)
+"flashCjlTest.ml" 35 879 896 "flashCjlTest.ml" 35 879 912
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 36 913 917 "flashCjlTest.ml" 36 913 927
+type(
+  const
+)
+ident(
+  def _NAKC_Nakc "flashCjlTest.ml" 37 947 947 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 36 913 930 "flashCjlTest.ml" 36 913 934
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"flashCjlTest.ml" 36 913 935 "flashCjlTest.ml" 36 913 946
+type(
+  string
+)
+"flashCjlTest.ml" 36 913 930 "flashCjlTest.ml" 36 913 946
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 37 947 951 "flashCjlTest.ml" 37 947 956
+type(
+  const
+)
+ident(
+  def _True "flashCjlTest.ml" 38 970 970 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 37 947 959 "flashCjlTest.ml" 37 947 964
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"flashCjlTest.ml" 37 947 965 "flashCjlTest.ml" 37 947 969
+type(
+  bool
+)
+"flashCjlTest.ml" 37 947 959 "flashCjlTest.ml" 37 947 969
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 38 970 974 "flashCjlTest.ml" 38 970 980
+type(
+  const
+)
+ident(
+  def _False "flashCjlTest.ml" 40 996 996 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 38 970 983 "flashCjlTest.ml" 38 970 988
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"flashCjlTest.ml" 38 970 989 "flashCjlTest.ml" 38 970 994
+type(
+  bool
+)
+"flashCjlTest.ml" 38 970 983 "flashCjlTest.ml" 38 970 994
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 40 996 1000 "flashCjlTest.ml" 40 996 1005
+type(
+  typedef list
+)
+ident(
+  def types "flashCjlTest.ml" 54 1543 1543 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 41 1010 1012 "flashCjlTest.ml" 41 1010 1016
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashCjlTest.ml" 41 1010 1017 "flashCjlTest.ml" 41 1010 1030
+type(
+  string
+)
+"flashCjlTest.ml" 41 1010 1032 "flashCjlTest.ml" 41 1010 1040
+type(
+  const
+)
+ident(
+  int_ref _CACHE_I "flashCjlTest.ml" 13 181 185 "flashCjlTest.ml" 13 181 193
+)
+"flashCjlTest.ml" 41 1010 1042 "flashCjlTest.ml" 41 1010 1050
+type(
+  const
+)
+ident(
+  int_ref _CACHE_S "flashCjlTest.ml" 14 211 215 "flashCjlTest.ml" 14 211 223
+)
+"flashCjlTest.ml" 41 1010 1052 "flashCjlTest.ml" 41 1010 1060
+type(
+  const
+)
+ident(
+  int_ref _CACHE_E "flashCjlTest.ml" 15 241 245 "flashCjlTest.ml" 15 241 253
+)
+type(
+  const list
+)
+"flashCjlTest.ml" 41 1010 1042 "flashCjlTest.ml" 41 1010 1060
+type(
+  const list
+)
+"flashCjlTest.ml" 41 1010 1032 "flashCjlTest.ml" 41 1010 1060
+type(
+  const list
+)
+"flashCjlTest.ml" 41 1010 1031 "flashCjlTest.ml" 41 1010 1061
+type(
+  const list
+)
+"flashCjlTest.ml" 41 1010 1012 "flashCjlTest.ml" 41 1010 1061
+call(
+  stack
+)
+type(
+  typedef
+)
+"flashCjlTest.ml" 42 1063 1065 "flashCjlTest.ml" 42 1063 1069
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashCjlTest.ml" 42 1063 1070 "flashCjlTest.ml" 42 1063 1080
+type(
+  string
+)
+"flashCjlTest.ml" 42 1063 1082 "flashCjlTest.ml" 42 1063 1092
+type(
+  const
+)
+ident(
+  int_ref _NODE_None "flashCjlTest.ml" 16 271 275 "flashCjlTest.ml" 16 271 285
+)
+"flashCjlTest.ml" 42 1063 1094 "flashCjlTest.ml" 42 1063 1103
+type(
+  const
+)
+ident(
+  int_ref _NODE_Get "flashCjlTest.ml" 17 305 309 "flashCjlTest.ml" 17 305 318
+)
+"flashCjlTest.ml" 42 1063 1105 "flashCjlTest.ml" 42 1063 1115
+type(
+  const
+)
+ident(
+  int_ref _NODE_GetX "flashCjlTest.ml" 18 337 341 "flashCjlTest.ml" 18 337 351
+)
+type(
+  const list
+)
+"flashCjlTest.ml" 42 1063 1094 "flashCjlTest.ml" 42 1063 1115
+type(
+  const list
+)
+"flashCjlTest.ml" 42 1063 1082 "flashCjlTest.ml" 42 1063 1115
+type(
+  const list
+)
+"flashCjlTest.ml" 42 1063 1081 "flashCjlTest.ml" 42 1063 1116
+type(
+  const list
+)
+"flashCjlTest.ml" 42 1063 1065 "flashCjlTest.ml" 42 1063 1116
+call(
+  stack
+)
+type(
+  typedef
+)
+"flashCjlTest.ml" 43 1118 1120 "flashCjlTest.ml" 43 1118 1124
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashCjlTest.ml" 43 1118 1125 "flashCjlTest.ml" 43 1118 1134
+type(
+  string
+)
+"flashCjlTest.ml" 43 1118 1136 "flashCjlTest.ml" 43 1118 1145
+type(
+  const
+)
+ident(
+  int_ref _UNI_None "flashCjlTest.ml" 19 371 375 "flashCjlTest.ml" 19 371 384
+)
+"flashCjlTest.ml" 43 1118 1147 "flashCjlTest.ml" 43 1118 1155
+type(
+  const
+)
+ident(
+  int_ref _UNI_Get "flashCjlTest.ml" 20 403 407 "flashCjlTest.ml" 20 403 415
+)
+"flashCjlTest.ml" 43 1118 1157 "flashCjlTest.ml" 43 1118 1166
+type(
+  const
+)
+ident(
+  int_ref _UNI_GetX "flashCjlTest.ml" 21 433 437 "flashCjlTest.ml" 21 433 446
+)
+"flashCjlTest.ml" 43 1118 1168 "flashCjlTest.ml" 43 1118 1176
+type(
+  const
+)
+ident(
+  int_ref _UNI_Put "flashCjlTest.ml" 22 465 469 "flashCjlTest.ml" 22 465 477
+)
+"flashCjlTest.ml" 43 1118 1178 "flashCjlTest.ml" 43 1118 1187
+type(
+  const
+)
+ident(
+  int_ref _UNI_PutX "flashCjlTest.ml" 23 495 499 "flashCjlTest.ml" 23 495 508
+)
+"flashCjlTest.ml" 43 1118 1189 "flashCjlTest.ml" 43 1118 1197
+type(
+  const
+)
+ident(
+  int_ref _UNI_Nak "flashCjlTest.ml" 24 527 531 "flashCjlTest.ml" 24 527 539
+)
+type(
+  const list
+)
+"flashCjlTest.ml" 43 1118 1178 "flashCjlTest.ml" 43 1118 1197
+type(
+  const list
+)
+"flashCjlTest.ml" 43 1118 1168 "flashCjlTest.ml" 43 1118 1197
+type(
+  const list
+)
+"flashCjlTest.ml" 43 1118 1157 "flashCjlTest.ml" 43 1118 1197
+type(
+  const list
+)
+"flashCjlTest.ml" 43 1118 1147 "flashCjlTest.ml" 43 1118 1197
+type(
+  const list
+)
+"flashCjlTest.ml" 43 1118 1136 "flashCjlTest.ml" 43 1118 1197
+type(
+  const list
+)
+"flashCjlTest.ml" 43 1118 1135 "flashCjlTest.ml" 43 1118 1198
+type(
+  const list
+)
+"flashCjlTest.ml" 43 1118 1120 "flashCjlTest.ml" 43 1118 1198
+call(
+  stack
+)
+type(
+  typedef
+)
+"flashCjlTest.ml" 44 1200 1202 "flashCjlTest.ml" 44 1200 1206
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashCjlTest.ml" 44 1200 1207 "flashCjlTest.ml" 44 1200 1216
+type(
+  string
+)
+"flashCjlTest.ml" 44 1200 1218 "flashCjlTest.ml" 44 1200 1227
+type(
+  const
+)
+ident(
+  int_ref _INV_None "flashCjlTest.ml" 25 557 561 "flashCjlTest.ml" 25 557 570
+)
+"flashCjlTest.ml" 44 1200 1229 "flashCjlTest.ml" 44 1200 1237
+type(
+  const
+)
+ident(
+  int_ref _INV_Inv "flashCjlTest.ml" 26 589 593 "flashCjlTest.ml" 26 589 601
+)
+"flashCjlTest.ml" 44 1200 1239 "flashCjlTest.ml" 44 1200 1250
+type(
+  const
+)
+ident(
+  int_ref _INV_InvAck "flashCjlTest.ml" 27 619 623 "flashCjlTest.ml" 27 619 634
+)
+type(
+  const list
+)
+"flashCjlTest.ml" 44 1200 1229 "flashCjlTest.ml" 44 1200 1250
+type(
+  const list
+)
+"flashCjlTest.ml" 44 1200 1218 "flashCjlTest.ml" 44 1200 1250
+type(
+  const list
+)
+"flashCjlTest.ml" 44 1200 1217 "flashCjlTest.ml" 44 1200 1251
+type(
+  const list
+)
+"flashCjlTest.ml" 44 1200 1202 "flashCjlTest.ml" 44 1200 1251
+call(
+  stack
+)
+type(
+  typedef
+)
+"flashCjlTest.ml" 45 1253 1255 "flashCjlTest.ml" 45 1253 1259
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashCjlTest.ml" 45 1253 1260 "flashCjlTest.ml" 45 1253 1268
+type(
+  string
+)
+"flashCjlTest.ml" 45 1253 1270 "flashCjlTest.ml" 45 1253 1278
+type(
+  const
+)
+ident(
+  int_ref _RP_None "flashCjlTest.ml" 28 655 659 "flashCjlTest.ml" 28 655 667
+)
+"flashCjlTest.ml" 45 1253 1280 "flashCjlTest.ml" 45 1253 1291
+type(
+  const
+)
+ident(
+  int_ref _RP_Replace "flashCjlTest.ml" 29 685 689 "flashCjlTest.ml" 29 685 700
+)
+type(
+  const list
+)
+"flashCjlTest.ml" 45 1253 1270 "flashCjlTest.ml" 45 1253 1291
+type(
+  const list
+)
+"flashCjlTest.ml" 45 1253 1269 "flashCjlTest.ml" 45 1253 1292
+type(
+  const list
+)
+"flashCjlTest.ml" 45 1253 1255 "flashCjlTest.ml" 45 1253 1292
+call(
+  stack
+)
+type(
+  typedef
+)
+"flashCjlTest.ml" 46 1294 1296 "flashCjlTest.ml" 46 1294 1300
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashCjlTest.ml" 46 1294 1301 "flashCjlTest.ml" 46 1294 1309
+type(
+  string
+)
+"flashCjlTest.ml" 46 1294 1311 "flashCjlTest.ml" 46 1294 1319
+type(
+  const
+)
+ident(
+  int_ref _WB_None "flashCjlTest.ml" 30 721 725 "flashCjlTest.ml" 30 721 733
+)
+"flashCjlTest.ml" 46 1294 1321 "flashCjlTest.ml" 46 1294 1327
+type(
+  const
+)
+ident(
+  int_ref _WB_Wb "flashCjlTest.ml" 31 751 755 "flashCjlTest.ml" 31 751 761
+)
+type(
+  const list
+)
+"flashCjlTest.ml" 46 1294 1311 "flashCjlTest.ml" 46 1294 1327
+type(
+  const list
+)
+"flashCjlTest.ml" 46 1294 1310 "flashCjlTest.ml" 46 1294 1328
+type(
+  const list
+)
+"flashCjlTest.ml" 46 1294 1296 "flashCjlTest.ml" 46 1294 1328
+call(
+  stack
+)
+type(
+  typedef
+)
+"flashCjlTest.ml" 47 1330 1332 "flashCjlTest.ml" 47 1330 1336
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashCjlTest.ml" 47 1330 1337 "flashCjlTest.ml" 47 1330 1347
+type(
+  string
+)
+"flashCjlTest.ml" 47 1330 1349 "flashCjlTest.ml" 47 1330 1359
+type(
+  const
+)
+ident(
+  int_ref _SHWB_None "flashCjlTest.ml" 32 777 781 "flashCjlTest.ml" 32 777 791
+)
+"flashCjlTest.ml" 47 1330 1361 "flashCjlTest.ml" 47 1330 1371
+type(
+  const
+)
+ident(
+  int_ref _SHWB_ShWb "flashCjlTest.ml" 33 811 815 "flashCjlTest.ml" 33 811 825
+)
+"flashCjlTest.ml" 47 1330 1373 "flashCjlTest.ml" 47 1330 1383
+type(
+  const
+)
+ident(
+  int_ref _SHWB_FAck "flashCjlTest.ml" 34 845 849 "flashCjlTest.ml" 34 845 859
+)
+type(
+  const list
+)
+"flashCjlTest.ml" 47 1330 1361 "flashCjlTest.ml" 47 1330 1383
+type(
+  const list
+)
+"flashCjlTest.ml" 47 1330 1349 "flashCjlTest.ml" 47 1330 1383
+type(
+  const list
+)
+"flashCjlTest.ml" 47 1330 1348 "flashCjlTest.ml" 47 1330 1384
+type(
+  const list
+)
+"flashCjlTest.ml" 47 1330 1332 "flashCjlTest.ml" 47 1330 1384
+call(
+  stack
+)
+type(
+  typedef
+)
+"flashCjlTest.ml" 48 1386 1388 "flashCjlTest.ml" 48 1386 1392
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashCjlTest.ml" 48 1386 1393 "flashCjlTest.ml" 48 1386 1403
+type(
+  string
+)
+"flashCjlTest.ml" 48 1386 1405 "flashCjlTest.ml" 48 1386 1415
+type(
+  const
+)
+ident(
+  int_ref _NAKC_None "flashCjlTest.ml" 35 879 883 "flashCjlTest.ml" 35 879 893
+)
+"flashCjlTest.ml" 48 1386 1417 "flashCjlTest.ml" 48 1386 1427
+type(
+  const
+)
+ident(
+  int_ref _NAKC_Nakc "flashCjlTest.ml" 36 913 917 "flashCjlTest.ml" 36 913 927
+)
+type(
+  const list
+)
+"flashCjlTest.ml" 48 1386 1405 "flashCjlTest.ml" 48 1386 1427
+type(
+  const list
+)
+"flashCjlTest.ml" 48 1386 1404 "flashCjlTest.ml" 48 1386 1428
+type(
+  const list
+)
+"flashCjlTest.ml" 48 1386 1388 "flashCjlTest.ml" 48 1386 1428
+call(
+  stack
+)
+type(
+  typedef
+)
+"flashCjlTest.ml" 49 1430 1432 "flashCjlTest.ml" 49 1430 1436
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashCjlTest.ml" 49 1430 1437 "flashCjlTest.ml" 49 1430 1443
+type(
+  string
+)
+"flashCjlTest.ml" 49 1430 1445 "flashCjlTest.ml" 49 1430 1455
+type(
+  int list -> const list
+)
+ident(
+  ext_ref Paramecium.int_consts
+)
+"flashCjlTest.ml" 49 1430 1457 "flashCjlTest.ml" 49 1430 1458
+type(
+  int
+)
+"flashCjlTest.ml" 49 1430 1460 "flashCjlTest.ml" 49 1430 1461
+type(
+  int
+)
+"flashCjlTest.ml" 49 1430 1463 "flashCjlTest.ml" 49 1430 1464
+type(
+  int
+)
+"flashCjlTest.ml" 49 1430 1466 "flashCjlTest.ml" 49 1430 1467
+type(
+  int
+)
+type(
+  int list
+)
+"flashCjlTest.ml" 49 1430 1463 "flashCjlTest.ml" 49 1430 1467
+type(
+  int list
+)
+"flashCjlTest.ml" 49 1430 1460 "flashCjlTest.ml" 49 1430 1467
+type(
+  int list
+)
+"flashCjlTest.ml" 49 1430 1457 "flashCjlTest.ml" 49 1430 1467
+type(
+  int list
+)
+"flashCjlTest.ml" 49 1430 1456 "flashCjlTest.ml" 49 1430 1468
+type(
+  int list
+)
+"flashCjlTest.ml" 49 1430 1445 "flashCjlTest.ml" 49 1430 1468
+call(
+  stack
+)
+type(
+  const list
+)
+"flashCjlTest.ml" 49 1430 1432 "flashCjlTest.ml" 49 1430 1469
+call(
+  stack
+)
+type(
+  typedef
+)
+"flashCjlTest.ml" 50 1471 1473 "flashCjlTest.ml" 50 1471 1477
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashCjlTest.ml" 50 1471 1478 "flashCjlTest.ml" 50 1471 1484
+type(
+  string
+)
+"flashCjlTest.ml" 50 1471 1486 "flashCjlTest.ml" 50 1471 1496
+type(
+  int list -> const list
+)
+ident(
+  ext_ref Paramecium.int_consts
+)
+"flashCjlTest.ml" 50 1471 1498 "flashCjlTest.ml" 50 1471 1499
+type(
+  int
+)
+"flashCjlTest.ml" 50 1471 1501 "flashCjlTest.ml" 50 1471 1502
+type(
+  int
+)
+type(
+  int list
+)
+"flashCjlTest.ml" 50 1471 1498 "flashCjlTest.ml" 50 1471 1502
+type(
+  int list
+)
+"flashCjlTest.ml" 50 1471 1497 "flashCjlTest.ml" 50 1471 1503
+type(
+  int list
+)
+"flashCjlTest.ml" 50 1471 1486 "flashCjlTest.ml" 50 1471 1503
+call(
+  stack
+)
+type(
+  const list
+)
+"flashCjlTest.ml" 50 1471 1473 "flashCjlTest.ml" 50 1471 1504
+call(
+  stack
+)
+type(
+  typedef
+)
+"flashCjlTest.ml" 51 1506 1508 "flashCjlTest.ml" 51 1506 1512
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"flashCjlTest.ml" 51 1506 1513 "flashCjlTest.ml" 51 1506 1522
+type(
+  string
+)
+"flashCjlTest.ml" 51 1506 1524 "flashCjlTest.ml" 51 1506 1529
+type(
+  const
+)
+ident(
+  int_ref _True "flashCjlTest.ml" 37 947 951 "flashCjlTest.ml" 37 947 956
+)
+"flashCjlTest.ml" 51 1506 1531 "flashCjlTest.ml" 51 1506 1537
+type(
+  const
+)
+ident(
+  int_ref _False "flashCjlTest.ml" 38 970 974 "flashCjlTest.ml" 38 970 980
+)
+type(
+  const list
+)
+"flashCjlTest.ml" 51 1506 1524 "flashCjlTest.ml" 51 1506 1537
+type(
+  const list
+)
+"flashCjlTest.ml" 51 1506 1523 "flashCjlTest.ml" 51 1506 1538
+type(
+  const list
+)
+"flashCjlTest.ml" 51 1506 1508 "flashCjlTest.ml" 51 1506 1538
+call(
+  stack
+)
+type(
+  typedef
+)
+"flashCjlTest.ml" 51 1506 1508 "flashCjlTest.ml" 51 1506 1539
+type(
+  typedef list
+)
+"flashCjlTest.ml" 50 1471 1473 "flashCjlTest.ml" 51 1506 1539
+type(
+  typedef list
+)
+"flashCjlTest.ml" 49 1430 1432 "flashCjlTest.ml" 51 1506 1539
+type(
+  typedef list
+)
+"flashCjlTest.ml" 48 1386 1388 "flashCjlTest.ml" 51 1506 1539
+type(
+  typedef list
+)
+"flashCjlTest.ml" 47 1330 1332 "flashCjlTest.ml" 51 1506 1539
+type(
+  typedef list
+)
+"flashCjlTest.ml" 46 1294 1296 "flashCjlTest.ml" 51 1506 1539
+type(
+  typedef list
+)
+"flashCjlTest.ml" 45 1253 1255 "flashCjlTest.ml" 51 1506 1539
+type(
+  typedef list
+)
+"flashCjlTest.ml" 44 1200 1202 "flashCjlTest.ml" 51 1506 1539
+type(
+  typedef list
+)
+"flashCjlTest.ml" 43 1118 1120 "flashCjlTest.ml" 51 1506 1539
+type(
+  typedef list
+)
+"flashCjlTest.ml" 42 1063 1065 "flashCjlTest.ml" 51 1506 1539
+type(
+  typedef list
+)
+"flashCjlTest.ml" 41 1010 1012 "flashCjlTest.ml" 51 1506 1539
+type(
+  typedef list
+)
+"flashCjlTest.ml" 40 996 1008 "flashCjlTest.ml" 52 1540 1541
+type(
+  typedef list
+)
+"flashCjlTest.ml" 54 1543 1547 "flashCjlTest.ml" 54 1543 1563
+type(
+  Loach.prop
+)
+ident(
+  def n_CacheStateProp "flashCjlTest.ml" 60 2042 2042 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 55 1566 1572 "flashCjlTest.ml" 55 1566 1576
+type(
+  string
+)
+ident(
+  def name "flashCjlTest.ml" 56 1601 1603 "flashCjlTest.ml" 58 2014 2040
+)
+"flashCjlTest.ml" 55 1566 1579 "flashCjlTest.ml" 55 1566 1597
+type(
+  string
+)
+"flashCjlTest.ml" 56 1601 1607 "flashCjlTest.ml" 56 1601 1613
+type(
+  'a list
+)
+ident(
+  def params "flashCjlTest.ml" 57 1622 1624 "flashCjlTest.ml" 58 2014 2040
+)
+"flashCjlTest.ml" 56 1601 1616 "flashCjlTest.ml" 56 1601 1618
+type(
+  'a list
+)
+"flashCjlTest.ml" 57 1622 1628 "flashCjlTest.ml" 57 1622 1635
+type(
+  Loach.formula
+)
+ident(
+  def formula "flashCjlTest.ml" 58 2014 2016 "flashCjlTest.ml" 58 2014 2040
+)
+"flashCjlTest.ml" 57 1622 1639 "flashCjlTest.ml" 57 1622 1652
+type(
+  paramdef list -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.forallFormula
+)
+"flashCjlTest.ml" 57 1622 1654 "flashCjlTest.ml" 57 1622 1662
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"flashCjlTest.ml" 57 1622 1663 "flashCjlTest.ml" 57 1622 1666
+type(
+  string
+)
+"flashCjlTest.ml" 57 1622 1667 "flashCjlTest.ml" 57 1622 1673
+type(
+  string
+)
+"flashCjlTest.ml" 57 1622 1654 "flashCjlTest.ml" 57 1622 1673
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"flashCjlTest.ml" 57 1622 1653 "flashCjlTest.ml" 57 1622 1674
+type(
+  paramdef list
+)
+"flashCjlTest.ml" 57 1622 1676 "flashCjlTest.ml" 57 1622 1689
+type(
+  paramdef list -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.forallFormula
+)
+"flashCjlTest.ml" 57 1622 1691 "flashCjlTest.ml" 57 1622 1699
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"flashCjlTest.ml" 57 1622 1700 "flashCjlTest.ml" 57 1622 1703
+type(
+  string
+)
+"flashCjlTest.ml" 57 1622 1704 "flashCjlTest.ml" 57 1622 1710
+type(
+  string
+)
+"flashCjlTest.ml" 57 1622 1691 "flashCjlTest.ml" 57 1622 1710
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"flashCjlTest.ml" 57 1622 1690 "flashCjlTest.ml" 57 1622 1711
+type(
+  paramdef list
+)
+"flashCjlTest.ml" 57 1622 1713 "flashCjlTest.ml" 57 1622 1718
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"flashCjlTest.ml" 57 1622 1720 "flashCjlTest.ml" 57 1622 1723
+type(
+  Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.neg
+)
+"flashCjlTest.ml" 57 1622 1725 "flashCjlTest.ml" 57 1622 1728
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 57 1622 1730 "flashCjlTest.ml" 57 1622 1735
+type(
+  paramref -> Loach.exp
+)
+ident(
+  ext_ref Loach.param
+)
+"flashCjlTest.ml" 57 1622 1737 "flashCjlTest.ml" 57 1622 1745
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"flashCjlTest.ml" 57 1622 1746 "flashCjlTest.ml" 57 1622 1749
+type(
+  string
+)
+"flashCjlTest.ml" 57 1622 1737 "flashCjlTest.ml" 57 1622 1749
+call(
+  stack
+)
+type(
+  paramref
+)
+"flashCjlTest.ml" 57 1622 1730 "flashCjlTest.ml" 57 1622 1750
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 57 1622 1753 "flashCjlTest.ml" 57 1622 1758
+type(
+  paramref -> Loach.exp
+)
+ident(
+  ext_ref Loach.param
+)
+"flashCjlTest.ml" 57 1622 1760 "flashCjlTest.ml" 57 1622 1768
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"flashCjlTest.ml" 57 1622 1769 "flashCjlTest.ml" 57 1622 1772
+type(
+  string
+)
+"flashCjlTest.ml" 57 1622 1760 "flashCjlTest.ml" 57 1622 1772
+call(
+  stack
+)
+type(
+  paramref
+)
+"flashCjlTest.ml" 57 1622 1753 "flashCjlTest.ml" 57 1622 1773
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 57 1622 1725 "flashCjlTest.ml" 57 1622 1774
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 57 1622 1720 "flashCjlTest.ml" 57 1622 1775
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 57 1622 1778 "flashCjlTest.ml" 57 1622 1781
+type(
+  Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.neg
+)
+"flashCjlTest.ml" 57 1622 1783 "flashCjlTest.ml" 57 1622 1790
+type(
+  Loach.formula list -> Loach.formula
+)
+ident(
+  ext_ref Loach.andList
+)
+"flashCjlTest.ml" 57 1622 1793 "flashCjlTest.ml" 57 1622 1796
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 57 1622 1798 "flashCjlTest.ml" 57 1622 1801
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 57 1622 1803 "flashCjlTest.ml" 57 1622 1809
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 57 1622 1811 "flashCjlTest.ml" 57 1622 1817
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 57 1622 1818 "flashCjlTest.ml" 57 1622 1823
+type(
+  string
+)
+"flashCjlTest.ml" 57 1622 1811 "flashCjlTest.ml" 57 1622 1823
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 57 1622 1825 "flashCjlTest.ml" 57 1622 1828
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"flashCjlTest.ml" 57 1622 1831 "flashCjlTest.ml" 57 1622 1837
+type(
+  string
+)
+"flashCjlTest.ml" 57 1622 1840 "flashCjlTest.ml" 57 1622 1848
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"flashCjlTest.ml" 57 1622 1849 "flashCjlTest.ml" 57 1622 1852
+type(
+  string
+)
+"flashCjlTest.ml" 57 1622 1840 "flashCjlTest.ml" 57 1622 1852
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"flashCjlTest.ml" 57 1622 1839 "flashCjlTest.ml" 57 1622 1853
+type(
+  paramref list
+)
+"flashCjlTest.ml" 57 1622 1831 "flashCjlTest.ml" 57 1622 1853
+type(
+  string * paramref list
+)
+"flashCjlTest.ml" 57 1622 1830 "flashCjlTest.ml" 57 1622 1854
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 57 1622 1829 "flashCjlTest.ml" 57 1622 1855
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 57 1622 1825 "flashCjlTest.ml" 57 1622 1855
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 57 1622 1857 "flashCjlTest.ml" 57 1622 1863
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 57 1622 1864 "flashCjlTest.ml" 57 1622 1876
+type(
+  string
+)
+"flashCjlTest.ml" 57 1622 1857 "flashCjlTest.ml" 57 1622 1876
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 57 1622 1825 "flashCjlTest.ml" 57 1622 1876
+type(
+  var list
+)
+"flashCjlTest.ml" 57 1622 1811 "flashCjlTest.ml" 57 1622 1876
+type(
+  var list
+)
+"flashCjlTest.ml" 57 1622 1810 "flashCjlTest.ml" 57 1622 1877
+type(
+  var list
+)
+"flashCjlTest.ml" 57 1622 1803 "flashCjlTest.ml" 57 1622 1877
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 57 1622 1798 "flashCjlTest.ml" 57 1622 1878
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 57 1622 1881 "flashCjlTest.ml" 57 1622 1886
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"flashCjlTest.ml" 57 1622 1887 "flashCjlTest.ml" 57 1622 1895
+type(
+  const
+)
+ident(
+  int_ref _CACHE_E "flashCjlTest.ml" 15 241 245 "flashCjlTest.ml" 15 241 253
+)
+"flashCjlTest.ml" 57 1622 1881 "flashCjlTest.ml" 57 1622 1895
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 57 1622 1793 "flashCjlTest.ml" 57 1622 1896
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 57 1622 1900 "flashCjlTest.ml" 57 1622 1903
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 57 1622 1905 "flashCjlTest.ml" 57 1622 1908
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 57 1622 1910 "flashCjlTest.ml" 57 1622 1916
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 57 1622 1918 "flashCjlTest.ml" 57 1622 1924
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 57 1622 1925 "flashCjlTest.ml" 57 1622 1930
+type(
+  string
+)
+"flashCjlTest.ml" 57 1622 1918 "flashCjlTest.ml" 57 1622 1930
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 57 1622 1932 "flashCjlTest.ml" 57 1622 1935
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"flashCjlTest.ml" 57 1622 1938 "flashCjlTest.ml" 57 1622 1944
+type(
+  string
+)
+"flashCjlTest.ml" 57 1622 1947 "flashCjlTest.ml" 57 1622 1955
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"flashCjlTest.ml" 57 1622 1956 "flashCjlTest.ml" 57 1622 1959
+type(
+  string
+)
+"flashCjlTest.ml" 57 1622 1947 "flashCjlTest.ml" 57 1622 1959
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"flashCjlTest.ml" 57 1622 1946 "flashCjlTest.ml" 57 1622 1960
+type(
+  paramref list
+)
+"flashCjlTest.ml" 57 1622 1938 "flashCjlTest.ml" 57 1622 1960
+type(
+  string * paramref list
+)
+"flashCjlTest.ml" 57 1622 1937 "flashCjlTest.ml" 57 1622 1961
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 57 1622 1936 "flashCjlTest.ml" 57 1622 1962
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 57 1622 1932 "flashCjlTest.ml" 57 1622 1962
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 57 1622 1964 "flashCjlTest.ml" 57 1622 1970
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 57 1622 1971 "flashCjlTest.ml" 57 1622 1983
+type(
+  string
+)
+"flashCjlTest.ml" 57 1622 1964 "flashCjlTest.ml" 57 1622 1983
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 57 1622 1932 "flashCjlTest.ml" 57 1622 1983
+type(
+  var list
+)
+"flashCjlTest.ml" 57 1622 1918 "flashCjlTest.ml" 57 1622 1983
+type(
+  var list
+)
+"flashCjlTest.ml" 57 1622 1917 "flashCjlTest.ml" 57 1622 1984
+type(
+  var list
+)
+"flashCjlTest.ml" 57 1622 1910 "flashCjlTest.ml" 57 1622 1984
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 57 1622 1905 "flashCjlTest.ml" 57 1622 1985
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 57 1622 1988 "flashCjlTest.ml" 57 1622 1993
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"flashCjlTest.ml" 57 1622 1994 "flashCjlTest.ml" 57 1622 2002
+type(
+  const
+)
+ident(
+  int_ref _CACHE_E "flashCjlTest.ml" 15 241 245 "flashCjlTest.ml" 15 241 253
+)
+"flashCjlTest.ml" 57 1622 1988 "flashCjlTest.ml" 57 1622 2002
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 57 1622 1900 "flashCjlTest.ml" 57 1622 2003
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 57 1622 1899 "flashCjlTest.ml" 57 1622 2004
+type(
+  Loach.formula list
+)
+"flashCjlTest.ml" 57 1622 1792 "flashCjlTest.ml" 57 1622 2004
+type(
+  Loach.formula list
+)
+"flashCjlTest.ml" 57 1622 1791 "flashCjlTest.ml" 57 1622 2005
+type(
+  Loach.formula list
+)
+"flashCjlTest.ml" 57 1622 1783 "flashCjlTest.ml" 57 1622 2005
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 57 1622 1778 "flashCjlTest.ml" 57 1622 2006
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 57 1622 1713 "flashCjlTest.ml" 57 1622 2007
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 57 1622 1676 "flashCjlTest.ml" 57 1622 2008
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 57 1622 1639 "flashCjlTest.ml" 57 1622 2009
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 58 2014 2016 "flashCjlTest.ml" 58 2014 2020
+type(
+  string -> paramdef list -> Loach.formula -> Loach.prop
+)
+ident(
+  ext_ref Loach.prop
+)
+"flashCjlTest.ml" 58 2014 2021 "flashCjlTest.ml" 58 2014 2025
+type(
+  string
+)
+ident(
+  int_ref name "flashCjlTest.ml" 55 1566 1572 "flashCjlTest.ml" 55 1566 1576
+)
+"flashCjlTest.ml" 58 2014 2026 "flashCjlTest.ml" 58 2014 2032
+type(
+  paramdef list
+)
+ident(
+  int_ref params "flashCjlTest.ml" 56 1601 1607 "flashCjlTest.ml" 56 1601 1613
+)
+"flashCjlTest.ml" 58 2014 2033 "flashCjlTest.ml" 58 2014 2040
+type(
+  Loach.formula
+)
+ident(
+  int_ref formula "flashCjlTest.ml" 57 1622 1628 "flashCjlTest.ml" 57 1622 1635
+)
+"flashCjlTest.ml" 58 2014 2016 "flashCjlTest.ml" 58 2014 2040
+call(
+  stack
+)
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 57 1622 1624 "flashCjlTest.ml" 58 2014 2040
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 56 1601 1603 "flashCjlTest.ml" 58 2014 2040
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 55 1566 1568 "flashCjlTest.ml" 58 2014 2040
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 60 2042 2046 "flashCjlTest.ml" 60 2042 2061
+type(
+  Loach.prop
+)
+ident(
+  def n_CacheDataProp "flashCjlTest.ml" 66 3028 3028 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 61 2064 2070 "flashCjlTest.ml" 61 2064 2074
+type(
+  string
+)
+ident(
+  def name "flashCjlTest.ml" 62 2098 2100 "flashCjlTest.ml" 64 3000 3026
+)
+"flashCjlTest.ml" 61 2064 2077 "flashCjlTest.ml" 61 2064 2094
+type(
+  string
+)
+"flashCjlTest.ml" 62 2098 2104 "flashCjlTest.ml" 62 2098 2110
+type(
+  'a list
+)
+ident(
+  def params "flashCjlTest.ml" 63 2119 2121 "flashCjlTest.ml" 64 3000 3026
+)
+"flashCjlTest.ml" 62 2098 2113 "flashCjlTest.ml" 62 2098 2115
+type(
+  'a list
+)
+"flashCjlTest.ml" 63 2119 2125 "flashCjlTest.ml" 63 2119 2132
+type(
+  Loach.formula
+)
+ident(
+  def formula "flashCjlTest.ml" 64 3000 3002 "flashCjlTest.ml" 64 3000 3026
+)
+"flashCjlTest.ml" 63 2119 2136 "flashCjlTest.ml" 63 2119 2149
+type(
+  paramdef list -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.forallFormula
+)
+"flashCjlTest.ml" 63 2119 2151 "flashCjlTest.ml" 63 2119 2159
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"flashCjlTest.ml" 63 2119 2160 "flashCjlTest.ml" 63 2119 2163
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2164 "flashCjlTest.ml" 63 2119 2170
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2151 "flashCjlTest.ml" 63 2119 2170
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"flashCjlTest.ml" 63 2119 2150 "flashCjlTest.ml" 63 2119 2171
+type(
+  paramdef list
+)
+"flashCjlTest.ml" 63 2119 2173 "flashCjlTest.ml" 63 2119 2180
+type(
+  Loach.formula list -> Loach.formula
+)
+ident(
+  ext_ref Loach.andList
+)
+"flashCjlTest.ml" 63 2119 2183 "flashCjlTest.ml" 63 2119 2188
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"flashCjlTest.ml" 63 2119 2190 "flashCjlTest.ml" 63 2119 2193
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 63 2119 2195 "flashCjlTest.ml" 63 2119 2198
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 63 2119 2200 "flashCjlTest.ml" 63 2119 2206
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 63 2119 2208 "flashCjlTest.ml" 63 2119 2214
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2215 "flashCjlTest.ml" 63 2119 2220
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2208 "flashCjlTest.ml" 63 2119 2220
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2222 "flashCjlTest.ml" 63 2119 2225
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"flashCjlTest.ml" 63 2119 2228 "flashCjlTest.ml" 63 2119 2234
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2237 "flashCjlTest.ml" 63 2119 2245
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"flashCjlTest.ml" 63 2119 2246 "flashCjlTest.ml" 63 2119 2249
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2237 "flashCjlTest.ml" 63 2119 2249
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"flashCjlTest.ml" 63 2119 2236 "flashCjlTest.ml" 63 2119 2250
+type(
+  paramref list
+)
+"flashCjlTest.ml" 63 2119 2228 "flashCjlTest.ml" 63 2119 2250
+type(
+  string * paramref list
+)
+"flashCjlTest.ml" 63 2119 2227 "flashCjlTest.ml" 63 2119 2251
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 63 2119 2226 "flashCjlTest.ml" 63 2119 2252
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 63 2119 2222 "flashCjlTest.ml" 63 2119 2252
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2254 "flashCjlTest.ml" 63 2119 2260
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2261 "flashCjlTest.ml" 63 2119 2273
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2254 "flashCjlTest.ml" 63 2119 2273
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2222 "flashCjlTest.ml" 63 2119 2273
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2208 "flashCjlTest.ml" 63 2119 2273
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2207 "flashCjlTest.ml" 63 2119 2274
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2200 "flashCjlTest.ml" 63 2119 2274
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2195 "flashCjlTest.ml" 63 2119 2275
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 63 2119 2278 "flashCjlTest.ml" 63 2119 2283
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"flashCjlTest.ml" 63 2119 2284 "flashCjlTest.ml" 63 2119 2292
+type(
+  const
+)
+ident(
+  int_ref _CACHE_E "flashCjlTest.ml" 15 241 245 "flashCjlTest.ml" 15 241 253
+)
+"flashCjlTest.ml" 63 2119 2278 "flashCjlTest.ml" 63 2119 2292
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 63 2119 2190 "flashCjlTest.ml" 63 2119 2293
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 63 2119 2296 "flashCjlTest.ml" 63 2119 2299
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 63 2119 2301 "flashCjlTest.ml" 63 2119 2304
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 63 2119 2306 "flashCjlTest.ml" 63 2119 2312
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 63 2119 2314 "flashCjlTest.ml" 63 2119 2320
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2321 "flashCjlTest.ml" 63 2119 2326
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2314 "flashCjlTest.ml" 63 2119 2326
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2328 "flashCjlTest.ml" 63 2119 2331
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"flashCjlTest.ml" 63 2119 2334 "flashCjlTest.ml" 63 2119 2340
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2343 "flashCjlTest.ml" 63 2119 2351
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"flashCjlTest.ml" 63 2119 2352 "flashCjlTest.ml" 63 2119 2355
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2343 "flashCjlTest.ml" 63 2119 2355
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"flashCjlTest.ml" 63 2119 2342 "flashCjlTest.ml" 63 2119 2356
+type(
+  paramref list
+)
+"flashCjlTest.ml" 63 2119 2334 "flashCjlTest.ml" 63 2119 2356
+type(
+  string * paramref list
+)
+"flashCjlTest.ml" 63 2119 2333 "flashCjlTest.ml" 63 2119 2357
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 63 2119 2332 "flashCjlTest.ml" 63 2119 2358
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 63 2119 2328 "flashCjlTest.ml" 63 2119 2358
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2360 "flashCjlTest.ml" 63 2119 2366
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2367 "flashCjlTest.ml" 63 2119 2378
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2360 "flashCjlTest.ml" 63 2119 2378
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2328 "flashCjlTest.ml" 63 2119 2378
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2314 "flashCjlTest.ml" 63 2119 2378
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2313 "flashCjlTest.ml" 63 2119 2379
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2306 "flashCjlTest.ml" 63 2119 2379
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2301 "flashCjlTest.ml" 63 2119 2380
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 63 2119 2383 "flashCjlTest.ml" 63 2119 2386
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 63 2119 2388 "flashCjlTest.ml" 63 2119 2394
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 63 2119 2396 "flashCjlTest.ml" 63 2119 2402
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2403 "flashCjlTest.ml" 63 2119 2408
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2396 "flashCjlTest.ml" 63 2119 2408
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2410 "flashCjlTest.ml" 63 2119 2416
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2417 "flashCjlTest.ml" 63 2119 2427
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2410 "flashCjlTest.ml" 63 2119 2427
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2396 "flashCjlTest.ml" 63 2119 2427
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2395 "flashCjlTest.ml" 63 2119 2428
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2388 "flashCjlTest.ml" 63 2119 2428
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2383 "flashCjlTest.ml" 63 2119 2429
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 63 2119 2296 "flashCjlTest.ml" 63 2119 2430
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 63 2119 2183 "flashCjlTest.ml" 63 2119 2431
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 63 2119 2435 "flashCjlTest.ml" 63 2119 2440
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"flashCjlTest.ml" 63 2119 2442 "flashCjlTest.ml" 63 2119 2445
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 63 2119 2447 "flashCjlTest.ml" 63 2119 2450
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 63 2119 2452 "flashCjlTest.ml" 63 2119 2458
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 63 2119 2460 "flashCjlTest.ml" 63 2119 2466
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2467 "flashCjlTest.ml" 63 2119 2472
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2460 "flashCjlTest.ml" 63 2119 2472
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2474 "flashCjlTest.ml" 63 2119 2477
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"flashCjlTest.ml" 63 2119 2480 "flashCjlTest.ml" 63 2119 2486
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2489 "flashCjlTest.ml" 63 2119 2497
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"flashCjlTest.ml" 63 2119 2498 "flashCjlTest.ml" 63 2119 2501
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2489 "flashCjlTest.ml" 63 2119 2501
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"flashCjlTest.ml" 63 2119 2488 "flashCjlTest.ml" 63 2119 2502
+type(
+  paramref list
+)
+"flashCjlTest.ml" 63 2119 2480 "flashCjlTest.ml" 63 2119 2502
+type(
+  string * paramref list
+)
+"flashCjlTest.ml" 63 2119 2479 "flashCjlTest.ml" 63 2119 2503
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 63 2119 2478 "flashCjlTest.ml" 63 2119 2504
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 63 2119 2474 "flashCjlTest.ml" 63 2119 2504
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2506 "flashCjlTest.ml" 63 2119 2512
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2513 "flashCjlTest.ml" 63 2119 2525
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2506 "flashCjlTest.ml" 63 2119 2525
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2474 "flashCjlTest.ml" 63 2119 2525
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2460 "flashCjlTest.ml" 63 2119 2525
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2459 "flashCjlTest.ml" 63 2119 2526
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2452 "flashCjlTest.ml" 63 2119 2526
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2447 "flashCjlTest.ml" 63 2119 2527
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 63 2119 2530 "flashCjlTest.ml" 63 2119 2535
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"flashCjlTest.ml" 63 2119 2536 "flashCjlTest.ml" 63 2119 2544
+type(
+  const
+)
+ident(
+  int_ref _CACHE_S "flashCjlTest.ml" 14 211 215 "flashCjlTest.ml" 14 211 223
+)
+"flashCjlTest.ml" 63 2119 2530 "flashCjlTest.ml" 63 2119 2544
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 63 2119 2442 "flashCjlTest.ml" 63 2119 2545
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 63 2119 2548 "flashCjlTest.ml" 63 2119 2555
+type(
+  Loach.formula list -> Loach.formula
+)
+ident(
+  ext_ref Loach.andList
+)
+"flashCjlTest.ml" 63 2119 2558 "flashCjlTest.ml" 63 2119 2563
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"flashCjlTest.ml" 63 2119 2565 "flashCjlTest.ml" 63 2119 2568
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 63 2119 2570 "flashCjlTest.ml" 63 2119 2573
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 63 2119 2575 "flashCjlTest.ml" 63 2119 2581
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 63 2119 2583 "flashCjlTest.ml" 63 2119 2589
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2590 "flashCjlTest.ml" 63 2119 2595
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2583 "flashCjlTest.ml" 63 2119 2595
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2597 "flashCjlTest.ml" 63 2119 2603
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2604 "flashCjlTest.ml" 63 2119 2616
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2597 "flashCjlTest.ml" 63 2119 2616
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2583 "flashCjlTest.ml" 63 2119 2616
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2582 "flashCjlTest.ml" 63 2119 2617
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2575 "flashCjlTest.ml" 63 2119 2617
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2570 "flashCjlTest.ml" 63 2119 2618
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 63 2119 2621 "flashCjlTest.ml" 63 2119 2626
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"flashCjlTest.ml" 63 2119 2627 "flashCjlTest.ml" 63 2119 2632
+type(
+  const
+)
+ident(
+  int_ref _True "flashCjlTest.ml" 37 947 951 "flashCjlTest.ml" 37 947 956
+)
+"flashCjlTest.ml" 63 2119 2621 "flashCjlTest.ml" 63 2119 2632
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 63 2119 2565 "flashCjlTest.ml" 63 2119 2633
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 63 2119 2636 "flashCjlTest.ml" 63 2119 2639
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 63 2119 2641 "flashCjlTest.ml" 63 2119 2644
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 63 2119 2646 "flashCjlTest.ml" 63 2119 2652
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 63 2119 2654 "flashCjlTest.ml" 63 2119 2660
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2661 "flashCjlTest.ml" 63 2119 2666
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2654 "flashCjlTest.ml" 63 2119 2666
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2668 "flashCjlTest.ml" 63 2119 2671
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"flashCjlTest.ml" 63 2119 2674 "flashCjlTest.ml" 63 2119 2680
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2683 "flashCjlTest.ml" 63 2119 2691
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"flashCjlTest.ml" 63 2119 2692 "flashCjlTest.ml" 63 2119 2695
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2683 "flashCjlTest.ml" 63 2119 2695
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"flashCjlTest.ml" 63 2119 2682 "flashCjlTest.ml" 63 2119 2696
+type(
+  paramref list
+)
+"flashCjlTest.ml" 63 2119 2674 "flashCjlTest.ml" 63 2119 2696
+type(
+  string * paramref list
+)
+"flashCjlTest.ml" 63 2119 2673 "flashCjlTest.ml" 63 2119 2697
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 63 2119 2672 "flashCjlTest.ml" 63 2119 2698
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 63 2119 2668 "flashCjlTest.ml" 63 2119 2698
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2700 "flashCjlTest.ml" 63 2119 2706
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2707 "flashCjlTest.ml" 63 2119 2718
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2700 "flashCjlTest.ml" 63 2119 2718
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2668 "flashCjlTest.ml" 63 2119 2718
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2654 "flashCjlTest.ml" 63 2119 2718
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2653 "flashCjlTest.ml" 63 2119 2719
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2646 "flashCjlTest.ml" 63 2119 2719
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2641 "flashCjlTest.ml" 63 2119 2720
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 63 2119 2723 "flashCjlTest.ml" 63 2119 2726
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 63 2119 2728 "flashCjlTest.ml" 63 2119 2734
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 63 2119 2736 "flashCjlTest.ml" 63 2119 2742
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2743 "flashCjlTest.ml" 63 2119 2748
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2736 "flashCjlTest.ml" 63 2119 2748
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2750 "flashCjlTest.ml" 63 2119 2756
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2757 "flashCjlTest.ml" 63 2119 2767
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2750 "flashCjlTest.ml" 63 2119 2767
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2736 "flashCjlTest.ml" 63 2119 2767
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2735 "flashCjlTest.ml" 63 2119 2768
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2728 "flashCjlTest.ml" 63 2119 2768
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2723 "flashCjlTest.ml" 63 2119 2769
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 63 2119 2636 "flashCjlTest.ml" 63 2119 2770
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 63 2119 2558 "flashCjlTest.ml" 63 2119 2771
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 63 2119 2775 "flashCjlTest.ml" 63 2119 2780
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"flashCjlTest.ml" 63 2119 2782 "flashCjlTest.ml" 63 2119 2785
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 63 2119 2787 "flashCjlTest.ml" 63 2119 2790
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 63 2119 2792 "flashCjlTest.ml" 63 2119 2798
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 63 2119 2800 "flashCjlTest.ml" 63 2119 2806
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2807 "flashCjlTest.ml" 63 2119 2812
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2800 "flashCjlTest.ml" 63 2119 2812
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2814 "flashCjlTest.ml" 63 2119 2820
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2821 "flashCjlTest.ml" 63 2119 2833
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2814 "flashCjlTest.ml" 63 2119 2833
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2800 "flashCjlTest.ml" 63 2119 2833
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2799 "flashCjlTest.ml" 63 2119 2834
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2792 "flashCjlTest.ml" 63 2119 2834
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2787 "flashCjlTest.ml" 63 2119 2835
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 63 2119 2838 "flashCjlTest.ml" 63 2119 2843
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"flashCjlTest.ml" 63 2119 2844 "flashCjlTest.ml" 63 2119 2850
+type(
+  const
+)
+ident(
+  int_ref _False "flashCjlTest.ml" 38 970 974 "flashCjlTest.ml" 38 970 980
+)
+"flashCjlTest.ml" 63 2119 2838 "flashCjlTest.ml" 63 2119 2850
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 63 2119 2782 "flashCjlTest.ml" 63 2119 2851
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 63 2119 2854 "flashCjlTest.ml" 63 2119 2857
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 63 2119 2859 "flashCjlTest.ml" 63 2119 2862
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 63 2119 2864 "flashCjlTest.ml" 63 2119 2870
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 63 2119 2872 "flashCjlTest.ml" 63 2119 2878
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2879 "flashCjlTest.ml" 63 2119 2884
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2872 "flashCjlTest.ml" 63 2119 2884
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2886 "flashCjlTest.ml" 63 2119 2889
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"flashCjlTest.ml" 63 2119 2892 "flashCjlTest.ml" 63 2119 2898
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2901 "flashCjlTest.ml" 63 2119 2909
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"flashCjlTest.ml" 63 2119 2910 "flashCjlTest.ml" 63 2119 2913
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2901 "flashCjlTest.ml" 63 2119 2913
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"flashCjlTest.ml" 63 2119 2900 "flashCjlTest.ml" 63 2119 2914
+type(
+  paramref list
+)
+"flashCjlTest.ml" 63 2119 2892 "flashCjlTest.ml" 63 2119 2914
+type(
+  string * paramref list
+)
+"flashCjlTest.ml" 63 2119 2891 "flashCjlTest.ml" 63 2119 2915
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 63 2119 2890 "flashCjlTest.ml" 63 2119 2916
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 63 2119 2886 "flashCjlTest.ml" 63 2119 2916
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2918 "flashCjlTest.ml" 63 2119 2924
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2925 "flashCjlTest.ml" 63 2119 2936
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2918 "flashCjlTest.ml" 63 2119 2936
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2886 "flashCjlTest.ml" 63 2119 2936
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2872 "flashCjlTest.ml" 63 2119 2936
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2871 "flashCjlTest.ml" 63 2119 2937
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2864 "flashCjlTest.ml" 63 2119 2937
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2859 "flashCjlTest.ml" 63 2119 2938
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 63 2119 2941 "flashCjlTest.ml" 63 2119 2944
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 63 2119 2946 "flashCjlTest.ml" 63 2119 2952
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 63 2119 2954 "flashCjlTest.ml" 63 2119 2960
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2961 "flashCjlTest.ml" 63 2119 2966
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2954 "flashCjlTest.ml" 63 2119 2966
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2968 "flashCjlTest.ml" 63 2119 2974
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 63 2119 2975 "flashCjlTest.ml" 63 2119 2985
+type(
+  string
+)
+"flashCjlTest.ml" 63 2119 2968 "flashCjlTest.ml" 63 2119 2985
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2954 "flashCjlTest.ml" 63 2119 2985
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2953 "flashCjlTest.ml" 63 2119 2986
+type(
+  var list
+)
+"flashCjlTest.ml" 63 2119 2946 "flashCjlTest.ml" 63 2119 2986
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 63 2119 2941 "flashCjlTest.ml" 63 2119 2987
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 63 2119 2854 "flashCjlTest.ml" 63 2119 2988
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 63 2119 2775 "flashCjlTest.ml" 63 2119 2989
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 63 2119 2774 "flashCjlTest.ml" 63 2119 2990
+type(
+  Loach.formula list
+)
+"flashCjlTest.ml" 63 2119 2557 "flashCjlTest.ml" 63 2119 2990
+type(
+  Loach.formula list
+)
+"flashCjlTest.ml" 63 2119 2556 "flashCjlTest.ml" 63 2119 2991
+type(
+  Loach.formula list
+)
+"flashCjlTest.ml" 63 2119 2548 "flashCjlTest.ml" 63 2119 2991
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 63 2119 2435 "flashCjlTest.ml" 63 2119 2992
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 63 2119 2434 "flashCjlTest.ml" 63 2119 2993
+type(
+  Loach.formula list
+)
+"flashCjlTest.ml" 63 2119 2182 "flashCjlTest.ml" 63 2119 2993
+type(
+  Loach.formula list
+)
+"flashCjlTest.ml" 63 2119 2181 "flashCjlTest.ml" 63 2119 2994
+type(
+  Loach.formula list
+)
+"flashCjlTest.ml" 63 2119 2173 "flashCjlTest.ml" 63 2119 2994
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 63 2119 2136 "flashCjlTest.ml" 63 2119 2995
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 64 3000 3002 "flashCjlTest.ml" 64 3000 3006
+type(
+  string -> paramdef list -> Loach.formula -> Loach.prop
+)
+ident(
+  ext_ref Loach.prop
+)
+"flashCjlTest.ml" 64 3000 3007 "flashCjlTest.ml" 64 3000 3011
+type(
+  string
+)
+ident(
+  int_ref name "flashCjlTest.ml" 61 2064 2070 "flashCjlTest.ml" 61 2064 2074
+)
+"flashCjlTest.ml" 64 3000 3012 "flashCjlTest.ml" 64 3000 3018
+type(
+  paramdef list
+)
+ident(
+  int_ref params "flashCjlTest.ml" 62 2098 2104 "flashCjlTest.ml" 62 2098 2110
+)
+"flashCjlTest.ml" 64 3000 3019 "flashCjlTest.ml" 64 3000 3026
+type(
+  Loach.formula
+)
+ident(
+  int_ref formula "flashCjlTest.ml" 63 2119 2125 "flashCjlTest.ml" 63 2119 2132
+)
+"flashCjlTest.ml" 64 3000 3002 "flashCjlTest.ml" 64 3000 3026
+call(
+  stack
+)
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 63 2119 2121 "flashCjlTest.ml" 64 3000 3026
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 62 2098 2100 "flashCjlTest.ml" 64 3000 3026
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 61 2064 2066 "flashCjlTest.ml" 64 3000 3026
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 66 3028 3032 "flashCjlTest.ml" 66 3028 3045
+type(
+  Loach.prop
+)
+ident(
+  def n_MemDataProp "flashCjlTest.ml" 72 3340 3340 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 67 3048 3054 "flashCjlTest.ml" 67 3048 3058
+type(
+  string
+)
+ident(
+  def name "flashCjlTest.ml" 68 3080 3082 "flashCjlTest.ml" 70 3312 3338
+)
+"flashCjlTest.ml" 67 3048 3061 "flashCjlTest.ml" 67 3048 3076
+type(
+  string
+)
+"flashCjlTest.ml" 68 3080 3086 "flashCjlTest.ml" 68 3080 3092
+type(
+  'a list
+)
+ident(
+  def params "flashCjlTest.ml" 69 3101 3103 "flashCjlTest.ml" 70 3312 3338
+)
+"flashCjlTest.ml" 68 3080 3095 "flashCjlTest.ml" 68 3080 3097
+type(
+  'a list
+)
+"flashCjlTest.ml" 69 3101 3107 "flashCjlTest.ml" 69 3101 3114
+type(
+  Loach.formula
+)
+ident(
+  def formula "flashCjlTest.ml" 70 3312 3314 "flashCjlTest.ml" 70 3312 3338
+)
+"flashCjlTest.ml" 69 3101 3118 "flashCjlTest.ml" 69 3101 3123
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"flashCjlTest.ml" 69 3101 3125 "flashCjlTest.ml" 69 3101 3128
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 69 3101 3130 "flashCjlTest.ml" 69 3101 3133
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 69 3101 3135 "flashCjlTest.ml" 69 3101 3141
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 69 3101 3143 "flashCjlTest.ml" 69 3101 3149
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 69 3101 3150 "flashCjlTest.ml" 69 3101 3155
+type(
+  string
+)
+"flashCjlTest.ml" 69 3101 3143 "flashCjlTest.ml" 69 3101 3155
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 69 3101 3157 "flashCjlTest.ml" 69 3101 3163
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 69 3101 3164 "flashCjlTest.ml" 69 3101 3169
+type(
+  string
+)
+"flashCjlTest.ml" 69 3101 3157 "flashCjlTest.ml" 69 3101 3169
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 69 3101 3171 "flashCjlTest.ml" 69 3101 3177
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 69 3101 3178 "flashCjlTest.ml" 69 3101 3185
+type(
+  string
+)
+"flashCjlTest.ml" 69 3101 3171 "flashCjlTest.ml" 69 3101 3185
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 69 3101 3157 "flashCjlTest.ml" 69 3101 3185
+type(
+  var list
+)
+"flashCjlTest.ml" 69 3101 3143 "flashCjlTest.ml" 69 3101 3185
+type(
+  var list
+)
+"flashCjlTest.ml" 69 3101 3142 "flashCjlTest.ml" 69 3101 3186
+type(
+  var list
+)
+"flashCjlTest.ml" 69 3101 3135 "flashCjlTest.ml" 69 3101 3186
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 69 3101 3130 "flashCjlTest.ml" 69 3101 3187
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 69 3101 3190 "flashCjlTest.ml" 69 3101 3195
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"flashCjlTest.ml" 69 3101 3196 "flashCjlTest.ml" 69 3101 3202
+type(
+  const
+)
+ident(
+  int_ref _False "flashCjlTest.ml" 38 970 974 "flashCjlTest.ml" 38 970 980
+)
+"flashCjlTest.ml" 69 3101 3190 "flashCjlTest.ml" 69 3101 3202
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 69 3101 3125 "flashCjlTest.ml" 69 3101 3203
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 69 3101 3206 "flashCjlTest.ml" 69 3101 3209
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 69 3101 3211 "flashCjlTest.ml" 69 3101 3214
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 69 3101 3216 "flashCjlTest.ml" 69 3101 3222
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 69 3101 3224 "flashCjlTest.ml" 69 3101 3230
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 69 3101 3231 "flashCjlTest.ml" 69 3101 3236
+type(
+  string
+)
+"flashCjlTest.ml" 69 3101 3224 "flashCjlTest.ml" 69 3101 3236
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 69 3101 3238 "flashCjlTest.ml" 69 3101 3244
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 69 3101 3245 "flashCjlTest.ml" 69 3101 3254
+type(
+  string
+)
+"flashCjlTest.ml" 69 3101 3238 "flashCjlTest.ml" 69 3101 3254
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 69 3101 3224 "flashCjlTest.ml" 69 3101 3254
+type(
+  var list
+)
+"flashCjlTest.ml" 69 3101 3223 "flashCjlTest.ml" 69 3101 3255
+type(
+  var list
+)
+"flashCjlTest.ml" 69 3101 3216 "flashCjlTest.ml" 69 3101 3255
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 69 3101 3211 "flashCjlTest.ml" 69 3101 3256
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 69 3101 3259 "flashCjlTest.ml" 69 3101 3262
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 69 3101 3264 "flashCjlTest.ml" 69 3101 3270
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 69 3101 3272 "flashCjlTest.ml" 69 3101 3278
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 69 3101 3279 "flashCjlTest.ml" 69 3101 3284
+type(
+  string
+)
+"flashCjlTest.ml" 69 3101 3272 "flashCjlTest.ml" 69 3101 3284
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 69 3101 3286 "flashCjlTest.ml" 69 3101 3292
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 69 3101 3293 "flashCjlTest.ml" 69 3101 3303
+type(
+  string
+)
+"flashCjlTest.ml" 69 3101 3286 "flashCjlTest.ml" 69 3101 3303
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 69 3101 3272 "flashCjlTest.ml" 69 3101 3303
+type(
+  var list
+)
+"flashCjlTest.ml" 69 3101 3271 "flashCjlTest.ml" 69 3101 3304
+type(
+  var list
+)
+"flashCjlTest.ml" 69 3101 3264 "flashCjlTest.ml" 69 3101 3304
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 69 3101 3259 "flashCjlTest.ml" 69 3101 3305
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 69 3101 3206 "flashCjlTest.ml" 69 3101 3306
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 69 3101 3118 "flashCjlTest.ml" 69 3101 3307
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 70 3312 3314 "flashCjlTest.ml" 70 3312 3318
+type(
+  string -> paramdef list -> Loach.formula -> Loach.prop
+)
+ident(
+  ext_ref Loach.prop
+)
+"flashCjlTest.ml" 70 3312 3319 "flashCjlTest.ml" 70 3312 3323
+type(
+  string
+)
+ident(
+  int_ref name "flashCjlTest.ml" 67 3048 3054 "flashCjlTest.ml" 67 3048 3058
+)
+"flashCjlTest.ml" 70 3312 3324 "flashCjlTest.ml" 70 3312 3330
+type(
+  paramdef list
+)
+ident(
+  int_ref params "flashCjlTest.ml" 68 3080 3086 "flashCjlTest.ml" 68 3080 3092
+)
+"flashCjlTest.ml" 70 3312 3331 "flashCjlTest.ml" 70 3312 3338
+type(
+  Loach.formula
+)
+ident(
+  int_ref formula "flashCjlTest.ml" 69 3101 3107 "flashCjlTest.ml" 69 3101 3114
+)
+"flashCjlTest.ml" 70 3312 3314 "flashCjlTest.ml" 70 3312 3338
+call(
+  stack
+)
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 69 3101 3103 "flashCjlTest.ml" 70 3312 3338
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 68 3080 3082 "flashCjlTest.ml" 70 3312 3338
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 67 3048 3050 "flashCjlTest.ml" 70 3312 3338
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 72 3340 3344 "flashCjlTest.ml" 72 3340 3351
+type(
+  Loach.prop
+)
+ident(
+  def n_test1 "flashCjlTest.ml" 78 3665 3665 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 73 3354 3360 "flashCjlTest.ml" 73 3354 3364
+type(
+  string
+)
+ident(
+  def name "flashCjlTest.ml" 74 3380 3382 "flashCjlTest.ml" 76 3637 3663
+)
+"flashCjlTest.ml" 73 3354 3367 "flashCjlTest.ml" 73 3354 3376
+type(
+  string
+)
+"flashCjlTest.ml" 74 3380 3386 "flashCjlTest.ml" 74 3380 3392
+type(
+  'a list
+)
+ident(
+  def params "flashCjlTest.ml" 75 3401 3403 "flashCjlTest.ml" 76 3637 3663
+)
+"flashCjlTest.ml" 74 3380 3395 "flashCjlTest.ml" 74 3380 3397
+type(
+  'a list
+)
+"flashCjlTest.ml" 75 3401 3407 "flashCjlTest.ml" 75 3401 3414
+type(
+  Loach.formula
+)
+ident(
+  def formula "flashCjlTest.ml" 76 3637 3639 "flashCjlTest.ml" 76 3637 3663
+)
+"flashCjlTest.ml" 75 3401 3418 "flashCjlTest.ml" 75 3401 3423
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"flashCjlTest.ml" 75 3401 3425 "flashCjlTest.ml" 75 3401 3428
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 75 3401 3430 "flashCjlTest.ml" 75 3401 3433
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 75 3401 3435 "flashCjlTest.ml" 75 3401 3441
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 75 3401 3443 "flashCjlTest.ml" 75 3401 3449
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 75 3401 3450 "flashCjlTest.ml" 75 3401 3455
+type(
+  string
+)
+"flashCjlTest.ml" 75 3401 3443 "flashCjlTest.ml" 75 3401 3455
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 75 3401 3457 "flashCjlTest.ml" 75 3401 3460
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"flashCjlTest.ml" 75 3401 3463 "flashCjlTest.ml" 75 3401 3471
+type(
+  string
+)
+"flashCjlTest.ml" 75 3401 3474 "flashCjlTest.ml" 75 3401 3482
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"flashCjlTest.ml" 75 3401 3483 "flashCjlTest.ml" 75 3401 3486
+type(
+  string
+)
+"flashCjlTest.ml" 75 3401 3474 "flashCjlTest.ml" 75 3401 3486
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"flashCjlTest.ml" 75 3401 3473 "flashCjlTest.ml" 75 3401 3487
+type(
+  paramref list
+)
+"flashCjlTest.ml" 75 3401 3463 "flashCjlTest.ml" 75 3401 3487
+type(
+  string * paramref list
+)
+"flashCjlTest.ml" 75 3401 3462 "flashCjlTest.ml" 75 3401 3488
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 75 3401 3461 "flashCjlTest.ml" 75 3401 3489
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 75 3401 3457 "flashCjlTest.ml" 75 3401 3489
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 75 3401 3491 "flashCjlTest.ml" 75 3401 3497
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 75 3401 3498 "flashCjlTest.ml" 75 3401 3503
+type(
+  string
+)
+"flashCjlTest.ml" 75 3401 3491 "flashCjlTest.ml" 75 3401 3503
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 75 3401 3457 "flashCjlTest.ml" 75 3401 3503
+type(
+  var list
+)
+"flashCjlTest.ml" 75 3401 3443 "flashCjlTest.ml" 75 3401 3503
+type(
+  var list
+)
+"flashCjlTest.ml" 75 3401 3442 "flashCjlTest.ml" 75 3401 3504
+type(
+  var list
+)
+"flashCjlTest.ml" 75 3401 3435 "flashCjlTest.ml" 75 3401 3504
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 75 3401 3430 "flashCjlTest.ml" 75 3401 3505
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 75 3401 3508 "flashCjlTest.ml" 75 3401 3513
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"flashCjlTest.ml" 75 3401 3514 "flashCjlTest.ml" 75 3401 3523
+type(
+  const
+)
+ident(
+  int_ref _UNI_None "flashCjlTest.ml" 19 371 375 "flashCjlTest.ml" 19 371 384
+)
+"flashCjlTest.ml" 75 3401 3508 "flashCjlTest.ml" 75 3401 3523
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 75 3401 3425 "flashCjlTest.ml" 75 3401 3524
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 75 3401 3527 "flashCjlTest.ml" 75 3401 3530
+type(
+  Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.neg
+)
+"flashCjlTest.ml" 75 3401 3532 "flashCjlTest.ml" 75 3401 3535
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 75 3401 3537 "flashCjlTest.ml" 75 3401 3540
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 75 3401 3542 "flashCjlTest.ml" 75 3401 3548
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 75 3401 3550 "flashCjlTest.ml" 75 3401 3556
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 75 3401 3557 "flashCjlTest.ml" 75 3401 3562
+type(
+  string
+)
+"flashCjlTest.ml" 75 3401 3550 "flashCjlTest.ml" 75 3401 3562
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 75 3401 3564 "flashCjlTest.ml" 75 3401 3567
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"flashCjlTest.ml" 75 3401 3570 "flashCjlTest.ml" 75 3401 3578
+type(
+  string
+)
+"flashCjlTest.ml" 75 3401 3581 "flashCjlTest.ml" 75 3401 3589
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"flashCjlTest.ml" 75 3401 3590 "flashCjlTest.ml" 75 3401 3593
+type(
+  string
+)
+"flashCjlTest.ml" 75 3401 3581 "flashCjlTest.ml" 75 3401 3593
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"flashCjlTest.ml" 75 3401 3580 "flashCjlTest.ml" 75 3401 3594
+type(
+  paramref list
+)
+"flashCjlTest.ml" 75 3401 3570 "flashCjlTest.ml" 75 3401 3594
+type(
+  string * paramref list
+)
+"flashCjlTest.ml" 75 3401 3569 "flashCjlTest.ml" 75 3401 3595
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 75 3401 3568 "flashCjlTest.ml" 75 3401 3596
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 75 3401 3564 "flashCjlTest.ml" 75 3401 3596
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 75 3401 3598 "flashCjlTest.ml" 75 3401 3604
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 75 3401 3605 "flashCjlTest.ml" 75 3401 3610
+type(
+  string
+)
+"flashCjlTest.ml" 75 3401 3598 "flashCjlTest.ml" 75 3401 3610
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 75 3401 3564 "flashCjlTest.ml" 75 3401 3610
+type(
+  var list
+)
+"flashCjlTest.ml" 75 3401 3550 "flashCjlTest.ml" 75 3401 3610
+type(
+  var list
+)
+"flashCjlTest.ml" 75 3401 3549 "flashCjlTest.ml" 75 3401 3611
+type(
+  var list
+)
+"flashCjlTest.ml" 75 3401 3542 "flashCjlTest.ml" 75 3401 3611
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 75 3401 3537 "flashCjlTest.ml" 75 3401 3612
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 75 3401 3615 "flashCjlTest.ml" 75 3401 3620
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"flashCjlTest.ml" 75 3401 3621 "flashCjlTest.ml" 75 3401 3629
+type(
+  const
+)
+ident(
+  int_ref _UNI_Put "flashCjlTest.ml" 22 465 469 "flashCjlTest.ml" 22 465 477
+)
+"flashCjlTest.ml" 75 3401 3615 "flashCjlTest.ml" 75 3401 3629
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 75 3401 3532 "flashCjlTest.ml" 75 3401 3630
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 75 3401 3527 "flashCjlTest.ml" 75 3401 3631
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 75 3401 3418 "flashCjlTest.ml" 75 3401 3632
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 76 3637 3639 "flashCjlTest.ml" 76 3637 3643
+type(
+  string -> paramdef list -> Loach.formula -> Loach.prop
+)
+ident(
+  ext_ref Loach.prop
+)
+"flashCjlTest.ml" 76 3637 3644 "flashCjlTest.ml" 76 3637 3648
+type(
+  string
+)
+ident(
+  int_ref name "flashCjlTest.ml" 73 3354 3360 "flashCjlTest.ml" 73 3354 3364
+)
+"flashCjlTest.ml" 76 3637 3649 "flashCjlTest.ml" 76 3637 3655
+type(
+  paramdef list
+)
+ident(
+  int_ref params "flashCjlTest.ml" 74 3380 3386 "flashCjlTest.ml" 74 3380 3392
+)
+"flashCjlTest.ml" 76 3637 3656 "flashCjlTest.ml" 76 3637 3663
+type(
+  Loach.formula
+)
+ident(
+  int_ref formula "flashCjlTest.ml" 75 3401 3407 "flashCjlTest.ml" 75 3401 3414
+)
+"flashCjlTest.ml" 76 3637 3639 "flashCjlTest.ml" 76 3637 3663
+call(
+  stack
+)
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 75 3401 3403 "flashCjlTest.ml" 76 3637 3663
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 74 3380 3382 "flashCjlTest.ml" 76 3637 3663
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 73 3354 3356 "flashCjlTest.ml" 76 3637 3663
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 78 3665 3669 "flashCjlTest.ml" 78 3665 3676
+type(
+  Loach.prop
+)
+ident(
+  def n_test2 "flashCjlTest.ml" 84 3974 3974 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 79 3679 3685 "flashCjlTest.ml" 79 3679 3689
+type(
+  string
+)
+ident(
+  def name "flashCjlTest.ml" 80 3705 3707 "flashCjlTest.ml" 82 3946 3972
+)
+"flashCjlTest.ml" 79 3679 3692 "flashCjlTest.ml" 79 3679 3701
+type(
+  string
+)
+"flashCjlTest.ml" 80 3705 3711 "flashCjlTest.ml" 80 3705 3717
+type(
+  'a list
+)
+ident(
+  def params "flashCjlTest.ml" 81 3726 3728 "flashCjlTest.ml" 82 3946 3972
+)
+"flashCjlTest.ml" 80 3705 3720 "flashCjlTest.ml" 80 3705 3722
+type(
+  'a list
+)
+"flashCjlTest.ml" 81 3726 3732 "flashCjlTest.ml" 81 3726 3739
+type(
+  Loach.formula
+)
+ident(
+  def formula "flashCjlTest.ml" 82 3946 3948 "flashCjlTest.ml" 82 3946 3972
+)
+"flashCjlTest.ml" 81 3726 3743 "flashCjlTest.ml" 81 3726 3748
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"flashCjlTest.ml" 81 3726 3750 "flashCjlTest.ml" 81 3726 3753
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 81 3726 3755 "flashCjlTest.ml" 81 3726 3758
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 81 3726 3760 "flashCjlTest.ml" 81 3726 3766
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 81 3726 3768 "flashCjlTest.ml" 81 3726 3774
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 81 3726 3775 "flashCjlTest.ml" 81 3726 3780
+type(
+  string
+)
+"flashCjlTest.ml" 81 3726 3768 "flashCjlTest.ml" 81 3726 3780
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 81 3726 3782 "flashCjlTest.ml" 81 3726 3785
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"flashCjlTest.ml" 81 3726 3788 "flashCjlTest.ml" 81 3726 3796
+type(
+  string
+)
+"flashCjlTest.ml" 81 3726 3799 "flashCjlTest.ml" 81 3726 3807
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"flashCjlTest.ml" 81 3726 3808 "flashCjlTest.ml" 81 3726 3811
+type(
+  string
+)
+"flashCjlTest.ml" 81 3726 3799 "flashCjlTest.ml" 81 3726 3811
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"flashCjlTest.ml" 81 3726 3798 "flashCjlTest.ml" 81 3726 3812
+type(
+  paramref list
+)
+"flashCjlTest.ml" 81 3726 3788 "flashCjlTest.ml" 81 3726 3812
+type(
+  string * paramref list
+)
+"flashCjlTest.ml" 81 3726 3787 "flashCjlTest.ml" 81 3726 3813
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 81 3726 3786 "flashCjlTest.ml" 81 3726 3814
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 81 3726 3782 "flashCjlTest.ml" 81 3726 3814
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 81 3726 3816 "flashCjlTest.ml" 81 3726 3822
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 81 3726 3823 "flashCjlTest.ml" 81 3726 3828
+type(
+  string
+)
+"flashCjlTest.ml" 81 3726 3816 "flashCjlTest.ml" 81 3726 3828
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 81 3726 3782 "flashCjlTest.ml" 81 3726 3828
+type(
+  var list
+)
+"flashCjlTest.ml" 81 3726 3768 "flashCjlTest.ml" 81 3726 3828
+type(
+  var list
+)
+"flashCjlTest.ml" 81 3726 3767 "flashCjlTest.ml" 81 3726 3829
+type(
+  var list
+)
+"flashCjlTest.ml" 81 3726 3760 "flashCjlTest.ml" 81 3726 3829
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 81 3726 3755 "flashCjlTest.ml" 81 3726 3830
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 81 3726 3833 "flashCjlTest.ml" 81 3726 3838
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"flashCjlTest.ml" 81 3726 3839 "flashCjlTest.ml" 81 3726 3850
+type(
+  const
+)
+ident(
+  int_ref _INV_InvAck "flashCjlTest.ml" 27 619 623 "flashCjlTest.ml" 27 619 634
+)
+"flashCjlTest.ml" 81 3726 3833 "flashCjlTest.ml" 81 3726 3850
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 81 3726 3750 "flashCjlTest.ml" 81 3726 3851
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 81 3726 3854 "flashCjlTest.ml" 81 3726 3857
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 81 3726 3859 "flashCjlTest.ml" 81 3726 3862
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 81 3726 3864 "flashCjlTest.ml" 81 3726 3870
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 81 3726 3872 "flashCjlTest.ml" 81 3726 3878
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 81 3726 3879 "flashCjlTest.ml" 81 3726 3884
+type(
+  string
+)
+"flashCjlTest.ml" 81 3726 3872 "flashCjlTest.ml" 81 3726 3884
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 81 3726 3886 "flashCjlTest.ml" 81 3726 3892
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 81 3726 3893 "flashCjlTest.ml" 81 3726 3898
+type(
+  string
+)
+"flashCjlTest.ml" 81 3726 3886 "flashCjlTest.ml" 81 3726 3898
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 81 3726 3900 "flashCjlTest.ml" 81 3726 3906
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 81 3726 3907 "flashCjlTest.ml" 81 3726 3916
+type(
+  string
+)
+"flashCjlTest.ml" 81 3726 3900 "flashCjlTest.ml" 81 3726 3916
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 81 3726 3886 "flashCjlTest.ml" 81 3726 3916
+type(
+  var list
+)
+"flashCjlTest.ml" 81 3726 3872 "flashCjlTest.ml" 81 3726 3916
+type(
+  var list
+)
+"flashCjlTest.ml" 81 3726 3871 "flashCjlTest.ml" 81 3726 3917
+type(
+  var list
+)
+"flashCjlTest.ml" 81 3726 3864 "flashCjlTest.ml" 81 3726 3917
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 81 3726 3859 "flashCjlTest.ml" 81 3726 3918
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 81 3726 3921 "flashCjlTest.ml" 81 3726 3926
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"flashCjlTest.ml" 81 3726 3928 "flashCjlTest.ml" 81 3726 3933
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"flashCjlTest.ml" 81 3726 3934 "flashCjlTest.ml" 81 3726 3938
+type(
+  bool
+)
+"flashCjlTest.ml" 81 3726 3928 "flashCjlTest.ml" 81 3726 3938
+call(
+  stack
+)
+type(
+  const
+)
+"flashCjlTest.ml" 81 3726 3921 "flashCjlTest.ml" 81 3726 3939
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 81 3726 3854 "flashCjlTest.ml" 81 3726 3940
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 81 3726 3743 "flashCjlTest.ml" 81 3726 3941
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 82 3946 3948 "flashCjlTest.ml" 82 3946 3952
+type(
+  string -> paramdef list -> Loach.formula -> Loach.prop
+)
+ident(
+  ext_ref Loach.prop
+)
+"flashCjlTest.ml" 82 3946 3953 "flashCjlTest.ml" 82 3946 3957
+type(
+  string
+)
+ident(
+  int_ref name "flashCjlTest.ml" 79 3679 3685 "flashCjlTest.ml" 79 3679 3689
+)
+"flashCjlTest.ml" 82 3946 3958 "flashCjlTest.ml" 82 3946 3964
+type(
+  paramdef list
+)
+ident(
+  int_ref params "flashCjlTest.ml" 80 3705 3711 "flashCjlTest.ml" 80 3705 3717
+)
+"flashCjlTest.ml" 82 3946 3965 "flashCjlTest.ml" 82 3946 3972
+type(
+  Loach.formula
+)
+ident(
+  int_ref formula "flashCjlTest.ml" 81 3726 3732 "flashCjlTest.ml" 81 3726 3739
+)
+"flashCjlTest.ml" 82 3946 3948 "flashCjlTest.ml" 82 3946 3972
+call(
+  stack
+)
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 81 3726 3728 "flashCjlTest.ml" 82 3946 3972
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 80 3705 3707 "flashCjlTest.ml" 82 3946 3972
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 79 3679 3681 "flashCjlTest.ml" 82 3946 3972
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 84 3974 3978 "flashCjlTest.ml" 84 3974 3985
+type(
+  Loach.prop
+)
+ident(
+  def n_test3 "flashCjlTest.ml" 92 4387 4387 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 85 3988 3994 "flashCjlTest.ml" 85 3988 3998
+type(
+  string
+)
+ident(
+  def name "flashCjlTest.ml" 86 4014 4016 "flashCjlTest.ml" 88 4257 4283
+)
+"flashCjlTest.ml" 85 3988 4001 "flashCjlTest.ml" 85 3988 4010
+type(
+  string
+)
+"flashCjlTest.ml" 86 4014 4020 "flashCjlTest.ml" 86 4014 4026
+type(
+  'a list
+)
+ident(
+  def params "flashCjlTest.ml" 87 4035 4037 "flashCjlTest.ml" 88 4257 4283
+)
+"flashCjlTest.ml" 86 4014 4029 "flashCjlTest.ml" 86 4014 4031
+type(
+  'a list
+)
+"flashCjlTest.ml" 87 4035 4041 "flashCjlTest.ml" 87 4035 4048
+type(
+  Loach.formula
+)
+ident(
+  def formula "flashCjlTest.ml" 88 4257 4259 "flashCjlTest.ml" 88 4257 4283
+)
+"flashCjlTest.ml" 87 4035 4052 "flashCjlTest.ml" 87 4035 4057
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"flashCjlTest.ml" 87 4035 4059 "flashCjlTest.ml" 87 4035 4062
+type(
+  Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.neg
+)
+"flashCjlTest.ml" 87 4035 4064 "flashCjlTest.ml" 87 4035 4067
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 87 4035 4069 "flashCjlTest.ml" 87 4035 4072
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 87 4035 4074 "flashCjlTest.ml" 87 4035 4080
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 87 4035 4082 "flashCjlTest.ml" 87 4035 4088
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 87 4035 4089 "flashCjlTest.ml" 87 4035 4094
+type(
+  string
+)
+"flashCjlTest.ml" 87 4035 4082 "flashCjlTest.ml" 87 4035 4094
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 87 4035 4096 "flashCjlTest.ml" 87 4035 4102
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 87 4035 4103 "flashCjlTest.ml" 87 4035 4112
+type(
+  string
+)
+"flashCjlTest.ml" 87 4035 4096 "flashCjlTest.ml" 87 4035 4112
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 87 4035 4114 "flashCjlTest.ml" 87 4035 4120
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 87 4035 4121 "flashCjlTest.ml" 87 4035 4126
+type(
+  string
+)
+"flashCjlTest.ml" 87 4035 4114 "flashCjlTest.ml" 87 4035 4126
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 87 4035 4096 "flashCjlTest.ml" 87 4035 4126
+type(
+  var list
+)
+"flashCjlTest.ml" 87 4035 4082 "flashCjlTest.ml" 87 4035 4126
+type(
+  var list
+)
+"flashCjlTest.ml" 87 4035 4081 "flashCjlTest.ml" 87 4035 4127
+type(
+  var list
+)
+"flashCjlTest.ml" 87 4035 4074 "flashCjlTest.ml" 87 4035 4127
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 87 4035 4069 "flashCjlTest.ml" 87 4035 4128
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 87 4035 4131 "flashCjlTest.ml" 87 4035 4136
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"flashCjlTest.ml" 87 4035 4137 "flashCjlTest.ml" 87 4035 4147
+type(
+  const
+)
+ident(
+  int_ref _SHWB_None "flashCjlTest.ml" 32 777 781 "flashCjlTest.ml" 32 777 791
+)
+"flashCjlTest.ml" 87 4035 4131 "flashCjlTest.ml" 87 4035 4147
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 87 4035 4064 "flashCjlTest.ml" 87 4035 4148
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 87 4035 4059 "flashCjlTest.ml" 87 4035 4149
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 87 4035 4152 "flashCjlTest.ml" 87 4035 4155
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"flashCjlTest.ml" 87 4035 4157 "flashCjlTest.ml" 87 4035 4160
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"flashCjlTest.ml" 87 4035 4162 "flashCjlTest.ml" 87 4035 4168
+type(
+  var list -> var
+)
+ident(
+  ext_ref Loach.record
+)
+"flashCjlTest.ml" 87 4035 4170 "flashCjlTest.ml" 87 4035 4176
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 87 4035 4177 "flashCjlTest.ml" 87 4035 4182
+type(
+  string
+)
+"flashCjlTest.ml" 87 4035 4170 "flashCjlTest.ml" 87 4035 4182
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 87 4035 4184 "flashCjlTest.ml" 87 4035 4187
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"flashCjlTest.ml" 87 4035 4190 "flashCjlTest.ml" 87 4035 4198
+type(
+  string
+)
+"flashCjlTest.ml" 87 4035 4201 "flashCjlTest.ml" 87 4035 4209
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"flashCjlTest.ml" 87 4035 4210 "flashCjlTest.ml" 87 4035 4213
+type(
+  string
+)
+"flashCjlTest.ml" 87 4035 4201 "flashCjlTest.ml" 87 4035 4213
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"flashCjlTest.ml" 87 4035 4200 "flashCjlTest.ml" 87 4035 4214
+type(
+  paramref list
+)
+"flashCjlTest.ml" 87 4035 4190 "flashCjlTest.ml" 87 4035 4214
+type(
+  string * paramref list
+)
+"flashCjlTest.ml" 87 4035 4189 "flashCjlTest.ml" 87 4035 4215
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 87 4035 4188 "flashCjlTest.ml" 87 4035 4216
+type(
+  (string * paramref list) list
+)
+"flashCjlTest.ml" 87 4035 4184 "flashCjlTest.ml" 87 4035 4216
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 87 4035 4218 "flashCjlTest.ml" 87 4035 4224
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"flashCjlTest.ml" 87 4035 4225 "flashCjlTest.ml" 87 4035 4230
+type(
+  string
+)
+"flashCjlTest.ml" 87 4035 4218 "flashCjlTest.ml" 87 4035 4230
+call(
+  stack
+)
+type(
+  var
+)
+type(
+  var list
+)
+"flashCjlTest.ml" 87 4035 4184 "flashCjlTest.ml" 87 4035 4230
+type(
+  var list
+)
+"flashCjlTest.ml" 87 4035 4170 "flashCjlTest.ml" 87 4035 4230
+type(
+  var list
+)
+"flashCjlTest.ml" 87 4035 4169 "flashCjlTest.ml" 87 4035 4231
+type(
+  var list
+)
+"flashCjlTest.ml" 87 4035 4162 "flashCjlTest.ml" 87 4035 4231
+call(
+  stack
+)
+type(
+  var
+)
+"flashCjlTest.ml" 87 4035 4157 "flashCjlTest.ml" 87 4035 4232
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 87 4035 4235 "flashCjlTest.ml" 87 4035 4240
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"flashCjlTest.ml" 87 4035 4241 "flashCjlTest.ml" 87 4035 4250
+type(
+  const
+)
+ident(
+  int_ref _INV_None "flashCjlTest.ml" 25 557 561 "flashCjlTest.ml" 25 557 570
+)
+"flashCjlTest.ml" 87 4035 4235 "flashCjlTest.ml" 87 4035 4250
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"flashCjlTest.ml" 87 4035 4152 "flashCjlTest.ml" 87 4035 4251
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 87 4035 4052 "flashCjlTest.ml" 87 4035 4252
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"flashCjlTest.ml" 88 4257 4259 "flashCjlTest.ml" 88 4257 4263
+type(
+  string -> paramdef list -> Loach.formula -> Loach.prop
+)
+ident(
+  ext_ref Loach.prop
+)
+"flashCjlTest.ml" 88 4257 4264 "flashCjlTest.ml" 88 4257 4268
+type(
+  string
+)
+ident(
+  int_ref name "flashCjlTest.ml" 85 3988 3994 "flashCjlTest.ml" 85 3988 3998
+)
+"flashCjlTest.ml" 88 4257 4269 "flashCjlTest.ml" 88 4257 4275
+type(
+  paramdef list
+)
+ident(
+  int_ref params "flashCjlTest.ml" 86 4014 4020 "flashCjlTest.ml" 86 4014 4026
+)
+"flashCjlTest.ml" 88 4257 4276 "flashCjlTest.ml" 88 4257 4283
+type(
+  Loach.formula
+)
+ident(
+  int_ref formula "flashCjlTest.ml" 87 4035 4041 "flashCjlTest.ml" 87 4035 4048
+)
+"flashCjlTest.ml" 88 4257 4259 "flashCjlTest.ml" 88 4257 4283
+call(
+  stack
+)
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 87 4035 4037 "flashCjlTest.ml" 88 4257 4283
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 86 4014 4016 "flashCjlTest.ml" 88 4257 4283
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 85 3988 3990 "flashCjlTest.ml" 88 4257 4283
+type(
+  Loach.prop
+)
+"flashCjlTest.ml" 92 4387 4391 "flashCjlTest.ml" 92 4387 4401
+type(
+  Loach.prop list
+)
+ident(
+  def properties "flashCjlTest.ml" 93 4435 4435 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 92 4387 4407 "flashCjlTest.ml" 92 4387 4414
+type(
+  Loach.prop
+)
+ident(
+  int_ref n_test1 "flashCjlTest.ml" 72 3340 3344 "flashCjlTest.ml" 72 3340 3351
+)
+"flashCjlTest.ml" 92 4387 4416 "flashCjlTest.ml" 92 4387 4423
+type(
+  Loach.prop
+)
+ident(
+  int_ref n_test2 "flashCjlTest.ml" 78 3665 3669 "flashCjlTest.ml" 78 3665 3676
+)
+"flashCjlTest.ml" 92 4387 4424 "flashCjlTest.ml" 92 4387 4431
+type(
+  Loach.prop
+)
+ident(
+  int_ref n_test3 "flashCjlTest.ml" 84 3974 3978 "flashCjlTest.ml" 84 3974 3985
+)
+type(
+  Loach.prop list
+)
+"flashCjlTest.ml" 92 4387 4416 "flashCjlTest.ml" 92 4387 4431
+type(
+  Loach.prop list
+)
+"flashCjlTest.ml" 92 4387 4407 "flashCjlTest.ml" 92 4387 4431
+type(
+  Loach.prop list
+)
+"flashCjlTest.ml" 92 4387 4404 "flashCjlTest.ml" 92 4387 4432
+type(
+  Loach.prop list
+)
+"flashCjlTest.ml" 93 4435 4439 "flashCjlTest.ml" 93 4435 4443
+type(
+  unit -> unit
+)
+ident(
+  def prog "flashCjlTest.ml" 104 4916 4916 "flashCjlTest.ml" 1 0 -1
+)
+"flashCjlTest.ml" 93 4435 4444 "flashCjlTest.ml" 93 4435 4446
+type(
+  unit
+)
+"flashCjlTest.ml" 94 4449 4454 "flashCjlTest.ml" 94 4449 4463
+type(
+  string
+)
+ident(
+  def localhost "flashCjlTest.ml" 95 4482 4483 "flashCjlTest.ml" 102 4908 4912
+)
+"flashCjlTest.ml" 94 4449 4464 "flashCjlTest.ml" 94 4449 4478
+type(
+  string
+)
+"flashCjlTest.ml" 95 4482 4487 "flashCjlTest.ml" 95 4482 4488
+type(
+  unit
+)
+ident(
+  def a "flashCjlTest.ml" 101 4859 4861 "flashCjlTest.ml" 102 4908 4912
+)
+"flashCjlTest.ml" 95 4482 4489 "flashCjlTest.ml" 95 4482 4509
+type(
+  ?smv_escape:(string -> string) ->
+  ?smv:string ->
+  ?smv_ord:string ->
+  ?murphi:string -> string -> string -> string -> string -> unit
+)
+ident(
+  ext_ref CheckInv.CheckInv.startServer
+)
+"flashCjlTest.ml" 95 4482 4519 "flashCjlTest.ml" 95 4482 4538
+type(
+  string -> string
+)
+ident(
+  ext_ref Core.Std.In_channel.read_all
+)
+"flashCjlTest.ml" 95 4482 4539 "flashCjlTest.ml" 95 4482 4552
+type(
+  string
+)
+"flashCjlTest.ml" 95 4482 4519 "flashCjlTest.ml" 95 4482 4552
+call(
+  stack
+)
+type(
+  string
+)
+"flashCjlTest.ml" 96 4554 4564 "flashCjlTest.ml" 96 4554 4583
+type(
+  string -> string
+)
+ident(
+  ext_ref Core.Std.In_channel.read_all
+)
+"flashCjlTest.ml" 96 4554 4584 "flashCjlTest.ml" 96 4554 4602
+type(
+  string
+)
+"flashCjlTest.ml" 96 4554 4564 "flashCjlTest.ml" 96 4554 4602
+call(
+  stack
+)
+type(
+  string
+)
+"flashCjlTest.ml" 96 4554 4604 "flashCjlTest.ml" 96 4554 4617
+type(
+  string
+)
+"flashCjlTest.ml" 96 4554 4619 "flashCjlTest.ml" 96 4554 4637
+type(
+  string
+)
+"flashCjlTest.ml" 97 4639 4643 "flashCjlTest.ml" 97 4639 4657
+type(
+  string
+)
+"flashCjlTest.ml" 97 4639 4658 "flashCjlTest.ml" 97 4639 4672
+type(
+  string
+)
+"flashCjlTest.ml" 95 4482 4489 "flashCjlTest.ml" 97 4639 4672
+call(
+  stack
+)
+type(
+  unit
+)
+"flashCjlTest.ml" 101 4859 4865 "flashCjlTest.ml" 101 4859 4866
+type(
+  Loach.prop list
+)
+ident(
+  def b "flashCjlTest.ml" 102 4908 4910 "flashCjlTest.ml" 102 4908 4912
+)
+"flashCjlTest.ml" 101 4859 4867 "flashCjlTest.ml" 101 4859 4886
+type(
+  typedef list -> Loach.prop list -> Loach.prop list
+)
+ident(
+  ext_ref CheckInv.CheckInv.checkProps
+)
+"flashCjlTest.ml" 101 4859 4887 "flashCjlTest.ml" 101 4859 4892
+type(
+  typedef list
+)
+ident(
+  int_ref types "flashCjlTest.ml" 40 996 1000 "flashCjlTest.ml" 40 996 1005
+)
+"flashCjlTest.ml" 101 4859 4894 "flashCjlTest.ml" 101 4859 4904
+type(
+  Loach.prop list
+)
+ident(
+  int_ref properties "flashCjlTest.ml" 92 4387 4391 "flashCjlTest.ml" 92 4387 4401
+)
+"flashCjlTest.ml" 101 4859 4867 "flashCjlTest.ml" 101 4859 4904
+call(
+  stack
+)
+type(
+  Loach.prop list
+)
+"flashCjlTest.ml" 102 4908 4910 "flashCjlTest.ml" 102 4908 4912
+type(
+  unit
+)
+"flashCjlTest.ml" 101 4859 4861 "flashCjlTest.ml" 102 4908 4912
+type(
+  unit
+)
+"flashCjlTest.ml" 95 4482 4483 "flashCjlTest.ml" 102 4908 4912
+type(
+  unit
+)
+"flashCjlTest.ml" 94 4449 4450 "flashCjlTest.ml" 102 4908 4912
+type(
+  unit
+)
+"flashCjlTest.ml" 93 4435 4444 "flashCjlTest.ml" 102 4908 4912
+type(
+  unit -> unit
+)
+"flashCjlTest.ml" 104 4916 4920 "flashCjlTest.ml" 104 4916 4922
+type(
+  unit
+)
+"flashCjlTest.ml" 104 4916 4924 "flashCjlTest.ml" 104 4916 4940
+type(
+  (unit -> unit) -> unit
+)
+ident(
+  ext_ref Cmdline.run_with_cmdline
+)
+"flashCjlTest.ml" 104 4916 4942 "flashCjlTest.ml" 104 4916 4946
+type(
+  unit -> unit
+)
+ident(
+  int_ref prog "flashCjlTest.ml" 93 4435 4439 "flashCjlTest.ml" 93 4435 4443
+)
+"flashCjlTest.ml" 104 4916 4924 "flashCjlTest.ml" 104 4916 4946
+call(
+  stack
+)
+type(
+  unit
+)

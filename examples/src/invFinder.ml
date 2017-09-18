@@ -80,6 +80,8 @@ let protocol_name = ref ""
 let raw_rule_table = Hashtbl.create ~hashable:String.hashable ()
 let rule_table = Hashtbl.create ~hashable:String.hashable ()
 let rule_vars_table = Hashtbl.create ~hashable:String.hashable ()
+let symmetry_method_switch=ref false
+let symmetry_index_switch=ref true
 
 let get_rname_of_crname crname =
   Regex.rewrite_exn (Regex.of_string "\\[.+?\\]") ~template:"" crname
@@ -299,11 +301,17 @@ let minify_inv_desc inv =
   let rec wrapper necessary parts =
     match parts with
     | [] ->
-      if Smv.is_inv (ToStr.Smv.form_act (neg (andList necessary))) then
+    	let f=if (!symmetry_method_switch) then 
+    			    form2AllSymForm ~f:(neg (andList necessary)) ~types:(!type_defs)
+    			  else (neg (andList necessary)) in
+      if Smv.is_inv (ToStr.Smv.form_act f) then
         necessary
       else begin raise Empty_exception end
     | p::parts' ->
-      if Smv.is_inv (ToStr.Smv.form_act (neg (andList (necessary@parts')))) then
+    	let f=if (!symmetry_method_switch) then 
+    			    form2AllSymForm ~f:(neg (andList (necessary@parts'))) ~types:(!type_defs)
+    			  else (neg (andList (necessary@parts'))) in
+      if Smv.is_inv (ToStr.Smv.form_act f ) then
         wrapper necessary parts'
       else begin
         wrapper (p::necessary) parts'
@@ -340,7 +348,10 @@ let minify_inv_inc inv =
           print_endline (sprintf "Check by mu: %s, %b" form_str res); res
         in
         if List.is_empty over then
-          try Smv.is_inv (ToStr.Smv.form_act (neg piece)) && ((not !Cmdline.confirm_with_mu) || check_with_murphi piece) with
+        	let f=if (!symmetry_method_switch) then 
+    			    form2AllSymForm ~f:(neg piece) ~types:(!type_defs)
+    			  else (neg piece) in
+          try Smv.is_inv (ToStr.Smv.form_act f) && ((not !Cmdline.confirm_with_mu) || check_with_murphi piece) with
           | Client.Smv.Cannot_check -> check_with_murphi piece
           | _ -> raise Empty_exception
         else begin
@@ -378,12 +389,12 @@ module InvLib = struct
 
   let get_all_cinvs () = List.map (!pairs) ~f:(fun (_, cinv) -> cinv)
 
-  let any_can_be_implied_by inv =
+  let any_can_be_implied_by inv  ?(symIndex = true)=
     let rec wrapper invs =
       match invs with
       | [] -> None
       | (old, c_old)::invs' ->
-        let res = can_imply (neg old) (neg inv) in
+        let res = can_imply (neg old) (neg inv) ~symIndex:symIndex in
         match res with
         | None -> wrapper invs'
         | Some(f) ->
@@ -428,12 +439,15 @@ module Choose = struct
       try
         let inv = minify_inv_inc inv in
         (* Because invs are in form of negation, so inv -> old means neg old -> neg inv *)
-        let implied_by_old = InvLib.any_can_be_implied_by inv in
+        let implied_by_old = InvLib.any_can_be_implied_by inv ~symIndex:(!symmetry_index_switch) in
         match implied_by_old with
         | Some(old) -> implied old
         | None ->
           let normalized = normalize inv ~types:(!type_defs) in
-          if must_new || Smv.is_inv (ToStr.Smv.form_act (neg normalized)) then
+          let f=if (!symmetry_method_switch) then 
+    			    form2AllSymForm ~f:(neg normalized) ~types:(!type_defs)
+    			  else (neg normalized) in
+          if must_new || Smv.is_inv (ToStr.Smv.form_act f) then
             new_inv inv
           else begin
             not_inv
@@ -1038,7 +1052,7 @@ let result_to_str (cinvs, relations) =
     @return causal relation table
 *)
 let find ?(insym_types=[]) ?(smv_escape=(fun inv_str -> inv_str))
-    ?(smv="") ?(smv_ord="") ?(smv_bmc="") ?(murphi="") protocol =
+    ?(smv="") ?(smv_ord="") ?(smv_bmc="") ?(murphi="") ?(symMethod=false) ?(symIndex=true) protocol =
   let {name; types; vardefs; init; rules; properties} = Loach.Trans.act ~loach:protocol in
   let _smt_context = Smt.set_context name (ToStr.Smt2.context_of ~insym_types ~types ~vardefs) in
   let _mu_context = Murphi.set_context name murphi in
@@ -1049,6 +1063,8 @@ let find ?(insym_types=[]) ?(smv_escape=(fun inv_str -> inv_str))
   in*)
   type_defs := types;
   protocol_name := name;
+  symmetry_method_switch := symMethod;
+  symmetry_index_switch :=symIndex;
   cache_vars_of_rules rules;
   let init_cinvs =
     let invs =

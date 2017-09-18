@@ -1584,7 +1584,7 @@ type(
   const -> bool
 )
 ident(
-  def const_is_strc "src/toStr.ml" 106 2543 2545 "src/toStr.ml" 256 7322 7325
+  def const_is_strc "src/toStr.ml" 106 2543 2545 "src/toStr.ml" 259 7380 7383
 )
 "src/toStr.ml" 101 2444 2464 "src/toStr.ml" 101 2444 2465
 type(
@@ -1649,7 +1649,7 @@ type(
   const -> bool
 )
 ident(
-  def const_is_intc "src/toStr.ml" 111 2642 2644 "src/toStr.ml" 256 7322 7325
+  def const_is_intc "src/toStr.ml" 111 2642 2644 "src/toStr.ml" 259 7380 7383
 )
 "src/toStr.ml" 106 2543 2563 "src/toStr.ml" 106 2543 2564
 type(
@@ -1714,7 +1714,7 @@ type(
   const -> bool
 )
 ident(
-  def const_is_boolc "src/toStr.ml" 117 2802 2804 "src/toStr.ml" 256 7322 7325
+  def const_is_boolc "src/toStr.ml" 117 2802 2804 "src/toStr.ml" 259 7380 7383
 )
 "src/toStr.ml" 111 2642 2663 "src/toStr.ml" 111 2642 2664
 type(
@@ -1779,7 +1779,7 @@ type(
   typedef -> string
 )
 ident(
-  def type_act "src/toStr.ml" 131 3252 3254 "src/toStr.ml" 256 7322 7325
+  def type_act "src/toStr.ml" 131 3252 3254 "src/toStr.ml" 259 7380 7383
 )
 "src/toStr.ml" 117 2802 2817 "src/toStr.ml" 117 2802 2818
 type(
@@ -2038,7 +2038,7 @@ type(
   vardef -> types:typedef list -> string
 )
 ident(
-  def vardef_act "src/toStr.ml" 153 3980 3982 "src/toStr.ml" 256 7322 7325
+  def vardef_act "src/toStr.ml" 153 3980 3982 "src/toStr.ml" 259 7380 7383
 )
 "src/toStr.ml" 131 3252 3269 "src/toStr.ml" 131 3252 3271
 type(
@@ -2562,7 +2562,7 @@ type(
   const -> string
 )
 ident(
-  def const_act "src/toStr.ml" 160 4156 4158 "src/toStr.ml" 256 7322 7325
+  def const_act "src/toStr.ml" 160 4156 4158 "src/toStr.ml" 259 7380 7383
 )
 "src/toStr.ml" 153 3980 3996 "src/toStr.ml" 153 3980 3997
 type(
@@ -2673,7 +2673,7 @@ type(
   var -> string
 )
 ident(
-  def var_act "src/toStr.ml" 181 4753 4755 "src/toStr.ml" 256 7322 7325
+  def var_act "src/toStr.ml" 181 4753 4755 "src/toStr.ml" 259 7380 7383
 )
 "src/toStr.ml" 160 4156 4170 "src/toStr.ml" 160 4156 4171
 type(
@@ -3097,7 +3097,7 @@ type(
   exp -> string
 )
 ident(
-  def exp_act "src/toStr.ml" 181 4753 4755 "src/toStr.ml" 256 7322 7325
+  def exp_act "src/toStr.ml" 181 4753 4755 "src/toStr.ml" 259 7380 7383
 )
 "src/toStr.ml" 181 4753 4771 "src/toStr.ml" 181 4753 4774
 type(
@@ -3508,7 +3508,7 @@ type(
   formula -> string
 )
 ident(
-  def form_act "src/toStr.ml" 181 4753 4755 "src/toStr.ml" 256 7322 7325
+  def form_act "src/toStr.ml" 181 4753 4755 "src/toStr.ml" 259 7380 7383
 )
 "src/toStr.ml" 193 5218 5233 "src/toStr.ml" 193 5218 5237
 type(
@@ -4153,7 +4153,7 @@ type(
   vardef -> string list -> types:typedef list -> vardef list
 )
 ident(
-  def apply_vardef "src/toStr.ml" 239 6834 6836 "src/toStr.ml" 256 7322 7325
+  def apply_vardef "src/toStr.ml" 239 6834 6836 "src/toStr.ml" 259 7380 7383
 )
 "src/toStr.ml" 210 5893 5912 "src/toStr.ml" 210 5893 5918
 type(
@@ -4945,14 +4945,14 @@ type(
   types:typedef list -> vardefs:vardef list -> string
 )
 ident(
-  def context_of "src/toStr.ml" 253 7258 7260 "src/toStr.ml" 256 7322 7325
+  def context_of "src/toStr.ml" 256 7316 7318 "src/toStr.ml" 259 7380 7383
 )
 "src/toStr.ml" 240 6882 6890 "src/toStr.ml" 240 6882 6898
 type(
   string
 )
 ident(
-  def type_str "src/toStr.ml" 245 7022 7026 "src/toStr.ml" 251 7218 7256
+  def type_str "src/toStr.ml" 245 7022 7026 "src/toStr.ml" 252 7269 7307
 )
 "src/toStr.ml" 241 6901 6907 "src/toStr.ml" 241 6901 6915
 type(
@@ -4966,7 +4966,7 @@ type(
   typedef list
 )
 ident(
-  int_ref types "src/toStr.ml" 239 6834 6864 "src/toStr.ml" 251 7218 7256
+  int_ref types "src/toStr.ml" 239 6834 6864 "src/toStr.ml" 252 7269 7307
 )
 "src/toStr.ml" 241 6901 6925 "src/toStr.ml" 241 6901 6933
 type(
@@ -5091,7 +5091,7 @@ type(
   string
 )
 ident(
-  def vardef_str "src/toStr.ml" 251 7218 7222 "src/toStr.ml" 251 7218 7256
+  def vardef_str "src/toStr.ml" 252 7269 7273 "src/toStr.ml" 252 7269 7307
 )
 "src/toStr.ml" 246 7043 7049 "src/toStr.ml" 246 7043 7057
 type(
@@ -5105,7 +5105,7 @@ type(
   vardef list
 )
 ident(
-  int_ref vardefs "src/toStr.ml" 239 6834 6871 "src/toStr.ml" 251 7218 7256
+  int_ref vardefs "src/toStr.ml" 239 6834 6871 "src/toStr.ml" 252 7269 7307
 )
 "src/toStr.ml" 246 7043 7074 "src/toStr.ml" 246 7043 7076
 type(
@@ -5133,14 +5133,14 @@ type(
   string list
 )
 ident(
-  int_ref insym_types "src/toStr.ml" 239 6834 6851 "src/toStr.ml" 251 7218 7256
+  int_ref insym_types "src/toStr.ml" 239 6834 6851 "src/toStr.ml" 252 7269 7307
 )
 "src/toStr.ml" 246 7043 7108 "src/toStr.ml" 246 7043 7114
 type(
   typedef list
 )
 ident(
-  int_ref types "src/toStr.ml" 239 6834 6864 "src/toStr.ml" 251 7218 7256
+  int_ref types "src/toStr.ml" 239 6834 6864 "src/toStr.ml" 252 7269 7307
 )
 "src/toStr.ml" 246 7043 7080 "src/toStr.ml" 246 7043 7114
 call(
@@ -5207,7 +5207,7 @@ type(
   typedef list
 )
 ident(
-  int_ref types "src/toStr.ml" 239 6834 6864 "src/toStr.ml" 251 7218 7256
+  int_ref types "src/toStr.ml" 239 6834 6864 "src/toStr.ml" 252 7269 7307
 )
 "src/toStr.ml" 248 7137 7159 "src/toStr.ml" 248 7137 7176
 call(
@@ -5262,7 +5262,7 @@ call(
 type(
   string
 )
-"src/toStr.ml" 251 7218 7222 "src/toStr.ml" 251 7218 7229
+"src/toStr.ml" 252 7269 7273 "src/toStr.ml" 252 7269 7280
 type(
   (string -> string -> string, unit, string) format ->
   string -> string -> string
@@ -5270,40 +5270,40 @@ type(
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 251 7218 7230 "src/toStr.ml" 251 7218 7236
+"src/toStr.ml" 252 7269 7281 "src/toStr.ml" 252 7269 7287
 type(
   (string -> string -> string, unit, string) format
 )
-"src/toStr.ml" 251 7218 7237 "src/toStr.ml" 251 7218 7245
+"src/toStr.ml" 252 7269 7288 "src/toStr.ml" 252 7269 7296
 type(
   string
 )
 ident(
   int_ref type_str "src/toStr.ml" 240 6882 6890 "src/toStr.ml" 240 6882 6898
 )
-"src/toStr.ml" 251 7218 7246 "src/toStr.ml" 251 7218 7256
+"src/toStr.ml" 252 7269 7297 "src/toStr.ml" 252 7269 7307
 type(
   string
 )
 ident(
   int_ref vardef_str "src/toStr.ml" 245 7022 7030 "src/toStr.ml" 245 7022 7040
 )
-"src/toStr.ml" 251 7218 7222 "src/toStr.ml" 251 7218 7256
+"src/toStr.ml" 252 7269 7273 "src/toStr.ml" 252 7269 7307
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 245 7022 7026 "src/toStr.ml" 251 7218 7256
+"src/toStr.ml" 245 7022 7026 "src/toStr.ml" 252 7269 7307
 type(
   string
 )
-"src/toStr.ml" 240 6882 6886 "src/toStr.ml" 251 7218 7256
+"src/toStr.ml" 240 6882 6886 "src/toStr.ml" 252 7269 7307
 type(
   string
 )
-"src/toStr.ml" 239 6834 6871 "src/toStr.ml" 251 7218 7256
+"src/toStr.ml" 239 6834 6871 "src/toStr.ml" 252 7269 7307
 type(
   vardefs:vardef list -> string
 )
@@ -5311,9 +5311,9 @@ type(
   vardef list
 )
 ident(
-  def vardefs "src/toStr.ml" 240 6882 6886 "src/toStr.ml" 251 7218 7256
+  def vardefs "src/toStr.ml" 240 6882 6886 "src/toStr.ml" 252 7269 7307
 )
-"src/toStr.ml" 239 6834 6864 "src/toStr.ml" 251 7218 7256
+"src/toStr.ml" 239 6834 6864 "src/toStr.ml" 252 7269 7307
 type(
   types:typedef list -> vardefs:vardef list -> string
 )
@@ -5321,9 +5321,9 @@ type(
   typedef list
 )
 ident(
-  def types "src/toStr.ml" 239 6834 6871 "src/toStr.ml" 251 7218 7256
+  def types "src/toStr.ml" 239 6834 6871 "src/toStr.ml" 252 7269 7307
 )
-"src/toStr.ml" 239 6834 6851 "src/toStr.ml" 251 7218 7256
+"src/toStr.ml" 239 6834 6851 "src/toStr.ml" 252 7269 7307
 type(
   insym_types:string list ->
   types:typedef list -> vardefs:vardef list -> string
@@ -5332,159 +5332,159 @@ type(
   string list
 )
 ident(
-  def insym_types "src/toStr.ml" 239 6834 6864 "src/toStr.ml" 251 7218 7256
+  def insym_types "src/toStr.ml" 239 6834 6864 "src/toStr.ml" 252 7269 7307
 )
-"src/toStr.ml" 253 7258 7264 "src/toStr.ml" 253 7258 7271
+"src/toStr.ml" 256 7316 7322 "src/toStr.ml" 256 7316 7329
 type(
   formula -> string
 )
 ident(
-  def form_of "src/toStr.ml" 254 7279 7320 "src/toStr.ml" 256 7322 7325
+  def form_of "src/toStr.ml" 257 7337 7378 "src/toStr.ml" 259 7380 7383
 )
-"src/toStr.ml" 253 7258 7272 "src/toStr.ml" 253 7258 7276
+"src/toStr.ml" 256 7316 7330 "src/toStr.ml" 256 7316 7334
 type(
   formula
 )
 ident(
-  def form "src/toStr.ml" 254 7279 7283 "src/toStr.ml" 254 7279 7320
+  def form "src/toStr.ml" 257 7337 7341 "src/toStr.ml" 257 7337 7378
 )
-"src/toStr.ml" 254 7279 7283 "src/toStr.ml" 254 7279 7290
+"src/toStr.ml" 257 7337 7341 "src/toStr.ml" 257 7337 7348
 type(
   (string -> string, unit, string) format -> string -> string
 )
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 254 7279 7291 "src/toStr.ml" 254 7279 7304
+"src/toStr.ml" 257 7337 7349 "src/toStr.ml" 257 7337 7362
 type(
   (string -> string, unit, string) format
 )
-"src/toStr.ml" 254 7279 7306 "src/toStr.ml" 254 7279 7314
+"src/toStr.ml" 257 7337 7364 "src/toStr.ml" 257 7337 7372
 type(
   formula -> string
 )
 ident(
   int_ref form_act "src/toStr.ml" 193 5218 5224 "src/toStr.ml" 193 5218 5232
 )
-"src/toStr.ml" 254 7279 7315 "src/toStr.ml" 254 7279 7319
+"src/toStr.ml" 257 7337 7373 "src/toStr.ml" 257 7337 7377
 type(
   formula
 )
 ident(
-  int_ref form "src/toStr.ml" 253 7258 7272 "src/toStr.ml" 253 7258 7276
+  int_ref form "src/toStr.ml" 256 7316 7330 "src/toStr.ml" 256 7316 7334
 )
-"src/toStr.ml" 254 7279 7306 "src/toStr.ml" 254 7279 7319
+"src/toStr.ml" 257 7337 7364 "src/toStr.ml" 257 7337 7377
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 254 7279 7283 "src/toStr.ml" 254 7279 7320
+"src/toStr.ml" 257 7337 7341 "src/toStr.ml" 257 7337 7378
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 253 7258 7272 "src/toStr.ml" 254 7279 7320
+"src/toStr.ml" 256 7316 7330 "src/toStr.ml" 257 7337 7378
 type(
   formula -> string
 )
-"src/toStr.ml" 270 7477 7483 "src/toStr.ml" 270 7477 7496
+"src/toStr.ml" 273 7535 7541 "src/toStr.ml" 273 7535 7554
 type(
   bool ref
 )
 ident(
-  def strc_to_lower "src/toStr.ml" 273 7548 7550 "src/toStr.ml" 431 13441 13444
+  def strc_to_lower "src/toStr.ml" 276 7606 7608 "src/toStr.ml" 434 13499 13502
 )
-"src/toStr.ml" 270 7477 7499 "src/toStr.ml" 270 7477 7502
+"src/toStr.ml" 273 7535 7557 "src/toStr.ml" 273 7535 7560
 type(
   bool -> bool ref
 )
 ident(
   ext_ref Pervasives.ref
 )
-"src/toStr.ml" 270 7477 7503 "src/toStr.ml" 270 7477 7507
+"src/toStr.ml" 273 7535 7561 "src/toStr.ml" 273 7535 7565
 type(
   bool
 )
-"src/toStr.ml" 270 7477 7499 "src/toStr.ml" 270 7477 7507
+"src/toStr.ml" 273 7535 7557 "src/toStr.ml" 273 7535 7565
 type(
   bool ref
 )
-"src/toStr.ml" 273 7548 7554 "src/toStr.ml" 273 7548 7563
+"src/toStr.ml" 276 7606 7612 "src/toStr.ml" 276 7606 7621
 type(
   const -> string
 )
 ident(
-  def const_act "src/toStr.ml" 279 7751 7753 "src/toStr.ml" 431 13441 13444
+  def const_act "src/toStr.ml" 282 7809 7811 "src/toStr.ml" 434 13499 13502
 )
-"src/toStr.ml" 273 7548 7564 "src/toStr.ml" 273 7548 7565
+"src/toStr.ml" 276 7606 7622 "src/toStr.ml" 276 7606 7623
 type(
   const
 )
 ident(
-  def c "src/toStr.ml" 274 7568 7572 "src/toStr.ml" 277 7696 7749
+  def c "src/toStr.ml" 277 7626 7630 "src/toStr.ml" 280 7754 7807
 )
-"src/toStr.ml" 274 7568 7578 "src/toStr.ml" 274 7568 7579
+"src/toStr.ml" 277 7626 7636 "src/toStr.ml" 277 7626 7637
 type(
   const
 )
 ident(
-  int_ref c "src/toStr.ml" 273 7548 7564 "src/toStr.ml" 273 7548 7565
+  int_ref c "src/toStr.ml" 276 7606 7622 "src/toStr.ml" 276 7606 7623
 )
-"src/toStr.ml" 275 7585 7596 "src/toStr.ml" 275 7585 7597
+"src/toStr.ml" 278 7643 7654 "src/toStr.ml" 278 7643 7655
 type(
   int
 )
 ident(
-  def i "src/toStr.ml" 275 7585 7602 "src/toStr.ml" 275 7585 7617
+  def i "src/toStr.ml" 278 7643 7660 "src/toStr.ml" 278 7643 7675
 )
-"src/toStr.ml" 275 7585 7591 "src/toStr.ml" 275 7585 7598
+"src/toStr.ml" 278 7643 7649 "src/toStr.ml" 278 7643 7656
 type(
   const
 )
-"src/toStr.ml" 275 7585 7602 "src/toStr.ml" 275 7585 7615
+"src/toStr.ml" 278 7643 7660 "src/toStr.ml" 278 7643 7673
 type(
   int -> string
 )
 ident(
   ext_ref Core.Std.Int.to_string
 )
-"src/toStr.ml" 275 7585 7616 "src/toStr.ml" 275 7585 7617
+"src/toStr.ml" 278 7643 7674 "src/toStr.ml" 278 7643 7675
 type(
   int
 )
 ident(
-  int_ref i "src/toStr.ml" 275 7585 7596 "src/toStr.ml" 275 7585 7597
+  int_ref i "src/toStr.ml" 278 7643 7654 "src/toStr.ml" 278 7643 7655
 )
-"src/toStr.ml" 275 7585 7602 "src/toStr.ml" 275 7585 7617
+"src/toStr.ml" 278 7643 7660 "src/toStr.ml" 278 7643 7675
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 276 7618 7629 "src/toStr.ml" 276 7618 7630
+"src/toStr.ml" 279 7676 7687 "src/toStr.ml" 279 7676 7688
 type(
   string
 )
 ident(
-  def s "src/toStr.ml" 276 7618 7635 "src/toStr.ml" 276 7618 7695
+  def s "src/toStr.ml" 279 7676 7693 "src/toStr.ml" 279 7676 7753
 )
-"src/toStr.ml" 276 7618 7624 "src/toStr.ml" 276 7618 7631
+"src/toStr.ml" 279 7676 7682 "src/toStr.ml" 279 7676 7689
 type(
   const
 )
-"src/toStr.ml" 276 7618 7640 "src/toStr.ml" 276 7618 7653
+"src/toStr.ml" 279 7676 7698 "src/toStr.ml" 279 7676 7711
 type(
   bool ref
 )
 ident(
-  int_ref strc_to_lower "src/toStr.ml" 270 7477 7483 "src/toStr.ml" 270 7477 7496
+  int_ref strc_to_lower "src/toStr.ml" 273 7535 7541 "src/toStr.ml" 273 7535 7554
 )
-"src/toStr.ml" 276 7618 7639 "src/toStr.ml" 276 7618 7653
+"src/toStr.ml" 279 7676 7697 "src/toStr.ml" 279 7676 7711
 type(
   bool
 )
@@ -5494,354 +5494,354 @@ type(
 ident(
   ext_ref Pervasives.( ! )
 )
-"src/toStr.ml" 276 7618 7660 "src/toStr.ml" 276 7618 7676
+"src/toStr.ml" 279 7676 7718 "src/toStr.ml" 279 7676 7734
 type(
   string -> string
 )
 ident(
   ext_ref Core.Std.String.lowercase
 )
-"src/toStr.ml" 276 7618 7677 "src/toStr.ml" 276 7618 7678
+"src/toStr.ml" 279 7676 7735 "src/toStr.ml" 279 7676 7736
 type(
   string
 )
 ident(
-  int_ref s "src/toStr.ml" 276 7618 7629 "src/toStr.ml" 276 7618 7630
+  int_ref s "src/toStr.ml" 279 7676 7687 "src/toStr.ml" 279 7676 7688
 )
-"src/toStr.ml" 276 7618 7660 "src/toStr.ml" 276 7618 7678
+"src/toStr.ml" 279 7676 7718 "src/toStr.ml" 279 7676 7736
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 276 7618 7690 "src/toStr.ml" 276 7618 7691
+"src/toStr.ml" 279 7676 7748 "src/toStr.ml" 279 7676 7749
 type(
   string
 )
 ident(
-  int_ref s "src/toStr.ml" 276 7618 7629 "src/toStr.ml" 276 7618 7630
+  int_ref s "src/toStr.ml" 279 7676 7687 "src/toStr.ml" 279 7676 7688
 )
-"src/toStr.ml" 276 7618 7635 "src/toStr.ml" 276 7618 7695
+"src/toStr.ml" 279 7676 7693 "src/toStr.ml" 279 7676 7753
 type(
   string
 )
-"src/toStr.ml" 277 7696 7708 "src/toStr.ml" 277 7696 7709
+"src/toStr.ml" 280 7754 7766 "src/toStr.ml" 280 7754 7767
 type(
   bool
 )
 ident(
-  def b "src/toStr.ml" 277 7696 7714 "src/toStr.ml" 277 7696 7749
+  def b "src/toStr.ml" 280 7754 7772 "src/toStr.ml" 280 7754 7807
 )
-"src/toStr.ml" 277 7696 7702 "src/toStr.ml" 277 7696 7710
+"src/toStr.ml" 280 7754 7760 "src/toStr.ml" 280 7754 7768
 type(
   const
 )
-"src/toStr.ml" 277 7696 7714 "src/toStr.ml" 277 7696 7730
+"src/toStr.ml" 280 7754 7772 "src/toStr.ml" 280 7754 7788
 type(
   string -> string
 )
 ident(
   ext_ref Core.Std.String.uppercase
 )
-"src/toStr.ml" 277 7696 7732 "src/toStr.ml" 277 7696 7746
+"src/toStr.ml" 280 7754 7790 "src/toStr.ml" 280 7754 7804
 type(
   bool -> string
 )
 ident(
   ext_ref Core.Std.Bool.to_string
 )
-"src/toStr.ml" 277 7696 7747 "src/toStr.ml" 277 7696 7748
+"src/toStr.ml" 280 7754 7805 "src/toStr.ml" 280 7754 7806
 type(
   bool
 )
 ident(
-  int_ref b "src/toStr.ml" 277 7696 7708 "src/toStr.ml" 277 7696 7709
+  int_ref b "src/toStr.ml" 280 7754 7766 "src/toStr.ml" 280 7754 7767
 )
-"src/toStr.ml" 277 7696 7732 "src/toStr.ml" 277 7696 7748
+"src/toStr.ml" 280 7754 7790 "src/toStr.ml" 280 7754 7806
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 277 7696 7714 "src/toStr.ml" 277 7696 7749
+"src/toStr.ml" 280 7754 7772 "src/toStr.ml" 280 7754 7807
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 274 7568 7572 "src/toStr.ml" 277 7696 7749
+"src/toStr.ml" 277 7626 7630 "src/toStr.ml" 280 7754 7807
 type(
   string
 )
-"src/toStr.ml" 273 7548 7564 "src/toStr.ml" 277 7696 7749
+"src/toStr.ml" 276 7606 7622 "src/toStr.ml" 280 7754 7807
 type(
   const -> string
 )
-"src/toStr.ml" 279 7751 7757 "src/toStr.ml" 279 7751 7765
+"src/toStr.ml" 282 7809 7815 "src/toStr.ml" 282 7809 7823
 type(
   types:typedef list -> string -> string
 )
 ident(
-  def type_act "src/toStr.ml" 289 8108 8110 "src/toStr.ml" 431 13441 13444
+  def type_act "src/toStr.ml" 292 8166 8168 "src/toStr.ml" 434 13499 13502
 )
-"src/toStr.ml" 279 7751 7773 "src/toStr.ml" 279 7751 7777
+"src/toStr.ml" 282 7809 7831 "src/toStr.ml" 282 7809 7835
 type(
   string
 )
 ident(
-  def name "src/toStr.ml" 280 7780 7784 "src/toStr.ml" 286 8023 8062
+  def name "src/toStr.ml" 283 7838 7842 "src/toStr.ml" 289 8081 8120
 )
-"src/toStr.ml" 280 7780 7793 "src/toStr.ml" 280 7780 7794
+"src/toStr.ml" 283 7838 7851 "src/toStr.ml" 283 7838 7852
 type(
   string
 )
-"src/toStr.ml" 280 7780 7796 "src/toStr.ml" 280 7780 7802
+"src/toStr.ml" 283 7838 7854 "src/toStr.ml" 283 7838 7860
 type(
   const list
 )
 ident(
-  def consts "src/toStr.ml" 281 7863 7867 "src/toStr.ml" 286 8023 8062
+  def consts "src/toStr.ml" 284 7921 7925 "src/toStr.ml" 289 8081 8120
 )
-"src/toStr.ml" 280 7780 7788 "src/toStr.ml" 280 7780 7803
+"src/toStr.ml" 283 7838 7846 "src/toStr.ml" 283 7838 7861
 type(
   typedef
 )
-"src/toStr.ml" 280 7780 7806 "src/toStr.ml" 280 7780 7819
+"src/toStr.ml" 283 7838 7864 "src/toStr.ml" 283 7838 7877
 type(
   typedef list -> f:(typedef -> bool) -> typedef
 )
 ident(
   ext_ref Core.Std.List.find_exn
 )
-"src/toStr.ml" 280 7780 7820 "src/toStr.ml" 280 7780 7825
+"src/toStr.ml" 283 7838 7878 "src/toStr.ml" 283 7838 7883
 type(
   typedef list
 )
 ident(
-  int_ref types "src/toStr.ml" 279 7751 7766 "src/toStr.ml" 286 8023 8062
+  int_ref types "src/toStr.ml" 282 7809 7824 "src/toStr.ml" 289 8081 8120
 )
-"src/toStr.ml" 280 7780 7840 "src/toStr.ml" 280 7780 7841
+"src/toStr.ml" 283 7838 7898 "src/toStr.ml" 283 7838 7899
 type(
   string
 )
 ident(
-  def n "src/toStr.ml" 280 7780 7850 "src/toStr.ml" 280 7780 7858
+  def n "src/toStr.ml" 283 7838 7908 "src/toStr.ml" 283 7838 7916
 )
-"src/toStr.ml" 280 7780 7843 "src/toStr.ml" 280 7780 7844
+"src/toStr.ml" 283 7838 7901 "src/toStr.ml" 283 7838 7902
 type(
   const list
 )
-"src/toStr.ml" 280 7780 7835 "src/toStr.ml" 280 7780 7845
+"src/toStr.ml" 283 7838 7893 "src/toStr.ml" 283 7838 7903
 type(
   typedef
 )
-"src/toStr.ml" 280 7780 7850 "src/toStr.ml" 280 7780 7851
+"src/toStr.ml" 283 7838 7908 "src/toStr.ml" 283 7838 7909
 type(
   string
 )
 ident(
-  int_ref n "src/toStr.ml" 280 7780 7840 "src/toStr.ml" 280 7780 7841
+  int_ref n "src/toStr.ml" 283 7838 7898 "src/toStr.ml" 283 7838 7899
 )
-"src/toStr.ml" 280 7780 7852 "src/toStr.ml" 280 7780 7853
+"src/toStr.ml" 283 7838 7910 "src/toStr.ml" 283 7838 7911
 type(
   string -> string -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"src/toStr.ml" 280 7780 7854 "src/toStr.ml" 280 7780 7858
+"src/toStr.ml" 283 7838 7912 "src/toStr.ml" 283 7838 7916
 type(
   string
 )
 ident(
-  int_ref name "src/toStr.ml" 279 7751 7773 "src/toStr.ml" 279 7751 7777
+  int_ref name "src/toStr.ml" 282 7809 7831 "src/toStr.ml" 282 7809 7835
 )
-"src/toStr.ml" 280 7780 7850 "src/toStr.ml" 280 7780 7858
+"src/toStr.ml" 283 7838 7908 "src/toStr.ml" 283 7838 7916
 type(
   bool
 )
-"src/toStr.ml" 280 7780 7834 "src/toStr.ml" 280 7780 7858
+"src/toStr.ml" 283 7838 7892 "src/toStr.ml" 283 7838 7916
 type(
   typedef -> bool
 )
-"src/toStr.ml" 280 7780 7806 "src/toStr.ml" 280 7780 7859
+"src/toStr.ml" 283 7838 7864 "src/toStr.ml" 283 7838 7917
 call(
   stack
 )
 type(
   typedef
 )
-"src/toStr.ml" 281 7863 7871 "src/toStr.ml" 281 7863 7876
+"src/toStr.ml" 284 7921 7929 "src/toStr.ml" 284 7921 7934
 type(
   string
 )
 ident(
-  def range "src/toStr.ml" 285 7954 7958 "src/toStr.ml" 286 8023 8062
+  def range "src/toStr.ml" 288 8012 8016 "src/toStr.ml" 289 8081 8120
 )
-"src/toStr.ml" 282 7879 7885 "src/toStr.ml" 282 7879 7893
+"src/toStr.ml" 285 7937 7943 "src/toStr.ml" 285 7937 7951
 type(
   const list -> f:(const -> string) -> string list
 )
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 282 7879 7894 "src/toStr.ml" 282 7879 7900
+"src/toStr.ml" 285 7937 7952 "src/toStr.ml" 285 7937 7958
 type(
   const list
 )
 ident(
-  int_ref consts "src/toStr.ml" 280 7780 7796 "src/toStr.ml" 280 7780 7802
+  int_ref consts "src/toStr.ml" 283 7838 7854 "src/toStr.ml" 283 7838 7860
 )
-"src/toStr.ml" 282 7879 7904 "src/toStr.ml" 282 7879 7913
+"src/toStr.ml" 285 7937 7962 "src/toStr.ml" 285 7937 7971
 type(
   const -> string
 )
 ident(
-  int_ref const_act "src/toStr.ml" 273 7548 7554 "src/toStr.ml" 273 7548 7563
+  int_ref const_act "src/toStr.ml" 276 7606 7612 "src/toStr.ml" 276 7606 7621
 )
-"src/toStr.ml" 282 7879 7885 "src/toStr.ml" 282 7879 7913
+"src/toStr.ml" 285 7937 7943 "src/toStr.ml" 285 7937 7971
 call(
   stack
 )
 type(
   string list
 )
-"src/toStr.ml" 283 7914 7920 "src/toStr.ml" 283 7914 7922
+"src/toStr.ml" 286 7972 7978 "src/toStr.ml" 286 7972 7980
 type(
   string list -> (string list -> string) -> string
 )
 ident(
   ext_ref Core.Std.( |> )
 )
-"src/toStr.ml" 283 7914 7923 "src/toStr.ml" 283 7914 7936
+"src/toStr.ml" 286 7972 7981 "src/toStr.ml" 286 7972 7994
 type(
   ?sep:string -> string list -> string
 )
 ident(
   ext_ref Core.Std.String.concat
 )
-"src/toStr.ml" 283 7914 7942 "src/toStr.ml" 283 7914 7946
+"src/toStr.ml" 286 7972 8000 "src/toStr.ml" 286 7972 8004
 type(
   string
 )
-"src/toStr.ml" 283 7914 7923 "src/toStr.ml" 283 7914 7946
+"src/toStr.ml" 286 7972 7981 "src/toStr.ml" 286 7972 8004
 call(
   stack
 )
 type(
   string list -> string
 )
-"src/toStr.ml" 282 7879 7885 "src/toStr.ml" 283 7914 7946
+"src/toStr.ml" 285 7937 7943 "src/toStr.ml" 286 7972 8004
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 285 7954 7961 "src/toStr.ml" 285 7954 7966
+"src/toStr.ml" 288 8012 8019 "src/toStr.ml" 288 8012 8024
 type(
   string
 )
 ident(
-  int_ref range "src/toStr.ml" 281 7863 7871 "src/toStr.ml" 281 7863 7876
+  int_ref range "src/toStr.ml" 284 7921 7929 "src/toStr.ml" 284 7921 7934
 )
-"src/toStr.ml" 285 7954 7967 "src/toStr.ml" 285 7954 7968
+"src/toStr.ml" 288 8012 8025 "src/toStr.ml" 288 8012 8026
 type(
   string -> string -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"src/toStr.ml" 285 7954 7969 "src/toStr.ml" 285 7954 7982
+"src/toStr.ml" 288 8012 8027 "src/toStr.ml" 288 8012 8040
 type(
   string
 )
-"src/toStr.ml" 285 7954 7961 "src/toStr.ml" 285 7954 7982
+"src/toStr.ml" 288 8012 8019 "src/toStr.ml" 288 8012 8040
 type(
   bool
 )
-"src/toStr.ml" 285 7954 7983 "src/toStr.ml" 285 7954 7985
+"src/toStr.ml" 288 8012 8041 "src/toStr.ml" 288 8012 8043
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( || )
 )
-"src/toStr.ml" 285 7954 7986 "src/toStr.ml" 285 7954 7991
+"src/toStr.ml" 288 8012 8044 "src/toStr.ml" 288 8012 8049
 type(
   string
 )
 ident(
-  int_ref range "src/toStr.ml" 281 7863 7871 "src/toStr.ml" 281 7863 7876
+  int_ref range "src/toStr.ml" 284 7921 7929 "src/toStr.ml" 284 7921 7934
 )
-"src/toStr.ml" 285 7954 7992 "src/toStr.ml" 285 7954 7993
+"src/toStr.ml" 288 8012 8050 "src/toStr.ml" 288 8012 8051
 type(
   string -> string -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"src/toStr.ml" 285 7954 7994 "src/toStr.ml" 285 7954 8007
+"src/toStr.ml" 288 8012 8052 "src/toStr.ml" 288 8012 8065
 type(
   string
 )
-"src/toStr.ml" 285 7954 7986 "src/toStr.ml" 285 7954 8007
+"src/toStr.ml" 288 8012 8044 "src/toStr.ml" 288 8012 8065
 type(
   bool
 )
-"src/toStr.ml" 285 7954 7961 "src/toStr.ml" 285 7954 8007
+"src/toStr.ml" 288 8012 8019 "src/toStr.ml" 288 8012 8065
 type(
   bool
 )
-"src/toStr.ml" 285 7954 8013 "src/toStr.ml" 285 7954 8022
+"src/toStr.ml" 288 8012 8071 "src/toStr.ml" 288 8012 8080
 type(
   string
 )
-"src/toStr.ml" 286 8023 8038 "src/toStr.ml" 286 8023 8045
+"src/toStr.ml" 289 8081 8096 "src/toStr.ml" 289 8081 8103
 type(
   (string -> string, unit, string) format -> string -> string
 )
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 286 8023 8046 "src/toStr.ml" 286 8023 8052
+"src/toStr.ml" 289 8081 8104 "src/toStr.ml" 289 8081 8110
 type(
   (string -> string, unit, string) format
 )
-"src/toStr.ml" 286 8023 8053 "src/toStr.ml" 286 8023 8058
+"src/toStr.ml" 289 8081 8111 "src/toStr.ml" 289 8081 8116
 type(
   string
 )
 ident(
-  int_ref range "src/toStr.ml" 281 7863 7871 "src/toStr.ml" 281 7863 7876
+  int_ref range "src/toStr.ml" 284 7921 7929 "src/toStr.ml" 284 7921 7934
 )
-"src/toStr.ml" 286 8023 8038 "src/toStr.ml" 286 8023 8058
+"src/toStr.ml" 289 8081 8096 "src/toStr.ml" 289 8081 8116
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 285 7954 7958 "src/toStr.ml" 286 8023 8062
+"src/toStr.ml" 288 8012 8016 "src/toStr.ml" 289 8081 8120
 type(
   string
 )
-"src/toStr.ml" 281 7863 7867 "src/toStr.ml" 286 8023 8062
+"src/toStr.ml" 284 7921 7925 "src/toStr.ml" 289 8081 8120
 type(
   string
 )
-"src/toStr.ml" 280 7780 7784 "src/toStr.ml" 286 8023 8062
+"src/toStr.ml" 283 7838 7842 "src/toStr.ml" 289 8081 8120
 type(
   string
 )
-"src/toStr.ml" 279 7751 7773 "src/toStr.ml" 286 8023 8062
+"src/toStr.ml" 282 7809 7831 "src/toStr.ml" 289 8081 8120
 type(
   string -> string
 )
-"src/toStr.ml" 279 7751 7766 "src/toStr.ml" 286 8023 8062
+"src/toStr.ml" 282 7809 7824 "src/toStr.ml" 289 8081 8120
 type(
   types:typedef list -> string -> string
 )
@@ -5849,246 +5849,246 @@ type(
   typedef list
 )
 ident(
-  def types "src/toStr.ml" 279 7751 7773 "src/toStr.ml" 286 8023 8062
+  def types "src/toStr.ml" 282 7809 7831 "src/toStr.ml" 289 8081 8120
 )
-"src/toStr.ml" 289 8108 8114 "src/toStr.ml" 289 8108 8126
+"src/toStr.ml" 292 8166 8172 "src/toStr.ml" 292 8166 8184
 type(
   paramref -> string
 )
 ident(
-  def paramref_act "src/toStr.ml" 294 8298 8300 "src/toStr.ml" 431 13441 13444
+  def paramref_act "src/toStr.ml" 297 8356 8358 "src/toStr.ml" 434 13499 13502
 )
-"src/toStr.ml" 289 8108 8127 "src/toStr.ml" 289 8108 8129
+"src/toStr.ml" 292 8166 8185 "src/toStr.ml" 292 8166 8187
 type(
   paramref
 )
 ident(
-  def pr "src/toStr.ml" 290 8132 8136 "src/toStr.ml" 292 8206 8296
+  def pr "src/toStr.ml" 293 8190 8194 "src/toStr.ml" 295 8264 8354
 )
-"src/toStr.ml" 290 8132 8142 "src/toStr.ml" 290 8132 8144
+"src/toStr.ml" 293 8190 8200 "src/toStr.ml" 293 8190 8202
 type(
   paramref
 )
 ident(
-  int_ref pr "src/toStr.ml" 289 8108 8127 "src/toStr.ml" 289 8108 8129
+  int_ref pr "src/toStr.ml" 292 8166 8185 "src/toStr.ml" 292 8166 8187
 )
-"src/toStr.ml" 291 8150 8165 "src/toStr.ml" 291 8150 8166
+"src/toStr.ml" 294 8208 8223 "src/toStr.ml" 294 8208 8224
 type(
   string
 )
-"src/toStr.ml" 291 8150 8168 "src/toStr.ml" 291 8150 8169
+"src/toStr.ml" 294 8208 8226 "src/toStr.ml" 294 8208 8227
 type(
   string
 )
-"src/toStr.ml" 291 8150 8171 "src/toStr.ml" 291 8150 8172
+"src/toStr.ml" 294 8208 8229 "src/toStr.ml" 294 8208 8230
 type(
   const
 )
 ident(
-  def c "src/toStr.ml" 291 8150 8177 "src/toStr.ml" 291 8150 8205
+  def c "src/toStr.ml" 294 8208 8235 "src/toStr.ml" 294 8208 8263
 )
-"src/toStr.ml" 291 8150 8156 "src/toStr.ml" 291 8150 8173
+"src/toStr.ml" 294 8208 8214 "src/toStr.ml" 294 8208 8231
 type(
   paramref
 )
-"src/toStr.ml" 291 8150 8177 "src/toStr.ml" 291 8150 8184
+"src/toStr.ml" 294 8208 8235 "src/toStr.ml" 294 8208 8242
 type(
   (string -> string, unit, string) format -> string -> string
 )
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 291 8150 8185 "src/toStr.ml" 291 8150 8191
+"src/toStr.ml" 294 8208 8243 "src/toStr.ml" 294 8208 8249
 type(
   (string -> string, unit, string) format
 )
-"src/toStr.ml" 291 8150 8193 "src/toStr.ml" 291 8150 8202
+"src/toStr.ml" 294 8208 8251 "src/toStr.ml" 294 8208 8260
 type(
   const -> string
 )
 ident(
-  int_ref const_act "src/toStr.ml" 273 7548 7554 "src/toStr.ml" 273 7548 7563
+  int_ref const_act "src/toStr.ml" 276 7606 7612 "src/toStr.ml" 276 7606 7621
 )
-"src/toStr.ml" 291 8150 8203 "src/toStr.ml" 291 8150 8204
+"src/toStr.ml" 294 8208 8261 "src/toStr.ml" 294 8208 8262
 type(
   const
 )
 ident(
-  int_ref c "src/toStr.ml" 291 8150 8171 "src/toStr.ml" 291 8150 8172
+  int_ref c "src/toStr.ml" 294 8208 8229 "src/toStr.ml" 294 8208 8230
 )
-"src/toStr.ml" 291 8150 8193 "src/toStr.ml" 291 8150 8204
+"src/toStr.ml" 294 8208 8251 "src/toStr.ml" 294 8208 8262
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 291 8150 8177 "src/toStr.ml" 291 8150 8205
+"src/toStr.ml" 294 8208 8235 "src/toStr.ml" 294 8208 8263
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 292 8206 8221 "src/toStr.ml" 292 8206 8225
+"src/toStr.ml" 295 8264 8279 "src/toStr.ml" 295 8264 8283
 type(
   string
 )
 ident(
-  def name "src/toStr.ml" 292 8206 8230 "src/toStr.ml" 292 8206 8296
+  def name "src/toStr.ml" 295 8264 8288 "src/toStr.ml" 295 8264 8354
 )
-"src/toStr.ml" 292 8206 8212 "src/toStr.ml" 292 8206 8226
+"src/toStr.ml" 295 8264 8270 "src/toStr.ml" 295 8264 8284
 type(
   paramref
 )
-"src/toStr.ml" 292 8206 8230 "src/toStr.ml" 292 8206 8239
+"src/toStr.ml" 295 8264 8288 "src/toStr.ml" 295 8264 8297
 type(
   string -> unit
 )
 ident(
   ext_ref Utils.Prt.error
 )
-"src/toStr.ml" 292 8206 8241 "src/toStr.ml" 292 8206 8267
+"src/toStr.ml" 295 8264 8299 "src/toStr.ml" 295 8264 8325
 type(
   string
 )
-"src/toStr.ml" 292 8206 8267 "src/toStr.ml" 292 8206 8268
+"src/toStr.ml" 295 8264 8325 "src/toStr.ml" 295 8264 8326
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"src/toStr.ml" 292 8206 8268 "src/toStr.ml" 292 8206 8272
+"src/toStr.ml" 295 8264 8326 "src/toStr.ml" 295 8264 8330
 type(
   string
 )
 ident(
-  int_ref name "src/toStr.ml" 292 8206 8221 "src/toStr.ml" 292 8206 8225
+  int_ref name "src/toStr.ml" 295 8264 8279 "src/toStr.ml" 295 8264 8283
 )
-"src/toStr.ml" 292 8206 8241 "src/toStr.ml" 292 8206 8272
+"src/toStr.ml" 295 8264 8299 "src/toStr.ml" 295 8264 8330
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 292 8206 8230 "src/toStr.ml" 292 8206 8273
+"src/toStr.ml" 295 8264 8288 "src/toStr.ml" 295 8264 8331
 call(
   stack
 )
 type(
   unit
 )
-"src/toStr.ml" 292 8206 8274 "src/toStr.ml" 292 8206 8279
+"src/toStr.ml" 295 8264 8332 "src/toStr.ml" 295 8264 8337
 type(
   exn -> string
 )
 ident(
   ext_ref Pervasives.raise
 )
-"src/toStr.ml" 292 8206 8280 "src/toStr.ml" 292 8206 8296
+"src/toStr.ml" 295 8264 8338 "src/toStr.ml" 295 8264 8354
 type(
   exn
 )
-"src/toStr.ml" 292 8206 8274 "src/toStr.ml" 292 8206 8296
+"src/toStr.ml" 295 8264 8332 "src/toStr.ml" 295 8264 8354
 type(
   string
 )
-"src/toStr.ml" 292 8206 8230 "src/toStr.ml" 292 8206 8296
+"src/toStr.ml" 295 8264 8288 "src/toStr.ml" 295 8264 8354
 type(
   string
 )
-"src/toStr.ml" 290 8132 8136 "src/toStr.ml" 292 8206 8296
+"src/toStr.ml" 293 8190 8194 "src/toStr.ml" 295 8264 8354
 type(
   string
 )
-"src/toStr.ml" 289 8108 8127 "src/toStr.ml" 292 8206 8296
+"src/toStr.ml" 292 8166 8185 "src/toStr.ml" 295 8264 8354
 type(
   paramref -> string
 )
-"src/toStr.ml" 294 8298 8304 "src/toStr.ml" 294 8298 8314
+"src/toStr.ml" 297 8356 8362 "src/toStr.ml" 297 8356 8372
 type(
   types:typedef list -> vardef -> string
 )
 ident(
-  def vardef_act "src/toStr.ml" 313 9060 9062 "src/toStr.ml" 431 13441 13444
+  def vardef_act "src/toStr.ml" 316 9118 9120 "src/toStr.ml" 434 13499 13502
 )
-"src/toStr.ml" 294 8298 8322 "src/toStr.ml" 294 8298 8324
+"src/toStr.ml" 297 8356 8380 "src/toStr.ml" 297 8356 8382
 type(
   vardef
 )
 ident(
-  def vd "src/toStr.ml" 295 8327 8331 "src/toStr.ml" 310 8920 9013
+  def vd "src/toStr.ml" 298 8385 8389 "src/toStr.ml" 313 8978 9071
 )
-"src/toStr.ml" 295 8327 8342 "src/toStr.ml" 295 8327 8344
+"src/toStr.ml" 298 8385 8400 "src/toStr.ml" 298 8385 8402
 type(
   (string * paramdef list) list
 )
 ident(
-  def ls "src/toStr.ml" 296 8357 8361 "src/toStr.ml" 310 8920 9013
+  def ls "src/toStr.ml" 299 8415 8419 "src/toStr.ml" 313 8978 9071
 )
-"src/toStr.ml" 295 8327 8346 "src/toStr.ml" 295 8327 8347
+"src/toStr.ml" 298 8385 8404 "src/toStr.ml" 298 8385 8405
 type(
   string
 )
 ident(
-  def t "src/toStr.ml" 296 8357 8361 "src/toStr.ml" 310 8920 9013
+  def t "src/toStr.ml" 299 8415 8419 "src/toStr.ml" 313 8978 9071
 )
-"src/toStr.ml" 295 8327 8335 "src/toStr.ml" 295 8327 8348
+"src/toStr.ml" 298 8385 8393 "src/toStr.ml" 298 8385 8406
 type(
   vardef
 )
-"src/toStr.ml" 295 8327 8351 "src/toStr.ml" 295 8327 8353
+"src/toStr.ml" 298 8385 8409 "src/toStr.ml" 298 8385 8411
 type(
   vardef
 )
 ident(
-  int_ref vd "src/toStr.ml" 294 8298 8322 "src/toStr.ml" 294 8298 8324
+  int_ref vd "src/toStr.ml" 297 8356 8380 "src/toStr.ml" 297 8356 8382
 )
-"src/toStr.ml" 296 8357 8365 "src/toStr.ml" 296 8357 8373
+"src/toStr.ml" 299 8415 8423 "src/toStr.ml" 299 8415 8431
 type(
   string
 )
 ident(
-  def type_str "src/toStr.ml" 297 8397 8401 "src/toStr.ml" 310 8920 9013
+  def type_str "src/toStr.ml" 300 8455 8459 "src/toStr.ml" 313 8978 9071
 )
-"src/toStr.ml" 296 8357 8376 "src/toStr.ml" 296 8357 8384
+"src/toStr.ml" 299 8415 8434 "src/toStr.ml" 299 8415 8442
 type(
   types:typedef list -> string -> string
 )
 ident(
-  int_ref type_act "src/toStr.ml" 279 7751 7757 "src/toStr.ml" 279 7751 7765
+  int_ref type_act "src/toStr.ml" 282 7809 7815 "src/toStr.ml" 282 7809 7823
 )
-"src/toStr.ml" 296 8357 8385 "src/toStr.ml" 296 8357 8391
+"src/toStr.ml" 299 8415 8443 "src/toStr.ml" 299 8415 8449
 type(
   typedef list
 )
 ident(
-  int_ref types "src/toStr.ml" 294 8298 8315 "src/toStr.ml" 310 8920 9013
+  int_ref types "src/toStr.ml" 297 8356 8373 "src/toStr.ml" 313 8978 9071
 )
-"src/toStr.ml" 296 8357 8392 "src/toStr.ml" 296 8357 8393
+"src/toStr.ml" 299 8415 8450 "src/toStr.ml" 299 8415 8451
 type(
   string
 )
 ident(
-  int_ref t "src/toStr.ml" 295 8327 8346 "src/toStr.ml" 295 8327 8347
+  int_ref t "src/toStr.ml" 298 8385 8404 "src/toStr.ml" 298 8385 8405
 )
-"src/toStr.ml" 296 8357 8376 "src/toStr.ml" 296 8357 8393
+"src/toStr.ml" 299 8415 8434 "src/toStr.ml" 299 8415 8451
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 297 8397 8405 "src/toStr.ml" 297 8397 8410
+"src/toStr.ml" 300 8455 8463 "src/toStr.ml" 300 8455 8468
 type(
   string list list
 )
 ident(
-  def parts "src/toStr.ml" 308 8781 8785 "src/toStr.ml" 310 8920 9013
+  def parts "src/toStr.ml" 311 8839 8843 "src/toStr.ml" 313 8978 9071
 )
-"src/toStr.ml" 297 8397 8413 "src/toStr.ml" 297 8397 8421
+"src/toStr.ml" 300 8455 8471 "src/toStr.ml" 300 8455 8479
 type(
   (string * paramdef list) list ->
   f:(string * paramdef list -> string list) -> string list list
@@ -6096,184 +6096,184 @@ type(
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 297 8397 8422 "src/toStr.ml" 297 8397 8424
+"src/toStr.ml" 300 8455 8480 "src/toStr.ml" 300 8455 8482
 type(
   (string * paramdef list) list
 )
 ident(
-  int_ref ls "src/toStr.ml" 295 8327 8342 "src/toStr.ml" 295 8327 8344
+  int_ref ls "src/toStr.ml" 298 8385 8400 "src/toStr.ml" 298 8385 8402
 )
-"src/toStr.ml" 297 8397 8434 "src/toStr.ml" 297 8397 8435
+"src/toStr.ml" 300 8455 8492 "src/toStr.ml" 300 8455 8493
 type(
   string
 )
 ident(
-  def n "src/toStr.ml" 298 8445 8451 "src/toStr.ml" 306 8705 8771
+  def n "src/toStr.ml" 301 8503 8509 "src/toStr.ml" 309 8763 8829
 )
-"src/toStr.ml" 297 8397 8437 "src/toStr.ml" 297 8397 8440
+"src/toStr.ml" 300 8455 8495 "src/toStr.ml" 300 8455 8498
 type(
   paramdef list
 )
 ident(
-  def pds "src/toStr.ml" 298 8445 8451 "src/toStr.ml" 306 8705 8771
+  def pds "src/toStr.ml" 301 8503 8509 "src/toStr.ml" 309 8763 8829
 )
-"src/toStr.ml" 297 8397 8434 "src/toStr.ml" 297 8397 8440
+"src/toStr.ml" 300 8455 8492 "src/toStr.ml" 300 8455 8498
 type(
   string * paramdef list
 )
-"src/toStr.ml" 298 8445 8457 "src/toStr.ml" 298 8445 8460
+"src/toStr.ml" 301 8503 8515 "src/toStr.ml" 301 8503 8518
 type(
   paramdef list
 )
 ident(
-  int_ref pds "src/toStr.ml" 297 8397 8437 "src/toStr.ml" 297 8397 8440
+  int_ref pds "src/toStr.ml" 300 8455 8495 "src/toStr.ml" 300 8455 8498
 )
-"src/toStr.ml" 299 8466 8474 "src/toStr.ml" 299 8466 8476
+"src/toStr.ml" 302 8524 8532 "src/toStr.ml" 302 8524 8534
 type(
   paramdef list
 )
-"src/toStr.ml" 299 8466 8481 "src/toStr.ml" 299 8466 8482
+"src/toStr.ml" 302 8524 8539 "src/toStr.ml" 302 8524 8540
 type(
   string
 )
 ident(
-  int_ref n "src/toStr.ml" 297 8397 8434 "src/toStr.ml" 297 8397 8435
+  int_ref n "src/toStr.ml" 300 8455 8492 "src/toStr.ml" 300 8455 8493
 )
 type(
   string list
 )
-"src/toStr.ml" 299 8466 8480 "src/toStr.ml" 299 8466 8483
+"src/toStr.ml" 302 8524 8538 "src/toStr.ml" 302 8524 8541
 type(
   string list
 )
-"src/toStr.ml" 300 8484 8492 "src/toStr.ml" 300 8484 8493
+"src/toStr.ml" 303 8542 8550 "src/toStr.ml" 303 8542 8551
 type(
   paramdef list
 )
-"src/toStr.ml" 301 8497 8509 "src/toStr.ml" 301 8497 8511
+"src/toStr.ml" 304 8555 8567 "src/toStr.ml" 304 8555 8569
 type(
   paramref list list
 )
 ident(
-  def ps "src/toStr.ml" 302 8554 8562 "src/toStr.ml" 306 8705 8771
+  def ps "src/toStr.ml" 305 8612 8620 "src/toStr.ml" 309 8763 8829
 )
-"src/toStr.ml" 301 8497 8514 "src/toStr.ml" 301 8497 8540
+"src/toStr.ml" 304 8555 8572 "src/toStr.ml" 304 8555 8598
 type(
   paramdef list -> typedef list -> paramref list list
 )
 ident(
   ext_ref Paramecium.cart_product_with_paramfix
 )
-"src/toStr.ml" 301 8497 8541 "src/toStr.ml" 301 8497 8544
+"src/toStr.ml" 304 8555 8599 "src/toStr.ml" 304 8555 8602
 type(
   paramdef list
 )
 ident(
-  int_ref pds "src/toStr.ml" 297 8397 8437 "src/toStr.ml" 297 8397 8440
+  int_ref pds "src/toStr.ml" 300 8455 8495 "src/toStr.ml" 300 8455 8498
 )
-"src/toStr.ml" 301 8497 8545 "src/toStr.ml" 301 8497 8550
+"src/toStr.ml" 304 8555 8603 "src/toStr.ml" 304 8555 8608
 type(
   typedef list
 )
 ident(
-  int_ref types "src/toStr.ml" 294 8298 8315 "src/toStr.ml" 310 8920 9013
+  int_ref types "src/toStr.ml" 297 8356 8373 "src/toStr.ml" 313 8978 9071
 )
-"src/toStr.ml" 301 8497 8514 "src/toStr.ml" 301 8497 8550
+"src/toStr.ml" 304 8555 8572 "src/toStr.ml" 304 8555 8608
 call(
   stack
 )
 type(
   paramref list list
 )
-"src/toStr.ml" 302 8554 8566 "src/toStr.ml" 302 8554 8576
+"src/toStr.ml" 305 8612 8624 "src/toStr.ml" 305 8612 8634
 type(
   string list
 )
 ident(
-  def const_strs "src/toStr.ml" 306 8705 8713 "src/toStr.ml" 306 8705 8771
+  def const_strs "src/toStr.ml" 309 8763 8771 "src/toStr.ml" 309 8763 8829
 )
-"src/toStr.ml" 302 8554 8579 "src/toStr.ml" 302 8554 8587
+"src/toStr.ml" 305 8612 8637 "src/toStr.ml" 305 8612 8645
 type(
   paramref list list -> f:(paramref list -> string) -> string list
 )
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 302 8554 8588 "src/toStr.ml" 302 8554 8590
+"src/toStr.ml" 305 8612 8646 "src/toStr.ml" 305 8612 8648
 type(
   paramref list list
 )
 ident(
-  int_ref ps "src/toStr.ml" 301 8497 8509 "src/toStr.ml" 301 8497 8511
+  int_ref ps "src/toStr.ml" 304 8555 8567 "src/toStr.ml" 304 8555 8569
 )
-"src/toStr.ml" 302 8554 8599 "src/toStr.ml" 302 8554 8604
+"src/toStr.ml" 305 8612 8657 "src/toStr.ml" 305 8612 8662
 type(
   paramref list
 )
 ident(
-  def group "src/toStr.ml" 303 8609 8619 "src/toStr.ml" 304 8665 8691
+  def group "src/toStr.ml" 306 8667 8677 "src/toStr.ml" 307 8723 8749
 )
-"src/toStr.ml" 303 8609 8619 "src/toStr.ml" 303 8609 8627
+"src/toStr.ml" 306 8667 8677 "src/toStr.ml" 306 8667 8685
 type(
   paramref list -> f:(paramref -> string) -> string list
 )
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 303 8609 8628 "src/toStr.ml" 303 8609 8633
+"src/toStr.ml" 306 8667 8686 "src/toStr.ml" 306 8667 8691
 type(
   paramref list
 )
 ident(
-  int_ref group "src/toStr.ml" 302 8554 8599 "src/toStr.ml" 302 8554 8604
+  int_ref group "src/toStr.ml" 305 8612 8657 "src/toStr.ml" 305 8612 8662
 )
-"src/toStr.ml" 303 8609 8642 "src/toStr.ml" 303 8609 8644
+"src/toStr.ml" 306 8667 8700 "src/toStr.ml" 306 8667 8702
 type(
   paramref
 )
 ident(
-  def pr "src/toStr.ml" 303 8609 8648 "src/toStr.ml" 303 8609 8663
+  def pr "src/toStr.ml" 306 8667 8706 "src/toStr.ml" 306 8667 8721
 )
-"src/toStr.ml" 303 8609 8648 "src/toStr.ml" 303 8609 8660
+"src/toStr.ml" 306 8667 8706 "src/toStr.ml" 306 8667 8718
 type(
   paramref -> string
 )
 ident(
-  int_ref paramref_act "src/toStr.ml" 289 8108 8114 "src/toStr.ml" 289 8108 8126
+  int_ref paramref_act "src/toStr.ml" 292 8166 8172 "src/toStr.ml" 292 8166 8184
 )
-"src/toStr.ml" 303 8609 8661 "src/toStr.ml" 303 8609 8663
+"src/toStr.ml" 306 8667 8719 "src/toStr.ml" 306 8667 8721
 type(
   paramref
 )
 ident(
-  int_ref pr "src/toStr.ml" 303 8609 8642 "src/toStr.ml" 303 8609 8644
+  int_ref pr "src/toStr.ml" 306 8667 8700 "src/toStr.ml" 306 8667 8702
 )
-"src/toStr.ml" 303 8609 8648 "src/toStr.ml" 303 8609 8663
+"src/toStr.ml" 306 8667 8706 "src/toStr.ml" 306 8667 8721
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 303 8609 8642 "src/toStr.ml" 303 8609 8663
+"src/toStr.ml" 306 8667 8700 "src/toStr.ml" 306 8667 8721
 type(
   paramref -> string
 )
-"src/toStr.ml" 303 8609 8619 "src/toStr.ml" 303 8609 8664
+"src/toStr.ml" 306 8667 8677 "src/toStr.ml" 306 8667 8722
 call(
   stack
 )
 type(
   string list
 )
-"src/toStr.ml" 304 8665 8675 "src/toStr.ml" 304 8665 8677
+"src/toStr.ml" 307 8723 8733 "src/toStr.ml" 307 8723 8735
 type(
   string list -> (string list -> string) -> string
 )
 ident(
   ext_ref Core.Std.( |> )
 )
-"src/toStr.ml" 304 8665 8678 "src/toStr.ml" 304 8665 8691
+"src/toStr.ml" 307 8723 8736 "src/toStr.ml" 307 8723 8749
 call(
   tail
 )
@@ -6283,46 +6283,46 @@ type(
 ident(
   ext_ref Core.Std.String.concat
 )
-"src/toStr.ml" 303 8609 8619 "src/toStr.ml" 304 8665 8691
+"src/toStr.ml" 306 8667 8677 "src/toStr.ml" 307 8723 8749
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 302 8554 8599 "src/toStr.ml" 304 8665 8691
+"src/toStr.ml" 305 8612 8657 "src/toStr.ml" 307 8723 8749
 type(
   paramref list -> string
 )
-"src/toStr.ml" 302 8554 8579 "src/toStr.ml" 305 8692 8701
+"src/toStr.ml" 305 8612 8637 "src/toStr.ml" 308 8750 8759
 call(
   stack
 )
 type(
   string list
 )
-"src/toStr.ml" 306 8705 8713 "src/toStr.ml" 306 8705 8721
+"src/toStr.ml" 309 8763 8771 "src/toStr.ml" 309 8763 8779
 type(
   string list -> f:(string -> string) -> string list
 )
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 306 8705 8722 "src/toStr.ml" 306 8705 8732
+"src/toStr.ml" 309 8763 8780 "src/toStr.ml" 309 8763 8790
 type(
   string list
 )
 ident(
-  int_ref const_strs "src/toStr.ml" 302 8554 8566 "src/toStr.ml" 302 8554 8576
+  int_ref const_strs "src/toStr.ml" 305 8612 8624 "src/toStr.ml" 305 8612 8634
 )
-"src/toStr.ml" 306 8705 8741 "src/toStr.ml" 306 8705 8745
+"src/toStr.ml" 309 8763 8799 "src/toStr.ml" 309 8763 8803
 type(
   string
 )
 ident(
-  def cstr "src/toStr.ml" 306 8705 8749 "src/toStr.ml" 306 8705 8770
+  def cstr "src/toStr.ml" 309 8763 8807 "src/toStr.ml" 309 8763 8828
 )
-"src/toStr.ml" 306 8705 8749 "src/toStr.ml" 306 8705 8756
+"src/toStr.ml" 309 8763 8807 "src/toStr.ml" 309 8763 8814
 type(
   (string -> string -> string, unit, string) format ->
   string -> string -> string
@@ -6330,190 +6330,190 @@ type(
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 306 8705 8757 "src/toStr.ml" 306 8705 8763
+"src/toStr.ml" 309 8763 8815 "src/toStr.ml" 309 8763 8821
 type(
   (string -> string -> string, unit, string) format
 )
-"src/toStr.ml" 306 8705 8764 "src/toStr.ml" 306 8705 8765
+"src/toStr.ml" 309 8763 8822 "src/toStr.ml" 309 8763 8823
 type(
   string
 )
 ident(
-  int_ref n "src/toStr.ml" 297 8397 8434 "src/toStr.ml" 297 8397 8435
+  int_ref n "src/toStr.ml" 300 8455 8492 "src/toStr.ml" 300 8455 8493
 )
-"src/toStr.ml" 306 8705 8766 "src/toStr.ml" 306 8705 8770
+"src/toStr.ml" 309 8763 8824 "src/toStr.ml" 309 8763 8828
 type(
   string
 )
 ident(
-  int_ref cstr "src/toStr.ml" 306 8705 8741 "src/toStr.ml" 306 8705 8745
+  int_ref cstr "src/toStr.ml" 309 8763 8799 "src/toStr.ml" 309 8763 8803
 )
-"src/toStr.ml" 306 8705 8749 "src/toStr.ml" 306 8705 8770
+"src/toStr.ml" 309 8763 8807 "src/toStr.ml" 309 8763 8828
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 306 8705 8741 "src/toStr.ml" 306 8705 8770
+"src/toStr.ml" 309 8763 8799 "src/toStr.ml" 309 8763 8828
 type(
   string -> string
 )
-"src/toStr.ml" 306 8705 8713 "src/toStr.ml" 306 8705 8771
+"src/toStr.ml" 309 8763 8771 "src/toStr.ml" 309 8763 8829
 call(
   tail
 )
 type(
   string list
 )
-"src/toStr.ml" 302 8554 8562 "src/toStr.ml" 306 8705 8771
+"src/toStr.ml" 305 8612 8620 "src/toStr.ml" 309 8763 8829
 type(
   string list
 )
-"src/toStr.ml" 301 8497 8505 "src/toStr.ml" 306 8705 8771
+"src/toStr.ml" 304 8555 8563 "src/toStr.ml" 309 8763 8829
 type(
   string list
 )
-"src/toStr.ml" 298 8445 8451 "src/toStr.ml" 306 8705 8771
+"src/toStr.ml" 301 8503 8509 "src/toStr.ml" 309 8763 8829
 type(
   string list
 )
-"src/toStr.ml" 297 8397 8433 "src/toStr.ml" 306 8705 8771
+"src/toStr.ml" 300 8455 8491 "src/toStr.ml" 309 8763 8829
 type(
   string * paramdef list -> string list
 )
-"src/toStr.ml" 297 8397 8413 "src/toStr.ml" 307 8772 8777
+"src/toStr.ml" 300 8455 8471 "src/toStr.ml" 310 8830 8835
 call(
   stack
 )
 type(
   string list list
 )
-"src/toStr.ml" 308 8781 8789 "src/toStr.ml" 308 8781 8799
+"src/toStr.ml" 311 8839 8847 "src/toStr.ml" 311 8839 8857
 type(
   string list list
 )
 ident(
-  def full_parts "src/toStr.ml" 309 8829 8833 "src/toStr.ml" 310 8920 9013
+  def full_parts "src/toStr.ml" 312 8887 8891 "src/toStr.ml" 313 8978 9071
 )
-"src/toStr.ml" 308 8781 8802 "src/toStr.ml" 308 8781 8819
+"src/toStr.ml" 311 8839 8860 "src/toStr.ml" 311 8839 8877
 type(
   string list list -> string list list
 )
 ident(
   ext_ref Utils.cartesian_product
 )
-"src/toStr.ml" 308 8781 8820 "src/toStr.ml" 308 8781 8825
+"src/toStr.ml" 311 8839 8878 "src/toStr.ml" 311 8839 8883
 type(
   string list list
 )
 ident(
-  int_ref parts "src/toStr.ml" 297 8397 8405 "src/toStr.ml" 297 8397 8410
+  int_ref parts "src/toStr.ml" 300 8455 8463 "src/toStr.ml" 300 8455 8468
 )
-"src/toStr.ml" 308 8781 8802 "src/toStr.ml" 308 8781 8825
+"src/toStr.ml" 311 8839 8860 "src/toStr.ml" 311 8839 8883
 call(
   stack
 )
 type(
   string list list
 )
-"src/toStr.ml" 309 8829 8837 "src/toStr.ml" 309 8829 8847
+"src/toStr.ml" 312 8887 8895 "src/toStr.ml" 312 8887 8905
 type(
   string list
 )
 ident(
-  def full_names "src/toStr.ml" 310 8920 8924 "src/toStr.ml" 310 8920 9013
+  def full_names "src/toStr.ml" 313 8978 8982 "src/toStr.ml" 313 8978 9071
 )
-"src/toStr.ml" 309 8829 8850 "src/toStr.ml" 309 8829 8858
+"src/toStr.ml" 312 8887 8908 "src/toStr.ml" 312 8887 8916
 type(
   string list list -> f:(string list -> string) -> string list
 )
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 309 8829 8859 "src/toStr.ml" 309 8829 8869
+"src/toStr.ml" 312 8887 8917 "src/toStr.ml" 312 8887 8927
 type(
   string list list
 )
 ident(
-  int_ref full_parts "src/toStr.ml" 308 8781 8789 "src/toStr.ml" 308 8781 8799
+  int_ref full_parts "src/toStr.ml" 311 8839 8847 "src/toStr.ml" 311 8839 8857
 )
-"src/toStr.ml" 309 8829 8878 "src/toStr.ml" 309 8829 8883
+"src/toStr.ml" 312 8887 8936 "src/toStr.ml" 312 8887 8941
 type(
   string list
 )
 ident(
-  def parts "src/toStr.ml" 309 8829 8887 "src/toStr.ml" 309 8829 8915
+  def parts "src/toStr.ml" 312 8887 8945 "src/toStr.ml" 312 8887 8973
 )
-"src/toStr.ml" 309 8829 8887 "src/toStr.ml" 309 8829 8900
+"src/toStr.ml" 312 8887 8945 "src/toStr.ml" 312 8887 8958
 type(
   ?sep:string -> string list -> string
 )
 ident(
   ext_ref Core.Std.String.concat
 )
-"src/toStr.ml" 309 8829 8906 "src/toStr.ml" 309 8829 8909
+"src/toStr.ml" 312 8887 8964 "src/toStr.ml" 312 8887 8967
 type(
   string
 )
-"src/toStr.ml" 309 8829 8910 "src/toStr.ml" 309 8829 8915
+"src/toStr.ml" 312 8887 8968 "src/toStr.ml" 312 8887 8973
 type(
   string list
 )
 ident(
-  int_ref parts "src/toStr.ml" 309 8829 8878 "src/toStr.ml" 309 8829 8883
+  int_ref parts "src/toStr.ml" 312 8887 8936 "src/toStr.ml" 312 8887 8941
 )
-"src/toStr.ml" 309 8829 8887 "src/toStr.ml" 309 8829 8915
+"src/toStr.ml" 312 8887 8945 "src/toStr.ml" 312 8887 8973
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 309 8829 8878 "src/toStr.ml" 309 8829 8915
+"src/toStr.ml" 312 8887 8936 "src/toStr.ml" 312 8887 8973
 type(
   string list -> string
 )
-"src/toStr.ml" 309 8829 8850 "src/toStr.ml" 309 8829 8916
+"src/toStr.ml" 312 8887 8908 "src/toStr.ml" 312 8887 8974
 call(
   stack
 )
 type(
   string list
 )
-"src/toStr.ml" 310 8920 8924 "src/toStr.ml" 310 8920 8937
+"src/toStr.ml" 313 8978 8982 "src/toStr.ml" 313 8978 8995
 type(
   ?sep:string -> string list -> string
 )
 ident(
   ext_ref Core.Std.String.concat
 )
-"src/toStr.ml" 310 8920 8943 "src/toStr.ml" 310 8920 8947
+"src/toStr.ml" 313 8978 9001 "src/toStr.ml" 313 8978 9005
 type(
   string
 )
-"src/toStr.ml" 310 8920 8949 "src/toStr.ml" 310 8920 8957
+"src/toStr.ml" 313 8978 9007 "src/toStr.ml" 313 8978 9015
 type(
   string list -> f:(string -> string) -> string list
 )
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 310 8920 8958 "src/toStr.ml" 310 8920 8968
+"src/toStr.ml" 313 8978 9016 "src/toStr.ml" 313 8978 9026
 type(
   string list
 )
 ident(
-  int_ref full_names "src/toStr.ml" 309 8829 8837 "src/toStr.ml" 309 8829 8847
+  int_ref full_names "src/toStr.ml" 312 8887 8895 "src/toStr.ml" 312 8887 8905
 )
-"src/toStr.ml" 310 8920 8977 "src/toStr.ml" 310 8920 8978
+"src/toStr.ml" 313 8978 9035 "src/toStr.ml" 313 8978 9036
 type(
   string
 )
 ident(
-  def n "src/toStr.ml" 310 8920 8982 "src/toStr.ml" 310 8920 9011
+  def n "src/toStr.ml" 313 8978 9040 "src/toStr.ml" 313 8978 9069
 )
-"src/toStr.ml" 310 8920 8982 "src/toStr.ml" 310 8920 8989
+"src/toStr.ml" 313 8978 9040 "src/toStr.ml" 313 8978 9047
 type(
   (string -> string -> string, unit, string) format ->
   string -> string -> string
@@ -6521,74 +6521,74 @@ type(
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 310 8920 8990 "src/toStr.ml" 310 8920 9000
+"src/toStr.ml" 313 8978 9048 "src/toStr.ml" 313 8978 9058
 type(
   (string -> string -> string, unit, string) format
 )
-"src/toStr.ml" 310 8920 9001 "src/toStr.ml" 310 8920 9002
+"src/toStr.ml" 313 8978 9059 "src/toStr.ml" 313 8978 9060
 type(
   string
 )
 ident(
-  int_ref n "src/toStr.ml" 310 8920 8977 "src/toStr.ml" 310 8920 8978
+  int_ref n "src/toStr.ml" 313 8978 9035 "src/toStr.ml" 313 8978 9036
 )
-"src/toStr.ml" 310 8920 9003 "src/toStr.ml" 310 8920 9011
+"src/toStr.ml" 313 8978 9061 "src/toStr.ml" 313 8978 9069
 type(
   string
 )
 ident(
-  int_ref type_str "src/toStr.ml" 296 8357 8365 "src/toStr.ml" 296 8357 8373
+  int_ref type_str "src/toStr.ml" 299 8415 8423 "src/toStr.ml" 299 8415 8431
 )
-"src/toStr.ml" 310 8920 8982 "src/toStr.ml" 310 8920 9011
+"src/toStr.ml" 313 8978 9040 "src/toStr.ml" 313 8978 9069
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 310 8920 8977 "src/toStr.ml" 310 8920 9011
+"src/toStr.ml" 313 8978 9035 "src/toStr.ml" 313 8978 9069
 type(
   string -> string
 )
-"src/toStr.ml" 310 8920 8949 "src/toStr.ml" 310 8920 9012
+"src/toStr.ml" 313 8978 9007 "src/toStr.ml" 313 8978 9070
 call(
   stack
 )
 type(
   string list
 )
-"src/toStr.ml" 310 8920 8924 "src/toStr.ml" 310 8920 9013
+"src/toStr.ml" 313 8978 8982 "src/toStr.ml" 313 8978 9071
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 309 8829 8833 "src/toStr.ml" 310 8920 9013
+"src/toStr.ml" 312 8887 8891 "src/toStr.ml" 313 8978 9071
 type(
   string
 )
-"src/toStr.ml" 308 8781 8785 "src/toStr.ml" 310 8920 9013
+"src/toStr.ml" 311 8839 8843 "src/toStr.ml" 313 8978 9071
 type(
   string
 )
-"src/toStr.ml" 297 8397 8401 "src/toStr.ml" 310 8920 9013
+"src/toStr.ml" 300 8455 8459 "src/toStr.ml" 313 8978 9071
 type(
   string
 )
-"src/toStr.ml" 296 8357 8361 "src/toStr.ml" 310 8920 9013
+"src/toStr.ml" 299 8415 8419 "src/toStr.ml" 313 8978 9071
 type(
   string
 )
-"src/toStr.ml" 295 8327 8331 "src/toStr.ml" 310 8920 9013
+"src/toStr.ml" 298 8385 8389 "src/toStr.ml" 313 8978 9071
 type(
   string
 )
-"src/toStr.ml" 294 8298 8322 "src/toStr.ml" 310 8920 9013
+"src/toStr.ml" 297 8356 8380 "src/toStr.ml" 313 8978 9071
 type(
   vardef -> string
 )
-"src/toStr.ml" 294 8298 8315 "src/toStr.ml" 310 8920 9013
+"src/toStr.ml" 297 8356 8373 "src/toStr.ml" 313 8978 9071
 type(
   types:typedef list -> vardef -> string
 )
@@ -6596,52 +6596,52 @@ type(
   typedef list
 )
 ident(
-  def types "src/toStr.ml" 294 8298 8322 "src/toStr.ml" 310 8920 9013
+  def types "src/toStr.ml" 297 8356 8380 "src/toStr.ml" 313 8978 9071
 )
-"src/toStr.ml" 313 9060 9066 "src/toStr.ml" 313 9060 9073
+"src/toStr.ml" 316 9118 9124 "src/toStr.ml" 316 9118 9131
 type(
   var -> string
 )
 ident(
-  def var_act "src/toStr.ml" 322 9319 9321 "src/toStr.ml" 431 13441 13444
+  def var_act "src/toStr.ml" 325 9377 9379 "src/toStr.ml" 434 13499 13502
 )
-"src/toStr.ml" 313 9060 9074 "src/toStr.ml" 313 9060 9075
+"src/toStr.ml" 316 9118 9132 "src/toStr.ml" 316 9118 9133
 type(
   var
 )
 ident(
-  def v "src/toStr.ml" 314 9078 9082 "src/toStr.ml" 319 9275 9281
+  def v "src/toStr.ml" 317 9136 9140 "src/toStr.ml" 322 9333 9339
 )
-"src/toStr.ml" 314 9078 9090 "src/toStr.ml" 314 9078 9092
+"src/toStr.ml" 317 9136 9148 "src/toStr.ml" 317 9136 9150
 type(
   (string * paramref list) list
 )
 ident(
-  def ls "src/toStr.ml" 315 9101 9105 "src/toStr.ml" 319 9275 9281
+  def ls "src/toStr.ml" 318 9159 9163 "src/toStr.ml" 322 9333 9339
 )
-"src/toStr.ml" 314 9078 9086 "src/toStr.ml" 314 9078 9093
+"src/toStr.ml" 317 9136 9144 "src/toStr.ml" 317 9136 9151
 type(
   var
 )
-"src/toStr.ml" 314 9078 9096 "src/toStr.ml" 314 9078 9097
+"src/toStr.ml" 317 9136 9154 "src/toStr.ml" 317 9136 9155
 type(
   var
 )
 ident(
-  int_ref v "src/toStr.ml" 313 9060 9074 "src/toStr.ml" 313 9060 9075
+  int_ref v "src/toStr.ml" 316 9118 9132 "src/toStr.ml" 316 9118 9133
 )
-"src/toStr.ml" 315 9101 9105 "src/toStr.ml" 315 9101 9118
+"src/toStr.ml" 318 9159 9163 "src/toStr.ml" 318 9159 9176
 type(
   ?sep:string -> string list -> string
 )
 ident(
   ext_ref Core.Std.String.concat
 )
-"src/toStr.ml" 315 9101 9124 "src/toStr.ml" 315 9101 9127
+"src/toStr.ml" 318 9159 9182 "src/toStr.ml" 318 9159 9185
 type(
   string
 )
-"src/toStr.ml" 315 9101 9129 "src/toStr.ml" 315 9101 9137
+"src/toStr.ml" 318 9159 9187 "src/toStr.ml" 318 9159 9195
 type(
   (string * paramref list) list ->
   f:(string * paramref list -> string) -> string list
@@ -6649,54 +6649,54 @@ type(
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 315 9101 9138 "src/toStr.ml" 315 9101 9140
+"src/toStr.ml" 318 9159 9196 "src/toStr.ml" 318 9159 9198
 type(
   (string * paramref list) list
 )
 ident(
-  int_ref ls "src/toStr.ml" 314 9078 9090 "src/toStr.ml" 314 9078 9092
+  int_ref ls "src/toStr.ml" 317 9136 9148 "src/toStr.ml" 317 9136 9150
 )
-"src/toStr.ml" 315 9101 9150 "src/toStr.ml" 315 9101 9151
+"src/toStr.ml" 318 9159 9208 "src/toStr.ml" 318 9159 9209
 type(
   string
 )
 ident(
-  def n "src/toStr.ml" 316 9161 9167 "src/toStr.ml" 318 9198 9274
+  def n "src/toStr.ml" 319 9219 9225 "src/toStr.ml" 321 9256 9332
 )
-"src/toStr.ml" 315 9101 9153 "src/toStr.ml" 315 9101 9156
+"src/toStr.ml" 318 9159 9211 "src/toStr.ml" 318 9159 9214
 type(
   paramref list
 )
 ident(
-  def prs "src/toStr.ml" 316 9161 9167 "src/toStr.ml" 318 9198 9274
+  def prs "src/toStr.ml" 319 9219 9225 "src/toStr.ml" 321 9256 9332
 )
-"src/toStr.ml" 315 9101 9150 "src/toStr.ml" 315 9101 9156
+"src/toStr.ml" 318 9159 9208 "src/toStr.ml" 318 9159 9214
 type(
   string * paramref list
 )
-"src/toStr.ml" 316 9161 9173 "src/toStr.ml" 316 9161 9176
+"src/toStr.ml" 319 9219 9231 "src/toStr.ml" 319 9219 9234
 type(
   paramref list
 )
 ident(
-  int_ref prs "src/toStr.ml" 315 9101 9153 "src/toStr.ml" 315 9101 9156
+  int_ref prs "src/toStr.ml" 318 9159 9211 "src/toStr.ml" 318 9159 9214
 )
-"src/toStr.ml" 317 9182 9190 "src/toStr.ml" 317 9182 9192
+"src/toStr.ml" 320 9240 9248 "src/toStr.ml" 320 9240 9250
 type(
   paramref list
 )
-"src/toStr.ml" 317 9182 9196 "src/toStr.ml" 317 9182 9197
+"src/toStr.ml" 320 9240 9254 "src/toStr.ml" 320 9240 9255
 type(
   string
 )
 ident(
-  int_ref n "src/toStr.ml" 315 9101 9150 "src/toStr.ml" 315 9101 9151
+  int_ref n "src/toStr.ml" 318 9159 9208 "src/toStr.ml" 318 9159 9209
 )
-"src/toStr.ml" 318 9198 9206 "src/toStr.ml" 318 9198 9207
+"src/toStr.ml" 321 9256 9264 "src/toStr.ml" 321 9256 9265
 type(
   paramref list
 )
-"src/toStr.ml" 318 9198 9211 "src/toStr.ml" 318 9198 9218
+"src/toStr.ml" 321 9256 9269 "src/toStr.ml" 321 9256 9276
 type(
   (string -> string -> string, unit, string) format ->
   string -> string -> string
@@ -6704,324 +6704,324 @@ type(
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 318 9198 9219 "src/toStr.ml" 318 9198 9225
+"src/toStr.ml" 321 9256 9277 "src/toStr.ml" 321 9256 9283
 type(
   (string -> string -> string, unit, string) format
 )
-"src/toStr.ml" 318 9198 9226 "src/toStr.ml" 318 9198 9227
+"src/toStr.ml" 321 9256 9284 "src/toStr.ml" 321 9256 9285
 type(
   string
 )
 ident(
-  int_ref n "src/toStr.ml" 315 9101 9150 "src/toStr.ml" 315 9101 9151
+  int_ref n "src/toStr.ml" 318 9159 9208 "src/toStr.ml" 318 9159 9209
 )
-"src/toStr.ml" 318 9198 9229 "src/toStr.ml" 318 9198 9242
+"src/toStr.ml" 321 9256 9287 "src/toStr.ml" 321 9256 9300
 type(
   ?sep:string -> string list -> string
 )
 ident(
   ext_ref Core.Std.String.concat
 )
-"src/toStr.ml" 318 9198 9244 "src/toStr.ml" 318 9198 9252
+"src/toStr.ml" 321 9256 9302 "src/toStr.ml" 321 9256 9310
 type(
   paramref list -> f:(paramref -> string) -> string list
 )
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 318 9198 9253 "src/toStr.ml" 318 9198 9256
+"src/toStr.ml" 321 9256 9311 "src/toStr.ml" 321 9256 9314
 type(
   paramref list
 )
 ident(
-  int_ref prs "src/toStr.ml" 315 9101 9153 "src/toStr.ml" 315 9101 9156
+  int_ref prs "src/toStr.ml" 318 9159 9211 "src/toStr.ml" 318 9159 9214
 )
-"src/toStr.ml" 318 9198 9260 "src/toStr.ml" 318 9198 9272
+"src/toStr.ml" 321 9256 9318 "src/toStr.ml" 321 9256 9330
 type(
   paramref -> string
 )
 ident(
-  int_ref paramref_act "src/toStr.ml" 289 8108 8114 "src/toStr.ml" 289 8108 8126
+  int_ref paramref_act "src/toStr.ml" 292 8166 8172 "src/toStr.ml" 292 8166 8184
 )
-"src/toStr.ml" 318 9198 9244 "src/toStr.ml" 318 9198 9272
+"src/toStr.ml" 321 9256 9302 "src/toStr.ml" 321 9256 9330
 call(
   stack
 )
 type(
   string list
 )
-"src/toStr.ml" 318 9198 9229 "src/toStr.ml" 318 9198 9273
+"src/toStr.ml" 321 9256 9287 "src/toStr.ml" 321 9256 9331
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 318 9198 9211 "src/toStr.ml" 318 9198 9274
+"src/toStr.ml" 321 9256 9269 "src/toStr.ml" 321 9256 9332
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 316 9161 9167 "src/toStr.ml" 318 9198 9274
+"src/toStr.ml" 319 9219 9225 "src/toStr.ml" 321 9256 9332
 type(
   string
 )
-"src/toStr.ml" 315 9101 9149 "src/toStr.ml" 318 9198 9274
+"src/toStr.ml" 318 9159 9207 "src/toStr.ml" 321 9256 9332
 type(
   string * paramref list -> string
 )
-"src/toStr.ml" 315 9101 9129 "src/toStr.ml" 319 9275 9280
+"src/toStr.ml" 318 9159 9187 "src/toStr.ml" 322 9333 9338
 call(
   stack
 )
 type(
   string list
 )
-"src/toStr.ml" 315 9101 9105 "src/toStr.ml" 319 9275 9281
+"src/toStr.ml" 318 9159 9163 "src/toStr.ml" 322 9333 9339
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 314 9078 9082 "src/toStr.ml" 319 9275 9281
+"src/toStr.ml" 317 9136 9140 "src/toStr.ml" 322 9333 9339
 type(
   string
 )
-"src/toStr.ml" 313 9060 9074 "src/toStr.ml" 319 9275 9281
+"src/toStr.ml" 316 9118 9132 "src/toStr.ml" 322 9333 9339
 type(
   var -> string
 )
-"src/toStr.ml" 322 9319 9329 "src/toStr.ml" 322 9319 9336
+"src/toStr.ml" 325 9377 9387 "src/toStr.ml" 325 9377 9394
 type(
   exp -> string
 )
 ident(
-  def exp_act "src/toStr.ml" 322 9319 9321 "src/toStr.ml" 431 13441 13444
+  def exp_act "src/toStr.ml" 325 9377 9379 "src/toStr.ml" 434 13499 13502
 )
-"src/toStr.ml" 322 9319 9337 "src/toStr.ml" 322 9319 9340
+"src/toStr.ml" 325 9377 9395 "src/toStr.ml" 325 9377 9398
 type(
   exp
 )
 ident(
-  def exp "src/toStr.ml" 323 9343 9347 "src/toStr.ml" 334 9731 9823
+  def exp "src/toStr.ml" 326 9401 9405 "src/toStr.ml" 337 9789 9881
 )
-"src/toStr.ml" 323 9343 9353 "src/toStr.ml" 323 9343 9356
+"src/toStr.ml" 326 9401 9411 "src/toStr.ml" 326 9401 9414
 type(
   exp
 )
 ident(
-  int_ref exp "src/toStr.ml" 322 9319 9337 "src/toStr.ml" 322 9319 9340
+  int_ref exp "src/toStr.ml" 325 9377 9395 "src/toStr.ml" 325 9377 9398
 )
-"src/toStr.ml" 324 9362 9374 "src/toStr.ml" 324 9362 9375
+"src/toStr.ml" 327 9420 9432 "src/toStr.ml" 327 9420 9433
 type(
   const
 )
 ident(
-  def c "src/toStr.ml" 324 9362 9380 "src/toStr.ml" 324 9362 9391
+  def c "src/toStr.ml" 327 9420 9438 "src/toStr.ml" 327 9420 9449
 )
-"src/toStr.ml" 324 9362 9368 "src/toStr.ml" 324 9362 9376
+"src/toStr.ml" 327 9420 9426 "src/toStr.ml" 327 9420 9434
 type(
   exp
 )
-"src/toStr.ml" 324 9362 9380 "src/toStr.ml" 324 9362 9389
+"src/toStr.ml" 327 9420 9438 "src/toStr.ml" 327 9420 9447
 type(
   const -> string
 )
 ident(
-  int_ref const_act "src/toStr.ml" 273 7548 7554 "src/toStr.ml" 273 7548 7563
+  int_ref const_act "src/toStr.ml" 276 7606 7612 "src/toStr.ml" 276 7606 7621
 )
-"src/toStr.ml" 324 9362 9390 "src/toStr.ml" 324 9362 9391
+"src/toStr.ml" 327 9420 9448 "src/toStr.ml" 327 9420 9449
 type(
   const
 )
 ident(
-  int_ref c "src/toStr.ml" 324 9362 9374 "src/toStr.ml" 324 9362 9375
+  int_ref c "src/toStr.ml" 327 9420 9432 "src/toStr.ml" 327 9420 9433
 )
-"src/toStr.ml" 324 9362 9380 "src/toStr.ml" 324 9362 9391
+"src/toStr.ml" 327 9420 9438 "src/toStr.ml" 327 9420 9449
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 325 9392 9402 "src/toStr.ml" 325 9392 9403
+"src/toStr.ml" 328 9450 9460 "src/toStr.ml" 328 9450 9461
 type(
   var
 )
 ident(
-  def v "src/toStr.ml" 325 9392 9408 "src/toStr.ml" 325 9392 9417
+  def v "src/toStr.ml" 328 9450 9466 "src/toStr.ml" 328 9450 9475
 )
-"src/toStr.ml" 325 9392 9398 "src/toStr.ml" 325 9392 9404
+"src/toStr.ml" 328 9450 9456 "src/toStr.ml" 328 9450 9462
 type(
   exp
 )
-"src/toStr.ml" 325 9392 9408 "src/toStr.ml" 325 9392 9415
+"src/toStr.ml" 328 9450 9466 "src/toStr.ml" 328 9450 9473
 type(
   var -> string
 )
 ident(
-  int_ref var_act "src/toStr.ml" 313 9060 9066 "src/toStr.ml" 313 9060 9073
+  int_ref var_act "src/toStr.ml" 316 9118 9124 "src/toStr.ml" 316 9118 9131
 )
-"src/toStr.ml" 325 9392 9416 "src/toStr.ml" 325 9392 9417
+"src/toStr.ml" 328 9450 9474 "src/toStr.ml" 328 9450 9475
 type(
   var
 )
 ident(
-  int_ref v "src/toStr.ml" 325 9392 9402 "src/toStr.ml" 325 9392 9403
+  int_ref v "src/toStr.ml" 328 9450 9460 "src/toStr.ml" 328 9450 9461
 )
-"src/toStr.ml" 325 9392 9408 "src/toStr.ml" 325 9392 9417
+"src/toStr.ml" 328 9450 9466 "src/toStr.ml" 328 9450 9475
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 326 9418 9430 "src/toStr.ml" 326 9418 9432
+"src/toStr.ml" 329 9476 9488 "src/toStr.ml" 329 9476 9490
 type(
   paramref
 )
 ident(
-  def pr "src/toStr.ml" 327 9439 9447 "src/toStr.ml" 329 9519 9566
+  def pr "src/toStr.ml" 330 9497 9505 "src/toStr.ml" 332 9577 9624
 )
-"src/toStr.ml" 326 9418 9424 "src/toStr.ml" 326 9418 9433
+"src/toStr.ml" 329 9476 9482 "src/toStr.ml" 329 9476 9491
 type(
   exp
 )
-"src/toStr.ml" 327 9439 9453 "src/toStr.ml" 327 9439 9455
+"src/toStr.ml" 330 9497 9511 "src/toStr.ml" 330 9497 9513
 type(
   paramref
 )
 ident(
-  int_ref pr "src/toStr.ml" 326 9418 9430 "src/toStr.ml" 326 9418 9432
+  int_ref pr "src/toStr.ml" 329 9476 9488 "src/toStr.ml" 329 9476 9490
 )
-"src/toStr.ml" 328 9461 9480 "src/toStr.ml" 328 9461 9481
+"src/toStr.ml" 331 9519 9538 "src/toStr.ml" 331 9519 9539
 type(
   string
 )
-"src/toStr.ml" 328 9461 9483 "src/toStr.ml" 328 9461 9484
+"src/toStr.ml" 331 9519 9541 "src/toStr.ml" 331 9519 9542
 type(
   string
 )
-"src/toStr.ml" 328 9461 9486 "src/toStr.ml" 328 9461 9487
+"src/toStr.ml" 331 9519 9544 "src/toStr.ml" 331 9519 9545
 type(
   const
 )
 ident(
-  def c "src/toStr.ml" 328 9461 9492 "src/toStr.ml" 328 9461 9518
+  def c "src/toStr.ml" 331 9519 9550 "src/toStr.ml" 331 9519 9576
 )
-"src/toStr.ml" 328 9461 9471 "src/toStr.ml" 328 9461 9488
+"src/toStr.ml" 331 9519 9529 "src/toStr.ml" 331 9519 9546
 type(
   paramref
 )
-"src/toStr.ml" 328 9461 9492 "src/toStr.ml" 328 9461 9499
+"src/toStr.ml" 331 9519 9550 "src/toStr.ml" 331 9519 9557
 type(
   (string -> string, unit, string) format -> string -> string
 )
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 328 9461 9500 "src/toStr.ml" 328 9461 9504
+"src/toStr.ml" 331 9519 9558 "src/toStr.ml" 331 9519 9562
 type(
   (string -> string, unit, string) format
 )
-"src/toStr.ml" 328 9461 9506 "src/toStr.ml" 328 9461 9515
+"src/toStr.ml" 331 9519 9564 "src/toStr.ml" 331 9519 9573
 type(
   const -> string
 )
 ident(
-  int_ref const_act "src/toStr.ml" 273 7548 7554 "src/toStr.ml" 273 7548 7563
+  int_ref const_act "src/toStr.ml" 276 7606 7612 "src/toStr.ml" 276 7606 7621
 )
-"src/toStr.ml" 328 9461 9516 "src/toStr.ml" 328 9461 9517
+"src/toStr.ml" 331 9519 9574 "src/toStr.ml" 331 9519 9575
 type(
   const
 )
 ident(
-  int_ref c "src/toStr.ml" 328 9461 9486 "src/toStr.ml" 328 9461 9487
+  int_ref c "src/toStr.ml" 331 9519 9544 "src/toStr.ml" 331 9519 9545
 )
-"src/toStr.ml" 328 9461 9506 "src/toStr.ml" 328 9461 9517
+"src/toStr.ml" 331 9519 9564 "src/toStr.ml" 331 9519 9575
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 328 9461 9492 "src/toStr.ml" 328 9461 9518
+"src/toStr.ml" 331 9519 9550 "src/toStr.ml" 331 9519 9576
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 329 9519 9538 "src/toStr.ml" 329 9519 9539
+"src/toStr.ml" 332 9577 9596 "src/toStr.ml" 332 9577 9597
 type(
   string
 )
-"src/toStr.ml" 329 9519 9529 "src/toStr.ml" 329 9519 9540
+"src/toStr.ml" 332 9577 9587 "src/toStr.ml" 332 9577 9598
 type(
   paramref
 )
-"src/toStr.ml" 329 9519 9544 "src/toStr.ml" 329 9519 9549
+"src/toStr.ml" 332 9577 9602 "src/toStr.ml" 332 9577 9607
 type(
   exn -> string
 )
 ident(
   ext_ref Pervasives.raise
 )
-"src/toStr.ml" 329 9519 9550 "src/toStr.ml" 329 9519 9566
+"src/toStr.ml" 332 9577 9608 "src/toStr.ml" 332 9577 9624
 type(
   exn
 )
-"src/toStr.ml" 329 9519 9544 "src/toStr.ml" 329 9519 9566
+"src/toStr.ml" 332 9577 9602 "src/toStr.ml" 332 9577 9624
 type(
   string
 )
-"src/toStr.ml" 327 9439 9447 "src/toStr.ml" 329 9519 9566
+"src/toStr.ml" 330 9497 9505 "src/toStr.ml" 332 9577 9624
 type(
   string
 )
-"src/toStr.ml" 331 9575 9585 "src/toStr.ml" 331 9575 9586
+"src/toStr.ml" 334 9633 9643 "src/toStr.ml" 334 9633 9644
 type(
   formula
 )
 ident(
-  def f "src/toStr.ml" 332 9599 9605 "src/toStr.ml" 333 9637 9730
+  def f "src/toStr.ml" 335 9657 9663 "src/toStr.ml" 336 9695 9788
 )
-"src/toStr.ml" 331 9575 9588 "src/toStr.ml" 331 9575 9590
+"src/toStr.ml" 334 9633 9646 "src/toStr.ml" 334 9633 9648
 type(
   exp
 )
 ident(
-  def e1 "src/toStr.ml" 332 9599 9605 "src/toStr.ml" 333 9637 9730
+  def e1 "src/toStr.ml" 335 9657 9663 "src/toStr.ml" 336 9695 9788
 )
-"src/toStr.ml" 331 9575 9592 "src/toStr.ml" 331 9575 9594
+"src/toStr.ml" 334 9633 9650 "src/toStr.ml" 334 9633 9652
 type(
   exp
 )
 ident(
-  def e2 "src/toStr.ml" 332 9599 9605 "src/toStr.ml" 333 9637 9730
+  def e2 "src/toStr.ml" 335 9657 9663 "src/toStr.ml" 336 9695 9788
 )
-"src/toStr.ml" 331 9575 9581 "src/toStr.ml" 331 9575 9595
+"src/toStr.ml" 334 9633 9639 "src/toStr.ml" 334 9633 9653
 type(
   exp
 )
-"src/toStr.ml" 332 9599 9609 "src/toStr.ml" 332 9599 9614
+"src/toStr.ml" 335 9657 9667 "src/toStr.ml" 335 9657 9672
 type(
   bool
 )
 ident(
-  def lower "src/toStr.ml" 333 9637 9643 "src/toStr.ml" 333 9637 9730
+  def lower "src/toStr.ml" 336 9695 9701 "src/toStr.ml" 336 9695 9788
 )
-"src/toStr.ml" 332 9599 9619 "src/toStr.ml" 332 9599 9632
+"src/toStr.ml" 335 9657 9677 "src/toStr.ml" 335 9657 9690
 type(
   bool ref
 )
 ident(
-  int_ref strc_to_lower "src/toStr.ml" 270 7477 7483 "src/toStr.ml" 270 7477 7496
+  int_ref strc_to_lower "src/toStr.ml" 273 7535 7541 "src/toStr.ml" 273 7535 7554
 )
-"src/toStr.ml" 332 9599 9618 "src/toStr.ml" 332 9599 9632
+"src/toStr.ml" 335 9657 9676 "src/toStr.ml" 335 9657 9690
 type(
   bool
 )
@@ -7031,7 +7031,7 @@ type(
 ident(
   ext_ref Pervasives.( ! )
 )
-"src/toStr.ml" 333 9637 9643 "src/toStr.ml" 333 9637 9650
+"src/toStr.ml" 336 9695 9701 "src/toStr.ml" 336 9695 9708
 type(
   (string -> string -> string -> string, unit, string) format ->
   string -> string -> string -> string
@@ -7039,228 +7039,228 @@ type(
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 333 9637 9651 "src/toStr.ml" 333 9637 9684
+"src/toStr.ml" 336 9695 9709 "src/toStr.ml" 336 9695 9742
 type(
   (string -> string -> string -> string, unit, string) format
 )
-"src/toStr.ml" 333 9637 9686 "src/toStr.ml" 333 9637 9694
+"src/toStr.ml" 336 9695 9744 "src/toStr.ml" 336 9695 9752
 type(
   ?lower:bool -> formula -> string
 )
 ident(
-  int_ref form_act "src/toStr.ml" 340 9944 9950 "src/toStr.ml" 340 9944 9958
+  int_ref form_act "src/toStr.ml" 343 10002 10008 "src/toStr.ml" 343 10002 10016
 )
-"src/toStr.ml" 333 9637 9695 "src/toStr.ml" 333 9637 9701
+"src/toStr.ml" 336 9695 9753 "src/toStr.ml" 336 9695 9759
 type(
   bool
 )
 ident(
-  int_ref lower "src/toStr.ml" 332 9599 9609 "src/toStr.ml" 332 9599 9614
+  int_ref lower "src/toStr.ml" 335 9657 9667 "src/toStr.ml" 335 9657 9672
 )
-"src/toStr.ml" 333 9637 9702 "src/toStr.ml" 333 9637 9703
+"src/toStr.ml" 336 9695 9760 "src/toStr.ml" 336 9695 9761
 type(
   formula
 )
 ident(
-  int_ref f "src/toStr.ml" 331 9575 9585 "src/toStr.ml" 331 9575 9586
+  int_ref f "src/toStr.ml" 334 9633 9643 "src/toStr.ml" 334 9633 9644
 )
-"src/toStr.ml" 333 9637 9686 "src/toStr.ml" 333 9637 9703
+"src/toStr.ml" 336 9695 9744 "src/toStr.ml" 336 9695 9761
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 333 9637 9706 "src/toStr.ml" 333 9637 9713
+"src/toStr.ml" 336 9695 9764 "src/toStr.ml" 336 9695 9771
 type(
   exp -> string
 )
 ident(
-  int_ref exp_act "src/toStr.ml" 322 9319 9329 "src/toStr.ml" 322 9319 9336
+  int_ref exp_act "src/toStr.ml" 325 9377 9387 "src/toStr.ml" 325 9377 9394
 )
-"src/toStr.ml" 333 9637 9714 "src/toStr.ml" 333 9637 9716
+"src/toStr.ml" 336 9695 9772 "src/toStr.ml" 336 9695 9774
 type(
   exp
 )
 ident(
-  int_ref e1 "src/toStr.ml" 331 9575 9588 "src/toStr.ml" 331 9575 9590
+  int_ref e1 "src/toStr.ml" 334 9633 9646 "src/toStr.ml" 334 9633 9648
 )
-"src/toStr.ml" 333 9637 9706 "src/toStr.ml" 333 9637 9716
+"src/toStr.ml" 336 9695 9764 "src/toStr.ml" 336 9695 9774
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 333 9637 9719 "src/toStr.ml" 333 9637 9726
+"src/toStr.ml" 336 9695 9777 "src/toStr.ml" 336 9695 9784
 type(
   exp -> string
 )
 ident(
-  int_ref exp_act "src/toStr.ml" 322 9319 9329 "src/toStr.ml" 322 9319 9336
+  int_ref exp_act "src/toStr.ml" 325 9377 9387 "src/toStr.ml" 325 9377 9394
 )
-"src/toStr.ml" 333 9637 9727 "src/toStr.ml" 333 9637 9729
+"src/toStr.ml" 336 9695 9785 "src/toStr.ml" 336 9695 9787
 type(
   exp
 )
 ident(
-  int_ref e2 "src/toStr.ml" 331 9575 9592 "src/toStr.ml" 331 9575 9594
+  int_ref e2 "src/toStr.ml" 334 9633 9650 "src/toStr.ml" 334 9633 9652
 )
-"src/toStr.ml" 333 9637 9719 "src/toStr.ml" 333 9637 9729
+"src/toStr.ml" 336 9695 9777 "src/toStr.ml" 336 9695 9787
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 333 9637 9643 "src/toStr.ml" 333 9637 9730
+"src/toStr.ml" 336 9695 9701 "src/toStr.ml" 336 9695 9788
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 332 9599 9605 "src/toStr.ml" 333 9637 9730
+"src/toStr.ml" 335 9657 9663 "src/toStr.ml" 336 9695 9788
 type(
   string
 )
-"src/toStr.ml" 334 9731 9741 "src/toStr.ml" 334 9731 9742
+"src/toStr.ml" 337 9789 9799 "src/toStr.ml" 337 9789 9800
 type(
   string
 )
 ident(
-  def n "src/toStr.ml" 334 9731 9751 "src/toStr.ml" 334 9731 9823
+  def n "src/toStr.ml" 337 9789 9809 "src/toStr.ml" 337 9789 9881
 )
-"src/toStr.ml" 334 9731 9744 "src/toStr.ml" 334 9731 9746
+"src/toStr.ml" 337 9789 9802 "src/toStr.ml" 337 9789 9804
 type(
   exp list
 )
 ident(
-  def el "src/toStr.ml" 334 9731 9751 "src/toStr.ml" 334 9731 9823
+  def el "src/toStr.ml" 337 9789 9809 "src/toStr.ml" 337 9789 9881
 )
-"src/toStr.ml" 334 9731 9737 "src/toStr.ml" 334 9731 9747
+"src/toStr.ml" 337 9789 9795 "src/toStr.ml" 337 9789 9805
 type(
   exp
 )
-"src/toStr.ml" 334 9731 9751 "src/toStr.ml" 334 9731 9758
+"src/toStr.ml" 337 9789 9809 "src/toStr.ml" 337 9789 9816
 type(
   (string -> string, unit, string) format -> string -> string
 )
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 334 9731 9759 "src/toStr.ml" 334 9731 9765
+"src/toStr.ml" 337 9789 9817 "src/toStr.ml" 337 9789 9823
 type(
   (string -> string, unit, string) format
 )
-"src/toStr.ml" 334 9731 9767 "src/toStr.ml" 334 9731 9780
+"src/toStr.ml" 337 9789 9825 "src/toStr.ml" 337 9789 9838
 type(
   ?sep:string -> string list -> string
 )
 ident(
   ext_ref Core.Std.String.concat
 )
-"src/toStr.ml" 334 9731 9787 "src/toStr.ml" 334 9731 9790
+"src/toStr.ml" 337 9789 9845 "src/toStr.ml" 337 9789 9848
 type(
   string
 )
-"src/toStr.ml" 334 9731 9790 "src/toStr.ml" 334 9731 9791
+"src/toStr.ml" 337 9789 9848 "src/toStr.ml" 337 9789 9849
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"src/toStr.ml" 334 9731 9791 "src/toStr.ml" 334 9731 9792
+"src/toStr.ml" 337 9789 9849 "src/toStr.ml" 337 9789 9850
 type(
   string
 )
 ident(
-  int_ref n "src/toStr.ml" 334 9731 9741 "src/toStr.ml" 334 9731 9742
+  int_ref n "src/toStr.ml" 337 9789 9799 "src/toStr.ml" 337 9789 9800
 )
-"src/toStr.ml" 334 9731 9792 "src/toStr.ml" 334 9731 9793
+"src/toStr.ml" 337 9789 9850 "src/toStr.ml" 337 9789 9851
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"src/toStr.ml" 334 9731 9793 "src/toStr.ml" 334 9731 9796
+"src/toStr.ml" 337 9789 9851 "src/toStr.ml" 337 9789 9854
 type(
   string
 )
-"src/toStr.ml" 334 9731 9791 "src/toStr.ml" 334 9731 9796
+"src/toStr.ml" 337 9789 9849 "src/toStr.ml" 337 9789 9854
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 334 9731 9787 "src/toStr.ml" 334 9731 9796
+"src/toStr.ml" 337 9789 9845 "src/toStr.ml" 337 9789 9854
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 334 9731 9799 "src/toStr.ml" 334 9731 9807
+"src/toStr.ml" 337 9789 9857 "src/toStr.ml" 337 9789 9865
 type(
   exp list -> f:(exp -> string) -> string list
 )
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 334 9731 9808 "src/toStr.ml" 334 9731 9810
+"src/toStr.ml" 337 9789 9866 "src/toStr.ml" 337 9789 9868
 type(
   exp list
 )
 ident(
-  int_ref el "src/toStr.ml" 334 9731 9744 "src/toStr.ml" 334 9731 9746
+  int_ref el "src/toStr.ml" 337 9789 9802 "src/toStr.ml" 337 9789 9804
 )
-"src/toStr.ml" 334 9731 9814 "src/toStr.ml" 334 9731 9821
+"src/toStr.ml" 337 9789 9872 "src/toStr.ml" 337 9789 9879
 type(
   exp -> string
 )
 ident(
-  int_ref exp_act "src/toStr.ml" 322 9319 9329 "src/toStr.ml" 322 9319 9336
+  int_ref exp_act "src/toStr.ml" 325 9377 9387 "src/toStr.ml" 325 9377 9394
 )
-"src/toStr.ml" 334 9731 9799 "src/toStr.ml" 334 9731 9821
+"src/toStr.ml" 337 9789 9857 "src/toStr.ml" 337 9789 9879
 call(
   stack
 )
 type(
   string list
 )
-"src/toStr.ml" 334 9731 9767 "src/toStr.ml" 334 9731 9822
+"src/toStr.ml" 337 9789 9825 "src/toStr.ml" 337 9789 9880
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 334 9731 9751 "src/toStr.ml" 334 9731 9823
+"src/toStr.ml" 337 9789 9809 "src/toStr.ml" 337 9789 9881
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 323 9343 9347 "src/toStr.ml" 334 9731 9823
+"src/toStr.ml" 326 9401 9405 "src/toStr.ml" 337 9789 9881
 type(
   string
 )
-"src/toStr.ml" 322 9319 9337 "src/toStr.ml" 334 9731 9823
+"src/toStr.ml" 325 9377 9395 "src/toStr.ml" 337 9789 9881
 type(
   exp -> string
 )
-"src/toStr.ml" 340 9944 9950 "src/toStr.ml" 340 9944 9958
+"src/toStr.ml" 343 10002 10008 "src/toStr.ml" 343 10002 10016
 type(
   ?lower:bool -> formula -> string
 )
 ident(
-  def form_act "src/toStr.ml" 322 9319 9321 "src/toStr.ml" 431 13441 13444
+  def form_act "src/toStr.ml" 325 9377 9379 "src/toStr.ml" 434 13499 13502
 )
-"src/toStr.ml" 340 9944 9967 "src/toStr.ml" 340 9944 9971
+"src/toStr.ml" 343 10002 10025 "src/toStr.ml" 343 10002 10029
 type(
   bool
 )
@@ -7268,7 +7268,7 @@ type(
   bool
 )
 ident(
-  int_ref *sth* "src/toStr.ml" 340 9944 9967 "src/toStr.ml" 340 9944 9971
+  int_ref *sth* "src/toStr.ml" 343 10002 10025 "src/toStr.ml" 343 10002 10029
 )
 type(
   bool option
@@ -7279,32 +7279,32 @@ type(
 type(
   bool
 )
-"src/toStr.ml" 340 9944 9959 "src/toStr.ml" 340 9944 9972
+"src/toStr.ml" 343 10002 10017 "src/toStr.ml" 343 10002 10030
 type(
   bool
 )
-"src/toStr.ml" 340 9944 9973 "src/toStr.ml" 340 9944 9977
+"src/toStr.ml" 343 10002 10031 "src/toStr.ml" 343 10002 10035
 type(
   formula
 )
 ident(
-  def form "src/toStr.ml" 341 9980 9984 "src/toStr.ml" 356 10599 10684
+  def form "src/toStr.ml" 344 10038 10042 "src/toStr.ml" 359 10657 10742
 )
-"src/toStr.ml" 341 9980 9984 "src/toStr.ml" 341 9980 9997
+"src/toStr.ml" 344 10038 10042 "src/toStr.ml" 344 10038 10055
 type(
   bool ref
 )
 ident(
-  int_ref strc_to_lower "src/toStr.ml" 270 7477 7483 "src/toStr.ml" 270 7477 7496
+  int_ref strc_to_lower "src/toStr.ml" 273 7535 7541 "src/toStr.ml" 273 7535 7554
 )
-"src/toStr.ml" 341 9980 10001 "src/toStr.ml" 341 9980 10006
+"src/toStr.ml" 344 10038 10059 "src/toStr.ml" 344 10038 10064
 type(
   bool
 )
 ident(
-  int_ref lower "src/toStr.ml" 340 9944 9959 "src/toStr.ml" 340 9944 9972
+  int_ref lower "src/toStr.ml" 343 10002 10017 "src/toStr.ml" 343 10002 10030
 )
-"src/toStr.ml" 341 9980 9984 "src/toStr.ml" 341 9980 10006
+"src/toStr.ml" 344 10038 10042 "src/toStr.ml" 344 10038 10064
 type(
   unit
 )
@@ -7314,133 +7314,133 @@ type(
 ident(
   ext_ref Pervasives.( := )
 )
-"src/toStr.ml" 342 10008 10018 "src/toStr.ml" 342 10008 10022
+"src/toStr.ml" 345 10066 10076 "src/toStr.ml" 345 10066 10080
 type(
   formula
 )
 ident(
-  int_ref form "src/toStr.ml" 340 9944 9973 "src/toStr.ml" 340 9944 9977
+  int_ref form "src/toStr.ml" 343 10002 10031 "src/toStr.ml" 343 10002 10035
 )
-"src/toStr.ml" 343 10028 10034 "src/toStr.ml" 343 10028 10039
+"src/toStr.ml" 346 10086 10092 "src/toStr.ml" 346 10086 10097
 type(
   formula
 )
-"src/toStr.ml" 343 10028 10043 "src/toStr.ml" 343 10028 10049
+"src/toStr.ml" 346 10086 10101 "src/toStr.ml" 346 10086 10107
 type(
   string
 )
-"src/toStr.ml" 344 10050 10056 "src/toStr.ml" 344 10050 10063
+"src/toStr.ml" 347 10108 10114 "src/toStr.ml" 347 10108 10121
 type(
   formula
 )
-"src/toStr.ml" 344 10050 10067 "src/toStr.ml" 344 10050 10074
+"src/toStr.ml" 347 10108 10125 "src/toStr.ml" 347 10108 10132
 type(
   string
 )
-"src/toStr.ml" 345 10075 10085 "src/toStr.ml" 345 10075 10086
+"src/toStr.ml" 348 10133 10143 "src/toStr.ml" 348 10133 10144
 type(
   string
 )
 ident(
-  def n "src/toStr.ml" 345 10075 10095 "src/toStr.ml" 345 10075 10157
+  def n "src/toStr.ml" 348 10133 10153 "src/toStr.ml" 348 10133 10215
 )
-"src/toStr.ml" 345 10075 10088 "src/toStr.ml" 345 10075 10090
+"src/toStr.ml" 348 10133 10146 "src/toStr.ml" 348 10133 10148
 type(
   exp list
 )
 ident(
-  def el "src/toStr.ml" 345 10075 10095 "src/toStr.ml" 345 10075 10157
+  def el "src/toStr.ml" 348 10133 10153 "src/toStr.ml" 348 10133 10215
 )
-"src/toStr.ml" 345 10075 10081 "src/toStr.ml" 345 10075 10091
+"src/toStr.ml" 348 10133 10139 "src/toStr.ml" 348 10133 10149
 type(
   formula
 )
-"src/toStr.ml" 345 10075 10095 "src/toStr.ml" 345 10075 10102
+"src/toStr.ml" 348 10133 10153 "src/toStr.ml" 348 10133 10160
 type(
   (string -> string, unit, string) format -> string -> string
 )
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 345 10075 10103 "src/toStr.ml" 345 10075 10109
+"src/toStr.ml" 348 10133 10161 "src/toStr.ml" 348 10133 10167
 type(
   (string -> string, unit, string) format
 )
-"src/toStr.ml" 345 10075 10111 "src/toStr.ml" 345 10075 10124
+"src/toStr.ml" 348 10133 10169 "src/toStr.ml" 348 10133 10182
 type(
   ?sep:string -> string list -> string
 )
 ident(
   ext_ref Core.Std.String.concat
 )
-"src/toStr.ml" 345 10075 10130 "src/toStr.ml" 345 10075 10131
+"src/toStr.ml" 348 10133 10188 "src/toStr.ml" 348 10133 10189
 type(
   string
 )
 ident(
-  int_ref n "src/toStr.ml" 345 10075 10085 "src/toStr.ml" 345 10075 10086
+  int_ref n "src/toStr.ml" 348 10133 10143 "src/toStr.ml" 348 10133 10144
 )
-"src/toStr.ml" 345 10075 10133 "src/toStr.ml" 345 10075 10141
+"src/toStr.ml" 348 10133 10191 "src/toStr.ml" 348 10133 10199
 type(
   exp list -> f:(exp -> string) -> string list
 )
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 345 10075 10142 "src/toStr.ml" 345 10075 10144
+"src/toStr.ml" 348 10133 10200 "src/toStr.ml" 348 10133 10202
 type(
   exp list
 )
 ident(
-  int_ref el "src/toStr.ml" 345 10075 10088 "src/toStr.ml" 345 10075 10090
+  int_ref el "src/toStr.ml" 348 10133 10146 "src/toStr.ml" 348 10133 10148
 )
-"src/toStr.ml" 345 10075 10148 "src/toStr.ml" 345 10075 10155
+"src/toStr.ml" 348 10133 10206 "src/toStr.ml" 348 10133 10213
 type(
   exp -> string
 )
 ident(
-  int_ref exp_act "src/toStr.ml" 322 9319 9329 "src/toStr.ml" 322 9319 9336
+  int_ref exp_act "src/toStr.ml" 325 9377 9387 "src/toStr.ml" 325 9377 9394
 )
-"src/toStr.ml" 345 10075 10133 "src/toStr.ml" 345 10075 10155
+"src/toStr.ml" 348 10133 10191 "src/toStr.ml" 348 10133 10213
 call(
   stack
 )
 type(
   string list
 )
-"src/toStr.ml" 345 10075 10111 "src/toStr.ml" 345 10075 10156
+"src/toStr.ml" 348 10133 10169 "src/toStr.ml" 348 10133 10214
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 345 10075 10095 "src/toStr.ml" 345 10075 10157
+"src/toStr.ml" 348 10133 10153 "src/toStr.ml" 348 10133 10215
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 346 10158 10168 "src/toStr.ml" 346 10158 10170
+"src/toStr.ml" 349 10216 10226 "src/toStr.ml" 349 10216 10228
 type(
   exp
 )
 ident(
-  def e1 "src/toStr.ml" 346 10158 10179 "src/toStr.ml" 346 10158 10224
+  def e1 "src/toStr.ml" 349 10216 10237 "src/toStr.ml" 349 10216 10282
 )
-"src/toStr.ml" 346 10158 10172 "src/toStr.ml" 346 10158 10174
+"src/toStr.ml" 349 10216 10230 "src/toStr.ml" 349 10216 10232
 type(
   exp
 )
 ident(
-  def e2 "src/toStr.ml" 346 10158 10179 "src/toStr.ml" 346 10158 10224
+  def e2 "src/toStr.ml" 349 10216 10237 "src/toStr.ml" 349 10216 10282
 )
-"src/toStr.ml" 346 10158 10164 "src/toStr.ml" 346 10158 10175
+"src/toStr.ml" 349 10216 10222 "src/toStr.ml" 349 10216 10233
 type(
   formula
 )
-"src/toStr.ml" 346 10158 10179 "src/toStr.ml" 346 10158 10186
+"src/toStr.ml" 349 10216 10237 "src/toStr.ml" 349 10216 10244
 type(
   (string -> string -> string, unit, string) format ->
   string -> string -> string
@@ -7448,202 +7448,202 @@ type(
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 346 10158 10187 "src/toStr.ml" 346 10158 10198
+"src/toStr.ml" 349 10216 10245 "src/toStr.ml" 349 10216 10256
 type(
   (string -> string -> string, unit, string) format
 )
-"src/toStr.ml" 346 10158 10200 "src/toStr.ml" 346 10158 10207
+"src/toStr.ml" 349 10216 10258 "src/toStr.ml" 349 10216 10265
 type(
   exp -> string
 )
 ident(
-  int_ref exp_act "src/toStr.ml" 322 9319 9329 "src/toStr.ml" 322 9319 9336
+  int_ref exp_act "src/toStr.ml" 325 9377 9387 "src/toStr.ml" 325 9377 9394
 )
-"src/toStr.ml" 346 10158 10208 "src/toStr.ml" 346 10158 10210
+"src/toStr.ml" 349 10216 10266 "src/toStr.ml" 349 10216 10268
 type(
   exp
 )
 ident(
-  int_ref e1 "src/toStr.ml" 346 10158 10168 "src/toStr.ml" 346 10158 10170
+  int_ref e1 "src/toStr.ml" 349 10216 10226 "src/toStr.ml" 349 10216 10228
 )
-"src/toStr.ml" 346 10158 10200 "src/toStr.ml" 346 10158 10210
+"src/toStr.ml" 349 10216 10258 "src/toStr.ml" 349 10216 10268
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 346 10158 10213 "src/toStr.ml" 346 10158 10220
+"src/toStr.ml" 349 10216 10271 "src/toStr.ml" 349 10216 10278
 type(
   exp -> string
 )
 ident(
-  int_ref exp_act "src/toStr.ml" 322 9319 9329 "src/toStr.ml" 322 9319 9336
+  int_ref exp_act "src/toStr.ml" 325 9377 9387 "src/toStr.ml" 325 9377 9394
 )
-"src/toStr.ml" 346 10158 10221 "src/toStr.ml" 346 10158 10223
+"src/toStr.ml" 349 10216 10279 "src/toStr.ml" 349 10216 10281
 type(
   exp
 )
 ident(
-  int_ref e2 "src/toStr.ml" 346 10158 10172 "src/toStr.ml" 346 10158 10174
+  int_ref e2 "src/toStr.ml" 349 10216 10230 "src/toStr.ml" 349 10216 10232
 )
-"src/toStr.ml" 346 10158 10213 "src/toStr.ml" 346 10158 10223
+"src/toStr.ml" 349 10216 10271 "src/toStr.ml" 349 10216 10281
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 346 10158 10179 "src/toStr.ml" 346 10158 10224
+"src/toStr.ml" 349 10216 10237 "src/toStr.ml" 349 10216 10282
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 347 10225 10235 "src/toStr.ml" 347 10225 10239
+"src/toStr.ml" 350 10283 10293 "src/toStr.ml" 350 10283 10297
 type(
   formula
 )
 ident(
-  def form "src/toStr.ml" 347 10225 10244 "src/toStr.ml" 347 10225 10282
+  def form "src/toStr.ml" 350 10283 10302 "src/toStr.ml" 350 10283 10340
 )
-"src/toStr.ml" 347 10225 10231 "src/toStr.ml" 347 10225 10240
+"src/toStr.ml" 350 10283 10289 "src/toStr.ml" 350 10283 10298
 type(
   formula
 )
-"src/toStr.ml" 347 10225 10244 "src/toStr.ml" 347 10225 10251
+"src/toStr.ml" 350 10283 10302 "src/toStr.ml" 350 10283 10309
 type(
   (string -> string, unit, string) format -> string -> string
 )
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 347 10225 10252 "src/toStr.ml" 347 10225 10259
+"src/toStr.ml" 350 10283 10310 "src/toStr.ml" 350 10283 10317
 type(
   (string -> string, unit, string) format
 )
-"src/toStr.ml" 347 10225 10261 "src/toStr.ml" 347 10225 10269
+"src/toStr.ml" 350 10283 10319 "src/toStr.ml" 350 10283 10327
 type(
   ?lower:bool -> formula -> string
 )
 ident(
-  int_ref form_act "src/toStr.ml" 340 9944 9950 "src/toStr.ml" 340 9944 9958
+  int_ref form_act "src/toStr.ml" 343 10002 10008 "src/toStr.ml" 343 10002 10016
 )
-"src/toStr.ml" 347 10225 10270 "src/toStr.ml" 347 10225 10276
+"src/toStr.ml" 350 10283 10328 "src/toStr.ml" 350 10283 10334
 type(
   bool
 )
 ident(
-  int_ref lower "src/toStr.ml" 340 9944 9959 "src/toStr.ml" 340 9944 9972
+  int_ref lower "src/toStr.ml" 343 10002 10017 "src/toStr.ml" 343 10002 10030
 )
-"src/toStr.ml" 347 10225 10277 "src/toStr.ml" 347 10225 10281
+"src/toStr.ml" 350 10283 10335 "src/toStr.ml" 350 10283 10339
 type(
   formula
 )
 ident(
-  int_ref form "src/toStr.ml" 347 10225 10235 "src/toStr.ml" 347 10225 10239
+  int_ref form "src/toStr.ml" 350 10283 10293 "src/toStr.ml" 350 10283 10297
 )
-"src/toStr.ml" 347 10225 10261 "src/toStr.ml" 347 10225 10281
+"src/toStr.ml" 350 10283 10319 "src/toStr.ml" 350 10283 10339
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 347 10225 10244 "src/toStr.ml" 347 10225 10282
+"src/toStr.ml" 350 10283 10302 "src/toStr.ml" 350 10283 10340
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 348 10283 10297 "src/toStr.ml" 348 10283 10299
+"src/toStr.ml" 351 10341 10355 "src/toStr.ml" 351 10341 10357
 type(
   formula list
 )
 ident(
-  def fl "src/toStr.ml" 349 10304 10310 "src/toStr.ml" 351 10417 10440
+  def fl "src/toStr.ml" 352 10362 10368 "src/toStr.ml" 354 10475 10498
 )
-"src/toStr.ml" 348 10283 10289 "src/toStr.ml" 348 10283 10300
+"src/toStr.ml" 351 10341 10347 "src/toStr.ml" 351 10341 10358
 type(
   formula
 )
-"src/toStr.ml" 349 10304 10310 "src/toStr.ml" 349 10304 10318
+"src/toStr.ml" 352 10362 10368 "src/toStr.ml" 352 10362 10376
 type(
   formula list -> f:(formula -> string) -> string list
 )
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 349 10304 10319 "src/toStr.ml" 349 10304 10321
+"src/toStr.ml" 352 10362 10377 "src/toStr.ml" 352 10362 10379
 type(
   formula list
 )
 ident(
-  int_ref fl "src/toStr.ml" 348 10283 10297 "src/toStr.ml" 348 10283 10299
+  int_ref fl "src/toStr.ml" 351 10341 10355 "src/toStr.ml" 351 10341 10357
 )
-"src/toStr.ml" 349 10304 10326 "src/toStr.ml" 349 10304 10334
+"src/toStr.ml" 352 10362 10384 "src/toStr.ml" 352 10362 10392
 type(
   ?lower:bool -> formula -> string
 )
 ident(
-  int_ref form_act "src/toStr.ml" 340 9944 9950 "src/toStr.ml" 340 9944 9958
+  int_ref form_act "src/toStr.ml" 343 10002 10008 "src/toStr.ml" 343 10002 10016
 )
-"src/toStr.ml" 349 10304 10335 "src/toStr.ml" 349 10304 10341
+"src/toStr.ml" 352 10362 10393 "src/toStr.ml" 352 10362 10399
 type(
   bool
 )
 ident(
-  int_ref lower "src/toStr.ml" 340 9944 9959 "src/toStr.ml" 340 9944 9972
+  int_ref lower "src/toStr.ml" 343 10002 10017 "src/toStr.ml" 343 10002 10030
 )
-"src/toStr.ml" 349 10304 10326 "src/toStr.ml" 349 10304 10341
+"src/toStr.ml" 352 10362 10384 "src/toStr.ml" 352 10362 10399
 call(
   stack
 )
 type(
   formula -> string
 )
-"src/toStr.ml" 349 10304 10310 "src/toStr.ml" 349 10304 10342
+"src/toStr.ml" 352 10362 10368 "src/toStr.ml" 352 10362 10400
 call(
   stack
 )
 type(
   string list
 )
-"src/toStr.ml" 350 10343 10349 "src/toStr.ml" 350 10343 10351
+"src/toStr.ml" 353 10401 10407 "src/toStr.ml" 353 10401 10409
 type(
   string list -> (string list -> string) -> string
 )
 ident(
   ext_ref Core.Std.( |> )
 )
-"src/toStr.ml" 350 10343 10352 "src/toStr.ml" 350 10343 10358
+"src/toStr.ml" 353 10401 10410 "src/toStr.ml" 353 10401 10416
 type(
   string list -> default:string -> f:(string -> string -> string) -> string
 )
 ident(
   ext_ref Utils.reduce
 )
-"src/toStr.ml" 350 10343 10368 "src/toStr.ml" 350 10343 10374
+"src/toStr.ml" 353 10401 10426 "src/toStr.ml" 353 10401 10432
 type(
   string
 )
-"src/toStr.ml" 350 10343 10383 "src/toStr.ml" 350 10343 10386
-type(
-  string
-)
-ident(
-  def res "src/toStr.ml" 350 10343 10387 "src/toStr.ml" 350 10343 10415
-)
-"src/toStr.ml" 350 10343 10387 "src/toStr.ml" 350 10343 10388
+"src/toStr.ml" 353 10401 10441 "src/toStr.ml" 353 10401 10444
 type(
   string
 )
 ident(
-  def x "src/toStr.ml" 350 10343 10392 "src/toStr.ml" 350 10343 10415
+  def res "src/toStr.ml" 353 10401 10445 "src/toStr.ml" 353 10401 10473
 )
-"src/toStr.ml" 350 10343 10392 "src/toStr.ml" 350 10343 10399
+"src/toStr.ml" 353 10401 10445 "src/toStr.ml" 353 10401 10446
+type(
+  string
+)
+ident(
+  def x "src/toStr.ml" 353 10401 10450 "src/toStr.ml" 353 10401 10473
+)
+"src/toStr.ml" 353 10401 10450 "src/toStr.ml" 353 10401 10457
 type(
   (string -> string -> string, unit, string) format ->
   string -> string -> string
@@ -7651,171 +7651,171 @@ type(
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 350 10343 10400 "src/toStr.ml" 350 10343 10409
+"src/toStr.ml" 353 10401 10458 "src/toStr.ml" 353 10401 10467
 type(
   (string -> string -> string, unit, string) format
 )
-"src/toStr.ml" 350 10343 10410 "src/toStr.ml" 350 10343 10413
+"src/toStr.ml" 353 10401 10468 "src/toStr.ml" 353 10401 10471
 type(
   string
 )
 ident(
-  int_ref res "src/toStr.ml" 350 10343 10383 "src/toStr.ml" 350 10343 10386
+  int_ref res "src/toStr.ml" 353 10401 10441 "src/toStr.ml" 353 10401 10444
 )
-"src/toStr.ml" 350 10343 10414 "src/toStr.ml" 350 10343 10415
+"src/toStr.ml" 353 10401 10472 "src/toStr.ml" 353 10401 10473
 type(
   string
 )
 ident(
-  int_ref x "src/toStr.ml" 350 10343 10387 "src/toStr.ml" 350 10343 10388
+  int_ref x "src/toStr.ml" 353 10401 10445 "src/toStr.ml" 353 10401 10446
 )
-"src/toStr.ml" 350 10343 10392 "src/toStr.ml" 350 10343 10415
+"src/toStr.ml" 353 10401 10450 "src/toStr.ml" 353 10401 10473
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 350 10343 10387 "src/toStr.ml" 350 10343 10415
+"src/toStr.ml" 353 10401 10445 "src/toStr.ml" 353 10401 10473
 type(
   string -> string
 )
-"src/toStr.ml" 350 10343 10383 "src/toStr.ml" 350 10343 10415
+"src/toStr.ml" 353 10401 10441 "src/toStr.ml" 353 10401 10473
 type(
   string -> string -> string
 )
-"src/toStr.ml" 350 10343 10352 "src/toStr.ml" 350 10343 10416
+"src/toStr.ml" 353 10401 10410 "src/toStr.ml" 353 10401 10474
 call(
   tail
 )
 type(
   string list -> string
 )
-"src/toStr.ml" 349 10304 10310 "src/toStr.ml" 350 10343 10416
+"src/toStr.ml" 352 10362 10368 "src/toStr.ml" 353 10401 10474
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 351 10417 10423 "src/toStr.ml" 351 10417 10425
+"src/toStr.ml" 354 10475 10481 "src/toStr.ml" 354 10475 10483
 type(
   string -> (string -> string) -> string
 )
 ident(
   ext_ref Core.Std.( |> )
 )
-"src/toStr.ml" 351 10417 10426 "src/toStr.ml" 351 10417 10433
+"src/toStr.ml" 354 10475 10484 "src/toStr.ml" 354 10475 10491
 type(
   (string -> string, unit, string) format -> string -> string
 )
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 351 10417 10434 "src/toStr.ml" 351 10417 10440
+"src/toStr.ml" 354 10475 10492 "src/toStr.ml" 354 10475 10498
 type(
   (string -> string, unit, string) format
 )
-"src/toStr.ml" 351 10417 10426 "src/toStr.ml" 351 10417 10440
+"src/toStr.ml" 354 10475 10484 "src/toStr.ml" 354 10475 10498
 call(
   stack
 )
 type(
   string -> string
 )
-"src/toStr.ml" 349 10304 10310 "src/toStr.ml" 351 10417 10440
+"src/toStr.ml" 352 10362 10368 "src/toStr.ml" 354 10475 10498
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 352 10441 10454 "src/toStr.ml" 352 10441 10456
+"src/toStr.ml" 355 10499 10512 "src/toStr.ml" 355 10499 10514
 type(
   formula list
 )
 ident(
-  def fl "src/toStr.ml" 353 10461 10467 "src/toStr.ml" 355 10575 10598
+  def fl "src/toStr.ml" 356 10519 10525 "src/toStr.ml" 358 10633 10656
 )
-"src/toStr.ml" 352 10441 10447 "src/toStr.ml" 352 10441 10457
+"src/toStr.ml" 355 10499 10505 "src/toStr.ml" 355 10499 10515
 type(
   formula
 )
-"src/toStr.ml" 353 10461 10467 "src/toStr.ml" 353 10461 10475
+"src/toStr.ml" 356 10519 10525 "src/toStr.ml" 356 10519 10533
 type(
   formula list -> f:(formula -> string) -> string list
 )
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 353 10461 10476 "src/toStr.ml" 353 10461 10478
+"src/toStr.ml" 356 10519 10534 "src/toStr.ml" 356 10519 10536
 type(
   formula list
 )
 ident(
-  int_ref fl "src/toStr.ml" 352 10441 10454 "src/toStr.ml" 352 10441 10456
+  int_ref fl "src/toStr.ml" 355 10499 10512 "src/toStr.ml" 355 10499 10514
 )
-"src/toStr.ml" 353 10461 10483 "src/toStr.ml" 353 10461 10491
+"src/toStr.ml" 356 10519 10541 "src/toStr.ml" 356 10519 10549
 type(
   ?lower:bool -> formula -> string
 )
 ident(
-  int_ref form_act "src/toStr.ml" 340 9944 9950 "src/toStr.ml" 340 9944 9958
+  int_ref form_act "src/toStr.ml" 343 10002 10008 "src/toStr.ml" 343 10002 10016
 )
-"src/toStr.ml" 353 10461 10492 "src/toStr.ml" 353 10461 10498
+"src/toStr.ml" 356 10519 10550 "src/toStr.ml" 356 10519 10556
 type(
   bool
 )
 ident(
-  int_ref lower "src/toStr.ml" 340 9944 9959 "src/toStr.ml" 340 9944 9972
+  int_ref lower "src/toStr.ml" 343 10002 10017 "src/toStr.ml" 343 10002 10030
 )
-"src/toStr.ml" 353 10461 10483 "src/toStr.ml" 353 10461 10498
+"src/toStr.ml" 356 10519 10541 "src/toStr.ml" 356 10519 10556
 call(
   stack
 )
 type(
   formula -> string
 )
-"src/toStr.ml" 353 10461 10467 "src/toStr.ml" 353 10461 10499
+"src/toStr.ml" 356 10519 10525 "src/toStr.ml" 356 10519 10557
 call(
   stack
 )
 type(
   string list
 )
-"src/toStr.ml" 354 10500 10506 "src/toStr.ml" 354 10500 10508
+"src/toStr.ml" 357 10558 10564 "src/toStr.ml" 357 10558 10566
 type(
   string list -> (string list -> string) -> string
 )
 ident(
   ext_ref Core.Std.( |> )
 )
-"src/toStr.ml" 354 10500 10509 "src/toStr.ml" 354 10500 10515
+"src/toStr.ml" 357 10558 10567 "src/toStr.ml" 357 10558 10573
 type(
   string list -> default:string -> f:(string -> string -> string) -> string
 )
 ident(
   ext_ref Utils.reduce
 )
-"src/toStr.ml" 354 10500 10525 "src/toStr.ml" 354 10500 10532
+"src/toStr.ml" 357 10558 10583 "src/toStr.ml" 357 10558 10590
 type(
   string
 )
-"src/toStr.ml" 354 10500 10541 "src/toStr.ml" 354 10500 10544
-type(
-  string
-)
-ident(
-  def res "src/toStr.ml" 354 10500 10545 "src/toStr.ml" 354 10500 10573
-)
-"src/toStr.ml" 354 10500 10545 "src/toStr.ml" 354 10500 10546
+"src/toStr.ml" 357 10558 10599 "src/toStr.ml" 357 10558 10602
 type(
   string
 )
 ident(
-  def x "src/toStr.ml" 354 10500 10550 "src/toStr.ml" 354 10500 10573
+  def res "src/toStr.ml" 357 10558 10603 "src/toStr.ml" 357 10558 10631
 )
-"src/toStr.ml" 354 10500 10550 "src/toStr.ml" 354 10500 10557
+"src/toStr.ml" 357 10558 10603 "src/toStr.ml" 357 10558 10604
+type(
+  string
+)
+ident(
+  def x "src/toStr.ml" 357 10558 10608 "src/toStr.ml" 357 10558 10631
+)
+"src/toStr.ml" 357 10558 10608 "src/toStr.ml" 357 10558 10615
 type(
   (string -> string -> string, unit, string) format ->
   string -> string -> string
@@ -7823,104 +7823,104 @@ type(
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 354 10500 10558 "src/toStr.ml" 354 10500 10567
+"src/toStr.ml" 357 10558 10616 "src/toStr.ml" 357 10558 10625
 type(
   (string -> string -> string, unit, string) format
 )
-"src/toStr.ml" 354 10500 10568 "src/toStr.ml" 354 10500 10571
+"src/toStr.ml" 357 10558 10626 "src/toStr.ml" 357 10558 10629
 type(
   string
 )
 ident(
-  int_ref res "src/toStr.ml" 354 10500 10541 "src/toStr.ml" 354 10500 10544
+  int_ref res "src/toStr.ml" 357 10558 10599 "src/toStr.ml" 357 10558 10602
 )
-"src/toStr.ml" 354 10500 10572 "src/toStr.ml" 354 10500 10573
+"src/toStr.ml" 357 10558 10630 "src/toStr.ml" 357 10558 10631
 type(
   string
 )
 ident(
-  int_ref x "src/toStr.ml" 354 10500 10545 "src/toStr.ml" 354 10500 10546
+  int_ref x "src/toStr.ml" 357 10558 10603 "src/toStr.ml" 357 10558 10604
 )
-"src/toStr.ml" 354 10500 10550 "src/toStr.ml" 354 10500 10573
+"src/toStr.ml" 357 10558 10608 "src/toStr.ml" 357 10558 10631
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 354 10500 10545 "src/toStr.ml" 354 10500 10573
+"src/toStr.ml" 357 10558 10603 "src/toStr.ml" 357 10558 10631
 type(
   string -> string
 )
-"src/toStr.ml" 354 10500 10541 "src/toStr.ml" 354 10500 10573
+"src/toStr.ml" 357 10558 10599 "src/toStr.ml" 357 10558 10631
 type(
   string -> string -> string
 )
-"src/toStr.ml" 354 10500 10509 "src/toStr.ml" 354 10500 10574
+"src/toStr.ml" 357 10558 10567 "src/toStr.ml" 357 10558 10632
 call(
   tail
 )
 type(
   string list -> string
 )
-"src/toStr.ml" 353 10461 10467 "src/toStr.ml" 354 10500 10574
+"src/toStr.ml" 356 10519 10525 "src/toStr.ml" 357 10558 10632
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 355 10575 10581 "src/toStr.ml" 355 10575 10583
+"src/toStr.ml" 358 10633 10639 "src/toStr.ml" 358 10633 10641
 type(
   string -> (string -> string) -> string
 )
 ident(
   ext_ref Core.Std.( |> )
 )
-"src/toStr.ml" 355 10575 10584 "src/toStr.ml" 355 10575 10591
+"src/toStr.ml" 358 10633 10642 "src/toStr.ml" 358 10633 10649
 type(
   (string -> string, unit, string) format -> string -> string
 )
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 355 10575 10592 "src/toStr.ml" 355 10575 10598
+"src/toStr.ml" 358 10633 10650 "src/toStr.ml" 358 10633 10656
 type(
   (string -> string, unit, string) format
 )
-"src/toStr.ml" 355 10575 10584 "src/toStr.ml" 355 10575 10598
+"src/toStr.ml" 358 10633 10642 "src/toStr.ml" 358 10633 10656
 call(
   stack
 )
 type(
   string -> string
 )
-"src/toStr.ml" 353 10461 10467 "src/toStr.ml" 355 10575 10598
+"src/toStr.ml" 356 10519 10525 "src/toStr.ml" 358 10633 10656
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 356 10599 10611 "src/toStr.ml" 356 10599 10613
+"src/toStr.ml" 359 10657 10669 "src/toStr.ml" 359 10657 10671
 type(
   formula
 )
 ident(
-  def f1 "src/toStr.ml" 356 10599 10622 "src/toStr.ml" 356 10599 10684
+  def f1 "src/toStr.ml" 359 10657 10680 "src/toStr.ml" 359 10657 10742
 )
-"src/toStr.ml" 356 10599 10615 "src/toStr.ml" 356 10599 10617
+"src/toStr.ml" 359 10657 10673 "src/toStr.ml" 359 10657 10675
 type(
   formula
 )
 ident(
-  def f2 "src/toStr.ml" 356 10599 10622 "src/toStr.ml" 356 10599 10684
+  def f2 "src/toStr.ml" 359 10657 10680 "src/toStr.ml" 359 10657 10742
 )
-"src/toStr.ml" 356 10599 10605 "src/toStr.ml" 356 10599 10618
+"src/toStr.ml" 359 10657 10663 "src/toStr.ml" 359 10657 10676
 type(
   formula
 )
-"src/toStr.ml" 356 10599 10622 "src/toStr.ml" 356 10599 10629
+"src/toStr.ml" 359 10657 10680 "src/toStr.ml" 359 10657 10687
 type(
   (string -> string -> string, unit, string) format ->
   string -> string -> string
@@ -7928,86 +7928,86 @@ type(
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 356 10599 10630 "src/toStr.ml" 356 10599 10642
+"src/toStr.ml" 359 10657 10688 "src/toStr.ml" 359 10657 10700
 type(
   (string -> string -> string, unit, string) format
 )
-"src/toStr.ml" 356 10599 10644 "src/toStr.ml" 356 10599 10652
+"src/toStr.ml" 359 10657 10702 "src/toStr.ml" 359 10657 10710
 type(
   ?lower:bool -> formula -> string
 )
 ident(
-  int_ref form_act "src/toStr.ml" 340 9944 9950 "src/toStr.ml" 340 9944 9958
+  int_ref form_act "src/toStr.ml" 343 10002 10008 "src/toStr.ml" 343 10002 10016
 )
-"src/toStr.ml" 356 10599 10653 "src/toStr.ml" 356 10599 10659
+"src/toStr.ml" 359 10657 10711 "src/toStr.ml" 359 10657 10717
 type(
   bool
 )
 ident(
-  int_ref lower "src/toStr.ml" 340 9944 9959 "src/toStr.ml" 340 9944 9972
+  int_ref lower "src/toStr.ml" 343 10002 10017 "src/toStr.ml" 343 10002 10030
 )
-"src/toStr.ml" 356 10599 10660 "src/toStr.ml" 356 10599 10662
+"src/toStr.ml" 359 10657 10718 "src/toStr.ml" 359 10657 10720
 type(
   formula
 )
 ident(
-  int_ref f1 "src/toStr.ml" 356 10599 10611 "src/toStr.ml" 356 10599 10613
+  int_ref f1 "src/toStr.ml" 359 10657 10669 "src/toStr.ml" 359 10657 10671
 )
-"src/toStr.ml" 356 10599 10644 "src/toStr.ml" 356 10599 10662
+"src/toStr.ml" 359 10657 10702 "src/toStr.ml" 359 10657 10720
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 356 10599 10665 "src/toStr.ml" 356 10599 10673
+"src/toStr.ml" 359 10657 10723 "src/toStr.ml" 359 10657 10731
 type(
   ?lower:bool -> formula -> string
 )
 ident(
-  int_ref form_act "src/toStr.ml" 340 9944 9950 "src/toStr.ml" 340 9944 9958
+  int_ref form_act "src/toStr.ml" 343 10002 10008 "src/toStr.ml" 343 10002 10016
 )
-"src/toStr.ml" 356 10599 10674 "src/toStr.ml" 356 10599 10680
+"src/toStr.ml" 359 10657 10732 "src/toStr.ml" 359 10657 10738
 type(
   bool
 )
 ident(
-  int_ref lower "src/toStr.ml" 340 9944 9959 "src/toStr.ml" 340 9944 9972
+  int_ref lower "src/toStr.ml" 343 10002 10017 "src/toStr.ml" 343 10002 10030
 )
-"src/toStr.ml" 356 10599 10681 "src/toStr.ml" 356 10599 10683
+"src/toStr.ml" 359 10657 10739 "src/toStr.ml" 359 10657 10741
 type(
   formula
 )
 ident(
-  int_ref f2 "src/toStr.ml" 356 10599 10615 "src/toStr.ml" 356 10599 10617
+  int_ref f2 "src/toStr.ml" 359 10657 10673 "src/toStr.ml" 359 10657 10675
 )
-"src/toStr.ml" 356 10599 10665 "src/toStr.ml" 356 10599 10683
+"src/toStr.ml" 359 10657 10723 "src/toStr.ml" 359 10657 10741
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 356 10599 10622 "src/toStr.ml" 356 10599 10684
+"src/toStr.ml" 359 10657 10680 "src/toStr.ml" 359 10657 10742
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 342 10008 10012 "src/toStr.ml" 356 10599 10684
+"src/toStr.ml" 345 10066 10070 "src/toStr.ml" 359 10657 10742
 type(
   string
 )
-"src/toStr.ml" 341 9980 9984 "src/toStr.ml" 356 10599 10684
+"src/toStr.ml" 344 10038 10042 "src/toStr.ml" 359 10657 10742
 type(
   string
 )
-"src/toStr.ml" 340 9944 9973 "src/toStr.ml" 356 10599 10684
+"src/toStr.ml" 343 10002 10031 "src/toStr.ml" 359 10657 10742
 type(
   formula -> string
 )
-"src/toStr.ml" 340 9944 9959 "src/toStr.ml" 356 10599 10684
+"src/toStr.ml" 343 10002 10017 "src/toStr.ml" 359 10657 10742
 type(
   ?lower:bool -> formula -> string
 )
@@ -8021,19 +8021,19 @@ type(
   bool option
 )
 ident(
-  int_ref *opt* "src/toStr.ml" 340 9944 9959 "src/toStr.ml" 356 10599 10684
+  int_ref *opt* "src/toStr.ml" 343 10002 10017 "src/toStr.ml" 359 10657 10742
 )
 type(
   bool option
 )
-"src/toStr.ml" 358 10686 10696 "src/toStr.ml" 358 10686 10709
+"src/toStr.ml" 361 10744 10754 "src/toStr.ml" 361 10744 10767
 type(
   ?is_init:bool -> statement -> string -> string
 )
 ident(
-  def statement_act "src/toStr.ml" 358 10686 10688 "src/toStr.ml" 431 13441 13444
+  def statement_act "src/toStr.ml" 361 10744 10746 "src/toStr.ml" 434 13499 13502
 )
-"src/toStr.ml" 358 10686 10720 "src/toStr.ml" 358 10686 10725
+"src/toStr.ml" 361 10744 10778 "src/toStr.ml" 361 10744 10783
 type(
   bool
 )
@@ -8041,7 +8041,7 @@ type(
   bool
 )
 ident(
-  int_ref *sth* "src/toStr.ml" 358 10686 10720 "src/toStr.ml" 358 10686 10725
+  int_ref *sth* "src/toStr.ml" 361 10744 10778 "src/toStr.ml" 361 10744 10783
 )
 type(
   bool option
@@ -8052,113 +8052,113 @@ type(
 type(
   bool
 )
-"src/toStr.ml" 358 10686 10710 "src/toStr.ml" 358 10686 10726
+"src/toStr.ml" 361 10744 10768 "src/toStr.ml" 361 10744 10784
 type(
   bool
 )
-"src/toStr.ml" 358 10686 10727 "src/toStr.ml" 358 10686 10728
+"src/toStr.ml" 361 10744 10785 "src/toStr.ml" 361 10744 10786
 type(
   statement
 )
 ident(
-  def s "src/toStr.ml" 358 10686 10729 "src/toStr.ml" 372 11220 11229
+  def s "src/toStr.ml" 361 10744 10787 "src/toStr.ml" 375 11278 11287
 )
-"src/toStr.ml" 358 10686 10729 "src/toStr.ml" 358 10686 10733
+"src/toStr.ml" 361 10744 10787 "src/toStr.ml" 361 10744 10791
 type(
   string
 )
 ident(
-  def fstr "src/toStr.ml" 359 10736 10740 "src/toStr.ml" 372 11220 11229
+  def fstr "src/toStr.ml" 362 10794 10798 "src/toStr.ml" 375 11278 11287
 )
-"src/toStr.ml" 359 10736 10746 "src/toStr.ml" 359 10736 10747
+"src/toStr.ml" 362 10794 10804 "src/toStr.ml" 362 10794 10805
 type(
   statement
 )
 ident(
-  int_ref s "src/toStr.ml" 358 10686 10727 "src/toStr.ml" 358 10686 10728
+  int_ref s "src/toStr.ml" 361 10744 10785 "src/toStr.ml" 361 10744 10786
 )
-"src/toStr.ml" 360 10753 10766 "src/toStr.ml" 360 10753 10767
+"src/toStr.ml" 363 10811 10824 "src/toStr.ml" 363 10811 10825
 type(
   var
 )
 ident(
-  def v "src/toStr.ml" 361 10775 10781 "src/toStr.ml" 367 11051 11060
+  def v "src/toStr.ml" 364 10833 10839 "src/toStr.ml" 370 11109 11118
 )
-"src/toStr.ml" 360 10753 10769 "src/toStr.ml" 360 10753 10770
+"src/toStr.ml" 363 10811 10827 "src/toStr.ml" 363 10811 10828
 type(
   exp
 )
 ident(
-  def e "src/toStr.ml" 361 10775 10781 "src/toStr.ml" 367 11051 11060
+  def e "src/toStr.ml" 364 10833 10839 "src/toStr.ml" 370 11109 11118
 )
-"src/toStr.ml" 360 10753 10759 "src/toStr.ml" 360 10753 10771
+"src/toStr.ml" 363 10811 10817 "src/toStr.ml" 363 10811 10829
 type(
   statement
 )
-"src/toStr.ml" 361 10775 10785 "src/toStr.ml" 361 10775 10792
+"src/toStr.ml" 364 10833 10843 "src/toStr.ml" 364 10833 10850
 type(
   string
 )
 ident(
-  def var_str "src/toStr.ml" 362 10808 10814 "src/toStr.ml" 367 11051 11060
+  def var_str "src/toStr.ml" 365 10866 10872 "src/toStr.ml" 370 11109 11118
 )
-"src/toStr.ml" 361 10775 10795 "src/toStr.ml" 361 10775 10802
+"src/toStr.ml" 364 10833 10853 "src/toStr.ml" 364 10833 10860
 type(
   var -> string
 )
 ident(
-  int_ref var_act "src/toStr.ml" 313 9060 9066 "src/toStr.ml" 313 9060 9073
+  int_ref var_act "src/toStr.ml" 316 9118 9124 "src/toStr.ml" 316 9118 9131
 )
-"src/toStr.ml" 361 10775 10803 "src/toStr.ml" 361 10775 10804
+"src/toStr.ml" 364 10833 10861 "src/toStr.ml" 364 10833 10862
 type(
   var
 )
 ident(
-  int_ref v "src/toStr.ml" 360 10753 10766 "src/toStr.ml" 360 10753 10767
+  int_ref v "src/toStr.ml" 363 10811 10824 "src/toStr.ml" 363 10811 10825
 )
-"src/toStr.ml" 361 10775 10795 "src/toStr.ml" 361 10775 10804
+"src/toStr.ml" 364 10833 10853 "src/toStr.ml" 364 10833 10862
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 362 10808 10818 "src/toStr.ml" 362 10808 10825
+"src/toStr.ml" 365 10866 10876 "src/toStr.ml" 365 10866 10883
 type(
   string
 )
 ident(
-  def exp_str "src/toStr.ml" 363 10841 10847 "src/toStr.ml" 367 11051 11060
+  def exp_str "src/toStr.ml" 366 10899 10905 "src/toStr.ml" 370 11109 11118
 )
-"src/toStr.ml" 362 10808 10828 "src/toStr.ml" 362 10808 10835
+"src/toStr.ml" 365 10866 10886 "src/toStr.ml" 365 10866 10893
 type(
   exp -> string
 )
 ident(
-  int_ref exp_act "src/toStr.ml" 322 9319 9329 "src/toStr.ml" 322 9319 9336
+  int_ref exp_act "src/toStr.ml" 325 9377 9387 "src/toStr.ml" 325 9377 9394
 )
-"src/toStr.ml" 362 10808 10836 "src/toStr.ml" 362 10808 10837
+"src/toStr.ml" 365 10866 10894 "src/toStr.ml" 365 10866 10895
 type(
   exp
 )
 ident(
-  int_ref e "src/toStr.ml" 360 10753 10769 "src/toStr.ml" 360 10753 10770
+  int_ref e "src/toStr.ml" 363 10811 10827 "src/toStr.ml" 363 10811 10828
 )
-"src/toStr.ml" 362 10808 10828 "src/toStr.ml" 362 10808 10837
+"src/toStr.ml" 365 10866 10886 "src/toStr.ml" 365 10866 10895
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 363 10841 10850 "src/toStr.ml" 363 10841 10857
+"src/toStr.ml" 366 10899 10908 "src/toStr.ml" 366 10899 10915
 type(
   bool
 )
 ident(
-  int_ref is_init "src/toStr.ml" 358 10686 10710 "src/toStr.ml" 358 10686 10726
+  int_ref is_init "src/toStr.ml" 361 10744 10768 "src/toStr.ml" 361 10744 10784
 )
-"src/toStr.ml" 364 10863 10871 "src/toStr.ml" 364 10863 10878
+"src/toStr.ml" 367 10921 10929 "src/toStr.ml" 367 10921 10936
 type(
   (string -> string -> string, unit, string) format ->
   string -> string -> string
@@ -8166,32 +8166,32 @@ type(
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 364 10863 10879 "src/toStr.ml" 364 10863 10918
+"src/toStr.ml" 367 10921 10937 "src/toStr.ml" 367 10921 10976
 type(
   (string -> string -> string, unit, string) format
 )
-"src/toStr.ml" 364 10863 10919 "src/toStr.ml" 364 10863 10926
+"src/toStr.ml" 367 10921 10977 "src/toStr.ml" 367 10921 10984
 type(
   string
 )
 ident(
-  int_ref var_str "src/toStr.ml" 361 10775 10785 "src/toStr.ml" 361 10775 10792
+  int_ref var_str "src/toStr.ml" 364 10833 10843 "src/toStr.ml" 364 10833 10850
 )
-"src/toStr.ml" 364 10863 10927 "src/toStr.ml" 364 10863 10934
+"src/toStr.ml" 367 10921 10985 "src/toStr.ml" 367 10921 10992
 type(
   string
 )
 ident(
-  int_ref exp_str "src/toStr.ml" 362 10808 10818 "src/toStr.ml" 362 10808 10825
+  int_ref exp_str "src/toStr.ml" 365 10866 10876 "src/toStr.ml" 365 10866 10883
 )
-"src/toStr.ml" 364 10863 10871 "src/toStr.ml" 364 10863 10934
+"src/toStr.ml" 367 10921 10929 "src/toStr.ml" 367 10921 10992
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 366 10952 10960 "src/toStr.ml" 366 10952 10967
+"src/toStr.ml" 369 11010 11018 "src/toStr.ml" 369 11010 11025
 type(
   (string -> string -> string -> string -> string, unit, string) format ->
   string -> string -> string -> string -> string
@@ -8199,210 +8199,210 @@ type(
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 366 10952 10968 "src/toStr.ml" 366 10952 11021
+"src/toStr.ml" 369 11010 11026 "src/toStr.ml" 369 11010 11079
 type(
   (string -> string -> string -> string -> string, unit, string) format
 )
-"src/toStr.ml" 366 10952 11022 "src/toStr.ml" 366 10952 11029
+"src/toStr.ml" 369 11010 11080 "src/toStr.ml" 369 11010 11087
 type(
   string
 )
 ident(
-  int_ref var_str "src/toStr.ml" 361 10775 10785 "src/toStr.ml" 361 10775 10792
+  int_ref var_str "src/toStr.ml" 364 10833 10843 "src/toStr.ml" 364 10833 10850
 )
-"src/toStr.ml" 366 10952 11030 "src/toStr.ml" 366 10952 11034
+"src/toStr.ml" 369 11010 11088 "src/toStr.ml" 369 11010 11092
 type(
   string
 )
 ident(
-  int_ref fstr "src/toStr.ml" 358 10686 10729 "src/toStr.ml" 358 10686 10733
+  int_ref fstr "src/toStr.ml" 361 10744 10787 "src/toStr.ml" 361 10744 10791
 )
-"src/toStr.ml" 366 10952 11035 "src/toStr.ml" 366 10952 11042
+"src/toStr.ml" 369 11010 11093 "src/toStr.ml" 369 11010 11100
 type(
   string
 )
 ident(
-  int_ref exp_str "src/toStr.ml" 362 10808 10818 "src/toStr.ml" 362 10808 10825
+  int_ref exp_str "src/toStr.ml" 365 10866 10876 "src/toStr.ml" 365 10866 10883
 )
-"src/toStr.ml" 366 10952 11043 "src/toStr.ml" 366 10952 11050
+"src/toStr.ml" 369 11010 11101 "src/toStr.ml" 369 11010 11108
 type(
   string
 )
 ident(
-  int_ref var_str "src/toStr.ml" 361 10775 10785 "src/toStr.ml" 361 10775 10792
+  int_ref var_str "src/toStr.ml" 364 10833 10843 "src/toStr.ml" 364 10833 10850
 )
-"src/toStr.ml" 366 10952 10960 "src/toStr.ml" 366 10952 11050
+"src/toStr.ml" 369 11010 11018 "src/toStr.ml" 369 11010 11108
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 363 10841 10847 "src/toStr.ml" 367 11051 11060
+"src/toStr.ml" 366 10899 10905 "src/toStr.ml" 370 11109 11118
 type(
   string
 )
-"src/toStr.ml" 362 10808 10814 "src/toStr.ml" 367 11051 11060
+"src/toStr.ml" 365 10866 10872 "src/toStr.ml" 370 11109 11118
 type(
   string
 )
-"src/toStr.ml" 361 10775 10781 "src/toStr.ml" 367 11051 11060
+"src/toStr.ml" 364 10833 10839 "src/toStr.ml" 370 11109 11118
 type(
   string
 )
-"src/toStr.ml" 368 11061 11076 "src/toStr.ml" 368 11061 11078
+"src/toStr.ml" 371 11119 11134 "src/toStr.ml" 371 11119 11136
 type(
   statement list
 )
 ident(
-  def ss "src/toStr.ml" 369 11083 11089 "src/toStr.ml" 372 11220 11229
+  def ss "src/toStr.ml" 372 11141 11147 "src/toStr.ml" 375 11278 11287
 )
-"src/toStr.ml" 368 11061 11067 "src/toStr.ml" 368 11061 11079
+"src/toStr.ml" 371 11119 11125 "src/toStr.ml" 371 11119 11137
 type(
   statement
 )
-"src/toStr.ml" 369 11083 11092 "src/toStr.ml" 369 11083 11094
+"src/toStr.ml" 372 11141 11150 "src/toStr.ml" 372 11141 11152
 type(
   statement list
 )
 ident(
-  int_ref ss "src/toStr.ml" 368 11061 11076 "src/toStr.ml" 368 11061 11078
+  int_ref ss "src/toStr.ml" 371 11119 11134 "src/toStr.ml" 371 11119 11136
 )
-"src/toStr.ml" 369 11083 11095 "src/toStr.ml" 369 11083 11096
+"src/toStr.ml" 372 11141 11153 "src/toStr.ml" 372 11141 11154
 type(
   statement list -> statement list -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"src/toStr.ml" 369 11083 11097 "src/toStr.ml" 369 11083 11099
+"src/toStr.ml" 372 11141 11155 "src/toStr.ml" 372 11141 11157
 type(
   statement list
 )
-"src/toStr.ml" 369 11083 11092 "src/toStr.ml" 369 11083 11099
+"src/toStr.ml" 372 11141 11150 "src/toStr.ml" 372 11141 11157
 type(
   bool
 )
-"src/toStr.ml" 369 11083 11105 "src/toStr.ml" 369 11083 11107
+"src/toStr.ml" 372 11141 11163 "src/toStr.ml" 372 11141 11165
 type(
   string
 )
-"src/toStr.ml" 370 11119 11127 "src/toStr.ml" 370 11119 11135
+"src/toStr.ml" 373 11177 11185 "src/toStr.ml" 373 11177 11193
 type(
   statement list -> f:(statement -> string) -> string list
 )
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 370 11119 11136 "src/toStr.ml" 370 11119 11138
+"src/toStr.ml" 373 11177 11194 "src/toStr.ml" 373 11177 11196
 type(
   statement list
 )
 ident(
-  int_ref ss "src/toStr.ml" 368 11061 11076 "src/toStr.ml" 368 11061 11078
+  int_ref ss "src/toStr.ml" 371 11119 11134 "src/toStr.ml" 371 11119 11136
 )
-"src/toStr.ml" 370 11119 11147 "src/toStr.ml" 370 11119 11149
+"src/toStr.ml" 373 11177 11205 "src/toStr.ml" 373 11177 11207
 type(
   statement
 )
 ident(
-  def s' "src/toStr.ml" 370 11119 11153 "src/toStr.ml" 370 11119 11183
+  def s' "src/toStr.ml" 373 11177 11211 "src/toStr.ml" 373 11177 11241
 )
-"src/toStr.ml" 370 11119 11153 "src/toStr.ml" 370 11119 11166
+"src/toStr.ml" 373 11177 11211 "src/toStr.ml" 373 11177 11224
 type(
   ?is_init:bool -> statement -> string -> string
 )
 ident(
-  int_ref statement_act "src/toStr.ml" 358 10686 10696 "src/toStr.ml" 358 10686 10709
+  int_ref statement_act "src/toStr.ml" 361 10744 10754 "src/toStr.ml" 361 10744 10767
 )
-"src/toStr.ml" 370 11119 11167 "src/toStr.ml" 370 11119 11175
+"src/toStr.ml" 373 11177 11225 "src/toStr.ml" 373 11177 11233
 type(
   bool
 )
 ident(
-  int_ref is_init "src/toStr.ml" 358 10686 10710 "src/toStr.ml" 358 10686 10726
+  int_ref is_init "src/toStr.ml" 361 10744 10768 "src/toStr.ml" 361 10744 10784
 )
-"src/toStr.ml" 370 11119 11176 "src/toStr.ml" 370 11119 11178
+"src/toStr.ml" 373 11177 11234 "src/toStr.ml" 373 11177 11236
 type(
   statement
 )
 ident(
-  int_ref s' "src/toStr.ml" 370 11119 11147 "src/toStr.ml" 370 11119 11149
+  int_ref s' "src/toStr.ml" 373 11177 11205 "src/toStr.ml" 373 11177 11207
 )
-"src/toStr.ml" 370 11119 11179 "src/toStr.ml" 370 11119 11183
+"src/toStr.ml" 373 11177 11237 "src/toStr.ml" 373 11177 11241
 type(
   string
 )
 ident(
-  int_ref fstr "src/toStr.ml" 358 10686 10729 "src/toStr.ml" 358 10686 10733
+  int_ref fstr "src/toStr.ml" 361 10744 10787 "src/toStr.ml" 361 10744 10791
 )
-"src/toStr.ml" 370 11119 11153 "src/toStr.ml" 370 11119 11183
+"src/toStr.ml" 373 11177 11211 "src/toStr.ml" 373 11177 11241
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 370 11119 11147 "src/toStr.ml" 370 11119 11183
+"src/toStr.ml" 373 11177 11205 "src/toStr.ml" 373 11177 11241
 type(
   statement -> string
 )
-"src/toStr.ml" 370 11119 11127 "src/toStr.ml" 370 11119 11184
+"src/toStr.ml" 373 11177 11185 "src/toStr.ml" 373 11177 11242
 call(
   stack
 )
 type(
   string list
 )
-"src/toStr.ml" 371 11185 11193 "src/toStr.ml" 371 11185 11195
+"src/toStr.ml" 374 11243 11251 "src/toStr.ml" 374 11243 11253
 type(
   string list -> (string list -> string) -> string
 )
 ident(
   ext_ref Core.Std.( |> )
 )
-"src/toStr.ml" 371 11185 11196 "src/toStr.ml" 371 11185 11209
+"src/toStr.ml" 374 11243 11254 "src/toStr.ml" 374 11243 11267
 type(
   ?sep:string -> string list -> string
 )
 ident(
   ext_ref Core.Std.String.concat
 )
-"src/toStr.ml" 371 11185 11215 "src/toStr.ml" 371 11185 11219
+"src/toStr.ml" 374 11243 11273 "src/toStr.ml" 374 11243 11277
 type(
   string
 )
-"src/toStr.ml" 371 11185 11196 "src/toStr.ml" 371 11185 11219
+"src/toStr.ml" 374 11243 11254 "src/toStr.ml" 374 11243 11277
 call(
   stack
 )
 type(
   string list -> string
 )
-"src/toStr.ml" 370 11119 11127 "src/toStr.ml" 371 11185 11219
+"src/toStr.ml" 373 11177 11185 "src/toStr.ml" 374 11243 11277
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 369 11083 11089 "src/toStr.ml" 372 11220 11229
+"src/toStr.ml" 372 11141 11147 "src/toStr.ml" 375 11278 11287
 type(
   string
 )
-"src/toStr.ml" 359 10736 10740 "src/toStr.ml" 372 11220 11229
+"src/toStr.ml" 362 10794 10798 "src/toStr.ml" 375 11278 11287
 type(
   string
 )
-"src/toStr.ml" 358 10686 10729 "src/toStr.ml" 372 11220 11229
+"src/toStr.ml" 361 10744 10787 "src/toStr.ml" 375 11278 11287
 type(
   string -> string
 )
-"src/toStr.ml" 358 10686 10727 "src/toStr.ml" 372 11220 11229
+"src/toStr.ml" 361 10744 10785 "src/toStr.ml" 375 11278 11287
 type(
   statement -> string -> string
 )
-"src/toStr.ml" 358 10686 10710 "src/toStr.ml" 372 11220 11229
+"src/toStr.ml" 361 10744 10768 "src/toStr.ml" 375 11278 11287
 type(
   ?is_init:bool -> statement -> string -> string
 )
@@ -8416,248 +8416,248 @@ type(
   bool option
 )
 ident(
-  int_ref *opt* "src/toStr.ml" 358 10686 10710 "src/toStr.ml" 372 11220 11229
+  int_ref *opt* "src/toStr.ml" 361 10744 10768 "src/toStr.ml" 375 11278 11287
 )
 type(
   bool option
 )
-"src/toStr.ml" 385 11546 11552 "src/toStr.ml" 385 11546 11560
+"src/toStr.ml" 388 11604 11610 "src/toStr.ml" 388 11604 11618
 type(
   statement -> string
 )
 ident(
-  def init_act "src/toStr.ml" 387 11603 11605 "src/toStr.ml" 431 13441 13444
+  def init_act "src/toStr.ml" 390 11661 11663 "src/toStr.ml" 434 13499 13502
 )
-"src/toStr.ml" 385 11546 11561 "src/toStr.ml" 385 11546 11562
+"src/toStr.ml" 388 11604 11619 "src/toStr.ml" 388 11604 11620
 type(
   statement
 )
 ident(
-  def s "src/toStr.ml" 385 11546 11565 "src/toStr.ml" 385 11546 11601
+  def s "src/toStr.ml" 388 11604 11623 "src/toStr.ml" 388 11604 11659
 )
-"src/toStr.ml" 385 11546 11565 "src/toStr.ml" 385 11546 11578
+"src/toStr.ml" 388 11604 11623 "src/toStr.ml" 388 11604 11636
 type(
   ?is_init:bool -> statement -> string -> string
 )
 ident(
-  int_ref statement_act "src/toStr.ml" 358 10686 10696 "src/toStr.ml" 358 10686 10709
+  int_ref statement_act "src/toStr.ml" 361 10744 10754 "src/toStr.ml" 361 10744 10767
 )
-"src/toStr.ml" 385 11546 11588 "src/toStr.ml" 385 11546 11592
+"src/toStr.ml" 388 11604 11646 "src/toStr.ml" 388 11604 11650
 type(
   bool
 )
-"src/toStr.ml" 385 11546 11593 "src/toStr.ml" 385 11546 11594
+"src/toStr.ml" 388 11604 11651 "src/toStr.ml" 388 11604 11652
 type(
   statement
 )
 ident(
-  int_ref s "src/toStr.ml" 385 11546 11561 "src/toStr.ml" 385 11546 11562
+  int_ref s "src/toStr.ml" 388 11604 11619 "src/toStr.ml" 388 11604 11620
 )
-"src/toStr.ml" 385 11546 11595 "src/toStr.ml" 385 11546 11601
+"src/toStr.ml" 388 11604 11653 "src/toStr.ml" 388 11604 11659
 type(
   string
 )
-"src/toStr.ml" 385 11546 11565 "src/toStr.ml" 385 11546 11601
+"src/toStr.ml" 388 11604 11623 "src/toStr.ml" 388 11604 11659
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 385 11546 11561 "src/toStr.ml" 385 11546 11601
+"src/toStr.ml" 388 11604 11619 "src/toStr.ml" 388 11604 11659
 type(
   statement -> string
 )
-"src/toStr.ml" 387 11603 11609 "src/toStr.ml" 387 11603 11617
+"src/toStr.ml" 390 11661 11667 "src/toStr.ml" 390 11661 11675
 type(
   rule -> string * string
 )
 ident(
-  def rule_act "src/toStr.ml" 411 12463 12465 "src/toStr.ml" 431 13441 13444
+  def rule_act "src/toStr.ml" 414 12521 12523 "src/toStr.ml" 434 13499 13502
 )
-"src/toStr.ml" 387 11603 11618 "src/toStr.ml" 387 11603 11619
+"src/toStr.ml" 390 11661 11676 "src/toStr.ml" 390 11661 11677
 type(
   rule
 )
 ident(
-  def r "src/toStr.ml" 388 11622 11626 "src/toStr.ml" 409 12430 12461
+  def r "src/toStr.ml" 391 11680 11684 "src/toStr.ml" 412 12488 12519
 )
-"src/toStr.ml" 388 11622 11630 "src/toStr.ml" 388 11622 11636
+"src/toStr.ml" 391 11680 11688 "src/toStr.ml" 391 11680 11694
 type(
   string -> string
 )
 ident(
-  def escape "src/toStr.ml" 393 11825 11829 "src/toStr.ml" 409 12430 12461
+  def escape "src/toStr.ml" 396 11883 11887 "src/toStr.ml" 412 12488 12519
 )
-"src/toStr.ml" 388 11622 11637 "src/toStr.ml" 388 11622 11638
+"src/toStr.ml" 391 11680 11695 "src/toStr.ml" 391 11680 11696
 type(
   string
 )
 ident(
-  def n "src/toStr.ml" 389 11641 11647 "src/toStr.ml" 391 11758 11817
+  def n "src/toStr.ml" 392 11699 11705 "src/toStr.ml" 394 11816 11875
 )
-"src/toStr.ml" 389 11641 11647 "src/toStr.ml" 389 11641 11672
+"src/toStr.ml" 392 11699 11705 "src/toStr.ml" 392 11699 11730
 type(
   string -> pattern:string -> with_:string -> string
 )
 ident(
   ext_ref Core.Std.String.substr_replace_all
 )
-"src/toStr.ml" 389 11641 11673 "src/toStr.ml" 389 11641 11674
+"src/toStr.ml" 392 11699 11731 "src/toStr.ml" 392 11699 11732
 type(
   string
 )
 ident(
-  int_ref n "src/toStr.ml" 388 11622 11637 "src/toStr.ml" 388 11622 11638
+  int_ref n "src/toStr.ml" 391 11680 11695 "src/toStr.ml" 391 11680 11696
 )
-"src/toStr.ml" 389 11641 11684 "src/toStr.ml" 389 11641 11687
+"src/toStr.ml" 392 11699 11742 "src/toStr.ml" 392 11699 11745
 type(
   string
 )
-"src/toStr.ml" 389 11641 11695 "src/toStr.ml" 389 11641 11699
+"src/toStr.ml" 392 11699 11753 "src/toStr.ml" 392 11699 11757
 type(
   string
 )
-"src/toStr.ml" 389 11641 11647 "src/toStr.ml" 389 11641 11699
+"src/toStr.ml" 392 11699 11705 "src/toStr.ml" 392 11699 11757
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 390 11700 11706 "src/toStr.ml" 390 11700 11708
+"src/toStr.ml" 393 11758 11764 "src/toStr.ml" 393 11758 11766
 type(
   string -> (string -> string) -> string
 )
 ident(
   ext_ref Core.Std.( |> )
 )
-"src/toStr.ml" 390 11700 11709 "src/toStr.ml" 390 11700 11734
+"src/toStr.ml" 393 11758 11767 "src/toStr.ml" 393 11758 11792
 type(
   string -> pattern:string -> with_:string -> string
 )
 ident(
   ext_ref Core.Std.String.substr_replace_all
 )
-"src/toStr.ml" 390 11700 11744 "src/toStr.ml" 390 11700 11747
+"src/toStr.ml" 393 11758 11802 "src/toStr.ml" 393 11758 11805
 type(
   string
 )
-"src/toStr.ml" 390 11700 11755 "src/toStr.ml" 390 11700 11757
+"src/toStr.ml" 393 11758 11813 "src/toStr.ml" 393 11758 11815
 type(
   string
 )
-"src/toStr.ml" 390 11700 11709 "src/toStr.ml" 390 11700 11757
+"src/toStr.ml" 393 11758 11767 "src/toStr.ml" 393 11758 11815
 call(
   tail
 )
 type(
   string -> string
 )
-"src/toStr.ml" 389 11641 11647 "src/toStr.ml" 390 11700 11757
+"src/toStr.ml" 392 11699 11705 "src/toStr.ml" 393 11758 11815
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 391 11758 11764 "src/toStr.ml" 391 11758 11766
+"src/toStr.ml" 394 11816 11822 "src/toStr.ml" 394 11816 11824
 type(
   string -> (string -> string) -> string
 )
 ident(
   ext_ref Core.Std.( |> )
 )
-"src/toStr.ml" 391 11758 11767 "src/toStr.ml" 391 11758 11792
+"src/toStr.ml" 394 11816 11825 "src/toStr.ml" 394 11816 11850
 type(
   string -> pattern:string -> with_:string -> string
 )
 ident(
   ext_ref Core.Std.String.substr_replace_all
 )
-"src/toStr.ml" 391 11758 11802 "src/toStr.ml" 391 11758 11805
+"src/toStr.ml" 394 11816 11860 "src/toStr.ml" 394 11816 11863
 type(
   string
 )
-"src/toStr.ml" 391 11758 11813 "src/toStr.ml" 391 11758 11817
+"src/toStr.ml" 394 11816 11871 "src/toStr.ml" 394 11816 11875
 type(
   string
 )
-"src/toStr.ml" 391 11758 11767 "src/toStr.ml" 391 11758 11817
+"src/toStr.ml" 394 11816 11825 "src/toStr.ml" 394 11816 11875
 call(
   tail
 )
 type(
   string -> string
 )
-"src/toStr.ml" 389 11641 11647 "src/toStr.ml" 391 11758 11817
+"src/toStr.ml" 392 11699 11705 "src/toStr.ml" 394 11816 11875
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 388 11622 11637 "src/toStr.ml" 391 11758 11817
+"src/toStr.ml" 391 11680 11695 "src/toStr.ml" 394 11816 11875
 type(
   string -> string
 )
-"src/toStr.ml" 393 11825 11833 "src/toStr.ml" 393 11825 11837
+"src/toStr.ml" 396 11883 11891 "src/toStr.ml" 396 11883 11895
 type(
   string list
 )
 ident(
-  def vars "src/toStr.ml" 396 11953 11957 "src/toStr.ml" 409 12430 12461
+  def vars "src/toStr.ml" 399 12011 12015 "src/toStr.ml" 412 12488 12519
 )
-"src/toStr.ml" 393 11825 11840 "src/toStr.ml" 393 11825 11858
+"src/toStr.ml" 396 11883 11898 "src/toStr.ml" 396 11883 11916
 type(
   String.Set.t -> string list
 )
 ident(
   ext_ref Core.Std.String.Set.to_list
 )
-"src/toStr.ml" 393 11825 11860 "src/toStr.ml" 393 11825 11885
+"src/toStr.ml" 396 11883 11918 "src/toStr.ml" 396 11883 11943
 type(
   of_var:(var -> String.Set.t) -> rule -> String.Set.t
 )
 ident(
   ext_ref Paramecium.VarNamesWithParam.of_rule
 )
-"src/toStr.ml" 393 11825 11886 "src/toStr.ml" 393 11825 11887
+"src/toStr.ml" 396 11883 11944 "src/toStr.ml" 396 11883 11945
 type(
   rule
 )
 ident(
-  int_ref r "src/toStr.ml" 387 11603 11618 "src/toStr.ml" 387 11603 11619
+  int_ref r "src/toStr.ml" 390 11661 11676 "src/toStr.ml" 390 11661 11677
 )
-"src/toStr.ml" 393 11825 11901 "src/toStr.ml" 393 11825 11902
+"src/toStr.ml" 396 11883 11959 "src/toStr.ml" 396 11883 11960
 type(
   var
 )
 ident(
-  def v "src/toStr.ml" 394 11906 11912 "src/toStr.ml" 394 11906 11942
+  def v "src/toStr.ml" 397 11964 11970 "src/toStr.ml" 397 11964 12000
 )
-"src/toStr.ml" 394 11906 11912 "src/toStr.ml" 394 11906 11930
+"src/toStr.ml" 397 11964 11970 "src/toStr.ml" 397 11964 11988
 type(
   string list -> String.Set.t
 )
 ident(
   ext_ref Core.Std.String.Set.of_list
 )
-"src/toStr.ml" 394 11906 11932 "src/toStr.ml" 394 11906 11939
+"src/toStr.ml" 397 11964 11990 "src/toStr.ml" 397 11964 11997
 type(
   var -> string
 )
 ident(
-  int_ref var_act "src/toStr.ml" 313 9060 9066 "src/toStr.ml" 313 9060 9073
+  int_ref var_act "src/toStr.ml" 316 9118 9124 "src/toStr.ml" 316 9118 9131
 )
-"src/toStr.ml" 394 11906 11940 "src/toStr.ml" 394 11906 11941
+"src/toStr.ml" 397 11964 11998 "src/toStr.ml" 397 11964 11999
 type(
   var
 )
 ident(
-  int_ref v "src/toStr.ml" 393 11825 11901 "src/toStr.ml" 393 11825 11902
+  int_ref v "src/toStr.ml" 396 11883 11959 "src/toStr.ml" 396 11883 11960
 )
-"src/toStr.ml" 394 11906 11932 "src/toStr.ml" 394 11906 11941
+"src/toStr.ml" 397 11964 11990 "src/toStr.ml" 397 11964 11999
 call(
   stack
 )
@@ -8667,139 +8667,139 @@ type(
 type(
   string list
 )
-"src/toStr.ml" 394 11906 11931 "src/toStr.ml" 394 11906 11942
+"src/toStr.ml" 397 11964 11989 "src/toStr.ml" 397 11964 12000
 type(
   string list
 )
-"src/toStr.ml" 394 11906 11912 "src/toStr.ml" 394 11906 11942
+"src/toStr.ml" 397 11964 11970 "src/toStr.ml" 397 11964 12000
 call(
   tail
 )
 type(
   String.Set.t
 )
-"src/toStr.ml" 393 11825 11901 "src/toStr.ml" 394 11906 11942
+"src/toStr.ml" 396 11883 11959 "src/toStr.ml" 397 11964 12000
 type(
   var -> String.Set.t
 )
-"src/toStr.ml" 393 11825 11860 "src/toStr.ml" 395 11943 11948
+"src/toStr.ml" 396 11883 11918 "src/toStr.ml" 398 12001 12006
 call(
   stack
 )
 type(
   String.Set.t
 )
-"src/toStr.ml" 393 11825 11840 "src/toStr.ml" 395 11943 11949
+"src/toStr.ml" 396 11883 11898 "src/toStr.ml" 398 12001 12007
 call(
   stack
 )
 type(
   string list
 )
-"src/toStr.ml" 396 11953 11961 "src/toStr.ml" 396 11953 11969
+"src/toStr.ml" 399 12011 12019 "src/toStr.ml" 399 12011 12027
 type(
   string
 )
 ident(
-  def vars_str "src/toStr.ml" 398 12036 12040 "src/toStr.ml" 409 12430 12461
+  def vars_str "src/toStr.ml" 401 12094 12098 "src/toStr.ml" 412 12488 12519
 )
-"src/toStr.ml" 396 11953 11972 "src/toStr.ml" 396 11953 11985
+"src/toStr.ml" 399 12011 12030 "src/toStr.ml" 399 12011 12043
 type(
   ?sep:string -> string list -> string
 )
 ident(
   ext_ref Core.Std.String.concat
 )
-"src/toStr.ml" 396 11953 11986 "src/toStr.ml" 396 11953 11990
+"src/toStr.ml" 399 12011 12044 "src/toStr.ml" 399 12011 12048
 type(
   string list
 )
 ident(
-  int_ref vars "src/toStr.ml" 393 11825 11833 "src/toStr.ml" 393 11825 11837
+  int_ref vars "src/toStr.ml" 396 11883 11891 "src/toStr.ml" 396 11883 11895
 )
-"src/toStr.ml" 396 11953 11996 "src/toStr.ml" 396 11953 12000
+"src/toStr.ml" 399 12011 12054 "src/toStr.ml" 399 12011 12058
 type(
   string
 )
-"src/toStr.ml" 396 11953 11972 "src/toStr.ml" 396 11953 12000
+"src/toStr.ml" 399 12011 12030 "src/toStr.ml" 399 12011 12058
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 398 12036 12049 "src/toStr.ml" 398 12036 12050
+"src/toStr.ml" 401 12094 12107 "src/toStr.ml" 401 12094 12108
 type(
   string
 )
 ident(
-  def n "src/toStr.ml" 399 12068 12072 "src/toStr.ml" 409 12430 12461
+  def n "src/toStr.ml" 402 12126 12130 "src/toStr.ml" 412 12488 12519
 )
-"src/toStr.ml" 398 12036 12052 "src/toStr.ml" 398 12036 12053
+"src/toStr.ml" 401 12094 12110 "src/toStr.ml" 401 12094 12111
 type(
   paramdef list
 )
-"src/toStr.ml" 398 12036 12055 "src/toStr.ml" 398 12036 12056
+"src/toStr.ml" 401 12094 12113 "src/toStr.ml" 401 12094 12114
 type(
   formula
 )
 ident(
-  def f "src/toStr.ml" 399 12068 12072 "src/toStr.ml" 409 12430 12461
+  def f "src/toStr.ml" 402 12126 12130 "src/toStr.ml" 412 12488 12519
 )
-"src/toStr.ml" 398 12036 12058 "src/toStr.ml" 398 12036 12059
+"src/toStr.ml" 401 12094 12116 "src/toStr.ml" 401 12094 12117
 type(
   statement
 )
 ident(
-  def s "src/toStr.ml" 399 12068 12072 "src/toStr.ml" 409 12430 12461
+  def s "src/toStr.ml" 402 12126 12130 "src/toStr.ml" 412 12488 12519
 )
-"src/toStr.ml" 398 12036 12044 "src/toStr.ml" 398 12036 12060
+"src/toStr.ml" 401 12094 12102 "src/toStr.ml" 401 12094 12118
 type(
   rule
 )
-"src/toStr.ml" 398 12036 12063 "src/toStr.ml" 398 12036 12064
+"src/toStr.ml" 401 12094 12121 "src/toStr.ml" 401 12094 12122
 type(
   rule
 )
 ident(
-  int_ref r "src/toStr.ml" 387 11603 11618 "src/toStr.ml" 387 11603 11619
+  int_ref r "src/toStr.ml" 390 11661 11676 "src/toStr.ml" 390 11661 11677
 )
-"src/toStr.ml" 399 12068 12076 "src/toStr.ml" 399 12068 12080
+"src/toStr.ml" 402 12126 12134 "src/toStr.ml" 402 12126 12138
 type(
   string
 )
 ident(
-  def name "src/toStr.ml" 401 12099 12103 "src/toStr.ml" 409 12430 12461
+  def name "src/toStr.ml" 404 12157 12161 "src/toStr.ml" 412 12488 12519
 )
-"src/toStr.ml" 399 12068 12083 "src/toStr.ml" 399 12068 12089
+"src/toStr.ml" 402 12126 12141 "src/toStr.ml" 402 12126 12147
 type(
   string -> string
 )
 ident(
-  int_ref escape "src/toStr.ml" 388 11622 11630 "src/toStr.ml" 388 11622 11636
+  int_ref escape "src/toStr.ml" 391 11680 11688 "src/toStr.ml" 391 11680 11694
 )
-"src/toStr.ml" 399 12068 12090 "src/toStr.ml" 399 12068 12091
+"src/toStr.ml" 402 12126 12148 "src/toStr.ml" 402 12126 12149
 type(
   string
 )
 ident(
-  int_ref n "src/toStr.ml" 398 12036 12049 "src/toStr.ml" 398 12036 12050
+  int_ref n "src/toStr.ml" 401 12094 12107 "src/toStr.ml" 401 12094 12108
 )
-"src/toStr.ml" 399 12068 12083 "src/toStr.ml" 399 12068 12091
+"src/toStr.ml" 402 12126 12141 "src/toStr.ml" 402 12126 12149
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 401 12099 12107 "src/toStr.ml" 401 12099 12121
+"src/toStr.ml" 404 12157 12165 "src/toStr.ml" 404 12157 12179
 type(
   string
 )
 ident(
-  def rule_proc_inst "src/toStr.ml" 403 12206 12210 "src/toStr.ml" 409 12430 12461
+  def rule_proc_inst "src/toStr.ml" 406 12264 12268 "src/toStr.ml" 412 12488 12519
 )
-"src/toStr.ml" 401 12099 12124 "src/toStr.ml" 401 12099 12131
+"src/toStr.ml" 404 12157 12182 "src/toStr.ml" 404 12157 12189
 type(
   (string -> string -> string -> string, unit, string) format ->
   string -> string -> string -> string
@@ -8807,123 +8807,123 @@ type(
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 401 12099 12132 "src/toStr.ml" 401 12099 12160
+"src/toStr.ml" 404 12157 12190 "src/toStr.ml" 404 12157 12218
 type(
   (string -> string -> string -> string, unit, string) format
 )
-"src/toStr.ml" 401 12099 12161 "src/toStr.ml" 401 12099 12165
+"src/toStr.ml" 404 12157 12219 "src/toStr.ml" 404 12157 12223
 type(
   string
 )
 ident(
-  int_ref name "src/toStr.ml" 399 12068 12076 "src/toStr.ml" 399 12068 12080
+  int_ref name "src/toStr.ml" 402 12126 12134 "src/toStr.ml" 402 12126 12138
 )
-"src/toStr.ml" 401 12099 12166 "src/toStr.ml" 401 12099 12170
+"src/toStr.ml" 404 12157 12224 "src/toStr.ml" 404 12157 12228
 type(
   string
 )
 ident(
-  int_ref name "src/toStr.ml" 399 12068 12076 "src/toStr.ml" 399 12068 12080
+  int_ref name "src/toStr.ml" 402 12126 12134 "src/toStr.ml" 402 12126 12138
 )
-"src/toStr.ml" 401 12099 12171 "src/toStr.ml" 401 12099 12179
+"src/toStr.ml" 404 12157 12229 "src/toStr.ml" 404 12157 12237
 type(
   string
 )
 ident(
-  int_ref vars_str "src/toStr.ml" 396 11953 11961 "src/toStr.ml" 396 11953 11969
+  int_ref vars_str "src/toStr.ml" 399 12011 12019 "src/toStr.ml" 399 12011 12027
 )
-"src/toStr.ml" 401 12099 12124 "src/toStr.ml" 401 12099 12179
+"src/toStr.ml" 404 12157 12182 "src/toStr.ml" 404 12157 12237
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 403 12206 12214 "src/toStr.ml" 403 12206 12222
+"src/toStr.ml" 406 12264 12272 "src/toStr.ml" 406 12264 12280
 type(
   string
 )
 ident(
-  def form_str "src/toStr.ml" 404 12239 12243 "src/toStr.ml" 409 12430 12461
+  def form_str "src/toStr.ml" 407 12297 12301 "src/toStr.ml" 412 12488 12519
 )
-"src/toStr.ml" 403 12206 12225 "src/toStr.ml" 403 12206 12233
+"src/toStr.ml" 406 12264 12283 "src/toStr.ml" 406 12264 12291
 type(
   ?lower:bool -> formula -> string
 )
 ident(
-  int_ref form_act "src/toStr.ml" 340 9944 9950 "src/toStr.ml" 340 9944 9958
+  int_ref form_act "src/toStr.ml" 343 10002 10008 "src/toStr.ml" 343 10002 10016
 )
-"src/toStr.ml" 403 12206 12234 "src/toStr.ml" 403 12206 12235
+"src/toStr.ml" 406 12264 12292 "src/toStr.ml" 406 12264 12293
 type(
   formula
 )
 ident(
-  int_ref f "src/toStr.ml" 398 12036 12055 "src/toStr.ml" 398 12036 12056
+  int_ref f "src/toStr.ml" 401 12094 12113 "src/toStr.ml" 401 12094 12114
 )
-"src/toStr.ml" 403 12206 12225 "src/toStr.ml" 403 12206 12235
+"src/toStr.ml" 406 12264 12283 "src/toStr.ml" 406 12264 12293
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 404 12239 12247 "src/toStr.ml" 404 12239 12260
+"src/toStr.ml" 407 12297 12305 "src/toStr.ml" 407 12297 12318
 type(
   string
 )
 ident(
-  def statement_str "src/toStr.ml" 405 12300 12304 "src/toStr.ml" 409 12430 12461
+  def statement_str "src/toStr.ml" 408 12358 12362 "src/toStr.ml" 412 12488 12519
 )
-"src/toStr.ml" 404 12239 12263 "src/toStr.ml" 404 12239 12269
+"src/toStr.ml" 407 12297 12321 "src/toStr.ml" 407 12297 12327
 type(
   string -> string
 )
 ident(
-  int_ref escape "src/toStr.ml" 388 11622 11630 "src/toStr.ml" 388 11622 11636
+  int_ref escape "src/toStr.ml" 391 11680 11688 "src/toStr.ml" 391 11680 11694
 )
-"src/toStr.ml" 404 12239 12271 "src/toStr.ml" 404 12239 12284
+"src/toStr.ml" 407 12297 12329 "src/toStr.ml" 407 12297 12342
 type(
   ?is_init:bool -> statement -> string -> string
 )
 ident(
-  int_ref statement_act "src/toStr.ml" 358 10686 10696 "src/toStr.ml" 358 10686 10709
+  int_ref statement_act "src/toStr.ml" 361 10744 10754 "src/toStr.ml" 361 10744 10767
 )
-"src/toStr.ml" 404 12239 12285 "src/toStr.ml" 404 12239 12286
+"src/toStr.ml" 407 12297 12343 "src/toStr.ml" 407 12297 12344
 type(
   statement
 )
 ident(
-  int_ref s "src/toStr.ml" 398 12036 12058 "src/toStr.ml" 398 12036 12059
+  int_ref s "src/toStr.ml" 401 12094 12116 "src/toStr.ml" 401 12094 12117
 )
-"src/toStr.ml" 404 12239 12287 "src/toStr.ml" 404 12239 12295
+"src/toStr.ml" 407 12297 12345 "src/toStr.ml" 407 12297 12353
 type(
   string
 )
 ident(
-  int_ref form_str "src/toStr.ml" 403 12206 12214 "src/toStr.ml" 403 12206 12222
+  int_ref form_str "src/toStr.ml" 406 12264 12272 "src/toStr.ml" 406 12264 12280
 )
-"src/toStr.ml" 404 12239 12271 "src/toStr.ml" 404 12239 12295
+"src/toStr.ml" 407 12297 12329 "src/toStr.ml" 407 12297 12353
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 404 12239 12263 "src/toStr.ml" 404 12239 12296
+"src/toStr.ml" 407 12297 12321 "src/toStr.ml" 407 12297 12354
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 405 12300 12308 "src/toStr.ml" 405 12300 12317
+"src/toStr.ml" 408 12358 12366 "src/toStr.ml" 408 12358 12375
 type(
   string
 )
 ident(
-  def rule_proc "src/toStr.ml" 409 12430 12435 "src/toStr.ml" 409 12430 12460
+  def rule_proc "src/toStr.ml" 412 12488 12493 "src/toStr.ml" 412 12488 12518
 )
-"src/toStr.ml" 406 12321 12327 "src/toStr.ml" 406 12321 12334
+"src/toStr.ml" 409 12379 12385 "src/toStr.ml" 409 12379 12392
 type(
   (string -> string -> string -> string, unit, string) format ->
   string -> string -> string -> string
@@ -8931,674 +8931,674 @@ type(
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 406 12321 12335 "src/toStr.ml" 406 12321 12368
+"src/toStr.ml" 409 12379 12393 "src/toStr.ml" 409 12379 12426
 type(
   (string -> string -> string -> string, unit, string) format
 )
-"src/toStr.ml" 406 12321 12369 "src/toStr.ml" 406 12321 12373
+"src/toStr.ml" 409 12379 12427 "src/toStr.ml" 409 12379 12431
 type(
   string
 )
 ident(
-  int_ref name "src/toStr.ml" 399 12068 12076 "src/toStr.ml" 399 12068 12080
+  int_ref name "src/toStr.ml" 402 12126 12134 "src/toStr.ml" 402 12126 12138
 )
-"src/toStr.ml" 406 12321 12375 "src/toStr.ml" 406 12321 12381
+"src/toStr.ml" 409 12379 12433 "src/toStr.ml" 409 12379 12439
 type(
   string -> string
 )
 ident(
-  int_ref escape "src/toStr.ml" 388 11622 11630 "src/toStr.ml" 388 11622 11636
+  int_ref escape "src/toStr.ml" 391 11680 11688 "src/toStr.ml" 391 11680 11694
 )
-"src/toStr.ml" 406 12321 12382 "src/toStr.ml" 406 12321 12390
+"src/toStr.ml" 409 12379 12440 "src/toStr.ml" 409 12379 12448
 type(
   string
 )
 ident(
-  int_ref vars_str "src/toStr.ml" 396 11953 11961 "src/toStr.ml" 396 11953 11969
+  int_ref vars_str "src/toStr.ml" 399 12011 12019 "src/toStr.ml" 399 12011 12027
 )
-"src/toStr.ml" 406 12321 12375 "src/toStr.ml" 406 12321 12390
+"src/toStr.ml" 409 12379 12433 "src/toStr.ml" 409 12379 12448
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 406 12321 12392 "src/toStr.ml" 406 12321 12405
+"src/toStr.ml" 409 12379 12450 "src/toStr.ml" 409 12379 12463
 type(
   string
 )
 ident(
-  int_ref statement_str "src/toStr.ml" 404 12239 12247 "src/toStr.ml" 404 12239 12260
+  int_ref statement_str "src/toStr.ml" 407 12297 12305 "src/toStr.ml" 407 12297 12318
 )
-"src/toStr.ml" 406 12321 12327 "src/toStr.ml" 406 12321 12405
+"src/toStr.ml" 409 12379 12385 "src/toStr.ml" 409 12379 12463
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 409 12430 12435 "src/toStr.ml" 409 12430 12449
+"src/toStr.ml" 412 12488 12493 "src/toStr.ml" 412 12488 12507
 type(
   string
 )
 ident(
-  int_ref rule_proc_inst "src/toStr.ml" 401 12099 12107 "src/toStr.ml" 401 12099 12121
+  int_ref rule_proc_inst "src/toStr.ml" 404 12157 12165 "src/toStr.ml" 404 12157 12179
 )
-"src/toStr.ml" 409 12430 12451 "src/toStr.ml" 409 12430 12460
+"src/toStr.ml" 412 12488 12509 "src/toStr.ml" 412 12488 12518
 type(
   string
 )
 ident(
-  int_ref rule_proc "src/toStr.ml" 405 12300 12308 "src/toStr.ml" 405 12300 12317
+  int_ref rule_proc "src/toStr.ml" 408 12358 12366 "src/toStr.ml" 408 12358 12375
 )
-"src/toStr.ml" 409 12430 12435 "src/toStr.ml" 409 12430 12460
+"src/toStr.ml" 412 12488 12493 "src/toStr.ml" 412 12488 12518
 type(
   string * string
 )
-"src/toStr.ml" 405 12300 12304 "src/toStr.ml" 409 12430 12461
+"src/toStr.ml" 408 12358 12362 "src/toStr.ml" 412 12488 12519
 type(
   string * string
 )
-"src/toStr.ml" 404 12239 12243 "src/toStr.ml" 409 12430 12461
+"src/toStr.ml" 407 12297 12301 "src/toStr.ml" 412 12488 12519
 type(
   string * string
 )
-"src/toStr.ml" 403 12206 12210 "src/toStr.ml" 409 12430 12461
+"src/toStr.ml" 406 12264 12268 "src/toStr.ml" 412 12488 12519
 type(
   string * string
 )
-"src/toStr.ml" 401 12099 12103 "src/toStr.ml" 409 12430 12461
+"src/toStr.ml" 404 12157 12161 "src/toStr.ml" 412 12488 12519
 type(
   string * string
 )
-"src/toStr.ml" 399 12068 12072 "src/toStr.ml" 409 12430 12461
+"src/toStr.ml" 402 12126 12130 "src/toStr.ml" 412 12488 12519
 type(
   string * string
 )
-"src/toStr.ml" 398 12036 12040 "src/toStr.ml" 409 12430 12461
+"src/toStr.ml" 401 12094 12098 "src/toStr.ml" 412 12488 12519
 type(
   string * string
 )
-"src/toStr.ml" 396 11953 11957 "src/toStr.ml" 409 12430 12461
+"src/toStr.ml" 399 12011 12015 "src/toStr.ml" 412 12488 12519
 type(
   string * string
 )
-"src/toStr.ml" 393 11825 11829 "src/toStr.ml" 409 12430 12461
+"src/toStr.ml" 396 11883 11887 "src/toStr.ml" 412 12488 12519
 type(
   string * string
 )
-"src/toStr.ml" 388 11622 11626 "src/toStr.ml" 409 12430 12461
+"src/toStr.ml" 391 11680 11684 "src/toStr.ml" 412 12488 12519
 type(
   string * string
 )
-"src/toStr.ml" 387 11603 11618 "src/toStr.ml" 409 12430 12461
+"src/toStr.ml" 390 11661 11676 "src/toStr.ml" 412 12488 12519
 type(
   rule -> string * string
 )
-"src/toStr.ml" 411 12463 12469 "src/toStr.ml" 411 12463 12477
+"src/toStr.ml" 414 12521 12527 "src/toStr.ml" 414 12521 12535
 type(
   prop -> string
 )
 ident(
-  def prop_act "src/toStr.ml" 415 12570 12572 "src/toStr.ml" 431 13441 13444
+  def prop_act "src/toStr.ml" 418 12628 12630 "src/toStr.ml" 434 13499 13502
 )
-"src/toStr.ml" 411 12463 12478 "src/toStr.ml" 411 12463 12486
+"src/toStr.ml" 414 12521 12536 "src/toStr.ml" 414 12521 12544
 type(
   prop
 )
 ident(
-  def property "src/toStr.ml" 412 12489 12493 "src/toStr.ml" 413 12525 12568
+  def property "src/toStr.ml" 415 12547 12551 "src/toStr.ml" 416 12583 12626
 )
-"src/toStr.ml" 412 12489 12502 "src/toStr.ml" 412 12489 12503
+"src/toStr.ml" 415 12547 12560 "src/toStr.ml" 415 12547 12561
 type(
   string
 )
-"src/toStr.ml" 412 12489 12505 "src/toStr.ml" 412 12489 12506
+"src/toStr.ml" 415 12547 12563 "src/toStr.ml" 415 12547 12564
 type(
   paramdef list
 )
-"src/toStr.ml" 412 12489 12508 "src/toStr.ml" 412 12489 12509
+"src/toStr.ml" 415 12547 12566 "src/toStr.ml" 415 12547 12567
 type(
   formula
 )
 ident(
-  def f "src/toStr.ml" 413 12525 12529 "src/toStr.ml" 413 12525 12568
+  def f "src/toStr.ml" 416 12583 12587 "src/toStr.ml" 416 12583 12626
 )
-"src/toStr.ml" 412 12489 12497 "src/toStr.ml" 412 12489 12510
+"src/toStr.ml" 415 12547 12555 "src/toStr.ml" 415 12547 12568
 type(
   prop
 )
-"src/toStr.ml" 412 12489 12513 "src/toStr.ml" 412 12489 12521
+"src/toStr.ml" 415 12547 12571 "src/toStr.ml" 415 12547 12579
 type(
   prop
 )
 ident(
-  int_ref property "src/toStr.ml" 411 12463 12478 "src/toStr.ml" 411 12463 12486
+  int_ref property "src/toStr.ml" 414 12521 12536 "src/toStr.ml" 414 12521 12544
 )
-"src/toStr.ml" 413 12525 12529 "src/toStr.ml" 413 12525 12536
+"src/toStr.ml" 416 12583 12587 "src/toStr.ml" 416 12583 12594
 type(
   (string -> string, unit, string) format -> string -> string
 )
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 413 12525 12537 "src/toStr.ml" 413 12525 12555
+"src/toStr.ml" 416 12583 12595 "src/toStr.ml" 416 12583 12613
 type(
   (string -> string, unit, string) format
 )
-"src/toStr.ml" 413 12525 12557 "src/toStr.ml" 413 12525 12565
+"src/toStr.ml" 416 12583 12615 "src/toStr.ml" 416 12583 12623
 type(
   ?lower:bool -> formula -> string
 )
 ident(
-  int_ref form_act "src/toStr.ml" 340 9944 9950 "src/toStr.ml" 340 9944 9958
+  int_ref form_act "src/toStr.ml" 343 10002 10008 "src/toStr.ml" 343 10002 10016
 )
-"src/toStr.ml" 413 12525 12566 "src/toStr.ml" 413 12525 12567
+"src/toStr.ml" 416 12583 12624 "src/toStr.ml" 416 12583 12625
 type(
   formula
 )
 ident(
-  int_ref f "src/toStr.ml" 412 12489 12508 "src/toStr.ml" 412 12489 12509
+  int_ref f "src/toStr.ml" 415 12547 12566 "src/toStr.ml" 415 12547 12567
 )
-"src/toStr.ml" 413 12525 12557 "src/toStr.ml" 413 12525 12567
+"src/toStr.ml" 416 12583 12615 "src/toStr.ml" 416 12583 12625
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 413 12525 12529 "src/toStr.ml" 413 12525 12568
+"src/toStr.ml" 416 12583 12587 "src/toStr.ml" 416 12583 12626
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 412 12489 12493 "src/toStr.ml" 413 12525 12568
+"src/toStr.ml" 415 12547 12551 "src/toStr.ml" 416 12583 12626
 type(
   string
 )
-"src/toStr.ml" 411 12463 12478 "src/toStr.ml" 413 12525 12568
+"src/toStr.ml" 414 12521 12536 "src/toStr.ml" 416 12583 12626
 type(
   prop -> string
 )
-"src/toStr.ml" 415 12570 12576 "src/toStr.ml" 415 12570 12588
+"src/toStr.ml" 418 12628 12634 "src/toStr.ml" 418 12628 12646
 type(
   protocol -> string
 )
 ident(
-  def protocol_act "src/toStr.ml" 429 13366 13439 "src/toStr.ml" 431 13441 13444
+  def protocol_act "src/toStr.ml" 432 13424 13497 "src/toStr.ml" 434 13499 13502
 )
-"src/toStr.ml" 415 12570 12595 "src/toStr.ml" 415 12570 12596
+"src/toStr.ml" 418 12628 12653 "src/toStr.ml" 418 12628 12654
 type(
   string
 )
-"src/toStr.ml" 415 12570 12598 "src/toStr.ml" 415 12570 12603
+"src/toStr.ml" 418 12628 12656 "src/toStr.ml" 418 12628 12661
 type(
   typedef list
 )
 ident(
-  def types "src/toStr.ml" 416 12641 12645 "src/toStr.ml" 429 13366 13439
+  def types "src/toStr.ml" 419 12699 12703 "src/toStr.ml" 432 13424 13497
 )
-"src/toStr.ml" 415 12570 12605 "src/toStr.ml" 415 12570 12612
+"src/toStr.ml" 418 12628 12663 "src/toStr.ml" 418 12628 12670
 type(
   vardef list
 )
 ident(
-  def vardefs "src/toStr.ml" 416 12641 12645 "src/toStr.ml" 429 13366 13439
+  def vardefs "src/toStr.ml" 419 12699 12703 "src/toStr.ml" 432 13424 13497
 )
-"src/toStr.ml" 415 12570 12614 "src/toStr.ml" 415 12570 12618
+"src/toStr.ml" 418 12628 12672 "src/toStr.ml" 418 12628 12676
 type(
   statement
 )
 ident(
-  def init "src/toStr.ml" 416 12641 12645 "src/toStr.ml" 429 13366 13439
+  def init "src/toStr.ml" 419 12699 12703 "src/toStr.ml" 432 13424 13497
 )
-"src/toStr.ml" 415 12570 12620 "src/toStr.ml" 415 12570 12625
+"src/toStr.ml" 418 12628 12678 "src/toStr.ml" 418 12628 12683
 type(
   rule list
 )
 ident(
-  def rules "src/toStr.ml" 416 12641 12645 "src/toStr.ml" 429 13366 13439
+  def rules "src/toStr.ml" 419 12699 12703 "src/toStr.ml" 432 13424 13497
 )
-"src/toStr.ml" 415 12570 12627 "src/toStr.ml" 415 12570 12637
+"src/toStr.ml" 418 12628 12685 "src/toStr.ml" 418 12628 12695
 type(
   prop list
 )
 ident(
-  def properties "src/toStr.ml" 416 12641 12645 "src/toStr.ml" 429 13366 13439
+  def properties "src/toStr.ml" 419 12699 12703 "src/toStr.ml" 432 13424 13497
 )
-"src/toStr.ml" 415 12570 12589 "src/toStr.ml" 415 12570 12638
+"src/toStr.ml" 418 12628 12647 "src/toStr.ml" 418 12628 12696
 type(
   protocol
 )
-"src/toStr.ml" 416 12641 12649 "src/toStr.ml" 416 12641 12662
+"src/toStr.ml" 419 12699 12707 "src/toStr.ml" 419 12699 12720
 type(
   string list
 )
 ident(
-  def property_strs "src/toStr.ml" 417 12700 12704 "src/toStr.ml" 429 13366 13439
+  def property_strs "src/toStr.ml" 420 12758 12762 "src/toStr.ml" 432 13424 13497
 )
-"src/toStr.ml" 416 12641 12665 "src/toStr.ml" 416 12641 12673
+"src/toStr.ml" 419 12699 12723 "src/toStr.ml" 419 12699 12731
 type(
   prop list -> f:(prop -> string) -> string list
 )
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 416 12641 12674 "src/toStr.ml" 416 12641 12684
+"src/toStr.ml" 419 12699 12732 "src/toStr.ml" 419 12699 12742
 type(
   prop list
 )
 ident(
-  int_ref properties "src/toStr.ml" 415 12570 12627 "src/toStr.ml" 415 12570 12637
+  int_ref properties "src/toStr.ml" 418 12628 12685 "src/toStr.ml" 418 12628 12695
 )
-"src/toStr.ml" 416 12641 12688 "src/toStr.ml" 416 12641 12696
+"src/toStr.ml" 419 12699 12746 "src/toStr.ml" 419 12699 12754
 type(
   prop -> string
 )
 ident(
-  int_ref prop_act "src/toStr.ml" 411 12463 12469 "src/toStr.ml" 411 12463 12477
+  int_ref prop_act "src/toStr.ml" 414 12521 12527 "src/toStr.ml" 414 12521 12535
 )
-"src/toStr.ml" 416 12641 12665 "src/toStr.ml" 416 12641 12696
+"src/toStr.ml" 419 12699 12723 "src/toStr.ml" 419 12699 12754
 call(
   stack
 )
 type(
   string list
 )
-"src/toStr.ml" 417 12700 12708 "src/toStr.ml" 417 12700 12723
+"src/toStr.ml" 420 12758 12766 "src/toStr.ml" 420 12758 12781
 type(
   string list
 )
 ident(
-  def rule_proc_insts "src/toStr.ml" 418 12780 12784 "src/toStr.ml" 429 13366 13439
+  def rule_proc_insts "src/toStr.ml" 421 12838 12842 "src/toStr.ml" 432 13424 13497
 )
-"src/toStr.ml" 417 12700 12725 "src/toStr.ml" 417 12700 12735
+"src/toStr.ml" 420 12758 12783 "src/toStr.ml" 420 12758 12793
 type(
   string list
 )
 ident(
-  def rule_procs "src/toStr.ml" 418 12780 12784 "src/toStr.ml" 429 13366 13439
+  def rule_procs "src/toStr.ml" 421 12838 12842 "src/toStr.ml" 432 13424 13497
 )
-"src/toStr.ml" 417 12700 12708 "src/toStr.ml" 417 12700 12735
+"src/toStr.ml" 420 12758 12766 "src/toStr.ml" 420 12758 12793
 type(
   string list * string list
 )
-"src/toStr.ml" 417 12700 12737 "src/toStr.ml" 417 12700 12747
+"src/toStr.ml" 420 12758 12795 "src/toStr.ml" 420 12758 12805
 type(
   (string * string) list -> string list * string list
 )
 ident(
   ext_ref Core.Std.List.unzip
 )
-"src/toStr.ml" 417 12700 12749 "src/toStr.ml" 417 12700 12757
+"src/toStr.ml" 420 12758 12807 "src/toStr.ml" 420 12758 12815
 type(
   rule list -> f:(rule -> string * string) -> (string * string) list
 )
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 417 12700 12758 "src/toStr.ml" 417 12700 12763
+"src/toStr.ml" 420 12758 12816 "src/toStr.ml" 420 12758 12821
 type(
   rule list
 )
 ident(
-  int_ref rules "src/toStr.ml" 415 12570 12620 "src/toStr.ml" 415 12570 12625
+  int_ref rules "src/toStr.ml" 418 12628 12678 "src/toStr.ml" 418 12628 12683
 )
-"src/toStr.ml" 417 12700 12767 "src/toStr.ml" 417 12700 12775
+"src/toStr.ml" 420 12758 12825 "src/toStr.ml" 420 12758 12833
 type(
   rule -> string * string
 )
 ident(
-  int_ref rule_act "src/toStr.ml" 387 11603 11609 "src/toStr.ml" 387 11603 11617
+  int_ref rule_act "src/toStr.ml" 390 11661 11667 "src/toStr.ml" 390 11661 11675
 )
-"src/toStr.ml" 417 12700 12749 "src/toStr.ml" 417 12700 12775
+"src/toStr.ml" 420 12758 12807 "src/toStr.ml" 420 12758 12833
 call(
   stack
 )
 type(
   (string * string) list
 )
-"src/toStr.ml" 417 12700 12737 "src/toStr.ml" 417 12700 12776
+"src/toStr.ml" 420 12758 12795 "src/toStr.ml" 420 12758 12834
 call(
   stack
 )
 type(
   string list * string list
 )
-"src/toStr.ml" 418 12780 12788 "src/toStr.ml" 418 12780 12798
+"src/toStr.ml" 421 12838 12846 "src/toStr.ml" 421 12838 12856
 type(
   string
 )
 ident(
-  def vardef_str "src/toStr.ml" 421 12901 12905 "src/toStr.ml" 429 13366 13439
+  def vardef_str "src/toStr.ml" 424 12959 12963 "src/toStr.ml" 432 13424 13497
 )
-"src/toStr.ml" 419 12802 12808 "src/toStr.ml" 419 12802 12815
+"src/toStr.ml" 422 12860 12866 "src/toStr.ml" 422 12860 12873
 type(
   (string -> string, unit, string) format -> string -> string
 )
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 419 12802 12816 "src/toStr.ml" 419 12802 12825
+"src/toStr.ml" 422 12860 12874 "src/toStr.ml" 422 12860 12883
 type(
   (string -> string, unit, string) format
 )
-"src/toStr.ml" 419 12802 12827 "src/toStr.ml" 419 12802 12840
+"src/toStr.ml" 422 12860 12885 "src/toStr.ml" 422 12860 12898
 type(
   ?sep:string -> string list -> string
 )
 ident(
   ext_ref Core.Std.String.concat
 )
-"src/toStr.ml" 419 12802 12846 "src/toStr.ml" 419 12802 12850
+"src/toStr.ml" 422 12860 12904 "src/toStr.ml" 422 12860 12908
 type(
   string
 )
-"src/toStr.ml" 419 12802 12852 "src/toStr.ml" 419 12802 12860
+"src/toStr.ml" 422 12860 12910 "src/toStr.ml" 422 12860 12918
 type(
   vardef list -> f:(vardef -> string) -> string list
 )
 ident(
   ext_ref Core.Std.List.map
 )
-"src/toStr.ml" 419 12802 12861 "src/toStr.ml" 419 12802 12868
+"src/toStr.ml" 422 12860 12919 "src/toStr.ml" 422 12860 12926
 type(
   vardef list
 )
 ident(
-  int_ref vardefs "src/toStr.ml" 415 12570 12605 "src/toStr.ml" 415 12570 12612
+  int_ref vardefs "src/toStr.ml" 418 12628 12663 "src/toStr.ml" 418 12628 12670
 )
-"src/toStr.ml" 419 12802 12873 "src/toStr.ml" 419 12802 12883
+"src/toStr.ml" 422 12860 12931 "src/toStr.ml" 422 12860 12941
 type(
   types:typedef list -> vardef -> string
 )
 ident(
-  int_ref vardef_act "src/toStr.ml" 294 8298 8304 "src/toStr.ml" 294 8298 8314
+  int_ref vardef_act "src/toStr.ml" 297 8356 8362 "src/toStr.ml" 297 8356 8372
 )
-"src/toStr.ml" 419 12802 12884 "src/toStr.ml" 419 12802 12890
+"src/toStr.ml" 422 12860 12942 "src/toStr.ml" 422 12860 12948
 type(
   typedef list
 )
 ident(
-  int_ref types "src/toStr.ml" 415 12570 12598 "src/toStr.ml" 415 12570 12603
+  int_ref types "src/toStr.ml" 418 12628 12656 "src/toStr.ml" 418 12628 12661
 )
-"src/toStr.ml" 419 12802 12873 "src/toStr.ml" 419 12802 12890
+"src/toStr.ml" 422 12860 12931 "src/toStr.ml" 422 12860 12948
 call(
   stack
 )
 type(
   vardef -> string
 )
-"src/toStr.ml" 419 12802 12852 "src/toStr.ml" 419 12802 12891
+"src/toStr.ml" 422 12860 12910 "src/toStr.ml" 422 12860 12949
 call(
   stack
 )
 type(
   string list
 )
-"src/toStr.ml" 419 12802 12827 "src/toStr.ml" 419 12802 12892
+"src/toStr.ml" 422 12860 12885 "src/toStr.ml" 422 12860 12950
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 419 12802 12808 "src/toStr.ml" 419 12802 12893
+"src/toStr.ml" 422 12860 12866 "src/toStr.ml" 422 12860 12951
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 421 12901 12909 "src/toStr.ml" 421 12901 12928
+"src/toStr.ml" 424 12959 12967 "src/toStr.ml" 424 12959 12986
 type(
   string
 )
 ident(
-  def rule_proc_insts_str "src/toStr.ml" 422 12976 12980 "src/toStr.ml" 429 13366 13439
+  def rule_proc_insts_str "src/toStr.ml" 425 13034 13038 "src/toStr.ml" 432 13424 13497
 )
-"src/toStr.ml" 421 12901 12931 "src/toStr.ml" 421 12901 12944
+"src/toStr.ml" 424 12959 12989 "src/toStr.ml" 424 12959 13002
 type(
   ?sep:string -> string list -> string
 )
 ident(
   ext_ref Core.Std.String.concat
 )
-"src/toStr.ml" 421 12901 12950 "src/toStr.ml" 421 12901 12956
+"src/toStr.ml" 424 12959 13008 "src/toStr.ml" 424 12959 13014
 type(
   string
 )
-"src/toStr.ml" 421 12901 12957 "src/toStr.ml" 421 12901 12972
+"src/toStr.ml" 424 12959 13015 "src/toStr.ml" 424 12959 13030
 type(
   string list
 )
 ident(
-  int_ref rule_proc_insts "src/toStr.ml" 417 12700 12708 "src/toStr.ml" 417 12700 12723
+  int_ref rule_proc_insts "src/toStr.ml" 420 12758 12766 "src/toStr.ml" 420 12758 12781
 )
-"src/toStr.ml" 421 12901 12931 "src/toStr.ml" 421 12901 12972
+"src/toStr.ml" 424 12959 12989 "src/toStr.ml" 424 12959 13030
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 422 12976 12984 "src/toStr.ml" 422 12976 12992
+"src/toStr.ml" 425 13034 13042 "src/toStr.ml" 425 13034 13050
 type(
   string
 )
 ident(
-  def init_str "src/toStr.ml" 423 13035 13039 "src/toStr.ml" 429 13366 13439
+  def init_str "src/toStr.ml" 426 13093 13097 "src/toStr.ml" 432 13424 13497
 )
-"src/toStr.ml" 422 12976 12995 "src/toStr.ml" 422 12976 13002
+"src/toStr.ml" 425 13034 13053 "src/toStr.ml" 425 13034 13060
 type(
   (string -> string, unit, string) format -> string -> string
 )
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 422 12976 13003 "src/toStr.ml" 422 12976 13015
+"src/toStr.ml" 425 13034 13061 "src/toStr.ml" 425 13034 13073
 type(
   (string -> string, unit, string) format
 )
-"src/toStr.ml" 422 12976 13017 "src/toStr.ml" 422 12976 13025
+"src/toStr.ml" 425 13034 13075 "src/toStr.ml" 425 13034 13083
 type(
   statement -> string
 )
 ident(
-  int_ref init_act "src/toStr.ml" 385 11546 11552 "src/toStr.ml" 385 11546 11560
+  int_ref init_act "src/toStr.ml" 388 11604 11610 "src/toStr.ml" 388 11604 11618
 )
-"src/toStr.ml" 422 12976 13026 "src/toStr.ml" 422 12976 13030
+"src/toStr.ml" 425 13034 13084 "src/toStr.ml" 425 13034 13088
 type(
   statement
 )
 ident(
-  int_ref init "src/toStr.ml" 415 12570 12614 "src/toStr.ml" 415 12570 12618
+  int_ref init "src/toStr.ml" 418 12628 12672 "src/toStr.ml" 418 12628 12676
 )
-"src/toStr.ml" 422 12976 13017 "src/toStr.ml" 422 12976 13030
+"src/toStr.ml" 425 13034 13075 "src/toStr.ml" 425 13034 13088
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 422 12976 12995 "src/toStr.ml" 422 12976 13031
+"src/toStr.ml" 425 13034 13053 "src/toStr.ml" 425 13034 13089
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 423 13035 13043 "src/toStr.ml" 423 13035 13051
+"src/toStr.ml" 426 13093 13101 "src/toStr.ml" 426 13093 13109
 type(
   string
 )
 ident(
-  def prop_str "src/toStr.ml" 424 13097 13101 "src/toStr.ml" 429 13366 13439
+  def prop_str "src/toStr.ml" 427 13155 13159 "src/toStr.ml" 432 13424 13497
 )
-"src/toStr.ml" 423 13035 13054 "src/toStr.ml" 423 13035 13067
+"src/toStr.ml" 426 13093 13112 "src/toStr.ml" 426 13093 13125
 type(
   ?sep:string -> string list -> string
 )
 ident(
   ext_ref Core.Std.String.concat
 )
-"src/toStr.ml" 423 13035 13073 "src/toStr.ml" 423 13035 13079
+"src/toStr.ml" 426 13093 13131 "src/toStr.ml" 426 13093 13137
 type(
   string
 )
-"src/toStr.ml" 423 13035 13080 "src/toStr.ml" 423 13035 13093
+"src/toStr.ml" 426 13093 13138 "src/toStr.ml" 426 13093 13151
 type(
   string list
 )
 ident(
-  int_ref property_strs "src/toStr.ml" 416 12641 12649 "src/toStr.ml" 416 12641 12662
+  int_ref property_strs "src/toStr.ml" 419 12699 12707 "src/toStr.ml" 419 12699 12720
 )
-"src/toStr.ml" 423 13035 13054 "src/toStr.ml" 423 13035 13093
+"src/toStr.ml" 426 13093 13112 "src/toStr.ml" 426 13093 13151
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 424 13097 13105 "src/toStr.ml" 424 13097 13119
+"src/toStr.ml" 427 13155 13163 "src/toStr.ml" 427 13155 13177
 type(
   string
 )
 ident(
-  def rule_procs_str "src/toStr.ml" 425 13175 13179 "src/toStr.ml" 429 13366 13439
+  def rule_procs_str "src/toStr.ml" 428 13233 13237 "src/toStr.ml" 432 13424 13497
 )
-"src/toStr.ml" 424 13097 13122 "src/toStr.ml" 424 13097 13135
+"src/toStr.ml" 427 13155 13180 "src/toStr.ml" 427 13155 13193
 type(
   ?sep:string -> string list -> string
 )
 ident(
   ext_ref Core.Std.String.concat
 )
-"src/toStr.ml" 424 13097 13141 "src/toStr.ml" 424 13097 13160
+"src/toStr.ml" 427 13155 13199 "src/toStr.ml" 427 13155 13218
 type(
   string
 )
-"src/toStr.ml" 424 13097 13161 "src/toStr.ml" 424 13097 13171
+"src/toStr.ml" 427 13155 13219 "src/toStr.ml" 427 13155 13229
 type(
   string list
 )
 ident(
-  int_ref rule_procs "src/toStr.ml" 417 12700 12725 "src/toStr.ml" 417 12700 12735
+  int_ref rule_procs "src/toStr.ml" 420 12758 12783 "src/toStr.ml" 420 12758 12793
 )
-"src/toStr.ml" 424 13097 13122 "src/toStr.ml" 424 13097 13171
+"src/toStr.ml" 427 13155 13180 "src/toStr.ml" 427 13155 13229
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 425 13175 13183 "src/toStr.ml" 425 13175 13187
+"src/toStr.ml" 428 13233 13241 "src/toStr.ml" 428 13233 13245
 type(
   string list
 )
 ident(
-  def strs "src/toStr.ml" 426 13247 13251 "src/toStr.ml" 429 13366 13439
+  def strs "src/toStr.ml" 429 13305 13309 "src/toStr.ml" 432 13424 13497
 )
-"src/toStr.ml" 425 13175 13191 "src/toStr.ml" 425 13175 13201
+"src/toStr.ml" 428 13233 13249 "src/toStr.ml" 428 13233 13259
 type(
   string
 )
 ident(
-  int_ref vardef_str "src/toStr.ml" 418 12780 12788 "src/toStr.ml" 418 12780 12798
+  int_ref vardef_str "src/toStr.ml" 421 12838 12846 "src/toStr.ml" 421 12838 12856
 )
-"src/toStr.ml" 425 13175 13203 "src/toStr.ml" 425 13175 13222
+"src/toStr.ml" 428 13233 13261 "src/toStr.ml" 428 13233 13280
 type(
   string
 )
 ident(
-  int_ref rule_proc_insts_str "src/toStr.ml" 421 12901 12909 "src/toStr.ml" 421 12901 12928
+  int_ref rule_proc_insts_str "src/toStr.ml" 424 12959 12967 "src/toStr.ml" 424 12959 12986
 )
-"src/toStr.ml" 425 13175 13224 "src/toStr.ml" 425 13175 13232
+"src/toStr.ml" 428 13233 13282 "src/toStr.ml" 428 13233 13290
 type(
   string
 )
 ident(
-  int_ref init_str "src/toStr.ml" 422 12976 12984 "src/toStr.ml" 422 12976 12992
+  int_ref init_str "src/toStr.ml" 425 13034 13042 "src/toStr.ml" 425 13034 13050
 )
-"src/toStr.ml" 425 13175 13234 "src/toStr.ml" 425 13175 13242
+"src/toStr.ml" 428 13233 13292 "src/toStr.ml" 428 13233 13300
 type(
   string
 )
 ident(
-  int_ref prop_str "src/toStr.ml" 423 13035 13043 "src/toStr.ml" 423 13035 13051
+  int_ref prop_str "src/toStr.ml" 426 13093 13101 "src/toStr.ml" 426 13093 13109
 )
 type(
   string list
 )
-"src/toStr.ml" 425 13175 13224 "src/toStr.ml" 425 13175 13242
+"src/toStr.ml" 428 13233 13282 "src/toStr.ml" 428 13233 13300
 type(
   string list
 )
-"src/toStr.ml" 425 13175 13203 "src/toStr.ml" 425 13175 13242
+"src/toStr.ml" 428 13233 13261 "src/toStr.ml" 428 13233 13300
 type(
   string list
 )
-"src/toStr.ml" 425 13175 13191 "src/toStr.ml" 425 13175 13242
+"src/toStr.ml" 428 13233 13249 "src/toStr.ml" 428 13233 13300
 type(
   string list
 )
-"src/toStr.ml" 425 13175 13190 "src/toStr.ml" 425 13175 13243
+"src/toStr.ml" 428 13233 13248 "src/toStr.ml" 428 13233 13301
 type(
   string list
 )
-"src/toStr.ml" 426 13247 13255 "src/toStr.ml" 426 13247 13266
+"src/toStr.ml" 429 13305 13313 "src/toStr.ml" 429 13305 13324
 type(
   string
 )
 ident(
-  def main_module "src/toStr.ml" 429 13366 13370 "src/toStr.ml" 429 13366 13439
+  def main_module "src/toStr.ml" 432 13424 13428 "src/toStr.ml" 432 13424 13497
 )
-"src/toStr.ml" 427 13270 13276 "src/toStr.ml" 427 13270 13283
+"src/toStr.ml" 430 13328 13334 "src/toStr.ml" 430 13328 13341
 type(
   (string -> string, unit, string) format -> string -> string
 )
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 427 13270 13284 "src/toStr.ml" 427 13270 13301
+"src/toStr.ml" 430 13328 13342 "src/toStr.ml" 430 13328 13359
 type(
   (string -> string, unit, string) format
 )
-"src/toStr.ml" 427 13270 13303 "src/toStr.ml" 427 13270 13316
+"src/toStr.ml" 430 13328 13361 "src/toStr.ml" 430 13328 13374
 type(
   ?sep:string -> string list -> string
 )
 ident(
   ext_ref Core.Std.String.concat
 )
-"src/toStr.ml" 427 13270 13322 "src/toStr.ml" 427 13270 13352
+"src/toStr.ml" 430 13328 13380 "src/toStr.ml" 430 13328 13410
 type(
   string
 )
-"src/toStr.ml" 427 13270 13353 "src/toStr.ml" 427 13270 13357
+"src/toStr.ml" 430 13328 13411 "src/toStr.ml" 430 13328 13415
 type(
   string list
 )
 ident(
-  int_ref strs "src/toStr.ml" 425 13175 13183 "src/toStr.ml" 425 13175 13187
+  int_ref strs "src/toStr.ml" 428 13233 13241 "src/toStr.ml" 428 13233 13245
 )
-"src/toStr.ml" 427 13270 13303 "src/toStr.ml" 427 13270 13357
+"src/toStr.ml" 430 13328 13361 "src/toStr.ml" 430 13328 13415
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 427 13270 13276 "src/toStr.ml" 427 13270 13358
+"src/toStr.ml" 430 13328 13334 "src/toStr.ml" 430 13328 13416
 call(
   stack
 )
 type(
   string
 )
-"src/toStr.ml" 429 13366 13370 "src/toStr.ml" 429 13366 13377
+"src/toStr.ml" 432 13424 13428 "src/toStr.ml" 432 13424 13435
 type(
   (string -> string -> string, unit, string) format ->
   string -> string -> string
@@ -9606,68 +9606,68 @@ type(
 ident(
   ext_ref Core.Std.sprintf
 )
-"src/toStr.ml" 429 13366 13378 "src/toStr.ml" 429 13366 13412
+"src/toStr.ml" 432 13424 13436 "src/toStr.ml" 432 13424 13470
 type(
   (string -> string -> string, unit, string) format
 )
-"src/toStr.ml" 429 13366 13413 "src/toStr.ml" 429 13366 13424
+"src/toStr.ml" 432 13424 13471 "src/toStr.ml" 432 13424 13482
 type(
   string
 )
 ident(
-  int_ref main_module "src/toStr.ml" 426 13247 13255 "src/toStr.ml" 426 13247 13266
+  int_ref main_module "src/toStr.ml" 429 13305 13313 "src/toStr.ml" 429 13305 13324
 )
-"src/toStr.ml" 429 13366 13425 "src/toStr.ml" 429 13366 13439
+"src/toStr.ml" 432 13424 13483 "src/toStr.ml" 432 13424 13497
 type(
   string
 )
 ident(
-  int_ref rule_procs_str "src/toStr.ml" 424 13097 13105 "src/toStr.ml" 424 13097 13119
+  int_ref rule_procs_str "src/toStr.ml" 427 13155 13163 "src/toStr.ml" 427 13155 13177
 )
-"src/toStr.ml" 429 13366 13370 "src/toStr.ml" 429 13366 13439
+"src/toStr.ml" 432 13424 13428 "src/toStr.ml" 432 13424 13497
 call(
   tail
 )
 type(
   string
 )
-"src/toStr.ml" 426 13247 13251 "src/toStr.ml" 429 13366 13439
+"src/toStr.ml" 429 13305 13309 "src/toStr.ml" 432 13424 13497
 type(
   string
 )
-"src/toStr.ml" 425 13175 13179 "src/toStr.ml" 429 13366 13439
+"src/toStr.ml" 428 13233 13237 "src/toStr.ml" 432 13424 13497
 type(
   string
 )
-"src/toStr.ml" 424 13097 13101 "src/toStr.ml" 429 13366 13439
+"src/toStr.ml" 427 13155 13159 "src/toStr.ml" 432 13424 13497
 type(
   string
 )
-"src/toStr.ml" 423 13035 13039 "src/toStr.ml" 429 13366 13439
+"src/toStr.ml" 426 13093 13097 "src/toStr.ml" 432 13424 13497
 type(
   string
 )
-"src/toStr.ml" 422 12976 12980 "src/toStr.ml" 429 13366 13439
+"src/toStr.ml" 425 13034 13038 "src/toStr.ml" 432 13424 13497
 type(
   string
 )
-"src/toStr.ml" 421 12901 12905 "src/toStr.ml" 429 13366 13439
+"src/toStr.ml" 424 12959 12963 "src/toStr.ml" 432 13424 13497
 type(
   string
 )
-"src/toStr.ml" 418 12780 12784 "src/toStr.ml" 429 13366 13439
+"src/toStr.ml" 421 12838 12842 "src/toStr.ml" 432 13424 13497
 type(
   string
 )
-"src/toStr.ml" 417 12700 12704 "src/toStr.ml" 429 13366 13439
+"src/toStr.ml" 420 12758 12762 "src/toStr.ml" 432 13424 13497
 type(
   string
 )
-"src/toStr.ml" 416 12641 12645 "src/toStr.ml" 429 13366 13439
+"src/toStr.ml" 419 12699 12703 "src/toStr.ml" 432 13424 13497
 type(
   string
 )
-"src/toStr.ml" 415 12570 12589 "src/toStr.ml" 429 13366 13439
+"src/toStr.ml" 418 12628 12647 "src/toStr.ml" 432 13424 13497
 type(
   protocol -> string
 )

@@ -61,6 +61,7 @@ let str_to_request_type str =
   | _ -> Prt.error (sprintf "error return code from server: %s" str); raise Empty_exception
 
 let make_request str host port =
+(*	let ()=printf "%s" (UnixLabels.string_of_inet_addr (host)) in*)
   let sock = Unix.socket ~domain:UnixLabels.PF_INET ~kind:UnixLabels.SOCK_STREAM ~protocol:0 in
   let res = String.make 1024 '\000' in
   Unix.connect sock ~addr:(UnixLabels.ADDR_INET(host, port));

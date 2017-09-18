@@ -1,0 +1,859 @@
+"mutualExTzx.ml" 9 94 98 "mutualExTzx.ml" 9 94 100
+type(
+  const
+)
+ident(
+  def _I "mutualExTzx.ml" 10 112 112 "mutualExTzx.ml" 1 0 -1
+)
+"mutualExTzx.ml" 9 94 103 "mutualExTzx.ml" 9 94 107
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"mutualExTzx.ml" 9 94 108 "mutualExTzx.ml" 9 94 111
+type(
+  string
+)
+"mutualExTzx.ml" 9 94 103 "mutualExTzx.ml" 9 94 111
+type(
+  const
+)
+"mutualExTzx.ml" 10 112 116 "mutualExTzx.ml" 10 112 118
+type(
+  const
+)
+ident(
+  def _T "mutualExTzx.ml" 11 130 130 "mutualExTzx.ml" 1 0 -1
+)
+"mutualExTzx.ml" 10 112 121 "mutualExTzx.ml" 10 112 125
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"mutualExTzx.ml" 10 112 126 "mutualExTzx.ml" 10 112 129
+type(
+  string
+)
+"mutualExTzx.ml" 10 112 121 "mutualExTzx.ml" 10 112 129
+type(
+  const
+)
+"mutualExTzx.ml" 11 130 134 "mutualExTzx.ml" 11 130 136
+type(
+  const
+)
+ident(
+  def _C "mutualExTzx.ml" 12 148 148 "mutualExTzx.ml" 1 0 -1
+)
+"mutualExTzx.ml" 11 130 139 "mutualExTzx.ml" 11 130 143
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"mutualExTzx.ml" 11 130 144 "mutualExTzx.ml" 11 130 147
+type(
+  string
+)
+"mutualExTzx.ml" 11 130 139 "mutualExTzx.ml" 11 130 147
+type(
+  const
+)
+"mutualExTzx.ml" 12 148 152 "mutualExTzx.ml" 12 148 154
+type(
+  const
+)
+ident(
+  def _E "mutualExTzx.ml" 13 166 166 "mutualExTzx.ml" 1 0 -1
+)
+"mutualExTzx.ml" 12 148 157 "mutualExTzx.ml" 12 148 161
+type(
+  string -> const
+)
+ident(
+  ext_ref Paramecium.strc
+)
+"mutualExTzx.ml" 12 148 162 "mutualExTzx.ml" 12 148 165
+type(
+  string
+)
+"mutualExTzx.ml" 12 148 157 "mutualExTzx.ml" 12 148 165
+type(
+  const
+)
+"mutualExTzx.ml" 13 166 170 "mutualExTzx.ml" 13 166 175
+type(
+  const
+)
+ident(
+  def _True "mutualExTzx.ml" 14 189 189 "mutualExTzx.ml" 1 0 -1
+)
+"mutualExTzx.ml" 13 166 178 "mutualExTzx.ml" 13 166 183
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"mutualExTzx.ml" 13 166 184 "mutualExTzx.ml" 13 166 188
+type(
+  bool
+)
+"mutualExTzx.ml" 13 166 178 "mutualExTzx.ml" 13 166 188
+type(
+  const
+)
+"mutualExTzx.ml" 14 189 193 "mutualExTzx.ml" 14 189 199
+type(
+  const
+)
+ident(
+  def _False "mutualExTzx.ml" 16 215 215 "mutualExTzx.ml" 1 0 -1
+)
+"mutualExTzx.ml" 14 189 202 "mutualExTzx.ml" 14 189 207
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"mutualExTzx.ml" 14 189 208 "mutualExTzx.ml" 14 189 213
+type(
+  bool
+)
+"mutualExTzx.ml" 14 189 202 "mutualExTzx.ml" 14 189 213
+type(
+  const
+)
+"mutualExTzx.ml" 16 215 219 "mutualExTzx.ml" 16 215 224
+type(
+  typedef list
+)
+ident(
+  def types "mutualExTzx.ml" 22 353 353 "mutualExTzx.ml" 1 0 -1
+)
+"mutualExTzx.ml" 17 229 231 "mutualExTzx.ml" 17 229 235
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"mutualExTzx.ml" 17 229 236 "mutualExTzx.ml" 17 229 243
+type(
+  string
+)
+"mutualExTzx.ml" 17 229 245 "mutualExTzx.ml" 17 229 247
+type(
+  const
+)
+ident(
+  int_ref _I "mutualExTzx.ml" 9 94 98 "mutualExTzx.ml" 9 94 100
+)
+"mutualExTzx.ml" 17 229 248 "mutualExTzx.ml" 17 229 250
+type(
+  const
+)
+ident(
+  int_ref _T "mutualExTzx.ml" 10 112 116 "mutualExTzx.ml" 10 112 118
+)
+"mutualExTzx.ml" 17 229 251 "mutualExTzx.ml" 17 229 253
+type(
+  const
+)
+ident(
+  int_ref _C "mutualExTzx.ml" 11 130 134 "mutualExTzx.ml" 11 130 136
+)
+"mutualExTzx.ml" 17 229 254 "mutualExTzx.ml" 17 229 256
+type(
+  const
+)
+ident(
+  int_ref _E "mutualExTzx.ml" 12 148 152 "mutualExTzx.ml" 12 148 154
+)
+type(
+  const list
+)
+"mutualExTzx.ml" 17 229 251 "mutualExTzx.ml" 17 229 256
+type(
+  const list
+)
+"mutualExTzx.ml" 17 229 248 "mutualExTzx.ml" 17 229 256
+type(
+  const list
+)
+"mutualExTzx.ml" 17 229 245 "mutualExTzx.ml" 17 229 256
+type(
+  const list
+)
+"mutualExTzx.ml" 17 229 244 "mutualExTzx.ml" 17 229 257
+type(
+  const list
+)
+"mutualExTzx.ml" 17 229 231 "mutualExTzx.ml" 17 229 257
+type(
+  typedef
+)
+"mutualExTzx.ml" 18 259 261 "mutualExTzx.ml" 18 259 265
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"mutualExTzx.ml" 18 259 266 "mutualExTzx.ml" 18 259 274
+type(
+  string
+)
+"mutualExTzx.ml" 18 259 276 "mutualExTzx.ml" 18 259 286
+type(
+  int list -> const list
+)
+ident(
+  ext_ref Paramecium.int_consts
+)
+"mutualExTzx.ml" 18 259 288 "mutualExTzx.ml" 18 259 289
+type(
+  int
+)
+"mutualExTzx.ml" 18 259 290 "mutualExTzx.ml" 18 259 291
+type(
+  int
+)
+type(
+  int list
+)
+"mutualExTzx.ml" 18 259 288 "mutualExTzx.ml" 18 259 291
+type(
+  int list
+)
+"mutualExTzx.ml" 18 259 287 "mutualExTzx.ml" 18 259 292
+type(
+  int list
+)
+"mutualExTzx.ml" 18 259 276 "mutualExTzx.ml" 18 259 292
+type(
+  const list
+)
+"mutualExTzx.ml" 18 259 261 "mutualExTzx.ml" 18 259 293
+type(
+  typedef
+)
+"mutualExTzx.ml" 19 295 297 "mutualExTzx.ml" 19 295 301
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"mutualExTzx.ml" 19 295 302 "mutualExTzx.ml" 19 295 311
+type(
+  string
+)
+"mutualExTzx.ml" 19 295 313 "mutualExTzx.ml" 19 295 318
+type(
+  const
+)
+ident(
+  int_ref _True "mutualExTzx.ml" 13 166 170 "mutualExTzx.ml" 13 166 175
+)
+"mutualExTzx.ml" 19 295 320 "mutualExTzx.ml" 19 295 326
+type(
+  const
+)
+ident(
+  int_ref _False "mutualExTzx.ml" 14 189 193 "mutualExTzx.ml" 14 189 199
+)
+type(
+  const list
+)
+"mutualExTzx.ml" 19 295 313 "mutualExTzx.ml" 19 295 326
+type(
+  const list
+)
+"mutualExTzx.ml" 19 295 312 "mutualExTzx.ml" 19 295 327
+type(
+  const list
+)
+"mutualExTzx.ml" 19 295 297 "mutualExTzx.ml" 19 295 327
+type(
+  typedef
+)
+"mutualExTzx.ml" 19 295 297 "mutualExTzx.ml" 19 295 328
+type(
+  typedef list
+)
+"mutualExTzx.ml" 18 259 261 "mutualExTzx.ml" 19 295 328
+type(
+  typedef list
+)
+"mutualExTzx.ml" 17 229 231 "mutualExTzx.ml" 19 295 328
+type(
+  typedef list
+)
+"mutualExTzx.ml" 16 215 227 "mutualExTzx.ml" 20 349 350
+type(
+  typedef list
+)
+"mutualExTzx.ml" 22 353 357 "mutualExTzx.ml" 22 353 364
+type(
+  vardef list
+)
+ident(
+  def vardefs "mutualExTzx.ml" 28 472 472 "mutualExTzx.ml" 1 0 -1
+)
+"mutualExTzx.ml" 22 353 367 "mutualExTzx.ml" 22 353 378
+type(
+  vardef list list -> vardef list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"mutualExTzx.ml" 23 380 383 "mutualExTzx.ml" 23 380 389
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"mutualExTzx.ml" 23 380 392 "mutualExTzx.ml" 23 380 395
+type(
+  string
+)
+"mutualExTzx.ml" 23 380 398 "mutualExTzx.ml" 23 380 406
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"mutualExTzx.ml" 23 380 407 "mutualExTzx.ml" 23 380 411
+type(
+  string
+)
+"mutualExTzx.ml" 23 380 412 "mutualExTzx.ml" 23 380 420
+type(
+  string
+)
+"mutualExTzx.ml" 23 380 398 "mutualExTzx.ml" 23 380 420
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"mutualExTzx.ml" 23 380 397 "mutualExTzx.ml" 23 380 421
+type(
+  paramdef list
+)
+"mutualExTzx.ml" 23 380 392 "mutualExTzx.ml" 23 380 421
+type(
+  string * paramdef list
+)
+"mutualExTzx.ml" 23 380 391 "mutualExTzx.ml" 23 380 422
+type(
+  (string * paramdef list) list
+)
+"mutualExTzx.ml" 23 380 390 "mutualExTzx.ml" 23 380 423
+type(
+  (string * paramdef list) list
+)
+"mutualExTzx.ml" 23 380 424 "mutualExTzx.ml" 23 380 431
+type(
+  string
+)
+"mutualExTzx.ml" 23 380 383 "mutualExTzx.ml" 23 380 431
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"mutualExTzx.ml" 23 380 382 "mutualExTzx.ml" 23 380 432
+type(
+  vardef list
+)
+"mutualExTzx.ml" 24 434 437 "mutualExTzx.ml" 24 434 443
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"mutualExTzx.ml" 24 434 446 "mutualExTzx.ml" 24 434 449
+type(
+  string
+)
+"mutualExTzx.ml" 24 434 450 "mutualExTzx.ml" 24 434 452
+type(
+  paramdef list
+)
+"mutualExTzx.ml" 24 434 446 "mutualExTzx.ml" 24 434 452
+type(
+  string * paramdef list
+)
+"mutualExTzx.ml" 24 434 445 "mutualExTzx.ml" 24 434 453
+type(
+  (string * paramdef list) list
+)
+"mutualExTzx.ml" 24 434 444 "mutualExTzx.ml" 24 434 454
+type(
+  (string * paramdef list) list
+)
+"mutualExTzx.ml" 24 434 455 "mutualExTzx.ml" 24 434 464
+type(
+  string
+)
+"mutualExTzx.ml" 24 434 437 "mutualExTzx.ml" 24 434 464
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"mutualExTzx.ml" 24 434 436 "mutualExTzx.ml" 24 434 465
+type(
+  vardef list
+)
+"mutualExTzx.ml" 24 434 436 "mutualExTzx.ml" 24 434 466
+type(
+  vardef list list
+)
+"mutualExTzx.ml" 23 380 382 "mutualExTzx.ml" 24 434 466
+type(
+  vardef list list
+)
+"mutualExTzx.ml" 22 353 378 "mutualExTzx.ml" 25 467 468
+type(
+  vardef list list
+)
+"mutualExTzx.ml" 22 353 367 "mutualExTzx.ml" 25 467 468
+type(
+  vardef list
+)
+"mutualExTzx.ml" 28 472 476 "mutualExTzx.ml" 28 472 480
+type(
+  Loach.statement
+)
+ident(
+  def init "mutualExTzx.ml" 30 618 618 "mutualExTzx.ml" 1 0 -1
+)
+"mutualExTzx.ml" 28 472 482 "mutualExTzx.ml" 28 472 490
+type(
+  Loach.statement list -> Loach.statement
+)
+ident(
+  ext_ref Loach.parallel
+)
+"mutualExTzx.ml" 28 472 493 "mutualExTzx.ml" 28 472 505
+type(
+  Loach.statement -> paramdef list -> Loach.statement
+)
+ident(
+  ext_ref Loach.forStatement
+)
+"mutualExTzx.ml" 28 472 507 "mutualExTzx.ml" 28 472 513
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"mutualExTzx.ml" 28 472 515 "mutualExTzx.ml" 28 472 518
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTzx.ml" 28 472 521 "mutualExTzx.ml" 28 472 524
+type(
+  string
+)
+"mutualExTzx.ml" 28 472 526 "mutualExTzx.ml" 28 472 534
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTzx.ml" 28 472 535 "mutualExTzx.ml" 28 472 538
+type(
+  string
+)
+"mutualExTzx.ml" 28 472 526 "mutualExTzx.ml" 28 472 538
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTzx.ml" 28 472 525 "mutualExTzx.ml" 28 472 539
+type(
+  paramref list
+)
+"mutualExTzx.ml" 28 472 521 "mutualExTzx.ml" 28 472 539
+type(
+  string * paramref list
+)
+"mutualExTzx.ml" 28 472 520 "mutualExTzx.ml" 28 472 540
+type(
+  (string * paramref list) list
+)
+"mutualExTzx.ml" 28 472 519 "mutualExTzx.ml" 28 472 541
+type(
+  (string * paramref list) list
+)
+"mutualExTzx.ml" 28 472 515 "mutualExTzx.ml" 28 472 541
+type(
+  var
+)
+"mutualExTzx.ml" 28 472 544 "mutualExTzx.ml" 28 472 549
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTzx.ml" 28 472 550 "mutualExTzx.ml" 28 472 552
+type(
+  const
+)
+ident(
+  int_ref _I "mutualExTzx.ml" 9 94 98 "mutualExTzx.ml" 9 94 100
+)
+"mutualExTzx.ml" 28 472 544 "mutualExTzx.ml" 28 472 552
+type(
+  Loach.exp
+)
+"mutualExTzx.ml" 28 472 507 "mutualExTzx.ml" 28 472 553
+type(
+  Loach.statement
+)
+"mutualExTzx.ml" 28 472 555 "mutualExTzx.ml" 28 472 563
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"mutualExTzx.ml" 28 472 564 "mutualExTzx.ml" 28 472 567
+type(
+  string
+)
+"mutualExTzx.ml" 28 472 568 "mutualExTzx.ml" 28 472 576
+type(
+  string
+)
+"mutualExTzx.ml" 28 472 555 "mutualExTzx.ml" 28 472 576
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"mutualExTzx.ml" 28 472 554 "mutualExTzx.ml" 28 472 577
+type(
+  paramdef list
+)
+"mutualExTzx.ml" 28 472 493 "mutualExTzx.ml" 28 472 577
+type(
+  Loach.statement
+)
+"mutualExTzx.ml" 28 472 580 "mutualExTzx.ml" 28 472 586
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"mutualExTzx.ml" 28 472 588 "mutualExTzx.ml" 28 472 594
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"mutualExTzx.ml" 28 472 595 "mutualExTzx.ml" 28 472 598
+type(
+  string
+)
+"mutualExTzx.ml" 28 472 588 "mutualExTzx.ml" 28 472 598
+type(
+  var
+)
+"mutualExTzx.ml" 28 472 601 "mutualExTzx.ml" 28 472 606
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTzx.ml" 28 472 607 "mutualExTzx.ml" 28 472 612
+type(
+  const
+)
+ident(
+  int_ref _True "mutualExTzx.ml" 13 166 170 "mutualExTzx.ml" 13 166 175
+)
+"mutualExTzx.ml" 28 472 601 "mutualExTzx.ml" 28 472 612
+type(
+  Loach.exp
+)
+"mutualExTzx.ml" 28 472 580 "mutualExTzx.ml" 28 472 613
+type(
+  Loach.statement
+)
+"mutualExTzx.ml" 28 472 579 "mutualExTzx.ml" 28 472 614
+type(
+  Loach.statement list
+)
+"mutualExTzx.ml" 28 472 492 "mutualExTzx.ml" 28 472 614
+type(
+  Loach.statement list
+)
+"mutualExTzx.ml" 28 472 491 "mutualExTzx.ml" 28 472 615
+type(
+  Loach.statement list
+)
+"mutualExTzx.ml" 28 472 482 "mutualExTzx.ml" 28 472 615
+type(
+  Loach.statement
+)
+"mutualExTzx.ml" 30 618 622 "mutualExTzx.ml" 30 618 628
+type(
+  '_a
+)
+ident(
+  def n_Idle "mutualExTzx.ml" 38 1037 1037 "mutualExTzx.ml" 1 0 -1
+)
+"mutualExTzx.ml" 31 630 636 "mutualExTzx.ml" 31 630 640
+type(
+  string
+)
+ident(
+  def name "mutualExTzx.ml" 32 651 653 "mutualExTzx.ml" 36 999 1035
+)
+"mutualExTzx.ml" 31 630 641 "mutualExTzx.ml" 31 630 647
+type(
+  string
+)
+"mutualExTzx.ml" 32 651 657 "mutualExTzx.ml" 32 651 663
+type(
+  paramdef list
+)
+ident(
+  def params "mutualExTzx.ml" 33 691 693 "mutualExTzx.ml" 36 999 1035
+)
+"mutualExTzx.ml" 32 651 665 "mutualExTzx.ml" 32 651 673
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"mutualExTzx.ml" 32 651 674 "mutualExTzx.ml" 32 651 677
+type(
+  string
+)
+"mutualExTzx.ml" 32 651 678 "mutualExTzx.ml" 32 651 686
+type(
+  string
+)
+"mutualExTzx.ml" 32 651 665 "mutualExTzx.ml" 32 651 686
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"mutualExTzx.ml" 32 651 664 "mutualExTzx.ml" 32 651 687
+type(
+  paramdef list
+)
+"mutualExTzx.ml" 33 691 697 "mutualExTzx.ml" 33 691 704
+type(
+  Loach.formula
+)
+ident(
+  def formula "mutualExTzx.ml" 34 760 762 "mutualExTzx.ml" 36 999 1035
+)
+"mutualExTzx.ml" 33 691 706 "mutualExTzx.ml" 33 691 709
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"mutualExTzx.ml" 33 691 711 "mutualExTzx.ml" 33 691 714
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"mutualExTzx.ml" 33 691 716 "mutualExTzx.ml" 33 691 719
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTzx.ml" 33 691 722 "mutualExTzx.ml" 33 691 725
+type(
+  string
+)
+"mutualExTzx.ml" 33 691 727 "mutualExTzx.ml" 33 691 735
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTzx.ml" 33 691 736 "mutualExTzx.ml" 33 691 739
+type(
+  string
+)
+"mutualExTzx.ml" 33 691 727 "mutualExTzx.ml" 33 691 739
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTzx.ml" 33 691 726 "mutualExTzx.ml" 33 691 740
+type(
+  paramref list
+)
+"mutualExTzx.ml" 33 691 722 "mutualExTzx.ml" 33 691 740
+type(
+  string * paramref list
+)
+"mutualExTzx.ml" 33 691 721 "mutualExTzx.ml" 33 691 741
+type(
+  (string * paramref list) list
+)
+"mutualExTzx.ml" 33 691 720 "mutualExTzx.ml" 33 691 742
+type(
+  (string * paramref list) list
+)
+"mutualExTzx.ml" 33 691 716 "mutualExTzx.ml" 33 691 742
+type(
+  var
+)
+"mutualExTzx.ml" 33 691 711 "mutualExTzx.ml" 33 691 743
+type(
+  Loach.exp
+)
+"mutualExTzx.ml" 33 691 746 "mutualExTzx.ml" 33 691 751
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTzx.ml" 33 691 752 "mutualExTzx.ml" 33 691 754
+type(
+  const
+)
+ident(
+  int_ref _E "mutualExTzx.ml" 12 148 152 "mutualExTzx.ml" 12 148 154
+)
+"mutualExTzx.ml" 33 691 746 "mutualExTzx.ml" 33 691 754
+type(
+  Loach.exp
+)
+"mutualExTzx.ml" 33 691 706 "mutualExTzx.ml" 33 691 755
+type(
+  Loach.formula
+)
+"mutualExTzx.ml" 34 760 766 "mutualExTzx.ml" 34 760 775
+type(
+  '_b
+)
+ident(
+  def statement "mutualExTzx.ml" 36 999 1001 "mutualExTzx.ml" 36 999 1035
+)
+"mutualExTzx.ml" 34 760 777 "mutualExTzx.ml" 34 760 783
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"mutualExTzx.ml" 34 760 785 "mutualExTzx.ml" 34 760 788
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"mutualExTzx.ml" 34 760 791 "mutualExTzx.ml" 34 760 794
+type(
+  string
+)
+"mutualExTzx.ml" 34 760 796 "mutualExTzx.ml" 34 760 804
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"mutualExTzx.ml" 34 760 805 "mutualExTzx.ml" 34 760 808
+type(
+  string
+)
+"mutualExTzx.ml" 34 760 796 "mutualExTzx.ml" 34 760 808
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"mutualExTzx.ml" 34 760 795 "mutualExTzx.ml" 34 760 809
+type(
+  paramref list
+)
+"mutualExTzx.ml" 34 760 791 "mutualExTzx.ml" 34 760 809
+type(
+  string * paramref list
+)
+"mutualExTzx.ml" 34 760 790 "mutualExTzx.ml" 34 760 810
+type(
+  (string * paramref list) list
+)
+"mutualExTzx.ml" 34 760 789 "mutualExTzx.ml" 34 760 811
+type(
+  (string * paramref list) list
+)
+"mutualExTzx.ml" 34 760 785 "mutualExTzx.ml" 34 760 811
+type(
+  var
+)
+"mutualExTzx.ml" 34 760 814 "mutualExTzx.ml" 34 760 819
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"mutualExTzx.ml" 34 760 820 "mutualExTzx.ml" 34 760 822
+type(
+  const
+)
+ident(
+  int_ref _I "mutualExTzx.ml" 9 94 98 "mutualExTzx.ml" 9 94 100
+)
+"mutualExTzx.ml" 34 760 814 "mutualExTzx.ml" 34 760 822
+type(
+  Loach.exp
+)
+"mutualExTzx.ml" 34 760 777 "mutualExTzx.ml" 34 760 823
+type(
+  Loach.statement
+)

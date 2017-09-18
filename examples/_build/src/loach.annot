@@ -34376,3 +34376,745 @@ type(
 type(
   string list -> protocol -> protocol
 )
+"src/loach.ml" 950 29947 29952 "src/loach.ml" 950 29947 29958
+type(
+  formula ->
+  rule -> types:typedef list -> ?symIndex:bool -> Paramecium.formula option
+)
+ident(
+  def relate "src/loach.ml" 971 30634 30634 "src/loach.ml" 1038 32766 32769
+)
+"src/loach.ml" 950 29947 29959 "src/loach.ml" 950 29947 29962
+type(
+  formula
+)
+ident(
+  def inv "src/loach.ml" 950 29947 29963 "src/loach.ml" 955 30127 30152
+)
+"src/loach.ml" 950 29947 29963 "src/loach.ml" 950 29947 29964
+type(
+  rule
+)
+ident(
+  def r "src/loach.ml" 950 29947 29965 "src/loach.ml" 955 30127 30152
+)
+"src/loach.ml" 951 29973 29984 "src/loach.ml" 951 29973 29988
+type(
+  string
+)
+ident(
+  def name "src/loach.ml" 952 30014 30016 "src/loach.ml" 955 30127 30152
+)
+"src/loach.ml" 951 29973 29989 "src/loach.ml" 951 29973 29998
+type(
+  paramdef list
+)
+ident(
+  def paramdefs "src/loach.ml" 952 30014 30016 "src/loach.ml" 955 30127 30152
+)
+"src/loach.ml" 951 29973 29999 "src/loach.ml" 951 29973 30000
+type(
+  formula
+)
+ident(
+  def g "src/loach.ml" 952 30014 30016 "src/loach.ml" 955 30127 30152
+)
+"src/loach.ml" 951 29973 30002 "src/loach.ml" 951 29973 30005
+type(
+  statement
+)
+ident(
+  def act "src/loach.ml" 952 30014 30016 "src/loach.ml" 955 30127 30152
+)
+"src/loach.ml" 951 29973 29979 "src/loach.ml" 951 29973 30006
+type(
+  rule
+)
+"src/loach.ml" 951 29973 30007 "src/loach.ml" 951 29973 30008
+type(
+  rule
+)
+ident(
+  int_ref r "src/loach.ml" 950 29947 29963 "src/loach.ml" 950 29947 29964
+)
+"src/loach.ml" 952 30014 30026 "src/loach.ml" 952 30014 30029
+type(
+  formula
+)
+ident(
+  def ant "src/loach.ml" 953 30043 30045 "src/loach.ml" 955 30127 30152
+)
+"src/loach.ml" 952 30014 30030 "src/loach.ml" 952 30014 30034
+type(
+  formula
+)
+ident(
+  def cons "src/loach.ml" 953 30043 30045 "src/loach.ml" 955 30127 30152
+)
+"src/loach.ml" 952 30014 30020 "src/loach.ml" 952 30014 30035
+type(
+  formula
+)
+"src/loach.ml" 952 30014 30036 "src/loach.ml" 952 30014 30039
+type(
+  formula
+)
+ident(
+  int_ref inv "src/loach.ml" 950 29947 29959 "src/loach.ml" 950 29947 29962
+)
+"src/loach.ml" 953 30043 30049 "src/loach.ml" 953 30043 30052
+type(
+  Paramecium.formula
+)
+ident(
+  def ant "src/loach.ml" 954 30087 30089 "src/loach.ml" 955 30127 30152
+)
+"src/loach.ml" 953 30043 30053 "src/loach.ml" 953 30043 30072
+type(
+  types:typedef list -> formula -> Paramecium.formula
+)
+ident(
+  int_ref Trans.trans_formula "src/loach.ml" 474 14193 14199 "src/loach.ml" 474 14193 14212
+)
+"src/loach.ml" 953 30043 30073 "src/loach.ml" 953 30043 30079
+type(
+  typedef list
+)
+ident(
+  int_ref types "src/loach.ml" 950 29947 29965 "src/loach.ml" 955 30127 30152
+)
+"src/loach.ml" 953 30043 30080 "src/loach.ml" 953 30043 30083
+type(
+  formula
+)
+ident(
+  int_ref ant "src/loach.ml" 952 30014 30026 "src/loach.ml" 952 30014 30029
+)
+"src/loach.ml" 953 30043 30053 "src/loach.ml" 953 30043 30083
+call(
+  stack
+)
+type(
+  Paramecium.formula
+)
+"src/loach.ml" 954 30087 30093 "src/loach.ml" 954 30087 30094
+type(
+  Paramecium.formula
+)
+ident(
+  def g "src/loach.ml" 955 30127 30129 "src/loach.ml" 955 30127 30152
+)
+"src/loach.ml" 954 30087 30095 "src/loach.ml" 954 30087 30114
+type(
+  types:typedef list -> formula -> Paramecium.formula
+)
+ident(
+  int_ref Trans.trans_formula "src/loach.ml" 474 14193 14199 "src/loach.ml" 474 14193 14212
+)
+"src/loach.ml" 954 30087 30115 "src/loach.ml" 954 30087 30121
+type(
+  typedef list
+)
+ident(
+  int_ref types "src/loach.ml" 950 29947 29965 "src/loach.ml" 955 30127 30152
+)
+"src/loach.ml" 954 30087 30122 "src/loach.ml" 954 30087 30123
+type(
+  formula
+)
+ident(
+  int_ref g "src/loach.ml" 951 29973 29999 "src/loach.ml" 951 29973 30000
+)
+"src/loach.ml" 954 30087 30095 "src/loach.ml" 954 30087 30123
+call(
+  stack
+)
+type(
+  Paramecium.formula
+)
+"src/loach.ml" 955 30127 30129 "src/loach.ml" 955 30127 30146
+type(
+  Paramecium.formula ->
+  Paramecium.formula -> ?symIndex:bool -> Paramecium.formula option
+)
+ident(
+  ext_ref Formula.can_imply
+)
+"src/loach.ml" 955 30127 30147 "src/loach.ml" 955 30127 30150
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref ant "src/loach.ml" 953 30043 30049 "src/loach.ml" 953 30043 30052
+)
+"src/loach.ml" 955 30127 30151 "src/loach.ml" 955 30127 30152
+type(
+  Paramecium.formula
+)
+ident(
+  int_ref g "src/loach.ml" 954 30087 30093 "src/loach.ml" 954 30087 30094
+)
+"src/loach.ml" 955 30127 30129 "src/loach.ml" 955 30127 30152
+call(
+  tail
+)
+type(
+  ?symIndex:bool -> Paramecium.formula option
+)
+"src/loach.ml" 954 30087 30089 "src/loach.ml" 955 30127 30152
+type(
+  ?symIndex:bool -> Paramecium.formula option
+)
+"src/loach.ml" 953 30043 30045 "src/loach.ml" 955 30127 30152
+type(
+  ?symIndex:bool -> Paramecium.formula option
+)
+"src/loach.ml" 952 30014 30016 "src/loach.ml" 955 30127 30152
+type(
+  ?symIndex:bool -> Paramecium.formula option
+)
+"src/loach.ml" 951 29973 29975 "src/loach.ml" 955 30127 30152
+type(
+  ?symIndex:bool -> Paramecium.formula option
+)
+"src/loach.ml" 950 29947 29965 "src/loach.ml" 955 30127 30152
+type(
+  types:typedef list -> ?symIndex:bool -> Paramecium.formula option
+)
+type(
+  typedef list
+)
+ident(
+  def types "src/loach.ml" 951 29973 29975 "src/loach.ml" 955 30127 30152
+)
+"src/loach.ml" 950 29947 29963 "src/loach.ml" 955 30127 30152
+type(
+  rule -> types:typedef list -> ?symIndex:bool -> Paramecium.formula option
+)
+"src/loach.ml" 950 29947 29959 "src/loach.ml" 955 30127 30152
+type(
+  formula ->
+  rule -> types:typedef list -> ?symIndex:bool -> Paramecium.formula option
+)
+"src/loach.ml" 971 30634 30638 "src/loach.ml" 971 30634 30649
+type(
+  int -> var -> bool
+)
+ident(
+  def effectOnVar "src/loach.ml" 980 30822 30822 "src/loach.ml" 1038 32766 32769
+)
+"src/loach.ml" 971 30634 30650 "src/loach.ml" 971 30634 30655
+type(
+  int
+)
+ident(
+  def index "src/loach.ml" 971 30634 30656 "src/loach.ml" 977 30803 30814
+)
+"src/loach.ml" 971 30634 30656 "src/loach.ml" 971 30634 30659
+type(
+  var
+)
+ident(
+  def var "src/loach.ml" 972 30663 30665 "src/loach.ml" 977 30803 30814
+)
+"src/loach.ml" 972 30663 30671 "src/loach.ml" 972 30663 30674
+type(
+  var
+)
+ident(
+  int_ref var "src/loach.ml" 971 30634 30656 "src/loach.ml" 971 30634 30659
+)
+"src/loach.ml" 973 30680 30689 "src/loach.ml" 973 30680 30693
+type(
+  string
+)
+ident(
+  def name "src/loach.ml" 974 30711 30714 "src/loach.ml" 977 30803 30814
+)
+"src/loach.ml" 973 30680 30695 "src/loach.ml" 973 30680 30704
+type(
+  paramref list
+)
+type(
+  paramref
+)
+ident(
+  def paramRef1 "src/loach.ml" 974 30711 30714 "src/loach.ml" 977 30803 30814
+)
+"src/loach.ml" 973 30680 30694 "src/loach.ml" 973 30680 30705
+type(
+  paramref list
+)
+"src/loach.ml" 973 30680 30689 "src/loach.ml" 973 30680 30705
+type(
+  string * paramref list
+)
+"src/loach.ml" 973 30680 30688 "src/loach.ml" 973 30680 30706
+type(
+  (string * paramref list) list
+)
+"src/loach.ml" 973 30680 30687 "src/loach.ml" 973 30680 30707
+type(
+  (string * paramref list) list
+)
+"src/loach.ml" 973 30680 30683 "src/loach.ml" 973 30680 30708
+type(
+  var
+)
+"src/loach.ml" 974 30711 30720 "src/loach.ml" 974 30711 30729
+type(
+  paramref
+)
+ident(
+  int_ref paramRef1 "src/loach.ml" 973 30680 30695 "src/loach.ml" 973 30680 30704
+)
+"src/loach.ml" 975 30736 30749 "src/loach.ml" 975 30736 30754
+type(
+  string
+)
+ident(
+  def pname "src/loach.ml" 975 30736 30777 "src/loach.ml" 975 30736 30789
+)
+"src/loach.ml" 975 30736 30755 "src/loach.ml" 975 30736 30760
+type(
+  string
+)
+ident(
+  def vname "src/loach.ml" 975 30736 30777 "src/loach.ml" 975 30736 30789
+)
+"src/loach.ml" 975 30736 30767 "src/loach.ml" 975 30736 30773
+type(
+  int
+)
+ident(
+  def index' "src/loach.ml" 975 30736 30777 "src/loach.ml" 975 30736 30789
+)
+"src/loach.ml" 975 30736 30762 "src/loach.ml" 975 30736 30774
+type(
+  const
+)
+"src/loach.ml" 975 30736 30740 "src/loach.ml" 975 30736 30775
+type(
+  paramref
+)
+"src/loach.ml" 975 30736 30777 "src/loach.ml" 975 30736 30782
+type(
+  int
+)
+ident(
+  int_ref index "src/loach.ml" 971 30634 30650 "src/loach.ml" 971 30634 30655
+)
+"src/loach.ml" 975 30736 30782 "src/loach.ml" 975 30736 30783
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/loach.ml" 975 30736 30783 "src/loach.ml" 975 30736 30789
+type(
+  int
+)
+ident(
+  int_ref index' "src/loach.ml" 975 30736 30767 "src/loach.ml" 975 30736 30773
+)
+"src/loach.ml" 975 30736 30777 "src/loach.ml" 975 30736 30789
+type(
+  bool
+)
+"src/loach.ml" 976 30790 30794 "src/loach.ml" 976 30790 30795
+type(
+  paramref
+)
+"src/loach.ml" 976 30790 30797 "src/loach.ml" 976 30790 30802
+type(
+  bool
+)
+"src/loach.ml" 977 30803 30806 "src/loach.ml" 977 30803 30807
+type(
+  paramref
+)
+"src/loach.ml" 977 30803 30809 "src/loach.ml" 977 30803 30814
+type(
+  bool
+)
+"src/loach.ml" 974 30711 30714 "src/loach.ml" 977 30803 30814
+type(
+  bool
+)
+"src/loach.ml" 972 30663 30665 "src/loach.ml" 977 30803 30814
+type(
+  bool
+)
+"src/loach.ml" 971 30634 30656 "src/loach.ml" 977 30803 30814
+type(
+  var -> bool
+)
+"src/loach.ml" 971 30634 30650 "src/loach.ml" 977 30803 30814
+type(
+  int -> var -> bool
+)
+"src/loach.ml" 980 30822 30830 "src/loach.ml" 980 30822 30847
+type(
+  int -> statement -> bool
+)
+ident(
+  def effectOnStatement "src/loach.ml" 980 30822 30822 "src/loach.ml" 1038 32766 32769
+)
+"src/loach.ml" 980 30822 30848 "src/loach.ml" 980 30822 30853
+type(
+  int
+)
+ident(
+  def index "src/loach.ml" 980 30822 30854 "src/loach.ml" 990 31233 31267
+)
+"src/loach.ml" 980 30822 30854 "src/loach.ml" 980 30822 30863
+type(
+  statement
+)
+ident(
+  def statement "src/loach.ml" 981 30866 30867 "src/loach.ml" 990 31233 31267
+)
+"src/loach.ml" 981 30866 30873 "src/loach.ml" 981 30866 30882
+type(
+  statement
+)
+ident(
+  int_ref statement "src/loach.ml" 980 30822 30854 "src/loach.ml" 980 30822 30863
+)
+"src/loach.ml" 982 30888 30897 "src/loach.ml" 982 30888 30900
+type(
+  var
+)
+ident(
+  def var "src/loach.ml" 982 30888 30911 "src/loach.ml" 982 30888 30932
+)
+"src/loach.ml" 982 30888 30901 "src/loach.ml" 982 30888 30906
+type(
+  exp
+)
+ident(
+  def value "src/loach.ml" 982 30888 30911 "src/loach.ml" 982 30888 30932
+)
+"src/loach.ml" 982 30888 30890 "src/loach.ml" 982 30888 30907
+type(
+  statement
+)
+"src/loach.ml" 982 30888 30911 "src/loach.ml" 982 30888 30922
+type(
+  int -> var -> bool
+)
+ident(
+  int_ref effectOnVar "src/loach.ml" 971 30634 30638 "src/loach.ml" 971 30634 30649
+)
+"src/loach.ml" 982 30888 30923 "src/loach.ml" 982 30888 30928
+type(
+  int
+)
+ident(
+  int_ref index "src/loach.ml" 980 30822 30848 "src/loach.ml" 980 30822 30853
+)
+"src/loach.ml" 982 30888 30929 "src/loach.ml" 982 30888 30932
+type(
+  var
+)
+ident(
+  int_ref var "src/loach.ml" 982 30888 30897 "src/loach.ml" 982 30888 30900
+)
+"src/loach.ml" 982 30888 30911 "src/loach.ml" 982 30888 30932
+call(
+  tail
+)
+type(
+  bool
+)
+"src/loach.ml" 983 30934 30945 "src/loach.ml" 983 30934 30958
+type(
+  statement list
+)
+ident(
+  def statementList "src/loach.ml" 984 30964 30966 "src/loach.ml" 985 31032 31069
+)
+"src/loach.ml" 983 30934 30936 "src/loach.ml" 983 30934 30959
+type(
+  statement
+)
+"src/loach.ml" 984 30964 30966 "src/loach.ml" 984 30964 30975
+type(
+  bool list -> init:bool -> f:(bool -> bool -> bool) -> bool
+)
+ident(
+  ext_ref Core.Std.List.fold
+)
+"src/loach.ml" 984 30964 30978 "src/loach.ml" 984 30964 30986
+type(
+  statement list -> f:(statement -> bool) -> bool list
+)
+ident(
+  ext_ref Core.Std.List.map
+)
+"src/loach.ml" 984 30964 30991 "src/loach.ml" 984 30964 31008
+type(
+  int -> statement -> bool
+)
+ident(
+  int_ref effectOnStatement "src/loach.ml" 980 30822 30830 "src/loach.ml" 980 30822 30847
+)
+"src/loach.ml" 984 30964 31009 "src/loach.ml" 984 30964 31014
+type(
+  int
+)
+ident(
+  int_ref index "src/loach.ml" 980 30822 30848 "src/loach.ml" 980 30822 30853
+)
+"src/loach.ml" 984 30964 30991 "src/loach.ml" 984 30964 31014
+call(
+  stack
+)
+type(
+  statement -> bool
+)
+"src/loach.ml" 984 30964 31016 "src/loach.ml" 984 30964 31029
+type(
+  statement list
+)
+ident(
+  int_ref statementList "src/loach.ml" 983 30934 30945 "src/loach.ml" 983 30934 30958
+)
+"src/loach.ml" 984 30964 30978 "src/loach.ml" 984 30964 31029
+call(
+  stack
+)
+type(
+  bool list
+)
+"src/loach.ml" 985 31032 31043 "src/loach.ml" 985 31032 31044
+type(
+  bool
+)
+ident(
+  def x "src/loach.ml" 985 31032 31045 "src/loach.ml" 985 31032 31056
+)
+"src/loach.ml" 985 31032 31045 "src/loach.ml" 985 31032 31046
+type(
+  bool
+)
+ident(
+  def y "src/loach.ml" 985 31032 31050 "src/loach.ml" 985 31032 31056
+)
+"src/loach.ml" 985 31032 31050 "src/loach.ml" 985 31032 31051
+type(
+  bool
+)
+ident(
+  int_ref x "src/loach.ml" 985 31032 31043 "src/loach.ml" 985 31032 31044
+)
+"src/loach.ml" 985 31032 31052 "src/loach.ml" 985 31032 31054
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/loach.ml" 985 31032 31055 "src/loach.ml" 985 31032 31056
+type(
+  bool
+)
+ident(
+  int_ref y "src/loach.ml" 985 31032 31045 "src/loach.ml" 985 31032 31046
+)
+"src/loach.ml" 985 31032 31050 "src/loach.ml" 985 31032 31056
+type(
+  bool
+)
+"src/loach.ml" 985 31032 31045 "src/loach.ml" 985 31032 31056
+type(
+  bool -> bool
+)
+"src/loach.ml" 985 31032 31043 "src/loach.ml" 985 31032 31056
+type(
+  bool -> bool -> bool
+)
+"src/loach.ml" 985 31032 31064 "src/loach.ml" 985 31032 31069
+type(
+  bool
+)
+"src/loach.ml" 984 30964 30966 "src/loach.ml" 985 31032 31069
+call(
+  tail
+)
+type(
+  bool
+)
+"src/loach.ml" 986 31070 31084 "src/loach.ml" 986 31070 31089
+type(
+  formula
+)
+ident(
+  def bcond "src/loach.ml" 987 31104 31106 "src/loach.ml" 987 31104 31139
+)
+"src/loach.ml" 986 31070 31090 "src/loach.ml" 986 31070 31099
+type(
+  statement
+)
+ident(
+  def statement "src/loach.ml" 987 31104 31106 "src/loach.ml" 987 31104 31139
+)
+"src/loach.ml" 986 31070 31072 "src/loach.ml" 986 31070 31100
+type(
+  statement
+)
+"src/loach.ml" 987 31104 31106 "src/loach.ml" 987 31104 31123
+type(
+  int -> statement -> bool
+)
+ident(
+  int_ref effectOnStatement "src/loach.ml" 980 30822 30830 "src/loach.ml" 980 30822 30847
+)
+"src/loach.ml" 987 31104 31124 "src/loach.ml" 987 31104 31129
+type(
+  int
+)
+ident(
+  int_ref index "src/loach.ml" 980 30822 30848 "src/loach.ml" 980 30822 30853
+)
+"src/loach.ml" 987 31104 31130 "src/loach.ml" 987 31104 31139
+type(
+  statement
+)
+ident(
+  int_ref statement "src/loach.ml" 986 31070 31090 "src/loach.ml" 986 31070 31099
+)
+"src/loach.ml" 987 31104 31106 "src/loach.ml" 987 31104 31139
+call(
+  tail
+)
+type(
+  bool
+)
+"src/loach.ml" 988 31140 31158 "src/loach.ml" 988 31140 31159
+type(
+  formula
+)
+ident(
+  def b "src/loach.ml" 989 31170 31172 "src/loach.ml" 989 31170 31232
+)
+"src/loach.ml" 988 31140 31160 "src/loach.ml" 988 31140 31162
+type(
+  statement
+)
+ident(
+  def s1 "src/loach.ml" 989 31170 31172 "src/loach.ml" 989 31170 31232
+)
+"src/loach.ml" 988 31140 31163 "src/loach.ml" 988 31140 31165
+type(
+  statement
+)
+ident(
+  def s2 "src/loach.ml" 989 31170 31172 "src/loach.ml" 989 31170 31232
+)
+"src/loach.ml" 988 31140 31142 "src/loach.ml" 988 31140 31166
+type(
+  statement
+)
+"src/loach.ml" 989 31170 31173 "src/loach.ml" 989 31170 31190
+type(
+  int -> statement -> bool
+)
+ident(
+  int_ref effectOnStatement "src/loach.ml" 980 30822 30830 "src/loach.ml" 980 30822 30847
+)
+"src/loach.ml" 989 31170 31191 "src/loach.ml" 989 31170 31196
+type(
+  int
+)
+ident(
+  int_ref index "src/loach.ml" 980 30822 30848 "src/loach.ml" 980 30822 30853
+)
+"src/loach.ml" 989 31170 31197 "src/loach.ml" 989 31170 31199
+type(
+  statement
+)
+ident(
+  int_ref s1 "src/loach.ml" 988 31140 31160 "src/loach.ml" 988 31140 31162
+)
+"src/loach.ml" 989 31170 31173 "src/loach.ml" 989 31170 31199
+call(
+  stack
+)
+type(
+  bool
+)
+"src/loach.ml" 989 31170 31201 "src/loach.ml" 989 31170 31203
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/loach.ml" 989 31170 31205 "src/loach.ml" 989 31170 31222
+type(
+  int -> statement -> bool
+)
+ident(
+  int_ref effectOnStatement "src/loach.ml" 980 30822 30830 "src/loach.ml" 980 30822 30847
+)
+"src/loach.ml" 989 31170 31223 "src/loach.ml" 989 31170 31228
+type(
+  int
+)
+ident(
+  int_ref index "src/loach.ml" 980 30822 30848 "src/loach.ml" 980 30822 30853
+)
+"src/loach.ml" 989 31170 31229 "src/loach.ml" 989 31170 31231
+type(
+  statement
+)
+ident(
+  int_ref s2 "src/loach.ml" 988 31140 31163 "src/loach.ml" 988 31140 31165
+)
+"src/loach.ml" 989 31170 31205 "src/loach.ml" 989 31170 31231
+call(
+  tail
+)
+type(
+  bool
+)
+"src/loach.ml" 989 31170 31172 "src/loach.ml" 989 31170 31232
+type(
+  bool
+)
+"src/loach.ml" 990 31233 31248 "src/loach.ml" 990 31233 31249
+type(
+  statement
+)
+ident(
+  def s "src/loach.ml" 990 31233 31262 "src/loach.ml" 990 31233 31267
+)
+"src/loach.ml" 990 31233 31250 "src/loach.ml" 990 31233 31258
+type(
+  paramdef list
+)
+ident(
+  def parmDefs "src/loach.ml" 990 31233 31262 "src/loach.ml" 990 31233 31267
+)
+"src/loach.ml" 990 31233 31235 "src/loach.ml" 990 31233 31259
+type(
+  statement
+)
+"src/loach.ml" 990 31233 31262 "src/loach.ml" 990 31233 31267
+type(
+  bool
+)
+"src/loach.ml" 981 30866 30867 "src/loach.ml" 990 31233 31267
+type(
+  bool
+)
+"src/loach.ml" 980 30822 30854 "src/loach.ml" 990 31233 31267
+type(
+  statement -> bool
+)
+"src/loach.ml" 980 30822 30848 "src/loach.ml" 990 31233 31267
+type(
+  int -> statement -> bool
+)

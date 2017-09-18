@@ -60,33 +60,33 @@ definition rules::"nat \<Rightarrow> rule set" where [simp]:
 subsection{*Definitions of a Formally Parameterized Invariant Formulas*}
 
 definition inv__1::"nat \<Rightarrow> nat \<Rightarrow> formula" where [simp]:
-"inv__1 p__Inv3 p__Inv4 \<equiv>
-(neg (andForm (eqn (IVar (Para (Ident ''n'') p__Inv4)) (Const C)) (eqn (IVar (Para (Ident ''n'') p__Inv3)) (Const C))))"
+"inv__1 p__Inv0 p__Inv1 \<equiv>
+(neg (andForm (eqn (IVar (Para (Ident ''n'') p__Inv0)) (Const C)) (eqn (IVar (Para (Ident ''n'') p__Inv1)) (Const C))))"
 
 definition inv__2::"nat \<Rightarrow> formula" where [simp]:
-"inv__2 p__Inv4 \<equiv>
-(neg (andForm (eqn (IVar (Para (Ident ''n'') p__Inv4)) (Const C)) (eqn (IVar (Ident ''x'')) (Const true))))"
+"inv__2 p__Inv0 \<equiv>
+(neg (andForm (eqn (IVar (Para (Ident ''n'') p__Inv0)) (Const C)) (eqn (IVar (Ident ''x'')) (Const true))))"
 
 definition inv__3::"nat \<Rightarrow> nat \<Rightarrow> formula" where [simp]:
-"inv__3 p__Inv3 p__Inv4 \<equiv>
-(neg (andForm (eqn (IVar (Para (Ident ''n'') p__Inv3)) (Const C)) (eqn (IVar (Para (Ident ''n'') p__Inv4)) (Const E))))"
+"inv__3 p__Inv0 p__Inv1 \<equiv>
+(neg (andForm (eqn (IVar (Para (Ident ''n'') p__Inv0)) (Const C)) (eqn (IVar (Para (Ident ''n'') p__Inv1)) (Const E))))"
 
 definition inv__4::"nat \<Rightarrow> formula" where [simp]:
-"inv__4 p__Inv4 \<equiv>
-(neg (andForm (eqn (IVar (Para (Ident ''n'') p__Inv4)) (Const E)) (eqn (IVar (Ident ''x'')) (Const true))))"
+"inv__4 p__Inv0 \<equiv>
+(neg (andForm (eqn (IVar (Para (Ident ''n'') p__Inv0)) (Const E)) (eqn (IVar (Ident ''x'')) (Const true))))"
 
 definition inv__5::"nat \<Rightarrow> nat \<Rightarrow> formula" where [simp]:
-"inv__5 p__Inv3 p__Inv4 \<equiv>
-(neg (andForm (eqn (IVar (Para (Ident ''n'') p__Inv3)) (Const E)) (eqn (IVar (Para (Ident ''n'') p__Inv4)) (Const E))))"
+"inv__5 p__Inv0 p__Inv1 \<equiv>
+(neg (andForm (eqn (IVar (Para (Ident ''n'') p__Inv0)) (Const E)) (eqn (IVar (Para (Ident ''n'') p__Inv1)) (Const E))))"
 
 subsection{*Definitions of  the Set of Invariant Formula Instances in a $N$-protocol Instance*}
 definition invariants::"nat \<Rightarrow> formula set" where [simp]:
 "invariants N \<equiv> {f.
-(\<exists> p__Inv3 p__Inv4. p__Inv3\<le>N\<and>p__Inv4\<le>N\<and>p__Inv3~=p__Inv4\<and>f=inv__1  p__Inv3 p__Inv4) \<or>
-(\<exists> p__Inv4. p__Inv4\<le>N\<and>f=inv__2  p__Inv4) \<or>
-(\<exists> p__Inv3 p__Inv4. p__Inv3\<le>N\<and>p__Inv4\<le>N\<and>p__Inv3~=p__Inv4\<and>f=inv__3  p__Inv3 p__Inv4) \<or>
-(\<exists> p__Inv4. p__Inv4\<le>N\<and>f=inv__4  p__Inv4) \<or>
-(\<exists> p__Inv3 p__Inv4. p__Inv3\<le>N\<and>p__Inv4\<le>N\<and>p__Inv3~=p__Inv4\<and>f=inv__5  p__Inv3 p__Inv4)
+(\<exists> p__Inv0 p__Inv1. p__Inv0\<le>N\<and>p__Inv1\<le>N\<and>p__Inv0~=p__Inv1\<and>f=inv__1  p__Inv0 p__Inv1) \<or>
+(\<exists> p__Inv0. p__Inv0\<le>N\<and>f=inv__2  p__Inv0) \<or>
+(\<exists> p__Inv0 p__Inv1. p__Inv0\<le>N\<and>p__Inv1\<le>N\<and>p__Inv0~=p__Inv1\<and>f=inv__3  p__Inv0 p__Inv1) \<or>
+(\<exists> p__Inv0. p__Inv0\<le>N\<and>f=inv__4  p__Inv0) \<or>
+(\<exists> p__Inv0 p__Inv1. p__Inv0\<le>N\<and>p__Inv1\<le>N\<and>p__Inv0~=p__Inv1\<and>f=inv__5  p__Inv0 p__Inv1)
 }"
 
 

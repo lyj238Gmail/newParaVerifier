@@ -1,0 +1,11 @@
+"src/isa_base.ml" 2 1 5 "src/isa_base.ml" 2 1 16
+type(
+  string
+)
+ident(
+  def para_theory "src/isa_base.ml" 1135 41712 41713 "src/isa_base.ml" 1 0 -1
+)
+"src/isa_base.ml" 3 19 19 "src/isa_base.ml" 1135 41712 41713
+type(
+  string
+)

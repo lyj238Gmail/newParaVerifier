@@ -1,0 +1,3693 @@
+"fifo.ml" 12 97 101 "fifo.ml" 12 97 106
+type(
+  const
+)
+ident(
+  def _True "fifo.ml" 13 120 120 "fifo.ml" 1 0 -1
+)
+"fifo.ml" 12 97 109 "fifo.ml" 12 97 114
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"fifo.ml" 12 97 115 "fifo.ml" 12 97 119
+type(
+  bool
+)
+"fifo.ml" 12 97 109 "fifo.ml" 12 97 119
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 13 120 124 "fifo.ml" 13 120 130
+type(
+  const
+)
+ident(
+  def _False "fifo.ml" 16 147 147 "fifo.ml" 1 0 -1
+)
+"fifo.ml" 13 120 133 "fifo.ml" 13 120 138
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"fifo.ml" 13 120 139 "fifo.ml" 13 120 144
+type(
+  bool
+)
+"fifo.ml" 13 120 133 "fifo.ml" 13 120 144
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 16 147 151 "fifo.ml" 16 147 156
+type(
+  typedef list
+)
+ident(
+  def types "fifo.ml" 23 331 331 "fifo.ml" 1 0 -1
+)
+"fifo.ml" 17 161 163 "fifo.ml" 17 161 167
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"fifo.ml" 17 161 168 "fifo.ml" 17 161 180
+type(
+  string
+)
+"fifo.ml" 17 161 182 "fifo.ml" 17 161 192
+type(
+  int list -> const list
+)
+ident(
+  ext_ref Paramecium.int_consts
+)
+"fifo.ml" 17 161 194 "fifo.ml" 17 161 199
+type(
+  int -> int list
+)
+ident(
+  ext_ref Utils.up_to
+)
+"fifo.ml" 17 161 200 "fifo.ml" 17 161 202
+type(
+  int
+)
+"fifo.ml" 17 161 194 "fifo.ml" 17 161 202
+call(
+  stack
+)
+type(
+  int list
+)
+"fifo.ml" 17 161 182 "fifo.ml" 17 161 203
+call(
+  stack
+)
+type(
+  const list
+)
+"fifo.ml" 17 161 163 "fifo.ml" 17 161 204
+call(
+  stack
+)
+type(
+  typedef
+)
+"fifo.ml" 18 206 208 "fifo.ml" 18 206 212
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"fifo.ml" 18 206 213 "fifo.ml" 18 206 225
+type(
+  string
+)
+"fifo.ml" 18 206 227 "fifo.ml" 18 206 237
+type(
+  int list -> const list
+)
+ident(
+  ext_ref Paramecium.int_consts
+)
+"fifo.ml" 18 206 239 "fifo.ml" 18 206 244
+type(
+  int -> int list
+)
+ident(
+  ext_ref Utils.up_to
+)
+"fifo.ml" 18 206 245 "fifo.ml" 18 206 247
+type(
+  int
+)
+"fifo.ml" 18 206 239 "fifo.ml" 18 206 247
+call(
+  stack
+)
+type(
+  int list
+)
+"fifo.ml" 18 206 227 "fifo.ml" 18 206 248
+call(
+  stack
+)
+type(
+  const list
+)
+"fifo.ml" 18 206 208 "fifo.ml" 18 206 249
+call(
+  stack
+)
+type(
+  typedef
+)
+"fifo.ml" 19 251 253 "fifo.ml" 19 251 257
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"fifo.ml" 19 251 258 "fifo.ml" 19 251 269
+type(
+  string
+)
+"fifo.ml" 19 251 271 "fifo.ml" 19 251 281
+type(
+  int list -> const list
+)
+ident(
+  ext_ref Paramecium.int_consts
+)
+"fifo.ml" 19 251 283 "fifo.ml" 19 251 288
+type(
+  int -> int list
+)
+ident(
+  ext_ref Utils.up_to
+)
+"fifo.ml" 19 251 289 "fifo.ml" 19 251 290
+type(
+  int
+)
+"fifo.ml" 19 251 283 "fifo.ml" 19 251 290
+call(
+  stack
+)
+type(
+  int list
+)
+"fifo.ml" 19 251 271 "fifo.ml" 19 251 291
+call(
+  stack
+)
+type(
+  const list
+)
+"fifo.ml" 19 251 253 "fifo.ml" 19 251 292
+call(
+  stack
+)
+type(
+  typedef
+)
+"fifo.ml" 20 294 296 "fifo.ml" 20 294 300
+type(
+  string -> const list -> typedef
+)
+ident(
+  ext_ref Paramecium.enum
+)
+"fifo.ml" 20 294 301 "fifo.ml" 20 294 310
+type(
+  string
+)
+"fifo.ml" 20 294 312 "fifo.ml" 20 294 317
+type(
+  const
+)
+ident(
+  int_ref _True "fifo.ml" 12 97 101 "fifo.ml" 12 97 106
+)
+"fifo.ml" 20 294 319 "fifo.ml" 20 294 325
+type(
+  const
+)
+ident(
+  int_ref _False "fifo.ml" 13 120 124 "fifo.ml" 13 120 130
+)
+type(
+  const list
+)
+"fifo.ml" 20 294 312 "fifo.ml" 20 294 325
+type(
+  const list
+)
+"fifo.ml" 20 294 311 "fifo.ml" 20 294 326
+type(
+  const list
+)
+"fifo.ml" 20 294 296 "fifo.ml" 20 294 326
+call(
+  stack
+)
+type(
+  typedef
+)
+"fifo.ml" 20 294 296 "fifo.ml" 20 294 327
+type(
+  typedef list
+)
+"fifo.ml" 19 251 253 "fifo.ml" 20 294 327
+type(
+  typedef list
+)
+"fifo.ml" 18 206 208 "fifo.ml" 20 294 327
+type(
+  typedef list
+)
+"fifo.ml" 17 161 163 "fifo.ml" 20 294 327
+type(
+  typedef list
+)
+"fifo.ml" 16 147 159 "fifo.ml" 21 328 329
+type(
+  typedef list
+)
+"fifo.ml" 23 331 335 "fifo.ml" 23 331 342
+type(
+  vardef list
+)
+ident(
+  def vardefs "fifo.ml" 30 570 570 "fifo.ml" 1 0 -1
+)
+"fifo.ml" 23 331 345 "fifo.ml" 23 331 356
+type(
+  vardef list list -> vardef list
+)
+ident(
+  ext_ref Core.Std.List.concat
+)
+"fifo.ml" 24 359 362 "fifo.ml" 24 359 368
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"fifo.ml" 24 359 371 "fifo.ml" 24 359 376
+type(
+  string
+)
+"fifo.ml" 24 359 379 "fifo.ml" 24 359 387
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"fifo.ml" 24 359 388 "fifo.ml" 24 359 392
+type(
+  string
+)
+"fifo.ml" 24 359 393 "fifo.ml" 24 359 405
+type(
+  string
+)
+"fifo.ml" 24 359 379 "fifo.ml" 24 359 405
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"fifo.ml" 24 359 378 "fifo.ml" 24 359 406
+type(
+  paramdef list
+)
+"fifo.ml" 24 359 371 "fifo.ml" 24 359 406
+type(
+  string * paramdef list
+)
+"fifo.ml" 24 359 370 "fifo.ml" 24 359 407
+type(
+  (string * paramdef list) list
+)
+"fifo.ml" 24 359 369 "fifo.ml" 24 359 408
+type(
+  (string * paramdef list) list
+)
+"fifo.ml" 24 359 409 "fifo.ml" 24 359 421
+type(
+  string
+)
+"fifo.ml" 24 359 362 "fifo.ml" 24 359 421
+call(
+  stack
+)
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"fifo.ml" 24 359 361 "fifo.ml" 24 359 422
+type(
+  vardef list
+)
+"fifo.ml" 25 424 427 "fifo.ml" 25 424 433
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"fifo.ml" 25 424 436 "fifo.ml" 25 424 441
+type(
+  string
+)
+"fifo.ml" 25 424 444 "fifo.ml" 25 424 452
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"fifo.ml" 25 424 453 "fifo.ml" 25 424 457
+type(
+  string
+)
+"fifo.ml" 25 424 458 "fifo.ml" 25 424 470
+type(
+  string
+)
+"fifo.ml" 25 424 444 "fifo.ml" 25 424 470
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"fifo.ml" 25 424 443 "fifo.ml" 25 424 471
+type(
+  paramdef list
+)
+"fifo.ml" 25 424 436 "fifo.ml" 25 424 471
+type(
+  string * paramdef list
+)
+"fifo.ml" 25 424 435 "fifo.ml" 25 424 472
+type(
+  (string * paramdef list) list
+)
+"fifo.ml" 25 424 434 "fifo.ml" 25 424 473
+type(
+  (string * paramdef list) list
+)
+"fifo.ml" 25 424 474 "fifo.ml" 25 424 486
+type(
+  string
+)
+"fifo.ml" 25 424 427 "fifo.ml" 25 424 486
+call(
+  stack
+)
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"fifo.ml" 25 424 426 "fifo.ml" 25 424 487
+type(
+  vardef list
+)
+"fifo.ml" 26 489 492 "fifo.ml" 26 489 498
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"fifo.ml" 26 489 501 "fifo.ml" 26 489 507
+type(
+  string
+)
+"fifo.ml" 26 489 509 "fifo.ml" 26 489 511
+type(
+  paramdef list
+)
+"fifo.ml" 26 489 501 "fifo.ml" 26 489 511
+type(
+  string * paramdef list
+)
+"fifo.ml" 26 489 500 "fifo.ml" 26 489 512
+type(
+  (string * paramdef list) list
+)
+"fifo.ml" 26 489 499 "fifo.ml" 26 489 513
+type(
+  (string * paramdef list) list
+)
+"fifo.ml" 26 489 514 "fifo.ml" 26 489 526
+type(
+  string
+)
+"fifo.ml" 26 489 492 "fifo.ml" 26 489 526
+call(
+  stack
+)
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"fifo.ml" 26 489 491 "fifo.ml" 26 489 527
+type(
+  vardef list
+)
+"fifo.ml" 27 529 532 "fifo.ml" 27 529 538
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"fifo.ml" 27 529 541 "fifo.ml" 27 529 548
+type(
+  string
+)
+"fifo.ml" 27 529 550 "fifo.ml" 27 529 552
+type(
+  paramdef list
+)
+"fifo.ml" 27 529 541 "fifo.ml" 27 529 552
+type(
+  string * paramdef list
+)
+"fifo.ml" 27 529 540 "fifo.ml" 27 529 553
+type(
+  (string * paramdef list) list
+)
+"fifo.ml" 27 529 539 "fifo.ml" 27 529 554
+type(
+  (string * paramdef list) list
+)
+"fifo.ml" 27 529 555 "fifo.ml" 27 529 564
+type(
+  string
+)
+"fifo.ml" 27 529 532 "fifo.ml" 27 529 564
+call(
+  stack
+)
+type(
+  vardef
+)
+type(
+  vardef list
+)
+"fifo.ml" 27 529 531 "fifo.ml" 27 529 565
+type(
+  vardef list
+)
+"fifo.ml" 27 529 531 "fifo.ml" 27 529 566
+type(
+  vardef list list
+)
+"fifo.ml" 26 489 491 "fifo.ml" 27 529 566
+type(
+  vardef list list
+)
+"fifo.ml" 25 424 426 "fifo.ml" 27 529 566
+type(
+  vardef list list
+)
+"fifo.ml" 24 359 361 "fifo.ml" 27 529 566
+type(
+  vardef list list
+)
+"fifo.ml" 23 331 357 "fifo.ml" 28 567 568
+type(
+  vardef list list
+)
+"fifo.ml" 23 331 345 "fifo.ml" 28 567 568
+call(
+  stack
+)
+type(
+  vardef list
+)
+"fifo.ml" 30 570 574 "fifo.ml" 30 570 578
+type(
+  Loach.statement
+)
+ident(
+  def init "fifo.ml" 39 797 797 "fifo.ml" 1 0 -1
+)
+"fifo.ml" 30 570 581 "fifo.ml" 30 570 589
+type(
+  Loach.statement list -> Loach.statement
+)
+ident(
+  ext_ref Loach.parallel
+)
+"fifo.ml" 31 592 594 "fifo.ml" 31 592 606
+type(
+  Loach.statement -> paramdef list -> Loach.statement
+)
+ident(
+  ext_ref Loach.forStatement
+)
+"fifo.ml" 32 609 613 "fifo.ml" 32 609 619
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"fifo.ml" 32 609 621 "fifo.ml" 32 609 624
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"fifo.ml" 32 609 627 "fifo.ml" 32 609 632
+type(
+  string
+)
+"fifo.ml" 32 609 635 "fifo.ml" 32 609 643
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"fifo.ml" 32 609 644 "fifo.ml" 32 609 647
+type(
+  string
+)
+"fifo.ml" 32 609 635 "fifo.ml" 32 609 647
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"fifo.ml" 32 609 634 "fifo.ml" 32 609 648
+type(
+  paramref list
+)
+"fifo.ml" 32 609 627 "fifo.ml" 32 609 648
+type(
+  string * paramref list
+)
+"fifo.ml" 32 609 626 "fifo.ml" 32 609 649
+type(
+  (string * paramref list) list
+)
+"fifo.ml" 32 609 625 "fifo.ml" 32 609 650
+type(
+  (string * paramref list) list
+)
+"fifo.ml" 32 609 621 "fifo.ml" 32 609 650
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 32 609 653 "fifo.ml" 32 609 658
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 32 609 660 "fifo.ml" 32 609 664
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"fifo.ml" 32 609 665 "fifo.ml" 32 609 666
+type(
+  int
+)
+"fifo.ml" 32 609 660 "fifo.ml" 32 609 666
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 32 609 653 "fifo.ml" 32 609 667
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 32 609 613 "fifo.ml" 32 609 668
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 33 669 674 "fifo.ml" 33 669 682
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"fifo.ml" 33 669 683 "fifo.ml" 33 669 686
+type(
+  string
+)
+"fifo.ml" 33 669 687 "fifo.ml" 33 669 699
+type(
+  string
+)
+"fifo.ml" 33 669 674 "fifo.ml" 33 669 699
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"fifo.ml" 33 669 673 "fifo.ml" 33 669 700
+type(
+  paramdef list
+)
+"fifo.ml" 31 592 594 "fifo.ml" 33 669 700
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 34 702 704 "fifo.ml" 34 702 710
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"fifo.ml" 34 702 712 "fifo.ml" 34 702 718
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 34 702 719 "fifo.ml" 34 702 725
+type(
+  string
+)
+"fifo.ml" 34 702 712 "fifo.ml" 34 702 725
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 34 702 728 "fifo.ml" 34 702 733
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 34 702 735 "fifo.ml" 34 702 739
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"fifo.ml" 34 702 740 "fifo.ml" 34 702 741
+type(
+  int
+)
+"fifo.ml" 34 702 735 "fifo.ml" 34 702 741
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 34 702 728 "fifo.ml" 34 702 742
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 34 702 704 "fifo.ml" 34 702 743
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 35 745 747 "fifo.ml" 35 745 753
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"fifo.ml" 35 745 755 "fifo.ml" 35 745 761
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 35 745 762 "fifo.ml" 35 745 769
+type(
+  string
+)
+"fifo.ml" 35 745 755 "fifo.ml" 35 745 769
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 35 745 772 "fifo.ml" 35 745 777
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 35 745 779 "fifo.ml" 35 745 784
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"fifo.ml" 35 745 785 "fifo.ml" 35 745 789
+type(
+  bool
+)
+"fifo.ml" 35 745 779 "fifo.ml" 35 745 789
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 35 745 772 "fifo.ml" 35 745 790
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 35 745 747 "fifo.ml" 35 745 791
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 35 745 747 "fifo.ml" 35 745 792
+type(
+  Loach.statement list
+)
+"fifo.ml" 34 702 704 "fifo.ml" 35 745 792
+type(
+  Loach.statement list
+)
+"fifo.ml" 31 592 594 "fifo.ml" 35 745 792
+type(
+  Loach.statement list
+)
+"fifo.ml" 30 570 590 "fifo.ml" 36 793 794
+type(
+  Loach.statement list
+)
+"fifo.ml" 30 570 581 "fifo.ml" 36 793 794
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 39 797 801 "fifo.ml" 39 797 807
+type(
+  Loach.rule
+)
+ident(
+  def always "fifo.ml" 116 3041 3041 "fifo.ml" 1 0 -1
+)
+"fifo.ml" 40 810 816 "fifo.ml" 40 810 820
+type(
+  string
+)
+ident(
+  def name "fifo.ml" 41 835 837 "fifo.ml" 113 3002 3038
+)
+"fifo.ml" 40 810 823 "fifo.ml" 40 810 831
+type(
+  string
+)
+"fifo.ml" 41 835 841 "fifo.ml" 41 835 847
+type(
+  paramdef list
+)
+ident(
+  def params "fifo.ml" 47 986 988 "fifo.ml" 113 3002 3038
+)
+"fifo.ml" 42 852 856 "fifo.ml" 42 852 864
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"fifo.ml" 42 852 865 "fifo.ml" 42 852 873
+type(
+  string
+)
+"fifo.ml" 42 852 874 "fifo.ml" 42 852 886
+type(
+  string
+)
+"fifo.ml" 42 852 856 "fifo.ml" 42 852 886
+call(
+  stack
+)
+type(
+  paramdef
+)
+"fifo.ml" 43 888 892 "fifo.ml" 43 888 900
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"fifo.ml" 43 888 901 "fifo.ml" 43 888 906
+type(
+  string
+)
+"fifo.ml" 43 888 907 "fifo.ml" 43 888 916
+type(
+  string
+)
+"fifo.ml" 43 888 892 "fifo.ml" 43 888 916
+call(
+  stack
+)
+type(
+  paramdef
+)
+"fifo.ml" 44 918 922 "fifo.ml" 44 918 930
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"fifo.ml" 44 918 931 "fifo.ml" 44 918 937
+type(
+  string
+)
+"fifo.ml" 44 918 938 "fifo.ml" 44 918 947
+type(
+  string
+)
+"fifo.ml" 44 918 922 "fifo.ml" 44 918 947
+call(
+  stack
+)
+type(
+  paramdef
+)
+"fifo.ml" 45 949 953 "fifo.ml" 45 949 961
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"fifo.ml" 45 949 962 "fifo.ml" 45 949 967
+type(
+  string
+)
+"fifo.ml" 45 949 968 "fifo.ml" 45 949 977
+type(
+  string
+)
+"fifo.ml" 45 949 953 "fifo.ml" 45 949 977
+call(
+  stack
+)
+type(
+  paramdef
+)
+"fifo.ml" 45 949 953 "fifo.ml" 45 949 978
+type(
+  paramdef list
+)
+"fifo.ml" 44 918 922 "fifo.ml" 45 949 978
+type(
+  paramdef list
+)
+"fifo.ml" 43 888 892 "fifo.ml" 45 949 978
+type(
+  paramdef list
+)
+"fifo.ml" 42 852 856 "fifo.ml" 45 949 978
+type(
+  paramdef list
+)
+"fifo.ml" 41 835 850 "fifo.ml" 46 979 982
+type(
+  paramdef list
+)
+"fifo.ml" 47 986 992 "fifo.ml" 47 986 999
+type(
+  Loach.formula
+)
+ident(
+  def formula "fifo.ml" 48 1011 1013 "fifo.ml" 113 3002 3038
+)
+"fifo.ml" 47 986 1002 "fifo.ml" 47 986 1007
+type(
+  Loach.formula
+)
+ident(
+  ext_ref Loach.chaos
+)
+"fifo.ml" 48 1011 1017 "fifo.ml" 48 1011 1026
+type(
+  Loach.statement
+)
+ident(
+  def statement "fifo.ml" 113 3002 3004 "fifo.ml" 113 3002 3038
+)
+"fifo.ml" 48 1011 1029 "fifo.ml" 48 1011 1044
+type(
+  Loach.formula -> Loach.statement -> Loach.statement -> Loach.statement
+)
+ident(
+  ext_ref Loach.ifelseStatement
+)
+"fifo.ml" 49 1047 1051 "fifo.ml" 49 1047 1054
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"fifo.ml" 49 1047 1056 "fifo.ml" 49 1047 1061
+type(
+  paramref -> Loach.exp
+)
+ident(
+  ext_ref Loach.param
+)
+"fifo.ml" 49 1047 1063 "fifo.ml" 49 1047 1071
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"fifo.ml" 49 1047 1072 "fifo.ml" 49 1047 1077
+type(
+  string
+)
+"fifo.ml" 49 1047 1063 "fifo.ml" 49 1047 1077
+call(
+  stack
+)
+type(
+  paramref
+)
+"fifo.ml" 49 1047 1056 "fifo.ml" 49 1047 1078
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 49 1047 1081 "fifo.ml" 49 1047 1086
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 49 1047 1088 "fifo.ml" 49 1047 1093
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"fifo.ml" 49 1047 1094 "fifo.ml" 49 1047 1098
+type(
+  bool
+)
+"fifo.ml" 49 1047 1088 "fifo.ml" 49 1047 1098
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 49 1047 1081 "fifo.ml" 49 1047 1099
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 49 1047 1051 "fifo.ml" 49 1047 1100
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"fifo.ml" 50 1101 1106 "fifo.ml" 50 1101 1114
+type(
+  Loach.statement list -> Loach.statement
+)
+ident(
+  ext_ref Loach.parallel
+)
+"fifo.ml" 51 1117 1121 "fifo.ml" 51 1117 1127
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"fifo.ml" 51 1117 1129 "fifo.ml" 51 1117 1135
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 51 1117 1136 "fifo.ml" 51 1117 1142
+type(
+  string
+)
+"fifo.ml" 51 1117 1129 "fifo.ml" 51 1117 1142
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 51 1117 1145 "fifo.ml" 51 1117 1150
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 51 1117 1152 "fifo.ml" 51 1117 1156
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"fifo.ml" 51 1117 1157 "fifo.ml" 51 1117 1158
+type(
+  int
+)
+"fifo.ml" 51 1117 1152 "fifo.ml" 51 1117 1158
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 51 1117 1145 "fifo.ml" 51 1117 1159
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 51 1117 1121 "fifo.ml" 51 1117 1160
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 52 1162 1166 "fifo.ml" 52 1162 1172
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"fifo.ml" 52 1162 1174 "fifo.ml" 52 1162 1180
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 52 1162 1181 "fifo.ml" 52 1162 1188
+type(
+  string
+)
+"fifo.ml" 52 1162 1174 "fifo.ml" 52 1162 1188
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 52 1162 1191 "fifo.ml" 52 1162 1196
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 52 1162 1198 "fifo.ml" 52 1162 1203
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"fifo.ml" 52 1162 1204 "fifo.ml" 52 1162 1208
+type(
+  bool
+)
+"fifo.ml" 52 1162 1198 "fifo.ml" 52 1162 1208
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 52 1162 1191 "fifo.ml" 52 1162 1209
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 52 1162 1166 "fifo.ml" 52 1162 1210
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 52 1162 1166 "fifo.ml" 52 1162 1211
+type(
+  Loach.statement list
+)
+"fifo.ml" 51 1117 1121 "fifo.ml" 52 1162 1211
+type(
+  Loach.statement list
+)
+"fifo.ml" 50 1101 1115 "fifo.ml" 53 1212 1215
+type(
+  Loach.statement list
+)
+"fifo.ml" 50 1101 1106 "fifo.ml" 53 1212 1215
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 54 1219 1223 "fifo.ml" 54 1219 1238
+type(
+  Loach.formula -> Loach.statement -> Loach.statement -> Loach.statement
+)
+ident(
+  ext_ref Loach.ifelseStatement
+)
+"fifo.ml" 55 1241 1247 "fifo.ml" 55 1241 1254
+type(
+  Loach.formula list -> Loach.formula
+)
+ident(
+  ext_ref Loach.andList
+)
+"fifo.ml" 56 1257 1265 "fifo.ml" 56 1257 1268
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"fifo.ml" 56 1257 1270 "fifo.ml" 56 1257 1275
+type(
+  paramref -> Loach.exp
+)
+ident(
+  ext_ref Loach.param
+)
+"fifo.ml" 56 1257 1277 "fifo.ml" 56 1257 1285
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"fifo.ml" 56 1257 1286 "fifo.ml" 56 1257 1292
+type(
+  string
+)
+"fifo.ml" 56 1257 1277 "fifo.ml" 56 1257 1292
+call(
+  stack
+)
+type(
+  paramref
+)
+"fifo.ml" 56 1257 1270 "fifo.ml" 56 1257 1293
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 56 1257 1296 "fifo.ml" 56 1257 1301
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 56 1257 1303 "fifo.ml" 56 1257 1308
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"fifo.ml" 56 1257 1309 "fifo.ml" 56 1257 1313
+type(
+  bool
+)
+"fifo.ml" 56 1257 1303 "fifo.ml" 56 1257 1313
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 56 1257 1296 "fifo.ml" 56 1257 1314
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 56 1257 1265 "fifo.ml" 56 1257 1315
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"fifo.ml" 57 1317 1325 "fifo.ml" 57 1317 1328
+type(
+  Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.neg
+)
+"fifo.ml" 57 1317 1330 "fifo.ml" 57 1317 1333
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"fifo.ml" 57 1317 1335 "fifo.ml" 57 1317 1338
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"fifo.ml" 57 1317 1340 "fifo.ml" 57 1317 1346
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 57 1317 1347 "fifo.ml" 57 1317 1353
+type(
+  string
+)
+"fifo.ml" 57 1317 1340 "fifo.ml" 57 1317 1353
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 57 1317 1335 "fifo.ml" 57 1317 1354
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 57 1317 1357 "fifo.ml" 57 1317 1362
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 57 1317 1364 "fifo.ml" 57 1317 1368
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"fifo.ml" 57 1317 1369 "fifo.ml" 57 1317 1371
+type(
+  int
+)
+"fifo.ml" 57 1317 1364 "fifo.ml" 57 1317 1371
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 57 1317 1357 "fifo.ml" 57 1317 1372
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 57 1317 1330 "fifo.ml" 57 1317 1373
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"fifo.ml" 57 1317 1325 "fifo.ml" 57 1317 1374
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+type(
+  Loach.formula list
+)
+"fifo.ml" 56 1257 1265 "fifo.ml" 57 1317 1374
+type(
+  Loach.formula list
+)
+"fifo.ml" 55 1241 1255 "fifo.ml" 58 1375 1382
+type(
+  Loach.formula list
+)
+"fifo.ml" 55 1241 1247 "fifo.ml" 58 1375 1382
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"fifo.ml" 60 1391 1397 "fifo.ml" 60 1391 1405
+type(
+  Loach.statement list -> Loach.statement
+)
+ident(
+  ext_ref Loach.parallel
+)
+"fifo.ml" 61 1408 1416 "fifo.ml" 61 1408 1428
+type(
+  Loach.statement -> paramdef list -> Loach.statement
+)
+ident(
+  ext_ref Loach.forStatement
+)
+"fifo.ml" 61 1408 1430 "fifo.ml" 61 1408 1438
+type(
+  Loach.statement list -> Loach.statement
+)
+ident(
+  ext_ref Loach.parallel
+)
+"fifo.ml" 62 1441 1451 "fifo.ml" 62 1441 1457
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"fifo.ml" 63 1460 1472 "fifo.ml" 63 1460 1475
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"fifo.ml" 63 1460 1478 "fifo.ml" 63 1460 1483
+type(
+  string
+)
+"fifo.ml" 63 1460 1486 "fifo.ml" 63 1460 1494
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"fifo.ml" 63 1460 1495 "fifo.ml" 63 1460 1498
+type(
+  string
+)
+"fifo.ml" 63 1460 1486 "fifo.ml" 63 1460 1498
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"fifo.ml" 63 1460 1485 "fifo.ml" 63 1460 1499
+type(
+  paramref list
+)
+"fifo.ml" 63 1460 1478 "fifo.ml" 63 1460 1499
+type(
+  string * paramref list
+)
+"fifo.ml" 63 1460 1477 "fifo.ml" 63 1460 1500
+type(
+  (string * paramref list) list
+)
+"fifo.ml" 63 1460 1476 "fifo.ml" 63 1460 1501
+type(
+  (string * paramref list) list
+)
+"fifo.ml" 63 1460 1472 "fifo.ml" 63 1460 1501
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 65 1516 1528 "fifo.ml" 65 1516 1531
+type(
+  Loach.formula -> Loach.exp -> Loach.exp -> Loach.exp
+)
+ident(
+  ext_ref Loach.ite
+)
+"fifo.ml" 66 1534 1548 "fifo.ml" 66 1534 1551
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"fifo.ml" 66 1534 1553 "fifo.ml" 66 1534 1558
+type(
+  paramref -> Loach.exp
+)
+ident(
+  ext_ref Loach.param
+)
+"fifo.ml" 66 1534 1560 "fifo.ml" 66 1534 1568
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"fifo.ml" 66 1534 1569 "fifo.ml" 66 1534 1572
+type(
+  string
+)
+"fifo.ml" 66 1534 1560 "fifo.ml" 66 1534 1572
+call(
+  stack
+)
+type(
+  paramref
+)
+"fifo.ml" 66 1534 1553 "fifo.ml" 66 1534 1573
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 66 1534 1576 "fifo.ml" 66 1534 1581
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 66 1534 1583 "fifo.ml" 66 1534 1587
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"fifo.ml" 66 1534 1588 "fifo.ml" 66 1534 1589
+type(
+  int
+)
+"fifo.ml" 66 1534 1583 "fifo.ml" 66 1534 1589
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 66 1534 1576 "fifo.ml" 66 1534 1590
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 66 1534 1548 "fifo.ml" 66 1534 1591
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"fifo.ml" 68 1608 1622 "fifo.ml" 68 1608 1627
+type(
+  paramref -> Loach.exp
+)
+ident(
+  ext_ref Loach.param
+)
+"fifo.ml" 68 1608 1629 "fifo.ml" 68 1608 1637
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"fifo.ml" 68 1608 1638 "fifo.ml" 68 1608 1646
+type(
+  string
+)
+"fifo.ml" 68 1608 1629 "fifo.ml" 68 1608 1646
+call(
+  stack
+)
+type(
+  paramref
+)
+"fifo.ml" 68 1608 1622 "fifo.ml" 68 1608 1647
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 70 1664 1678 "fifo.ml" 70 1664 1682
+type(
+  vardef -> Loach.exp -> typedef list -> Loach.exp
+)
+ident(
+  ext_ref Loach.read
+)
+"fifo.ml" 71 1685 1701 "fifo.ml" 71 1685 1707
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"fifo.ml" 71 1685 1710 "fifo.ml" 71 1685 1715
+type(
+  string
+)
+"fifo.ml" 71 1685 1718 "fifo.ml" 71 1685 1726
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"fifo.ml" 71 1685 1727 "fifo.ml" 71 1685 1731
+type(
+  string
+)
+"fifo.ml" 71 1685 1732 "fifo.ml" 71 1685 1744
+type(
+  string
+)
+"fifo.ml" 71 1685 1718 "fifo.ml" 71 1685 1744
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"fifo.ml" 71 1685 1717 "fifo.ml" 71 1685 1745
+type(
+  paramdef list
+)
+"fifo.ml" 71 1685 1710 "fifo.ml" 71 1685 1745
+type(
+  string * paramdef list
+)
+"fifo.ml" 71 1685 1709 "fifo.ml" 71 1685 1746
+type(
+  (string * paramdef list) list
+)
+"fifo.ml" 71 1685 1708 "fifo.ml" 71 1685 1747
+type(
+  (string * paramdef list) list
+)
+"fifo.ml" 71 1685 1748 "fifo.ml" 71 1685 1760
+type(
+  string
+)
+"fifo.ml" 71 1685 1701 "fifo.ml" 71 1685 1760
+call(
+  stack
+)
+type(
+  vardef
+)
+"fifo.ml" 73 1779 1795 "fifo.ml" 73 1779 1798
+type(
+  string -> Loach.exp list -> Loach.exp
+)
+ident(
+  ext_ref Loach.uif
+)
+"fifo.ml" 73 1779 1799 "fifo.ml" 73 1779 1802
+type(
+  string
+)
+"fifo.ml" 73 1779 1804 "fifo.ml" 73 1779 1809
+type(
+  paramref -> Loach.exp
+)
+ident(
+  ext_ref Loach.param
+)
+"fifo.ml" 73 1779 1811 "fifo.ml" 73 1779 1819
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"fifo.ml" 73 1779 1820 "fifo.ml" 73 1779 1823
+type(
+  string
+)
+"fifo.ml" 73 1779 1811 "fifo.ml" 73 1779 1823
+call(
+  stack
+)
+type(
+  paramref
+)
+"fifo.ml" 73 1779 1804 "fifo.ml" 73 1779 1824
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 73 1779 1826 "fifo.ml" 73 1779 1831
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 73 1779 1833 "fifo.ml" 73 1779 1837
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"fifo.ml" 73 1779 1838 "fifo.ml" 73 1779 1839
+type(
+  int
+)
+"fifo.ml" 73 1779 1833 "fifo.ml" 73 1779 1839
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 73 1779 1826 "fifo.ml" 73 1779 1840
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+type(
+  Loach.exp list
+)
+"fifo.ml" 73 1779 1804 "fifo.ml" 73 1779 1840
+type(
+  Loach.exp list
+)
+"fifo.ml" 73 1779 1803 "fifo.ml" 73 1779 1841
+type(
+  Loach.exp list
+)
+"fifo.ml" 73 1779 1795 "fifo.ml" 73 1779 1841
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 74 1842 1858 "fifo.ml" 74 1842 1863
+type(
+  typedef list
+)
+ident(
+  int_ref types "fifo.ml" 16 147 151 "fifo.ml" 16 147 156
+)
+"fifo.ml" 70 1664 1678 "fifo.ml" 74 1842 1863
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 65 1516 1528 "fifo.ml" 75 1864 1877
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 62 1441 1451 "fifo.ml" 76 1878 1889
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 77 1891 1901 "fifo.ml" 77 1891 1912
+type(
+  Loach.formula -> Loach.statement -> Loach.statement
+)
+ident(
+  ext_ref Loach.ifStatement
+)
+"fifo.ml" 78 1915 1927 "fifo.ml" 78 1915 1930
+type(
+  string -> Loach.exp list -> Loach.formula
+)
+ident(
+  ext_ref Loach.uip
+)
+"fifo.ml" 78 1915 1931 "fifo.ml" 78 1915 1934
+type(
+  string
+)
+"fifo.ml" 78 1915 1936 "fifo.ml" 78 1915 1941
+type(
+  paramref -> Loach.exp
+)
+ident(
+  ext_ref Loach.param
+)
+"fifo.ml" 78 1915 1943 "fifo.ml" 78 1915 1951
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"fifo.ml" 78 1915 1952 "fifo.ml" 78 1915 1955
+type(
+  string
+)
+"fifo.ml" 78 1915 1943 "fifo.ml" 78 1915 1955
+call(
+  stack
+)
+type(
+  paramref
+)
+"fifo.ml" 78 1915 1936 "fifo.ml" 78 1915 1956
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 78 1915 1958 "fifo.ml" 78 1915 1963
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 78 1915 1965 "fifo.ml" 78 1915 1969
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"fifo.ml" 78 1915 1970 "fifo.ml" 78 1915 1971
+type(
+  int
+)
+"fifo.ml" 78 1915 1965 "fifo.ml" 78 1915 1971
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 78 1915 1958 "fifo.ml" 78 1915 1972
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+type(
+  Loach.exp list
+)
+"fifo.ml" 78 1915 1936 "fifo.ml" 78 1915 1972
+type(
+  Loach.exp list
+)
+"fifo.ml" 78 1915 1935 "fifo.ml" 78 1915 1973
+type(
+  Loach.exp list
+)
+"fifo.ml" 78 1915 1927 "fifo.ml" 78 1915 1973
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"fifo.ml" 80 1988 2000 "fifo.ml" 80 1988 2005
+type(
+  vardef -> Loach.exp -> Loach.exp -> typedef list -> Loach.statement
+)
+ident(
+  ext_ref Loach.write
+)
+"fifo.ml" 81 2008 2022 "fifo.ml" 81 2008 2028
+type(
+  (string * paramdef list) list -> string -> vardef
+)
+ident(
+  ext_ref Paramecium.arrdef
+)
+"fifo.ml" 81 2008 2031 "fifo.ml" 81 2008 2036
+type(
+  string
+)
+"fifo.ml" 81 2008 2039 "fifo.ml" 81 2008 2047
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"fifo.ml" 81 2008 2048 "fifo.ml" 81 2008 2052
+type(
+  string
+)
+"fifo.ml" 81 2008 2053 "fifo.ml" 81 2008 2065
+type(
+  string
+)
+"fifo.ml" 81 2008 2039 "fifo.ml" 81 2008 2065
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"fifo.ml" 81 2008 2038 "fifo.ml" 81 2008 2066
+type(
+  paramdef list
+)
+"fifo.ml" 81 2008 2031 "fifo.ml" 81 2008 2066
+type(
+  string * paramdef list
+)
+"fifo.ml" 81 2008 2030 "fifo.ml" 81 2008 2067
+type(
+  (string * paramdef list) list
+)
+"fifo.ml" 81 2008 2029 "fifo.ml" 81 2008 2068
+type(
+  (string * paramdef list) list
+)
+"fifo.ml" 81 2008 2069 "fifo.ml" 81 2008 2081
+type(
+  string
+)
+"fifo.ml" 81 2008 2022 "fifo.ml" 81 2008 2081
+call(
+  stack
+)
+type(
+  vardef
+)
+"fifo.ml" 83 2098 2112 "fifo.ml" 83 2098 2115
+type(
+  string -> Loach.exp list -> Loach.exp
+)
+ident(
+  ext_ref Loach.uif
+)
+"fifo.ml" 83 2098 2116 "fifo.ml" 83 2098 2119
+type(
+  string
+)
+"fifo.ml" 83 2098 2121 "fifo.ml" 83 2098 2126
+type(
+  paramref -> Loach.exp
+)
+ident(
+  ext_ref Loach.param
+)
+"fifo.ml" 83 2098 2128 "fifo.ml" 83 2098 2136
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"fifo.ml" 83 2098 2137 "fifo.ml" 83 2098 2140
+type(
+  string
+)
+"fifo.ml" 83 2098 2128 "fifo.ml" 83 2098 2140
+call(
+  stack
+)
+type(
+  paramref
+)
+"fifo.ml" 83 2098 2121 "fifo.ml" 83 2098 2141
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 83 2098 2143 "fifo.ml" 83 2098 2148
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 83 2098 2150 "fifo.ml" 83 2098 2154
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"fifo.ml" 83 2098 2155 "fifo.ml" 83 2098 2156
+type(
+  int
+)
+"fifo.ml" 83 2098 2150 "fifo.ml" 83 2098 2156
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 83 2098 2143 "fifo.ml" 83 2098 2157
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+type(
+  Loach.exp list
+)
+"fifo.ml" 83 2098 2121 "fifo.ml" 83 2098 2157
+type(
+  Loach.exp list
+)
+"fifo.ml" 83 2098 2120 "fifo.ml" 83 2098 2158
+type(
+  Loach.exp list
+)
+"fifo.ml" 83 2098 2112 "fifo.ml" 83 2098 2158
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 85 2175 2189 "fifo.ml" 85 2175 2192
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"fifo.ml" 85 2175 2194 "fifo.ml" 85 2175 2197
+type(
+  (string * paramref list) list -> var
+)
+ident(
+  ext_ref Paramecium.arr
+)
+"fifo.ml" 85 2175 2200 "fifo.ml" 85 2175 2205
+type(
+  string
+)
+"fifo.ml" 85 2175 2208 "fifo.ml" 85 2175 2216
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"fifo.ml" 85 2175 2217 "fifo.ml" 85 2175 2220
+type(
+  string
+)
+"fifo.ml" 85 2175 2208 "fifo.ml" 85 2175 2220
+call(
+  stack
+)
+type(
+  paramref
+)
+type(
+  paramref list
+)
+"fifo.ml" 85 2175 2207 "fifo.ml" 85 2175 2221
+type(
+  paramref list
+)
+"fifo.ml" 85 2175 2200 "fifo.ml" 85 2175 2221
+type(
+  string * paramref list
+)
+"fifo.ml" 85 2175 2199 "fifo.ml" 85 2175 2222
+type(
+  (string * paramref list) list
+)
+"fifo.ml" 85 2175 2198 "fifo.ml" 85 2175 2223
+type(
+  (string * paramref list) list
+)
+"fifo.ml" 85 2175 2194 "fifo.ml" 85 2175 2223
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 85 2175 2189 "fifo.ml" 85 2175 2224
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 86 2225 2239 "fifo.ml" 86 2225 2244
+type(
+  typedef list
+)
+ident(
+  int_ref types "fifo.ml" 16 147 151 "fifo.ml" 16 147 156
+)
+"fifo.ml" 80 1988 2000 "fifo.ml" 86 2225 2244
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 77 1891 1901 "fifo.ml" 87 2245 2256
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 77 1891 1901 "fifo.ml" 87 2245 2257
+type(
+  Loach.statement list
+)
+"fifo.ml" 62 1441 1451 "fifo.ml" 87 2245 2257
+type(
+  Loach.statement list
+)
+"fifo.ml" 61 1408 1439 "fifo.ml" 88 2258 2267
+type(
+  Loach.statement list
+)
+"fifo.ml" 61 1408 1430 "fifo.ml" 88 2258 2267
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 88 2258 2270 "fifo.ml" 88 2258 2278
+type(
+  string -> string -> paramdef
+)
+ident(
+  ext_ref Paramecium.paramdef
+)
+"fifo.ml" 88 2258 2279 "fifo.ml" 88 2258 2282
+type(
+  string
+)
+"fifo.ml" 88 2258 2283 "fifo.ml" 88 2258 2295
+type(
+  string
+)
+"fifo.ml" 88 2258 2270 "fifo.ml" 88 2258 2295
+call(
+  stack
+)
+type(
+  paramdef
+)
+type(
+  paramdef list
+)
+"fifo.ml" 88 2258 2269 "fifo.ml" 88 2258 2296
+type(
+  paramdef list
+)
+"fifo.ml" 61 1408 1416 "fifo.ml" 88 2258 2296
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 89 2298 2306 "fifo.ml" 89 2298 2317
+type(
+  Loach.formula -> Loach.statement -> Loach.statement
+)
+ident(
+  ext_ref Loach.ifStatement
+)
+"fifo.ml" 90 2320 2330 "fifo.ml" 90 2320 2333
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"fifo.ml" 90 2320 2335 "fifo.ml" 90 2320 2338
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"fifo.ml" 90 2320 2340 "fifo.ml" 90 2320 2346
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 90 2320 2347 "fifo.ml" 90 2320 2354
+type(
+  string
+)
+"fifo.ml" 90 2320 2340 "fifo.ml" 90 2320 2354
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 90 2320 2335 "fifo.ml" 90 2320 2355
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 90 2320 2358 "fifo.ml" 90 2320 2363
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 90 2320 2365 "fifo.ml" 90 2320 2370
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"fifo.ml" 90 2320 2371 "fifo.ml" 90 2320 2375
+type(
+  bool
+)
+"fifo.ml" 90 2320 2365 "fifo.ml" 90 2320 2375
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 90 2320 2358 "fifo.ml" 90 2320 2376
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 90 2320 2330 "fifo.ml" 90 2320 2377
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"fifo.ml" 92 2390 2400 "fifo.ml" 92 2390 2406
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"fifo.ml" 92 2390 2408 "fifo.ml" 92 2390 2414
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 92 2390 2415 "fifo.ml" 92 2390 2421
+type(
+  string
+)
+"fifo.ml" 92 2390 2408 "fifo.ml" 92 2390 2421
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 92 2390 2424 "fifo.ml" 92 2390 2427
+type(
+  string -> Loach.exp list -> Loach.exp
+)
+ident(
+  ext_ref Loach.uif
+)
+"fifo.ml" 92 2390 2428 "fifo.ml" 92 2390 2431
+type(
+  string
+)
+"fifo.ml" 92 2390 2433 "fifo.ml" 92 2390 2436
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"fifo.ml" 92 2390 2438 "fifo.ml" 92 2390 2444
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 92 2390 2445 "fifo.ml" 92 2390 2451
+type(
+  string
+)
+"fifo.ml" 92 2390 2438 "fifo.ml" 92 2390 2451
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 92 2390 2433 "fifo.ml" 92 2390 2452
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 92 2390 2454 "fifo.ml" 92 2390 2459
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 92 2390 2461 "fifo.ml" 92 2390 2465
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"fifo.ml" 92 2390 2466 "fifo.ml" 92 2390 2467
+type(
+  int
+)
+"fifo.ml" 92 2390 2461 "fifo.ml" 92 2390 2467
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 92 2390 2454 "fifo.ml" 92 2390 2468
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+type(
+  Loach.exp list
+)
+"fifo.ml" 92 2390 2433 "fifo.ml" 92 2390 2468
+type(
+  Loach.exp list
+)
+"fifo.ml" 92 2390 2432 "fifo.ml" 92 2390 2469
+type(
+  Loach.exp list
+)
+"fifo.ml" 92 2390 2424 "fifo.ml" 92 2390 2469
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 92 2390 2400 "fifo.ml" 92 2390 2470
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 89 2298 2306 "fifo.ml" 93 2471 2480
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 94 2482 2490 "fifo.ml" 94 2482 2496
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"fifo.ml" 94 2482 2498 "fifo.ml" 94 2482 2504
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 94 2482 2505 "fifo.ml" 94 2482 2512
+type(
+  string
+)
+"fifo.ml" 94 2482 2498 "fifo.ml" 94 2482 2512
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 94 2482 2515 "fifo.ml" 94 2482 2520
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 94 2482 2522 "fifo.ml" 94 2482 2527
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"fifo.ml" 94 2482 2528 "fifo.ml" 94 2482 2533
+type(
+  bool
+)
+"fifo.ml" 94 2482 2522 "fifo.ml" 94 2482 2533
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 94 2482 2515 "fifo.ml" 94 2482 2534
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 94 2482 2490 "fifo.ml" 94 2482 2535
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+type(
+  Loach.statement list
+)
+"fifo.ml" 89 2298 2306 "fifo.ml" 94 2482 2535
+type(
+  Loach.statement list
+)
+"fifo.ml" 61 1408 1416 "fifo.ml" 94 2482 2535
+type(
+  Loach.statement list
+)
+"fifo.ml" 60 1391 1406 "fifo.ml" 95 2536 2543
+type(
+  Loach.statement list
+)
+"fifo.ml" 60 1391 1397 "fifo.ml" 95 2536 2543
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 97 2552 2558 "fifo.ml" 97 2552 2569
+type(
+  Loach.formula -> Loach.statement -> Loach.statement
+)
+ident(
+  ext_ref Loach.ifStatement
+)
+"fifo.ml" 98 2572 2580 "fifo.ml" 98 2572 2587
+type(
+  Loach.formula list -> Loach.formula
+)
+ident(
+  ext_ref Loach.andList
+)
+"fifo.ml" 99 2590 2600 "fifo.ml" 99 2590 2603
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"fifo.ml" 99 2590 2605 "fifo.ml" 99 2590 2610
+type(
+  paramref -> Loach.exp
+)
+ident(
+  ext_ref Loach.param
+)
+"fifo.ml" 99 2590 2612 "fifo.ml" 99 2590 2620
+type(
+  string -> paramref
+)
+ident(
+  ext_ref Paramecium.paramref
+)
+"fifo.ml" 99 2590 2621 "fifo.ml" 99 2590 2626
+type(
+  string
+)
+"fifo.ml" 99 2590 2612 "fifo.ml" 99 2590 2626
+call(
+  stack
+)
+type(
+  paramref
+)
+"fifo.ml" 99 2590 2605 "fifo.ml" 99 2590 2627
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 99 2590 2630 "fifo.ml" 99 2590 2635
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 99 2590 2637 "fifo.ml" 99 2590 2642
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"fifo.ml" 99 2590 2643 "fifo.ml" 99 2590 2647
+type(
+  bool
+)
+"fifo.ml" 99 2590 2637 "fifo.ml" 99 2590 2647
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 99 2590 2630 "fifo.ml" 99 2590 2648
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 99 2590 2600 "fifo.ml" 99 2590 2649
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"fifo.ml" 100 2651 2661 "fifo.ml" 100 2651 2664
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"fifo.ml" 100 2651 2666 "fifo.ml" 100 2651 2669
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"fifo.ml" 100 2651 2671 "fifo.ml" 100 2651 2677
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 100 2651 2678 "fifo.ml" 100 2651 2685
+type(
+  string
+)
+"fifo.ml" 100 2651 2671 "fifo.ml" 100 2651 2685
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 100 2651 2666 "fifo.ml" 100 2651 2686
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 100 2651 2689 "fifo.ml" 100 2651 2694
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 100 2651 2696 "fifo.ml" 100 2651 2701
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"fifo.ml" 100 2651 2702 "fifo.ml" 100 2651 2707
+type(
+  bool
+)
+"fifo.ml" 100 2651 2696 "fifo.ml" 100 2651 2707
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 100 2651 2689 "fifo.ml" 100 2651 2708
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 100 2651 2661 "fifo.ml" 100 2651 2709
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+type(
+  Loach.formula list
+)
+"fifo.ml" 99 2590 2600 "fifo.ml" 100 2651 2709
+type(
+  Loach.formula list
+)
+"fifo.ml" 98 2572 2588 "fifo.ml" 101 2710 2719
+type(
+  Loach.formula list
+)
+"fifo.ml" 98 2572 2580 "fifo.ml" 101 2710 2719
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"fifo.ml" 103 2730 2738 "fifo.ml" 103 2730 2753
+type(
+  Loach.formula -> Loach.statement -> Loach.statement -> Loach.statement
+)
+ident(
+  ext_ref Loach.ifelseStatement
+)
+"fifo.ml" 104 2756 2766 "fifo.ml" 104 2756 2769
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"fifo.ml" 104 2756 2771 "fifo.ml" 104 2756 2774
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"fifo.ml" 104 2756 2776 "fifo.ml" 104 2756 2782
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 104 2756 2783 "fifo.ml" 104 2756 2789
+type(
+  string
+)
+"fifo.ml" 104 2756 2776 "fifo.ml" 104 2756 2789
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 104 2756 2771 "fifo.ml" 104 2756 2790
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 104 2756 2793 "fifo.ml" 104 2756 2798
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 104 2756 2800 "fifo.ml" 104 2756 2804
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"fifo.ml" 104 2756 2805 "fifo.ml" 104 2756 2806
+type(
+  int
+)
+"fifo.ml" 104 2756 2800 "fifo.ml" 104 2756 2806
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 104 2756 2793 "fifo.ml" 104 2756 2807
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 104 2756 2766 "fifo.ml" 104 2756 2808
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"fifo.ml" 106 2821 2831 "fifo.ml" 106 2821 2837
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"fifo.ml" 106 2821 2839 "fifo.ml" 106 2821 2845
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 106 2821 2846 "fifo.ml" 106 2821 2853
+type(
+  string
+)
+"fifo.ml" 106 2821 2839 "fifo.ml" 106 2821 2853
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 106 2821 2856 "fifo.ml" 106 2821 2861
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 106 2821 2863 "fifo.ml" 106 2821 2868
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"fifo.ml" 106 2821 2869 "fifo.ml" 106 2821 2873
+type(
+  bool
+)
+"fifo.ml" 106 2821 2863 "fifo.ml" 106 2821 2873
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 106 2821 2856 "fifo.ml" 106 2821 2874
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 106 2821 2831 "fifo.ml" 106 2821 2875
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 108 2888 2898 "fifo.ml" 108 2888 2904
+type(
+  var -> Loach.exp -> Loach.statement
+)
+ident(
+  ext_ref Loach.assign
+)
+"fifo.ml" 108 2888 2906 "fifo.ml" 108 2888 2912
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 108 2888 2913 "fifo.ml" 108 2888 2919
+type(
+  string
+)
+"fifo.ml" 108 2888 2906 "fifo.ml" 108 2888 2919
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 108 2888 2922 "fifo.ml" 108 2888 2925
+type(
+  string -> Loach.exp list -> Loach.exp
+)
+ident(
+  ext_ref Loach.uif
+)
+"fifo.ml" 108 2888 2926 "fifo.ml" 108 2888 2929
+type(
+  string
+)
+"fifo.ml" 108 2888 2931 "fifo.ml" 108 2888 2934
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"fifo.ml" 108 2888 2936 "fifo.ml" 108 2888 2942
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 108 2888 2943 "fifo.ml" 108 2888 2949
+type(
+  string
+)
+"fifo.ml" 108 2888 2936 "fifo.ml" 108 2888 2949
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 108 2888 2931 "fifo.ml" 108 2888 2950
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 108 2888 2953 "fifo.ml" 108 2888 2958
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 108 2888 2960 "fifo.ml" 108 2888 2964
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"fifo.ml" 108 2888 2965 "fifo.ml" 108 2888 2966
+type(
+  int
+)
+"fifo.ml" 108 2888 2960 "fifo.ml" 108 2888 2966
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 108 2888 2953 "fifo.ml" 108 2888 2967
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 108 2888 2952 "fifo.ml" 108 2888 2968
+type(
+  Loach.exp list
+)
+"fifo.ml" 108 2888 2931 "fifo.ml" 108 2888 2968
+type(
+  Loach.exp list
+)
+"fifo.ml" 108 2888 2930 "fifo.ml" 108 2888 2969
+type(
+  Loach.exp list
+)
+"fifo.ml" 108 2888 2922 "fifo.ml" 108 2888 2969
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 108 2888 2898 "fifo.ml" 108 2888 2970
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 103 2730 2738 "fifo.ml" 109 2971 2980
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 97 2552 2558 "fifo.ml" 110 2981 2988
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 54 1219 1223 "fifo.ml" 111 2989 2994
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 48 1011 1029 "fifo.ml" 112 2995 2998
+call(
+  stack
+)
+type(
+  Loach.statement
+)
+"fifo.ml" 113 3002 3004 "fifo.ml" 113 3002 3008
+type(
+  string -> paramdef list -> Loach.formula -> Loach.statement -> Loach.rule
+)
+ident(
+  ext_ref Loach.rule
+)
+"fifo.ml" 113 3002 3009 "fifo.ml" 113 3002 3013
+type(
+  string
+)
+ident(
+  int_ref name "fifo.ml" 40 810 816 "fifo.ml" 40 810 820
+)
+"fifo.ml" 113 3002 3014 "fifo.ml" 113 3002 3020
+type(
+  paramdef list
+)
+ident(
+  int_ref params "fifo.ml" 41 835 841 "fifo.ml" 41 835 847
+)
+"fifo.ml" 113 3002 3021 "fifo.ml" 113 3002 3028
+type(
+  Loach.formula
+)
+ident(
+  int_ref formula "fifo.ml" 47 986 992 "fifo.ml" 47 986 999
+)
+"fifo.ml" 113 3002 3029 "fifo.ml" 113 3002 3038
+type(
+  Loach.statement
+)
+ident(
+  int_ref statement "fifo.ml" 48 1011 1017 "fifo.ml" 48 1011 1026
+)
+"fifo.ml" 113 3002 3004 "fifo.ml" 113 3002 3038
+call(
+  stack
+)
+type(
+  Loach.rule
+)
+"fifo.ml" 48 1011 1013 "fifo.ml" 113 3002 3038
+type(
+  Loach.rule
+)
+"fifo.ml" 47 986 988 "fifo.ml" 113 3002 3038
+type(
+  Loach.rule
+)
+"fifo.ml" 41 835 837 "fifo.ml" 113 3002 3038
+type(
+  Loach.rule
+)
+"fifo.ml" 40 810 812 "fifo.ml" 113 3002 3038
+type(
+  Loach.rule
+)
+"fifo.ml" 116 3041 3045 "fifo.ml" 116 3041 3050
+type(
+  Loach.rule list
+)
+ident(
+  def rules "fifo.ml" 118 3063 3063 "fifo.ml" 1 0 -1
+)
+"fifo.ml" 116 3041 3054 "fifo.ml" 116 3041 3060
+type(
+  Loach.rule
+)
+ident(
+  int_ref always "fifo.ml" 39 797 801 "fifo.ml" 39 797 807
+)
+type(
+  Loach.rule list
+)
+"fifo.ml" 116 3041 3053 "fifo.ml" 116 3041 3061
+type(
+  Loach.rule list
+)
+"fifo.ml" 118 3063 3067 "fifo.ml" 118 3063 3075
+type(
+  Loach.prop
+)
+ident(
+  def coherent "fifo.ml" 128 3292 3292 "fifo.ml" 1 0 -1
+)
+"fifo.ml" 119 3078 3084 "fifo.ml" 119 3078 3088
+type(
+  string
+)
+ident(
+  def name "fifo.ml" 120 3105 3107 "fifo.ml" 126 3264 3290
+)
+"fifo.ml" 119 3078 3091 "fifo.ml" 119 3078 3101
+type(
+  string
+)
+"fifo.ml" 120 3105 3111 "fifo.ml" 120 3105 3117
+type(
+  'a list
+)
+ident(
+  def params "fifo.ml" 121 3126 3128 "fifo.ml" 126 3264 3290
+)
+"fifo.ml" 120 3105 3120 "fifo.ml" 120 3105 3122
+type(
+  'a list
+)
+"fifo.ml" 121 3126 3132 "fifo.ml" 121 3126 3139
+type(
+  Loach.formula
+)
+ident(
+  def formula "fifo.ml" 126 3264 3266 "fifo.ml" 126 3264 3290
+)
+"fifo.ml" 121 3126 3142 "fifo.ml" 121 3126 3147
+type(
+  Loach.formula -> Loach.formula -> Loach.formula
+)
+ident(
+  ext_ref Loach.imply
+)
+"fifo.ml" 122 3150 3154 "fifo.ml" 122 3150 3157
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"fifo.ml" 122 3150 3159 "fifo.ml" 122 3150 3162
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"fifo.ml" 122 3150 3164 "fifo.ml" 122 3150 3170
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 122 3150 3171 "fifo.ml" 122 3150 3177
+type(
+  string
+)
+"fifo.ml" 122 3150 3164 "fifo.ml" 122 3150 3177
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 122 3150 3159 "fifo.ml" 122 3150 3178
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 122 3150 3181 "fifo.ml" 122 3150 3186
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 122 3150 3188 "fifo.ml" 122 3150 3192
+type(
+  int -> const
+)
+ident(
+  ext_ref Paramecium.intc
+)
+"fifo.ml" 122 3150 3193 "fifo.ml" 122 3150 3195
+type(
+  int
+)
+"fifo.ml" 122 3150 3188 "fifo.ml" 122 3150 3195
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 122 3150 3181 "fifo.ml" 122 3150 3196
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 122 3150 3154 "fifo.ml" 122 3150 3197
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"fifo.ml" 124 3204 3208 "fifo.ml" 124 3204 3211
+type(
+  Loach.exp -> Loach.exp -> Loach.formula
+)
+ident(
+  ext_ref Loach.eqn
+)
+"fifo.ml" 124 3204 3213 "fifo.ml" 124 3204 3216
+type(
+  var -> Loach.exp
+)
+ident(
+  ext_ref Loach.var
+)
+"fifo.ml" 124 3204 3218 "fifo.ml" 124 3204 3224
+type(
+  string -> var
+)
+ident(
+  ext_ref Loach.global
+)
+"fifo.ml" 124 3204 3225 "fifo.ml" 124 3204 3232
+type(
+  string
+)
+"fifo.ml" 124 3204 3218 "fifo.ml" 124 3204 3232
+call(
+  stack
+)
+type(
+  var
+)
+"fifo.ml" 124 3204 3213 "fifo.ml" 124 3204 3233
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 124 3204 3236 "fifo.ml" 124 3204 3241
+type(
+  const -> Loach.exp
+)
+ident(
+  ext_ref Loach.const
+)
+"fifo.ml" 124 3204 3243 "fifo.ml" 124 3204 3248
+type(
+  bool -> const
+)
+ident(
+  ext_ref Paramecium.boolc
+)
+"fifo.ml" 124 3204 3249 "fifo.ml" 124 3204 3254
+type(
+  bool
+)
+"fifo.ml" 124 3204 3243 "fifo.ml" 124 3204 3254
+call(
+  stack
+)
+type(
+  const
+)
+"fifo.ml" 124 3204 3236 "fifo.ml" 124 3204 3255
+call(
+  stack
+)
+type(
+  Loach.exp
+)
+"fifo.ml" 124 3204 3208 "fifo.ml" 124 3204 3256
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"fifo.ml" 121 3126 3142 "fifo.ml" 125 3257 3260
+call(
+  stack
+)
+type(
+  Loach.formula
+)
+"fifo.ml" 126 3264 3266 "fifo.ml" 126 3264 3270
+type(
+  string -> paramdef list -> Loach.formula -> Loach.prop
+)
+ident(
+  ext_ref Loach.prop
+)
+"fifo.ml" 126 3264 3271 "fifo.ml" 126 3264 3275
+type(
+  string
+)
+ident(
+  int_ref name "fifo.ml" 119 3078 3084 "fifo.ml" 119 3078 3088
+)
+"fifo.ml" 126 3264 3276 "fifo.ml" 126 3264 3282
+type(
+  paramdef list
+)
+ident(
+  int_ref params "fifo.ml" 120 3105 3111 "fifo.ml" 120 3105 3117
+)
+"fifo.ml" 126 3264 3283 "fifo.ml" 126 3264 3290
+type(
+  Loach.formula
+)
+ident(
+  int_ref formula "fifo.ml" 121 3126 3132 "fifo.ml" 121 3126 3139
+)
+"fifo.ml" 126 3264 3266 "fifo.ml" 126 3264 3290
+call(
+  stack
+)
+type(
+  Loach.prop
+)
+"fifo.ml" 121 3126 3128 "fifo.ml" 126 3264 3290
+type(
+  Loach.prop
+)
+"fifo.ml" 120 3105 3107 "fifo.ml" 126 3264 3290
+type(
+  Loach.prop
+)
+"fifo.ml" 119 3078 3080 "fifo.ml" 126 3264 3290
+type(
+  Loach.prop
+)
+"fifo.ml" 128 3292 3296 "fifo.ml" 128 3292 3306
+type(
+  Loach.prop list
+)
+ident(
+  def properties "fifo.ml" 130 3321 3321 "fifo.ml" 1 0 -1
+)
+"fifo.ml" 128 3292 3310 "fifo.ml" 128 3292 3318
+type(
+  Loach.prop
+)
+ident(
+  int_ref coherent "fifo.ml" 118 3063 3067 "fifo.ml" 118 3063 3075
+)
+type(
+  Loach.prop list
+)
+"fifo.ml" 128 3292 3309 "fifo.ml" 128 3292 3319
+type(
+  Loach.prop list
+)
+"fifo.ml" 130 3321 3325 "fifo.ml" 130 3321 3333
+type(
+  Loach.protocol
+)
+ident(
+  def protocol "fifo.ml" 141 3411 3411 "fifo.ml" 1 0 -1
+)
+"fifo.ml" 131 3338 3347 "fifo.ml" 131 3338 3353
+type(
+  string
+)
+"fifo.ml" 132 3355 3357 "fifo.ml" 132 3355 3362
+type(
+  typedef list
+)
+ident(
+  int_ref types "fifo.ml" 16 147 151 "fifo.ml" 16 147 156
+)
+"fifo.ml" 133 3364 3366 "fifo.ml" 133 3364 3373
+type(
+  vardef list
+)
+ident(
+  int_ref vardefs "fifo.ml" 23 331 335 "fifo.ml" 23 331 342
+)
+"fifo.ml" 134 3375 3377 "fifo.ml" 134 3375 3381
+type(
+  Loach.statement
+)
+ident(
+  int_ref init "fifo.ml" 30 570 574 "fifo.ml" 30 570 578
+)
+"fifo.ml" 135 3383 3385 "fifo.ml" 135 3383 3390
+type(
+  Loach.rule list
+)
+ident(
+  int_ref rules "fifo.ml" 116 3041 3045 "fifo.ml" 116 3041 3050
+)
+"fifo.ml" 136 3392 3394 "fifo.ml" 136 3392 3404
+type(
+  Loach.prop list
+)
+ident(
+  int_ref properties "fifo.ml" 128 3292 3296 "fifo.ml" 128 3292 3306
+)
+"fifo.ml" 130 3321 3336 "fifo.ml" 137 3406 3407
+type(
+  Loach.protocol
+)
+"fifo.ml" 141 3411 3415 "fifo.ml" 141 3411 3417
+type(
+  unit
+)
+"fifo.ml" 141 3411 3420 "fifo.ml" 141 3411 3436
+type(
+  (unit -> unit) -> unit
+)
+ident(
+  ext_ref Cmdline.run_with_cmdline
+)
+"fifo.ml" 141 3411 3442 "fifo.ml" 141 3411 3444
+type(
+  unit
+)
+"fifo.ml" 142 3448 3454 "fifo.ml" 142 3448 3465
+type(
+  string list
+)
+ident(
+  def insym_types "fifo.ml" 143 3524 3526 "fifo.ml" 148 3749 3814
+)
+"fifo.ml" 142 3448 3469 "fifo.ml" 142 3448 3481
+type(
+  string
+)
+"fifo.ml" 142 3448 3483 "fifo.ml" 142 3448 3495
+type(
+  string
+)
+"fifo.ml" 142 3448 3497 "fifo.ml" 142 3448 3508
+type(
+  string
+)
+"fifo.ml" 142 3448 3510 "fifo.ml" 142 3448 3519
+type(
+  string
+)
+type(
+  string list
+)
+"fifo.ml" 142 3448 3497 "fifo.ml" 142 3448 3519
+type(
+  string list
+)
+"fifo.ml" 142 3448 3483 "fifo.ml" 142 3448 3519
+type(
+  string list
+)
+"fifo.ml" 142 3448 3469 "fifo.ml" 142 3448 3519
+type(
+  string list
+)
+"fifo.ml" 142 3448 3468 "fifo.ml" 142 3448 3520
+type(
+  string list
+)
+"fifo.ml" 143 3524 3530 "fifo.ml" 143 3524 3538
+type(
+  Loach.protocol
+)
+ident(
+  def protocol "fifo.ml" 144 3590 3592 "fifo.ml" 148 3749 3814
+)
+"fifo.ml" 143 3524 3541 "fifo.ml" 143 3524 3565
+type(
+  string list -> Loach.protocol -> Loach.protocol
+)
+ident(
+  ext_ref Loach.PartParam.apply_protocol
+)
+"fifo.ml" 143 3524 3566 "fifo.ml" 143 3524 3577
+type(
+  string list
+)
+ident(
+  int_ref insym_types "fifo.ml" 142 3448 3454 "fifo.ml" 142 3448 3465
+)
+"fifo.ml" 143 3524 3578 "fifo.ml" 143 3524 3586
+type(
+  Loach.protocol
+)
+ident(
+  int_ref protocol "fifo.ml" 130 3321 3325 "fifo.ml" 130 3321 3333
+)
+"fifo.ml" 143 3524 3541 "fifo.ml" 143 3524 3586
+call(
+  stack
+)
+type(
+  Loach.protocol
+)
+"fifo.ml" 144 3590 3596 "fifo.ml" 144 3590 3604
+type(
+  Loach.protocol
+)
+ident(
+  def protocol "fifo.ml" 145 3648 3650 "fifo.ml" 148 3749 3814
+)
+"fifo.ml" 144 3590 3607 "fifo.ml" 144 3590 3628
+type(
+  loach:Loach.protocol -> Loach.protocol
+)
+ident(
+  ext_ref Loach.preprocess_rule_guard
+)
+"fifo.ml" 144 3590 3636 "fifo.ml" 144 3590 3644
+type(
+  Loach.protocol
+)
+ident(
+  int_ref protocol "fifo.ml" 143 3524 3530 "fifo.ml" 143 3524 3538
+)
+"fifo.ml" 144 3590 3607 "fifo.ml" 144 3590 3644
+call(
+  stack
+)
+type(
+  Loach.protocol
+)
+"fifo.ml" 145 3648 3654 "fifo.ml" 145 3648 3673
+type(
+  (concrete_prop * String.Set.t) list
+)
+ident(
+  def cinvs_with_varnames "fifo.ml" 148 3749 3751 "fifo.ml" 148 3749 3814
+)
+"fifo.ml" 145 3648 3675 "fifo.ml" 145 3648 3684
+type(
+  t list list list list
+)
+ident(
+  def relations "fifo.ml" 148 3749 3751 "fifo.ml" 148 3749 3814
+)
+"fifo.ml" 145 3648 3654 "fifo.ml" 145 3648 3684
+type(
+  (concrete_prop * String.Set.t) list * t list list list list
+)
+"fifo.ml" 145 3648 3687 "fifo.ml" 145 3648 3691
+type(
+  ?insym_types:string list ->
+  ?smv_escape:(string -> string) ->
+  ?smv:string ->
+  ?smv_ord:string ->
+  ?smv_bmc:string ->
+  ?murphi:string ->
+  Loach.protocol ->
+  (concrete_prop * String.Set.t) list * t list list list list
+)
+ident(
+  ext_ref InvFinder.find
+)
+"fifo.ml" 145 3648 3692 "fifo.ml" 145 3648 3700
+type(
+  Loach.protocol
+)
+ident(
+  int_ref protocol "fifo.ml" 144 3590 3596 "fifo.ml" 144 3590 3604
+)
+"fifo.ml" 146 3701 3714 "fifo.ml" 146 3701 3733
+type(
+  string -> string
+)
+ident(
+  ext_ref Core.Std.In_channel.read_all
+)
+"fifo.ml" 146 3701 3734 "fifo.ml" 146 3701 3742
+type(
+  string
+)
+"fifo.ml" 146 3701 3714 "fifo.ml" 146 3701 3742
+call(
+  stack
+)
+type(
+  string
+)
+"fifo.ml" 145 3648 3687 "fifo.ml" 146 3701 3743
+call(
+  stack
+)
+type(
+  (concrete_prop * String.Set.t) list * t list list list list
+)
+"fifo.ml" 148 3749 3751 "fifo.ml" 148 3749 3772
+type(
+  Loach.protocol ->
+  (concrete_prop * String.Set.t) list ->
+  t list list list list -> unit -> unit
+)
+ident(
+  ext_ref Isabelle.protocol_act
+)
+"fifo.ml" 148 3749 3773 "fifo.ml" 148 3749 3781
+type(
+  Loach.protocol
+)
+ident(
+  int_ref protocol "fifo.ml" 144 3590 3596 "fifo.ml" 144 3590 3604
+)
+"fifo.ml" 148 3749 3782 "fifo.ml" 148 3749 3801
+type(
+  (concrete_prop * String.Set.t) list
+)
+ident(
+  int_ref cinvs_with_varnames "fifo.ml" 145 3648 3654 "fifo.ml" 145 3648 3673
+)
+"fifo.ml" 148 3749 3802 "fifo.ml" 148 3749 3811
+type(
+  t list list list list
+)
+ident(
+  int_ref relations "fifo.ml" 145 3648 3675 "fifo.ml" 145 3648 3684
+)
+"fifo.ml" 148 3749 3812 "fifo.ml" 148 3749 3814
+type(
+  unit
+)
+"fifo.ml" 148 3749 3751 "fifo.ml" 148 3749 3814
+call(
+  tail
+)
+type(
+  unit
+)
+"fifo.ml" 145 3648 3650 "fifo.ml" 148 3749 3814
+type(
+  unit
+)
+"fifo.ml" 144 3590 3592 "fifo.ml" 148 3749 3814
+type(
+  unit
+)
+"fifo.ml" 143 3524 3526 "fifo.ml" 148 3749 3814
+type(
+  unit
+)
+"fifo.ml" 142 3448 3450 "fifo.ml" 148 3749 3814
+type(
+  unit
+)
+"fifo.ml" 141 3411 3442 "fifo.ml" 148 3749 3814
+type(
+  unit -> unit
+)
+"fifo.ml" 141 3411 3420 "fifo.ml" 149 3815 3816
+call(
+  stack
+)
+type(
+  unit
+)
