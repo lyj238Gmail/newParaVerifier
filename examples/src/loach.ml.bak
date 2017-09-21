@@ -1065,20 +1065,17 @@ let rec cmpStrengthRule invs  ~types paramRef r=
 				let invs'=List.filter ~f:(fun x->not (relate ~rule:r ~types: types x)) invs in
 				cmpStrengthRule invs types paramRef r
 				
-(*make sure paramRef is a proper actual parameter to instantisate pr*) 	
-let rec upto n=
-	if (n=0) then [0]
-	else (upto (n - 1))@[n-1]
-				
-let cmpStrengthPrPInv pprops ~types paramRef pr=		
+(*make sure paramRef is a proper actual parameter to instantisate pr*) 				
+let cmpStrengthPrPInv pinvs ~types paramRef pr=		
 	let Paramfix(pname,indextype,Intc(index))=paramRef in
-	let mkActualParasForInv pprop=
-		let Prop( name, params, pinv)=pprop in
-		let paraNumPairs=List.zip parasOfPInv (upto  (List.length parasOfPInv)) in
+	let mkActualParasForInv pinv=
+		let parasOfPInv=pinv in
+		let paraNumPairs=List.zip parasOfPInv List.upto 0 (List.length parasOfPInv) in
 			List.map
-			 ~f:(fun (p,num)->let Paramdef(pname,indextype)=p in Paramfix(pname,indextype,num+index))
-			 paraNumPairs in 
-	let pinvs=List.map (fun prop ->let Prop( name, params, pinv)=prop	 in pinv) pprops in
+			 ~f:(fun (p,num)->let Paramref(pname,indextype)=p in Paramfix(pname,indextype,num+index))
+			 paraNumPairs
+	let List.map ～f:(fun ind->paramfix pname indexType (Intc(ind)) [index,index+1] in
+	
 	let invs=List.concat (List.map (apply_form ~p:mkActualParasForInv)	pinvs	) in
 	let r=apply_rule ~p:[paramRef] pr in
 	let onlyAffect=  onlyOnRule  index r in
