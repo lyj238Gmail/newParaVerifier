@@ -38,5 +38,13 @@ let check types prop=
 let checkProps types props=
 	List.filter ~f:(fun x ->  check types x)  props
 	
+let checkInv inv=
+	let b=try Smv.is_inv inv &&  ((not !Cmdline.confirm_with_mu) || Murphi.is_inv inv) with
+          | Client.Smv.Cannot_check -> Murphi.is_inv inv
+          | _ -> raise Utils.Empty_exception    in
+  if b 
+	then let ()=print_endline (inv^"ok/n") in true
+	else let ()=print_endline (inv^"failure") in false  
+	
 end
 

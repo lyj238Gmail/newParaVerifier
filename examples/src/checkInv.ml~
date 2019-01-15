@@ -10,7 +10,7 @@ open Cmdline
 module CheckInv=struct
 
 let check_with_murphi form =
-          let form_str = ToStr.Smv.form_act ~lower:false (Paramecium.Neg form) in
+          let form_str = ToStr.Smv.form_act ~lower:false ( form) in
           let res = Murphi.is_inv form_str in
           print_endline (sprintf "Check by mu: %s, %b" form_str res); res
 
@@ -37,6 +37,14 @@ let check types prop=
 
 let checkProps types props=
 	List.filter ~f:(fun x ->  check types x)  props
+	
+let checkInv inv=
+	let b=try Smv.is_inv inv &&  ((not !Cmdline.confirm_with_mu) || Murphi.is_inv inv) with
+          | Client.Smv.Cannot_check -> Murphi.is_inv inv
+          | _ -> raise Utils.Empty_exception    in
+  if b 
+	then let ()=print_endline ((   inv)^"ok/n") in true
+	else let ()=print_endline inv^"failure" in false  
 	
 end
 

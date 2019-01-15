@@ -1066,7 +1066,7 @@ let rec cmpStrengthRule invs  ~types paramRef r=
 				cmpStrengthRule invs types paramRef r
 				
 (*make sure paramRef is a proper actual parameter to instantisate pr*) 	
-let rec upto n=
+(*let rec upto n=
 	if (n=0) then [0]
 	else (upto (n - 1))@[n-1]
 				
@@ -1083,7 +1083,7 @@ let cmpStrengthPrPInv pprops ~types paramRef pr=
 	let r=apply_rule ~p:[paramRef] pr in
 	let onlyAffect=  onlyOnRule  index r in
 	if onlyAffect then None
-	else Some(cmpStrengthRule invs  ~types:types paramRef r)
+	else Some(cmpStrengthRule invs  ~types:types paramRef r)*)
 end		
 		
 		

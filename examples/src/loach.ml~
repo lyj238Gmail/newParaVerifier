@@ -550,6 +550,26 @@ module Trans = struct
       rules = new_rules;
       properties = new_prop;
     }
+  
+  (*Inverse trans trans a paramecium thing to the loach one*)  
+   let rec invTrans_exp   e =
+    match e with
+    | Paramecium.Const(c) -> const c
+    | Paramecium.Var(x) ->  var x
+    | Paramecium.Param(pr) ->  param pr
+    | Paramecium.Ite(f, e1, e2) ->
+       ite (invTrans_formula   f) (invTrans_exp   e1) (invTrans_exp   e2)
+    | Paramecium.UIF(n, el) -> uif n (List.map el ~f:(invTrans_exp  ))
+  and invTrans_formula   form =
+    match form with
+    | Paramecium.Chaos ->  chaos
+    | Paramecium.Miracle -> miracle
+    | Paramecium.UIP(n, el) -> uip n (List.map el ~f:(invTrans_exp  ))
+    | Paramecium.Eqn(e1, e2) ->  eqn (invTrans_exp   e1) (invTrans_exp   e2)
+    | Paramecium.Neg(f) ->  neg (invTrans_formula   f)
+    | Paramecium.AndList(fl) ->  andList (List.map fl ~f:(invTrans_formula  ))
+    | Paramecium.OrList(fl) ->  orList (List.map fl ~f:(invTrans_formula  ))
+    | Paramecium.Imply(f1, f2) ->  imply (invTrans_formula   f1) (invTrans_formula   f2)  
 
 end
 
@@ -947,12 +967,12 @@ end
 
 module CMP = struct
 
-	let relate inv r ~types=
-		let Rule(name,paramdefs,g, act)=r in		
+	let relate inv ~rule ~types=
+		let Rule(name,paramdefs,g, act)=rule in		
 		let Imply(ant,cons)=inv in
-		let ant=Trans.trans_formula ~types ant in
-		let g=Trans.trans_formula ~types g in
-		Formula.can_imply ant g
+		let ant=Trans.trans_formula types ant in
+		let g=Trans.trans_formula types g in
+		Formula.is_tautology (Paramecium.imply  ant g)
 
 (*let vardefs = List.concat [
   [arrdef [("n", [paramdef "i0" "client"])] "state"];
@@ -968,7 +988,7 @@ module CMP = struct
 notice the formal def of paramRef above,
 Index i is on a[i]  List.fold ~init:true ~f:(fun res x -> res && x)
 *)
-let effectOnVar index var=		
+let  onlyOnVar index var=		
 		match var with
 		|Arr([(name,[paramRef1])])->
 			match paramRef1 with 
@@ -977,64 +997,93 @@ let effectOnVar index var=
 		|_->false
 		
 			
-let rec effectOnStatement index statement= 
+let rec  onlyOnStatement index statement= 
 	match statement with
-	|Assign(var,value) -> effectOnVar index var 
+	|Assign(var,value) ->  onlyOnVar index var 
 	|Parallel(statementList) -> 
-		List.fold  (List.map ~f:(effectOnStatement index) statementList) 
+		List.fold  (List.map ~f:( onlyOnStatement index) statementList) 
 		 ~f:(fun x y -> x || y) ~init:false
 	|IfStatement(bcond,statement) ->
-		effectOnStatement index statement
+		 onlyOnStatement index statement
 	|IfelseStatement(b,s1,s2) ->
-	 (effectOnStatement index s1) || (effectOnStatement index s2)
+	 ( onlyOnStatement index s1) || ( onlyOnStatement index s2)
 	|ForStatement(s,parmDefs) ->false
 		(*regularForStatement(s)*)
-		
+
+let  onlyOnRule index rule=
+	let Rule(name,paraDefs,g,statement)=rule in
+		 onlyOnStatement index statement	
 		
 (*(forallFormula [paramdef "j" "NODE"] (eqn (var (arr [("ShrSet", [paramref "j"])])) (const (boolc false))))])*)	
-let drawConclusion index invaraint  nodesTypeStr=
-	let Imply(ant,cons)=invaraint in
-	match cons with
-	|Eqn(Var(var),value)	-> 
+
+let drawConclusion paramRef types invaraint=	
+	let Paramfix(pname,indextype,Intc(index))=paramRef in
+	let Imply(ant,cons)=invaraint in	
+	let matchVarDo var=
 		match var with
 		|Arr([(name,[paramRef1])])->
-			match paramRef1 with 
+		
+			(match paramRef1 with 
+			
 			|Paramfix(pname,vname, Intc(index'))->
-				if (index=index') then []
-				else 
-					let iIndexStr=? in
-					let paramDefs=[paramdef iIndexStr nodesTypeStr] in
-					[ForallFormula(sub?(f,index',iIndex'), paramDefs)]
-			|_->false
-		|_->false
-		if (effectOnVar index var) then []
-		else 
-			[cons]
-	|Neg( Eqn(Var(var),value))	-> 
-		if (effectOnVar index var) then []
-		else [cons]
+				if (index=index') 
+				then [cons]  (*case1:cons == a[index]=v*) 
+				else
+					let (pds,prs,pf)=Generalize.form_act (Trans.trans_formula  ~types:types cons) in	
+					[   (ForallFormula(pds,Trans.invTrans_formula pf))]
+			)
+		|_->[cons]	in
+		
+	match cons with
+	|Eqn(Var(var),value)	-> 
+		matchVarDo var 
+	|Neg(Eqn(Var(var),value))	->
+		matchVarDo var
 	
-let drawConclusion invs =
-	List.map ~f:drawConclusion invs 
+let drawConclusions paramRef types invs =
+	 (List.map ~f:(drawConclusion paramRef types) invs) 
 
 (*The form of rule and invariant is the key!
 invs=[..., inv,...], where inv is concrete, e.g., inv= n[other]=c--> x=false, where usually other is a constant 3;
-r may be mixed with parameterized vars and concrete constant other, but also can be 0-parameterized *)
-let cmpRefine invs r ~types index=
-	let doAffect= effectOn r index in
-	if doAffect then None
-	else 
-		let invs=List.map ~f(relate ~rule:r ~types: types) invs in
-		let conclusions=List.concat (drawConclusions invs)  in
-		let Rule(name,paramdefs,g, act)=r  in	
-		let AndList(gs)=g in
-		let g=andList (gs@conclusions) in
-		let action=rightSubByInvs act index invs in
-		let newR=Rule(name,paramdefs,g, action) in
-		Some(	newR)
+both r and invs are concrete
+paraRef contains an index which usuall is the "other" *)
+let rec cmpStrengthRule invs  ~types paramRef r=
+	let Paramfix(pname,indextype,Intc(index))=paramRef in
+	
+		let invs=List.filter ~f:(relate ~rule:r ~types: types) invs in	
+		match	invs with
+		|[]->   r
+		|_ ->
+			let conclusions=List.concat (drawConclusions paramRef types invs)  in
+			if conclusions=[] then r
+			else
+				let Rule(name,paramdefs,g, act)=r  in	
+				let AndList(gs)=g in
+				let g=andList (gs@conclusions) in
+				(*let action=rightSubByInvs act index invs in*)
+				let newR=Rule(name,paramdefs,g, act) in
+				let invs'=List.filter ~f:(fun x->not (relate ~rule:r ~types: types x)) invs in
+				cmpStrengthRule invs types paramRef r
 				
-		
-		
+(*make sure paramRef is a proper actual parameter to instantisate pr*) 	
+let rec upto n=
+	if (n=0) then [0]
+	else (upto (n - 1))@[n-1]
+				
+let cmpStrengthPrPInv pprops ~types paramRef pr=		
+	let Paramfix(pname,indextype,Intc(index))=paramRef in
+	let mkActualParasForInv pprop=
+		let Prop( name, params, pinv)=pprop in
+		let paraNumPairs=List.zip parasOfPInv (upto  (List.length parasOfPInv)) in
+			List.map
+			 ~f:(fun (p,num)->let Paramdef(pname,indextype)=p in Paramfix(pname,indextype,num+index))
+			 paraNumPairs in 
+	let pinvs=List.map (fun prop ->let Prop( name, params, pinv)=prop	 in pinv) pprops in
+	let invs=List.concat (List.map (apply_form ~p:mkActualParasForInv)	pinvs	) in
+	let r=apply_rule ~p:[paramRef] pr in
+	let onlyAffect=  onlyOnRule  index r in
+	if onlyAffect then None
+	else Some(cmpStrengthRule invs  ~types:types paramRef r)
 end		
 		
 		

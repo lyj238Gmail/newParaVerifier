@@ -9,4 +9,7 @@ val startServer:
   string->string->string->string->unit 
   
 val checkPos:	Paramecium.typedef list ->prop list-> prop list
+
+(*inv:invStrInMurphi*)
+val checkInv:string->bool
 end

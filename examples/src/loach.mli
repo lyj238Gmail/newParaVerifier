@@ -134,6 +134,7 @@ module Trans : sig
   *)
   val act : loach:protocol -> Paramecium.protocol
   val trans_formula:    types:Paramecium.typedef list ->  formula -> Paramecium.formula
+  val invTrans_formula:  Paramecium.formula->formula
 end
 
 
@@ -146,3 +147,7 @@ end
 module PartParam : sig
   val apply_protocol : string list -> protocol -> protocol
 end
+
+module CMP: sig
+	val cmpStrengthRule : formula list -> types:Paramecium.typedef list -> Paramecium.paramref -> rule -> rule 
+end	
