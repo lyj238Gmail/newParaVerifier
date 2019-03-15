@@ -1,4 +1,4 @@
-(** Generate Isabelle code
+(** Generate Coq code
 *)
 
 
@@ -14,7 +14,7 @@ open Isa_base
 exception Unsupported of string
 
 let types_ref = ref []
-
+(* analyze a case expression like "(dst~=p__Inv3\<and>dst~=p__Inv4)"
 let analyze_rels_among_pfs pfs_lists =
   let rec wrapper pfs_lists res =
     match pfs_lists with
@@ -44,13 +44,46 @@ let analyze_rels_among_pfs pfs_lists =
     |> String.concat ~sep:"\\<and>"
   in
   if res = "" then "True" else res
-
+  
+  In Coq, we change it into: "(* i <> p__Inv3 /\ i <> p__Inv4*)"
+  
+*)
+let analyze_rels_among_pfs pfs_lists =
+  let rec wrapper pfs_lists res =
+    match pfs_lists with
+    | [] -> raise Empty_exception (*TODO*)
+    | [_] -> res
+    | pfs_list::pfs_lists' ->
+      let parts = List.map pfs_list ~f:(fun (Paramfix(vn, tn, c)) ->
+        let related =
+          List.filter (List.concat pfs_lists') ~f:(fun (Paramfix(_, tn', _)) -> tn = tn')
+        in
+        let equals = List.filter related ~f:(fun (Paramfix(_, _, c')) -> c = c') in
+        if List.is_empty equals then
+          String.concat ~sep:"/\\" (List.map related ~f:(fun (Paramfix(vn', _, _)) ->
+            sprintf "%s<>%s" vn vn'
+          ))
+        else begin
+          String.concat ~sep:"/\\" (List.map equals ~f:(fun (Paramfix(vn', _, _)) ->
+            sprintf "%s=%s" vn vn'
+          ))
+        end
+      ) in
+      let r = String.concat ~sep:"/\\" (List.filter parts ~f:(fun s -> not (s = ""))) in
+      wrapper pfs_lists' (res@[r])
+  in
+  let res =
+    List.filter (wrapper pfs_lists []) ~f:(fun s -> not (s = ""))
+    |> String.concat ~sep:"/\\"
+  in
+  if res = "" then "True" else res
+  
 let get_pf_name_list pfs =
   String.concat ~sep:" " (List.map pfs ~f:(fun pf ->
     let Paramfix(vn, _, _) = pf in vn
   ))
 
-let analyze_rels_in_pfs ?(quant="") t name pfs =
+(*let analyze_rels_in_pfs ?(quant="") t name pfs =
   let pfs_str_of_a_type pfs =
     let part1 = List.map pfs ~f:(fun pf ->
       let Paramfix(vn, _, _) = pf in sprintf "%s\\<le>N" vn
@@ -70,12 +103,39 @@ let analyze_rels_in_pfs ?(quant="") t name pfs =
     sprintf "%s=%s %s %s" t name quant (get_pf_name_list pfs)
   else
     sprintf "%s\\<and>%s=%s %s %s" param_str_part t name quant (get_pf_name_list pfs)
+    
+for such things in Rules and invariants def in Isabelle
+p__Inv3\<le>N\<and>p__Inv4\<le>N\<and>p__Inv3~=p__Inv4\<and>f=inv__1  p__Inv3 p__Inv4*
+--->p__Inv0 <= n -> p__Inv1 <= n -> p__Inv0 <> p__Inv1 -> 
+                         invariants n (inv__1 p__Inv0 p__Inv1)*)
 
+let analyze_rels_in_pfs ?(quant="") t name pfs =
+  let pfs_str_of_a_type pfs =
+    let part1 = List.map pfs ~f:(fun pf ->
+      let Paramfix(vn, _, _) = pf in sprintf "%s<=n_" vn
+    ) in
+    let pairs = combination pfs 2 in
+    let part2 = List.map pairs ~f:(fun [pf1; pf2] ->
+      let Paramfix(vn1, _, _), Paramfix(vn2, _, _) = pf1, pf2 in sprintf "%s~=%s" vn1 vn2
+    ) in
+    String.concat ~sep:"->" (part1@part2)
+  in
+  let param_str_part =
+    partition pfs ~f:(fun (Paramfix(_, tn, _)) -> tn)
+    |> List.map ~f:pfs_str_of_a_type
+    |> String.concat ~sep:"->"
+  in
+  if List.is_empty pfs then
+    sprintf "%s=%s %s %s" t name quant (get_pf_name_list pfs)
+  else
+    sprintf "%s->%s=%s %s %s" param_str_part t name quant (get_pf_name_list pfs)
+(*get __Inv0 p__Inv1,*)
 let get_pd_name_list pds =
   String.concat ~sep:" " (List.map pds ~f:(fun pd ->
-    let Paramdef(vn, _) = pd in vn
+    let Paramdef(vn, _) = pd in vn 
   ))
 
+(* 
 let analyze_rels_in_pds ?(quant="") t name pds =
   let pds_str_of_a_type pds =
     let part1 = List.map pds ~f:(fun pd ->
@@ -96,6 +156,73 @@ let analyze_rels_in_pds ?(quant="") t name pds =
     sprintf "%s=%s %s %s" t name quant (get_pd_name_list pds)
   else
     sprintf "%s\\<and>%s=%s %s %s" param_str_part t name quant (get_pd_name_list pds)
+    
+f = inv__1 p__Inv3 p__Inv4                        
+*)
+  
+let analyze_rels_in_pds ?(quant="") t name pds =
+  let pds_str_of_a_type pds =
+    let part1 = List.map pds ~f:(fun pd ->
+      let Paramdef(vn, _) = pd in sprintf "%s<=n" vn
+    ) in
+    let pairs = combination pds 2 in
+    let part2 = List.map pairs ~f:(fun [pd1; pd2] ->
+      let Paramdef(vn1, _), Paramdef(vn2, _) = pd1, pd2 in sprintf "%s<>%s" vn1 vn2
+    ) in
+    String.concat ~sep:"->" (part1@part2)
+  in
+  let param_str_part =
+    partition pds ~f:(fun (Paramdef(_, tn)) -> tn)
+    |> List.map ~f:pds_str_of_a_type
+    |> String.concat ~sep:"->"
+  in
+  if List.is_empty pds then
+    sprintf "%s-> %s %s %s" t name quant (get_pd_name_list pds)
+  else
+    sprintf "%s-> %s (%s %s %s)" param_str_part t name quant (get_pd_name_list pds)
+
+let analyze_rels_in_pds_for_rule ?(quant="") t name pds =
+  let pds_str_of_a_type pds =
+    let part1 = List.map pds ~f:(fun pd ->
+      let Paramdef(vn, _) = pd in sprintf "%s<=n" vn
+    ) in
+    let pairs = combination pds 2 in
+    let part2 = List.map pairs ~f:(fun [pd1; pd2] ->
+      let Paramdef(vn1, _), Paramdef(vn2, _) = pd1, pd2 in sprintf "%s<>%s" vn1 vn2
+    ) in
+    String.concat ~sep:"->" (part1@part2)
+  in
+  let param_str_part =
+    partition pds ~f:(fun (Paramdef(_, tn)) -> tn)
+    |> List.map ~f:pds_str_of_a_type
+    |> String.concat ~sep:"->"
+  in
+  if List.is_empty pds then
+    sprintf "%s->rules n %s %s %s" t name quant (get_pd_name_list pds)
+  else
+    sprintf "%s-> rules n %s (%s %s %s)" param_str_part t name quant (get_pd_name_list pds)
+    
+let analyze_rels_in_pds_for_invariant ?(quant="") t name pds =
+  let pds_str_of_a_type pds =
+    let part1 = List.map pds ~f:(fun pd ->
+      let Paramdef(vn, _) = pd in sprintf "%s<=n" vn
+    ) in
+    let pairs = combination pds 2 in
+    let part2 = List.map pairs ~f:(fun [pd1; pd2] ->
+      let Paramdef(vn1, _), Paramdef(vn2, _) = pd1, pd2 in sprintf "%s<>%s" vn1 vn2
+    ) in
+    String.concat ~sep:"->" (part1@part2)
+  in
+  let param_str_part =
+    partition pds ~f:(fun (Paramdef(_, tn)) -> tn)
+    |> List.map ~f:pds_str_of_a_type
+    |> String.concat ~sep:"->"
+  in
+  if List.is_empty pds then
+    sprintf "%s-> invariants n %s %s %s" t name quant (get_pd_name_list pds)
+  else
+    sprintf "%s-> invariants n %s (%s %s %s)" param_str_part t name quant (get_pd_name_list pds)    
+(*
 
 let pds_param_constraints ?(quant="") t name pds =
   if List.is_empty pds then
@@ -103,11 +230,43 @@ let pds_param_constraints ?(quant="") t name pds =
   else 
     sprintf "(\\<exists> %s. %s)" (get_pd_name_list pds) (analyze_rels_in_pds ~quant t name pds)
 
+
+\<exists> j. j\<le>N\<and>r=n_SendReqS  j-->
+ RSendReqS : forall j, j <= n -> rules n (n_SendReqS j)  
+*) 
+let pds_param_constraints ?(quant="") t name pds =
+  if List.is_empty pds then
+    sprintf "%s" (analyze_rels_in_pds ~quant t name pds)
+  else 
+    sprintf "%s: forall %s,  %s" name (get_pd_name_list pds) (analyze_rels_in_pds ~quant t name pds)
+    
+let pds_param_constraints_for_rule ?(quant="") t name pds =
+  if List.is_empty pds then
+    sprintf "%s" (analyze_rels_in_pds ~quant t name pds)
+  else 
+    sprintf "%s: forall %s,  %s" name (get_pd_name_list pds) (analyze_rels_in_pds_for_rule ~quant t name pds)    
+
+(*
 let pfs_param_constraints ?(quant="") t name pfs =
   if List.is_empty pfs then
     sprintf "(%s)" (analyze_rels_in_pfs ~quant t name pfs)
   else 
     sprintf "(\\<exists> %s. %s)" (get_pf_name_list pfs) (analyze_rels_in_pfs ~quant t name pfs)
+
+|  
+*)
+(*Q1: pfs_param_constraints pds_param_constraints used in difference places?*)
+let pfs_param_constraints ?(quant="") t name pfs =
+  if List.is_empty pfs then
+    sprintf "%s: %s" name (analyze_rels_in_pfs ~quant t name pfs)
+  else 
+    sprintf "%s: forall %s,  %s" name (get_pf_name_list pfs) (analyze_rels_in_pfs ~quant t name pfs)
+
+let pfs_param_constraints_in_lemma ?(quant="") t name pfs =
+  if List.is_empty pfs then
+    sprintf "%s" (analyze_rels_in_pfs ~quant t name pfs)
+  else 
+    sprintf "exists %s,  %s"  (get_pf_name_list pfs) (analyze_rels_in_pfs ~quant t name pfs)
 
 let gen_tmp_vars n =
   let nums = up_to n in
@@ -116,6 +275,7 @@ let gen_tmp_vars n =
 
 let quant_in_rule = ref false
 
+(*definition I::"scalrValueType" where [simp]: "I\<equiv> enum ''control\" \"I\""
 let const_act c =
   match c with
   | Boolc(b) ->
@@ -123,7 +283,7 @@ let const_act c =
       b b (if b then "True" else "False")
     )
   | Strc(s) ->
-    Some (sprintf "definition %s::\"scalrValueType\" where [simp]: \"%s\\<equiv> enum ''control'' ''%s''\""
+    Some (sprintf "definition %s::\"scalrValueType\" where [simp]: \"%s\\<equiv> enum \"control\" \"%s\"\""
       s s s
     )
   | Intc(i) -> None
@@ -138,8 +298,38 @@ let type_act (Enum(name, consts)) =
   let const_strs = List.filter_map consts ~f:const_act in
   match const_strs with
   | [] -> None
-  | _ -> Some (String.concat ~sep:"\n" const_strs)
+  | _ -> Some (String.concat ~sep:"\n" const_strs)*)
+  
+ (*Definition I : scalrValue := Enum "control" "I".
+ Definition TRUE : scalrValue := BoolV true.*)
+ 
+ let const_act c =
+  match c with
+  | Boolc(b) ->
+    Some((begin if b then "TRUE" else "FALSE" end,
+        begin sprintf "Definition %s:scalrValue :=  BoolV %s."
+        (if b then "TRUE" else "FALSE")  (if b then "true" else "false")
+        end))
+  | Strc(s) ->
+    Some((s, (sprintf "Definition %s:scalrValue := Enum \"control\" \"%s\".\n"
+      s  s))
+    )
+  | Intc(i) -> None
+  
+let const_to_str c =
+  match c with
+  | Boolc(b) -> sprintf "%s" (if b then "TRUE" else "FALSE")
+  | Strc(s) -> s
+  | Intc(i) -> sprintf "%d" i
 
+let type_act (Enum(name, consts)) =
+  let const_strs = List.filter_map consts ~f:const_act in
+  match const_strs with
+  | [] -> None
+  | _ -> Some (String.concat ~sep:" " (List.map ~f:fst const_strs),
+  (String.concat ~sep:"\n" (List.map ~f:snd const_strs)))
+
+  (* ((Field (Para (Ident "Chan3") i) "Cmd"))*)
 let var_act (Arr(name_with_prs)) =
   let cast_to_string init prs =
     List.fold prs ~init ~f:(fun res x -> sprintf "(Para %s %s)" res (name_of_param x))
@@ -147,10 +337,10 @@ let var_act (Arr(name_with_prs)) =
   match name_with_prs with
   | [] -> raise Empty_exception
   | (name, prs)::name_with_prs' ->
-    let ident = sprintf "(Ident ''%s'')" name in
+    let ident = sprintf "(Ident \"%s\")" name in
     let init = cast_to_string ident prs in
     List.fold name_with_prs' ~init ~f:(fun res (name, prs) ->
-      cast_to_string (sprintf "(Field %s ''%s'')" res name) prs
+      cast_to_string (sprintf "(Field %s \"%s\")" res name) prs
     )
 
 let paramref_to_index pr =
@@ -162,7 +352,7 @@ let paramref_to_index pr =
     | _ -> raise (Unsupported("Non-integer indexes are not supported yet"))
   )
 
-let rec exp_act e =
+(*let rec exp_act e =
   match e with
   | Const(c) -> sprintf "(Const %s)" (const_to_str c)
   | Var(v) -> sprintf "(IVar %s)" (var_act v)
@@ -173,7 +363,7 @@ let rec exp_act e =
     let els = List.fold el ~init:"[]" ~f:(fun res x ->
       sprintf "%s#%s" (exp_act x) res
     ) in
-    sprintf "(UIF ''%s'' (%s))" n els
+    sprintf "(UIF \"%s\" (%s))" n els
 and formula_act f =
   match f with
   | Chaos -> "chaos"
@@ -182,7 +372,7 @@ and formula_act f =
     let els = List.fold el ~init:"[]" ~f:(fun res x ->
       sprintf "%s#%s" (exp_act x) res
     ) in
-    sprintf "(UIP ''%s'' (%s))" n els
+    sprintf "(UIP \"%s\" (%s))" n els
   | Eqn(e1, e2) -> sprintf "(eqn %s %s)" (exp_act e1) (exp_act e2)
   | Neg(g) -> sprintf "(neg %s)" (formula_act g)
   | AndList(fl) -> (
@@ -222,8 +412,84 @@ and formula_act f =
         sprintf "(existsForm (down N) (\\<lambda>%s. %s))" name form_str
       | _ -> raise (Unsupported "More than 1 paramters in exists are not supported yet")
     end
+*)
 
-let statement_act statement =
+let rec exp_act e =
+  match e with
+	(*EConst I*)
+  | Const(c) -> sprintf "(EConst %s)" (const_to_str c)
+	(*(EVar (Field (Para (Ident "Cache") j)*)
+  | Var(v) -> sprintf "(EVar %s)" (var_act v)
+	(*(EConst (Index d))*)
+  | Param(pr) -> sprintf "(EConst (Index %s))" (paramref_to_index pr)
+  
+	(*(EIte (FEqn (EVar (Field (Para (Ident "Cache") i) "State")) 
+                            (EConst E)) 
+                      (EVar (Field (Para (Ident "Cache") i) "Data")) 
+                      (EVar (Field (Para (Ident "Chan3") i) "Data")))*)
+  | Ite(f, e1, e2) -> sprintf "(EIte %s %s %s)"
+    (formula_act f) (exp_act e1) (exp_act e2)
+	
+	
+  | UIF(n, el) ->
+    let els = List.fold el ~init:"[]" ~f:(fun res x ->
+      sprintf "%s#%s" (exp_act x) res
+    ) in
+    sprintf "(UIF \"%s\" (%s))" n els
+	
+and formula_act f =
+  match f with
+  | Chaos -> "FTrue"
+  | Miracle -> "FFalse"
+  | UIP(n, el) ->
+    let els = List.fold el ~init:"[]" ~f:(fun res x ->
+      sprintf "%s#%s" (exp_act x) res
+    ) in
+    sprintf "(UIP \"%s\" (%s))" n els
+	
+  | Eqn(e1, e2) -> sprintf "(FEqn %s %s)" (exp_act e1) (exp_act e2)
+  
+  | Neg(g) -> sprintf "(FNeg %s)" (formula_act g)
+  
+  | AndList(fl) -> (
+    match fl with
+    | [] -> formula_act chaos
+    | [g] -> formula_act g
+    | f1::f2::fl' -> 
+      let init = sprintf "(FAnd %s %s)" (formula_act f1) (formula_act f2) in
+      List.fold fl' ~init ~f:(fun res x -> sprintf "(FAnd %s %s)" res (formula_act x))
+  )
+  | OrList(fl) -> (
+    match fl with
+    | [] -> formula_act miracle
+    | [g] -> formula_act g
+    | f1::f2::fl' -> 
+      let init = sprintf "(FOr %s %s)" (formula_act f1) (formula_act f2) in
+      List.fold fl' ~init ~f:(fun res x -> sprintf "(orForm %s %s)" res (formula_act x))
+  )
+  | Imply(f1, f2) -> sprintf "(FImply %s %s)" (formula_act f1) (formula_act f2)
+  | ForallFormula(paramdefs, form) ->
+    begin
+      quant_in_rule := true;
+      match paramdefs with
+      | [] -> raise Empty_exception
+      | [Paramdef(name, tname)] ->
+        let form_str = formula_act form in
+        sprintf "(inst_forall_form (down n) (fun %s-> %s))" name form_str
+      | _ -> raise (Unsupported "More than 1 paramters in forall are not supported yet")
+    end
+  | ExistFormula(paramdefs, form) ->
+    begin
+      quant_in_rule := true;
+      match paramdefs with
+      | [] -> raise Empty_exception
+      | [Paramdef(name, tname)] ->
+        let form_str = formula_act form in
+        sprintf "(inst_exists_form (down n) (fun %s-> %s))" name form_str
+      | _ -> raise (Unsupported "More than 1 paramters in exists are not supported yet")
+    end
+
+(*let statement_act statement =
   let Parallel(ite_formed) = eliminate_ifelse statement in
   let rec trans bs =
     match bs with
@@ -242,8 +508,50 @@ let statement_act statement =
     | _ -> raise Empty_exception
   in
   sprintf "(parallelList [%s])" (String.concat ~sep:", " (List.map ite_formed ~f:trans))
+  ----
+   act := [ (Ident "CurCmd", EVar (Field (Para (Ident "Chan1") i) "Cmd"));
+            (Field (Para (Ident "Chan1") i) "Cmd", EConst Empty);
+            (Ident "CurPtr", EConst (Index i))
+          ] ++ 
+          (inst_forall_stmt (down n) (fun j => 
+               [ (Para (Ident "InvSet") j, EVar (Para (Ident "ShrSet") j)) ]));  
+*)
+let statement_act statement =
+  let Parallel(ite_formed) = eliminate_ifelse statement in
+  let rec trans bs =
+    match bs with
+    | Assign(v, e) -> sprintf " (%s, %s)" (var_act v) (exp_act e)
+    | ForStatement(s, pd) ->
+      begin
+        quant_in_rule := true;
+        match pd with
+        | [] -> raise Empty_exception
+        | [Paramdef(name, tname)] ->
+          let type_range = name2type ~tname ~types:(!types_ref) in
+          let s_str = trans s in
+          sprintf "(forallSent (down N) (fun %s=> %s))" name s_str
+        | _ -> raise (Unsupported "More than 1 paramters in for statement are not supported yet")
+      end
+    | _ -> raise Empty_exception
+  in
+  sprintf "([%s])" (String.concat ~sep:";" (List.map ite_formed ~f:trans))  
 
 let rule_quant_table = Hashtbl.create ~hashable:String.hashable ()
+
+(*definition n_SendReqS::"nat \<Rightarrow> rule" where [simp]:
+"n_SendReqS  j\<equiv>
+let g = (andForm (eqn (IVar (Field (Para (Ident \"Cache\") j) \"State\")) (Const I)) (eqn (IVar (Field (Para (Ident \"Chan1\") j) \"Cmd\")) (Const Empty))) in
+let s = (parallelList [(assign ((Field (Para (Ident \"Chan1\") j) \"Cmd\"), (Const ReqS)))]) in
+guard g s"
+
+Definition n_SendReqS (j : nat) : rule :=
+{| pre := (FAnd (FEqn (EVar (Field (Para (Ident "Cache") j) "State"))
+                      (EConst I))
+                (FEqn (EVar (Field (Para (Ident "Cache") j) "Cmd"))
+                      (EConst ReqS)));
+   act := [ ((Field (Para (Ident "Chan1") j) "Cmd"), (EConst ReqS)) ];
+
+|}.
 
 let rule_act r =
   quant_in_rule := false;
@@ -263,13 +571,84 @@ let rule_act r =
   sprintf "definition %s::\"%s%s\" where [simp]:
 \"%s %s %s\\<equiv>\nlet g = %s in\nlet s = %s in\nguard g s\""
     name quant_type rule_type name quant pd_names guard statements)
+*)
 
+let rule_act r =
+  quant_in_rule := false;
+  let Rule(name, pds, f, s) = r in
+  let pd_count_t = (List.map pds ~f:(fun (Paramdef(n, _)) -> sprintf "(%s:nat) " n))   in
+  let pd_str = String.concat ~sep:", "  pd_count_t in
+  let rule_type =
+    if pd_str = "" then ":rule" else sprintf "%s : rule" pd_str
+  in
+  let guard = formula_act f in
+  let statements = statement_act s in  (*?*)
+  let quant = if (!quant_in_rule) then "N" else "" in
+  let quant_type = if (!quant_in_rule) then "nat -> " else "" in
+  Hashtbl.replace rule_quant_table ~key:name ~data:quant;
+  ((name, "|R"^(pds_param_constraints_for_rule ~quant "" name pds)),
+  sprintf "Definition %s %s %s := {| pre := %s ;\n act := %s |}."
+    name quant_type rule_type  guard statements)
+	
+(*
+definition rules::"nat \<Rightarrow> rule set" where [simp]:
+"rules N \<equiv> {r.
+(\<exists> j. j\<le>N\<and>r=n_SendReqS  j) \<or>
+(\<exists> i. i\<le>N\<and>r=n_SendReqEI  i) \<or>
+(\<exists> i. i\<le>N\<and>r=n_SendReqES  i) \<or>
+(\<exists> i. i\<le>N\<and>r=n_RecvReq N i) \<or>
+(\<exists> i. i\<le>N\<and>r=n_SendInvE  i) \<or>
+(\<exists> i. i\<le>N\<and>r=n_SendInvS  i) \<or>
+(\<exists> i. i\<le>N\<and>r=n_SendInvAck  i) \<or>
+(\<exists> i. i\<le>N\<and>r=n_RecvInvAck  i) \<or>
+(\<exists> i. i\<le>N\<and>r=n_SendGntS  i) \<or>
+(\<exists> i. i\<le>N\<and>r=n_SendGntE N i) \<or>
+(\<exists> i. i\<le>N\<and>r=n_RecvGntS  i) \<or>
+(\<exists> i. i\<le>N\<and>r=n_RecvGntE  i) \<or>
+(\<exists> i d. i\<le>N\<and>d\<le>N\<and>r=n_Store  i d)
+}"
+
+Hint Unfold n_SendReqS n_SendReqEI n_SendReqES n_RecvReq.
+Hint Unfold n_SendInvE n_SendInvS n_SendInvAck n_RecvInvAck.
+Hint Unfold n_SendGntS n_SendGntE n_RecvGntS n_RecvGntE n_Store.
+
+
+Inductive rules (n : nat) : rule -> Prop :=
+| RSendReqS : forall j, j <= n -> rules n (n_SendReqS j)
+| RSendReqEI : forall i, i <= n -> rules n (n_SendReqEI i)
+| RSendReqES : forall i, i <= n -> rules n (n_SendReqES i)
+| RRecvReq : forall i, i <= n -> rules n (n_RecvReq n i)
+| RSendInvE : forall i, i <= n -> rules n (n_SendInvE i)
+| RSendInvS : forall i, i <= n -> rules n (n_SendInvS i)
+| RSendInvAck : forall i, i <= n -> rules n (n_SendInvAck i)
+| RRecvInvAck : forall i, i <= n -> rules n (n_RecvInvAck i)
+| RSendGntS : forall i, i <= n -> rules n (n_SendGntS i)
+| RSendGntE : forall i, i <= n -> rules n (n_SendGntE n i)
+| RRecvGntS : forall i, i <= n -> rules n (n_RecvGntS i)
+| RRecvGntE : forall i, i <= n -> rules n (n_RecvGntE i)
+| RStore : forall i d, i <= n -> d <= n -> rules n (n_Store i d)
+.
+Hint Constructors rules.
+ 
 let rules_act rs =
   let rule_inst_strs, rules_strs = List.unzip (List.map rs ~f:rule_act) in
   let rstrs = String.concat ~sep:"\n\n" rules_strs in
   let r_insts_str = String.concat ~sep:" \\<or>\n" rule_inst_strs in
   sprintf "%s\n\nsubsection{*The set of All actual Rules w.r.t. a Protocol Instance with Size $N$*}\ndefinition rules::\"nat \\<Rightarrow> rule set\" where [simp]:
 \"rules N \\<equiv> {r.\n%s\n}\"" rstrs r_insts_str
+
+*)
+
+let rules_act rs =
+  
+  let pairs, rules_strs =  (List.unzip (List.map rs ~f:rule_act)) in
+  
+  let rule_names,rule_inst_strs =List.unzip pairs in
+  let ruleNames = String.concat ~sep:" " rule_names in
+  let rstrs = String.concat ~sep:"\n\n" rules_strs in
+  let r_insts_str = String.concat ~sep:" \n" rule_inst_strs in
+  sprintf "%s\n\n  Hint Unfold %s.\n\n Inductive rules (n:nat):rule -> Prop:=\n 
+  %s\n. \nHint Constructors rules."  rstrs ruleNames r_insts_str
 
 let rec paramecium_exp_to_loach e =
   match e with
@@ -287,6 +666,13 @@ and paramecium_form_to_loach form =
   | Paramecium.AndList(fl) -> andList (List.map fl ~f:paramecium_form_to_loach)
   | Paramecium.OrList(fl) -> orList (List.map fl ~f:paramecium_form_to_loach)
   | Paramecium.Imply(f1, f2) -> imply (paramecium_form_to_loach f1) (paramecium_form_to_loach f2)
+
+(*subsection{*Definitions of a Formally Parameterized Invariant Formulas*}
+
+definition inv__1::"nat \<Rightarrow> nat \<Rightarrow> formula" where [simp]:
+"inv__1 p__Inv3 p__Inv4 \<equiv>
+(neg (andForm (eqn (IVar (Para (Ident \"n\") p__Inv4)) (Const C)) (eqn (IVar (Para (Ident \"n\") p__Inv3)) (Const C))))"
+
 
 let inv_act cinv =
   let InvFinder.ConcreteProp(Paramecium.Prop(name, pds, gened_inv), pfs) = cinv in
@@ -313,6 +699,58 @@ let inv_act cinv =
   name, List.length pds', sprintf "definition %s::\"%s\" where [simp]:
 \"%s %s \\<equiv>\n%s\"" name inv_type name pd_names (formula_act (neg gened_inv''))
 
+Definition inv__1 (p__Inv0 p__Inv1: nat) : formula :=
+  (FNeg (FAnd (FEqn (EVar (Field (Para (Ident "Cache") p__Inv1) "State")) 
+                    (EConst E)) 
+              (FEqn (EVar (Field (Para (Ident "Cache") p__Inv0) "State")) 
+                    (EConst E)))).
+1.name: inv__1;
+2.(p__Inv0 p__Inv1: nat);
+3.body 
+*)
+let inv_act cinv =
+  let InvFinder.ConcreteProp(Paramecium.Prop(name, pds, gened_inv), pfs) = cinv in
+  let gened_inv' = paramecium_form_to_loach gened_inv in
+  let has_not_sym = List.exists pfs ~f:(fun (Paramfix(_, _, c)) -> c = intc 0) in
+  let pds' =
+    if has_not_sym then
+      let Paramfix(name, _, _) = List.find_exn pfs ~f:(fun (Paramfix(_, _, c)) -> c = intc 0) in
+      List.filter pds ~f:(fun (Paramdef(n, _)) -> not (n = name))
+    else begin pds end
+  in
+  let gened_inv'' =
+    if has_not_sym then
+      let not_sym_pf = List.find_exn pfs ~f:(fun (Paramfix(_, _, c)) -> c = intc 0) in
+      apply_form gened_inv' ~p:[not_sym_pf]
+    else begin gened_inv' end
+  in
+  let pd_count_t = List.map pds' ~f:(fun _ -> " ") in
+  let pd_str = String.concat ~sep:"  " pd_count_t in
+  let inv_type =
+    if pd_str = "" then ":formula" else sprintf "(%s :nat):formula" pd_str
+  in
+  let pd_names = String.concat ~sep:" " (List.map pds' ~f:(fun (Paramdef(n, _)) -> n)) in
+  name, List.length pds', sprintf "Definition %s (%s : nat):=\n%s.\n" name pd_names  (formula_act (neg gened_inv''))
+
+(*Inductive invariants (n: nat) : formula -> Prop :=
+| IInv1 : forall p__Inv0 p__Inv1, p__Inv0 <= n -> p__Inv1 <= n -> p__Inv0 <> p__Inv1 -> 
+                         invariants n (inv__1 p__Inv0 p__Inv1)
+| IInv2 : forall p__Inv1, p__Inv1 <= n -> invariants n (inv__2 p__Inv1)
+| IInv3: invariants n inv__3
+| IInv4 : forall p__Inv0 p__Inv1, p__Inv0 <= n -> p__Inv1 <= n -> p__Inv0 <> p__Inv1 -> 
+                         invariants n (inv__4 p__Inv0 p__Inv1)
+| IInv5 : forall p__Inv1, p__Inv1 <= n -> invariants n (inv__5 p__Inv1)
+| IInv6 : forall p__Inv1, p__Inv1 <= n -> invariants n (inv__6 p__Inv1)
+| IInv7 : forall p__Inv0 p__Inv1, p__Inv0 <= n -> p__Inv1 <= n -> p__Inv0 <> p__Inv1 -> 
+                         invariants n (inv__7 p__Inv0 p__Inv1)
+definition invariants::"nat \<Rightarrow> formula set" where [simp]:
+"invariants N \<equiv> {f.
+(\<exists> p__Inv3 p__Inv4. p__Inv3\<le>N\<and>p__Inv4\<le>N\<and>p__Inv3~=p__Inv4\<and>f=inv__1  p__Inv3 p__Inv4) \<or>
+(\<exists> p__Inv4. p__Inv4\<le>N\<and>f=inv__2  p__Inv4) \<or>
+(\<exists> p__Inv3 p__Inv4. p__Inv3\<le>N\<and>p__Inv4\<le>N\<and>p__Inv3~=p__Inv4\<and>f=inv__3  p__Inv3 p__Inv4) \<or>
+(\<exists> p__Inv4. p__Inv4\<le>N\<and>f=inv__4  p__Inv4) \<or>
+(\<exists> p__Inv3 p__Inv4. p__Inv3\<le>N\<and>p__Inv4\<le>N\<and>p__Inv3~=p__Inv4\<and>f=inv__5  p__Inv3 p__Inv4)
+}"
 let invs_act cinvs =
   let invs_with_pd_count = List.map cinvs ~f:inv_act in
   let inv_strs = String.concat ~sep:"\n\n" (List.map invs_with_pd_count ~f:(fun (_, _, s) -> s)) in
@@ -327,28 +765,42 @@ let invs_act cinvs =
   sprintf "%s\n\nsubsection{*Definitions of  the Set of Invariant Formula Instances in a $N$-protocol Instance*}\ndefinition invariants::\"nat \\<Rightarrow> formula set\" where [simp]:
 \"invariants N \\<equiv> {f.\n%s\n}\"" inv_strs inv_insts_str
 
+1. names
+2.each definitions                         
+*) 
 
-
-
-
-
-
+let invs_act cinvs =
+  let invs_with_pd_count = List.map cinvs ~f:inv_act in
+  let inv_strs = String.concat ~sep:"\n\n" (List.map invs_with_pd_count ~f:(fun (_, _, s) -> s)) in
+  let inv_insts_str = String.concat ~sep:" \n" (
+    List.map cinvs ~f:(fun (ConcreteProp(Prop(name, pds, _), _)) ->
+      if List.is_empty pds then
+        sprintf "|I%s : %s" name (analyze_rels_in_pds_for_invariant "" name pds)
+      else
+        sprintf "|I%s: forall %s, %s" name (get_pd_name_list pds) (analyze_rels_in_pds_for_invariant " " name pds)
+    )
+  ) in
+  let names=String.concat ~sep:" " (List.map ~f:(fun (n,_,_) ->n) invs_with_pd_count) in
+  sprintf "%s\n\n(*Definitions of  the Set of Invariant Formula Instances in a  protocol Instance*)
+  Inductive invariants (n: nat) : formula -> Prop :=\n%s.\n
+  Hint Unfold %s.
+  Hint Constructors invariants." inv_strs  inv_insts_str names
 
 
 let init_act statement i =
   let quant, body =
     match statement with
-    | Assign(v, e) -> "", sprintf "(eqn %s %s)" (exp_act (var v)) (exp_act e)
+    | Assign(v, e) -> "", sprintf "(FEqn %s %s)" (exp_act (var v)) (exp_act e)
     | IfelseStatement(f, Assign(v, e1), Assign(_, e2)) ->
-      "", sprintf "(eqn %s (iteForm %s %s %s))" (exp_act (var v)) (formula_act f) (exp_act e1) (exp_act e2)
+      "", sprintf "(FEqn %s (EIteForm %s %s %s))" (exp_act (var v)) (formula_act f) (exp_act e1) (exp_act e2)
     | ForStatement(Assign(v, e), pd) ->
       begin
         match pd with
         | [] -> raise Empty_exception
         | [Paramdef(name, tname)] ->
           let type_range = name2type ~tname ~types:(!types_ref) in
-          let s_str = sprintf "(eqn %s %s)" (exp_act (var v)) (exp_act e) in
-          "N", sprintf "(forallForm (down N) (%% %s . %s))" name s_str
+          let s_str = sprintf "(FEqn %s %s)" (exp_act (var v)) (exp_act e) in
+          "n", sprintf "(inst_forall_form (down n) (fun  %s => %s))" name s_str
         | _ -> raise (Unsupported "More than 1 paramters in exists are not supported yet")
       end
     | ForStatement(IfelseStatement(f, Assign(v, e1), Assign(_, e2)), pd) ->
@@ -357,18 +809,17 @@ let init_act statement i =
         | [] -> raise Empty_exception
         | [Paramdef(name, tname)] ->
           let type_range = name2type ~tname ~types:(!types_ref) in
-          let s_str = sprintf "(eqn %s (iteForm %s %s %s))"
+          let s_str = sprintf "(FEqn %s (FIteForm %s %s %s))"
             (exp_act (var v)) (formula_act f) (exp_act e1) (exp_act e2) in
-          "N", sprintf "(forallForm (down N) (%% %s . %s))" name s_str
+          "n", sprintf "(forallForm (down N) ( %s . %s))" name s_str
         | _ -> raise (Unsupported "More than 1 paramters in exists are not supported yet")
       end
     | _ -> raise Empty_exception
   in
-  let init_type_str = if quant = "" then "formula" else begin "nat \\<Rightarrow> formula" end in
-  quant, sprintf "definition initSpec%d::\"%s\" where [simp]:
-\"initSpec%d %s \\<equiv> %s\"" i init_type_str i quant body
+  let init_type_str = if quant = "" then ":formula" else begin sprintf "(%s:nat) : formula" quant end in
+  quant, (sprintf "Definition initSpec%d %s :=\n%s.\n"  i init_type_str  body)
 
-let inits_act statements =
+(*let inits_act statements =
   let balanced = balance_ifstatement statements in
   let init_no = up_to (List.length balanced) in
   let init_strs_with_quant = List.map2_exn balanced init_no ~f:init_act in
@@ -378,15 +829,29 @@ let inits_act statements =
       sprintf "(initSpec%d %s)" i q
     )
   ) in
-  sprintf "%s\n\ndefinition allInitSpecs::\"nat \\<Rightarrow> formula list\" where [simp]:
+  sprintf "%s\n\nDefinition allInitSpecs::\"nat \\<Rightarrow> formula list\" where [simp]:
 \"allInitSpecs N \\<equiv> [\n%s\n]\"" init_strs init_insts_str
-
-
-
-
-
-
-
+*)
+let inits_act statements =
+  let balanced = balance_ifstatement statements in
+  let init_no = up_to (List.length balanced) in
+  let init_strs_with_quant = List.map2_exn balanced init_no ~f:init_act in
+  let init_strs = String.concat ~sep:"\n\n" (List.map init_strs_with_quant ~f:(fun (_, s) -> s)) in
+  let init_insts_str = String.concat ~sep:";\n" (
+    List.map2_exn init_no (List.map init_strs_with_quant ~f:(fun (q, _) -> q)) ~f:(fun i q ->
+      sprintf "(initSpec%d %s)" i q
+    )
+  ) in
+  let allInitNames=String.concat ~sep:" " (
+    List.map2_exn init_no (List.map init_strs_with_quant ~f:(fun (q, _) -> q)) ~f:(fun i q ->
+       sprintf "initSpec%d  " i 
+    )
+  ) in
+  sprintf "%s\n\nDefinition allInitSpecs (n:nat) : list formula :=\n [\n%s\n].\n Hint Unfold %s allInitSpecs.\n" 
+  init_strs init_insts_str allInitNames
+  
+  
+  
 module ToIsabelle = struct
 
   let const_act c =
@@ -430,29 +895,35 @@ module ToIsabelle = struct
 
 end
 
+(*moreover {
+  assume b1: "(i=p__Inv0)"
+  have "?P1 s"
+  proof(cut_tac a1 a2 b1, auto) qed
+  then have "invHoldForRule s f r (invariants N)" by auto
+} 
+coq
+   apply InvHoldRule1. unfold inv_hold_rule1. crush.
+    *)
 
-
-
-
-
-
-
-
-let gen_case_1 indent cut_tacs =
+(*let gen_case_1 indent cut_tacs =
   let cmd = if cut_tacs = "" then "show" else "have" in
   sprintf
 "  %shave \"?P1 s\"
   %sproof(cut_tac a1 a2 %s, auto) qed
   %sthen %s \"invHoldForRule s f r (invariants N)\" by auto" indent indent cut_tacs indent cmd
+  *)
+  
+ let gen_case_1 indent cut_tacs = 
+  sprintf
+"  %sapply InvHoldRule1. unfold inv_hold_rule1. crush.\n" indent  
+
 
 let gen_case_2 indent cut_tacs =
   let cmd = if cut_tacs = "" then "show" else "have" in
   sprintf
-"  %shave \"?P2 s\"
-  %sproof(cut_tac a1 a2 %s, auto) qed
-  %sthen %s \"invHoldForRule s f r (invariants N)\" by auto" indent indent cut_tacs indent cmd
+"  %sapply InvHoldRule2. unfold inv_hold_rule1. crush.\n" indent 
 
-let gen_case_3 indent cut_tacs (ConcreteProp(Prop(_, _, f), _)) =
+(*let gen_case_3 indent cut_tacs (ConcreteProp(Prop(_, _, f), _)) =
   let cmd = if cut_tacs = "" then "show" else "have" in
   let f = paramecium_form_to_loach f in
   sprintf
@@ -460,7 +931,28 @@ let gen_case_3 indent cut_tacs (ConcreteProp(Prop(_, _, f), _)) =
   %sapply (cut_tac a1 a2 %s, simp, rule_tac x=\"%s\" in exI, auto) done
   %sthen %s \"invHoldForRule s f r (invariants N)\" by auto"
     indent indent cut_tacs (formula_act (neg f)) indent cmd
+    {  
+    apply InvHoldRule3. unfold inv_hold_rule3. 
+    exists (inv__2 p__Inv3). split; eqb_crush. }*)
+    
+(*let gen_case_3 indent cut_tacs (ConcreteProp(Prop(_, _, f), _)) =
+  let cmd = if cut_tacs = "" then "show" else "have" in
+  let f = paramecium_form_to_loach f in
+  sprintf
+"  %shave \"?P3 s\"
+  %sapply (cut_tac a1 a2 %s, simp, rule_tac x=\"%s\" in exI, auto) done
+  %sthen %s \"invHoldForRule s f r (invariants N)\" by auto"*)
 
+let gen_case_3 indent  (ConcreteProp(Prop(_, _, f), _)) =
+  let f = paramecium_form_to_loach f in
+  sprintf
+  "%s{  
+   %s apply InvHoldRule3. unfold inv_hold_rule3. 
+   %s exists %s. split; eqb_crush. }
+  "  indent indent indent (formula_act (neg f)) 
+
+  
+    
 let gen_branch branch case =
   sprintf "  moreover {\n    assume c1: \"%s\"\n%s\n  }" branch case
 
@@ -493,7 +985,7 @@ let gen_inst relations condition has_outer_moreover =
         match relation with
         | InvHoldForRule1 -> gen_case_1 "  " (cut_tacs^" c1")
         | InvHoldForRule2 -> gen_case_2 "  " (cut_tacs^" c1")
-        | InvHoldForRule3(cp) -> gen_case_3 "  " (cut_tacs^" c1") cp
+        | InvHoldForRule3(cp) -> gen_case_3 "  " cp
       in
       branch_str, gen_branch branch_str case_str
     in
@@ -520,19 +1012,20 @@ ultimately show \"invHoldForRule s f r (invariants N)\" by satx"
       match relation with
       | InvHoldForRule1 -> gen_case_1 "" cut_tacs
       | InvHoldForRule2 -> gen_case_2 "" cut_tacs
-      | InvHoldForRule3(cp) -> gen_case_3 "" cut_tacs cp
+      | InvHoldForRule3(cp) -> gen_case_3 ""  cp
     in
     if has_outer_moreover then
       sprintf
-"moreover {
-  assume b1: \"%s\"
+"(*%s*)  
 %s
-}" condition case_str
+" condition case_str
     else begin
       case_str
     end
   end
+  
 
+  
 let analyze_lemma rels pfs_prop has_outer_moreover =
   let pfs =
     match rels with
@@ -544,7 +1037,30 @@ let analyze_lemma rels pfs_prop has_outer_moreover =
   let condition = sprintf "(%s)" (analyze_rels_among_pfs [pfs; pfs_prop]) in
   let moreovers = gen_inst rels condition has_outer_moreover in
   condition, moreovers
+(*Lemma n_SendInvEVsinv__23: forall n r f s invs,
+  (exists i, i <= n /\ r = n_SendInvE i) ->
+  (exists p__Inv1, p__Inv1 <= n /\ f = inv__23 p__Inv1) ->
+  (forall inv, FormSet.In inv invs <-> invariants n inv) ->
+  inv_hold_rule s f r invs.
+Proof.
+  intros n r f s invs.
+  intros [i [Hin Hr]].
+  intros [p__Inv1 [Hp Hf]].
+  intros Hinv.
+  destruct (Nat.eq_dec i p__Inv1).
+   
+    apply InvHoldRule3. unfold inv_hold_rule3. 
+    exists (inv__32 p__Inv1). eqb_crush. 
+   
+    apply InvHoldRule2. unfold inv_hold_rule2.
+    eqb_crush. 
+Qed.*)
 
+let get_pf_name_list' pfs =
+  String.concat ~sep:" [" (List.map pfs ~f:(fun pf ->
+    let Paramfix(vn, _, _) = pf in vn
+  ))
+  
 let gen_lemma relations rules =
   let crule, cinv =
     match relations with
@@ -552,12 +1068,12 @@ let gen_lemma relations rules =
     | _ -> raise Empty_exception
   in
   let ConcreteProp(Prop(pn, _, _), pfs_prop) = cinv in
-  let prop_constraint = pfs_param_constraints "f" pn pfs_prop in
+  let prop_constraint = pfs_param_constraints_in_lemma "f" pn pfs_prop in
   match crule with
   | ConcreteRule(rn, pfs_r) ->
     let rn = get_rname_of_crname rn in
     let rule_constraint =
-      pfs_param_constraints ~quant:(Hashtbl.find_exn rule_quant_table rn) "r" rn pfs_r
+      pfs_param_constraints_in_lemma ~quant:(Hashtbl.find_exn rule_quant_table rn) "r" rn pfs_r
     in
     let outer_moreovers =
       match relations with
@@ -569,32 +1085,37 @@ let gen_lemma relations rules =
         let conditions, moreovers = List.unzip res in
         let conditions = List.filter conditions ~f:(fun s -> not (s = "")) in
         sprintf
-"have \"%s\" apply (cut_tac a1 a2, auto) done
-%s
-ultimately show \"invHoldForRule s f r (invariants N)\" by satx"
-          (String.concat ~sep:"\\<or>" conditions)
-          (String.concat ~sep:"\n" moreovers)
+"eqc_case (%s).
+%s"
+        (String.concat ~sep:"\/" conditions)
+        (String.concat ~sep:"\n" moreovers)
     in
     sprintf
-"lemma %sVs%s:
-assumes a1: \"%s\" and
-a2: \"%s\"
-shows \"invHoldForRule s f r (invariants N)\" (is \"?P1 s \\<or> ?P2 s \\<or> ?P3 s\")
-proof -
+"lemma %sVs%s:forall n r f s invs,
+%s  -> 
+%s  ->
+
+  (forall inv, FormSet.In inv invs <-> invariants n inv) ->
+  inv_hold_rule s f r invs.
+Proof.
+  intros n r f s invs.
 %s%s%s
-qed"
+Qed."
     rn pn
     rule_constraint
     prop_constraint
     (if List.is_empty pfs_r then "" else
-      sprintf "from a1 obtain %s where a1:\"%s\" apply fastforce done\n"
+     if (List.length pfs_r = 1) then sprintf "intros [%s [Hin Hr]].\n"
         (get_pf_name_list pfs_r)
-        (analyze_rels_in_pfs ~quant:(Hashtbl.find_exn rule_quant_table rn) "r" rn pfs_r)
+     else 
+        sprintf "intros  [%s [H3 [H4 [H34 Hf]]]]].\n" (get_pf_name_list' pfs_r)
+        (*analyze_rels_in_pfs ~quant:(Hashtbl.find_exn rule_quant_table rn) "r" rn pfs_r*)
     )
     (if List.is_empty pfs_prop then "" else
-      sprintf "from a2 obtain %s where a2:\"%s\" apply fastforce done\n"
-        (get_pf_name_list pfs_prop)
-        (analyze_rels_in_pfs "f" pn pfs_prop)
+    if (List.length pfs_prop = 1) then sprintf "intros [%s [Gin Gr]].\n"  (get_pf_name_list pfs_prop)
+    else   sprintf "intros  [%s [G3 [G4 [G34 Gf]]]]].\n"
+        (get_pf_name_list' pfs_prop)
+        (*analyze_rels_in_pfs "f" pn pfs_prop*)
     )
     outer_moreovers
   | AllRuleInst(rn) ->
@@ -806,38 +1327,41 @@ qed"
 
 let file_pub name types_str rules_str invs_str inits_str () =
   let pub_str = sprintf
-"(*  Title:      HOL/Auth/%s.thy
-    Author:     Yongjian Li and Kaiqiang Duan, State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
-    Copyright    2016 State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
+"(*  Title:      HOL/Auth/%s.v
+    
 *)
 
-header{*The %s Protocol Case Study*} 
+Require Import Coq.Lists.List.
+Import ListNotations.
 
-theory %s_base imports paraTheory
+Require Import paraTheory.
+
+(*header{*The %s Protocol Case Study*} *)
+(** * All lemmas on causal relation between inv__1 and some rule r *) 
+
+(*theory %s_base imports paraTheory
 begin
-
 section{*Main definitions*}
-
-subsection{* Definitions of Constants*}
+subsection{* Definitions of Constants*}*)
 %s\n
 
 
-subsection{*  Definitions of Parameterized Rules *}
-
-%s\n
-
-
-subsection{*Definitions of a Formally Parameterized Invariant Formulas*}
+(*subsection{*  Definitions of Parameterized Rules *}*)
 
 %s\n
 
 
-subsection{*Definitions of initial states*}
+(*subsection{*Definitions of a Formally Parameterized Invariant Formulas*}*)
+
+%s\n
+
+
+(*subsection{*Definitions of initial states*}*)
 
 %s\n
 end
 " (sprintf "%s_base" name) name name types_str rules_str invs_str inits_str in
-  Out_channel.write_all (sprintf "%s/%s_base.thy" name name) pub_str;;
+  Out_channel.write_all (sprintf "%s/%s_base.v" name name) pub_str;;
 
 let file_inv name relations rules () =
   let rec wrapper relations =
@@ -849,20 +1373,36 @@ let file_inv name relations rules () =
         String.concat ~sep:"\n\n" (List.map rel ~f:(fun rs -> gen_lemma rs rules))
       in
       let lemmas_str = sprintf
-"(*  Title:      HOL/Auth/%s.thy
-    Author:     Yongjian Li and Kaiqiang Duan, State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
-    Copyright    2016 State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
+"(*  Title:      HOL/Auth/%s.v
+     
 *)
 
-header{*The %s Protocol Case Study*} 
+(*header{*The %s Protocol Case Study*} 
 
 theory %s_lemma_on_%s imports %s_base
 begin
-section{*All lemmas on causal relation between %s and some rule r*}
+section{*All lemmas on causal relation between %s and some rule r*}*)
+
+Require Import paraTheory.
+Require Import EqbDec.
+Require Import CpdtTactics.
+Require Import paraTheory. 
+Require Import n_mutualEx_base.
+
+Require Import Coq.Arith.Arith. 
+Require Import Coq.omega.Omega.
+Require Import Coq.Bool.Bool. 
+
+
+Ltac eqc_case P :=
+  let H:= fresh in
+  assert (H: P) by omega;
+  decompose [or and] H.
+  
 %s
 end
 " (sprintf "%s_lemma_on_%s" name inv_name) name name inv_name name inv_name strs in
-      Out_channel.write_all (sprintf "%s/%s_lemma_on_%s.thy" name name inv_name) lemmas_str;
+      Out_channel.write_all (sprintf "%s/%s_lemma_on_%s.v" name name inv_name) lemmas_str;
       wrapper relations'
   in
   wrapper relations;;
@@ -874,7 +1414,7 @@ let file_inv_on_rules name invs rules () =
     | inv::invs' ->
       let Paramecium.Prop(pn, _, _) = inv in
       let lemma_str = sprintf
-"(*  Title:      HOL/Auth/%s.thy
+"(*  Title:      HOL/Auth/%s.v
     Author:     Yongjian Li and Kaiqiang Duan, State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
     Copyright    2016 State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
 *)
@@ -887,7 +1427,7 @@ section{*All lemmas on causal relation between %s*}
 %s
 end
 " (sprintf "%s_lemma_%s_on_rules" name pn) name name pn name pn pn (gen_lemma_inv_on_rules inv rules) in
-      Out_channel.write_all (sprintf "%s/%s_lemma_%s_on_rules.thy" name name pn) lemma_str;
+      Out_channel.write_all (sprintf "%s/%s_lemma_%s_on_rules.v" name name pn) lemma_str;
       wrapper invs'
   in
   wrapper invs;;
@@ -897,7 +1437,7 @@ let file_invs_on_rules name invs () =
     sprintf "%s_lemma_%s_on_rules" name pn
   ) in
   let lemma_str = sprintf
-"(*  Title:      HOL/Auth/%s.thy
+"(*  Title:      HOL/Auth/%s.v
     Author:     Yongjian Li and Kaiqiang Duan, State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
     Copyright    2016 State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
 *)
@@ -910,11 +1450,11 @@ begin
 end
 " (sprintf "%s_lemma_invs_on_rules" name) name name
   (String.concat ~sep:" " imports) (gen_lemma_invs_on_rules invs) in
-  Out_channel.write_all (sprintf "%s/%s_lemma_invs_on_rules.thy" name name) lemma_str;;
+  Out_channel.write_all (sprintf "%s/%s_lemma_invs_on_rules.v" name name) lemma_str;;
 
 let file_init name invs () =
   let init_str = sprintf
-"(*  Title:      HOL/Auth/%s.thy
+"(*  Title:      HOL/Auth/%s.v
     Author:     Yongjian Li and Kaiqiang Duan, State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
     Copyright    2016 State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
 *)
@@ -926,11 +1466,11 @@ begin
 %s
 end
 " (sprintf "%s_on_ini" name) name name name (gen_lemma_invs_on_ini invs) in
-  Out_channel.write_all (sprintf "%s/%s_on_ini.thy" name name) init_str;;
+  Out_channel.write_all (sprintf "%s/%s_on_ini.v" name name) init_str;;
 
 let file_invs_on_inis name invs () =
   let lemma_str = sprintf
-"(*  Title:      HOL/Auth/%s.thy
+"(*  Title:      HOL/Auth/%s.v
     Author:     Yongjian Li and Kaiqiang Duan, State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
     Copyright    2016 State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
 *)
@@ -942,11 +1482,11 @@ begin
 %s
 end
 " (sprintf "%s_on_inis" name) name name name (gen_lemma_invs_on_inis invs) in
-  Out_channel.write_all (sprintf "%s/%s_on_inis.thy" name name) lemma_str;;
+  Out_channel.write_all (sprintf "%s/%s_on_inis.v" name name) lemma_str;;
 
 let file_main name () =
   let main_str = sprintf
-"(*  Title:      HOL/Auth/%s.thy
+"(*  Title:      HOL/Auth/%s.v
     Author:     Yongjian Li and Kaiqiang Duan, State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
     Copyright    2016 State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
 *)
@@ -958,7 +1498,7 @@ begin
 %s
 end
 " name name name name name (gen_main) in
-  Out_channel.write_all (sprintf "%s/%s.thy" name name) main_str;;
+  Out_channel.write_all (sprintf "%s/%s.v" name name) main_str;;
 
 let file_root name n () =
   let ss_str ss_name ss_parent ss_theories = sprintf
@@ -1032,16 +1572,19 @@ source ~/.bashrc
 
 
 let protocol_act {name; types; vardefs; init; rules; properties} cinvs_with_varnames relations () =
+	let name=name^"Coq" in
   types_ref := types;
   Unix.mkdir_p name;
-  Out_channel.write_all (sprintf "%s/paraTheory.thy" name) Isa_base.para_theory;
-  let types_str = String.concat ~sep:"\n" (List.filter_map types ~f:type_act) in
+  Out_channel.write_all (sprintf "%s/paraTheory.v" name) Isa_base.para_theory;
+  let types_str = String.concat ~sep:" " (List.map ~f:snd (List.filter_map types ~f:(fun p-> (type_act p)))) in  
+  let unfold_types_str = String.concat ~sep:" " (List.map ~f:fst (List.filter_map types ~f:(fun p-> (type_act p)))) in
+  let unfold_types_str =sprintf "\nHint Unfold %s.\n" unfold_types_str in
   let rules_str = rules_act rules in
   let (cinvs, _) = List.unzip cinvs_with_varnames in
   let invs = List.map cinvs ~f:(fun (ConcreteProp(p, _)) -> p) in
   let invs_str = invs_act cinvs in
   let inits_str = inits_act init in
-  file_pub name types_str rules_str invs_str inits_str ();
+  file_pub name (types_str^unfold_types_str) rules_str invs_str inits_str ();
   file_inv name relations rules ();
   file_inv_on_rules name invs rules ();
   file_invs_on_rules name invs ();
@@ -1050,4 +1593,9 @@ let protocol_act {name; types; vardefs; init; rules; properties} cinvs_with_varn
   file_main name ();
   file_root name (List.length invs) ();
   file_sh name (List.length invs) ();;
+
+
+
+
+
 
