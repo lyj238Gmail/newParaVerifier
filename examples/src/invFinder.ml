@@ -1216,5 +1216,122 @@ let find ?(insym_types=[]) ?(smv_escape=(fun inv_str -> inv_str))
   let (cinvs, relations) = tabular_rules_cinvs rname_paraminfo_pairs cinvs relations in
   let ()=printf "%s\n" (result_to_str (cinvs, List.concat (List.concat (List.concat (relations))))) in
   let cinvs_with_inits = check_invs_on_init cinvs init in
+  (cinvs_with_inits, relations)
+  
+
+let anotherGet_res_of_cinv cinv rname_paraminfo_pairs =
+  let (ConcreteProp(Prop(_, prop_pds, form), _)) = cinv in
+  let vars_of_cinv = VarNames.of_form form in
+  let rule_names = List.filter (Hashtbl.keys rule_vars_table) ~f:(fun rn ->
+    String.Set.is_empty (String.Set.inter vars_of_cinv (Hashtbl.find_exn rule_vars_table rn))
+  ) in
+  let relations_of_hold2 = List.map rule_names ~f:(fun rn -> 
+    [[deal_with_case_2 (all_rule_inst_from_name rn) cinv (form_2_concreate_prop chaos)]]
+  ) in
+  let rule_inst_names = 
+    compute_rule_inst_names rname_paraminfo_pairs prop_pds
+    |> List.filter ~f:(fun crns ->
+      match crns with
+      | [] -> raise Empty_exception
+      | crn::_ -> all rule_names ~f:(fun n -> not (get_rname_of_crname crn = n)))
+  in
+  let crules = 
+    List.map rule_inst_names ~f:(fun ns ->
+      List.map ns ~f:(fun n ->
+        match Hashtbl.find rule_table n with
+        | None -> Prt.error n; raise Empty_exception
+        | Some(cr) -> cr
+      )
+    )
+  in
+  let new_invs, new_relations =
+    let invs, rels = List.unzip (List.map crules ~f:(fun r_insts ->
+      List. unzip (List.map r_insts ~f:(fun r_inst ->
+        List.unzip (tabular_expans r_inst ~cinv)
+      ))
+    )) in
+    List.concat (List.concat (List.concat invs)), rels
+  in
+  let cinvs = InvLib.add_many new_invs in
+  cinvs, fix_relations_with_cinvs cinvs new_relations@relations_of_hold2
+  
+
+(* Find new inv and relations with concrete rules and a concrete invariant *)
+let rec anotherTabular_rules_cinvs rname_paraminfo_pairs cinvs relations =
+  let rec wrapper cinvs relations =
+    match cinvs with
+    | [] -> (InvLib.get_all_cinvs (), relations)
+    | cinv::cinvs' ->
+      let (new_cinvs, new_relations) = anotherGet_res_of_cinv cinv rname_paraminfo_pairs in
+      let cinvs'' = cinvs'@new_cinvs in
+      write_res_cache cinvs'' [new_relations];
+      wrapper cinvs'' (relations@[new_relations])
+  in
+  (*my revise*)
+  try
+  wrapper cinvs relations
+  with 
+  
+  |Empty_exception->
+  	if (FalseInvLib.inter  (List.map ~f:concrete_prop_2_form cinvs)) 
+  	then raise Empty_exception
+  	else 
+  	let ()=print_endline "restart with falseInvs\n" in 
+  	let falseinvs_strs =
+     (!FalseInvLib.falseInvs)
+    |> List.map ~f:(fun cinv ->
+      ToStr.Smv.form_act cinv
+    )
+  	in
+  	print_endline (String.concat ~sep:"\n" falseinvs_strs);
+  	InvLib.pairs:=[];
+  	anotherTabular_rules_cinvs rname_paraminfo_pairs cinvs relations
+  
+  
+  let anotherFind ?(insym_types=[]) ?(smv_escape=(fun inv_str -> inv_str))
+    ?(smv="") ?(smv_ord="") ?(smv_bmc="") ?(murphi="") ?(symMethod=false) ?(symIndex=true) protocol =
+  let {name; types; vardefs; init; rules; properties} = Loach.Trans.act ~loach:protocol in
+  let _smt_context = Smt.set_context name (ToStr.Smt2.context_of ~insym_types ~types ~vardefs) in
+  let _mu_context = Murphi.set_context name murphi in
+  (*let _smv_bmc_context =
+    if smv_bmc = "" then
+      SmvBmc.set_context name (Loach.ToSmv.protocol_act ~limit_param:false protocol)
+    else begin SmvBmc.set_context name smv_bmc end
+  in*)
+  type_defs := types;
+  protocol_name := name;
+  symmetry_method_switch := symMethod;
+  symmetry_index_switch :=symIndex;
+  cache_vars_of_rules rules;
+  let init_cinvs =
+    let invs =
+      List.concat (List.map properties ~f:simplify_prop)
+      |> List.map ~f:(normalize ~types:(!type_defs))
+    in
+    let indice = up_to (List.length invs) in
+    List.map2_exn invs indice ~f:(fun f id -> form_2_concreate_prop ~id:(id + 1) f)
+  in
+  let cinvs, relations = read_res_cache init_cinvs in
+  Prt.warning ("initial invs:\n"^String.concat ~sep:"\n" (
+    List.map cinvs ~f:(fun cinv -> ToStr.Smv.form_act (concrete_prop_2_form cinv))
+  ));
+  let _smv_context =
+    if List.is_empty cinvs then 0
+    else begin
+      if smv = "" then
+        Smv.set_context ~escape:smv_escape name (Loach.ToSmv.protocol_act protocol) ~smv_ord
+      else begin Smv.set_context ~escape:smv_escape name smv ~smv_ord end
+    end
+  in
+  let get_rulename_param_pair r =
+    let Paramecium.Rule(rname, paramdefs, _, _) = r in
+    let ps = cart_product_with_paramfix paramdefs (!type_defs) in
+    Hashtbl.replace raw_rule_table ~key:rname ~data:r;
+    (rname, paramdefs)
+  in
+  let rname_paraminfo_pairs = List.map rules ~f:get_rulename_param_pair in
+  let (cinvs, relations) = anotherTabular_rules_cinvs rname_paraminfo_pairs cinvs relations in
+  let ()=printf "%s\n" (result_to_str (cinvs, List.concat (List.concat (List.concat (relations))))) in
+  let cinvs_with_inits = check_invs_on_init cinvs init in
   
   (cinvs_with_inits, relations)
