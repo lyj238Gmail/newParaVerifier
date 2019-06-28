@@ -630,7 +630,9 @@ module VarNamesWithParam = struct
     | IfStatement(f, s) -> union_list [of_form ~types f; of_statement ~types s]
     | IfelseStatement(f, s1, s2) ->
       union_list [of_form ~types f; of_statement ~types s1; of_statement ~types s2]
-    | ForStatement(_) -> raise Empty_exception
+    | (*ForStatement(_) -> raise Empty_exception duan's version*)
+      ForStatement(s1,pdf) -> 
+      	 of_statement ~types s1
 
   let of_rule ~types ~of_var r = 
     of_var_ref := of_var;
@@ -1066,7 +1068,7 @@ let rec cmpStrengthRule invs  ~types paramRef r=
 				cmpStrengthRule invs types paramRef r
 				
 (*make sure paramRef is a proper actual parameter to instantisate pr*) 	
-let rec upto n=
+(*let rec upto n=
 	if (n=0) then [0]
 	else (upto (n - 1))@[n-1]
 				
@@ -1083,7 +1085,7 @@ let cmpStrengthPrPInv pprops ~types paramRef pr=
 	let r=apply_rule ~p:[paramRef] pr in
 	let onlyAffect=  onlyOnRule  index r in
 	if onlyAffect then None
-	else Some(cmpStrengthRule invs  ~types:types paramRef r)
+	else Some(cmpStrengthRule invs  ~types:types paramRef r)*)
 end		
 		
 		

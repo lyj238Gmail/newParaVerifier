@@ -288,7 +288,7 @@ let pds_param_constraints_in_lemma ?(quant="") t name pds =
   if List.is_empty pds then
     sprintf "%s" (analyze_rels_in_pds ~quant t name pds)
   else 
-    sprintf "( exists %s,  %s)"  (get_pd_name_list pds) (analyze_rels_in_pds_in_lemma ~quant t name pds)    
+    sprintf "(%s: exists %s,  %s)" name (get_pd_name_list pds) (analyze_rels_in_pds_in_lemma ~quant t name pds)    
     
 let pds_param_constraints_for_rule ?(quant="") t name pds =
   if List.is_empty pds then

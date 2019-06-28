@@ -75,6 +75,9 @@ type t = {
 }
 with sexp
 
+
+
+
 let type_defs = ref []
 let protocol_name = ref ""
 let raw_rule_table = Hashtbl.create ~hashable:String.hashable ()
@@ -82,6 +85,8 @@ let rule_table = Hashtbl.create ~hashable:String.hashable ()
 let rule_vars_table = Hashtbl.create ~hashable:String.hashable ()
 let symmetry_method_switch=ref false
 let symmetry_index_switch=ref true
+
+
 
 let get_rname_of_crname crname =
   Regex.rewrite_exn (Regex.of_string "\\[.+?\\]") ~template:"" crname
@@ -295,80 +300,6 @@ and form_eval form ~assigns =
 let pre_cond f assigns = form_eval f ~assigns
 
 
-
-(* Minify inv by remove useless components one by one *)
-let minify_inv_desc inv =
-  let rec wrapper necessary parts =
-    match parts with
-    | [] ->
-    	let f=if (!symmetry_method_switch) then 
-    			    form2AllSymForm ~f:(neg (andList necessary)) ~types:(!type_defs)
-    			  else (neg (andList necessary)) in
-      if Smv.is_inv (ToStr.Smv.form_act f) then
-        necessary
-      else begin raise Empty_exception end
-    | p::parts' ->
-    	let f=if (!symmetry_method_switch) then 
-    			    form2AllSymForm ~f:(neg (andList (necessary@parts'))) ~types:(!type_defs)
-    			  else (neg (andList (necessary@parts'))) in
-      if Smv.is_inv (ToStr.Smv.form_act f ) then
-        wrapper necessary parts'
-      else begin
-        wrapper (p::necessary) parts'
-      end
-  in
-  let ls = match inv with | AndList(fl) -> fl | _ -> [inv] in
-  andList (wrapper [] ls)
-
-(* Minify inv by add useful components gradually *)
-let minify_inv_inc inv =
-  Prt.info (sprintf "to be minified: %s" (ToStr.Smv.form_act inv));
-  let ls = match inv with | AndList(fl) -> fl | _ -> [inv] in
-  let components = combination_all ls in
-  let _len = List.length components in
-  let rec wrapper components =
-    match components with
-    | [] -> 
-      Prt.error ("Not invariant: "^ToStr.Smv.form_act inv);
-      raise Empty_exception
-    | parts::components' ->
-      Prt.info (sprintf "minifing %d/%d" (_len - List.length components') _len);
-      let piece = normalize (andList parts) ~types:(!type_defs) in
-      let check_inv_res =
-        let (_, pfs, _) = Generalize.form_act piece in
-        (* TODO *)
-        let over = List.filter pfs ~f:(fun pr ->
-          match pr with
-          | Paramfix(_, _, Intc(i)) -> i > 3
-          | _ -> false
-        ) in
-        let check_with_murphi form =
-          let form_str = ToStr.Smv.form_act ~lower:false (neg form) in
-          let res = Murphi.is_inv form_str in
-          print_endline (sprintf "Check by mu: %s, %b" form_str res); res
-        in
-        if List.is_empty over then
-        	let f=if (!symmetry_method_switch) then 
-    			    form2AllSymForm ~f:(neg piece) ~types:(!type_defs)
-    			  else (neg piece) in
-          try Smv.is_inv (ToStr.Smv.form_act f) && ((not !Cmdline.confirm_with_mu) || check_with_murphi piece) with
-          | Client.Smv.Cannot_check -> check_with_murphi piece
-          | _ -> raise Empty_exception
-        else begin
-          check_with_murphi piece
-        end
-      in
-      if check_inv_res then andList parts
-      else begin wrapper components' end
-  in
-  wrapper components
-
-
-
-
-
-
-
 module InvLib = struct
   
   let index = ref 1
@@ -409,6 +340,170 @@ module InvLib = struct
 end
 
 
+module FalseInvLib=struct
+
+	let falseInvs=ref []
+	
+	let index = ref 1
+	
+	let add inv=
+		 match List.find (!falseInvs) ~f:(fun p -> symmetry_form p inv = 0) with
+    | Some(cinv) -> cinv
+    | None ->
+      (*let cinv = form_2_concreate_prop ~id:(!index) inv in*)
+      print_endline ("print False Inv");
+      print_endline (ToStr.Smv.form_act ( inv));
+      incr index;
+      falseInvs := ((!falseInvs)@[ inv]);
+      inv
+      
+  let mem inv=    
+  	match List.find (!falseInvs) ~f:(fun p -> symmetry_form p inv = 0) with
+    | Some(cinv) -> true
+    | None -> false
+
+	let rec inter invs=
+	 match invs with
+	 |[] -> false
+	 |x::xs -> if (mem x ) then true else inter xs
+end
+
+let rec trySimpleSymList fs=
+	match fs with
+	|[] -> true
+	|f::xs -> 
+		begin
+		
+		if (Smv.is_inv (ToStr.Smv.form_act f) )
+    then trySimpleSymList xs
+    else false    			 
+   end     
+
+
+(* Minify inv by remove useless components one by one *)
+let minify_inv_desc inv =
+  let rec wrapper necessary parts =
+    match parts with
+    | [] ->
+    	(*let f=if (!symmetry_method_switch) then 
+    			    form2AllSymForm ~f:(neg (andList necessary)) ~types:(!type_defs)
+    			  else (neg (andList necessary)) in
+      if Smv.is_inv (ToStr.Smv.form_act f) then
+        necessary
+      else begin raise Empty_exception end  *)
+      let fs=if (!symmetry_method_switch) then 
+    			    form2AllSymForm ~f:(neg (andList necessary)) ~types:(!type_defs)
+    			  else [(neg (andList necessary))] in 
+    	if 	(trySimpleSymList 	fs) then   necessary 
+      else begin raise Empty_exception end
+    | p::parts' ->
+    	(*let f=if (!symmetry_method_switch) then 
+    			    form2AllSymForm ~f:(neg (andList (necessary@parts'))) ~types:(!type_defs)
+    			  else (neg (andList (necessary@parts'))) in
+      if Smv.is_inv (ToStr.Smv.form_act f ) then
+        wrapper necessary parts'
+      else begin
+        wrapper (p::necessary) parts' end*)
+        
+      let fs=if (!symmetry_method_switch) then 
+               form2AllSymForm ~f:(neg (andList (necessary@parts'))) ~types:(!type_defs)
+    			   else [(neg (andList (necessary@parts')))] in
+    	if 	trySimpleSymList 	fs then   wrapper necessary parts'
+      else begin wrapper (p::necessary) parts' end		   
+       
+  in
+  let ls = match inv with | AndList(fl) -> fl | _ -> [inv] in
+  andList (wrapper [] ls)
+
+
+(*let rec trySymList fs=
+	match fs with
+	|[] -> true
+	|f::xs -> 
+		begin
+		let Neg(piece)=f in
+		
+		if (
+		try Smv.is_inv (ToStr.Smv.form_act f) && ((not !Cmdline.confirm_with_mu) || check_with_murphi piece) with
+      		    | Client.Smv.Cannot_check -> check_with_murphi piece
+         			 | _ -> raise Empty_exception) 
+    then trySymList xs
+    else false    			 
+   end *) 
+ 			 
+(* Minify inv by add useful components gradually *)
+let minify_inv_inc inv =
+  Prt.info (sprintf "to be minified: %s" (ToStr.Smv.form_act inv));
+  let ls = match inv with | AndList(fl) -> fl | _ -> [inv] in
+  let components = combination_all ls in
+  let _len = List.length components in
+  let rec wrapper components =
+    match components with
+    | [] -> 
+      Prt.error ("Not invariant: "^ToStr.Smv.form_act inv);
+      raise Empty_exception
+    | parts::components' ->
+      Prt.info (sprintf "minifing %d/%d" (_len - List.length components') _len);
+      let piece = normalize (andList parts) ~types:(!type_defs) in
+      let check_inv_res =
+        let (_, pfs, _) = Generalize.form_act piece in
+        (* TODO *)
+        let over = List.filter pfs ~f:(fun pr ->
+          match pr with
+          | Paramfix(_, _, Intc(i)) -> i > 3
+          | _ -> false
+        ) in
+        let check_with_murphi form =
+          let form_str = ToStr.Smv.form_act ~lower:false (neg form) in
+          let res = Murphi.is_inv form_str in
+          print_endline (sprintf "Check by mu: %s, %b" form_str res); res
+        in
+        let rec trySymList fs=
+					match fs with
+						|[] -> true
+						|f::xs -> 
+							begin
+							if (
+								try Smv.is_inv (ToStr.Smv.form_act f) && ((not !Cmdline.confirm_with_mu) || check_with_murphi piece) with
+      		   	 | Client.Smv.Cannot_check -> check_with_murphi piece
+         			 | _ -> raise Empty_exception) 
+    					then trySymList xs
+    					else false    			 
+   						end in
+        if (not (FalseInvLib.mem (andList parts))) then
+        begin
+        	if List.is_empty over then
+        		(*let f=if (!symmetry_method_switch) then 
+    			     (form2AllSymForm ~f:( neg piece) ~types:(!type_defs))
+    						  else (neg piece) in
+    				let ()=print_endline ("will try this piece"^(ToStr.Smv.form_act piece)) in 
+        		  try Smv.is_inv (ToStr.Smv.form_act f) && ((not !Cmdline.confirm_with_mu) || check_with_murphi piece) with
+      		    | Client.Smv.Cannot_check -> check_with_murphi piece
+         			 | _ -> raise Empty_exception
+         		*)
+         		begin
+         		if (!symmetry_method_switch) then
+         				trySymList  (form2AllSymForm ~f:( neg piece) ~types:(!type_defs))
+         		else 	trySymList 	[(neg piece)]
+         		end
+        	else begin
+         	 check_with_murphi piece
+       		end
+       	end
+       	else false
+      in
+      (*if (not (FalseInvLib.mem (andList parts))) then *)
+      begin
+      	let ()=print_endline ("Aimed at this component\n"^(ToStr.Smv.form_act piece)) in
+    		(*let ()=print_endline (ToStr.Smv.form_act piece) in*)
+      	if check_inv_res then begin let ()=print_endline "successful" in andList parts end
+      	else begin let ()=print_endline "fail" in wrapper components' end
+      end
+     (* else  wrapper components'*)
+  in
+  wrapper components
+
+
 
 
 
@@ -439,7 +534,7 @@ module Choose = struct
       try
         let inv = minify_inv_inc inv in
         (* Because invs are in form of negation, so inv -> old means neg old -> neg inv *)
-        let implied_by_old = InvLib.any_can_be_implied_by inv ~symIndex:symmetry_index_switch in
+        let implied_by_old = InvLib.any_can_be_implied_by inv ~symIndex:(!symmetry_index_switch) in
         match implied_by_old with
         | Some(old) -> implied old
         | None ->
@@ -447,13 +542,19 @@ module Choose = struct
           let f=if (!symmetry_method_switch) then 
     			    form2AllSymForm ~f:(neg normalized) ~types:(!type_defs)
     			  else (neg normalized) in
-          if must_new || Smv.is_inv (ToStr.Smv.form_act f) then
-            new_inv inv
-          else begin
-            not_inv
-          end
+    	(*		if not (FalseInvLib.mem f) then*)
+    				begin
+          	if must_new || Smv.is_inv (ToStr.Smv.form_act f) then
+           	 new_inv inv
+          	else begin
+          		(*let tmp=FalseInvLib.add inv in*)
+           	 not_inv
+          	end
+          	end
+       (*   else not_inv*)
+          
       with
-      | _ -> not_inv
+      | _ -> (*let tmp=FalseInvLib.add inv in*) not_inv
     end
 
   (* choose new inv *)
@@ -711,6 +812,7 @@ let deal_with_case_3 crule cinv cons g =
       let params_str = String.concat (List.map ps ~f:cp_2_str) ~sep:", " in
       let inv_str = ToStr.Smv.form_act (concrete_prop_2_form cinv) in
       let guard_str = ToStr.Smv.form_act guard in
+      let tmp=FalseInvLib.add (concrete_prop_2_form cinv) in
       Prt.error (sprintf "\n\n%s, %s\nguard: %s\ninv: %s\n" n params_str guard_str inv_str);
       raise Empty_exception
   in
@@ -982,7 +1084,7 @@ let upgrade_res_cache () =
 
 
 (* Find new inv and relations with concrete rules and a concrete invariant *)
-let tabular_rules_cinvs rname_paraminfo_pairs cinvs relations =
+let rec tabular_rules_cinvs rname_paraminfo_pairs cinvs relations =
   let rec wrapper cinvs relations =
     match cinvs with
     | [] -> (InvLib.get_all_cinvs (), relations)
@@ -992,7 +1094,25 @@ let tabular_rules_cinvs rname_paraminfo_pairs cinvs relations =
       write_res_cache cinvs'' [new_relations];
       wrapper cinvs'' (relations@[new_relations])
   in
+  (*my revise*)
+  try
   wrapper cinvs relations
+  with 
+  
+  |Empty_exception->
+  	if (FalseInvLib.inter  (List.map ~f:concrete_prop_2_form cinvs)) 
+  	then raise Empty_exception
+  	else 
+  	let ()=print_endline "restart with falseInvs\n" in 
+  	let falseinvs_strs =
+     (!FalseInvLib.falseInvs)
+    |> List.map ~f:(fun cinv ->
+      ToStr.Smv.form_act cinv
+    )
+  	in
+  	print_endline (String.concat ~sep:"\n" falseinvs_strs);
+  	InvLib.pairs:=[];
+  	tabular_rules_cinvs rname_paraminfo_pairs cinvs relations
 
 
 
@@ -1094,6 +1214,7 @@ let find ?(insym_types=[]) ?(smv_escape=(fun inv_str -> inv_str))
   in
   let rname_paraminfo_pairs = List.map rules ~f:get_rulename_param_pair in
   let (cinvs, relations) = tabular_rules_cinvs rname_paraminfo_pairs cinvs relations in
+  let ()=printf "%s\n" (result_to_str (cinvs, List.concat (List.concat (List.concat (relations))))) in
   let cinvs_with_inits = check_invs_on_init cinvs init in
-  printf "%s\n" (result_to_str (cinvs, List.concat (List.concat (List.concat (relations)))));
+  
   (cinvs_with_inits, relations)

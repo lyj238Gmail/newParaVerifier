@@ -74,8 +74,6 @@ val partition : 'a list -> f:('a -> 'b) -> 'a list list
 
 val stupid_dedup_list : 'a list -> f:('a -> 'a -> bool) -> 'a list
 
-val remove_duplicates : 'a list ->'a list
-
 val string_replace : string -> string -> string -> string
 
 
@@ -147,5 +145,5 @@ module Prt : sig
   (** Print error string *)
   val error : string -> unit
 
-	
+	val remove_duplicates : 'a list ->'a list
 end

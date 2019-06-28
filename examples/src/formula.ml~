@@ -380,6 +380,7 @@ let can_imply ant cons ?(symIndex=true) =
   end
  else
    begin 
+   let ()=printf "exe symIndex=false\n" in
    if is_tautology (imply (simplify ant) cons) then Some ant
     else begin None end
    end
@@ -402,5 +403,5 @@ let form2AllSymForm ~f ~types=
    let partition_pds=partition pds ~f:(fun (Paramdef(_,tname))-> tname) in
    let prefss=Paramecium.cart_product_with_name_partition partition_pds ~types in
 	 let fs=List.map ~f:(fun sub->Paramecium.apply_form pf sub) prefss in
-	 andList fs
+	 (*andList fs*) fs
   

@@ -4,6 +4,7 @@
 (*------------------------------ Types ---------------------------------*)
 
 open Paramecium
+open Core.Std
 
 (** Unexhausted instantiation
     This exception should never be raised. Once raised, There should be a bug in this tool.
@@ -120,6 +121,13 @@ val eliminate_ifelse : statement -> statement
 
 val preprocess_rule_guard : loach:protocol -> protocol
 
+module VarNamesWithParam :sig
+	val of_statement: types:Paramecium.typedef list -> statement-> String.Set.t
+	val of_form: types:Paramecium.typedef list -> formula-> String.Set.t
+	val of_var_ref:  (var ->String.Set.t) ref
+
+end
+
 (*----------------------------- Translate module ---------------------------------*)
 
 (** Translate language of this level to the next lower level *)
@@ -134,6 +142,7 @@ module Trans : sig
   *)
   val act : loach:protocol -> Paramecium.protocol
   val trans_formula:    types:Paramecium.typedef list ->  formula -> Paramecium.formula
+  val trans_statement:    types:Paramecium.typedef list ->  statement -> Paramecium.statement
   val invTrans_formula:  Paramecium.formula->formula
 end
 
@@ -149,5 +158,5 @@ module PartParam : sig
 end
 
 module CMP: sig
-	val cmpStrengthRule : formula list -> types:Paramecium.typedef list -> Paramecium.paramref -> rule -> rule option
+	val cmpStrengthRule : formula list -> types:Paramecium.typedef list -> Paramecium.paramref -> rule -> rule 
 end	

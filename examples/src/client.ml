@@ -22,6 +22,9 @@ type request_type =
   | QUERY_STAND_SMT2
   | SET_MU_CONTEXT
   | CHECK_INV_BY_MU
+  (*add new service*)
+  | CHECK_INV_BY_ASSOCIATE_RULE
+  | CHECK_INV_BY_DT_TREE
 
 let request_type_to_str rt =
   match rt with
@@ -40,6 +43,9 @@ let request_type_to_str rt =
   | QUERY_STAND_SMT2 -> "6"
   | SET_MU_CONTEXT -> "8"
   | CHECK_INV_BY_MU -> "9"
+   (*add new service*)
+  | CHECK_INV_BY_ASSOCIATE_RULE -> "13"
+  | CHECK_INV_BY_DT_TREE -> "14"
 
 let str_to_request_type str =
   match str with
@@ -58,6 +64,8 @@ let str_to_request_type str =
   | "6" -> QUERY_STAND_SMT2
   | "8" -> SET_MU_CONTEXT
   | "9" -> CHECK_INV_BY_MU
+  | "13" ->CHECK_INV_BY_ASSOCIATE_RULE
+  | "14" ->CHECK_INV_BY_DT_TREE
   | _ -> Prt.error (sprintf "error return code from server: %s" str); raise Empty_exception
 
 let make_request str host port =

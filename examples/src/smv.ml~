@@ -39,8 +39,8 @@ let is_inv ?(quiet=true) inv =
   | None -> 
     if (!protocol_name) = "" then raise Protocol_name_not_set
     else begin
-    	let ()=print_endline ("send it to smv"^inv) in
-    	(*let ()=print_endline inv in*)
+    	let ()=print_endline "send it to smv" in
+    	let ()=print_endline inv in
       let r = Client.Smv.check_inv (!protocol_name) inv in
       (Hashtbl.replace table ~key:inv ~data:r); r
     end

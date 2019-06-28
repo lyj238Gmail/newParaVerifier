@@ -630,7 +630,20 @@ module VarNamesWithParam = struct
     | IfStatement(f, s) -> union_list [of_form ~types f; of_statement ~types s]
     | IfelseStatement(f, s1, s2) ->
       union_list [of_form ~types f; of_statement ~types s1; of_statement ~types s2]
-    | ForStatement(_) -> raise Empty_exception
+    | (*ForStatement(_) -> raise Empty_exception duan's version*)
+      ForStatement(s1,pdf) -> 
+      	 of_statement ~types s1
+      	 
+  let rec of_statement_left ~types s =
+    match s with
+    | Assign(v, e) -> union_list [(!of_var_ref) v; ]
+    | Parallel(slist) -> union_list (List.map slist ~f:(of_statement ~types))
+    | IfStatement(f, s) -> union_list [of_form ~types f; of_statement ~types s]
+    | IfelseStatement(f, s1, s2) ->
+      union_list [of_form ~types f; of_statement ~types s1; of_statement ~types s2]
+    | (*ForStatement(_) -> raise Empty_exception duan's version*)
+      ForStatement(s1,pdf) -> 
+      	 of_statement ~types s1    	 
 
   let of_rule ~types ~of_var r = 
     of_var_ref := of_var;

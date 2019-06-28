@@ -398,10 +398,10 @@ output andList fs*)
 let form2AllSymForm ~f ~types=
 	 let (pds,prs,pf)=Generalize.form_act f in	
 	 match pds with
-	 |[] -> f   
+	 |[] -> [f]   
 	 | _ ->
    let partition_pds=partition pds ~f:(fun (Paramdef(_,tname))-> tname) in
    let prefss=Paramecium.cart_product_with_name_partition partition_pds ~types in
 	 let fs=List.map ~f:(fun sub->Paramecium.apply_form pf sub) prefss in
-	 andList fs
+	 (*andList fs*) fs
   

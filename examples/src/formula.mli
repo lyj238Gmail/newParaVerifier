@@ -45,4 +45,4 @@ val can_imply : Paramecium.formula -> Paramecium.formula -> ?symIndex:bool -> Pa
 
 val symmetry_form : Paramecium.formula -> Paramecium.formula -> int
 
-val form2AllSymForm : f:Paramecium.formula -> types:typedef list -> Paramecium.formula 
+val form2AllSymForm : f:Paramecium.formula -> types:typedef list -> Paramecium.formula list

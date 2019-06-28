@@ -60,23 +60,23 @@ let analyze_rels_among_pfs pfs_lists =
         in
         let equals = List.filter related ~f:(fun (Paramfix(_, _, c')) -> c = c') in
         if List.is_empty equals then
-          String.concat ~sep:"/\\" (List.map related ~f:(fun (Paramfix(vn', _, _)) ->
-            sprintf "%s<>%s" vn vn'
+          String.concat ~sep:"&&" (List.map related ~f:(fun (Paramfix(vn', _, _)) ->
+            sprintf "%s!=%s" vn vn'
           ))
         else begin
-          String.concat ~sep:"/\\" (List.map equals ~f:(fun (Paramfix(vn', _, _)) ->
-            sprintf "%s=%s" vn vn'
+          String.concat ~sep:"&&" (List.map equals ~f:(fun (Paramfix(vn', _, _)) ->
+            sprintf "%s==%s" vn vn'
           ))
         end
       ) in
-      let r = String.concat ~sep:"/\\" (List.filter parts ~f:(fun s -> not (s = ""))) in
+      let r = String.concat ~sep:"&&" (List.filter parts ~f:(fun s -> not (s = ""))) in
       wrapper pfs_lists' (res@[r])
   in
   let res =
     List.filter (wrapper pfs_lists []) ~f:(fun s -> not (s = ""))
-    |> String.concat ~sep:"/\\"
+    |> String.concat ~sep:"&&"
   in
-  if res = "" then "True" else res
+  if res = "" then "true" else res
   
 let get_pf_name_list pfs =
   String.concat ~sep:" " (List.map pfs ~f:(fun pf ->
@@ -116,7 +116,7 @@ let analyze_rels_in_pfs ?(quant="") t name pfs =
     ) in
     let pairs = combination pfs 2 in
     let part2 = List.map pairs ~f:(fun [pf1; pf2] ->
-      let Paramfix(vn1, _, _), Paramfix(vn2, _, _) = pf1, pf2 in sprintf "%s<>%s" vn1 vn2
+      let Paramfix(vn1, _, _), Paramfix(vn2, _, _) = pf1, pf2 in sprintf "%s!=%s" vn1 vn2
     ) in
     String.concat ~sep:"->" (part1@part2)
   in
@@ -357,12 +357,10 @@ let type_act (Enum(name, consts)) =
   match c with
   | Boolc(b) ->
     Some((begin if b then "TRUE" else "FALSE" end,
-        begin sprintf "Definition %s:scalrValue :=  BoolV %s."
-        (if b then "TRUE" else "FALSE")  (if b then "true" else "false")
-        end))
+        ""))
   | Strc(s) ->
-    Some((s, (sprintf "Definition %s:scalrValue := Enum \"control\" \"%s\".\n"
-      s  s))
+    Some((s, (sprintf "%s"
+      s  ))
     )
   | Intc(i) -> None
   
@@ -377,20 +375,20 @@ let type_act (Enum(name, consts)) =
   match const_strs with
   | [] -> None
   | _ -> Some (String.concat ~sep:" " (List.map ~f:fst const_strs),
-  (String.concat ~sep:"\n" (List.map ~f:snd const_strs)))
+  (String.concat ~sep:"|" (List.map ~f:snd const_strs)))
 
   (* ((Field (Para (Ident "Chan3") i) "Cmd"))*)
 let var_act (Arr(name_with_prs)) =
   let cast_to_string init prs =
-    List.fold prs ~init ~f:(fun res x -> sprintf "(Para %s %s)" res (name_of_param x))
+    List.fold prs ~init ~f:(fun res x -> sprintf "(%s[%s])" res (name_of_param x))
   in
   match name_with_prs with
   | [] -> raise Empty_exception
   | (name, prs)::name_with_prs' ->
-    let ident = sprintf "(Ident \"%s\")" name in
+    let ident =  name in
     let init = cast_to_string ident prs in
     List.fold name_with_prs' ~init ~f:(fun res (name, prs) ->
-      cast_to_string (sprintf "(Field %s \"%s\")" res name) prs
+      cast_to_string (sprintf "(%s.%s)" res name) prs
     )
 
 let paramref_to_index pr =
@@ -1395,41 +1393,27 @@ qed"
 
 let file_pub name types_str rules_str invs_str inits_str () =
   let pub_str = sprintf
-"(*  Title:      HOL/Auth/%s.v
+"(*  Title:      HOL/Auth/%s.dfy
     
 *)
+ 
 
-Require Import Coq.Lists.List.
-Import ListNotations.
-
-Require Import paraTheory.
-
-(*header{*The %s Protocol Case Study*} *)
-(** * All lemmas on causal relation between inv__1 and some rule r *) 
-
-(*theory %s_base imports paraTheory
-begin
-section{*Main definitions*}
+(* 
 subsection{* Definitions of Constants*}*)
 %s\n
 
 
-(*subsection{*  Definitions of Parameterized Rules *}*)
-
-%s\n
-
+ 
 
 (*subsection{*Definitions of a Formally Parameterized Invariant Formulas*}*)
 
 %s\n
 
 
-(*subsection{*Definitions of initial states*}*)
+  
 
-%s\n
-
-" (sprintf "%s_base" name) name name types_str rules_str invs_str inits_str in
-  Out_channel.write_all (sprintf "%s/%s_base.v" name name) pub_str;;
+" (sprintf "%s_base" name)   types_str   invs_str   in
+  Out_channel.write_all (sprintf "%s/%s_base.dfy" name name) pub_str;;
 
 let file_inv name relations rules () =
   let rec wrapper relations =
@@ -1441,7 +1425,7 @@ let file_inv name relations rules () =
         String.concat ~sep:"\n\n" (List.map rel ~f:(fun rs -> gen_lemma rs rules))
       in
       let lemmas_str = sprintf
-"(*  Title:      HOL/Auth/%s.v
+"(*  Title:      HOL/Auth/%s.dfy
      
 *)
 
@@ -1470,7 +1454,7 @@ Ltac eqc_case P :=
 %s
 
 " (sprintf "%s_lemma_on_%s" name inv_name) name name inv_name name inv_name strs in
-      Out_channel.write_all (sprintf "%s/%s_lemma_on_%s.v" name name inv_name) lemmas_str;
+      Out_channel.write_all (sprintf "%s/%s_lemma_on_%s.dfy" name name inv_name) lemmas_str;
       wrapper relations'
   in
   wrapper relations;;
@@ -1482,7 +1466,7 @@ let file_inv_on_rules name invs rules () =
     | inv::invs' ->
       let Paramecium.Prop(pn, _, _) = inv in
       let lemma_str = sprintf
-"(*  Title:      HOL/Auth/%s.v
+"(*  Title:      HOL/Auth/%s.dfy
      
 
 
@@ -1500,7 +1484,7 @@ section{All lemmas on causal relation between %s}*)
 %s
 
 " (sprintf "%s_lemma_%s_on_rules" name pn) name name pn name pn pn (gen_lemma_inv_on_rules inv rules) in
-      Out_channel.write_all (sprintf "%s/%s_lemma_%s_on_rules.v" name name pn) lemma_str;
+      Out_channel.write_all (sprintf "%s/%s_lemma_%s_on_rules.dfy" name name pn) lemma_str;
       wrapper invs'
   in
   wrapper invs;;
@@ -1510,7 +1494,7 @@ let file_invs_on_rules name invs () =
     sprintf "%s_lemma_%s_on_rules" name pn
   ) in
   let lemma_str = sprintf
-"(*  Title:      HOL/Auth/%s.v
+"(*  Title:      HOL/Auth/%s.dfy
     Author:     Yongjian Li and Kaiqiang Duan, State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
     Copyright    2016 State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
 *)
@@ -1523,11 +1507,11 @@ begin
 
 " (sprintf "%s_lemma_invs_on_rules" name) name name
   (String.concat ~sep:" " imports) (gen_lemma_invs_on_rules invs) in
-  Out_channel.write_all (sprintf "%s/%s_lemma_invs_on_rules.v" name name) lemma_str;;
+  Out_channel.write_all (sprintf "%s/%s_lemma_invs_on_rules.dfy" name name) lemma_str;;
 
 let file_init name invs () =
   let init_str = sprintf
-"(*  Title:      HOL/Auth/%s.v
+"(*  Title:      HOL/Auth/%s.dfy
     Author:     Yongjian Li and Kaiqiang Duan, State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
     Copyright    2016 State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
 
@@ -1546,11 +1530,11 @@ begin
 %s
 end
 " (sprintf "%s_on_ini" name) name name name (gen_lemma_invs_on_ini invs) in
-  Out_channel.write_all (sprintf "%s/%s_on_ini.v" name name) init_str;;
+  Out_channel.write_all (sprintf "%s/%s_on_ini.dfy" name name) init_str;;
 
 let file_invs_on_inis name invs () =
   let lemma_str = sprintf
-"(*  Title:      HOL/Auth/%s.v
+"(*  Title:      HOL/Auth/%s.dfy
     Author:     Yongjian Li and Kaiqiang Duan, State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
     Copyright    2016 State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
 *)
@@ -1562,11 +1546,11 @@ begin
 %s
 end
 " (sprintf "%s_on_inis" name) name name name (gen_lemma_invs_on_inis invs) in
-  Out_channel.write_all (sprintf "%s/%s_on_inis.v" name name) lemma_str;;
+  Out_channel.write_all (sprintf "%s/%s_on_inis.dfy" name name) lemma_str;;
 
 let file_main name () =
   let main_str = sprintf
-"(*  Title:      HOL/Auth/%s.v
+"(*  Title:      HOL/Auth/%s.dfy
     Author:     Yongjian Li and Kaiqiang Duan, State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
     Copyright    2016 State Key Lab of Computer Science, Institute of Software, Chinese Academy of Sciences
 *)
@@ -1578,7 +1562,7 @@ begin
 %s
 
 " name name name name name (gen_main) in
-  Out_channel.write_all (sprintf "%s/%s.v" name name) main_str;;
+  Out_channel.write_all (sprintf "%s/%s.dfy" name name) main_str;;
 
 let file_root name n () =
   let ss_str ss_name ss_parent ss_theories = sprintf
@@ -1655,7 +1639,7 @@ let protocol_act {name; types; vardefs; init; rules; properties} cinvs_with_varn
 	let name=name^"Coq" in
   types_ref := types;
   Unix.mkdir_p name;
-  Out_channel.write_all (sprintf "%s/paraTheory.v" name) Isa_base.para_theory;
+  Out_channel.write_all (sprintf "%s/paraTheory.dfy" name) Isa_base.para_theory;
   let types_str = String.concat ~sep:" " (List.map ~f:snd (List.filter_map types ~f:(fun p-> (type_act p)))) in  
   let unfold_types_str = String.concat ~sep:" " (List.map ~f:fst (List.filter_map types ~f:(fun p-> (type_act p)))) in
   let unfold_types_str =sprintf "\nHint Unfold %s.\n" unfold_types_str in
