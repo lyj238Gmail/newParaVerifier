@@ -1237,6 +1237,10 @@ let anotherCompute_rule_inst_names rname_paraminfo_pairs prop_pds =
       [rname]
     | _ ->
       (*SemiPerm.gen_paramfixes prop_pds rpds*)
+	  begin
+	  	
+      	let ps = cart_product_with_paramfix rpds (!type_defs) in
+      end
       |> List.map ~f:(fun pfs ->
         let inst_name = get_rule_inst_name rname pfs in
         begin
