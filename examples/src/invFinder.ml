@@ -1218,6 +1218,43 @@ let find ?(insym_types=[]) ?(smv_escape=(fun inv_str -> inv_str))
   let cinvs_with_inits = check_invs_on_init cinvs init in
   (cinvs_with_inits, relations)
   
+let anotherCompute_rule_inst_names rname_paraminfo_pairs prop_pds =
+  List.map rname_paraminfo_pairs ~f:(fun (rname, rpds) ->
+    match rpds with
+    | [] ->
+      begin
+        match Hashtbl.find rule_table rname with
+        | None ->
+          let ri = Hashtbl.find_exn raw_rule_table rname in
+          let Rule(_, _, guard, statement) = ri in
+          let guards = flat_and_to_list guard in
+          let assigns = statement_2_assigns statement in
+          let data = (ri, concrete_rule ri [], guards, assigns) in
+          Hashtbl.replace rule_table ~key:rname ~data;
+          ()
+        | _ -> ()
+      end;
+      [rname]
+    | _ ->
+      (*SemiPerm.gen_paramfixes prop_pds rpds*)
+      |> List.map ~f:(fun pfs ->
+        let inst_name = get_rule_inst_name rname pfs in
+        begin
+          match Hashtbl.find rule_table inst_name with
+          | None ->
+            let r = Hashtbl.find_exn raw_rule_table rname in
+            let ri = apply_rule r ~p:pfs in
+            let Rule(_, _, guard, statement) = ri in
+            let guards = flat_and_to_list guard in
+            let assigns = statement_2_assigns statement in
+            let data = (ri, concrete_rule ri pfs, guards, assigns) in
+            Hashtbl.replace rule_table ~key:inst_name ~data;
+            ()
+          | _ -> ()
+        end;
+        inst_name
+      )
+  )
 
 let anotherGet_res_of_cinv cinv rname_paraminfo_pairs =
   let (ConcreteProp(Prop(_, prop_pds, form), _)) = cinv in
@@ -1229,7 +1266,7 @@ let anotherGet_res_of_cinv cinv rname_paraminfo_pairs =
     [[deal_with_case_2 (all_rule_inst_from_name rn) cinv (form_2_concreate_prop chaos)]]
   ) in
   let rule_inst_names = 
-    compute_rule_inst_names rname_paraminfo_pairs prop_pds
+    anotherCompute_rule_inst_names rname_paraminfo_pairs prop_pds
     |> List.filter ~f:(fun crns ->
       match crns with
       | [] -> raise Empty_exception
